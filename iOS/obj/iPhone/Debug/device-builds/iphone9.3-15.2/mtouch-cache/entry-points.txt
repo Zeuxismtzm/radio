@@ -1,0 +1,28 @@
+Function=xamarin_timezone_get_local_name
+	/Users/mac/Documents/XamarinRadioStreamingExample-master/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/mac/Documents/XamarinRadioStreamingExample-master/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/mac/Documents/XamarinRadioStreamingExample-master/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/mac/Documents/XamarinRadioStreamingExample-master/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-cache/1-Link/mscorlib.dll
+	/Users/mac/Documents/XamarinRadioStreamingExample-master/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Users/mac/Documents/XamarinRadioStreamingExample-master/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-cache/1-Link/System.dll
+Function=xamarin_release_managed_ref
+	/Users/mac/Documents/XamarinRadioStreamingExample-master/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_set_gchandle_with_flags_safe
+	/Users/mac/Documents/XamarinRadioStreamingExample-master/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/mac/Documents/XamarinRadioStreamingExample-master/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/mac/Documents/XamarinRadioStreamingExample-master/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/mac/Documents/XamarinRadioStreamingExample-master/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/mac/Documents/XamarinRadioStreamingExample-master/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_exception
+	/Users/mac/Documents/XamarinRadioStreamingExample-master/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_exception
+	/Users/mac/Documents/XamarinRadioStreamingExample-master/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=mono_pmip
