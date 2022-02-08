@@ -7,11 +7,11 @@
 	<key>CFBundleName</key>
 	<string>StreamingExample</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.ilanolkies.StreamingExample</string>
+	<string>com.roboticsmex.laradiocristianaios1</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>3.0</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>3.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
@@ -60,6 +60,9 @@
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
+		<string>remote-notification</string>
 	</array>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<string>No</string>
 </dict>
 </plist>

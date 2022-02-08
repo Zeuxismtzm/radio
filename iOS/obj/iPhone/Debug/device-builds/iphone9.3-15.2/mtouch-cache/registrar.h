@@ -9,6 +9,7 @@
 #include <objc/message.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <UserNotifications/UserNotifications.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import <GLKit/GLKit.h>
 #import <WebKit/WebKit.h>
@@ -77,7 +78,6 @@
 @class Xamarin_Forms_Platform_iOS_ViewRenderer_2;
 @class Xamarin_Forms_Platform_iOS_ViewRenderer;
 @class Xamarin_Forms_Platform_iOS_CellTableViewCell;
-@class Xamarin_Forms_Platform_iOS_UIActivityIndicatorViewDelegate;
 @class Xamarin_Forms_Platform_iOS_ActivityIndicatorRenderer;
 @class Xamarin_Forms_Platform_iOS_BoxRenderer;
 @class Xamarin_Forms_Platform_iOS_ButtonRenderer;
@@ -231,6 +231,20 @@
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer_ParentingViewController;
 @class Xamarin_Forms_Platform_iOS_WkWebViewRenderer_CustomWebViewNavigationDelegate;
 @class Xamarin_Forms_Platform_iOS_WkWebViewRenderer_CustomWebViewUIDelegate;
+@protocol FIRMessagingDelegate;
+@class Plugin_FirebasePushNotification_FirebasePushNotificationManager;
+@class FIRMessagingMessageInfo;
+@class ApiDefinition__Firebase_CloudMessaging_MessagingDelegate;
+@class FIRMessagingExtensionHelper;
+@class FIRMessagingRemoteMessage;
+@class FIRMessaging;
+@class FIRApp;
+@class FIRConfiguration;
+@class FIROptions;
+@class FIRInstallationsAuthTokenResult;
+@class FIRInstallations;
+@class FIRInstanceIDResult;
+@class FIRInstanceID;
 
 @interface UIApplicationDelegate : NSObject<UIApplicationDelegate> {
 }
@@ -263,6 +277,9 @@
 @interface AppDelegate : Xamarin_Forms_Platform_iOS_FormsApplicationDelegate<UIApplicationDelegate> {
 }
 	-(BOOL) application:(UIApplication *)p0 didFinishLaunchingWithOptions:(NSDictionary *)p1;
+	-(void) application:(UIApplication *)p0 didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)p1;
+	-(void) application:(UIApplication *)p0 didFailToRegisterForRemoteNotificationsWithError:(NSError *)p1;
+	-(void) application:(UIApplication *)p0 didReceiveRemoteNotification:(NSDictionary *)p1 fetchCompletionHandler:(void (^)(void *))p2;
 	-(id) init;
 @end
 
@@ -441,21 +458,10 @@
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
-@interface Xamarin_Forms_Platform_iOS_UIActivityIndicatorViewDelegate : UIActivityIndicatorView {
-}
-	-(void) release;
-	-(id) retain;
-	-(GCHandle) xamarinGetGCHandle;
-	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
-	-(enum XamarinGCHandleFlags) xamarinGetFlags;
-	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
-	-(void) drawRect:(CGRect)p0;
-	-(void) layoutSubviews;
-	-(BOOL) conformsToProtocol:(void *)p0;
-@end
-
 @interface Xamarin_Forms_Platform_iOS_ActivityIndicatorRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
 }
+	-(void) drawRect:(CGRect)p0;
+	-(void) layoutSubviews;
 	-(id) init;
 @end
 
@@ -1244,6 +1250,7 @@
 	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
 	-(enum XamarinGCHandleFlags) xamarinGetFlags;
 	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
+	-(UIViewController *) childViewControllerForStatusBarStyle;
 	-(void) viewDidLayoutSubviews;
 	-(void) viewWillAppear:(BOOL)p0;
 	-(void) viewDidLoad;
@@ -1343,6 +1350,11 @@
 	-(void) viewDidLayoutSubviews;
 	-(void) viewDidLoad;
 	-(NSArray *) popToRootViewControllerAnimated:(BOOL)p0;
+	-(NSArray *) viewControllers;
+	-(void) setViewControllers:(NSArray *)p0;
+	-(NSArray *) popToViewController:(UIViewController *)p0 animated:(BOOL)p1;
+	-(void) pushViewController:(UIViewController *)p0 animated:(BOOL)p1;
+	-(UIViewController *) popViewControllerAnimated:(BOOL)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
@@ -1380,6 +1392,149 @@
 	-(void) touchesCancelled:(NSSet *)p0 withEvent:(UIEvent *)p1;
 	-(UIView *) hitTest:(CGPoint)p0 withEvent:(UIEvent *)p1;
 	-(id) init;
+@end
+
+@protocol FIRMessagingDelegate
+	@optional -(void) messaging:(id)p0 didReceiveRegistrationToken:(NSString *)p1;
+	@optional -(void) messaging:(id)p0 didReceiveMessage:(id)p1;
+@end
+
+@interface Plugin_FirebasePushNotification_FirebasePushNotificationManager : NSObject<UNUserNotificationCenterDelegate, FIRMessagingDelegate> {
+}
+	-(void) release;
+	-(id) retain;
+	-(GCHandle) xamarinGetGCHandle;
+	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
+	-(enum XamarinGCHandleFlags) xamarinGetFlags;
+	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
+	-(void) userNotificationCenter:(UNUserNotificationCenter *)p0 willPresentNotification:(UNNotification *)p1 withCompletionHandler:(void (^)(void *))p2;
+	-(void) userNotificationCenter:(UNUserNotificationCenter *)p0 didReceiveNotificationResponse:(UNNotificationResponse *)p1 withCompletionHandler:(void (^)())p2;
+	-(void) messaging:(id)p0 didReceiveRegistrationToken:(NSString *)p1;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface FIRMessagingMessageInfo : NSObject {
+}
+	-(NSInteger) status;
+	-(id) init;
+@end
+
+@interface ApiDefinition__Firebase_CloudMessaging_MessagingDelegate : NSObject<FIRMessagingDelegate> {
+}
+	-(id) init;
+@end
+
+@interface FIRMessagingExtensionHelper : NSObject {
+}
+	-(void) populateNotificationContent:(UNMutableNotificationContent *)p0 withContentHandler:(void (^)(void *))p1;
+	-(id) init;
+@end
+
+@interface FIRMessagingRemoteMessage : NSObject {
+}
+	-(NSDictionary *) appData;
+	-(NSString *) messageID;
+@end
+
+@interface FIRMessaging : NSObject {
+}
+	-(id) appDidReceiveMessage:(NSDictionary *)p0;
+	-(void) deleteFCMTokenForSenderID:(NSString *)p0 completion:(void (^)(id))p1;
+	-(void) retrieveFCMTokenForSenderID:(NSString *)p0 completion:(void (^)(NSString *, id))p1;
+	-(void) sendMessage:(NSDictionary *)p0 to:(NSString *)p1 withMessageID:(NSString *)p2 timeToLive:(long long)p3;
+	-(void) setAPNSToken:(NSData *)p0 type:(NSInteger)p1;
+	-(void) subscribeToTopic:(NSString *)p0;
+	-(void) subscribeToTopic:(NSString *)p0 completion:(void (^)(id))p1;
+	-(void) unsubscribeFromTopic:(NSString *)p0;
+	-(void) unsubscribeFromTopic:(NSString *)p0 completion:(void (^)(id))p1;
+	-(NSData *) APNSToken;
+	-(void) setAPNSToken:(NSData *)p0;
+	-(BOOL) isAutoInitEnabled;
+	-(void) setAutoInitEnabled:(BOOL)p0;
+	-(id) delegate;
+	-(void) setDelegate:(id)p0;
+	-(NSString *) FCMToken;
+	-(BOOL) isDirectChannelEstablished;
+	-(BOOL) shouldEstablishDirectChannel;
+	-(void) setShouldEstablishDirectChannel:(BOOL)p0;
+@end
+
+@interface FIRApp : NSObject {
+}
+	-(void) deleteApp:(void (^)(BOOL))p0;
+	-(BOOL) isDataCollectionDefaultEnabled;
+	-(void) setDataCollectionDefaultEnabled:(BOOL)p0;
+	-(NSString *) name;
+	-(id) options;
+@end
+
+@interface FIRConfiguration : NSObject {
+}
+	-(void) setLoggerLevel:(NSInteger)p0;
+@end
+
+@interface FIROptions : NSObject {
+}
+	-(NSObject *) copyWithZone:(id)p0;
+	-(NSString *) androidClientID;
+	-(void) setAndroidClientID:(NSString *)p0;
+	-(NSString *) APIKey;
+	-(void) setAPIKey:(NSString *)p0;
+	-(NSString *) appGroupID;
+	-(void) setAppGroupID:(NSString *)p0;
+	-(NSString *) bundleID;
+	-(void) setBundleID:(NSString *)p0;
+	-(NSString *) clientID;
+	-(void) setClientID:(NSString *)p0;
+	-(NSString *) databaseURL;
+	-(void) setDatabaseURL:(NSString *)p0;
+	-(NSString *) deepLinkURLScheme;
+	-(void) setDeepLinkURLScheme:(NSString *)p0;
+	-(NSString *) GCMSenderID;
+	-(void) setGCMSenderID:(NSString *)p0;
+	-(NSString *) googleAppID;
+	-(void) setGoogleAppID:(NSString *)p0;
+	-(NSString *) projectID;
+	-(void) setProjectID:(NSString *)p0;
+	-(NSString *) storageBucket;
+	-(void) setStorageBucket:(NSString *)p0;
+	-(NSString *) trackingID;
+	-(void) setTrackingID:(NSString *)p0;
+	-(id) initWithContentsOfFile:(NSString *)p0;
+	-(id) initWithGoogleAppID:(NSString *)p0 GCMSenderID:(NSString *)p1;
+@end
+
+@interface FIRInstallationsAuthTokenResult : NSObject {
+}
+	-(NSString *) authToken;
+	-(NSDate *) expirationDate;
+	-(id) init;
+@end
+
+@interface FIRInstallations : NSObject {
+}
+	-(void) deleteWithCompletion:(void (^)(void *))p0;
+	-(void) authTokenWithCompletion:(void (^)(id, id))p0;
+	-(void) authTokenForcingRefresh:(BOOL)p0 completion:(void (^)(id, id))p1;
+	-(void) installationIDWithCompletion:(void (^)(NSString *, id))p0;
+@end
+
+@interface FIRInstanceIDResult : NSObject {
+}
+	-(NSObject *) copyWithZone:(id)p0;
+	-(NSString *) instanceID;
+	-(NSString *) token;
+	-(id) init;
+@end
+
+@interface FIRInstanceID : NSObject {
+}
+	-(void) deleteIDWithHandler:(void (^)(id))p0;
+	-(void) deleteTokenWithAuthorizedEntity:(NSString *)p0 scope:(NSString *)p1 handler:(void (^)(id))p2;
+	-(void) getIDWithHandler:(void (^)(NSString *, id))p0;
+	-(void) instanceIDWithHandler:(void (^)(id, id))p0;
+	-(void) tokenWithAuthorizedEntity:(NSString *)p0 scope:(NSString *)p1 options:(NSDictionary *)p2 handler:(void (^)(NSString *, id))p3;
 @end
 
 

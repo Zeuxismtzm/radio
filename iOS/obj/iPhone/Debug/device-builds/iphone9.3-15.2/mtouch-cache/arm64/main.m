@@ -27,6 +27,11 @@ extern void *mono_aot_module_Xamarin_Forms_Platform_info;
 extern void *mono_aot_module_Xamarin_Forms_Platform_iOS_info;
 extern void *mono_aot_module_StreamingExample_info;
 extern void *mono_aot_module_Xamarin_Forms_Xaml_info;
+extern void *mono_aot_module_Plugin_FirebasePushNotification_info;
+extern void *mono_aot_module_Firebase_CloudMessaging_info;
+extern void *mono_aot_module_Firebase_Core_info;
+extern void *mono_aot_module_Firebase_Installations_info;
+extern void *mono_aot_module_Firebase_InstanceID_info;
 
 void xamarin_register_modules_impl ()
 {
@@ -50,6 +55,11 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Platform_iOS_info);
 	mono_aot_register_module (mono_aot_module_StreamingExample_info);
 	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Xaml_info);
+	mono_aot_register_module (mono_aot_module_Plugin_FirebasePushNotification_info);
+	mono_aot_register_module (mono_aot_module_Firebase_CloudMessaging_info);
+	mono_aot_register_module (mono_aot_module_Firebase_Core_info);
+	mono_aot_register_module (mono_aot_module_Firebase_Installations_info);
+	mono_aot_register_module (mono_aot_module_Firebase_InstanceID_info);
 
 }
 
@@ -57,6 +67,16 @@ void xamarin_register_assemblies_impl ()
 {
 	GCHandle exception_gchandle = INVALID_GCHANDLE;
 	xamarin_open_and_register ("Xamarin.Forms.Platform.iOS.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Plugin.FirebasePushNotification.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Firebase.CloudMessaging.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Firebase.Core.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Firebase.Installations.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Firebase.InstanceID.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 
 }
@@ -66,9 +86,9 @@ void xamarin_setup_impl ()
 	mono_jit_set_aot_mode (MONO_AOT_MODE_FULL);
 	xamarin_invoke_registration_methods ();
 
-	mono_dllmap_insert (NULL, "System.Native", NULL, "libmono-native-compat.dylib", NULL);
-	mono_dllmap_insert (NULL, "System.Security.Cryptography.Native.Apple", NULL, "libmono-native-compat.dylib", NULL);
-	mono_dllmap_insert (NULL, "System.Net.Security.Native", NULL, "libmono-native-compat.dylib", NULL);
+	mono_dllmap_insert (NULL, "System.Native", NULL, "__Internal", NULL);
+	mono_dllmap_insert (NULL, "System.Security.Cryptography.Native.Apple", NULL, "__Internal", NULL);
+	mono_dllmap_insert (NULL, "System.Net.Security.Native", NULL, "__Internal", NULL);
 
 	xamarin_gc_pump = FALSE;
 	xamarin_init_mono_debug = TRUE;
@@ -79,7 +99,7 @@ void xamarin_setup_impl ()
 	xamarin_marshal_objectivec_exception_mode = MarshalObjectiveCExceptionModeDisable;
 	xamarin_debug_mode = TRUE;
 	setenv ("MONO_GC_PARAMS", "nursery-size=512k,major=marksweep", 1);
-	xamarin_supports_dynamic_registration = FALSE;
+	xamarin_supports_dynamic_registration = TRUE;
 }
 
 int main (int argc, char **argv)

@@ -122,7 +122,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip StreamingExample_iOS_Application_Main_string__
 StreamingExample_iOS_Application_Main_string__:
-.file 1 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/Main.cs"
+.file 1 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/iOS/Main.cs"
 .loc 1 14 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -213,14 +213,15 @@ Lme_1:
 	.align 4
 	.no_dead_strip StreamingExample_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 StreamingExample_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-.file 2 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/AppDelegate.cs"
-.loc 2 14 0 prologue_end
+.file 2 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/iOS/AppDelegate.cs"
+.loc 2 15 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xa90163b7
+.word 0xf90013ba
 .word 0xaa0003f8
-.word 0xf90013a1
-.word 0xf90017a2
+.word 0xf90017a1
+.word 0xaa0203fa
 
 adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
@@ -230,7 +231,7 @@ ldr x16, [x16, #224]
 .word 0xf9001fb1
 .word 0xd2800017
 .word 0xf9401bb1
-.word 0xf9403a31
+.word 0xf9403e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
@@ -238,22 +239,22 @@ ldr x16, [x16, #224]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9405a31
+.word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 15 0
+.loc 2 16 0
 .word 0xf9401bb1
-.word 0xf9406a31
+.word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_2
 .word 0xf9401bb1
-.word 0xf9407e31
+.word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 17 0
+.loc 2 18 0
 .word 0xf9401bb1
-.word 0xf9408e31
+.word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -267,52 +268,263 @@ bl _p_3
 .word 0xf9002fa0
 bl _p_4
 .word 0xf9401bb1
-.word 0xf940c231
+.word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa1
 .word 0xaa1803e0
 bl _p_5
 .word 0xf9401bb1
-.word 0xf940de31
+.word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 19 0
+.loc 2 20 0
 .word 0xf9401bb1
-.word 0xf940ee31
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800020
+.word 0xaa1a03e0
+.word 0xd2800021
+bl _p_6
+.word 0xf9401bb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 22 0
+.word 0xf9401bb1
+.word 0xf9412631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf94013a1
-.word 0xf94017a2
+.word 0xf94017a1
+.word 0xaa1a03e0
 .word 0xaa1803e0
-bl _p_6
+.word 0xaa1a03e2
+bl _p_7
 .word 0x53001c00
 .word 0xf9002ba0
 .word 0xf9401bb1
-.word 0xf9411a31
+.word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x53001c00
 .word 0xaa0003f7
-.loc 2 20 0
+.loc 2 23 0
 .word 0xf9401bb1
-.word 0xf9413631
+.word 0xf9417231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0xf9401bb1
-.word 0xf9414e31
+.word 0xf9418a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94163b7
+.word 0xf94013ba
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
 Lme_2:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_iOS_AppDelegate_RegisteredForRemoteNotifications_UIKit_UIApplication_Foundation_NSData
+StreamingExample_iOS_AppDelegate_RegisteredForRemoteNotifications_UIKit_UIApplication_Foundation_NSData:
+.loc 2 26 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #240]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 27 0
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013a0
+bl _p_8
+.word 0xf94017b1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 28 0
+.word 0xf94017b1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_3:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_iOS_AppDelegate_FailedToRegisterForRemoteNotifications_UIKit_UIApplication_Foundation_NSError
+StreamingExample_iOS_AppDelegate_FailedToRegisterForRemoteNotifications_UIKit_UIApplication_Foundation_NSError:
+.loc 2 31 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #248]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 32 0
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013a0
+bl _p_9
+.word 0xf94017b1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 34 0
+.word 0xf94017b1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_4:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_iOS_AppDelegate_DidReceiveRemoteNotification_UIKit_UIApplication_Foundation_NSDictionary_System_Action_1_UIKit_UIBackgroundFetchResult
+StreamingExample_iOS_AppDelegate_DidReceiveRemoteNotification_UIKit_UIApplication_Foundation_NSDictionary_System_Action_1_UIKit_UIBackgroundFetchResult:
+.loc 2 39 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000bb9
+.word 0xf9000fa0
+.word 0xf90013a1
+.word 0xaa0203f9
+.word 0xf90017a3
+
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #256]
+.word 0xf9001bb0
+.word 0xf9400211
+.word 0xf9001fb1
+.word 0xf9401bb1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 46 0
+.word 0xf9401bb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+bl _p_10
+.word 0xf9401bb1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 48 0
+.word 0xf9401bb1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+bl _p_11
+.word 0xf9401bb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 50 0
+.word 0xf9401bb1
+.word 0xf940c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a2
+.word 0xd2800000
+.word 0xaa0203e0
+.word 0xd2800001
+.word 0xf9002ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9402ba0
+.word 0xf9401bb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 2 51 0
+.word 0xf9401bb1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_5:
 .text
 	.align 4
 	.no_dead_strip StreamingExample_iOS_AppDelegate__ctor
@@ -323,7 +535,7 @@ StreamingExample_iOS_AppDelegate__ctor:
 
 adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #264]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -332,7 +544,7 @@ ldr x16, [x16, #240]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_7
+bl _p_12
 .word 0xf9400fb1
 .word 0xf9404231
 .word 0xb4000051
@@ -345,12 +557,12 @@ bl _p_7
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3:
+Lme_6:
 .text
 	.align 4
 	.no_dead_strip StreamingExample_iOS_StreamingService_Play
 StreamingExample_iOS_StreamingService_Play:
-.file 3 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/StreamingService.cs"
+.file 3 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/iOS/StreamingService.cs"
 .loc 3 16 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -360,7 +572,7 @@ StreamingExample_iOS_StreamingService_Play:
 
 adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #272]
 .word 0xf90017b0
 .word 0xf9400211
 .word 0xf9001bb1
@@ -382,7 +594,7 @@ ldr x16, [x16, #248]
 .word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_8
+bl _p_13
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9407e31
@@ -393,7 +605,7 @@ bl _p_8
 .word 0xaa0203e0
 .word 0xd2800041
 .word 0x3940005e
-bl _p_9
+bl _p_14
 .word 0xf94017b1
 .word 0xf940a631
 .word 0xb4000051
@@ -428,14 +640,14 @@ bl _p_9
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9400f40
-bl _p_10
+bl _p_15
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
-bl _p_11
+bl _p_16
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9414a31
@@ -478,7 +690,7 @@ ldr x2, [x16, #16]
 .word 0xf9400b41
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940ec30
+.word 0xf940f030
 .word 0xd63f0200
 .word 0xf94017b1
 .word 0xf941ea31
@@ -499,7 +711,7 @@ ldr x2, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_4:
+Lme_7:
 .text
 	.align 4
 	.no_dead_strip StreamingExample_iOS_StreamingService_Pause
@@ -511,7 +723,7 @@ StreamingExample_iOS_StreamingService_Pause:
 
 adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #280]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -536,7 +748,7 @@ ldr x16, [x16, #256]
 .word 0xf9400801
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf940f030
+.word 0xf940f430
 .word 0xd63f0200
 .word 0xf9400fb1
 .word 0xf9408231
@@ -555,7 +767,7 @@ ldr x16, [x16, #256]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_5:
+Lme_8:
 .text
 	.align 4
 	.no_dead_strip StreamingExample_iOS_StreamingService_Stop
@@ -568,7 +780,7 @@ StreamingExample_iOS_StreamingService_Stop:
 
 adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #288]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -593,7 +805,7 @@ ldr x16, [x16, #264]
 .word 0xf9400b41
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_12
+bl _p_17
 .word 0xf9400fb1
 .word 0xf9408231
 .word 0xb4000051
@@ -620,7 +832,7 @@ bl _p_12
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_6:
+Lme_9:
 .text
 	.align 4
 	.no_dead_strip StreamingExample_iOS_StreamingService__ctor
@@ -633,7 +845,7 @@ StreamingExample_iOS_StreamingService__ctor:
 
 adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #296]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -653,7 +865,7 @@ ldr x16, [x16, #272]
 
 adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
-ldr x0, [x16, #280]
+ldr x0, [x16, #304]
 .word 0xf9001ba0
 .word 0x91006341
 .word 0xd5033bbf
@@ -684,7 +896,145 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_7:
+Lme_a:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_UIKit_UIBackgroundFetchResult_invoke_void_T_UIKit_UIBackgroundFetchResult
+wrapper_delegate_invoke_System_Action_1_UIKit_UIBackgroundFetchResult_invoke_void_T_UIKit_UIBackgroundFetchResult:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #312]
+.word 0xf9002bb0
+.word 0xf9400211
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x34000220
+bl _p_18
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000153
+.word 0xf94037a0
+.word 0xf9003ba0
+.word 0xf9403ba0
+.word 0xf9403ba1
+.word 0x91022021
+.word 0xd2800022
+.word 0xd280003e
+.word 0xb900003e
+bl _p_19
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101e320
+.word 0xf9403f20
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb50003c0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001a0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x1400002f
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000025
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003e1
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90043a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94043a0
+.word 0xf9402bb1
+.word 0xf941aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffc4b
+.word 0xf9402bb1
+.word 0xf941d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801900
+.word 0xaa1103e1
+bl _p_20
+
+Lme_10:
 .text
 	.align 3
 jit_code_end:
@@ -697,12 +1047,20 @@ method_addresses:
 bl StreamingExample_iOS_Application_Main_string__
 bl StreamingExample_iOS_Application__ctor
 bl StreamingExample_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+bl StreamingExample_iOS_AppDelegate_RegisteredForRemoteNotifications_UIKit_UIApplication_Foundation_NSData
+bl StreamingExample_iOS_AppDelegate_FailedToRegisterForRemoteNotifications_UIKit_UIApplication_Foundation_NSError
+bl StreamingExample_iOS_AppDelegate_DidReceiveRemoteNotification_UIKit_UIApplication_Foundation_NSDictionary_System_Action_1_UIKit_UIBackgroundFetchResult
 bl StreamingExample_iOS_AppDelegate__ctor
 bl StreamingExample_iOS_StreamingService_Play
 bl StreamingExample_iOS_StreamingService_Pause
 bl StreamingExample_iOS_StreamingService_Stop
 bl StreamingExample_iOS_StreamingService__ctor
 bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl wrapper_delegate_invoke_System_Action_1_UIKit_UIBackgroundFetchResult_invoke_void_T_UIKit_UIBackgroundFetchResult
 method_addresses_end:
 
 .section __TEXT, __const
@@ -720,9 +1078,11 @@ unbox_trampoline_addresses:
 	.align 3
 unwind_info:
 
-	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152
-	.byte 9,21,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6,16,12,31,0,68,14,48,157,6
-	.byte 158,5,68,13,29,68,154,4,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,21,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152
+	.byte 9,68,154,8,13,12,31,0,68,14,64,157,8,158,7,68,13,29,16,12,31,0,68,14,96,157,12,158,11,68,13,29
+	.byte 68,153,10,21,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6,16,12,31,0,68,14,48
+	.byte 157,6,158,5,68,13,29,68,154,4,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,34,12,31,0,68
+	.byte 14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9
 
 .text
 	.align 4
@@ -733,101 +1093,165 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #328]
 br x16
-.word 95
+.word 123
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_2:
 adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #336]
 br x16
-.word 100
+.word 128
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
 adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #344]
 br x16
-.word 105
+.word 133
 	.no_dead_strip plt_StreamingExample_App__ctor
 plt_StreamingExample_App__ctor:
 _p_4:
 adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #352]
 br x16
-.word 113
+.word 141
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_5:
 adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
-ldr x16, [x16, #328]
-br x16
-.word 118
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-_p_6:
-adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
-ldr x16, [x16, #336]
-br x16
-.word 123
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
-_p_7:
-adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
-ldr x16, [x16, #344]
-br x16
-.word 128
-	.no_dead_strip plt_AVFoundation_AVAudioSession_SharedInstance
-plt_AVFoundation_AVAudioSession_SharedInstance:
-_p_8:
-adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
-ldr x16, [x16, #352]
-br x16
-.word 133
-	.no_dead_strip plt_AVFoundation_AVAudioSession_SetCategory_AVFoundation_AVAudioSessionCategory
-plt_AVFoundation_AVAudioSession_SetCategory_AVFoundation_AVAudioSessionCategory:
-_p_9:
-adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 138
-	.no_dead_strip plt_Foundation_NSUrl_FromString_string
-plt_Foundation_NSUrl_FromString_string:
-_p_10:
+.word 146
+	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_Initialize_Foundation_NSDictionary_bool
+plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_Initialize_Foundation_NSDictionary_bool:
+_p_6:
 adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 143
-	.no_dead_strip plt_AVFoundation_AVPlayer_FromUrl_Foundation_NSUrl
-plt_AVFoundation_AVPlayer_FromUrl_Foundation_NSUrl:
-_p_11:
+.word 151
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
+_p_7:
 adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 148
-	.no_dead_strip plt_Foundation_NSObject_Dispose
-plt_Foundation_NSObject_Dispose:
-_p_12:
+.word 156
+	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_DidRegisterRemoteNotifications_Foundation_NSData
+plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_DidRegisterRemoteNotifications_Foundation_NSData:
+_p_8:
 adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 153
+.word 161
+	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_RemoteNotificationRegistrationFailed_Foundation_NSError
+plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_RemoteNotificationRegistrationFailed_Foundation_NSError:
+_p_9:
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #392]
+br x16
+.word 166
+	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_DidReceiveMessage_Foundation_NSDictionary
+plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_DidReceiveMessage_Foundation_NSDictionary:
+_p_10:
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #400]
+br x16
+.word 171
+	.no_dead_strip plt_System_Console_WriteLine_object
+plt_System_Console_WriteLine_object:
+_p_11:
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #408]
+br x16
+.word 176
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
+_p_12:
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #416]
+br x16
+.word 179
+	.no_dead_strip plt_AVFoundation_AVAudioSession_SharedInstance
+plt_AVFoundation_AVAudioSession_SharedInstance:
+_p_13:
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #424]
+br x16
+.word 184
+	.no_dead_strip plt_AVFoundation_AVAudioSession_SetCategory_AVFoundation_AVAudioSessionCategory
+plt_AVFoundation_AVAudioSession_SetCategory_AVFoundation_AVAudioSessionCategory:
+_p_14:
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #432]
+br x16
+.word 189
+	.no_dead_strip plt_Foundation_NSUrl_FromString_string
+plt_Foundation_NSUrl_FromString_string:
+_p_15:
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #440]
+br x16
+.word 194
+	.no_dead_strip plt_AVFoundation_AVPlayer_FromUrl_Foundation_NSUrl
+plt_AVFoundation_AVPlayer_FromUrl_Foundation_NSUrl:
+_p_16:
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #448]
+br x16
+.word 199
+	.no_dead_strip plt_Foundation_NSObject_Dispose
+plt_Foundation_NSObject_Dispose:
+_p_17:
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #456]
+br x16
+.word 204
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_18:
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #464]
+br x16
+.word 209
+	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
+plt__jit_icall_mono_arch_rethrow_exception:
+_p_19:
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #472]
+br x16
+.word 212
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
+_p_20:
+adrp x16, mono_aot_StreamingExample_iOS_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_iOS_got@PAGEOFF
+ldr x16, [x16, #480]
+br x16
+.word 214
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_StreamingExample_iOS_got, 392
+.lcomm mono_aot_StreamingExample_iOS_got, 488
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -850,7 +1274,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "093CA26C-8EE3-4B18-B0CF-BAA60683C5FD"
+	.asciz "89D0C4D1-48CA-4F67-BA5B-7F6AECFE1894"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -937,14 +1361,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 36,392,13,9,0,102,391195135,0
-	.long 1189,128,8,8,8,9,8388607,0
-	.long 4,25,2016,0,0,816,376,184
-	.long 0,304,344,240,0,176,32,808
+	.long 40,488,21,17,1,102,391195135,0
+	.long 1759,128,8,8,8,9,8388607,0
+	.long 4,25,2752,0,0,984,448,240
+	.long 0,368,416,296,0,192,48,976
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 235,253,206,148,232,14,74,14,90,249,145,247,23,102,67,74
+	.byte 169,128,8,152,63,30,37,154,197,108,78,192,223,84,119,191
 	.globl _mono_aot_module_StreamingExample_iOS_info
 	.align 3
 _mono_aot_module_StreamingExample_iOS_info:
@@ -7516,7 +7940,7 @@ LDIFF_SYM1118=LTDIE_177 - Ldebug_info_start
 	.asciz "StreamingExample.iOS.AppDelegate:FinishedLaunching"
 	.asciz "StreamingExample_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary"
 
-	.byte 2,14
+	.byte 2,15
 	.quad StreamingExample_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 	.quad Lme_2
 
@@ -7530,12 +7954,12 @@ LDIFF_SYM1119=LTDIE_2_REFERENCE - Ldebug_info_start
 
 LDIFF_SYM1120=LTDIE_176_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1120
-	.byte 2,141,32,3
+	.byte 2,141,40,3
 	.asciz "options"
 
 LDIFF_SYM1121=LTDIE_177_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1121
-	.byte 2,141,40,11
+	.byte 1,106,11
 	.asciz "V_0"
 
 LDIFF_SYM1122=LDIE_BOOLEAN - Ldebug_info_start
@@ -7555,41 +7979,73 @@ Lfde2_start:
 LDIFF_SYM1124=Lme_2 - StreamingExample_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 	.long LDIFF_SYM1124
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,154,8
 	.align 3
 Lfde2_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_178:
 
+	.byte 5
+	.asciz "Foundation_NSData"
+
+	.byte 40,16
+LDIFF_SYM1125=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1125
+	.byte 2,35,0,0,7
+	.asciz "Foundation_NSData"
+
+LDIFF_SYM1126=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1126
+LTDIE_178_POINTER:
+
+	.byte 13
+LDIFF_SYM1127=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1127
+LTDIE_178_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1128=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1128
 	.byte 2
-	.asciz "StreamingExample.iOS.AppDelegate:.ctor"
-	.asciz "StreamingExample_iOS_AppDelegate__ctor"
+	.asciz "StreamingExample.iOS.AppDelegate:RegisteredForRemoteNotifications"
+	.asciz "StreamingExample_iOS_AppDelegate_RegisteredForRemoteNotifications_UIKit_UIApplication_Foundation_NSData"
 
-	.byte 0,0
-	.quad StreamingExample_iOS_AppDelegate__ctor
+	.byte 2,26
+	.quad StreamingExample_iOS_AppDelegate_RegisteredForRemoteNotifications_UIKit_UIApplication_Foundation_NSData
 	.quad Lme_3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1125=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1125
-	.byte 2,141,16,0
+LDIFF_SYM1129=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1129
+	.byte 2,141,16,3
+	.asciz "application"
+
+LDIFF_SYM1130=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1130
+	.byte 2,141,24,3
+	.asciz "deviceToken"
+
+LDIFF_SYM1131=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1131
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1126=Lfde3_end - Lfde3_start
-	.long LDIFF_SYM1126
+LDIFF_SYM1132=Lfde3_end - Lfde3_start
+	.long LDIFF_SYM1132
 Lfde3_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_iOS_AppDelegate__ctor
+	.quad StreamingExample_iOS_AppDelegate_RegisteredForRemoteNotifications_UIKit_UIApplication_Foundation_NSData
 
-LDIFF_SYM1127=Lme_3 - StreamingExample_iOS_AppDelegate__ctor
-	.long LDIFF_SYM1127
+LDIFF_SYM1133=Lme_3 - StreamingExample_iOS_AppDelegate_RegisteredForRemoteNotifications_UIKit_UIApplication_Foundation_NSData
+	.long LDIFF_SYM1133
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde3_end:
 
@@ -7597,83 +8053,50 @@ Lfde3_end:
 LTDIE_179:
 
 	.byte 5
-	.asciz "AVFoundation_AVPlayer"
+	.asciz "Foundation_NSError"
 
 	.byte 40,16
-LDIFF_SYM1128=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM1128
+LDIFF_SYM1134=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1134
 	.byte 2,35,0,0,7
-	.asciz "AVFoundation_AVPlayer"
+	.asciz "Foundation_NSError"
 
-LDIFF_SYM1129=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1129
+LDIFF_SYM1135=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1135
 LTDIE_179_POINTER:
 
 	.byte 13
-LDIFF_SYM1130=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1130
+LDIFF_SYM1136=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1136
 LTDIE_179_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1131=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1131
-LTDIE_178:
-
-	.byte 5
-	.asciz "StreamingExample_iOS_StreamingService"
-
-	.byte 40,16
-LDIFF_SYM1132=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1132
-	.byte 2,35,0,6
-	.asciz "player"
-
-LDIFF_SYM1133=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1133
-	.byte 2,35,16,6
-	.asciz "isPrepared"
-
-LDIFF_SYM1134=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1134
-	.byte 2,35,32,6
-	.asciz "dataSource"
-
-LDIFF_SYM1135=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1135
-	.byte 2,35,24,0,7
-	.asciz "StreamingExample_iOS_StreamingService"
-
-LDIFF_SYM1136=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1136
-LTDIE_178_POINTER:
-
-	.byte 13
-LDIFF_SYM1137=LTDIE_178 - Ldebug_info_start
+LDIFF_SYM1137=LTDIE_179 - Ldebug_info_start
 	.long LDIFF_SYM1137
-LTDIE_178_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1138=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1138
 	.byte 2
-	.asciz "StreamingExample.iOS.StreamingService:Play"
-	.asciz "StreamingExample_iOS_StreamingService_Play"
+	.asciz "StreamingExample.iOS.AppDelegate:FailedToRegisterForRemoteNotifications"
+	.asciz "StreamingExample_iOS_AppDelegate_FailedToRegisterForRemoteNotifications_UIKit_UIApplication_Foundation_NSError"
 
-	.byte 3,16
-	.quad StreamingExample_iOS_StreamingService_Play
+	.byte 2,31
+	.quad StreamingExample_iOS_AppDelegate_FailedToRegisterForRemoteNotifications_UIKit_UIApplication_Foundation_NSError
 	.quad Lme_4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1139=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1139
-	.byte 1,106,11
-	.asciz "V_0"
+LDIFF_SYM1138=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1138
+	.byte 2,141,16,3
+	.asciz "application"
 
-LDIFF_SYM1140=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM1139=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1139
+	.byte 2,141,24,3
+	.asciz "error"
+
+LDIFF_SYM1140=LTDIE_179_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1140
-	.byte 1,105,0
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -7683,14 +8106,218 @@ Lfde4_start:
 
 	.long 0
 	.align 3
+	.quad StreamingExample_iOS_AppDelegate_FailedToRegisterForRemoteNotifications_UIKit_UIApplication_Foundation_NSError
+
+LDIFF_SYM1142=Lme_4 - StreamingExample_iOS_AppDelegate_FailedToRegisterForRemoteNotifications_UIKit_UIApplication_Foundation_NSError
+	.long LDIFF_SYM1142
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde4_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_180:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 128,1,16
+LDIFF_SYM1143=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM1143
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1144=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1144
+LTDIE_180_POINTER:
+
+	.byte 13
+LDIFF_SYM1145=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1145
+LTDIE_180_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1146=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1146
+	.byte 2
+	.asciz "StreamingExample.iOS.AppDelegate:DidReceiveRemoteNotification"
+	.asciz "StreamingExample_iOS_AppDelegate_DidReceiveRemoteNotification_UIKit_UIApplication_Foundation_NSDictionary_System_Action_1_UIKit_UIBackgroundFetchResult"
+
+	.byte 2,39
+	.quad StreamingExample_iOS_AppDelegate_DidReceiveRemoteNotification_UIKit_UIApplication_Foundation_NSDictionary_System_Action_1_UIKit_UIBackgroundFetchResult
+	.quad Lme_5
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1147=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1147
+	.byte 2,141,24,3
+	.asciz "application"
+
+LDIFF_SYM1148=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1148
+	.byte 2,141,32,3
+	.asciz "userInfo"
+
+LDIFF_SYM1149=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1149
+	.byte 1,105,3
+	.asciz "completionHandler"
+
+LDIFF_SYM1150=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1150
+	.byte 2,141,40,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1151=Lfde5_end - Lfde5_start
+	.long LDIFF_SYM1151
+Lfde5_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_iOS_AppDelegate_DidReceiveRemoteNotification_UIKit_UIApplication_Foundation_NSDictionary_System_Action_1_UIKit_UIBackgroundFetchResult
+
+LDIFF_SYM1152=Lme_5 - StreamingExample_iOS_AppDelegate_DidReceiveRemoteNotification_UIKit_UIApplication_Foundation_NSDictionary_System_Action_1_UIKit_UIBackgroundFetchResult
+	.long LDIFF_SYM1152
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
+	.align 3
+Lfde5_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.iOS.AppDelegate:.ctor"
+	.asciz "StreamingExample_iOS_AppDelegate__ctor"
+
+	.byte 0,0
+	.quad StreamingExample_iOS_AppDelegate__ctor
+	.quad Lme_6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1153=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1153
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1154=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM1154
+Lfde6_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_iOS_AppDelegate__ctor
+
+LDIFF_SYM1155=Lme_6 - StreamingExample_iOS_AppDelegate__ctor
+	.long LDIFF_SYM1155
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde6_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_182:
+
+	.byte 5
+	.asciz "AVFoundation_AVPlayer"
+
+	.byte 40,16
+LDIFF_SYM1156=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM1156
+	.byte 2,35,0,0,7
+	.asciz "AVFoundation_AVPlayer"
+
+LDIFF_SYM1157=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1157
+LTDIE_182_POINTER:
+
+	.byte 13
+LDIFF_SYM1158=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1158
+LTDIE_182_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1159=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1159
+LTDIE_181:
+
+	.byte 5
+	.asciz "StreamingExample_iOS_StreamingService"
+
+	.byte 40,16
+LDIFF_SYM1160=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1160
+	.byte 2,35,0,6
+	.asciz "player"
+
+LDIFF_SYM1161=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1161
+	.byte 2,35,16,6
+	.asciz "isPrepared"
+
+LDIFF_SYM1162=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1162
+	.byte 2,35,32,6
+	.asciz "dataSource"
+
+LDIFF_SYM1163=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1163
+	.byte 2,35,24,0,7
+	.asciz "StreamingExample_iOS_StreamingService"
+
+LDIFF_SYM1164=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1164
+LTDIE_181_POINTER:
+
+	.byte 13
+LDIFF_SYM1165=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1165
+LTDIE_181_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1166=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1166
+	.byte 2
+	.asciz "StreamingExample.iOS.StreamingService:Play"
+	.asciz "StreamingExample_iOS_StreamingService_Play"
+
+	.byte 3,16
+	.quad StreamingExample_iOS_StreamingService_Play
+	.quad Lme_7
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1167=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1167
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1168=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1168
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1169=Lfde7_end - Lfde7_start
+	.long LDIFF_SYM1169
+Lfde7_start:
+
+	.long 0
+	.align 3
 	.quad StreamingExample_iOS_StreamingService_Play
 
-LDIFF_SYM1142=Lme_4 - StreamingExample_iOS_StreamingService_Play
-	.long LDIFF_SYM1142
+LDIFF_SYM1170=Lme_7 - StreamingExample_iOS_StreamingService_Play
+	.long LDIFF_SYM1170
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
-Lfde4_end:
+Lfde7_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7700,31 +8327,31 @@ Lfde4_end:
 
 	.byte 3,26
 	.quad StreamingExample_iOS_StreamingService_Pause
-	.quad Lme_5
+	.quad Lme_8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1143=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1143
+LDIFF_SYM1171=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1171
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1144=Lfde5_end - Lfde5_start
-	.long LDIFF_SYM1144
-Lfde5_start:
+LDIFF_SYM1172=Lfde8_end - Lfde8_start
+	.long LDIFF_SYM1172
+Lfde8_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_iOS_StreamingService_Pause
 
-LDIFF_SYM1145=Lme_5 - StreamingExample_iOS_StreamingService_Pause
-	.long LDIFF_SYM1145
+LDIFF_SYM1173=Lme_8 - StreamingExample_iOS_StreamingService_Pause
+	.long LDIFF_SYM1173
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde5_end:
+Lfde8_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7734,31 +8361,31 @@ Lfde5_end:
 
 	.byte 3,31
 	.quad StreamingExample_iOS_StreamingService_Stop
-	.quad Lme_6
+	.quad Lme_9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1146=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1146
+LDIFF_SYM1174=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1174
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1147=Lfde6_end - Lfde6_start
-	.long LDIFF_SYM1147
-Lfde6_start:
+LDIFF_SYM1175=Lfde9_end - Lfde9_start
+	.long LDIFF_SYM1175
+Lfde9_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_iOS_StreamingService_Stop
 
-LDIFF_SYM1148=Lme_6 - StreamingExample_iOS_StreamingService_Stop
-	.long LDIFF_SYM1148
+LDIFF_SYM1176=Lme_9 - StreamingExample_iOS_StreamingService_Stop
+	.long LDIFF_SYM1176
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde6_end:
+Lfde9_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7768,31 +8395,150 @@ Lfde6_end:
 
 	.byte 3,13
 	.quad StreamingExample_iOS_StreamingService__ctor
-	.quad Lme_7
+	.quad Lme_a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1149=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1149
+LDIFF_SYM1177=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1177
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1150=Lfde7_end - Lfde7_start
-	.long LDIFF_SYM1150
-Lfde7_start:
+LDIFF_SYM1178=Lfde10_end - Lfde10_start
+	.long LDIFF_SYM1178
+Lfde10_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_iOS_StreamingService__ctor
 
-LDIFF_SYM1151=Lme_7 - StreamingExample_iOS_StreamingService__ctor
-	.long LDIFF_SYM1151
+LDIFF_SYM1179=Lme_a - StreamingExample_iOS_StreamingService__ctor
+	.long LDIFF_SYM1179
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde7_end:
+Lfde10_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_183:
+
+	.byte 8
+	.asciz "UIKit_UIBackgroundFetchResult"
+
+	.byte 8
+LDIFF_SYM1180=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM1180
+	.byte 9
+	.asciz "NewData"
+
+	.byte 0,9
+	.asciz "NoData"
+
+	.byte 1,9
+	.asciz "Failed"
+
+	.byte 2,0,7
+	.asciz "UIKit_UIBackgroundFetchResult"
+
+LDIFF_SYM1181=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1181
+LTDIE_183_POINTER:
+
+	.byte 13
+LDIFF_SYM1182=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1182
+LTDIE_183_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1183=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1183
+LTDIE_184:
+
+	.byte 5
+	.asciz "System_Array"
+
+	.byte 16,16
+LDIFF_SYM1184=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1184
+	.byte 2,35,0,0,7
+	.asciz "System_Array"
+
+LDIFF_SYM1185=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1185
+LTDIE_184_POINTER:
+
+	.byte 13
+LDIFF_SYM1186=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1186
+LTDIE_184_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1187=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1187
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<UIKit.UIBackgroundFetchResult>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_UIKit_UIBackgroundFetchResult_invoke_void_T_UIKit_UIBackgroundFetchResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_UIKit_UIBackgroundFetchResult_invoke_void_T_UIKit_UIBackgroundFetchResult
+	.quad Lme_10
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1188=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1188
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1189=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1189
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1190=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1190
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1191=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1191
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1192=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1192
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1193=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1193
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1194=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1194
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1195=Lfde11_end - Lfde11_start
+	.long LDIFF_SYM1195
+Lfde11_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_UIKit_UIBackgroundFetchResult_invoke_void_T_UIKit_UIBackgroundFetchResult
+
+LDIFF_SYM1196=Lme_10 - wrapper_delegate_invoke_System_Action_1_UIKit_UIBackgroundFetchResult_invoke_void_T_UIKit_UIBackgroundFetchResult
+	.long LDIFF_SYM1196
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde11_end:
 
 .section __DWARF, __debug_info,regular,debug
 

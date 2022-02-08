@@ -403,10 +403,10 @@ bl _p_10
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801940
+.word 0xd28019a0
 .word 0xaa1103e1
 bl _p_11
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
@@ -1666,7 +1666,7 @@ ldr x0, [x16, #312]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
@@ -3840,7 +3840,7 @@ ldr x0, [x16, #312]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
@@ -3872,7 +3872,7 @@ ldr x0, [x16, #328]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
@@ -4154,7 +4154,7 @@ System_Drawing_KnownColorTable_UpdateSystemColors_int__:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
@@ -4403,7 +4403,7 @@ bl _p_27
 .word 0xaa1a03e1
 bl _p_28
 .word 0xaa0003e1
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
@@ -4419,10 +4419,10 @@ bl _p_30
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
-.word 0xd2801940
+.word 0xd28019a0
 .word 0xaa1103e1
 bl _p_11
 
@@ -4738,11 +4738,11 @@ ldr x0, [x16, #0]
 .word 0xd281d821
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
-.word 0xd2801940
+.word 0xd28019a0
 .word 0xaa1103e1
 bl _p_11
 
@@ -4885,7 +4885,7 @@ ldr x0, [x16, #0]
 .word 0xd281dca1
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
@@ -4915,11 +4915,11 @@ ldr x1, [x16, #1896]
 .word 0xf9400021
 bl _p_38
 .word 0xaa0003e1
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
-.word 0xd2801940
+.word 0xd28019a0
 .word 0xaa1103e1
 bl _p_11
 
@@ -6163,14 +6163,14 @@ bl _p_27
 .word 0xaa1a03e1
 bl _p_57
 .word 0xaa0003e1
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
-.word 0xd2801940
+.word 0xd28019a0
 .word 0xaa1103e1
 bl _p_11
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
@@ -6962,11 +6962,11 @@ ldr x0, [x16, #0]
 .word 0xd281d821
 bl _p_27
 .word 0xaa0003e1
-.word 0xd2800f80
+.word 0xd2800fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
-.word 0xd2801940
+.word 0xd28019a0
 .word 0xaa1103e1
 bl _p_11
 
@@ -7055,7 +7055,7 @@ bl _p_71
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
@@ -7429,7 +7429,7 @@ bl _p_73
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801940
+.word 0xd28019a0
 .word 0xaa1103e1
 bl _p_11
 
@@ -7825,7 +7825,7 @@ bl _p_16
 .word 0xf9402fa0
 .word 0xf9002ba0
 .word 0xf90027a0
-.word 0xd2801900
+.word 0xd2801960
 bl _p_78
 .word 0xaa0003e2
 .word 0xf9402ba3
@@ -7839,7 +7839,7 @@ bl _p_78
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xf9001fa0
-.word 0xd2801900
+.word 0xd2801960
 bl _p_78
 .word 0xaa0003e2
 .word 0xf94023a3
@@ -7852,7 +7852,7 @@ bl _p_78
 .word 0xf9401fa0
 .word 0xf9001ba0
 .word 0xf90017a0
-.word 0xd2801900
+.word 0xd2801960
 bl _p_78
 .word 0xaa0003e2
 .word 0xf9401ba3
@@ -7867,7 +7867,7 @@ bl _p_78
 .word 0xf94017a1
 bl _p_38
 .word 0xaa0003e1
-.word 0xd2800f60
+.word 0xd2800fc0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
@@ -8605,7 +8605,7 @@ bl _p_86
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801940
+.word 0xd28019a0
 .word 0xaa1103e1
 bl _p_11
 
@@ -8726,31 +8726,6 @@ Lme_3f:
 .text
 ut_64:
 add x0, x0, 16
-b System_Drawing_PointF__ctor_single_single
-.text
-	.align 4
-	.no_dead_strip System_Drawing_PointF__ctor_single_single
-System_Drawing_PointF__ctor_single_single:
-.loc 1 1 0
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-.word 0xbd001ba0
-.word 0xbd0023a1
-.word 0xbd401ba0
-.word 0xbd000340
-.word 0xbd4023a0
-.word 0xbd000740
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_40:
-.text
-ut_65:
-add x0, x0, 16
 b System_Drawing_PointF_get_X
 .text
 	.align 4
@@ -8766,9 +8741,9 @@ System_Drawing_PointF_get_X:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_41:
+Lme_40:
 .text
-ut_66:
+ut_65:
 add x0, x0, 16
 b System_Drawing_PointF_get_Y
 .text
@@ -8785,9 +8760,9 @@ System_Drawing_PointF_get_Y:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_42:
+Lme_41:
 .text
-ut_67:
+ut_66:
 add x0, x0, 16
 b System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF
 .text
@@ -8823,9 +8798,9 @@ System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF:
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_43:
+Lme_42:
 .text
-ut_68:
+ut_67:
 add x0, x0, 16
 b System_Drawing_PointF_Equals_object
 .text
@@ -8885,13 +8860,13 @@ bl _p_87
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801940
+.word 0xd28019a0
 .word 0xaa1103e1
 bl _p_11
 
-Lme_44:
+Lme_43:
 .text
-ut_69:
+ut_68:
 add x0, x0, 16
 b System_Drawing_PointF_Equals_System_Drawing_PointF
 .text
@@ -8919,9 +8894,9 @@ bl _p_88
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_45:
+Lme_44:
 .text
-ut_70:
+ut_69:
 add x0, x0, 16
 b System_Drawing_PointF_GetHashCode
 .text
@@ -8963,9 +8938,9 @@ bl _p_89
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_46:
+Lme_45:
 .text
-ut_71:
+ut_70:
 add x0, x0, 16
 b System_Drawing_PointF_ToString
 .text
@@ -9049,40 +9024,9 @@ bl _p_84
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_47:
+Lme_46:
 .text
-ut_72:
-add x0, x0, 16
-b System_Drawing_RectangleF__ctor_single_single_single_single
-.text
-	.align 4
-	.no_dead_strip System_Drawing_RectangleF__ctor_single_single_single_single
-System_Drawing_RectangleF__ctor_single_single_single_single:
-.loc 1 1 0
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-.word 0xbd001ba0
-.word 0xbd0023a1
-.word 0xbd002ba2
-.word 0xbd0033a3
-.word 0xbd401ba0
-.word 0xbd000340
-.word 0xbd4023a0
-.word 0xbd000740
-.word 0xbd402ba0
-.word 0xbd000b40
-.word 0xbd4033a0
-.word 0xbd000f40
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_48:
-.text
-ut_73:
+ut_71:
 add x0, x0, 16
 b System_Drawing_RectangleF_get_X
 .text
@@ -9099,9 +9043,9 @@ System_Drawing_RectangleF_get_X:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_49:
+Lme_47:
 .text
-ut_74:
+ut_72:
 add x0, x0, 16
 b System_Drawing_RectangleF_get_Y
 .text
@@ -9118,9 +9062,9 @@ System_Drawing_RectangleF_get_Y:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_4a:
+Lme_48:
 .text
-ut_75:
+ut_73:
 add x0, x0, 16
 b System_Drawing_RectangleF_get_Width
 .text
@@ -9137,9 +9081,9 @@ System_Drawing_RectangleF_get_Width:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_4b:
+Lme_49:
 .text
-ut_76:
+ut_74:
 add x0, x0, 16
 b System_Drawing_RectangleF_get_Height
 .text
@@ -9156,9 +9100,9 @@ System_Drawing_RectangleF_get_Height:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_4c:
+Lme_4a:
 .text
-ut_77:
+ut_75:
 add x0, x0, 16
 b System_Drawing_RectangleF_Equals_object
 .text
@@ -9224,13 +9168,13 @@ bl _p_91
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801940
+.word 0xd28019a0
 .word 0xaa1103e1
 bl _p_11
 
-Lme_4d:
+Lme_4b:
 .text
-ut_78:
+ut_76:
 add x0, x0, 16
 b System_Drawing_RectangleF_Equals_System_Drawing_RectangleF
 .text
@@ -9268,9 +9212,9 @@ bl _p_92
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_4e:
+Lme_4c:
 .text
-ut_79:
+ut_77:
 add x0, x0, 16
 b System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF
 .text
@@ -9326,9 +9270,9 @@ System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_R
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_4f:
+Lme_4d:
 .text
-ut_80:
+ut_78:
 add x0, x0, 16
 b System_Drawing_RectangleF_GetHashCode
 .text
@@ -9400,9 +9344,9 @@ bl _p_89
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_50:
+Lme_4e:
 .text
-ut_81:
+ut_79:
 add x0, x0, 16
 b System_Drawing_RectangleF_ToString
 .text
@@ -9554,9 +9498,9 @@ bl _p_84
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_51:
+Lme_4f:
 .text
-ut_82:
+ut_80:
 add x0, x0, 16
 b System_Drawing_SizeF__ctor_System_Drawing_SizeF
 .text
@@ -9579,9 +9523,9 @@ System_Drawing_SizeF__ctor_System_Drawing_SizeF:
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_52:
+Lme_50:
 .text
-ut_83:
+ut_81:
 add x0, x0, 16
 b System_Drawing_SizeF__ctor_System_Drawing_PointF
 .text
@@ -9608,9 +9552,9 @@ System_Drawing_SizeF__ctor_System_Drawing_PointF:
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_53:
+Lme_51:
 .text
-ut_84:
+ut_82:
 add x0, x0, 16
 b System_Drawing_SizeF__ctor_single_single
 .text
@@ -9633,9 +9577,9 @@ System_Drawing_SizeF__ctor_single_single:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_54:
+Lme_52:
 .text
-ut_85:
+ut_83:
 add x0, x0, 16
 b System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF
 .text
@@ -9671,9 +9615,9 @@ System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF:
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_55:
+Lme_53:
 .text
-ut_86:
+ut_84:
 add x0, x0, 16
 b System_Drawing_SizeF_get_Width
 .text
@@ -9690,9 +9634,9 @@ System_Drawing_SizeF_get_Width:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_56:
+Lme_54:
 .text
-ut_87:
+ut_85:
 add x0, x0, 16
 b System_Drawing_SizeF_get_Height
 .text
@@ -9709,9 +9653,9 @@ System_Drawing_SizeF_get_Height:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_57:
+Lme_55:
 .text
-ut_88:
+ut_86:
 add x0, x0, 16
 b System_Drawing_SizeF_Equals_object
 .text
@@ -9771,13 +9715,13 @@ bl _p_93
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801940
+.word 0xd28019a0
 .word 0xaa1103e1
 bl _p_11
 
-Lme_58:
+Lme_56:
 .text
-ut_89:
+ut_87:
 add x0, x0, 16
 b System_Drawing_SizeF_Equals_System_Drawing_SizeF
 .text
@@ -9805,9 +9749,9 @@ bl _p_94
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_59:
+Lme_57:
 .text
-ut_90:
+ut_88:
 add x0, x0, 16
 b System_Drawing_SizeF_GetHashCode
 .text
@@ -9849,9 +9793,9 @@ bl _p_89
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_5a:
+Lme_58:
 .text
-ut_91:
+ut_89:
 add x0, x0, 16
 b System_Drawing_SizeF_ToString
 .text
@@ -9935,9 +9879,9 @@ bl _p_84
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_5b:
+Lme_59:
 .text
-ut_102:
+ut_100:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor_System_Array
 .text
@@ -9975,9 +9919,9 @@ ldr x2, [x16, #16]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_66:
+Lme_64:
 .text
-ut_103:
+ut_101:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_Dispose
 .text
@@ -9992,9 +9936,9 @@ System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_stri
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_67:
+Lme_65:
 .text
-ut_104:
+ut_102:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_MoveNext
 .text
@@ -10038,9 +9982,9 @@ System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_stri
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_68:
+Lme_66:
 .text
-ut_105:
+ut_103:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current
 .text
@@ -10120,25 +10064,25 @@ ldr x3, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 2 269 0
-.word 0xd2934d00
+.word 0xd293c780
 bl _p_96
 .word 0xaa0003e1
-.word 0xd2801960
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
 .loc 2 271 0
-.word 0xd29357c0
+.word 0xd293d240
 bl _p_96
 .word 0xaa0003e1
-.word 0xd2801960
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
 
-Lme_69:
+Lme_67:
 .text
-ut_106:
+ut_104:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
 .text
@@ -10158,9 +10102,9 @@ System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_stri
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_6a:
+Lme_68:
 .text
-ut_107:
+ut_105:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
 .text
@@ -10226,7 +10170,7 @@ ldr x4, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_6b:
+Lme_69:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color
@@ -10291,9 +10235,9 @@ ldr x4, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_6c:
+Lme_6a:
 .text
-ut_109:
+ut_107:
 add x0, x0, 16
 b System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor_string_System_Drawing_Color
 .text
@@ -10354,9 +10298,9 @@ ldr x4, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_6d:
+Lme_6b:
 .text
-ut_110:
+ut_108:
 add x0, x0, 16
 b System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Key
 .text
@@ -10373,9 +10317,9 @@ System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Key:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_6e:
+Lme_6c:
 .text
-ut_111:
+ut_109:
 add x0, x0, 16
 b System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Value
 .text
@@ -10422,9 +10366,9 @@ ldr x3, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_6f:
+Lme_6d:
 .text
-ut_112:
+ut_110:
 add x0, x0, 16
 b System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_ToString
 .text
@@ -10489,7 +10433,7 @@ bl _p_99
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_70:
+Lme_6e:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_get_Default
@@ -10534,7 +10478,7 @@ ldr x0, [x16, #2384]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_71:
+Lme_6f:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_CreateComparer
@@ -10880,14 +10824,14 @@ bl _p_5
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801940
+.word 0xd28019a0
 .word 0xaa1103e1
 bl _p_11
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_72:
+Lme_70:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_IndexOf_System_Drawing_Color___System_Drawing_Color_int_int
@@ -10960,11 +10904,11 @@ System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_IndexOf_Syste
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_75:
+Lme_73:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_LastIndexOf_System_Drawing_Color___System_Drawing_Color_int_int
@@ -11038,11 +10982,11 @@ System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_LastIndexOf_S
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_76:
+Lme_74:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_System_Collections_IEqualityComparer_GetHashCode_object
@@ -11118,11 +11062,11 @@ bl _p_104
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801940
+.word 0xd28019a0
 .word 0xaa1103e1
 bl _p_11
 
-Lme_77:
+Lme_75:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_System_Collections_IEqualityComparer_Equals_object_object
@@ -11248,11 +11192,11 @@ bl _p_104
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801940
+.word 0xd28019a0
 .word 0xaa1103e1
 bl _p_11
 
-Lme_78:
+Lme_76:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_System_Drawing_Color__ctor
@@ -11264,7 +11208,7 @@ System_Collections_Generic_EqualityComparer_1_System_Drawing_Color__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_79:
+Lme_77:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_Equals_System_Drawing_Color_System_Drawing_Color
@@ -11303,7 +11247,7 @@ bl _p_86
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_7a:
+Lme_78:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_GetHashCode_System_Drawing_Color
@@ -11324,7 +11268,7 @@ bl _p_105
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_7b:
+Lme_79:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_IndexOf_System_Drawing_Color___System_Drawing_Color_int_int
@@ -11424,11 +11368,11 @@ bl _p_86
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_7c:
+Lme_7a:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_LastIndexOf_System_Drawing_Color___System_Drawing_Color_int_int
@@ -11529,11 +11473,11 @@ bl _p_86
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_7d:
+Lme_7b:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_Equals_object
@@ -11568,7 +11512,7 @@ ldr x1, [x16, #2544]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_7e:
+Lme_7c:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_GetHashCode
@@ -11594,7 +11538,7 @@ System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_GetHas
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_7f:
+Lme_7d:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color__ctor
@@ -11606,7 +11550,7 @@ System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_80:
+Lme_7e:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
@@ -11645,7 +11589,7 @@ ldr x2, [x16, #16]
 bl _p_106
 .word 0x17ffffec
 
-Lme_81:
+Lme_7f:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_GetEnumerator
@@ -11711,7 +11655,7 @@ ldr x2, [x16, #16]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_82:
+Lme_80:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_CopyTo_string___int
@@ -11803,11 +11747,11 @@ bl _p_104
 .word 0xd2800060
 bl _p_106
 .word 0x17ffffbf
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_83:
+Lme_81:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_get_Count
@@ -11827,7 +11771,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Colo
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_84:
+Lme_82:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_get_IsReadOnly
@@ -11841,7 +11785,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Colo
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_85:
+Lme_83:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Add_string
@@ -11857,7 +11801,7 @@ bl _p_109
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_86:
+Lme_84:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Clear
@@ -11872,7 +11816,7 @@ bl _p_109
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_87:
+Lme_85:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Contains_string
@@ -11893,7 +11837,7 @@ bl _p_110
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_88:
+Lme_86:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Remove_string
@@ -11911,7 +11855,7 @@ bl _p_109
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_89:
+Lme_87:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_IEnumerable_TKey_GetEnumerator
@@ -11983,7 +11927,7 @@ ldr x3, [x16, #16]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_8a:
+Lme_88:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_IEnumerable_GetEnumerator
@@ -12055,7 +11999,7 @@ ldr x3, [x16, #16]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_8b:
+Lme_89:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_ICollection_CopyTo_System_Array_int
@@ -12251,11 +12195,11 @@ bl _p_106
 .loc 5 1375 0
 bl _p_112
 .word 0x17ffffbc
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_8c:
+Lme_8a:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_ICollection_get_IsSynchronized
@@ -12269,7 +12213,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Colo
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_8d:
+Lme_8b:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_ICollection_get_SyncRoot
@@ -12294,7 +12238,7 @@ ldr x15, [x16, #2576]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_8e:
+Lme_8c:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
@@ -12332,7 +12276,7 @@ ldr x2, [x16, #16]
 bl _p_106
 .word 0x17ffffec
 
-Lme_8f:
+Lme_8d:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_GetEnumerator
@@ -12410,7 +12354,7 @@ ldr x3, [x16, #16]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_90:
+Lme_8e:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_CopyTo_System_Drawing_Color___int
@@ -12535,11 +12479,11 @@ bl _p_104
 .word 0xd2800060
 bl _p_106
 .word 0x17ffff9f
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_91:
+Lme_8f:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_get_Count
@@ -12559,7 +12503,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Co
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_92:
+Lme_90:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_get_IsReadOnly
@@ -12573,7 +12517,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Co
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_93:
+Lme_91:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Add_System_Drawing_Color
@@ -12589,7 +12533,7 @@ bl _p_109
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_94:
+Lme_92:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Remove_System_Drawing_Color
@@ -12607,7 +12551,7 @@ bl _p_109
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_95:
+Lme_93:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Clear
@@ -12622,7 +12566,7 @@ bl _p_109
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_96:
+Lme_94:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Contains_System_Drawing_Color
@@ -12650,7 +12594,7 @@ bl _p_115
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_97:
+Lme_95:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_IEnumerable_TValue_GetEnumerator
@@ -12734,7 +12678,7 @@ ldr x4, [x16, #16]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_98:
+Lme_96:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_IEnumerable_GetEnumerator
@@ -12818,7 +12762,7 @@ ldr x4, [x16, #16]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_99:
+Lme_97:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_ICollection_CopyTo_System_Array_int
@@ -13053,11 +12997,11 @@ bl _p_106
 .loc 5 1564 0
 bl _p_112
 .word 0x17ffff97
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_9a:
+Lme_98:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_ICollection_get_IsSynchronized
@@ -13071,7 +13015,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Co
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_9b:
+Lme_99:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_ICollection_get_SyncRoot
@@ -13096,7 +13040,7 @@ ldr x15, [x16, #2576]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_9c:
+Lme_9a:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_invoke_TResult
@@ -13166,13 +13110,13 @@ bl _p_118
 .word 0xaa0003f9
 .word 0xb5ffff20
 .word 0x17ffffcc
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_9d:
+Lme_9b:
 .text
-ut_162:
+ut_160:
 add x0, x0, 16
 b wrapper_other_System_Drawing_Color_StructureToPtr_object_intptr_bool
 .text
@@ -13221,9 +13165,9 @@ bl _p_120
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_a2:
+Lme_a0:
 .text
-ut_163:
+ut_161:
 add x0, x0, 16
 b wrapper_other_System_Drawing_Color_PtrToStructure_intptr_object
 .text
@@ -13273,9 +13217,9 @@ ldr x3, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a3:
+Lme_a1:
 .text
-ut_164:
+ut_162:
 add x0, x0, 16
 b wrapper_other_System_Drawing_PointF_StructureToPtr_object_intptr_bool
 .text
@@ -13296,9 +13240,9 @@ wrapper_other_System_Drawing_PointF_StructureToPtr_object_intptr_bool:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a4:
+Lme_a2:
 .text
-ut_165:
+ut_163:
 add x0, x0, 16
 b wrapper_other_System_Drawing_PointF_PtrToStructure_intptr_object
 .text
@@ -13319,9 +13263,9 @@ wrapper_other_System_Drawing_PointF_PtrToStructure_intptr_object:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_a5:
+Lme_a3:
 .text
-ut_166:
+ut_164:
 add x0, x0, 16
 b wrapper_other_System_Drawing_RectangleF_StructureToPtr_object_intptr_bool
 .text
@@ -13345,9 +13289,9 @@ wrapper_other_System_Drawing_RectangleF_StructureToPtr_object_intptr_bool:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a6:
+Lme_a4:
 .text
-ut_167:
+ut_165:
 add x0, x0, 16
 b wrapper_other_System_Drawing_RectangleF_PtrToStructure_intptr_object
 .text
@@ -13370,9 +13314,9 @@ wrapper_other_System_Drawing_RectangleF_PtrToStructure_intptr_object:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_a7:
+Lme_a5:
 .text
-ut_168:
+ut_166:
 add x0, x0, 16
 b wrapper_other_System_Drawing_SizeF_StructureToPtr_object_intptr_bool
 .text
@@ -13393,9 +13337,9 @@ wrapper_other_System_Drawing_SizeF_StructureToPtr_object_intptr_bool:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a8:
+Lme_a6:
 .text
-ut_169:
+ut_167:
 add x0, x0, 16
 b wrapper_other_System_Drawing_SizeF_PtrToStructure_intptr_object
 .text
@@ -13416,7 +13360,7 @@ wrapper_other_System_Drawing_SizeF_PtrToStructure_intptr_object:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_a9:
+Lme_a7:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_System_Collections_Generic_IEqualityComparer_1_string
@@ -13434,7 +13378,7 @@ bl _p_122
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_aa:
+Lme_a8:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_set_Item_string_System_Drawing_Color
@@ -13462,7 +13406,7 @@ bl _p_123
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_ab:
+Lme_a9:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_TryGetValue_string_System_Drawing_Color_
@@ -13536,11 +13480,11 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_ac:
+Lme_aa:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_int
@@ -13626,15 +13570,15 @@ ldr x3, [x16, #16]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 .loc 2 193 0
-.word 0xd2843a40
+.word 0xd281e180
 bl _p_96
 .word 0xaa0003e1
-.word 0xd2800fa0
+.word 0xd2801000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
 
-Lme_ad:
+Lme_ab:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__cctor
@@ -13661,7 +13605,7 @@ ldr x0, [x16, #2376]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_ae:
+Lme_ac:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_Equals_System_Drawing_Color_System_Drawing_Color
@@ -13724,7 +13668,7 @@ bl _p_125
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_af:
+Lme_ad:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_GetHashCode_System_Drawing_Color
@@ -13745,7 +13689,7 @@ bl _p_105
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_b0:
+Lme_ae:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_IndexOf_System_Drawing_Color___System_Drawing_Color_int_int
@@ -13869,11 +13813,11 @@ bl _p_125
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_b1:
+Lme_af:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_LastIndexOf_System_Drawing_Color___System_Drawing_Color_int_int
@@ -13998,11 +13942,11 @@ bl _p_125
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_b2:
+Lme_b0:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_Equals_object
@@ -14037,7 +13981,7 @@ ldr x1, [x16, #2600]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_b3:
+Lme_b1:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_GetHashCode
@@ -14063,7 +14007,7 @@ System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_GetHash
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_b4:
+Lme_b2:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color__ctor
@@ -14075,9 +14019,9 @@ System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_b5:
+Lme_b3:
 .text
-ut_182:
+ut_180:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
 .text
@@ -14117,9 +14061,9 @@ ldr x1, [x16, #16]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_b6:
+Lme_b4:
 .text
-ut_183:
+ut_181:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_Dispose
 .text
@@ -14134,9 +14078,9 @@ System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_D
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_b7:
+Lme_b5:
 .text
-ut_184:
+ut_182:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_MoveNext
 .text
@@ -14219,13 +14163,13 @@ ldr x2, [x16, #16]
 .loc 5 1424 0
 bl _p_126
 .word 0x17ffffef
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_b8:
+Lme_b6:
 .text
-ut_185:
+ut_183:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_get_Current
 .text
@@ -14242,9 +14186,9 @@ System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_D
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_b9:
+Lme_b7:
 .text
-ut_186:
+ut_184:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
 .text
@@ -14274,9 +14218,9 @@ System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_D
 bl _p_127
 .word 0x17fffffa
 
-Lme_ba:
+Lme_b8:
 .text
-ut_187:
+ut_185:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
 .text
@@ -14307,7 +14251,7 @@ System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_D
 bl _p_126
 .word 0x17fffff8
 
-Lme_bb:
+Lme_b9:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_ContainsKey_string
@@ -14329,9 +14273,9 @@ bl _p_124
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_bc:
+Lme_ba:
 .text
-ut_189:
+ut_187:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
 .text
@@ -14374,9 +14318,9 @@ ldr x1, [x16, #16]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_bd:
+Lme_bb:
 .text
-ut_190:
+ut_188:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_Dispose
 .text
@@ -14391,9 +14335,9 @@ System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_be:
+Lme_bc:
 .text
-ut_191:
+ut_189:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_MoveNext
 .text
@@ -14493,13 +14437,13 @@ ldr x3, [x16, #16]
 .loc 5 1613 0
 bl _p_126
 .word 0x17ffffec
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_bf:
+Lme_bd:
 .text
-ut_192:
+ut_190:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_get_Current
 .text
@@ -14546,9 +14490,9 @@ ldr x3, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_c0:
+Lme_be:
 .text
-ut_193:
+ut_191:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
 .text
@@ -14614,9 +14558,9 @@ ldr x4, [x16, #16]
 bl _p_127
 .word 0x17ffffd8
 
-Lme_c1:
+Lme_bf:
 .text
-ut_194:
+ut_192:
 add x0, x0, 16
 b System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
 .text
@@ -14650,7 +14594,7 @@ System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System
 bl _p_126
 .word 0x17fffff5
 
-Lme_c2:
+Lme_c0:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_ContainsValue_System_Drawing_Color
@@ -14902,11 +14846,11 @@ ldr x0, [x16, #2384]
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
 
-Lme_c3:
+Lme_c1:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_int_System_Collections_Generic_IEqualityComparer_1_string
@@ -14989,7 +14933,7 @@ ldr x2, [x16, #16]
 bl _p_131
 .word 0x17ffffc8
 
-Lme_c4:
+Lme_c2:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_TryInsert_string_System_Drawing_Color_System_Collections_Generic_InsertionBehavior
@@ -15693,17 +15637,17 @@ bl _p_135
 .word 0xd28000a0
 bl _p_106
 .word 0x17fffdac
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
-.word 0xd2801d00
+.word 0xd2801d60
 .word 0xaa1103e1
 bl _p_11
-.word 0xd28012c0
+.word 0xd2801320
 .word 0xaa1103e1
 bl _p_11
 
-Lme_c5:
+Lme_c3:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_FindEntry_string
@@ -16095,17 +16039,17 @@ bl _p_135
 .word 0xd28000a0
 bl _p_106
 .word 0x17fffeb3
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
-.word 0xd2801d00
+.word 0xd2801d60
 .word 0xaa1103e1
 bl _p_11
-.word 0xd28012c0
+.word 0xd2801320
 .word 0xaa1103e1
 bl _p_11
 
-Lme_c6:
+Lme_c4:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_Dispose
@@ -16118,7 +16062,7 @@ System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_c7:
+Lme_c5:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_MoveNext
@@ -16132,7 +16076,7 @@ System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_c8:
+Lme_c6:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current
@@ -16142,10 +16086,10 @@ System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2
 .word 0x910003fd
 .word 0xf9000ba8
 .word 0xf9000fa0
-.word 0xd2934d00
+.word 0xd293c780
 bl _p_96
 .word 0xaa0003e1
-.word 0xd2801960
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
@@ -16153,7 +16097,7 @@ bl _p_29
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_c9:
+Lme_c7:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
@@ -16162,10 +16106,10 @@ System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2934d00
+.word 0xd293c780
 bl _p_96
 .word 0xaa0003e1
-.word 0xd2801960
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
@@ -16222,7 +16166,7 @@ ldr x4, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_ca:
+Lme_c8:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
@@ -16235,7 +16179,7 @@ System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_cb:
+Lme_c9:
 .text
 	.align 4
 	.no_dead_strip System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor
@@ -16247,7 +16191,7 @@ System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_cc:
+Lme_ca:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Initialize_int
@@ -16319,7 +16263,7 @@ ldr x3, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_cd:
+Lme_cb:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Resize
@@ -16340,7 +16284,7 @@ bl _p_138
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_ce:
+Lme_cc:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Resize_int_bool
@@ -16574,17 +16518,17 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28018a0
+.word 0xd2801900
 .word 0xaa1103e1
 bl _p_11
-.word 0xd2801d00
+.word 0xd2801d60
 .word 0xaa1103e1
 bl _p_11
-.word 0xd28012c0
+.word 0xd2801320
 .word 0xaa1103e1
 bl _p_11
 
-Lme_cf:
+Lme_cd:
 .text
 	.align 3
 jit_code_end:
@@ -16658,7 +16602,6 @@ bl System_Drawing_Color_op_Equality_System_Drawing_Color_System_Drawing_Color
 bl System_Drawing_Color_Equals_object
 bl System_Drawing_Color_Equals_System_Drawing_Color
 bl System_Drawing_Color_GetHashCode
-bl System_Drawing_PointF__ctor_single_single
 bl System_Drawing_PointF_get_X
 bl System_Drawing_PointF_get_Y
 bl System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF
@@ -16666,7 +16609,6 @@ bl System_Drawing_PointF_Equals_object
 bl System_Drawing_PointF_Equals_System_Drawing_PointF
 bl System_Drawing_PointF_GetHashCode
 bl System_Drawing_PointF_ToString
-bl System_Drawing_RectangleF__ctor_single_single_single_single
 bl System_Drawing_RectangleF_get_X
 bl System_Drawing_RectangleF_get_Y
 bl System_Drawing_RectangleF_get_Width
@@ -16814,11 +16756,10 @@ unbox_trampolines:
 	.long 64,65,66,67,68,69,70,71
 	.long 72,73,74,75,76,77,78,79
 	.long 80,81,82,83,84,85,86,87
-	.long 88,89,90,91,102,103,104,105
-	.long 106,107,109,110,111,112,162,163
-	.long 164,165,166,167,168,169,182,183
-	.long 184,185,186,187,189,190,191,192
-	.long 193,194
+	.long 88,89,100,101,102,103,104,105
+	.long 107,108,109,110,160,161,162,163
+	.long 164,165,166,167,180,181,182,183
+	.long 184,185,187,188,189,190,191,192
 unbox_trampolines_end:
 
 	.long 0
@@ -16875,38 +16816,36 @@ bl ut_86
 bl ut_87
 bl ut_88
 bl ut_89
-bl ut_90
-bl ut_91
+bl ut_100
+bl ut_101
 bl ut_102
 bl ut_103
 bl ut_104
 bl ut_105
-bl ut_106
 bl ut_107
+bl ut_108
 bl ut_109
 bl ut_110
-bl ut_111
-bl ut_112
+bl ut_160
+bl ut_161
 bl ut_162
 bl ut_163
 bl ut_164
 bl ut_165
 bl ut_166
 bl ut_167
-bl ut_168
-bl ut_169
+bl ut_180
+bl ut_181
 bl ut_182
 bl ut_183
 bl ut_184
 bl ut_185
-bl ut_186
 bl ut_187
+bl ut_188
 bl ut_189
 bl ut_190
 bl ut_191
 bl ut_192
-bl ut_193
-bl ut_194
 
 	.long 0
 .section __TEXT, __const
@@ -16927,10 +16866,10 @@ unwind_info:
 	.byte 68,151,16,152,15,68,153,14,154,13,13,12,31,0,68,14,112,157,14,158,13,68,13,29,16,12,31,0,68,14,64,157
 	.byte 8,158,7,68,13,29,68,150,6,14,12,31,0,68,14,128,1,157,16,158,15,68,13,29,14,12,31,0,68,14,144,1
 	.byte 157,18,158,17,68,13,29,17,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,154,24,19,12,31,0,68,14,96
-	.byte 157,12,158,11,68,13,29,68,152,10,68,154,9,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,14,12
-	.byte 31,0,68,14,160,1,157,20,158,19,68,13,29,19,12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,68,154
-	.byte 3,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,19,12,31,0,68,14,64,157,8,158,7,68,13,29
-	.byte 68,152,6,68,154,5,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16,16,12,31,0,68,14,96,157
+	.byte 157,12,158,11,68,13,29,68,152,10,68,154,9,14,12,31,0,68,14,160,1,157,20,158,19,68,13,29,19,12,31,0
+	.byte 68,14,48,157,6,158,5,68,13,29,68,152,4,68,154,3,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154
+	.byte 4,19,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5,16,12,31,0,68,14,64,157,8,158,7
+	.byte 68,13,29,68,154,6,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16,16,12,31,0,68,14,96,157
 	.byte 12,158,11,68,13,29,68,154,10,18,12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1,16,12,31,0
 	.byte 68,14,80,157,10,158,9,68,13,29,68,154,8,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,21,12
 	.byte 31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5,68,154,4,25,12,31,0,68,14,144,1,157,18,158,17
@@ -16959,7 +16898,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 4193
+.word 4191
 	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object__
 plt_string_Format_System_IFormatProvider_string_object__:
 _p_2:
@@ -16967,7 +16906,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 4196
+.word 4194
 	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object
 plt_string_Format_System_IFormatProvider_string_object:
 _p_3:
@@ -16975,7 +16914,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 4201
+.word 4199
 	.no_dead_strip plt_string_Format_System_IFormatProvider_string_object_object
 plt_string_Format_System_IFormatProvider_string_object_object:
 _p_4:
@@ -16983,7 +16922,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 4206
+.word 4204
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_5:
@@ -16991,7 +16930,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 4211
+.word 4209
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_System_Collections_Generic_IEqualityComparer_1_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_System_Collections_Generic_IEqualityComparer_1_string:
 _p_6:
@@ -16999,7 +16938,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 4219
+.word 4217
 	.no_dead_strip plt_System_Drawing_ColorTable_FillConstants_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_System_Type
 plt_System_Drawing_ColorTable_FillConstants_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_System_Type:
 _p_7:
@@ -17007,7 +16946,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 4230
+.word 4228
 	.no_dead_strip plt_System_Lazy_1_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_get_Value
 plt_System_Lazy_1_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_get_Value:
 _p_8:
@@ -17015,7 +16954,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 4232
+.word 4230
 	.no_dead_strip plt_System_Type_GetProperties
 plt_System_Type_GetProperties:
 _p_9:
@@ -17023,7 +16962,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 4243
+.word 4241
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_set_Item_string_System_Drawing_Color
 plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_set_Item_string_System_Drawing_Color:
 _p_10:
@@ -17031,7 +16970,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 4248
+.word 4246
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_11:
@@ -17039,7 +16978,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 4259
+.word 4257
 	.no_dead_strip plt_System_Drawing_ColorTable_get_Colors
 plt_System_Drawing_ColorTable_get_Colors:
 _p_12:
@@ -17047,7 +16986,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 4261
+.word 4259
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_TryGetValue_string_System_Drawing_Color_
 plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_TryGetValue_string_System_Drawing_Color_:
 _p_13:
@@ -17055,7 +16994,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 4263
+.word 4261
 	.no_dead_strip plt_System_Lazy_1_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_System_Func_1_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
 plt_System_Lazy_1_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_System_Func_1_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color:
 _p_14:
@@ -17063,7 +17002,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 4274
+.word 4272
 	.no_dead_strip plt_System_Drawing_KnownColorTable_InitColorTable
 plt_System_Drawing_KnownColorTable_InitColorTable:
 _p_15:
@@ -17071,7 +17010,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 4285
+.word 4283
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_16:
@@ -17079,7 +17018,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 4287
+.word 4285
 	.no_dead_strip plt_System_Drawing_KnownColorTable_UpdateSystemColors_int__
 plt_System_Drawing_KnownColorTable_UpdateSystemColors_int__:
 _p_17:
@@ -17087,7 +17026,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 4295
+.word 4293
 	.no_dead_strip plt_System_Drawing_KnownColorTable_InitColorNameTable
 plt_System_Drawing_KnownColorTable_InitColorNameTable:
 _p_18:
@@ -17095,7 +17034,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 4297
+.word 4295
 	.no_dead_strip plt_System_Drawing_KnownColorTable_EnsureColorTable
 plt_System_Drawing_KnownColorTable_EnsureColorTable:
 _p_19:
@@ -17103,7 +17042,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 4299
+.word 4297
 	.no_dead_strip plt_System_Drawing_KnownColorTable_EnsureColorNameTable
 plt_System_Drawing_KnownColorTable_EnsureColorNameTable:
 _p_20:
@@ -17111,7 +17050,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 4301
+.word 4299
 	.no_dead_strip plt_System_ComponentModel_TypeConverter_CanConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Type
 plt_System_ComponentModel_TypeConverter_CanConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Type:
 _p_21:
@@ -17119,7 +17058,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 4303
+.word 4301
 	.no_dead_strip plt_string_Trim
 plt_string_Trim:
 _p_22:
@@ -17127,7 +17066,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 4308
+.word 4306
 	.no_dead_strip plt_System_Globalization_CultureInfo_get_CurrentCulture
 plt_System_Globalization_CultureInfo_get_CurrentCulture:
 _p_23:
@@ -17135,7 +17074,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 4313
+.word 4311
 	.no_dead_strip plt_string_Split_char_System_StringSplitOptions
 plt_string_Split_char_System_StringSplitOptions:
 _p_24:
@@ -17143,7 +17082,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 4318
+.word 4316
 	.no_dead_strip plt_System_ComponentModel_TypeDescriptor_GetConverter_System_Type
 plt_System_ComponentModel_TypeDescriptor_GetConverter_System_Type:
 _p_25:
@@ -17151,7 +17090,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 4323
+.word 4321
 	.no_dead_strip plt_System_ComponentModel_TypeConverter_ConvertFromString_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_string
 plt_System_ComponentModel_TypeConverter_ConvertFromString_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_string:
 _p_26:
@@ -17159,7 +17098,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 4328
+.word 4326
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_27:
@@ -17167,7 +17106,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 4333
+.word 4331
 	.no_dead_strip plt_SR_Format_string_object_object
 plt_SR_Format_string_object_object:
 _p_28:
@@ -17175,7 +17114,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 4336
+.word 4334
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_29:
@@ -17183,7 +17122,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 4338
+.word 4336
 	.no_dead_strip plt_System_ComponentModel_TypeConverter_ConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_object
 plt_System_ComponentModel_TypeConverter_ConvertFrom_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_object:
 _p_30:
@@ -17191,7 +17130,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 4340
+.word 4338
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_31:
@@ -17199,7 +17138,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 4345
+.word 4343
 	.no_dead_strip plt_System_ComponentModel_TypeConverter_ConvertToString_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_object
 plt_System_ComponentModel_TypeConverter_ConvertToString_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_object:
 _p_32:
@@ -17207,7 +17146,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 4350
+.word 4348
 	.no_dead_strip plt_string_Join_string_string__
 plt_string_Join_string_string__:
 _p_33:
@@ -17215,7 +17154,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 4355
+.word 4353
 	.no_dead_strip plt_System_Type_GetConstructor_System_Type__
 plt_System_Type_GetConstructor_System_Type__:
 _p_34:
@@ -17223,7 +17162,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 4360
+.word 4358
 	.no_dead_strip plt_System_Reflection_ConstructorInfo_op_Inequality_System_Reflection_ConstructorInfo_System_Reflection_ConstructorInfo
 plt_System_Reflection_ConstructorInfo_op_Inequality_System_Reflection_ConstructorInfo_System_Reflection_ConstructorInfo:
 _p_35:
@@ -17231,7 +17170,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 4365
+.word 4363
 	.no_dead_strip plt_System_ComponentModel_Design_Serialization_InstanceDescriptor__ctor_System_Reflection_MemberInfo_System_Collections_ICollection
 plt_System_ComponentModel_Design_Serialization_InstanceDescriptor__ctor_System_Reflection_MemberInfo_System_Collections_ICollection:
 _p_36:
@@ -17239,7 +17178,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 4370
+.word 4368
 	.no_dead_strip plt_System_ComponentModel_TypeConverter_ConvertTo_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_object_System_Type
 plt_System_ComponentModel_TypeConverter_ConvertTo_System_ComponentModel_ITypeDescriptorContext_System_Globalization_CultureInfo_object_System_Type:
 _p_37:
@@ -17247,7 +17186,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 4375
+.word 4373
 	.no_dead_strip plt_SR_Format_string_object__
 plt_SR_Format_string_object__:
 _p_38:
@@ -17255,7 +17194,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 4380
+.word 4378
 	.no_dead_strip plt_System_ComponentModel_TypeDescriptor_GetProperties_System_Type_System_Attribute__
 plt_System_ComponentModel_TypeDescriptor_GetProperties_System_Type_System_Attribute__:
 _p_39:
@@ -17263,7 +17202,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 4382
+.word 4380
 	.no_dead_strip plt__jit_icall_mono_monitor_enter_v4_internal
 plt__jit_icall_mono_monitor_enter_v4_internal:
 _p_40:
@@ -17271,7 +17210,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 4387
+.word 4385
 	.no_dead_strip plt_System_Collections_Hashtable__ctor_System_Collections_IEqualityComparer
 plt_System_Collections_Hashtable__ctor_System_Collections_IEqualityComparer:
 _p_41:
@@ -17279,7 +17218,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 4390
+.word 4388
 	.no_dead_strip plt_System_Drawing_ColorConverter_FillConstants_System_Collections_Hashtable_System_Type
 plt_System_Drawing_ColorConverter_FillConstants_System_Collections_Hashtable_System_Type:
 _p_42:
@@ -17287,7 +17226,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 4395
+.word 4393
 	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
 plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_43:
@@ -17295,7 +17234,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 4397
+.word 4395
 	.no_dead_strip plt_System_Threading_Monitor_Exit_object
 plt_System_Threading_Monitor_Exit_object:
 _p_44:
@@ -17303,7 +17242,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 4400
+.word 4398
 	.no_dead_strip plt_System_Drawing_ColorConverter_get_Colors
 plt_System_Drawing_ColorConverter_get_Colors:
 _p_45:
@@ -17311,7 +17250,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 4405
+.word 4403
 	.no_dead_strip plt_System_Drawing_ColorConverter_get_SystemColors
 plt_System_Drawing_ColorConverter_get_SystemColors:
 _p_46:
@@ -17319,7 +17258,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 4407
+.word 4405
 	.no_dead_strip plt_System_Drawing_ColorConverter_GetNamedColor_string
 plt_System_Drawing_ColorConverter_GetNamedColor_string:
 _p_47:
@@ -17327,7 +17266,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 4409
+.word 4407
 	.no_dead_strip plt_string_IndexOf_char
 plt_string_IndexOf_char:
 _p_48:
@@ -17335,7 +17274,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 4411
+.word 4409
 	.no_dead_strip plt_string_Substring_int_int
 plt_string_Substring_int_int:
 _p_49:
@@ -17343,7 +17282,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 4416
+.word 4414
 	.no_dead_strip plt_System_Drawing_Color_FromName_string
 plt_System_Drawing_Color_FromName_string:
 _p_50:
@@ -17351,7 +17290,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 4421
+.word 4419
 	.no_dead_strip plt_string_StartsWith_string
 plt_string_StartsWith_string:
 _p_51:
@@ -17359,7 +17298,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 4423
+.word 4421
 	.no_dead_strip plt_System_Drawing_Color_FromArgb_int
 plt_System_Drawing_Color_FromArgb_int:
 _p_52:
@@ -17367,7 +17306,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 4428
+.word 4426
 	.no_dead_strip plt_string_Split_char__
 plt_string_Split_char__:
 _p_53:
@@ -17375,7 +17314,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 4430
+.word 4428
 	.no_dead_strip plt_System_Drawing_Color_FromArgb_int_int_int
 plt_System_Drawing_Color_FromArgb_int_int_int:
 _p_54:
@@ -17383,7 +17322,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 4435
+.word 4433
 	.no_dead_strip plt_System_Drawing_Color_FromArgb_int_int_int_int
 plt_System_Drawing_Color_FromArgb_int_int_int_int:
 _p_55:
@@ -17391,7 +17330,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 4437
+.word 4435
 	.no_dead_strip plt_System_Drawing_Color_ToArgb
 plt_System_Drawing_Color_ToArgb:
 _p_56:
@@ -17399,7 +17338,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 4439
+.word 4437
 	.no_dead_strip plt_SR_Format_string_object
 plt_SR_Format_string_object:
 _p_57:
@@ -17407,7 +17346,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 4441
+.word 4439
 	.no_dead_strip plt_System_Drawing_Color_op_Equality_System_Drawing_Color_System_Drawing_Color
 plt_System_Drawing_Color_op_Equality_System_Drawing_Color_System_Drawing_Color:
 _p_58:
@@ -17415,7 +17354,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 4443
+.word 4441
 	.no_dead_strip plt_System_Drawing_Color_get_Name
 plt_System_Drawing_Color_get_Name:
 _p_59:
@@ -17423,7 +17362,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 4445
+.word 4443
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_60:
@@ -17431,7 +17370,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 4447
+.word 4445
 	.no_dead_strip plt_System_Drawing_Color_get_A
 plt_System_Drawing_Color_get_A:
 _p_61:
@@ -17439,7 +17378,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 4452
+.word 4450
 	.no_dead_strip plt_System_Drawing_Color_get_R
 plt_System_Drawing_Color_get_R:
 _p_62:
@@ -17447,7 +17386,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 4454
+.word 4452
 	.no_dead_strip plt_System_Drawing_Color_get_G
 plt_System_Drawing_Color_get_G:
 _p_63:
@@ -17455,7 +17394,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 4456
+.word 4454
 	.no_dead_strip plt_System_Drawing_Color_get_B
 plt_System_Drawing_Color_get_B:
 _p_64:
@@ -17463,7 +17402,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 4458
+.word 4456
 	.no_dead_strip plt_System_Type_GetField_string
 plt_System_Type_GetField_string:
 _p_65:
@@ -17471,7 +17410,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 4460
+.word 4458
 	.no_dead_strip plt_System_Drawing_Color_get_IsSystemColor
 plt_System_Drawing_Color_get_IsSystemColor:
 _p_66:
@@ -17479,7 +17418,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 4465
+.word 4463
 	.no_dead_strip plt_System_Type_GetProperty_string
 plt_System_Type_GetProperty_string:
 _p_67:
@@ -17487,7 +17426,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 4467
+.word 4465
 	.no_dead_strip plt_System_Type_GetMethod_string_System_Type__
 plt_System_Type_GetMethod_string_System_Type__:
 _p_68:
@@ -17495,7 +17434,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 4472
+.word 4470
 	.no_dead_strip plt_System_Reflection_MemberInfo_op_Inequality_System_Reflection_MemberInfo_System_Reflection_MemberInfo
 plt_System_Reflection_MemberInfo_op_Inequality_System_Reflection_MemberInfo_System_Reflection_MemberInfo:
 _p_69:
@@ -17503,7 +17442,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 4477
+.word 4475
 	.no_dead_strip plt_System_Reflection_PropertyInfo_GetGetMethod
 plt_System_Reflection_PropertyInfo_GetGetMethod:
 _p_70:
@@ -17511,7 +17450,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 4482
+.word 4480
 	.no_dead_strip plt_System_Reflection_MethodInfo_op_Inequality_System_Reflection_MethodInfo_System_Reflection_MethodInfo
 plt_System_Reflection_MethodInfo_op_Inequality_System_Reflection_MethodInfo_System_Reflection_MethodInfo:
 _p_71:
@@ -17519,7 +17458,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 4487
+.word 4485
 	.no_dead_strip plt_System_ComponentModel_TypeConverter_StandardValuesCollection__ctor_System_Collections_ICollection
 plt_System_ComponentModel_TypeConverter_StandardValuesCollection__ctor_System_Collections_ICollection:
 _p_72:
@@ -17527,7 +17466,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 4492
+.word 4490
 	.no_dead_strip plt_string_Compare_string_string_bool_System_Globalization_CultureInfo
 plt_string_Compare_string_string_bool_System_Globalization_CultureInfo:
 _p_73:
@@ -17535,7 +17474,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 4497
+.word 4495
 	.no_dead_strip plt_System_Drawing_Color_get_Value
 plt_System_Drawing_Color_get_Value:
 _p_74:
@@ -17543,7 +17482,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 4502
+.word 4500
 	.no_dead_strip plt_System_Drawing_KnownColorTable_KnownColorToName_System_Drawing_KnownColor
 plt_System_Drawing_KnownColorTable_KnownColorToName_System_Drawing_KnownColor:
 _p_75:
@@ -17551,7 +17490,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 4504
+.word 4502
 	.no_dead_strip plt_System_Convert_ToString_long_int
 plt_System_Convert_ToString_long_int:
 _p_76:
@@ -17559,7 +17498,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 4506
+.word 4504
 	.no_dead_strip plt_System_Drawing_KnownColorTable_KnownColorToArgb_System_Drawing_KnownColor
 plt_System_Drawing_KnownColorTable_KnownColorToArgb_System_Drawing_KnownColor:
 _p_77:
@@ -17567,7 +17506,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 4511
+.word 4509
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_78:
@@ -17575,7 +17514,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 4513
+.word 4511
 	.no_dead_strip plt_System_Drawing_Color__ctor_long_int16_string_System_Drawing_KnownColor
 plt_System_Drawing_Color__ctor_long_int16_string_System_Drawing_KnownColor:
 _p_79:
@@ -17583,7 +17522,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 4516
+.word 4514
 	.no_dead_strip plt_System_Drawing_Color_CheckByte_int_string
 plt_System_Drawing_Color_CheckByte_int_string:
 _p_80:
@@ -17591,7 +17530,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 4518
+.word 4516
 	.no_dead_strip plt_System_Drawing_Color_MakeArgb_byte_byte_byte_byte
 plt_System_Drawing_Color_MakeArgb_byte_byte_byte_byte:
 _p_81:
@@ -17599,7 +17538,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 4520
+.word 4518
 	.no_dead_strip plt_System_Drawing_ColorTable_TryGetNamedColor_string_System_Drawing_Color_
 plt_System_Drawing_ColorTable_TryGetNamedColor_string_System_Drawing_Color_:
 _p_82:
@@ -17607,7 +17546,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 4522
+.word 4520
 	.no_dead_strip plt_byte_ToString
 plt_byte_ToString:
 _p_83:
@@ -17615,7 +17554,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 4524
+.word 4522
 	.no_dead_strip plt_string_Concat_string__
 plt_string_Concat_string__:
 _p_84:
@@ -17623,7 +17562,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 4529
+.word 4527
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_85:
@@ -17631,7 +17570,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 4534
+.word 4532
 	.no_dead_strip plt_System_Drawing_Color_Equals_System_Drawing_Color
 plt_System_Drawing_Color_Equals_System_Drawing_Color:
 _p_86:
@@ -17639,7 +17578,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 4539
+.word 4537
 	.no_dead_strip plt_System_Drawing_PointF_Equals_System_Drawing_PointF
 plt_System_Drawing_PointF_Equals_System_Drawing_PointF:
 _p_87:
@@ -17647,7 +17586,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 4541
+.word 4539
 	.no_dead_strip plt_System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF
 plt_System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF:
 _p_88:
@@ -17655,7 +17594,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 4543
+.word 4541
 	.no_dead_strip plt_single_GetHashCode
 plt_single_GetHashCode:
 _p_89:
@@ -17663,7 +17602,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 4545
+.word 4543
 	.no_dead_strip plt_single_ToString
 plt_single_ToString:
 _p_90:
@@ -17671,7 +17610,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 4550
+.word 4548
 	.no_dead_strip plt_System_Drawing_RectangleF_Equals_System_Drawing_RectangleF
 plt_System_Drawing_RectangleF_Equals_System_Drawing_RectangleF:
 _p_91:
@@ -17679,7 +17618,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 4555
+.word 4553
 	.no_dead_strip plt_System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF
 plt_System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF:
 _p_92:
@@ -17687,7 +17626,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 4557
+.word 4555
 	.no_dead_strip plt_System_Drawing_SizeF_Equals_System_Drawing_SizeF
 plt_System_Drawing_SizeF_Equals_System_Drawing_SizeF:
 _p_93:
@@ -17695,7 +17634,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 4559
+.word 4557
 	.no_dead_strip plt_System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF
 plt_System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF:
 _p_94:
@@ -17703,7 +17642,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 4561
+.word 4559
 	.no_dead_strip plt_System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_int
 plt_System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_int:
 _p_95:
@@ -17711,7 +17650,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 4563
+.word 4561
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_96:
@@ -17719,7 +17658,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 4579
+.word 4577
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current
 plt_System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current:
 _p_97:
@@ -17727,7 +17666,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 4582
+.word 4580
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor_System_Array:
 _p_98:
@@ -17735,7 +17674,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 4597
+.word 4595
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_PairToString_object_object
 plt_System_Collections_Generic_KeyValuePair_PairToString_object_object:
 _p_99:
@@ -17743,7 +17682,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 4612
+.word 4610
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_CreateComparer
 plt_System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_CreateComparer:
 _p_100:
@@ -17751,7 +17690,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 4617
+.word 4615
 	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
 plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_101:
@@ -17759,7 +17698,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 4632
+.word 4630
 	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
 plt_System_Enum_GetUnderlyingType_System_Type:
 _p_102:
@@ -17767,7 +17706,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 4637
+.word 4635
 	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
 plt_System_Type_GetTypeCode_System_Type:
 _p_103:
@@ -17775,7 +17714,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 4642
+.word 4640
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
 _p_104:
@@ -17783,7 +17722,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 4647
+.word 4645
 	.no_dead_strip plt_System_Drawing_Color_GetHashCode
 plt_System_Drawing_Color_GetHashCode:
 _p_105:
@@ -17791,7 +17730,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 4652
+.word 4650
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
 _p_106:
@@ -17799,7 +17738,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 4654
+.word 4652
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
 plt_System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color:
 _p_107:
@@ -17807,7 +17746,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 4659
+.word 4657
 	.no_dead_strip plt_System_ThrowHelper_ThrowIndexArgumentOutOfRange_NeedNonNegNumException
 plt_System_ThrowHelper_ThrowIndexArgumentOutOfRange_NeedNonNegNumException:
 _p_108:
@@ -17815,7 +17754,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 4674
+.word 4672
 	.no_dead_strip plt_System_ThrowHelper_ThrowNotSupportedException_System_ExceptionResource
 plt_System_ThrowHelper_ThrowNotSupportedException_System_ExceptionResource:
 _p_109:
@@ -17823,7 +17762,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 4679
+.word 4677
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_ContainsKey_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_ContainsKey_string:
 _p_110:
@@ -17831,7 +17770,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 4684
+.word 4682
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_CopyTo_string___int
 plt_System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_CopyTo_string___int:
 _p_111:
@@ -17839,7 +17778,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 4701
+.word 4699
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentException_Argument_InvalidArrayType
 plt_System_ThrowHelper_ThrowArgumentException_Argument_InvalidArrayType:
 _p_112:
@@ -17847,7 +17786,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 4716
+.word 4714
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_113:
@@ -17855,7 +17794,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 4721
+.word 4719
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color:
 _p_114:
@@ -17863,7 +17802,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 4724
+.word 4722
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_ContainsValue_System_Drawing_Color
 plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_ContainsValue_System_Drawing_Color:
 _p_115:
@@ -17871,7 +17810,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 4739
+.word 4737
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_CopyTo_System_Drawing_Color___int
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_CopyTo_System_Drawing_Color___int:
 _p_116:
@@ -17879,7 +17818,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 4756
+.word 4754
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_117:
@@ -17887,7 +17826,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 4771
+.word 4769
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_118:
@@ -17895,7 +17834,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 4773
+.word 4771
 	.no_dead_strip plt__jit_icall_monoeg_g_free
 plt__jit_icall_monoeg_g_free:
 _p_119:
@@ -17903,7 +17842,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 4776
+.word 4774
 	.no_dead_strip plt__jit_icall_mono_string_to_utf8str
 plt__jit_icall_mono_string_to_utf8str:
 _p_120:
@@ -17911,7 +17850,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 4778
+.word 4776
 	.no_dead_strip plt__jit_icall_ves_icall_string_new_wrapper
 plt__jit_icall_ves_icall_string_new_wrapper:
 _p_121:
@@ -17919,7 +17858,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 4781
+.word 4779
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_int_System_Collections_Generic_IEqualityComparer_1_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_int_System_Collections_Generic_IEqualityComparer_1_string:
 _p_122:
@@ -17927,7 +17866,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 4784
+.word 4782
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_TryInsert_string_System_Drawing_Color_System_Collections_Generic_InsertionBehavior
 plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_TryInsert_string_System_Drawing_Color_System_Collections_Generic_InsertionBehavior:
 _p_123:
@@ -17935,7 +17874,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 4801
+.word 4799
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_FindEntry_string
 plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_FindEntry_string:
 _p_124:
@@ -17943,7 +17882,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 4818
+.word 4816
 	.no_dead_strip plt_System_Drawing_Color_Equals_object
 plt_System_Drawing_Color_Equals_object:
 _p_125:
@@ -17951,7 +17890,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 4835
+.word 4833
 	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion
 plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion:
 _p_126:
@@ -17959,7 +17898,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 4837
+.word 4835
 	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_EnumOpCantHappen
 plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_EnumOpCantHappen:
 _p_127:
@@ -17967,7 +17906,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 4842
+.word 4840
 	.no_dead_strip plt_System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_Equals_System_Drawing_Color_System_Drawing_Color
 plt_System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_Equals_System_Drawing_Color_System_Drawing_Color:
 _p_128:
@@ -17975,7 +17914,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 4847
+.word 4845
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Initialize_int
 plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Initialize_int:
 _p_129:
@@ -17983,7 +17922,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 4862
+.word 4860
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_string_CreateComparer
 plt_System_Collections_Generic_EqualityComparer_1_string_CreateComparer:
 _p_130:
@@ -17991,7 +17930,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 4879
+.word 4877
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument:
 _p_131:
@@ -17999,7 +17938,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 4894
+.word 4892
 	.no_dead_strip plt_string_GetHashCode
 plt_string_GetHashCode:
 _p_132:
@@ -18007,7 +17946,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 4899
+.word 4897
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Resize
 plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Resize:
 _p_133:
@@ -18015,7 +17954,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 4904
+.word 4902
 	.no_dead_strip plt_System_ThrowHelper_ThrowAddingDuplicateWithKeyArgumentException_object
 plt_System_ThrowHelper_ThrowAddingDuplicateWithKeyArgumentException_object:
 _p_134:
@@ -18023,7 +17962,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 4921
+.word 4919
 	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_ConcurrentOperationsNotSupported
 plt_System_ThrowHelper_ThrowInvalidOperationException_ConcurrentOperationsNotSupported:
 _p_135:
@@ -18031,7 +17970,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 4926
+.word 4924
 	.no_dead_strip plt_System_Collections_HashHelpers_GetPrime_int
 plt_System_Collections_HashHelpers_GetPrime_int:
 _p_136:
@@ -18039,7 +17978,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 4931
+.word 4929
 	.no_dead_strip plt_System_Collections_HashHelpers_ExpandPrime_int
 plt_System_Collections_HashHelpers_ExpandPrime_int:
 _p_137:
@@ -18047,7 +17986,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 4936
+.word 4934
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Resize_int_bool
 plt_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Resize_int_bool:
 _p_138:
@@ -18055,7 +17994,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 4941
+.word 4939
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_139:
@@ -18063,7 +18002,7 @@ adrp x16, mono_aot_System_Drawing_Common_got@PAGE+0
 add x16, x16, mono_aot_System_Drawing_Common_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 4958
+.word 4956
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -18185,14 +18124,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 331,3768,140,208,9,98,391195135,0
-	.long 30293,128,8,8,8,9,8388607,0
-	.long 4,25,35176,0,0,4872,4576,3536
-	.long 0,4160,4528,3704,0,2608,304,4864
+	.long 331,3768,140,206,9,98,391195135,0
+	.long 30209,128,8,8,8,9,8388607,0
+	.long 4,25,35072,0,0,4856,4560,3528
+	.long 0,4152,4512,3696,0,2600,296,4848
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 91,94,202,14,9,132,163,139,226,76,200,1,90,248,24,235
+	.byte 81,136,194,64,246,219,96,212,188,49,164,236,76,126,61,156
 	.globl _mono_aot_module_System_Drawing_Common_info
 	.align 3
 _mono_aot_module_System_Drawing_Common_info:
@@ -23443,11 +23382,11 @@ LTDIE_44_REFERENCE:
 LDIFF_SYM657=LTDIE_44 - Ldebug_info_start
 	.long LDIFF_SYM657
 	.byte 2
-	.asciz "System.Drawing.PointF:.ctor"
-	.asciz "System_Drawing_PointF__ctor_single_single"
+	.asciz "System.Drawing.PointF:get_X"
+	.asciz "System_Drawing_PointF_get_X"
 
 	.byte 0,0
-	.quad System_Drawing_PointF__ctor_single_single
+	.quad System_Drawing_PointF_get_X
 	.quad Lme_40
 
 	.byte 2,118,16,3
@@ -23455,68 +23394,24 @@ LDIFF_SYM657=LTDIE_44 - Ldebug_info_start
 
 LDIFF_SYM658=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM658
-	.byte 1,106,3
-	.asciz "x"
-
-LDIFF_SYM659=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM659
-	.byte 2,141,24,3
-	.asciz "y"
-
-LDIFF_SYM660=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM660
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM661=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM661
-Lfde64_start:
-
-	.long 0
-	.align 3
-	.quad System_Drawing_PointF__ctor_single_single
-
-LDIFF_SYM662=Lme_40 - System_Drawing_PointF__ctor_single_single
-	.long LDIFF_SYM662
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
-	.align 3
-Lfde64_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Drawing.PointF:get_X"
-	.asciz "System_Drawing_PointF_get_X"
-
-	.byte 0,0
-	.quad System_Drawing_PointF_get_X
-	.quad Lme_41
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM663=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM663
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM664=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM664
-Lfde65_start:
+LDIFF_SYM659=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM659
+Lfde64_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_PointF_get_X
 
-LDIFF_SYM665=Lme_41 - System_Drawing_PointF_get_X
-	.long LDIFF_SYM665
+LDIFF_SYM660=Lme_40 - System_Drawing_PointF_get_X
+	.long LDIFF_SYM660
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde65_end:
+Lfde64_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23526,31 +23421,31 @@ Lfde65_end:
 
 	.byte 0,0
 	.quad System_Drawing_PointF_get_Y
-	.quad Lme_42
+	.quad Lme_41
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM666=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM666
+LDIFF_SYM661=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM661
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM667=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM667
-Lfde66_start:
+LDIFF_SYM662=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM662
+Lfde65_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_PointF_get_Y
 
-LDIFF_SYM668=Lme_42 - System_Drawing_PointF_get_Y
-	.long LDIFF_SYM668
+LDIFF_SYM663=Lme_41 - System_Drawing_PointF_get_Y
+	.long LDIFF_SYM663
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde66_end:
+Lfde65_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23560,36 +23455,36 @@ Lfde66_end:
 
 	.byte 0,0
 	.quad System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF
-	.quad Lme_43
+	.quad Lme_42
 
 	.byte 2,118,16,3
 	.asciz "left"
 
-LDIFF_SYM669=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM669
+LDIFF_SYM664=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM664
 	.byte 2,141,16,3
 	.asciz "right"
 
-LDIFF_SYM670=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM670
+LDIFF_SYM665=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM665
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM671=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM671
-Lfde67_start:
+LDIFF_SYM666=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM666
+Lfde66_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF
 
-LDIFF_SYM672=Lme_43 - System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF
-	.long LDIFF_SYM672
+LDIFF_SYM667=Lme_42 - System_Drawing_PointF_op_Equality_System_Drawing_PointF_System_Drawing_PointF
+	.long LDIFF_SYM667
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
-Lfde67_end:
+Lfde66_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23599,36 +23494,36 @@ Lfde67_end:
 
 	.byte 0,0
 	.quad System_Drawing_PointF_Equals_object
-	.quad Lme_44
+	.quad Lme_43
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM673=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM673
+LDIFF_SYM668=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM668
 	.byte 2,141,32,3
 	.asciz "obj"
 
-LDIFF_SYM674=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM674
+LDIFF_SYM669=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM669
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM675=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM675
-Lfde68_start:
+LDIFF_SYM670=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM670
+Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_PointF_Equals_object
 
-LDIFF_SYM676=Lme_44 - System_Drawing_PointF_Equals_object
-	.long LDIFF_SYM676
+LDIFF_SYM671=Lme_43 - System_Drawing_PointF_Equals_object
+	.long LDIFF_SYM671
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,68,154,3
 	.align 3
-Lfde68_end:
+Lfde67_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23638,36 +23533,36 @@ Lfde68_end:
 
 	.byte 0,0
 	.quad System_Drawing_PointF_Equals_System_Drawing_PointF
-	.quad Lme_45
+	.quad Lme_44
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM677=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM677
+LDIFF_SYM672=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM672
 	.byte 2,141,16,3
 	.asciz "other"
 
-LDIFF_SYM678=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM678
+LDIFF_SYM673=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM673
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM679=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM679
-Lfde69_start:
+LDIFF_SYM674=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM674
+Lfde68_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_PointF_Equals_System_Drawing_PointF
 
-LDIFF_SYM680=Lme_45 - System_Drawing_PointF_Equals_System_Drawing_PointF
-	.long LDIFF_SYM680
+LDIFF_SYM675=Lme_44 - System_Drawing_PointF_Equals_System_Drawing_PointF
+	.long LDIFF_SYM675
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde69_end:
+Lfde68_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23677,36 +23572,36 @@ Lfde69_end:
 
 	.byte 0,0
 	.quad System_Drawing_PointF_GetHashCode
-	.quad Lme_46
+	.quad Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM681=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM681
+LDIFF_SYM676=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM676
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM682=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM682
+LDIFF_SYM677=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM677
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM683=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM683
-Lfde70_start:
+LDIFF_SYM678=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM678
+Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_PointF_GetHashCode
 
-LDIFF_SYM684=Lme_46 - System_Drawing_PointF_GetHashCode
-	.long LDIFF_SYM684
+LDIFF_SYM679=Lme_45 - System_Drawing_PointF_GetHashCode
+	.long LDIFF_SYM679
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde70_end:
+Lfde69_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23716,31 +23611,31 @@ Lfde70_end:
 
 	.byte 0,0
 	.quad System_Drawing_PointF_ToString
-	.quad Lme_47
+	.quad Lme_46
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM685=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM685
+LDIFF_SYM680=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM680
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM686=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM686
-Lfde71_start:
+LDIFF_SYM681=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM681
+Lfde70_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_PointF_ToString
 
-LDIFF_SYM687=Lme_47 - System_Drawing_PointF_ToString
-	.long LDIFF_SYM687
+LDIFF_SYM682=Lme_46 - System_Drawing_PointF_ToString
+	.long LDIFF_SYM682
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde71_end:
+Lfde70_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_45:
@@ -23749,128 +23644,74 @@ LTDIE_45:
 	.asciz "System_Drawing_RectangleF"
 
 	.byte 32,16
-LDIFF_SYM688=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM688
+LDIFF_SYM683=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM683
 	.byte 2,35,0,6
 	.asciz "x"
 
-LDIFF_SYM689=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM689
+LDIFF_SYM684=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM684
 	.byte 2,35,0,6
 	.asciz "y"
 
-LDIFF_SYM690=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM690
+LDIFF_SYM685=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM685
 	.byte 2,35,4,6
 	.asciz "width"
 
-LDIFF_SYM691=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM691
+LDIFF_SYM686=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM686
 	.byte 2,35,8,6
 	.asciz "height"
 
-LDIFF_SYM692=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM692
+LDIFF_SYM687=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM687
 	.byte 2,35,12,0,7
 	.asciz "System_Drawing_RectangleF"
 
-LDIFF_SYM693=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM693
+LDIFF_SYM688=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM688
 LTDIE_45_POINTER:
 
 	.byte 13
-LDIFF_SYM694=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM694
+LDIFF_SYM689=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM689
 LTDIE_45_REFERENCE:
 
 	.byte 14
-LDIFF_SYM695=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM695
-	.byte 2
-	.asciz "System.Drawing.RectangleF:.ctor"
-	.asciz "System_Drawing_RectangleF__ctor_single_single_single_single"
-
-	.byte 0,0
-	.quad System_Drawing_RectangleF__ctor_single_single_single_single
-	.quad Lme_48
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM696=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM696
-	.byte 1,106,3
-	.asciz "x"
-
-LDIFF_SYM697=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM697
-	.byte 2,141,24,3
-	.asciz "y"
-
-LDIFF_SYM698=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM698
-	.byte 2,141,32,3
-	.asciz "width"
-
-LDIFF_SYM699=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM699
-	.byte 2,141,40,3
-	.asciz "height"
-
-LDIFF_SYM700=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM700
-	.byte 2,141,48,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM701=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM701
-Lfde72_start:
-
-	.long 0
-	.align 3
-	.quad System_Drawing_RectangleF__ctor_single_single_single_single
-
-LDIFF_SYM702=Lme_48 - System_Drawing_RectangleF__ctor_single_single_single_single
-	.long LDIFF_SYM702
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
-	.align 3
-Lfde72_end:
-
-.section __DWARF, __debug_info,regular,debug
-
+LDIFF_SYM690=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM690
 	.byte 2
 	.asciz "System.Drawing.RectangleF:get_X"
 	.asciz "System_Drawing_RectangleF_get_X"
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_get_X
-	.quad Lme_49
+	.quad Lme_47
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM703=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM703
+LDIFF_SYM691=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM691
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM704=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM704
-Lfde73_start:
+LDIFF_SYM692=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM692
+Lfde71_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_get_X
 
-LDIFF_SYM705=Lme_49 - System_Drawing_RectangleF_get_X
-	.long LDIFF_SYM705
+LDIFF_SYM693=Lme_47 - System_Drawing_RectangleF_get_X
+	.long LDIFF_SYM693
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde73_end:
+Lfde71_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23880,31 +23721,31 @@ Lfde73_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_get_Y
-	.quad Lme_4a
+	.quad Lme_48
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM706=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM706
+LDIFF_SYM694=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM694
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM707=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM707
-Lfde74_start:
+LDIFF_SYM695=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM695
+Lfde72_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_get_Y
 
-LDIFF_SYM708=Lme_4a - System_Drawing_RectangleF_get_Y
-	.long LDIFF_SYM708
+LDIFF_SYM696=Lme_48 - System_Drawing_RectangleF_get_Y
+	.long LDIFF_SYM696
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde74_end:
+Lfde72_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23914,31 +23755,31 @@ Lfde74_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_get_Width
-	.quad Lme_4b
+	.quad Lme_49
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM709=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM709
+LDIFF_SYM697=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM697
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM710=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM710
-Lfde75_start:
+LDIFF_SYM698=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM698
+Lfde73_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_get_Width
 
-LDIFF_SYM711=Lme_4b - System_Drawing_RectangleF_get_Width
-	.long LDIFF_SYM711
+LDIFF_SYM699=Lme_49 - System_Drawing_RectangleF_get_Width
+	.long LDIFF_SYM699
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde75_end:
+Lfde73_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23948,31 +23789,31 @@ Lfde75_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_get_Height
-	.quad Lme_4c
+	.quad Lme_4a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM712=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM712
+LDIFF_SYM700=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM700
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM713=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM713
-Lfde76_start:
+LDIFF_SYM701=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM701
+Lfde74_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_get_Height
 
-LDIFF_SYM714=Lme_4c - System_Drawing_RectangleF_get_Height
-	.long LDIFF_SYM714
+LDIFF_SYM702=Lme_4a - System_Drawing_RectangleF_get_Height
+	.long LDIFF_SYM702
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde76_end:
+Lfde74_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -23982,36 +23823,36 @@ Lfde76_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_Equals_object
-	.quad Lme_4d
+	.quad Lme_4b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM715=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM715
+LDIFF_SYM703=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM703
 	.byte 2,141,32,3
 	.asciz "obj"
 
-LDIFF_SYM716=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM716
+LDIFF_SYM704=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM704
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM717=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM717
-Lfde77_start:
+LDIFF_SYM705=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM705
+Lfde75_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_Equals_object
 
-LDIFF_SYM718=Lme_4d - System_Drawing_RectangleF_Equals_object
-	.long LDIFF_SYM718
+LDIFF_SYM706=Lme_4b - System_Drawing_RectangleF_Equals_object
+	.long LDIFF_SYM706
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5
 	.align 3
-Lfde77_end:
+Lfde75_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24021,36 +23862,36 @@ Lfde77_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_Equals_System_Drawing_RectangleF
-	.quad Lme_4e
+	.quad Lme_4c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM719=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM719
+LDIFF_SYM707=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM707
 	.byte 2,141,16,3
 	.asciz "other"
 
-LDIFF_SYM720=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM720
+LDIFF_SYM708=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM708
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM721=Lfde78_end - Lfde78_start
-	.long LDIFF_SYM721
-Lfde78_start:
+LDIFF_SYM709=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM709
+Lfde76_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_Equals_System_Drawing_RectangleF
 
-LDIFF_SYM722=Lme_4e - System_Drawing_RectangleF_Equals_System_Drawing_RectangleF
-	.long LDIFF_SYM722
+LDIFF_SYM710=Lme_4c - System_Drawing_RectangleF_Equals_System_Drawing_RectangleF
+	.long LDIFF_SYM710
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde78_end:
+Lfde76_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24060,36 +23901,36 @@ Lfde78_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF
-	.quad Lme_4f
+	.quad Lme_4d
 
 	.byte 2,118,16,3
 	.asciz "left"
 
-LDIFF_SYM723=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM723
+LDIFF_SYM711=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM711
 	.byte 2,141,16,3
 	.asciz "right"
 
-LDIFF_SYM724=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM724
+LDIFF_SYM712=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM712
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM725=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM725
-Lfde79_start:
+LDIFF_SYM713=Lfde77_end - Lfde77_start
+	.long LDIFF_SYM713
+Lfde77_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF
 
-LDIFF_SYM726=Lme_4f - System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF
-	.long LDIFF_SYM726
+LDIFF_SYM714=Lme_4d - System_Drawing_RectangleF_op_Equality_System_Drawing_RectangleF_System_Drawing_RectangleF
+	.long LDIFF_SYM714
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
-Lfde79_end:
+Lfde77_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24099,36 +23940,36 @@ Lfde79_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_GetHashCode
-	.quad Lme_50
+	.quad Lme_4e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM727=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM727
+LDIFF_SYM715=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM715
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM728=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM728
+LDIFF_SYM716=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM716
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM729=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM729
-Lfde80_start:
+LDIFF_SYM717=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM717
+Lfde78_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_GetHashCode
 
-LDIFF_SYM730=Lme_50 - System_Drawing_RectangleF_GetHashCode
-	.long LDIFF_SYM730
+LDIFF_SYM718=Lme_4e - System_Drawing_RectangleF_GetHashCode
+	.long LDIFF_SYM718
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde80_end:
+Lfde78_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24138,36 +23979,36 @@ Lfde80_end:
 
 	.byte 0,0
 	.quad System_Drawing_RectangleF_ToString
-	.quad Lme_51
+	.quad Lme_4f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM731=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM731
+LDIFF_SYM719=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM719
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM732=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM732
+LDIFF_SYM720=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM720
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM733=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM733
-Lfde81_start:
+LDIFF_SYM721=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM721
+Lfde79_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_RectangleF_ToString
 
-LDIFF_SYM734=Lme_51 - System_Drawing_RectangleF_ToString
-	.long LDIFF_SYM734
+LDIFF_SYM722=Lme_4f - System_Drawing_RectangleF_ToString
+	.long LDIFF_SYM722
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16
 	.align 3
-Lfde81_end:
+Lfde79_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_46:
@@ -24176,69 +24017,69 @@ LTDIE_46:
 	.asciz "System_Drawing_SizeF"
 
 	.byte 24,16
-LDIFF_SYM735=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM735
+LDIFF_SYM723=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM723
 	.byte 2,35,0,6
 	.asciz "width"
 
-LDIFF_SYM736=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM736
+LDIFF_SYM724=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM724
 	.byte 2,35,0,6
 	.asciz "height"
 
-LDIFF_SYM737=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM737
+LDIFF_SYM725=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM725
 	.byte 2,35,4,0,7
 	.asciz "System_Drawing_SizeF"
 
-LDIFF_SYM738=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM738
+LDIFF_SYM726=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM726
 LTDIE_46_POINTER:
 
 	.byte 13
-LDIFF_SYM739=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM739
+LDIFF_SYM727=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM727
 LTDIE_46_REFERENCE:
 
 	.byte 14
-LDIFF_SYM740=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM740
+LDIFF_SYM728=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM728
 	.byte 2
 	.asciz "System.Drawing.SizeF:.ctor"
 	.asciz "System_Drawing_SizeF__ctor_System_Drawing_SizeF"
 
 	.byte 0,0
 	.quad System_Drawing_SizeF__ctor_System_Drawing_SizeF
-	.quad Lme_52
+	.quad Lme_50
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM741=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM741
+LDIFF_SYM729=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM729
 	.byte 1,106,3
 	.asciz "size"
 
-LDIFF_SYM742=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM742
+LDIFF_SYM730=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM730
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM743=Lfde82_end - Lfde82_start
-	.long LDIFF_SYM743
-Lfde82_start:
+LDIFF_SYM731=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM731
+Lfde80_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF__ctor_System_Drawing_SizeF
 
-LDIFF_SYM744=Lme_52 - System_Drawing_SizeF__ctor_System_Drawing_SizeF
-	.long LDIFF_SYM744
+LDIFF_SYM732=Lme_50 - System_Drawing_SizeF__ctor_System_Drawing_SizeF
+	.long LDIFF_SYM732
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde82_end:
+Lfde80_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24248,36 +24089,36 @@ Lfde82_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF__ctor_System_Drawing_PointF
-	.quad Lme_53
+	.quad Lme_51
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM745=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM745
+LDIFF_SYM733=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM733
 	.byte 1,106,3
 	.asciz "pt"
 
-LDIFF_SYM746=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM746
+LDIFF_SYM734=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM734
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM747=Lfde83_end - Lfde83_start
-	.long LDIFF_SYM747
-Lfde83_start:
+LDIFF_SYM735=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM735
+Lfde81_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF__ctor_System_Drawing_PointF
 
-LDIFF_SYM748=Lme_53 - System_Drawing_SizeF__ctor_System_Drawing_PointF
-	.long LDIFF_SYM748
+LDIFF_SYM736=Lme_51 - System_Drawing_SizeF__ctor_System_Drawing_PointF
+	.long LDIFF_SYM736
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde83_end:
+Lfde81_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24287,41 +24128,41 @@ Lfde83_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF__ctor_single_single
-	.quad Lme_54
+	.quad Lme_52
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM749=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM749
+LDIFF_SYM737=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM737
 	.byte 1,106,3
 	.asciz "width"
 
-LDIFF_SYM750=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM750
+LDIFF_SYM738=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM738
 	.byte 2,141,24,3
 	.asciz "height"
 
-LDIFF_SYM751=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM751
+LDIFF_SYM739=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM739
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM752=Lfde84_end - Lfde84_start
-	.long LDIFF_SYM752
-Lfde84_start:
+LDIFF_SYM740=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM740
+Lfde82_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF__ctor_single_single
 
-LDIFF_SYM753=Lme_54 - System_Drawing_SizeF__ctor_single_single
-	.long LDIFF_SYM753
+LDIFF_SYM741=Lme_52 - System_Drawing_SizeF__ctor_single_single
+	.long LDIFF_SYM741
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde84_end:
+Lfde82_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24331,36 +24172,36 @@ Lfde84_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF
-	.quad Lme_55
+	.quad Lme_53
 
 	.byte 2,118,16,3
 	.asciz "sz1"
 
-LDIFF_SYM754=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM754
+LDIFF_SYM742=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM742
 	.byte 2,141,16,3
 	.asciz "sz2"
 
-LDIFF_SYM755=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM755
+LDIFF_SYM743=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM743
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM756=Lfde85_end - Lfde85_start
-	.long LDIFF_SYM756
-Lfde85_start:
+LDIFF_SYM744=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM744
+Lfde83_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF
 
-LDIFF_SYM757=Lme_55 - System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF
-	.long LDIFF_SYM757
+LDIFF_SYM745=Lme_53 - System_Drawing_SizeF_op_Equality_System_Drawing_SizeF_System_Drawing_SizeF
+	.long LDIFF_SYM745
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
-Lfde85_end:
+Lfde83_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24370,31 +24211,31 @@ Lfde85_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF_get_Width
-	.quad Lme_56
+	.quad Lme_54
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM758=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM758
+LDIFF_SYM746=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM746
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM759=Lfde86_end - Lfde86_start
-	.long LDIFF_SYM759
-Lfde86_start:
+LDIFF_SYM747=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM747
+Lfde84_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF_get_Width
 
-LDIFF_SYM760=Lme_56 - System_Drawing_SizeF_get_Width
-	.long LDIFF_SYM760
+LDIFF_SYM748=Lme_54 - System_Drawing_SizeF_get_Width
+	.long LDIFF_SYM748
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde86_end:
+Lfde84_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24404,31 +24245,31 @@ Lfde86_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF_get_Height
-	.quad Lme_57
+	.quad Lme_55
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM761=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM761
+LDIFF_SYM749=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM749
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM762=Lfde87_end - Lfde87_start
-	.long LDIFF_SYM762
-Lfde87_start:
+LDIFF_SYM750=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM750
+Lfde85_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF_get_Height
 
-LDIFF_SYM763=Lme_57 - System_Drawing_SizeF_get_Height
-	.long LDIFF_SYM763
+LDIFF_SYM751=Lme_55 - System_Drawing_SizeF_get_Height
+	.long LDIFF_SYM751
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde87_end:
+Lfde85_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24438,36 +24279,36 @@ Lfde87_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF_Equals_object
-	.quad Lme_58
+	.quad Lme_56
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM764=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM764
+LDIFF_SYM752=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM752
 	.byte 2,141,32,3
 	.asciz "obj"
 
-LDIFF_SYM765=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM765
+LDIFF_SYM753=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM753
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM766=Lfde88_end - Lfde88_start
-	.long LDIFF_SYM766
-Lfde88_start:
+LDIFF_SYM754=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM754
+Lfde86_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF_Equals_object
 
-LDIFF_SYM767=Lme_58 - System_Drawing_SizeF_Equals_object
-	.long LDIFF_SYM767
+LDIFF_SYM755=Lme_56 - System_Drawing_SizeF_Equals_object
+	.long LDIFF_SYM755
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,68,154,3
 	.align 3
-Lfde88_end:
+Lfde86_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24477,36 +24318,36 @@ Lfde88_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF_Equals_System_Drawing_SizeF
-	.quad Lme_59
+	.quad Lme_57
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM768=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM768
+LDIFF_SYM756=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM756
 	.byte 2,141,16,3
 	.asciz "other"
 
-LDIFF_SYM769=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM769
+LDIFF_SYM757=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM757
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM770=Lfde89_end - Lfde89_start
-	.long LDIFF_SYM770
-Lfde89_start:
+LDIFF_SYM758=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM758
+Lfde87_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF_Equals_System_Drawing_SizeF
 
-LDIFF_SYM771=Lme_59 - System_Drawing_SizeF_Equals_System_Drawing_SizeF
-	.long LDIFF_SYM771
+LDIFF_SYM759=Lme_57 - System_Drawing_SizeF_Equals_System_Drawing_SizeF
+	.long LDIFF_SYM759
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde89_end:
+Lfde87_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24516,36 +24357,36 @@ Lfde89_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF_GetHashCode
-	.quad Lme_5a
+	.quad Lme_58
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM772=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM772
+LDIFF_SYM760=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM760
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM773=LDIE_R4 - Ldebug_info_start
-	.long LDIFF_SYM773
+LDIFF_SYM761=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM761
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM774=Lfde90_end - Lfde90_start
-	.long LDIFF_SYM774
-Lfde90_start:
+LDIFF_SYM762=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM762
+Lfde88_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF_GetHashCode
 
-LDIFF_SYM775=Lme_5a - System_Drawing_SizeF_GetHashCode
-	.long LDIFF_SYM775
+LDIFF_SYM763=Lme_58 - System_Drawing_SizeF_GetHashCode
+	.long LDIFF_SYM763
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde90_end:
+Lfde88_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24555,31 +24396,31 @@ Lfde90_end:
 
 	.byte 0,0
 	.quad System_Drawing_SizeF_ToString
-	.quad Lme_5b
+	.quad Lme_59
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM776=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM776
+LDIFF_SYM764=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM764
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM777=Lfde91_end - Lfde91_start
-	.long LDIFF_SYM777
-Lfde91_start:
+LDIFF_SYM765=Lfde89_end - Lfde89_start
+	.long LDIFF_SYM765
+Lfde89_start:
 
 	.long 0
 	.align 3
 	.quad System_Drawing_SizeF_ToString
 
-LDIFF_SYM778=Lme_5b - System_Drawing_SizeF_ToString
-	.long LDIFF_SYM778
+LDIFF_SYM766=Lme_59 - System_Drawing_SizeF_ToString
+	.long LDIFF_SYM766
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde91_end:
+Lfde89_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_48:
@@ -24588,92 +24429,92 @@ LTDIE_48:
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM779=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM779
+LDIFF_SYM767=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM767
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM780=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM780
+LDIFF_SYM768=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM768
 LTDIE_48_POINTER:
 
 	.byte 13
-LDIFF_SYM781=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM781
+LDIFF_SYM769=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM769
 LTDIE_48_REFERENCE:
 
 	.byte 14
-LDIFF_SYM782=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM782
+LDIFF_SYM770=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM770
 LTDIE_47:
 
 	.byte 5
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM783=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM783
+LDIFF_SYM771=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM771
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM784=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM784
+LDIFF_SYM772=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM772
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM785=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM785
+LDIFF_SYM773=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM773
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM786=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM786
+LDIFF_SYM774=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM774
 LTDIE_47_POINTER:
 
 	.byte 13
-LDIFF_SYM787=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM787
+LDIFF_SYM775=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM775
 LTDIE_47_REFERENCE:
 
 	.byte 14
-LDIFF_SYM788=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM788
+LDIFF_SYM776=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM776
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,_System.Drawing.Color>>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor_System_Array"
 
 	.byte 1,250,1
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor_System_Array
-	.quad Lme_66
+	.quad Lme_64
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM789=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM789
+LDIFF_SYM777=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM777
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM790=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM790
+LDIFF_SYM778=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM778
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM791=Lfde92_end - Lfde92_start
-	.long LDIFF_SYM791
-Lfde92_start:
+LDIFF_SYM779=Lfde90_end - Lfde90_start
+	.long LDIFF_SYM779
+Lfde90_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor_System_Array
 
-LDIFF_SYM792=Lme_66 - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor_System_Array
-	.long LDIFF_SYM792
+LDIFF_SYM780=Lme_64 - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor_System_Array
+	.long LDIFF_SYM780
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2
 	.align 3
-Lfde92_end:
+Lfde90_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24683,31 +24524,31 @@ Lfde92_end:
 
 	.byte 1,128,2
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_Dispose
-	.quad Lme_67
+	.quad Lme_65
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM793=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM793
+LDIFF_SYM781=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM781
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM794=Lfde93_end - Lfde93_start
-	.long LDIFF_SYM794
-Lfde93_start:
+LDIFF_SYM782=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM782
+Lfde91_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_Dispose
 
-LDIFF_SYM795=Lme_67 - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_Dispose
-	.long LDIFF_SYM795
+LDIFF_SYM783=Lme_65 - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_Dispose
+	.long LDIFF_SYM783
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde93_end:
+Lfde91_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24717,36 +24558,36 @@ Lfde93_end:
 
 	.byte 1,132,2
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_MoveNext
-	.quad Lme_68
+	.quad Lme_66
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM796=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM796
+LDIFF_SYM784=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM784
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM797=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM797
+LDIFF_SYM785=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM785
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM798=Lfde94_end - Lfde94_start
-	.long LDIFF_SYM798
-Lfde94_start:
+LDIFF_SYM786=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM786
+Lfde92_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_MoveNext
 
-LDIFF_SYM799=Lme_68 - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_MoveNext
-	.long LDIFF_SYM799
+LDIFF_SYM787=Lme_66 - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_MoveNext
+	.long LDIFF_SYM787
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1
 	.align 3
-Lfde94_end:
+Lfde92_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24756,31 +24597,31 @@ Lfde94_end:
 
 	.byte 1,140,2
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current
-	.quad Lme_69
+	.quad Lme_67
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM800=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM800
+LDIFF_SYM788=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM788
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM801=Lfde95_end - Lfde95_start
-	.long LDIFF_SYM801
-Lfde95_start:
+LDIFF_SYM789=Lfde93_end - Lfde93_start
+	.long LDIFF_SYM789
+Lfde93_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current
 
-LDIFF_SYM802=Lme_69 - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current
-	.long LDIFF_SYM802
+LDIFF_SYM790=Lme_67 - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current
+	.long LDIFF_SYM790
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
-Lfde95_end:
+Lfde93_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24790,31 +24631,31 @@ Lfde95_end:
 
 	.byte 1,151,2
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
-	.quad Lme_6a
+	.quad Lme_68
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM803=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM803
+LDIFF_SYM791=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM791
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM804=Lfde96_end - Lfde96_start
-	.long LDIFF_SYM804
-Lfde96_start:
+LDIFF_SYM792=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM792
+Lfde94_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM805=Lme_6a - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM805
+LDIFF_SYM793=Lme_68 - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM793
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde96_end:
+Lfde94_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24824,31 +24665,31 @@ Lfde96_end:
 
 	.byte 1,156,2
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
-	.quad Lme_6b
+	.quad Lme_69
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM806=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM806
+LDIFF_SYM794=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM794
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM807=Lfde97_end - Lfde97_start
-	.long LDIFF_SYM807
-Lfde97_start:
+LDIFF_SYM795=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM795
+Lfde95_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM808=Lme_6b - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM808
+LDIFF_SYM796=Lme_69 - System_Array_InternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM796
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde97_end:
+Lfde95_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24858,31 +24699,31 @@ Lfde97_end:
 
 	.byte 1,84
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color
-	.quad Lme_6c
+	.quad Lme_6a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM809=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM809
+LDIFF_SYM797=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM797
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM810=Lfde98_end - Lfde98_start
-	.long LDIFF_SYM810
-Lfde98_start:
+LDIFF_SYM798=Lfde96_end - Lfde96_start
+	.long LDIFF_SYM798
+Lfde96_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color
 
-LDIFF_SYM811=Lme_6c - System_Array_InternalArray__IEnumerable_GetEnumerator_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color
-	.long LDIFF_SYM811
+LDIFF_SYM799=Lme_6a - System_Array_InternalArray__IEnumerable_GetEnumerator_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color
+	.long LDIFF_SYM799
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde98_end:
+Lfde96_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_49:
@@ -24891,74 +24732,74 @@ LTDIE_49:
 	.asciz "System_Collections_Generic_KeyValuePair`2"
 
 	.byte 48,16
-LDIFF_SYM812=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM812
+LDIFF_SYM800=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM800
 	.byte 2,35,0,6
 	.asciz "key"
 
-LDIFF_SYM813=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM813
+LDIFF_SYM801=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM801
 	.byte 2,35,16,6
 	.asciz "value"
 
-LDIFF_SYM814=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM814
+LDIFF_SYM802=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM802
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_KeyValuePair`2"
 
-LDIFF_SYM815=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM815
+LDIFF_SYM803=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM803
 LTDIE_49_POINTER:
 
 	.byte 13
-LDIFF_SYM816=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM816
+LDIFF_SYM804=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM804
 LTDIE_49_REFERENCE:
 
 	.byte 14
-LDIFF_SYM817=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM817
+LDIFF_SYM805=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM805
 	.byte 2
 	.asciz "System.Collections.Generic.KeyValuePair`2<string,_System.Drawing.Color>:.ctor"
 	.asciz "System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor_string_System_Drawing_Color"
 
 	.byte 2,61
 	.quad System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor_string_System_Drawing_Color
-	.quad Lme_6d
+	.quad Lme_6b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM818=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM818
+LDIFF_SYM806=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM806
 	.byte 1,105,3
 	.asciz "key"
 
-LDIFF_SYM819=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM819
+LDIFF_SYM807=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM807
 	.byte 2,141,24,3
 	.asciz "value"
 
-LDIFF_SYM820=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM820
+LDIFF_SYM808=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM808
 	.byte 1,80,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM821=Lfde99_end - Lfde99_start
-	.long LDIFF_SYM821
-Lfde99_start:
+LDIFF_SYM809=Lfde97_end - Lfde97_start
+	.long LDIFF_SYM809
+Lfde97_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor_string_System_Drawing_Color
 
-LDIFF_SYM822=Lme_6d - System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor_string_System_Drawing_Color
-	.long LDIFF_SYM822
+LDIFF_SYM810=Lme_6b - System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor_string_System_Drawing_Color
+	.long LDIFF_SYM810
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde99_end:
+Lfde97_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24968,31 +24809,31 @@ Lfde99_end:
 
 	.byte 2,67
 	.quad System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Key
-	.quad Lme_6e
+	.quad Lme_6c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM823=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM823
+LDIFF_SYM811=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM811
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM824=Lfde100_end - Lfde100_start
-	.long LDIFF_SYM824
-Lfde100_start:
+LDIFF_SYM812=Lfde98_end - Lfde98_start
+	.long LDIFF_SYM812
+Lfde98_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Key
 
-LDIFF_SYM825=Lme_6e - System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Key
-	.long LDIFF_SYM825
+LDIFF_SYM813=Lme_6c - System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Key
+	.long LDIFF_SYM813
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde100_end:
+Lfde98_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25002,31 +24843,31 @@ Lfde100_end:
 
 	.byte 2,72
 	.quad System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Value
-	.quad Lme_6f
+	.quad Lme_6d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM826=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM826
+LDIFF_SYM814=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM814
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM827=Lfde101_end - Lfde101_start
-	.long LDIFF_SYM827
-Lfde101_start:
+LDIFF_SYM815=Lfde99_end - Lfde99_start
+	.long LDIFF_SYM815
+Lfde99_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Value
 
-LDIFF_SYM828=Lme_6f - System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Value
-	.long LDIFF_SYM828
+LDIFF_SYM816=Lme_6d - System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Value
+	.long LDIFF_SYM816
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde101_end:
+Lfde99_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25036,31 +24877,31 @@ Lfde101_end:
 
 	.byte 2,77
 	.quad System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_ToString
-	.quad Lme_70
+	.quad Lme_6e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM829=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM829
+LDIFF_SYM817=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM817
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM830=Lfde102_end - Lfde102_start
-	.long LDIFF_SYM830
-Lfde102_start:
+LDIFF_SYM818=Lfde100_end - Lfde100_start
+	.long LDIFF_SYM818
+Lfde100_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_ToString
 
-LDIFF_SYM831=Lme_70 - System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_ToString
-	.long LDIFF_SYM831
+LDIFF_SYM819=Lme_6e - System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_ToString
+	.long LDIFF_SYM819
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde102_end:
+Lfde100_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_50:
@@ -25069,54 +24910,54 @@ LTDIE_50:
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM832=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM832
+LDIFF_SYM820=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM820
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
-LDIFF_SYM833=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM833
+LDIFF_SYM821=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM821
 LTDIE_50_POINTER:
 
 	.byte 13
-LDIFF_SYM834=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM834
+LDIFF_SYM822=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM822
 LTDIE_50_REFERENCE:
 
 	.byte 14
-LDIFF_SYM835=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM835
+LDIFF_SYM823=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM823
 	.byte 2
 	.asciz "System.Collections.Generic.EqualityComparer`1<System.Drawing.Color>:get_Default"
 	.asciz "System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_get_Default"
 
 	.byte 3,34
 	.quad System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_get_Default
-	.quad Lme_71
+	.quad Lme_6f
 
 	.byte 2,118,16,11
 	.asciz "comparer"
 
-LDIFF_SYM836=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM836
+LDIFF_SYM824=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM824
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM837=Lfde103_end - Lfde103_start
-	.long LDIFF_SYM837
-Lfde103_start:
+LDIFF_SYM825=Lfde101_end - Lfde101_start
+	.long LDIFF_SYM825
+Lfde101_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_get_Default
 
-LDIFF_SYM838=Lme_71 - System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_get_Default
-	.long LDIFF_SYM838
+LDIFF_SYM826=Lme_6f - System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_get_Default
+	.long LDIFF_SYM826
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde103_end:
+Lfde101_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_52:
@@ -25125,140 +24966,140 @@ LTDIE_52:
 	.asciz "System_Reflection_TypeInfo"
 
 	.byte 24,16
-LDIFF_SYM839=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM839
+LDIFF_SYM827=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM827
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_TypeInfo"
 
-LDIFF_SYM840=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM840
+LDIFF_SYM828=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM828
 LTDIE_52_POINTER:
 
 	.byte 13
-LDIFF_SYM841=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM841
+LDIFF_SYM829=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM829
 LTDIE_52_REFERENCE:
 
 	.byte 14
-LDIFF_SYM842=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM842
+LDIFF_SYM830=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM830
 LTDIE_54:
 
 	.byte 5
 	.asciz "System_Reflection_RuntimeConstructorInfo"
 
 	.byte 40,16
-LDIFF_SYM843=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM843
+LDIFF_SYM831=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM831
 	.byte 2,35,0,6
 	.asciz "mhandle"
 
-LDIFF_SYM844=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM844
+LDIFF_SYM832=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM832
 	.byte 2,35,16,6
 	.asciz "name"
 
-LDIFF_SYM845=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM845
+LDIFF_SYM833=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM833
 	.byte 2,35,24,6
 	.asciz "reftype"
 
-LDIFF_SYM846=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM846
+LDIFF_SYM834=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM834
 	.byte 2,35,32,0,7
 	.asciz "System_Reflection_RuntimeConstructorInfo"
 
-LDIFF_SYM847=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM847
+LDIFF_SYM835=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM835
 LTDIE_54_POINTER:
 
 	.byte 13
-LDIFF_SYM848=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM848
+LDIFF_SYM836=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM836
 LTDIE_54_REFERENCE:
 
 	.byte 14
-LDIFF_SYM849=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM849
+LDIFF_SYM837=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM837
 LTDIE_53:
 
 	.byte 5
 	.asciz "System_MonoTypeInfo"
 
 	.byte 32,16
-LDIFF_SYM850=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM850
+LDIFF_SYM838=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM838
 	.byte 2,35,0,6
 	.asciz "full_name"
 
-LDIFF_SYM851=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM851
+LDIFF_SYM839=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM839
 	.byte 2,35,16,6
 	.asciz "default_ctor"
 
-LDIFF_SYM852=LTDIE_54_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM852
+LDIFF_SYM840=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM840
 	.byte 2,35,24,0,7
 	.asciz "System_MonoTypeInfo"
 
-LDIFF_SYM853=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM853
+LDIFF_SYM841=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM841
 LTDIE_53_POINTER:
 
 	.byte 13
-LDIFF_SYM854=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM854
+LDIFF_SYM842=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM842
 LTDIE_53_REFERENCE:
 
 	.byte 14
-LDIFF_SYM855=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM855
+LDIFF_SYM843=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM843
 LTDIE_51:
 
 	.byte 5
 	.asciz "System_RuntimeType"
 
 	.byte 48,16
-LDIFF_SYM856=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM856
+LDIFF_SYM844=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM844
 	.byte 2,35,0,6
 	.asciz "type_info"
 
-LDIFF_SYM857=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM857
+LDIFF_SYM845=LTDIE_53_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM845
 	.byte 2,35,24,6
 	.asciz "GenericCache"
 
-LDIFF_SYM858=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM858
+LDIFF_SYM846=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM846
 	.byte 2,35,32,6
 	.asciz "m_serializationCtor"
 
-LDIFF_SYM859=LTDIE_54_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM859
+LDIFF_SYM847=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM847
 	.byte 2,35,40,0,7
 	.asciz "System_RuntimeType"
 
-LDIFF_SYM860=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM860
+LDIFF_SYM848=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM848
 LTDIE_51_POINTER:
 
 	.byte 13
-LDIFF_SYM861=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM861
+LDIFF_SYM849=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM849
 LTDIE_51_REFERENCE:
 
 	.byte 14
-LDIFF_SYM862=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM862
+LDIFF_SYM850=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM850
 LTDIE_55:
 
 	.byte 8
 	.asciz "System_TypeCode"
 
 	.byte 4
-LDIFF_SYM863=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM863
+LDIFF_SYM851=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM851
 	.byte 9
 	.asciz "Empty"
 
@@ -25316,59 +25157,59 @@ LDIFF_SYM863=LDIE_I4 - Ldebug_info_start
 	.byte 18,0,7
 	.asciz "System_TypeCode"
 
-LDIFF_SYM864=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM864
+LDIFF_SYM852=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM852
 LTDIE_55_POINTER:
 
 	.byte 13
-LDIFF_SYM865=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM865
+LDIFF_SYM853=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM853
 LTDIE_55_REFERENCE:
 
 	.byte 14
-LDIFF_SYM866=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM866
+LDIFF_SYM854=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM854
 	.byte 2
 	.asciz "System.Collections.Generic.EqualityComparer`1<System.Drawing.Color>:CreateComparer"
 	.asciz "System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_CreateComparer"
 
 	.byte 3,51
 	.quad System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_CreateComparer
-	.quad Lme_72
+	.quad Lme_70
 
 	.byte 2,118,16,11
 	.asciz "t"
 
-LDIFF_SYM867=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM867
+LDIFF_SYM855=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM855
 	.byte 1,105,11
 	.asciz "u"
 
-LDIFF_SYM868=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM868
+LDIFF_SYM856=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM856
 	.byte 1,104,11
 	.asciz "underlyingTypeCode"
 
-LDIFF_SYM869=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM869
+LDIFF_SYM857=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM857
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM870=Lfde104_end - Lfde104_start
-	.long LDIFF_SYM870
-Lfde104_start:
+LDIFF_SYM858=Lfde102_end - Lfde102_start
+	.long LDIFF_SYM858
+Lfde102_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_CreateComparer
 
-LDIFF_SYM871=Lme_72 - System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_CreateComparer
-	.long LDIFF_SYM871
+LDIFF_SYM859=Lme_70 - System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_CreateComparer
+	.long LDIFF_SYM859
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5,68,154,4
 	.align 3
-Lfde104_end:
+Lfde102_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25378,61 +25219,61 @@ Lfde104_end:
 
 	.byte 3,137,1
 	.quad System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_IndexOf_System_Drawing_Color___System_Drawing_Color_int_int
-	.quad Lme_75
+	.quad Lme_73
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM872=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM872
+LDIFF_SYM860=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM860
 	.byte 1,103,3
 	.asciz "array"
 
-LDIFF_SYM873=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM873
+LDIFF_SYM861=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM861
 	.byte 1,104,3
 	.asciz "value"
 
-LDIFF_SYM874=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM874
+LDIFF_SYM862=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM862
 	.byte 1,80,3
 	.asciz "startIndex"
 
-LDIFF_SYM875=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM875
+LDIFF_SYM863=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM863
 	.byte 2,141,56,3
 	.asciz "count"
 
-LDIFF_SYM876=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM876
+LDIFF_SYM864=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM864
 	.byte 1,106,11
 	.asciz "endIndex"
 
-LDIFF_SYM877=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM877
+LDIFF_SYM865=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM865
 	.byte 1,102,11
 	.asciz "i"
 
-LDIFF_SYM878=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM878
+LDIFF_SYM866=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM866
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM879=Lfde105_end - Lfde105_start
-	.long LDIFF_SYM879
-Lfde105_start:
+LDIFF_SYM867=Lfde103_end - Lfde103_start
+	.long LDIFF_SYM867
+Lfde103_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_IndexOf_System_Drawing_Color___System_Drawing_Color_int_int
 
-LDIFF_SYM880=Lme_75 - System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_IndexOf_System_Drawing_Color___System_Drawing_Color_int_int
-	.long LDIFF_SYM880
+LDIFF_SYM868=Lme_73 - System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_IndexOf_System_Drawing_Color___System_Drawing_Color_int_int
+	.long LDIFF_SYM868
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,68,154,13
 	.align 3
-Lfde105_end:
+Lfde103_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25442,61 +25283,61 @@ Lfde105_end:
 
 	.byte 3,145,1
 	.quad System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_LastIndexOf_System_Drawing_Color___System_Drawing_Color_int_int
-	.quad Lme_76
+	.quad Lme_74
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM881=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM881
+LDIFF_SYM869=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM869
 	.byte 1,103,3
 	.asciz "array"
 
-LDIFF_SYM882=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM882
+LDIFF_SYM870=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM870
 	.byte 1,104,3
 	.asciz "value"
 
-LDIFF_SYM883=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM883
+LDIFF_SYM871=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM871
 	.byte 1,80,3
 	.asciz "startIndex"
 
-LDIFF_SYM884=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM884
+LDIFF_SYM872=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM872
 	.byte 2,141,56,3
 	.asciz "count"
 
-LDIFF_SYM885=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM885
+LDIFF_SYM873=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM873
 	.byte 1,106,11
 	.asciz "endIndex"
 
-LDIFF_SYM886=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM886
+LDIFF_SYM874=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM874
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM887=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM887
+LDIFF_SYM875=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM875
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM888=Lfde106_end - Lfde106_start
-	.long LDIFF_SYM888
-Lfde106_start:
+LDIFF_SYM876=Lfde104_end - Lfde104_start
+	.long LDIFF_SYM876
+Lfde104_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_LastIndexOf_System_Drawing_Color___System_Drawing_Color_int_int
 
-LDIFF_SYM889=Lme_76 - System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_LastIndexOf_System_Drawing_Color___System_Drawing_Color_int_int
-	.long LDIFF_SYM889
+LDIFF_SYM877=Lme_74 - System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_LastIndexOf_System_Drawing_Color___System_Drawing_Color_int_int
+	.long LDIFF_SYM877
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,68,154,13
 	.align 3
-Lfde106_end:
+Lfde104_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25506,36 +25347,36 @@ Lfde106_end:
 
 	.byte 3,153,1
 	.quad System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_System_Collections_IEqualityComparer_GetHashCode_object
-	.quad Lme_77
+	.quad Lme_75
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM890=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM890
+LDIFF_SYM878=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM878
 	.byte 2,141,32,3
 	.asciz "obj"
 
-LDIFF_SYM891=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM891
+LDIFF_SYM879=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM879
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM892=Lfde107_end - Lfde107_start
-	.long LDIFF_SYM892
-Lfde107_start:
+LDIFF_SYM880=Lfde105_end - Lfde105_start
+	.long LDIFF_SYM880
+Lfde105_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_System_Collections_IEqualityComparer_GetHashCode_object
 
-LDIFF_SYM893=Lme_77 - System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_System_Collections_IEqualityComparer_GetHashCode_object
-	.long LDIFF_SYM893
+LDIFF_SYM881=Lme_75 - System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_System_Collections_IEqualityComparer_GetHashCode_object
+	.long LDIFF_SYM881
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,68,154,9
 	.align 3
-Lfde107_end:
+Lfde105_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25545,41 +25386,41 @@ Lfde107_end:
 
 	.byte 3,160,1
 	.quad System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_System_Collections_IEqualityComparer_Equals_object_object
-	.quad Lme_78
+	.quad Lme_76
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM894=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM894
+LDIFF_SYM882=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM882
 	.byte 2,141,40,3
 	.asciz "x"
 
-LDIFF_SYM895=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM895
+LDIFF_SYM883=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM883
 	.byte 1,105,3
 	.asciz "y"
 
-LDIFF_SYM896=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM896
+LDIFF_SYM884=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM884
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM897=Lfde108_end - Lfde108_start
-	.long LDIFF_SYM897
-Lfde108_start:
+LDIFF_SYM885=Lfde106_end - Lfde106_start
+	.long LDIFF_SYM885
+Lfde106_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_System_Collections_IEqualityComparer_Equals_object_object
 
-LDIFF_SYM898=Lme_78 - System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_System_Collections_IEqualityComparer_Equals_object_object
-	.long LDIFF_SYM898
+LDIFF_SYM886=Lme_76 - System_Collections_Generic_EqualityComparer_1_System_Drawing_Color_System_Collections_IEqualityComparer_Equals_object_object
+	.long LDIFF_SYM886
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,68,153,15,154,14
 	.align 3
-Lfde108_end:
+Lfde106_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25589,31 +25430,31 @@ Lfde108_end:
 
 	.byte 0,0
 	.quad System_Collections_Generic_EqualityComparer_1_System_Drawing_Color__ctor
-	.quad Lme_79
+	.quad Lme_77
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM899=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM899
+LDIFF_SYM887=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM887
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM900=Lfde109_end - Lfde109_start
-	.long LDIFF_SYM900
-Lfde109_start:
+LDIFF_SYM888=Lfde107_end - Lfde107_start
+	.long LDIFF_SYM888
+Lfde107_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_EqualityComparer_1_System_Drawing_Color__ctor
 
-LDIFF_SYM901=Lme_79 - System_Collections_Generic_EqualityComparer_1_System_Drawing_Color__ctor
-	.long LDIFF_SYM901
+LDIFF_SYM889=Lme_77 - System_Collections_Generic_EqualityComparer_1_System_Drawing_Color__ctor
+	.long LDIFF_SYM889
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde109_end:
+Lfde107_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_56:
@@ -25622,64 +25463,64 @@ LTDIE_56:
 	.asciz "System_Collections_Generic_GenericEqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM902=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM902
+LDIFF_SYM890=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM890
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_GenericEqualityComparer`1"
 
-LDIFF_SYM903=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM903
+LDIFF_SYM891=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM891
 LTDIE_56_POINTER:
 
 	.byte 13
-LDIFF_SYM904=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM904
+LDIFF_SYM892=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM892
 LTDIE_56_REFERENCE:
 
 	.byte 14
-LDIFF_SYM905=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM905
+LDIFF_SYM893=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM893
 	.byte 2
 	.asciz "System.Collections.Generic.GenericEqualityComparer`1<System.Drawing.Color>:Equals"
 	.asciz "System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_Equals_System_Drawing_Color_System_Drawing_Color"
 
 	.byte 3,175,1
 	.quad System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_Equals_System_Drawing_Color_System_Drawing_Color
-	.quad Lme_7a
+	.quad Lme_78
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM906=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM906
+LDIFF_SYM894=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM894
 	.byte 0,3
 	.asciz "x"
 
-LDIFF_SYM907=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM907
+LDIFF_SYM895=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM895
 	.byte 1,80,3
 	.asciz "y"
 
-LDIFF_SYM908=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM908
+LDIFF_SYM896=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM896
 	.byte 1,80,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM909=Lfde110_end - Lfde110_start
-	.long LDIFF_SYM909
-Lfde110_start:
+LDIFF_SYM897=Lfde108_end - Lfde108_start
+	.long LDIFF_SYM897
+Lfde108_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_Equals_System_Drawing_Color_System_Drawing_Color
 
-LDIFF_SYM910=Lme_7a - System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_Equals_System_Drawing_Color_System_Drawing_Color
-	.long LDIFF_SYM910
+LDIFF_SYM898=Lme_78 - System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_Equals_System_Drawing_Color_System_Drawing_Color
+	.long LDIFF_SYM898
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde110_end:
+Lfde108_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25689,36 +25530,36 @@ Lfde110_end:
 
 	.byte 3,185,1
 	.quad System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_GetHashCode_System_Drawing_Color
-	.quad Lme_7b
+	.quad Lme_79
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM911=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM911
+LDIFF_SYM899=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM899
 	.byte 0,3
 	.asciz "obj"
 
-LDIFF_SYM912=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM912
+LDIFF_SYM900=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM900
 	.byte 1,80,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM913=Lfde111_end - Lfde111_start
-	.long LDIFF_SYM913
-Lfde111_start:
+LDIFF_SYM901=Lfde109_end - Lfde109_start
+	.long LDIFF_SYM901
+Lfde109_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_GetHashCode_System_Drawing_Color
 
-LDIFF_SYM914=Lme_7b - System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_GetHashCode_System_Drawing_Color
-	.long LDIFF_SYM914
+LDIFF_SYM902=Lme_79 - System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_GetHashCode_System_Drawing_Color
+	.long LDIFF_SYM902
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde111_end:
+Lfde109_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25728,66 +25569,66 @@ Lfde111_end:
 
 	.byte 3,190,1
 	.quad System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_IndexOf_System_Drawing_Color___System_Drawing_Color_int_int
-	.quad Lme_7c
+	.quad Lme_7a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM915=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM915
+LDIFF_SYM903=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM903
 	.byte 0,3
 	.asciz "array"
 
-LDIFF_SYM916=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM916
+LDIFF_SYM904=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM904
 	.byte 1,104,3
 	.asciz "value"
 
-LDIFF_SYM917=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM917
+LDIFF_SYM905=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM905
 	.byte 1,80,3
 	.asciz "startIndex"
 
-LDIFF_SYM918=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM918
+LDIFF_SYM906=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM906
 	.byte 2,141,56,3
 	.asciz "count"
 
-LDIFF_SYM919=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM919
+LDIFF_SYM907=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM907
 	.byte 1,106,11
 	.asciz "endIndex"
 
-LDIFF_SYM920=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM920
+LDIFF_SYM908=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM908
 	.byte 1,103,11
 	.asciz "i"
 
-LDIFF_SYM921=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM921
+LDIFF_SYM909=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM909
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM922=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM922
+LDIFF_SYM910=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM910
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM923=Lfde112_end - Lfde112_start
-	.long LDIFF_SYM923
-Lfde112_start:
+LDIFF_SYM911=Lfde110_end - Lfde110_start
+	.long LDIFF_SYM911
+Lfde110_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_IndexOf_System_Drawing_Color___System_Drawing_Color_int_int
 
-LDIFF_SYM924=Lme_7c - System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_IndexOf_System_Drawing_Color___System_Drawing_Color_int_int
-	.long LDIFF_SYM924
+LDIFF_SYM912=Lme_7a - System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_IndexOf_System_Drawing_Color___System_Drawing_Color_int_int
+	.long LDIFF_SYM912
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,154,14
 	.align 3
-Lfde112_end:
+Lfde110_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25797,66 +25638,66 @@ Lfde112_end:
 
 	.byte 3,205,1
 	.quad System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_LastIndexOf_System_Drawing_Color___System_Drawing_Color_int_int
-	.quad Lme_7d
+	.quad Lme_7b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM925=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM925
+LDIFF_SYM913=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM913
 	.byte 0,3
 	.asciz "array"
 
-LDIFF_SYM926=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM926
+LDIFF_SYM914=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM914
 	.byte 1,104,3
 	.asciz "value"
 
-LDIFF_SYM927=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM927
+LDIFF_SYM915=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM915
 	.byte 1,80,3
 	.asciz "startIndex"
 
-LDIFF_SYM928=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM928
+LDIFF_SYM916=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM916
 	.byte 2,141,56,3
 	.asciz "count"
 
-LDIFF_SYM929=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM929
+LDIFF_SYM917=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM917
 	.byte 1,106,11
 	.asciz "endIndex"
 
-LDIFF_SYM930=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM930
+LDIFF_SYM918=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM918
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM931=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM931
+LDIFF_SYM919=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM919
 	.byte 1,103,11
 	.asciz "i"
 
-LDIFF_SYM932=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM932
+LDIFF_SYM920=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM920
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM933=Lfde113_end - Lfde113_start
-	.long LDIFF_SYM933
-Lfde113_start:
+LDIFF_SYM921=Lfde111_end - Lfde111_start
+	.long LDIFF_SYM921
+Lfde111_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_LastIndexOf_System_Drawing_Color___System_Drawing_Color_int_int
 
-LDIFF_SYM934=Lme_7d - System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_LastIndexOf_System_Drawing_Color___System_Drawing_Color_int_int
-	.long LDIFF_SYM934
+LDIFF_SYM922=Lme_7b - System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_LastIndexOf_System_Drawing_Color___System_Drawing_Color_int_int
+	.long LDIFF_SYM922
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,154,14
 	.align 3
-Lfde113_end:
+Lfde111_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25866,36 +25707,36 @@ Lfde113_end:
 
 	.byte 3,221,1
 	.quad System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_Equals_object
-	.quad Lme_7e
+	.quad Lme_7c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM935=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM935
+LDIFF_SYM923=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM923
 	.byte 0,3
 	.asciz "obj"
 
-LDIFF_SYM936=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM936
+LDIFF_SYM924=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM924
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM937=Lfde114_end - Lfde114_start
-	.long LDIFF_SYM937
-Lfde114_start:
+LDIFF_SYM925=Lfde112_end - Lfde112_start
+	.long LDIFF_SYM925
+Lfde112_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_Equals_object
 
-LDIFF_SYM938=Lme_7e - System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_Equals_object
-	.long LDIFF_SYM938
+LDIFF_SYM926=Lme_7c - System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_Equals_object
+	.long LDIFF_SYM926
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
 	.align 3
-Lfde114_end:
+Lfde112_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25905,31 +25746,31 @@ Lfde114_end:
 
 	.byte 3,226,1
 	.quad System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_GetHashCode
-	.quad Lme_7f
+	.quad Lme_7d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM939=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM939
+LDIFF_SYM927=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM927
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM940=Lfde115_end - Lfde115_start
-	.long LDIFF_SYM940
-Lfde115_start:
+LDIFF_SYM928=Lfde113_end - Lfde113_start
+	.long LDIFF_SYM928
+Lfde113_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_GetHashCode
 
-LDIFF_SYM941=Lme_7f - System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_GetHashCode
-	.long LDIFF_SYM941
+LDIFF_SYM929=Lme_7d - System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color_GetHashCode
+	.long LDIFF_SYM929
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde115_end:
+Lfde113_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25939,31 +25780,31 @@ Lfde115_end:
 
 	.byte 0,0
 	.quad System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color__ctor
-	.quad Lme_80
+	.quad Lme_7e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM942=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM942
+LDIFF_SYM930=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM930
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM943=Lfde116_end - Lfde116_start
-	.long LDIFF_SYM943
-Lfde116_start:
+LDIFF_SYM931=Lfde114_end - Lfde114_start
+	.long LDIFF_SYM931
+Lfde114_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color__ctor
 
-LDIFF_SYM944=Lme_80 - System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color__ctor
-	.long LDIFF_SYM944
+LDIFF_SYM932=Lme_7e - System_Collections_Generic_GenericEqualityComparer_1_System_Drawing_Color__ctor
+	.long LDIFF_SYM932
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde116_end:
+Lfde114_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25973,36 +25814,36 @@ Lfde116_end:
 
 	.byte 4,139,10
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
-	.quad Lme_81
+	.quad Lme_7f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM945=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM945
+LDIFF_SYM933=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM933
 	.byte 2,141,16,3
 	.asciz "dictionary"
 
-LDIFF_SYM946=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM946
+LDIFF_SYM934=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM934
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM947=Lfde117_end - Lfde117_start
-	.long LDIFF_SYM947
-Lfde117_start:
+LDIFF_SYM935=Lfde115_end - Lfde115_start
+	.long LDIFF_SYM935
+Lfde115_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
 
-LDIFF_SYM948=Lme_81 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
-	.long LDIFF_SYM948
+LDIFF_SYM936=Lme_7f - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
+	.long LDIFF_SYM936
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde117_end:
+Lfde115_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26012,31 +25853,31 @@ Lfde117_end:
 
 	.byte 4,149,10
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_GetEnumerator
-	.quad Lme_82
+	.quad Lme_80
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM949=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM949
+LDIFF_SYM937=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM937
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM950=Lfde118_end - Lfde118_start
-	.long LDIFF_SYM950
-Lfde118_start:
+LDIFF_SYM938=Lfde116_end - Lfde116_start
+	.long LDIFF_SYM938
+Lfde116_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_GetEnumerator
 
-LDIFF_SYM951=Lme_82 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_GetEnumerator
-	.long LDIFF_SYM951
+LDIFF_SYM939=Lme_80 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_GetEnumerator
+	.long LDIFF_SYM939
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde118_end:
+Lfde116_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26046,56 +25887,56 @@ Lfde118_end:
 
 	.byte 4,153,10
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_CopyTo_string___int
-	.quad Lme_83
+	.quad Lme_81
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM952=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM952
+LDIFF_SYM940=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM940
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM953=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM953
+LDIFF_SYM941=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM941
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM954=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM954
+LDIFF_SYM942=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM942
 	.byte 1,106,11
 	.asciz "count"
 
-LDIFF_SYM955=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM955
+LDIFF_SYM943=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM943
 	.byte 1,103,11
 	.asciz "entries"
 
-LDIFF_SYM956=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM956
+LDIFF_SYM944=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM944
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM957=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM957
+LDIFF_SYM945=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM945
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM958=Lfde119_end - Lfde119_start
-	.long LDIFF_SYM958
-Lfde119_start:
+LDIFF_SYM946=Lfde117_end - Lfde117_start
+	.long LDIFF_SYM946
+Lfde117_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_CopyTo_string___int
 
-LDIFF_SYM959=Lme_83 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_CopyTo_string___int
-	.long LDIFF_SYM959
+LDIFF_SYM947=Lme_81 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_CopyTo_string___int
+	.long LDIFF_SYM947
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,151,5,68,152,4,153,3,68,154,2
 	.align 3
-Lfde119_end:
+Lfde117_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26105,31 +25946,31 @@ Lfde119_end:
 
 	.byte 4,176,10
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_get_Count
-	.quad Lme_84
+	.quad Lme_82
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM960=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM960
+LDIFF_SYM948=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM948
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM961=Lfde120_end - Lfde120_start
-	.long LDIFF_SYM961
-Lfde120_start:
+LDIFF_SYM949=Lfde118_end - Lfde118_start
+	.long LDIFF_SYM949
+Lfde118_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_get_Count
 
-LDIFF_SYM962=Lme_84 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_get_Count
-	.long LDIFF_SYM962
+LDIFF_SYM950=Lme_82 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_get_Count
+	.long LDIFF_SYM950
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde120_end:
+Lfde118_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26139,31 +25980,31 @@ Lfde120_end:
 
 	.byte 4,178,10
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_get_IsReadOnly
-	.quad Lme_85
+	.quad Lme_83
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM963=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM963
+LDIFF_SYM951=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM951
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM964=Lfde121_end - Lfde121_start
-	.long LDIFF_SYM964
-Lfde121_start:
+LDIFF_SYM952=Lfde119_end - Lfde119_start
+	.long LDIFF_SYM952
+Lfde119_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_get_IsReadOnly
 
-LDIFF_SYM965=Lme_85 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_get_IsReadOnly
-	.long LDIFF_SYM965
+LDIFF_SYM953=Lme_83 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_get_IsReadOnly
+	.long LDIFF_SYM953
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde121_end:
+Lfde119_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26173,36 +26014,36 @@ Lfde121_end:
 
 	.byte 4,181,10
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Add_string
-	.quad Lme_86
+	.quad Lme_84
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM966=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM966
+LDIFF_SYM954=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM954
 	.byte 0,3
 	.asciz "item"
 
-LDIFF_SYM967=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM967
+LDIFF_SYM955=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM955
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM968=Lfde122_end - Lfde122_start
-	.long LDIFF_SYM968
-Lfde122_start:
+LDIFF_SYM956=Lfde120_end - Lfde120_start
+	.long LDIFF_SYM956
+Lfde120_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Add_string
 
-LDIFF_SYM969=Lme_86 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Add_string
-	.long LDIFF_SYM969
+LDIFF_SYM957=Lme_84 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Add_string
+	.long LDIFF_SYM957
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde122_end:
+Lfde120_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26212,31 +26053,31 @@ Lfde122_end:
 
 	.byte 4,184,10
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Clear
-	.quad Lme_87
+	.quad Lme_85
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM970=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM970
+LDIFF_SYM958=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM958
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM971=Lfde123_end - Lfde123_start
-	.long LDIFF_SYM971
-Lfde123_start:
+LDIFF_SYM959=Lfde121_end - Lfde121_start
+	.long LDIFF_SYM959
+Lfde121_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Clear
 
-LDIFF_SYM972=Lme_87 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Clear
-	.long LDIFF_SYM972
+LDIFF_SYM960=Lme_85 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Clear
+	.long LDIFF_SYM960
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde123_end:
+Lfde121_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26246,36 +26087,36 @@ Lfde123_end:
 
 	.byte 4,187,10
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Contains_string
-	.quad Lme_88
+	.quad Lme_86
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM973=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM973
+LDIFF_SYM961=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM961
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM974=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM974
+LDIFF_SYM962=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM962
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM975=Lfde124_end - Lfde124_start
-	.long LDIFF_SYM975
-Lfde124_start:
+LDIFF_SYM963=Lfde122_end - Lfde122_start
+	.long LDIFF_SYM963
+Lfde122_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Contains_string
 
-LDIFF_SYM976=Lme_88 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Contains_string
-	.long LDIFF_SYM976
+LDIFF_SYM964=Lme_86 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Contains_string
+	.long LDIFF_SYM964
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde124_end:
+Lfde122_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26285,36 +26126,36 @@ Lfde124_end:
 
 	.byte 4,191,10
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Remove_string
-	.quad Lme_89
+	.quad Lme_87
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM977=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM977
+LDIFF_SYM965=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM965
 	.byte 0,3
 	.asciz "item"
 
-LDIFF_SYM978=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM978
+LDIFF_SYM966=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM966
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM979=Lfde125_end - Lfde125_start
-	.long LDIFF_SYM979
-Lfde125_start:
+LDIFF_SYM967=Lfde123_end - Lfde123_start
+	.long LDIFF_SYM967
+Lfde123_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Remove_string
 
-LDIFF_SYM980=Lme_89 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Remove_string
-	.long LDIFF_SYM980
+LDIFF_SYM968=Lme_87 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TKey_Remove_string
+	.long LDIFF_SYM968
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde125_end:
+Lfde123_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26324,31 +26165,31 @@ Lfde125_end:
 
 	.byte 4,196,10
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_IEnumerable_TKey_GetEnumerator
-	.quad Lme_8a
+	.quad Lme_88
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM981=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM981
+LDIFF_SYM969=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM969
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM982=Lfde126_end - Lfde126_start
-	.long LDIFF_SYM982
-Lfde126_start:
+LDIFF_SYM970=Lfde124_end - Lfde124_start
+	.long LDIFF_SYM970
+Lfde124_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_IEnumerable_TKey_GetEnumerator
 
-LDIFF_SYM983=Lme_8a - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_IEnumerable_TKey_GetEnumerator
-	.long LDIFF_SYM983
+LDIFF_SYM971=Lme_88 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_Generic_IEnumerable_TKey_GetEnumerator
+	.long LDIFF_SYM971
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde126_end:
+Lfde124_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26358,31 +26199,31 @@ Lfde126_end:
 
 	.byte 4,199,10
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_IEnumerable_GetEnumerator
-	.quad Lme_8b
+	.quad Lme_89
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM984=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM984
+LDIFF_SYM972=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM972
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM985=Lfde127_end - Lfde127_start
-	.long LDIFF_SYM985
-Lfde127_start:
+LDIFF_SYM973=Lfde125_end - Lfde125_start
+	.long LDIFF_SYM973
+Lfde125_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_IEnumerable_GetEnumerator
 
-LDIFF_SYM986=Lme_8b - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_IEnumerable_GetEnumerator
-	.long LDIFF_SYM986
+LDIFF_SYM974=Lme_89 - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_IEnumerable_GetEnumerator
+	.long LDIFF_SYM974
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde127_end:
+Lfde125_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26392,66 +26233,66 @@ Lfde127_end:
 
 	.byte 4,203,10
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_ICollection_CopyTo_System_Array_int
-	.quad Lme_8c
+	.quad Lme_8a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM987=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM987
+LDIFF_SYM975=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM975
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM988=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM988
+LDIFF_SYM976=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM976
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM989=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM989
+LDIFF_SYM977=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM977
 	.byte 1,106,11
 	.asciz "keys"
 
-LDIFF_SYM990=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM990
+LDIFF_SYM978=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM978
 	.byte 1,102,11
 	.asciz "objects"
 
-LDIFF_SYM991=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM991
+LDIFF_SYM979=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM979
 	.byte 1,105,11
 	.asciz "count"
 
-LDIFF_SYM992=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM992
+LDIFF_SYM980=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM980
 	.byte 1,103,11
 	.asciz "entries"
 
-LDIFF_SYM993=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM993
+LDIFF_SYM981=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM981
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM994=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM994
+LDIFF_SYM982=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM982
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM995=Lfde128_end - Lfde128_start
-	.long LDIFF_SYM995
-Lfde128_start:
+LDIFF_SYM983=Lfde126_end - Lfde126_start
+	.long LDIFF_SYM983
+Lfde126_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_ICollection_CopyTo_System_Array_int
 
-LDIFF_SYM996=Lme_8c - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_ICollection_CopyTo_System_Array_int
-	.long LDIFF_SYM996
+LDIFF_SYM984=Lme_8a - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_ICollection_CopyTo_System_Array_int
+	.long LDIFF_SYM984
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
-Lfde128_end:
+Lfde126_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26461,31 +26302,31 @@ Lfde128_end:
 
 	.byte 4,242,10
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_ICollection_get_IsSynchronized
-	.quad Lme_8d
+	.quad Lme_8b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM997=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM997
+LDIFF_SYM985=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM985
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM998=Lfde129_end - Lfde129_start
-	.long LDIFF_SYM998
-Lfde129_start:
+LDIFF_SYM986=Lfde127_end - Lfde127_start
+	.long LDIFF_SYM986
+Lfde127_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_ICollection_get_IsSynchronized
 
-LDIFF_SYM999=Lme_8d - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_ICollection_get_IsSynchronized
-	.long LDIFF_SYM999
+LDIFF_SYM987=Lme_8b - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_ICollection_get_IsSynchronized
+	.long LDIFF_SYM987
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde129_end:
+Lfde127_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26495,31 +26336,31 @@ Lfde129_end:
 
 	.byte 4,244,10
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_ICollection_get_SyncRoot
-	.quad Lme_8e
+	.quad Lme_8c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1000=LTDIE_5_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1000
+LDIFF_SYM988=LTDIE_5_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM988
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1001=Lfde130_end - Lfde130_start
-	.long LDIFF_SYM1001
-Lfde130_start:
+LDIFF_SYM989=Lfde128_end - Lfde128_start
+	.long LDIFF_SYM989
+Lfde128_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_ICollection_get_SyncRoot
 
-LDIFF_SYM1002=Lme_8e - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_ICollection_get_SyncRoot
-	.long LDIFF_SYM1002
+LDIFF_SYM990=Lme_8c - System_Collections_Generic_Dictionary_2_KeyCollection_string_System_Drawing_Color_System_Collections_ICollection_get_SyncRoot
+	.long LDIFF_SYM990
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde130_end:
+Lfde128_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26529,36 +26370,36 @@ Lfde130_end:
 
 	.byte 4,200,11
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
-	.quad Lme_8f
+	.quad Lme_8d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1003=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1003
+LDIFF_SYM991=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM991
 	.byte 2,141,16,3
 	.asciz "dictionary"
 
-LDIFF_SYM1004=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1004
+LDIFF_SYM992=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM992
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1005=Lfde131_end - Lfde131_start
-	.long LDIFF_SYM1005
-Lfde131_start:
+LDIFF_SYM993=Lfde129_end - Lfde129_start
+	.long LDIFF_SYM993
+Lfde129_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
 
-LDIFF_SYM1006=Lme_8f - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
-	.long LDIFF_SYM1006
+LDIFF_SYM994=Lme_8d - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
+	.long LDIFF_SYM994
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde131_end:
+Lfde129_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26568,31 +26409,31 @@ Lfde131_end:
 
 	.byte 4,210,11
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_GetEnumerator
-	.quad Lme_90
+	.quad Lme_8e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1007=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1007
+LDIFF_SYM995=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM995
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1008=Lfde132_end - Lfde132_start
-	.long LDIFF_SYM1008
-Lfde132_start:
+LDIFF_SYM996=Lfde130_end - Lfde130_start
+	.long LDIFF_SYM996
+Lfde130_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_GetEnumerator
 
-LDIFF_SYM1009=Lme_90 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_GetEnumerator
-	.long LDIFF_SYM1009
+LDIFF_SYM997=Lme_8e - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_GetEnumerator
+	.long LDIFF_SYM997
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde132_end:
+Lfde130_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26602,56 +26443,56 @@ Lfde132_end:
 
 	.byte 4,214,11
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_CopyTo_System_Drawing_Color___int
-	.quad Lme_91
+	.quad Lme_8f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1010=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1010
+LDIFF_SYM998=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM998
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM1011=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1011
+LDIFF_SYM999=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM999
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM1012=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1012
+LDIFF_SYM1000=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1000
 	.byte 1,106,11
 	.asciz "count"
 
-LDIFF_SYM1013=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1013
+LDIFF_SYM1001=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1001
 	.byte 1,103,11
 	.asciz "entries"
 
-LDIFF_SYM1014=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1014
+LDIFF_SYM1002=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1002
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM1015=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1015
+LDIFF_SYM1003=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1003
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1016=Lfde133_end - Lfde133_start
-	.long LDIFF_SYM1016
-Lfde133_start:
+LDIFF_SYM1004=Lfde131_end - Lfde131_start
+	.long LDIFF_SYM1004
+Lfde131_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_CopyTo_System_Drawing_Color___int
 
-LDIFF_SYM1017=Lme_91 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_CopyTo_System_Drawing_Color___int
-	.long LDIFF_SYM1017
+LDIFF_SYM1005=Lme_8f - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_CopyTo_System_Drawing_Color___int
+	.long LDIFF_SYM1005
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,68,154,6
 	.align 3
-Lfde133_end:
+Lfde131_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26661,31 +26502,31 @@ Lfde133_end:
 
 	.byte 4,237,11
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_get_Count
-	.quad Lme_92
+	.quad Lme_90
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1018=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1018
+LDIFF_SYM1006=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1006
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1019=Lfde134_end - Lfde134_start
-	.long LDIFF_SYM1019
-Lfde134_start:
+LDIFF_SYM1007=Lfde132_end - Lfde132_start
+	.long LDIFF_SYM1007
+Lfde132_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_get_Count
 
-LDIFF_SYM1020=Lme_92 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_get_Count
-	.long LDIFF_SYM1020
+LDIFF_SYM1008=Lme_90 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_get_Count
+	.long LDIFF_SYM1008
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde134_end:
+Lfde132_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26695,31 +26536,31 @@ Lfde134_end:
 
 	.byte 4,239,11
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_get_IsReadOnly
-	.quad Lme_93
+	.quad Lme_91
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1021=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1021
+LDIFF_SYM1009=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1009
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1022=Lfde135_end - Lfde135_start
-	.long LDIFF_SYM1022
-Lfde135_start:
+LDIFF_SYM1010=Lfde133_end - Lfde133_start
+	.long LDIFF_SYM1010
+Lfde133_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_get_IsReadOnly
 
-LDIFF_SYM1023=Lme_93 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_get_IsReadOnly
-	.long LDIFF_SYM1023
+LDIFF_SYM1011=Lme_91 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_get_IsReadOnly
+	.long LDIFF_SYM1011
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde135_end:
+Lfde133_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26729,36 +26570,36 @@ Lfde135_end:
 
 	.byte 4,242,11
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Add_System_Drawing_Color
-	.quad Lme_94
+	.quad Lme_92
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1024=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1024
+LDIFF_SYM1012=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1012
 	.byte 0,3
 	.asciz "item"
 
-LDIFF_SYM1025=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1025
+LDIFF_SYM1013=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1013
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1026=Lfde136_end - Lfde136_start
-	.long LDIFF_SYM1026
-Lfde136_start:
+LDIFF_SYM1014=Lfde134_end - Lfde134_start
+	.long LDIFF_SYM1014
+Lfde134_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Add_System_Drawing_Color
 
-LDIFF_SYM1027=Lme_94 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Add_System_Drawing_Color
-	.long LDIFF_SYM1027
+LDIFF_SYM1015=Lme_92 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Add_System_Drawing_Color
+	.long LDIFF_SYM1015
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde136_end:
+Lfde134_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26768,36 +26609,36 @@ Lfde136_end:
 
 	.byte 4,246,11
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Remove_System_Drawing_Color
-	.quad Lme_95
+	.quad Lme_93
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1028=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1028
+LDIFF_SYM1016=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1016
 	.byte 0,3
 	.asciz "item"
 
-LDIFF_SYM1029=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1029
+LDIFF_SYM1017=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1017
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1030=Lfde137_end - Lfde137_start
-	.long LDIFF_SYM1030
-Lfde137_start:
+LDIFF_SYM1018=Lfde135_end - Lfde135_start
+	.long LDIFF_SYM1018
+Lfde135_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Remove_System_Drawing_Color
 
-LDIFF_SYM1031=Lme_95 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Remove_System_Drawing_Color
-	.long LDIFF_SYM1031
+LDIFF_SYM1019=Lme_93 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Remove_System_Drawing_Color
+	.long LDIFF_SYM1019
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde137_end:
+Lfde135_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26807,31 +26648,31 @@ Lfde137_end:
 
 	.byte 4,251,11
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Clear
-	.quad Lme_96
+	.quad Lme_94
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1032=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1032
+LDIFF_SYM1020=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1020
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1033=Lfde138_end - Lfde138_start
-	.long LDIFF_SYM1033
-Lfde138_start:
+LDIFF_SYM1021=Lfde136_end - Lfde136_start
+	.long LDIFF_SYM1021
+Lfde136_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Clear
 
-LDIFF_SYM1034=Lme_96 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Clear
-	.long LDIFF_SYM1034
+LDIFF_SYM1022=Lme_94 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Clear
+	.long LDIFF_SYM1022
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde138_end:
+Lfde136_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26841,36 +26682,36 @@ Lfde138_end:
 
 	.byte 4,254,11
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Contains_System_Drawing_Color
-	.quad Lme_97
+	.quad Lme_95
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1035=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1035
+LDIFF_SYM1023=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1023
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1036=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1036
+LDIFF_SYM1024=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1024
 	.byte 1,80,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1037=Lfde139_end - Lfde139_start
-	.long LDIFF_SYM1037
-Lfde139_start:
+LDIFF_SYM1025=Lfde137_end - Lfde137_start
+	.long LDIFF_SYM1025
+Lfde137_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Contains_System_Drawing_Color
 
-LDIFF_SYM1038=Lme_97 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Contains_System_Drawing_Color
-	.long LDIFF_SYM1038
+LDIFF_SYM1026=Lme_95 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_ICollection_TValue_Contains_System_Drawing_Color
+	.long LDIFF_SYM1026
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde139_end:
+Lfde137_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26880,31 +26721,31 @@ Lfde139_end:
 
 	.byte 4,129,12
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_IEnumerable_TValue_GetEnumerator
-	.quad Lme_98
+	.quad Lme_96
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1039=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1039
+LDIFF_SYM1027=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1027
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1040=Lfde140_end - Lfde140_start
-	.long LDIFF_SYM1040
-Lfde140_start:
+LDIFF_SYM1028=Lfde138_end - Lfde138_start
+	.long LDIFF_SYM1028
+Lfde138_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_IEnumerable_TValue_GetEnumerator
 
-LDIFF_SYM1041=Lme_98 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_IEnumerable_TValue_GetEnumerator
-	.long LDIFF_SYM1041
+LDIFF_SYM1029=Lme_96 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_Generic_IEnumerable_TValue_GetEnumerator
+	.long LDIFF_SYM1029
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde140_end:
+Lfde138_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26914,31 +26755,31 @@ Lfde140_end:
 
 	.byte 4,132,12
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_IEnumerable_GetEnumerator
-	.quad Lme_99
+	.quad Lme_97
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1042=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1042
+LDIFF_SYM1030=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1030
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1043=Lfde141_end - Lfde141_start
-	.long LDIFF_SYM1043
-Lfde141_start:
+LDIFF_SYM1031=Lfde139_end - Lfde139_start
+	.long LDIFF_SYM1031
+Lfde139_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_IEnumerable_GetEnumerator
 
-LDIFF_SYM1044=Lme_99 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_IEnumerable_GetEnumerator
-	.long LDIFF_SYM1044
+LDIFF_SYM1032=Lme_97 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_IEnumerable_GetEnumerator
+	.long LDIFF_SYM1032
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde141_end:
+Lfde139_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -26948,66 +26789,66 @@ Lfde141_end:
 
 	.byte 4,136,12
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_ICollection_CopyTo_System_Array_int
-	.quad Lme_9a
+	.quad Lme_98
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1045=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1045
+LDIFF_SYM1033=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1033
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM1046=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1046
+LDIFF_SYM1034=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1034
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM1047=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1047
+LDIFF_SYM1035=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1035
 	.byte 1,106,11
 	.asciz "values"
 
-LDIFF_SYM1048=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1048
+LDIFF_SYM1036=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1036
 	.byte 1,102,11
 	.asciz "objects"
 
-LDIFF_SYM1049=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1049
+LDIFF_SYM1037=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1037
 	.byte 1,105,11
 	.asciz "count"
 
-LDIFF_SYM1050=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1050
+LDIFF_SYM1038=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1038
 	.byte 1,103,11
 	.asciz "entries"
 
-LDIFF_SYM1051=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1051
+LDIFF_SYM1039=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1039
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM1052=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1052
+LDIFF_SYM1040=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1040
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1053=Lfde142_end - Lfde142_start
-	.long LDIFF_SYM1053
-Lfde142_start:
+LDIFF_SYM1041=Lfde140_end - Lfde140_start
+	.long LDIFF_SYM1041
+Lfde140_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_ICollection_CopyTo_System_Array_int
 
-LDIFF_SYM1054=Lme_9a - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_ICollection_CopyTo_System_Array_int
-	.long LDIFF_SYM1054
+LDIFF_SYM1042=Lme_98 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_ICollection_CopyTo_System_Array_int
+	.long LDIFF_SYM1042
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,153,13,68,154,12
 	.align 3
-Lfde142_end:
+Lfde140_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27017,31 +26858,31 @@ Lfde142_end:
 
 	.byte 4,175,12
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_ICollection_get_IsSynchronized
-	.quad Lme_9b
+	.quad Lme_99
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1055=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1055
+LDIFF_SYM1043=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1043
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1056=Lfde143_end - Lfde143_start
-	.long LDIFF_SYM1056
-Lfde143_start:
+LDIFF_SYM1044=Lfde141_end - Lfde141_start
+	.long LDIFF_SYM1044
+Lfde141_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_ICollection_get_IsSynchronized
 
-LDIFF_SYM1057=Lme_9b - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_ICollection_get_IsSynchronized
-	.long LDIFF_SYM1057
+LDIFF_SYM1045=Lme_99 - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_ICollection_get_IsSynchronized
+	.long LDIFF_SYM1045
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde143_end:
+Lfde141_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27051,31 +26892,31 @@ Lfde143_end:
 
 	.byte 4,177,12
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_ICollection_get_SyncRoot
-	.quad Lme_9c
+	.quad Lme_9a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1058=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1058
+LDIFF_SYM1046=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1046
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1059=Lfde144_end - Lfde144_start
-	.long LDIFF_SYM1059
-Lfde144_start:
+LDIFF_SYM1047=Lfde142_end - Lfde142_start
+	.long LDIFF_SYM1047
+Lfde142_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_ICollection_get_SyncRoot
 
-LDIFF_SYM1060=Lme_9c - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_ICollection_get_SyncRoot
-	.long LDIFF_SYM1060
+LDIFF_SYM1048=Lme_9a - System_Collections_Generic_Dictionary_2_ValueCollection_string_System_Drawing_Color_System_Collections_ICollection_get_SyncRoot
+	.long LDIFF_SYM1048
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde144_end:
+Lfde142_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_60:
@@ -27084,238 +26925,238 @@ LTDIE_60:
 	.asciz "System_DelegateData"
 
 	.byte 40,16
-LDIFF_SYM1061=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM1061
+LDIFF_SYM1049=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM1049
 	.byte 2,35,0,6
 	.asciz "target_type"
 
-LDIFF_SYM1062=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1062
+LDIFF_SYM1050=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1050
 	.byte 2,35,16,6
 	.asciz "method_name"
 
-LDIFF_SYM1063=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1063
+LDIFF_SYM1051=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1051
 	.byte 2,35,24,6
 	.asciz "curried_first_arg"
 
-LDIFF_SYM1064=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1064
+LDIFF_SYM1052=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1052
 	.byte 2,35,32,0,7
 	.asciz "System_DelegateData"
 
-LDIFF_SYM1065=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM1065
+LDIFF_SYM1053=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM1053
 LTDIE_60_POINTER:
 
 	.byte 13
-LDIFF_SYM1066=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM1066
+LDIFF_SYM1054=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM1054
 LTDIE_60_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1067=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM1067
+LDIFF_SYM1055=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM1055
 LTDIE_59:
 
 	.byte 5
 	.asciz "System_Delegate"
 
 	.byte 120,16
-LDIFF_SYM1068=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM1068
+LDIFF_SYM1056=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM1056
 	.byte 2,35,0,6
 	.asciz "method_ptr"
 
-LDIFF_SYM1069=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1069
+LDIFF_SYM1057=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1057
 	.byte 2,35,16,6
 	.asciz "invoke_impl"
 
-LDIFF_SYM1070=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1070
+LDIFF_SYM1058=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1058
 	.byte 2,35,24,6
 	.asciz "m_target"
 
-LDIFF_SYM1071=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1071
+LDIFF_SYM1059=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1059
 	.byte 2,35,32,6
 	.asciz "method"
 
-LDIFF_SYM1072=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1072
+LDIFF_SYM1060=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1060
 	.byte 2,35,40,6
 	.asciz "delegate_trampoline"
 
-LDIFF_SYM1073=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1073
+LDIFF_SYM1061=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1061
 	.byte 2,35,48,6
 	.asciz "extra_arg"
 
-LDIFF_SYM1074=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1074
+LDIFF_SYM1062=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1062
 	.byte 2,35,56,6
 	.asciz "method_code"
 
-LDIFF_SYM1075=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1075
+LDIFF_SYM1063=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1063
 	.byte 2,35,64,6
 	.asciz "interp_method"
 
-LDIFF_SYM1076=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1076
+LDIFF_SYM1064=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1064
 	.byte 2,35,72,6
 	.asciz "interp_invoke_impl"
 
-LDIFF_SYM1077=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1077
+LDIFF_SYM1065=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1065
 	.byte 2,35,80,6
 	.asciz "method_info"
 
-LDIFF_SYM1078=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1078
+LDIFF_SYM1066=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1066
 	.byte 2,35,88,6
 	.asciz "original_method_info"
 
-LDIFF_SYM1079=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1079
+LDIFF_SYM1067=LTDIE_40_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1067
 	.byte 2,35,96,6
 	.asciz "data"
 
-LDIFF_SYM1080=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1080
+LDIFF_SYM1068=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1068
 	.byte 2,35,104,6
 	.asciz "method_is_virtual"
 
-LDIFF_SYM1081=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1081
+LDIFF_SYM1069=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1069
 	.byte 2,35,112,0,7
 	.asciz "System_Delegate"
 
-LDIFF_SYM1082=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM1082
+LDIFF_SYM1070=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM1070
 LTDIE_59_POINTER:
 
 	.byte 13
-LDIFF_SYM1083=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM1083
+LDIFF_SYM1071=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM1071
 LTDIE_59_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1084=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM1084
+LDIFF_SYM1072=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM1072
 LTDIE_58:
 
 	.byte 5
 	.asciz "System_MulticastDelegate"
 
 	.byte 128,1,16
-LDIFF_SYM1085=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM1085
+LDIFF_SYM1073=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM1073
 	.byte 2,35,0,6
 	.asciz "delegates"
 
-LDIFF_SYM1086=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1086
+LDIFF_SYM1074=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1074
 	.byte 2,35,120,0,7
 	.asciz "System_MulticastDelegate"
 
-LDIFF_SYM1087=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM1087
+LDIFF_SYM1075=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM1075
 LTDIE_58_POINTER:
 
 	.byte 13
-LDIFF_SYM1088=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM1088
+LDIFF_SYM1076=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM1076
 LTDIE_58_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1089=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM1089
+LDIFF_SYM1077=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM1077
 LTDIE_57:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 128,1,16
-LDIFF_SYM1090=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM1090
+LDIFF_SYM1078=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM1078
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1091=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM1091
+LDIFF_SYM1079=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM1079
 LTDIE_57_POINTER:
 
 	.byte 13
-LDIFF_SYM1092=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM1092
+LDIFF_SYM1080=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM1080
 LTDIE_57_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1093=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM1093
+LDIFF_SYM1081=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM1081
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Collections.Generic.Dictionary`2<string,_System.Drawing.Color>>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_invoke_TResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_invoke_TResult
-	.quad Lme_9d
+	.quad Lme_9b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1094=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1094
+LDIFF_SYM1082=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1082
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1095=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1095
+LDIFF_SYM1083=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1083
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1096=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1096
+LDIFF_SYM1084=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1084
 	.byte 1,106,11
 	.asciz "V_2"
 
-LDIFF_SYM1097=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1097
+LDIFF_SYM1085=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1085
 	.byte 1,105,11
 	.asciz "V_3"
 
-LDIFF_SYM1098=LTDIE_58_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1098
+LDIFF_SYM1086=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1086
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM1099=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1099
+LDIFF_SYM1087=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1087
 	.byte 1,105,11
 	.asciz "V_5"
 
-LDIFF_SYM1100=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1100
+LDIFF_SYM1088=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1088
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1101=Lfde145_end - Lfde145_start
-	.long LDIFF_SYM1101
-Lfde145_start:
+LDIFF_SYM1089=Lfde143_end - Lfde143_start
+	.long LDIFF_SYM1089
+Lfde143_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_invoke_TResult
 
-LDIFF_SYM1102=Lme_9d - wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_invoke_TResult
-	.long LDIFF_SYM1102
+LDIFF_SYM1090=Lme_9b - wrapper_delegate_invoke_System_Func_1_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_invoke_TResult
+	.long LDIFF_SYM1090
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde145_end:
+Lfde143_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27325,66 +27166,66 @@ Lfde145_end:
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_Color_StructureToPtr_object_intptr_bool
-	.quad Lme_a2
+	.quad Lme_a0
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM1103=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1103
+LDIFF_SYM1091=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1091
 	.byte 1,104,3
 	.asciz "param1"
 
-LDIFF_SYM1104=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1104
+LDIFF_SYM1092=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1092
 	.byte 2,141,32,3
 	.asciz "param2"
 
-LDIFF_SYM1105=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1105
+LDIFF_SYM1093=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1093
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1106=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1106
+LDIFF_SYM1094=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1094
 	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM1107=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1107
+LDIFF_SYM1095=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1095
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1108=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1108
+LDIFF_SYM1096=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1096
 	.byte 0,11
 	.asciz "V_3"
 
-LDIFF_SYM1109=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1109
+LDIFF_SYM1097=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1097
 	.byte 2,141,40,11
 	.asciz "V_4"
 
-LDIFF_SYM1110=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1110
+LDIFF_SYM1098=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1098
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1111=Lfde146_end - Lfde146_start
-	.long LDIFF_SYM1111
-Lfde146_start:
+LDIFF_SYM1099=Lfde144_end - Lfde144_start
+	.long LDIFF_SYM1099
+Lfde144_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_Color_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM1112=Lme_a2 - wrapper_other_System_Drawing_Color_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM1112
+LDIFF_SYM1100=Lme_a0 - wrapper_other_System_Drawing_Color_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM1100
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5
 	.align 3
-Lfde146_end:
+Lfde144_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27394,56 +27235,56 @@ Lfde146_end:
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_Color_PtrToStructure_intptr_object
-	.quad Lme_a3
+	.quad Lme_a1
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM1113=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1113
+LDIFF_SYM1101=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1101
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM1114=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1114
+LDIFF_SYM1102=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1102
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM1115=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1115
+LDIFF_SYM1103=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1103
 	.byte 0,11
 	.asciz "V_1"
 
-LDIFF_SYM1116=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1116
+LDIFF_SYM1104=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1104
 	.byte 0,11
 	.asciz "V_2"
 
-LDIFF_SYM1117=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1117
+LDIFF_SYM1105=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1105
 	.byte 0,11
 	.asciz "V_3"
 
-LDIFF_SYM1118=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1118
+LDIFF_SYM1106=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1106
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1119=Lfde147_end - Lfde147_start
-	.long LDIFF_SYM1119
-Lfde147_start:
+LDIFF_SYM1107=Lfde145_end - Lfde145_start
+	.long LDIFF_SYM1107
+Lfde145_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_Color_PtrToStructure_intptr_object
 
-LDIFF_SYM1120=Lme_a3 - wrapper_other_System_Drawing_Color_PtrToStructure_intptr_object
-	.long LDIFF_SYM1120
+LDIFF_SYM1108=Lme_a1 - wrapper_other_System_Drawing_Color_PtrToStructure_intptr_object
+	.long LDIFF_SYM1108
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde147_end:
+Lfde145_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27453,41 +27294,41 @@ Lfde147_end:
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_PointF_StructureToPtr_object_intptr_bool
-	.quad Lme_a4
+	.quad Lme_a2
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM1121=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1121
+LDIFF_SYM1109=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1109
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM1122=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1122
+LDIFF_SYM1110=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1110
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM1123=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1123
+LDIFF_SYM1111=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1111
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1124=Lfde148_end - Lfde148_start
-	.long LDIFF_SYM1124
-Lfde148_start:
+LDIFF_SYM1112=Lfde146_end - Lfde146_start
+	.long LDIFF_SYM1112
+Lfde146_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_PointF_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM1125=Lme_a4 - wrapper_other_System_Drawing_PointF_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM1125
+LDIFF_SYM1113=Lme_a2 - wrapper_other_System_Drawing_PointF_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM1113
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde148_end:
+Lfde146_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27497,36 +27338,36 @@ Lfde148_end:
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_PointF_PtrToStructure_intptr_object
-	.quad Lme_a5
+	.quad Lme_a3
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM1126=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1126
+LDIFF_SYM1114=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1114
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM1127=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1127
+LDIFF_SYM1115=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1115
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1128=Lfde149_end - Lfde149_start
-	.long LDIFF_SYM1128
-Lfde149_start:
+LDIFF_SYM1116=Lfde147_end - Lfde147_start
+	.long LDIFF_SYM1116
+Lfde147_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_PointF_PtrToStructure_intptr_object
 
-LDIFF_SYM1129=Lme_a5 - wrapper_other_System_Drawing_PointF_PtrToStructure_intptr_object
-	.long LDIFF_SYM1129
+LDIFF_SYM1117=Lme_a3 - wrapper_other_System_Drawing_PointF_PtrToStructure_intptr_object
+	.long LDIFF_SYM1117
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde149_end:
+Lfde147_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27536,41 +27377,41 @@ Lfde149_end:
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_RectangleF_StructureToPtr_object_intptr_bool
-	.quad Lme_a6
+	.quad Lme_a4
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM1130=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1130
+LDIFF_SYM1118=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1118
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM1131=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1131
+LDIFF_SYM1119=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1119
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM1132=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1132
+LDIFF_SYM1120=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1120
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1133=Lfde150_end - Lfde150_start
-	.long LDIFF_SYM1133
-Lfde150_start:
+LDIFF_SYM1121=Lfde148_end - Lfde148_start
+	.long LDIFF_SYM1121
+Lfde148_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_RectangleF_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM1134=Lme_a6 - wrapper_other_System_Drawing_RectangleF_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM1134
+LDIFF_SYM1122=Lme_a4 - wrapper_other_System_Drawing_RectangleF_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM1122
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde150_end:
+Lfde148_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27580,36 +27421,36 @@ Lfde150_end:
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_RectangleF_PtrToStructure_intptr_object
-	.quad Lme_a7
+	.quad Lme_a5
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM1135=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1135
+LDIFF_SYM1123=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1123
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM1136=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1136
+LDIFF_SYM1124=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1124
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1137=Lfde151_end - Lfde151_start
-	.long LDIFF_SYM1137
-Lfde151_start:
+LDIFF_SYM1125=Lfde149_end - Lfde149_start
+	.long LDIFF_SYM1125
+Lfde149_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_RectangleF_PtrToStructure_intptr_object
 
-LDIFF_SYM1138=Lme_a7 - wrapper_other_System_Drawing_RectangleF_PtrToStructure_intptr_object
-	.long LDIFF_SYM1138
+LDIFF_SYM1126=Lme_a5 - wrapper_other_System_Drawing_RectangleF_PtrToStructure_intptr_object
+	.long LDIFF_SYM1126
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde151_end:
+Lfde149_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27619,41 +27460,41 @@ Lfde151_end:
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_SizeF_StructureToPtr_object_intptr_bool
-	.quad Lme_a8
+	.quad Lme_a6
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM1139=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1139
+LDIFF_SYM1127=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1127
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM1140=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1140
+LDIFF_SYM1128=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1128
 	.byte 2,141,24,3
 	.asciz "param2"
 
-LDIFF_SYM1141=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1141
+LDIFF_SYM1129=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1129
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1142=Lfde152_end - Lfde152_start
-	.long LDIFF_SYM1142
-Lfde152_start:
+LDIFF_SYM1130=Lfde150_end - Lfde150_start
+	.long LDIFF_SYM1130
+Lfde150_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_SizeF_StructureToPtr_object_intptr_bool
 
-LDIFF_SYM1143=Lme_a8 - wrapper_other_System_Drawing_SizeF_StructureToPtr_object_intptr_bool
-	.long LDIFF_SYM1143
+LDIFF_SYM1131=Lme_a6 - wrapper_other_System_Drawing_SizeF_StructureToPtr_object_intptr_bool
+	.long LDIFF_SYM1131
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde152_end:
+Lfde150_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27663,36 +27504,36 @@ Lfde152_end:
 
 	.byte 0,0
 	.quad wrapper_other_System_Drawing_SizeF_PtrToStructure_intptr_object
-	.quad Lme_a9
+	.quad Lme_a7
 
 	.byte 2,118,16,3
 	.asciz "param0"
 
-LDIFF_SYM1144=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1144
+LDIFF_SYM1132=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1132
 	.byte 2,141,16,3
 	.asciz "param1"
 
-LDIFF_SYM1145=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1145
+LDIFF_SYM1133=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1133
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1146=Lfde153_end - Lfde153_start
-	.long LDIFF_SYM1146
-Lfde153_start:
+LDIFF_SYM1134=Lfde151_end - Lfde151_start
+	.long LDIFF_SYM1134
+Lfde151_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_other_System_Drawing_SizeF_PtrToStructure_intptr_object
 
-LDIFF_SYM1147=Lme_a9 - wrapper_other_System_Drawing_SizeF_PtrToStructure_intptr_object
-	.long LDIFF_SYM1147
+LDIFF_SYM1135=Lme_a7 - wrapper_other_System_Drawing_SizeF_PtrToStructure_intptr_object
+	.long LDIFF_SYM1135
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde153_end:
+Lfde151_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27702,36 +27543,36 @@ Lfde153_end:
 
 	.byte 4,70
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_System_Collections_Generic_IEqualityComparer_1_string
-	.quad Lme_aa
+	.quad Lme_a8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1148=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1148
+LDIFF_SYM1136=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1136
 	.byte 2,141,16,3
 	.asciz "comparer"
 
-LDIFF_SYM1149=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1149
+LDIFF_SYM1137=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1137
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1150=Lfde154_end - Lfde154_start
-	.long LDIFF_SYM1150
-Lfde154_start:
+LDIFF_SYM1138=Lfde152_end - Lfde152_start
+	.long LDIFF_SYM1138
+Lfde152_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_System_Collections_Generic_IEqualityComparer_1_string
 
-LDIFF_SYM1151=Lme_aa - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_System_Collections_Generic_IEqualityComparer_1_string
-	.long LDIFF_SYM1151
+LDIFF_SYM1139=Lme_a8 - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_System_Collections_Generic_IEqualityComparer_1_string
+	.long LDIFF_SYM1139
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde154_end:
+Lfde152_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27741,41 +27582,41 @@ Lfde154_end:
 
 	.byte 4,231,1
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_set_Item_string_System_Drawing_Color
-	.quad Lme_ab
+	.quad Lme_a9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1152=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1152
+LDIFF_SYM1140=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1140
 	.byte 2,141,16,3
 	.asciz "key"
 
-LDIFF_SYM1153=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1153
+LDIFF_SYM1141=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1141
 	.byte 2,141,24,3
 	.asciz "value"
 
-LDIFF_SYM1154=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1154
+LDIFF_SYM1142=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1142
 	.byte 1,80,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1155=Lfde155_end - Lfde155_start
-	.long LDIFF_SYM1155
-Lfde155_start:
+LDIFF_SYM1143=Lfde153_end - Lfde153_start
+	.long LDIFF_SYM1143
+Lfde153_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_set_Item_string_System_Drawing_Color
 
-LDIFF_SYM1156=Lme_ab - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_set_Item_string_System_Drawing_Color
-	.long LDIFF_SYM1156
+LDIFF_SYM1144=Lme_a9 - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_set_Item_string_System_Drawing_Color
+	.long LDIFF_SYM1144
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde155_end:
+Lfde153_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27785,46 +27626,46 @@ Lfde155_end:
 
 	.byte 4,248,6
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_TryGetValue_string_System_Drawing_Color_
-	.quad Lme_ac
+	.quad Lme_aa
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1157=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1157
+LDIFF_SYM1145=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1145
 	.byte 2,141,32,3
 	.asciz "key"
 
-LDIFF_SYM1158=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1158
+LDIFF_SYM1146=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1146
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1159=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1159
+LDIFF_SYM1147=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1147
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM1160=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1160
+LDIFF_SYM1148=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1148
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1161=Lfde156_end - Lfde156_start
-	.long LDIFF_SYM1161
-Lfde156_start:
+LDIFF_SYM1149=Lfde154_end - Lfde154_start
+	.long LDIFF_SYM1149
+Lfde154_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_TryGetValue_string_System_Drawing_Color_
 
-LDIFF_SYM1162=Lme_ac - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_TryGetValue_string_System_Drawing_Color_
-	.long LDIFF_SYM1162
+LDIFF_SYM1150=Lme_aa - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_TryGetValue_string_System_Drawing_Color_
+	.long LDIFF_SYM1150
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
 	.align 3
-Lfde156_end:
+Lfde154_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27834,41 +27675,41 @@ Lfde156_end:
 
 	.byte 1,192,1
 	.quad System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_int
-	.quad Lme_ad
+	.quad Lme_ab
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1163=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1163
+LDIFF_SYM1151=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1151
 	.byte 2,141,24,3
 	.asciz "index"
 
-LDIFF_SYM1164=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1164
+LDIFF_SYM1152=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1152
 	.byte 2,141,32,11
 	.asciz "value"
 
-LDIFF_SYM1165=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1165
+LDIFF_SYM1153=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1153
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1166=Lfde157_end - Lfde157_start
-	.long LDIFF_SYM1166
-Lfde157_start:
+LDIFF_SYM1154=Lfde155_end - Lfde155_start
+	.long LDIFF_SYM1154
+Lfde155_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_int
 
-LDIFF_SYM1167=Lme_ad - System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_int
-	.long LDIFF_SYM1167
+LDIFF_SYM1155=Lme_ab - System_Array_InternalArray__get_Item_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_int
+	.long LDIFF_SYM1155
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29
 	.align 3
-Lfde157_end:
+Lfde155_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27878,26 +27719,26 @@ Lfde157_end:
 
 	.byte 1,183,2
 	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__cctor
-	.quad Lme_ae
+	.quad Lme_ac
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1168=Lfde158_end - Lfde158_start
-	.long LDIFF_SYM1168
-Lfde158_start:
+LDIFF_SYM1156=Lfde156_end - Lfde156_start
+	.long LDIFF_SYM1156
+Lfde156_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__cctor
 
-LDIFF_SYM1169=Lme_ae - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__cctor
-	.long LDIFF_SYM1169
+LDIFF_SYM1157=Lme_ac - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__cctor
+	.long LDIFF_SYM1157
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde158_end:
+Lfde156_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_61:
@@ -27906,64 +27747,64 @@ LTDIE_61:
 	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM1170=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM1170
+LDIFF_SYM1158=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM1158
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_ObjectEqualityComparer`1"
 
-LDIFF_SYM1171=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM1171
+LDIFF_SYM1159=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM1159
 LTDIE_61_POINTER:
 
 	.byte 13
-LDIFF_SYM1172=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM1172
+LDIFF_SYM1160=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM1160
 LTDIE_61_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1173=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM1173
+LDIFF_SYM1161=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM1161
 	.byte 2
 	.asciz "System.Collections.Generic.ObjectEqualityComparer`1<System.Drawing.Color>:Equals"
 	.asciz "System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_Equals_System_Drawing_Color_System_Drawing_Color"
 
 	.byte 3,166,2
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_Equals_System_Drawing_Color_System_Drawing_Color
-	.quad Lme_af
+	.quad Lme_ad
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1174=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1174
+LDIFF_SYM1162=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1162
 	.byte 0,3
 	.asciz "x"
 
-LDIFF_SYM1175=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1175
+LDIFF_SYM1163=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1163
 	.byte 1,80,3
 	.asciz "y"
 
-LDIFF_SYM1176=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1176
+LDIFF_SYM1164=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1164
 	.byte 1,80,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1177=Lfde159_end - Lfde159_start
-	.long LDIFF_SYM1177
-Lfde159_start:
+LDIFF_SYM1165=Lfde157_end - Lfde157_start
+	.long LDIFF_SYM1165
+Lfde157_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_Equals_System_Drawing_Color_System_Drawing_Color
 
-LDIFF_SYM1178=Lme_af - System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_Equals_System_Drawing_Color_System_Drawing_Color
-	.long LDIFF_SYM1178
+LDIFF_SYM1166=Lme_ad - System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_Equals_System_Drawing_Color_System_Drawing_Color
+	.long LDIFF_SYM1166
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde159_end:
+Lfde157_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -27973,36 +27814,36 @@ Lfde159_end:
 
 	.byte 3,176,2
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_GetHashCode_System_Drawing_Color
-	.quad Lme_b0
+	.quad Lme_ae
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1179=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1179
+LDIFF_SYM1167=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1167
 	.byte 0,3
 	.asciz "obj"
 
-LDIFF_SYM1180=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1180
+LDIFF_SYM1168=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1168
 	.byte 1,80,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1181=Lfde160_end - Lfde160_start
-	.long LDIFF_SYM1181
-Lfde160_start:
+LDIFF_SYM1169=Lfde158_end - Lfde158_start
+	.long LDIFF_SYM1169
+Lfde158_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_GetHashCode_System_Drawing_Color
 
-LDIFF_SYM1182=Lme_b0 - System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_GetHashCode_System_Drawing_Color
-	.long LDIFF_SYM1182
+LDIFF_SYM1170=Lme_ae - System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_GetHashCode_System_Drawing_Color
+	.long LDIFF_SYM1170
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde160_end:
+Lfde158_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28012,66 +27853,66 @@ Lfde160_end:
 
 	.byte 3,181,2
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_IndexOf_System_Drawing_Color___System_Drawing_Color_int_int
-	.quad Lme_b1
+	.quad Lme_af
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1183=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1183
+LDIFF_SYM1171=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1171
 	.byte 0,3
 	.asciz "array"
 
-LDIFF_SYM1184=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1184
+LDIFF_SYM1172=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1172
 	.byte 1,104,3
 	.asciz "value"
 
-LDIFF_SYM1185=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1185
+LDIFF_SYM1173=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1173
 	.byte 1,80,3
 	.asciz "startIndex"
 
-LDIFF_SYM1186=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1186
+LDIFF_SYM1174=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1174
 	.byte 2,141,56,3
 	.asciz "count"
 
-LDIFF_SYM1187=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1187
+LDIFF_SYM1175=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1175
 	.byte 1,106,11
 	.asciz "endIndex"
 
-LDIFF_SYM1188=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1188
+LDIFF_SYM1176=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1176
 	.byte 1,103,11
 	.asciz "i"
 
-LDIFF_SYM1189=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1189
+LDIFF_SYM1177=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1177
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM1190=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1190
+LDIFF_SYM1178=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1178
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1191=Lfde161_end - Lfde161_start
-	.long LDIFF_SYM1191
-Lfde161_start:
+LDIFF_SYM1179=Lfde159_end - Lfde159_start
+	.long LDIFF_SYM1179
+Lfde159_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_IndexOf_System_Drawing_Color___System_Drawing_Color_int_int
 
-LDIFF_SYM1192=Lme_b1 - System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_IndexOf_System_Drawing_Color___System_Drawing_Color_int_int
-	.long LDIFF_SYM1192
+LDIFF_SYM1180=Lme_af - System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_IndexOf_System_Drawing_Color___System_Drawing_Color_int_int
+	.long LDIFF_SYM1180
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,154,12
 	.align 3
-Lfde161_end:
+Lfde159_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28081,66 +27922,66 @@ Lfde161_end:
 
 	.byte 3,196,2
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_LastIndexOf_System_Drawing_Color___System_Drawing_Color_int_int
-	.quad Lme_b2
+	.quad Lme_b0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1193=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1193
+LDIFF_SYM1181=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1181
 	.byte 0,3
 	.asciz "array"
 
-LDIFF_SYM1194=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1194
+LDIFF_SYM1182=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1182
 	.byte 1,104,3
 	.asciz "value"
 
-LDIFF_SYM1195=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1195
+LDIFF_SYM1183=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1183
 	.byte 1,80,3
 	.asciz "startIndex"
 
-LDIFF_SYM1196=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1196
+LDIFF_SYM1184=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1184
 	.byte 2,141,56,3
 	.asciz "count"
 
-LDIFF_SYM1197=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1197
+LDIFF_SYM1185=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1185
 	.byte 1,106,11
 	.asciz "endIndex"
 
-LDIFF_SYM1198=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1198
+LDIFF_SYM1186=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1186
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM1199=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1199
+LDIFF_SYM1187=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1187
 	.byte 1,103,11
 	.asciz "i"
 
-LDIFF_SYM1200=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1200
+LDIFF_SYM1188=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1188
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1201=Lfde162_end - Lfde162_start
-	.long LDIFF_SYM1201
-Lfde162_start:
+LDIFF_SYM1189=Lfde160_end - Lfde160_start
+	.long LDIFF_SYM1189
+Lfde160_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_LastIndexOf_System_Drawing_Color___System_Drawing_Color_int_int
 
-LDIFF_SYM1202=Lme_b2 - System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_LastIndexOf_System_Drawing_Color___System_Drawing_Color_int_int
-	.long LDIFF_SYM1202
+LDIFF_SYM1190=Lme_b0 - System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_LastIndexOf_System_Drawing_Color___System_Drawing_Color_int_int
+	.long LDIFF_SYM1190
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,154,12
 	.align 3
-Lfde162_end:
+Lfde160_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28150,36 +27991,36 @@ Lfde162_end:
 
 	.byte 3,212,2
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_Equals_object
-	.quad Lme_b3
+	.quad Lme_b1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1203=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1203
+LDIFF_SYM1191=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1191
 	.byte 0,3
 	.asciz "obj"
 
-LDIFF_SYM1204=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1204
+LDIFF_SYM1192=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1192
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1205=Lfde163_end - Lfde163_start
-	.long LDIFF_SYM1205
-Lfde163_start:
+LDIFF_SYM1193=Lfde161_end - Lfde161_start
+	.long LDIFF_SYM1193
+Lfde161_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_Equals_object
 
-LDIFF_SYM1206=Lme_b3 - System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_Equals_object
-	.long LDIFF_SYM1206
+LDIFF_SYM1194=Lme_b1 - System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_Equals_object
+	.long LDIFF_SYM1194
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
 	.align 3
-Lfde163_end:
+Lfde161_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28189,31 +28030,31 @@ Lfde163_end:
 
 	.byte 3,217,2
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_GetHashCode
-	.quad Lme_b4
+	.quad Lme_b2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1207=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1207
+LDIFF_SYM1195=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1195
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1208=Lfde164_end - Lfde164_start
-	.long LDIFF_SYM1208
-Lfde164_start:
+LDIFF_SYM1196=Lfde162_end - Lfde162_start
+	.long LDIFF_SYM1196
+Lfde162_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_GetHashCode
 
-LDIFF_SYM1209=Lme_b4 - System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_GetHashCode
-	.long LDIFF_SYM1209
+LDIFF_SYM1197=Lme_b2 - System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color_GetHashCode
+	.long LDIFF_SYM1197
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde164_end:
+Lfde162_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28223,31 +28064,31 @@ Lfde164_end:
 
 	.byte 0,0
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color__ctor
-	.quad Lme_b5
+	.quad Lme_b3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1210=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1210
+LDIFF_SYM1198=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1198
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1211=Lfde165_end - Lfde165_start
-	.long LDIFF_SYM1211
-Lfde165_start:
+LDIFF_SYM1199=Lfde163_end - Lfde163_start
+	.long LDIFF_SYM1199
+Lfde163_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color__ctor
 
-LDIFF_SYM1212=Lme_b5 - System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color__ctor
-	.long LDIFF_SYM1212
+LDIFF_SYM1200=Lme_b3 - System_Collections_Generic_ObjectEqualityComparer_1_System_Drawing_Color__ctor
+	.long LDIFF_SYM1200
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde165_end:
+Lfde163_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_62:
@@ -28256,79 +28097,79 @@ LTDIE_62:
 	.asciz "_Enumerator"
 
 	.byte 40,16
-LDIFF_SYM1213=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM1213
+LDIFF_SYM1201=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM1201
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM1214=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1214
+LDIFF_SYM1202=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1202
 	.byte 2,35,16,6
 	.asciz "_index"
 
-LDIFF_SYM1215=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1215
+LDIFF_SYM1203=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1203
 	.byte 2,35,24,6
 	.asciz "_version"
 
-LDIFF_SYM1216=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1216
+LDIFF_SYM1204=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1204
 	.byte 2,35,28,6
 	.asciz "_currentKey"
 
-LDIFF_SYM1217=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1217
+LDIFF_SYM1205=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1205
 	.byte 2,35,32,0,7
 	.asciz "_Enumerator"
 
-LDIFF_SYM1218=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM1218
+LDIFF_SYM1206=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM1206
 LTDIE_62_POINTER:
 
 	.byte 13
-LDIFF_SYM1219=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM1219
+LDIFF_SYM1207=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM1207
 LTDIE_62_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1220=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM1220
+LDIFF_SYM1208=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM1208
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<string,_System.Drawing.Color>:.ctor"
 	.asciz "System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color"
 
 	.byte 4,130,11
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
-	.quad Lme_b6
+	.quad Lme_b4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1221=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1221
+LDIFF_SYM1209=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1209
 	.byte 1,105,3
 	.asciz "dictionary"
 
-LDIFF_SYM1222=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1222
+LDIFF_SYM1210=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1210
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1223=Lfde166_end - Lfde166_start
-	.long LDIFF_SYM1223
-Lfde166_start:
+LDIFF_SYM1211=Lfde164_end - Lfde164_start
+	.long LDIFF_SYM1211
+Lfde164_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
 
-LDIFF_SYM1224=Lme_b6 - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
-	.long LDIFF_SYM1224
+LDIFF_SYM1212=Lme_b4 - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
+	.long LDIFF_SYM1212
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1
 	.align 3
-Lfde166_end:
+Lfde164_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28338,31 +28179,31 @@ Lfde166_end:
 
 	.byte 4,138,11
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_Dispose
-	.quad Lme_b7
+	.quad Lme_b5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1225=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1225
+LDIFF_SYM1213=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1213
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1226=Lfde167_end - Lfde167_start
-	.long LDIFF_SYM1226
-Lfde167_start:
+LDIFF_SYM1214=Lfde165_end - Lfde165_start
+	.long LDIFF_SYM1214
+Lfde165_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_Dispose
 
-LDIFF_SYM1227=Lme_b7 - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_Dispose
-	.long LDIFF_SYM1227
+LDIFF_SYM1215=Lme_b5 - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_Dispose
+	.long LDIFF_SYM1215
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde167_end:
+Lfde165_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_63:
@@ -28371,84 +28212,84 @@ LTDIE_63:
 	.asciz "_Entry"
 
 	.byte 56,16
-LDIFF_SYM1228=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM1228
+LDIFF_SYM1216=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM1216
 	.byte 2,35,0,6
 	.asciz "hashCode"
 
-LDIFF_SYM1229=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1229
+LDIFF_SYM1217=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1217
 	.byte 2,35,16,6
 	.asciz "next"
 
-LDIFF_SYM1230=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1230
+LDIFF_SYM1218=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1218
 	.byte 2,35,20,6
 	.asciz "key"
 
-LDIFF_SYM1231=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1231
+LDIFF_SYM1219=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1219
 	.byte 2,35,24,6
 	.asciz "value"
 
-LDIFF_SYM1232=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1232
+LDIFF_SYM1220=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1220
 	.byte 2,35,32,0,7
 	.asciz "_Entry"
 
-LDIFF_SYM1233=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM1233
+LDIFF_SYM1221=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM1221
 LTDIE_63_POINTER:
 
 	.byte 13
-LDIFF_SYM1234=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM1234
+LDIFF_SYM1222=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM1222
 LTDIE_63_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1235=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM1235
+LDIFF_SYM1223=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM1223
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<string,_System.Drawing.Color>:MoveNext"
 	.asciz "System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_MoveNext"
 
 	.byte 4,142,11
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_MoveNext
-	.quad Lme_b8
+	.quad Lme_b6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1236=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1236
+LDIFF_SYM1224=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1224
 	.byte 1,106,11
 	.asciz "entry"
 
-LDIFF_SYM1237=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1237
+LDIFF_SYM1225=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1225
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1238=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1238
+LDIFF_SYM1226=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1226
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1239=Lfde168_end - Lfde168_start
-	.long LDIFF_SYM1239
-Lfde168_start:
+LDIFF_SYM1227=Lfde166_end - Lfde166_start
+	.long LDIFF_SYM1227
+Lfde166_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_MoveNext
 
-LDIFF_SYM1240=Lme_b8 - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_MoveNext
-	.long LDIFF_SYM1240
+LDIFF_SYM1228=Lme_b6 - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_MoveNext
+	.long LDIFF_SYM1228
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4,154,3
 	.align 3
-Lfde168_end:
+Lfde166_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28458,31 +28299,31 @@ Lfde168_end:
 
 	.byte 4,163,11
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_get_Current
-	.quad Lme_b9
+	.quad Lme_b7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1241=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1241
+LDIFF_SYM1229=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1229
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1242=Lfde169_end - Lfde169_start
-	.long LDIFF_SYM1242
-Lfde169_start:
+LDIFF_SYM1230=Lfde167_end - Lfde167_start
+	.long LDIFF_SYM1230
+Lfde167_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_get_Current
 
-LDIFF_SYM1243=Lme_b9 - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_get_Current
-	.long LDIFF_SYM1243
+LDIFF_SYM1231=Lme_b7 - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_get_Current
+	.long LDIFF_SYM1231
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde169_end:
+Lfde167_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28492,31 +28333,31 @@ Lfde169_end:
 
 	.byte 4,169,11
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
-	.quad Lme_ba
+	.quad Lme_b8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1244=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1244
+LDIFF_SYM1232=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1232
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1245=Lfde170_end - Lfde170_start
-	.long LDIFF_SYM1245
-Lfde170_start:
+LDIFF_SYM1233=Lfde168_end - Lfde168_start
+	.long LDIFF_SYM1233
+Lfde168_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM1246=Lme_ba - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM1246
+LDIFF_SYM1234=Lme_b8 - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM1234
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
-Lfde170_end:
+Lfde168_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28526,31 +28367,31 @@ Lfde170_end:
 
 	.byte 4,180,11
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
-	.quad Lme_bb
+	.quad Lme_b9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1247=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1247
+LDIFF_SYM1235=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1235
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1248=Lfde171_end - Lfde171_start
-	.long LDIFF_SYM1248
-Lfde171_start:
+LDIFF_SYM1236=Lfde169_end - Lfde169_start
+	.long LDIFF_SYM1236
+Lfde169_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM1249=Lme_bb - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM1249
+LDIFF_SYM1237=Lme_b9 - System_Collections_Generic_Dictionary_2_KeyCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM1237
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
-Lfde171_end:
+Lfde169_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28560,36 +28401,36 @@ Lfde171_end:
 
 	.byte 4,158,2
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_ContainsKey_string
-	.quad Lme_bc
+	.quad Lme_ba
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1250=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1250
+LDIFF_SYM1238=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1238
 	.byte 2,141,16,3
 	.asciz "key"
 
-LDIFF_SYM1251=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1251
+LDIFF_SYM1239=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1239
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1252=Lfde172_end - Lfde172_start
-	.long LDIFF_SYM1252
-Lfde172_start:
+LDIFF_SYM1240=Lfde170_end - Lfde170_start
+	.long LDIFF_SYM1240
+Lfde170_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_ContainsKey_string
 
-LDIFF_SYM1253=Lme_bc - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_ContainsKey_string
-	.long LDIFF_SYM1253
+LDIFF_SYM1241=Lme_ba - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_ContainsKey_string
+	.long LDIFF_SYM1241
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde172_end:
+Lfde170_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_64:
@@ -28598,79 +28439,79 @@ LTDIE_64:
 	.asciz "_Enumerator"
 
 	.byte 56,16
-LDIFF_SYM1254=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM1254
+LDIFF_SYM1242=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM1242
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM1255=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1255
+LDIFF_SYM1243=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1243
 	.byte 2,35,16,6
 	.asciz "_index"
 
-LDIFF_SYM1256=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1256
+LDIFF_SYM1244=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1244
 	.byte 2,35,24,6
 	.asciz "_version"
 
-LDIFF_SYM1257=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1257
+LDIFF_SYM1245=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1245
 	.byte 2,35,28,6
 	.asciz "_currentValue"
 
-LDIFF_SYM1258=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1258
+LDIFF_SYM1246=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1246
 	.byte 2,35,32,0,7
 	.asciz "_Enumerator"
 
-LDIFF_SYM1259=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM1259
+LDIFF_SYM1247=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM1247
 LTDIE_64_POINTER:
 
 	.byte 13
-LDIFF_SYM1260=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM1260
+LDIFF_SYM1248=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM1248
 LTDIE_64_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1261=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM1261
+LDIFF_SYM1249=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM1249
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<string,_System.Drawing.Color>:.ctor"
 	.asciz "System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color"
 
 	.byte 4,191,12
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
-	.quad Lme_bd
+	.quad Lme_bb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1262=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1262
+LDIFF_SYM1250=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1250
 	.byte 1,105,3
 	.asciz "dictionary"
 
-LDIFF_SYM1263=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1263
+LDIFF_SYM1251=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1251
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1264=Lfde173_end - Lfde173_start
-	.long LDIFF_SYM1264
-Lfde173_start:
+LDIFF_SYM1252=Lfde171_end - Lfde171_start
+	.long LDIFF_SYM1252
+Lfde171_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
 
-LDIFF_SYM1265=Lme_bd - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
-	.long LDIFF_SYM1265
+LDIFF_SYM1253=Lme_bb - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color__ctor_System_Collections_Generic_Dictionary_2_string_System_Drawing_Color
+	.long LDIFF_SYM1253
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,153,2,154,1
 	.align 3
-Lfde173_end:
+Lfde171_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28680,31 +28521,31 @@ Lfde173_end:
 
 	.byte 4,199,12
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_Dispose
-	.quad Lme_be
+	.quad Lme_bc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1266=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1266
+LDIFF_SYM1254=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1254
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1267=Lfde174_end - Lfde174_start
-	.long LDIFF_SYM1267
-Lfde174_start:
+LDIFF_SYM1255=Lfde172_end - Lfde172_start
+	.long LDIFF_SYM1255
+Lfde172_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_Dispose
 
-LDIFF_SYM1268=Lme_be - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_Dispose
-	.long LDIFF_SYM1268
+LDIFF_SYM1256=Lme_bc - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_Dispose
+	.long LDIFF_SYM1256
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde174_end:
+Lfde172_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28714,41 +28555,41 @@ Lfde174_end:
 
 	.byte 4,203,12
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_MoveNext
-	.quad Lme_bf
+	.quad Lme_bd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1269=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1269
+LDIFF_SYM1257=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1257
 	.byte 1,106,11
 	.asciz "entry"
 
-LDIFF_SYM1270=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1270
+LDIFF_SYM1258=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1258
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1271=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1271
+LDIFF_SYM1259=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1259
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1272=Lfde175_end - Lfde175_start
-	.long LDIFF_SYM1272
-Lfde175_start:
+LDIFF_SYM1260=Lfde173_end - Lfde173_start
+	.long LDIFF_SYM1260
+Lfde173_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_MoveNext
 
-LDIFF_SYM1273=Lme_bf - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_MoveNext
-	.long LDIFF_SYM1273
+LDIFF_SYM1261=Lme_bd - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_MoveNext
+	.long LDIFF_SYM1261
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde175_end:
+Lfde173_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28758,31 +28599,31 @@ Lfde175_end:
 
 	.byte 4,223,12
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_get_Current
-	.quad Lme_c0
+	.quad Lme_be
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1274=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1274
+LDIFF_SYM1262=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1262
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1275=Lfde176_end - Lfde176_start
-	.long LDIFF_SYM1275
-Lfde176_start:
+LDIFF_SYM1263=Lfde174_end - Lfde174_start
+	.long LDIFF_SYM1263
+Lfde174_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_get_Current
 
-LDIFF_SYM1276=Lme_c0 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_get_Current
-	.long LDIFF_SYM1276
+LDIFF_SYM1264=Lme_be - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_get_Current
+	.long LDIFF_SYM1264
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde176_end:
+Lfde174_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28792,31 +28633,31 @@ Lfde176_end:
 
 	.byte 4,229,12
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
-	.quad Lme_c1
+	.quad Lme_bf
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1277=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1277
+LDIFF_SYM1265=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1265
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1278=Lfde177_end - Lfde177_start
-	.long LDIFF_SYM1278
-Lfde177_start:
+LDIFF_SYM1266=Lfde175_end - Lfde175_start
+	.long LDIFF_SYM1266
+Lfde175_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM1279=Lme_c1 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM1279
+LDIFF_SYM1267=Lme_bf - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM1267
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde177_end:
+Lfde175_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28826,31 +28667,31 @@ Lfde177_end:
 
 	.byte 4,240,12
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
-	.quad Lme_c2
+	.quad Lme_c0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1280=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1280
+LDIFF_SYM1268=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1268
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1281=Lfde178_end - Lfde178_start
-	.long LDIFF_SYM1281
-Lfde178_start:
+LDIFF_SYM1269=Lfde176_end - Lfde176_start
+	.long LDIFF_SYM1269
+Lfde176_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM1282=Lme_c2 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM1282
+LDIFF_SYM1270=Lme_c0 - System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM1270
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
-Lfde178_end:
+Lfde176_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28860,66 +28701,66 @@ Lfde178_end:
 
 	.byte 4,162,2
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_ContainsValue_System_Drawing_Color
-	.quad Lme_c3
+	.quad Lme_c1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1283=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1283
+LDIFF_SYM1271=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1271
 	.byte 1,106,3
 	.asciz "value"
 
-LDIFF_SYM1284=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1284
+LDIFF_SYM1272=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1272
 	.byte 1,80,11
 	.asciz "entries"
 
-LDIFF_SYM1285=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1285
+LDIFF_SYM1273=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1273
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM1286=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1286
+LDIFF_SYM1274=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1274
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1287=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1287
+LDIFF_SYM1275=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1275
 	.byte 3,141,224,1,11
 	.asciz "i"
 
-LDIFF_SYM1288=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1288
+LDIFF_SYM1276=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1276
 	.byte 1,104,11
 	.asciz "defaultComparer"
 
-LDIFF_SYM1289=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1289
+LDIFF_SYM1277=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1277
 	.byte 1,103,11
 	.asciz "i"
 
-LDIFF_SYM1290=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1290
+LDIFF_SYM1278=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1278
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1291=Lfde179_end - Lfde179_start
-	.long LDIFF_SYM1291
-Lfde179_start:
+LDIFF_SYM1279=Lfde177_end - Lfde177_start
+	.long LDIFF_SYM1279
+Lfde177_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_ContainsValue_System_Drawing_Color
 
-LDIFF_SYM1292=Lme_c3 - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_ContainsValue_System_Drawing_Color
-	.long LDIFF_SYM1292
+LDIFF_SYM1280=Lme_c1 - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_ContainsValue_System_Drawing_Color
+	.long LDIFF_SYM1280
 	.long 0
 	.byte 12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,151,32,152,31,68,153,30,154,29
 	.align 3
-Lfde179_end:
+Lfde177_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -28929,41 +28770,41 @@ Lfde179_end:
 
 	.byte 4,72
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_int_System_Collections_Generic_IEqualityComparer_1_string
-	.quad Lme_c4
+	.quad Lme_c2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1293=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1293
+LDIFF_SYM1281=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1281
 	.byte 2,141,32,3
 	.asciz "capacity"
 
-LDIFF_SYM1294=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1294
+LDIFF_SYM1282=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1282
 	.byte 1,105,3
 	.asciz "comparer"
 
-LDIFF_SYM1295=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1295
+LDIFF_SYM1283=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1283
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1296=Lfde180_end - Lfde180_start
-	.long LDIFF_SYM1296
-Lfde180_start:
+LDIFF_SYM1284=Lfde178_end - Lfde178_start
+	.long LDIFF_SYM1284
+Lfde178_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_int_System_Collections_Generic_IEqualityComparer_1_string
 
-LDIFF_SYM1297=Lme_c4 - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_int_System_Collections_Generic_IEqualityComparer_1_string
-	.long LDIFF_SYM1297
+LDIFF_SYM1285=Lme_c2 - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color__ctor_int_System_Collections_Generic_IEqualityComparer_1_string
+	.long LDIFF_SYM1285
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,68,153,5
 	.align 3
-Lfde180_end:
+Lfde178_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_65:
@@ -28972,8 +28813,8 @@ LTDIE_65:
 	.asciz "System_Collections_Generic_InsertionBehavior"
 
 	.byte 1
-LDIFF_SYM1298=LDIE_U1 - Ldebug_info_start
-	.long LDIFF_SYM1298
+LDIFF_SYM1286=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM1286
 	.byte 9
 	.asciz "None"
 
@@ -28986,158 +28827,158 @@ LDIFF_SYM1298=LDIE_U1 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "System_Collections_Generic_InsertionBehavior"
 
-LDIFF_SYM1299=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM1299
+LDIFF_SYM1287=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM1287
 LTDIE_65_POINTER:
 
 	.byte 13
-LDIFF_SYM1300=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM1300
+LDIFF_SYM1288=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM1288
 LTDIE_65_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1301=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM1301
+LDIFF_SYM1289=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM1289
 LTDIE_66:
 
 	.byte 5
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
 	.byte 16,16
-LDIFF_SYM1302=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM1302
+LDIFF_SYM1290=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM1290
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Generic_EqualityComparer`1"
 
-LDIFF_SYM1303=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM1303
+LDIFF_SYM1291=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM1291
 LTDIE_66_POINTER:
 
 	.byte 13
-LDIFF_SYM1304=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM1304
+LDIFF_SYM1292=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM1292
 LTDIE_66_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1305=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM1305
+LDIFF_SYM1293=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM1293
 	.byte 2
 	.asciz "System.Collections.Generic.Dictionary`2<string,_System.Drawing.Color>:TryInsert"
 	.asciz "System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_TryInsert_string_System_Drawing_Color_System_Collections_Generic_InsertionBehavior"
 
 	.byte 4,230,3
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_TryInsert_string_System_Drawing_Color_System_Collections_Generic_InsertionBehavior
-	.quad Lme_c5
+	.quad Lme_c3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1306=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1306
+LDIFF_SYM1294=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1294
 	.byte 1,104,3
 	.asciz "key"
 
-LDIFF_SYM1307=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1307
+LDIFF_SYM1295=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1295
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1308=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1308
+LDIFF_SYM1296=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1296
 	.byte 1,80,3
 	.asciz "behavior"
 
-LDIFF_SYM1309=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM1309
+LDIFF_SYM1297=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM1297
 	.byte 3,141,216,0,11
 	.asciz "entries"
 
-LDIFF_SYM1310=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1310
+LDIFF_SYM1298=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1298
 	.byte 1,103,11
 	.asciz "comparer"
 
-LDIFF_SYM1311=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1311
+LDIFF_SYM1299=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1299
 	.byte 1,102,11
 	.asciz "hashCode"
 
-LDIFF_SYM1312=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1312
+LDIFF_SYM1300=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1300
 	.byte 1,100,11
 	.asciz "collisionCount"
 
-LDIFF_SYM1313=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1313
+LDIFF_SYM1301=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1301
 	.byte 1,101,11
 	.asciz "bucket"
 
-LDIFF_SYM1314=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1314
+LDIFF_SYM1302=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1302
 	.byte 1,99,11
 	.asciz "i"
 
-LDIFF_SYM1315=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1315
+LDIFF_SYM1303=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1303
 	.byte 3,141,224,0,11
 	.asciz "resized"
 
-LDIFF_SYM1316=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1316
+LDIFF_SYM1304=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1304
 	.byte 1,106,11
 	.asciz "updateFreeList"
 
-LDIFF_SYM1317=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1317
+LDIFF_SYM1305=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1305
 	.byte 1,102,11
 	.asciz "index"
 
-LDIFF_SYM1318=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1318
+LDIFF_SYM1306=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1306
 	.byte 3,141,232,0,11
 	.asciz "targetBucket"
 
-LDIFF_SYM1319=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1319
+LDIFF_SYM1307=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1307
 	.byte 1,101,11
 	.asciz "entry"
 
-LDIFF_SYM1320=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1320
+LDIFF_SYM1308=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1308
 	.byte 1,106,11
 	.asciz "V_11"
 
-LDIFF_SYM1321=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1321
+LDIFF_SYM1309=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1309
 	.byte 0,11
 	.asciz "defaultComparer"
 
-LDIFF_SYM1322=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1322
+LDIFF_SYM1310=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1310
 	.byte 1,102,11
 	.asciz "count"
 
-LDIFF_SYM1323=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1323
+LDIFF_SYM1311=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1311
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1324=Lfde181_end - Lfde181_start
-	.long LDIFF_SYM1324
-Lfde181_start:
+LDIFF_SYM1312=Lfde179_end - Lfde179_start
+	.long LDIFF_SYM1312
+Lfde179_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_TryInsert_string_System_Drawing_Color_System_Collections_Generic_InsertionBehavior
 
-LDIFF_SYM1325=Lme_c5 - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_TryInsert_string_System_Drawing_Color_System_Collections_Generic_InsertionBehavior
-	.long LDIFF_SYM1325
+LDIFF_SYM1313=Lme_c3 - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_TryInsert_string_System_Drawing_Color_System_Collections_Generic_InsertionBehavior
+	.long LDIFF_SYM1313
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde181_end:
+Lfde179_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29147,81 +28988,81 @@ Lfde181_end:
 
 	.byte 4,250,2
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_FindEntry_string
-	.quad Lme_c6
+	.quad Lme_c4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1326=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1326
+LDIFF_SYM1314=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1314
 	.byte 1,105,3
 	.asciz "key"
 
-LDIFF_SYM1327=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1327
+LDIFF_SYM1315=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1315
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM1328=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1328
+LDIFF_SYM1316=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1316
 	.byte 1,104,11
 	.asciz "buckets"
 
-LDIFF_SYM1329=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1329
+LDIFF_SYM1317=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1317
 	.byte 1,103,11
 	.asciz "entries"
 
-LDIFF_SYM1330=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1330
+LDIFF_SYM1318=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1318
 	.byte 1,102,11
 	.asciz "collisionCount"
 
-LDIFF_SYM1331=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1331
+LDIFF_SYM1319=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1319
 	.byte 1,101,11
 	.asciz "comparer"
 
-LDIFF_SYM1332=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1332
+LDIFF_SYM1320=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1320
 	.byte 1,100,11
 	.asciz "hashCode"
 
-LDIFF_SYM1333=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1333
+LDIFF_SYM1321=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1321
 	.byte 1,105,11
 	.asciz "V_6"
 
-LDIFF_SYM1334=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1334
+LDIFF_SYM1322=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1322
 	.byte 0,11
 	.asciz "defaultComparer"
 
-LDIFF_SYM1335=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1335
+LDIFF_SYM1323=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1323
 	.byte 1,100,11
 	.asciz "hashCode"
 
-LDIFF_SYM1336=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1336
+LDIFF_SYM1324=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1324
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1337=Lfde182_end - Lfde182_start
-	.long LDIFF_SYM1337
-Lfde182_start:
+LDIFF_SYM1325=Lfde180_end - Lfde180_start
+	.long LDIFF_SYM1325
+Lfde180_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_FindEntry_string
 
-LDIFF_SYM1338=Lme_c6 - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_FindEntry_string
-	.long LDIFF_SYM1338
+LDIFF_SYM1326=Lme_c4 - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_FindEntry_string
+	.long LDIFF_SYM1326
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,148,10,149,9,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde182_end:
+Lfde180_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_67:
@@ -29230,30 +29071,166 @@ LTDIE_67:
 	.asciz "_EmptyInternalEnumerator`1"
 
 	.byte 16,16
-LDIFF_SYM1339=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM1339
+LDIFF_SYM1327=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM1327
 	.byte 2,35,0,0,7
 	.asciz "_EmptyInternalEnumerator`1"
 
-LDIFF_SYM1340=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM1340
+LDIFF_SYM1328=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM1328
 LTDIE_67_POINTER:
 
 	.byte 13
-LDIFF_SYM1341=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM1341
+LDIFF_SYM1329=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM1329
 LTDIE_67_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1342=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM1342
+LDIFF_SYM1330=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM1330
 	.byte 2
 	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,_System.Drawing.Color>>:Dispose"
 	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_Dispose"
 
 	.byte 1,187,2
 	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_Dispose
+	.quad Lme_c5
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1331=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1331
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1332=Lfde181_end - Lfde181_start
+	.long LDIFF_SYM1332
+Lfde181_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_Dispose
+
+LDIFF_SYM1333=Lme_c5 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_Dispose
+	.long LDIFF_SYM1333
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde181_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,_System.Drawing.Color>>:MoveNext"
+	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_MoveNext"
+
+	.byte 1,192,2
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_MoveNext
+	.quad Lme_c6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1334=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1334
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1335=Lfde182_end - Lfde182_start
+	.long LDIFF_SYM1335
+Lfde182_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_MoveNext
+
+LDIFF_SYM1336=Lme_c6 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_MoveNext
+	.long LDIFF_SYM1336
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde182_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,_System.Drawing.Color>>:get_Current"
+	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current"
+
+	.byte 1,197,2
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current
 	.quad Lme_c7
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1337=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1337
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1338=Lfde183_end - Lfde183_start
+	.long LDIFF_SYM1338
+Lfde183_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current
+
+LDIFF_SYM1339=Lme_c7 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current
+	.long LDIFF_SYM1339
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde183_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,_System.Drawing.Color>>:System.Collections.IEnumerator.get_Current"
+	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current"
+
+	.byte 1,203,2
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
+	.quad Lme_c8
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1340=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1340
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1341=Lfde184_end - Lfde184_start
+	.long LDIFF_SYM1341
+Lfde184_start:
+
+	.long 0
+	.align 3
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
+
+LDIFF_SYM1342=Lme_c8 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM1342
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde184_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,_System.Drawing.Color>>:System.Collections.IEnumerator.Reset"
+	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_Reset"
+
+	.byte 1,209,2
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
+	.quad Lme_c9
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -29264,30 +29241,30 @@ LDIFF_SYM1343=LDIE_I4 - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1344=Lfde183_end - Lfde183_start
+LDIFF_SYM1344=Lfde185_end - Lfde185_start
 	.long LDIFF_SYM1344
-Lfde183_start:
+Lfde185_start:
 
 	.long 0
 	.align 3
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_Dispose
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM1345=Lme_c7 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_Dispose
+LDIFF_SYM1345=Lme_c9 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
 	.long LDIFF_SYM1345
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde183_end:
+Lfde185_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,_System.Drawing.Color>>:MoveNext"
-	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_MoveNext"
+	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,_System.Drawing.Color>>:.ctor"
+	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor"
 
-	.byte 1,192,2
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_MoveNext
-	.quad Lme_c8
+	.byte 0,0
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor
+	.quad Lme_ca
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -29298,156 +29275,20 @@ LDIFF_SYM1346=LDIE_I4 - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1347=Lfde184_end - Lfde184_start
+LDIFF_SYM1347=Lfde186_end - Lfde186_start
 	.long LDIFF_SYM1347
-Lfde184_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_MoveNext
-
-LDIFF_SYM1348=Lme_c8 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_MoveNext
-	.long LDIFF_SYM1348
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde184_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,_System.Drawing.Color>>:get_Current"
-	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current"
-
-	.byte 1,197,2
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current
-	.quad Lme_c9
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1349=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1349
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1350=Lfde185_end - Lfde185_start
-	.long LDIFF_SYM1350
-Lfde185_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current
-
-LDIFF_SYM1351=Lme_c9 - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_get_Current
-	.long LDIFF_SYM1351
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde185_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,_System.Drawing.Color>>:System.Collections.IEnumerator.get_Current"
-	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current"
-
-	.byte 1,203,2
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
-	.quad Lme_ca
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1352=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1352
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1353=Lfde186_end - Lfde186_start
-	.long LDIFF_SYM1353
 Lfde186_start:
 
 	.long 0
 	.align 3
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
+	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor
 
-LDIFF_SYM1354=Lme_ca - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM1354
+LDIFF_SYM1348=Lme_ca - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor
+	.long LDIFF_SYM1348
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde186_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,_System.Drawing.Color>>:System.Collections.IEnumerator.Reset"
-	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_Reset"
-
-	.byte 1,209,2
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
-	.quad Lme_cb
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1355=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1355
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1356=Lfde187_end - Lfde187_start
-	.long LDIFF_SYM1356
-Lfde187_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
-
-LDIFF_SYM1357=Lme_cb - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM1357
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde187_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array/EmptyInternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<string,_System.Drawing.Color>>:.ctor"
-	.asciz "System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor"
-
-	.byte 0,0
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor
-	.quad Lme_cc
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1358=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1358
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1359=Lfde188_end - Lfde188_start
-	.long LDIFF_SYM1359
-Lfde188_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor
-
-LDIFF_SYM1360=Lme_cc - System_Array_EmptyInternalEnumerator_1_System_Collections_Generic_KeyValuePair_2_string_System_Drawing_Color__ctor
-	.long LDIFF_SYM1360
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde188_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29457,41 +29298,41 @@ Lfde188_end:
 
 	.byte 4,219,3
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Initialize_int
-	.quad Lme_cd
+	.quad Lme_cb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1361=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1361
+LDIFF_SYM1349=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1349
 	.byte 1,105,3
 	.asciz "capacity"
 
-LDIFF_SYM1362=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1362
+LDIFF_SYM1350=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1350
 	.byte 2,141,24,11
 	.asciz "size"
 
-LDIFF_SYM1363=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1363
+LDIFF_SYM1351=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1351
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1364=Lfde189_end - Lfde189_start
-	.long LDIFF_SYM1364
-Lfde189_start:
+LDIFF_SYM1352=Lfde187_end - Lfde187_start
+	.long LDIFF_SYM1352
+Lfde187_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Initialize_int
 
-LDIFF_SYM1365=Lme_cd - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Initialize_int
-	.long LDIFF_SYM1365
+LDIFF_SYM1353=Lme_cb - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Initialize_int
+	.long LDIFF_SYM1353
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde189_end:
+Lfde187_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29501,31 +29342,31 @@ Lfde189_end:
 
 	.byte 4,214,5
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Resize
-	.quad Lme_ce
+	.quad Lme_cc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1366=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1366
+LDIFF_SYM1354=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1354
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1367=Lfde190_end - Lfde190_start
-	.long LDIFF_SYM1367
-Lfde190_start:
+LDIFF_SYM1355=Lfde188_end - Lfde188_start
+	.long LDIFF_SYM1355
+Lfde188_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Resize
 
-LDIFF_SYM1368=Lme_ce - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Resize
-	.long LDIFF_SYM1368
+LDIFF_SYM1356=Lme_cc - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Resize
+	.long LDIFF_SYM1356
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde190_end:
+Lfde188_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -29535,76 +29376,76 @@ Lfde190_end:
 
 	.byte 4,222,5
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Resize_int_bool
-	.quad Lme_cf
+	.quad Lme_cd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1369=LTDIE_3_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1369
+LDIFF_SYM1357=LTDIE_3_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1357
 	.byte 1,104,3
 	.asciz "newSize"
 
-LDIFF_SYM1370=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1370
+LDIFF_SYM1358=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1358
 	.byte 1,105,3
 	.asciz "forceNewHashCodes"
 
-LDIFF_SYM1371=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1371
+LDIFF_SYM1359=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1359
 	.byte 1,106,11
 	.asciz "buckets"
 
-LDIFF_SYM1372=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1372
+LDIFF_SYM1360=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1360
 	.byte 1,103,11
 	.asciz "entries"
 
-LDIFF_SYM1373=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1373
+LDIFF_SYM1361=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1361
 	.byte 1,102,11
 	.asciz "count"
 
-LDIFF_SYM1374=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1374
+LDIFF_SYM1362=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1362
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1375=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1375
+LDIFF_SYM1363=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1363
 	.byte 0,11
 	.asciz "i"
 
-LDIFF_SYM1376=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1376
+LDIFF_SYM1364=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1364
 	.byte 1,106,11
 	.asciz "i"
 
-LDIFF_SYM1377=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1377
+LDIFF_SYM1365=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1365
 	.byte 1,106,11
 	.asciz "bucket"
 
-LDIFF_SYM1378=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1378
+LDIFF_SYM1366=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1366
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1379=Lfde191_end - Lfde191_start
-	.long LDIFF_SYM1379
-Lfde191_start:
+LDIFF_SYM1367=Lfde189_end - Lfde189_start
+	.long LDIFF_SYM1367
+Lfde189_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Resize_int_bool
 
-LDIFF_SYM1380=Lme_cf - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Resize_int_bool
-	.long LDIFF_SYM1380
+LDIFF_SYM1368=Lme_cd - System_Collections_Generic_Dictionary_2_string_System_Drawing_Color_Resize_int_bool
+	.long LDIFF_SYM1368
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,148,10,149,9,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde191_end:
+Lfde189_end:
 
 .section __DWARF, __debug_info,regular,debug
 

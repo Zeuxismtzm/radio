@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/StreamingExample.csproj": {}
+  },
+  "projects": {
+    "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/StreamingExample.csproj": {
+      "restore": {
+        "projectUniqueName": "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/StreamingExample.csproj",
+        "projectName": "StreamingExample",
+        "projectPath": "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/StreamingExample.csproj",
+        "projectJsonPath": "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/project.json",
+        "packagesPath": "/Users/mac/.nuget/packages/",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "/Users/mac/.config/NuGet/NuGet.Config"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      },
+      "dependencies": {
+        "Plugin.FirebasePushNotification": "[3.0.8, )",
+        "Xamarin.Forms": "[5.0.0.2337, )"
+      },
+      "frameworks": {
+        "portable45-net45+win8+wpa81": {}
+      }
+    }
+  }
+}

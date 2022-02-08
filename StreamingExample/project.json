@@ -1,0 +1,9 @@
+﻿{
+  "dependencies": {
+    "Plugin.FirebasePushNotification": "3.0.8",
+    "Xamarin.Forms": "5.0.0.2337"
+  },
+  "frameworks": {
+    ".NETPortable,Version=v4.5,Profile=Profile111": {}
+  }
+}

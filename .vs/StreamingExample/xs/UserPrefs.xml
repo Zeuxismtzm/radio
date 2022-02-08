@@ -1,15 +1,17 @@
 ﻿<Properties StartupConfiguration="{A43088A7-DB70-4EDC-801D-2B4404E5BE0C}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="StreamingExample" expanded="True">
-            <Node name="StreamingExample.iOS" expanded="True" selected="True" />
+            <Node name="StreamingExample.iOS" expanded="True">
+              <Node name="AppDelegate.cs" selected="True" />
+            </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
