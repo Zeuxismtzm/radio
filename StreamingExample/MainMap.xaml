@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:StreamingExample"
+             BackgroundImageSource="fondo2"
+             x:Class="StreamingExample.MainMap"
+             NavigationPage.HasNavigationBar="False">
+             <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="0">
+            <StackLayout VerticalOptions="Start" Orientation="Horizontal" Padding="5,0" BackgroundColor="#dfff00">
+                <Frame BorderColor="#ceef00" BackgroundColor="#ceef00" HeightRequest="50" WidthRequest="50" CornerRadius="25" Padding="2" IsClippedToBounds="True" Margin="2" HorizontalOptions="Start">
+                    <Frame BorderColor="#ceef00" HeightRequest="46" WidthRequest="46" CornerRadius="23" Padding="0" IsClippedToBounds="True" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image x:Name="imgPerfil" Aspect="AspectFill" Source="iconPerfil" WidthRequest="46" HorizontalOptions="Center" VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Perfil_Tapped"></TapGestureRecognizer>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Frame>
+                </Frame>
+                <!--<Label FontFamily="GilroyLight" FontSize="20" VerticalOptions="Center">Hola </Label>-->
+                <Label x:Name="lbHeaderName" FontFamily="Gilroy" FontSize="20" Text="" HorizontalOptions="Start" VerticalOptions="Center"></Label>
+                <Image x:Name="imgCartOk" Source="iconCartOk" WidthRequest="50" HorizontalOptions="EndAndExpand" IsVisible="False">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="0,0" Padding="15">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                    <Entry x:Name="txtOrigen" ReturnType="Go" ClassId="Login" Placeholder="Consulte su guía" TextColor="Black" PlaceholderColor="#000" FontFamily="GilroyLight" FontSize="12" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" Completed="txtOrigen_Completed" ></Entry>
+                    <!--<Image Source="iconLupa" WidthRequest="30">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                        </Image.GestureRecognizers>
+                    </Image>-->
+                    <Image Source="barcode" HeightRequest="30" BackgroundColor="White" WidthRequest="30">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"></TapGestureRecognizer>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>                
+                        <!--<StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" VerticalOptions="FillAndExpand" Spacing="0" >-->
+                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Frame BackgroundColor="Transparent" CornerRadius="5" Padding="0" Grid.Row="0" Grid.Column="0">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="SolicitudRecogida_Tapped"></TapGestureRecognizer>
+                        </Frame.GestureRecognizers>
+                        <Grid Margin="22">
+
+                            <StackLayout Orientation="Vertical" HorizontalOptions="Start" VerticalOptions="StartAndExpand" >
+
+                                
+                                <StackLayout Orientation="Vertical" >
+                                    <Image Source="solicitudrecogida1"  HeightRequest="90" WidthRequest="110"></Image>
+                                
+                                    <Label Text="Solicitar Recogida" TextColor="#7bfffb" FontFamily="Gilroy" FontSize="19" LineHeight="0.7" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="End"></Label>
+
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical"  Padding="0,0">
+                                    <Label Text="Solicita recoger tu envio,comodamente desde donde estés" TextColor="#7bfffb" FontFamily="Gilroy" LineHeight="0.7" FontSize="13" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="End" ></Label>
+
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical"  Padding="0,0">
+                                   
+                                </StackLayout>
+
+                            </StackLayout>
+
+                        </Grid>
+                    </Frame>
+
+                    <Frame BackgroundColor="Transparent" CornerRadius="5" Padding="0" Grid.Row="0" Grid.Column="1">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" ></TapGestureRecognizer>
+                        </Frame.GestureRecognizers>
+                        <Grid Margin="22">
+
+                            <StackLayout Orientation="Vertical" HorizontalOptions="Start" VerticalOptions="StartAndExpand" >
+
+
+                                <StackLayout Orientation="Vertical" >
+                                    <Image Source="cotizar1" HeightRequest="90" WidthRequest="110" ></Image>
+
+                                    <Label Text="Cotizar" x:Name="txtCotizar" TextColor="#7bfffb" FontFamily="Gilroy" FontSize="19" LineHeight="0.7" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="End"></Label>
+
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical"  Padding="0,0">
+                                    <Label Text="Conoce el valor de tu envio" TextColor="#7bfffb" FontFamily="Gilroy" LineHeight="0.7" FontSize="13" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="End" ></Label>
+
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical"  Padding="0,0">
+
+                                </StackLayout>
+
+                            </StackLayout>
+
+                        </Grid>
+                    </Frame>
+
+                    <Frame BackgroundColor="Transparent" CornerRadius="5" Padding="0" Grid.Row="1" Grid.Column="0">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="pausar_Tapped"></TapGestureRecognizer>
+                        </Frame.GestureRecognizers>
+                        <Grid Margin="22">
+
+                            <StackLayout Orientation="Vertical" HorizontalOptions="Start" VerticalOptions="StartAndExpand" >
+
+
+                                <StackLayout Orientation="Vertical" >
+                                    <Image Source="servicioalcliente" HeightRequest="90" WidthRequest="110" ></Image>
+
+                                    <Label Text="Servicio al cliente" TextColor="#7bfffb" FontFamily="Gilroy" FontSize="19" LineHeight="0.7" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="End"></Label>
+
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical"  Padding="0,0">
+                                    <Label Text="Dejanos saber que necesitas" TextColor="#7bfffb" FontFamily="Gilroy" LineHeight="0.7" FontSize="13" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="End" ></Label>
+
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical"  Padding="0,0">
+
+                                </StackLayout>
+
+                            </StackLayout>
+
+                        </Grid>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" CornerRadius="5" Padding="0" Grid.Row="1" Grid.Column="1">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="stop_Tapped"></TapGestureRecognizer>
+                        </Frame.GestureRecognizers>
+                        <Grid Margin="22">
+
+                            <StackLayout Orientation="Vertical" HorizontalOptions="Start" VerticalOptions="StartAndExpand" >
+
+
+                                <StackLayout Orientation="Vertical" >
+                                    <Image Source="transportededicado" HeightRequest="90" WidthRequest="100" ></Image>
+
+                                    <Label Text="Transporte dedicado" TextColor="#7bfffb" FontFamily="Gilroy" FontSize="19" LineHeight="0.7" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="End"></Label>
+
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical"  Padding="0,0">
+                                    <Label Text="Un vehiculo de carga exclusivo para ti" TextColor="#7bfffb" FontFamily="Gilroy" LineHeight="0.7" FontSize="13" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="End" ></Label>
+
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical"  Padding="0,0">
+
+                                </StackLayout>
+
+                            </StackLayout>
+
+                        </Grid>
+                    </Frame>
+                </Grid>
+                <!--<Button x:Name="btnConsultar" ClassId="Login" TextColor="White" FontFamily="GilroyLight" FontSize="20" Text="Mis solicitudes" Clicked="btnConsultar_Clicked"></Button>
+                <Button x:Name="btnCotizar" ClassId="Login" TextColor="White" FontFamily="GilroyLight" FontSize="20" Text="Solicitar envío" Clicked="btnCotizar_Clicked"></Button>-->
+            </StackLayout>
+            <local:Footer ></local:Footer>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

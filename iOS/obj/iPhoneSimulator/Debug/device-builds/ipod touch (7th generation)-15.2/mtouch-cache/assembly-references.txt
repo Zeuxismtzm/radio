@@ -35,3 +35,6 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.4.0.0/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Debug.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.4.0.0/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.4.0.0/lib/mono/Xamarin.iOS/Facades/System.Threading.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/15.4.0.0/lib/mono/Xamarin.iOS/Facades/System.Reflection.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/15.4.0.0/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/15.4.0.0/lib/mono/Xamarin.iOS/Facades/System.Xml.ReaderWriter.dll

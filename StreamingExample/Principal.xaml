@@ -13,7 +13,7 @@
                     <Frame BorderColor="#ceef00" HeightRequest="46" WidthRequest="46" CornerRadius="23" Padding="0" IsClippedToBounds="True" HorizontalOptions="Center" VerticalOptions="Center">
                         <Image x:Name="imgPerfil" Aspect="AspectFill" Source="iconPerfil" WidthRequest="46" HorizontalOptions="Center" VerticalOptions="Center">
                             <Image.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="Perfil_Tapped"></TapGestureRecognizer>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" ></TapGestureRecognizer>
                             </Image.GestureRecognizers>
                         </Image>
                     </Frame>

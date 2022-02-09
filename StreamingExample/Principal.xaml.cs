@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms;
 using Plugin.FirebasePushNotification;
+using StreamingExample;
+
 
 namespace StreamingExample
 {
@@ -14,6 +16,8 @@ namespace StreamingExample
         {
             InitializeComponent();
 
+            ShowUserData();
+
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
 
             BindingContext = new StreamingViewModel();
@@ -22,6 +26,18 @@ namespace StreamingExample
             CrossFirebasePushNotification.Current.Subscribe("enviartodos");
 
             CrossFirebasePushNotification.Current.OnNotificationReceived += Current_OnNotificationReceived;
+        }
+
+        public void ShowUserData()
+        {
+            /*
+            var mainNavPage = (NavigationPage)App.Current.MainPage;
+            var masterPage = (MainMaster)mainNavPage.RootPage;
+            masterPage.IsPresented = true;
+            */
+
+            //  this.lbHeaderName.Text = string.Empty;
+            //  this.imgPerfil.Source = "iconPerfil";
         }
 
         private void Current_OnNotificationReceived(object source, FirebasePushNotificationDataEventArgs e)
@@ -57,11 +73,6 @@ namespace StreamingExample
             //  ViewModel.Stop();
         }
 
-        async void Perfil_Tapped(System.Object sender, System.EventArgs e)
-        {
-            
-
-        }
         async void txtOrigen_Completed(System.Object sender, System.EventArgs e)
         {
 
@@ -76,6 +87,23 @@ namespace StreamingExample
         {
 
 
+        }
+
+        void Perfil_Tapped(System.Object sender, System.EventArgs e)
+        {
+
+            DisplayAlert("alerta", "presionaste ok", "ok");
+            var mainNavPage = (Xamarin.Forms.NavigationPage)App.Current.MainPage;
+            var masterPage = (MainMaster)mainNavPage.RootPage;
+            masterPage.IsPresented = true;
+        }
+
+        void TapGestureRecognizer_Tapped_2(System.Object sender, System.EventArgs e)
+        {
+            DisplayAlert("alerta", "presionaste ok", "ok");
+            var mainNavPage = (Xamarin.Forms.NavigationPage)App.Current.MainPage;
+            var masterPage = (MainMaster)mainNavPage.RootPage;
+            masterPage.IsPresented = true;
         }
     }
 }

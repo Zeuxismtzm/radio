@@ -16,7 +16,7 @@ namespace StreamingExample
 
           //  MainPage = new Principal();
 
-            MainPage = new NavigationPage(new Principal());
+            MainPage = new NavigationPage(new MainMaster());
             //    var navpage = new NavigationPage(new Principal());
             CrossFirebasePushNotification.Current.OnTokenRefresh += Current_OnTokenRefresh;
 

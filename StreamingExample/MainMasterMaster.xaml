@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StreamingExample.MainMasterMaster"
+             Title="Master" 
+             x:Name="caja"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#0E5185">
+    <StackLayout>
+        <ScrollView>
+            <StackLayout Padding="0">
+       
+            <StackLayout HorizontalOptions="CenterAndExpand" Margin="0" >
+                <Image x:Name="imgPerfil" Source="iconPerfil" WidthRequest="120" HeightRequest="120" HorizontalOptions="Start">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+            <StackLayout HorizontalOptions="FillAndExpand" Margin="0">
+                <Label x:Name="txtNombre" Text="NOMBRE Y APELLIDO" TextColor="#dfff00" FontFamily="Gilroy" HorizontalTextAlignment="Center" FontSize="18" Margin="0,20"></Label>
+                <StackLayout BackgroundColor="#444" HeightRequest="2"></StackLayout>
+            </StackLayout>
+            <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand">
+              <!--  <StackLayout Orientation="Horizontal" Margin="0,0,0,20"> -->
+                    <!--   <Label Text="Su estado es:" TextColor="#dfff00" FontFamily="GilroyLight" FontSize="15"></Label> -->
+                    <!--   <Label x:Name="lbStatus" TextColor="#dfff00" FontFamily="Gilroy" FontSize="15"  ></Label> -->
+               <!-- </StackLayout> -->
+               
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="frhome" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"></Image>
+                    <Label VerticalOptions="FillAndExpand" TextColor="#dfff00" HorizontalOptions="FillAndExpand" VerticalTextAlignment="Center" Text="Inicio" FontFamily="Gilroy" FontSize="18">
+                        <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="metodoinicio_Tapped"></TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                </StackLayout>
+                <StackLayout BackgroundColor="#444" HeightRequest="1"></StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="frcuentaBan" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"></Image>
+                    <Label VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" VerticalTextAlignment="Center" Text="Agregar Cuenta Bancaria" TextColor="#dfff00" FontFamily="Gilroy" FontSize="18">
+                        <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="agregarCuentaBanc_Tapped"></TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                </StackLayout>
+                <StackLayout BackgroundColor="#444" HeightRequest="1"></StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="frcargaDoc" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"></Image>
+                    <Label VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" TextColor="#dfff00" VerticalTextAlignment="Center" Text="Carga de Documentos" FontFamily="Gilroy" FontSize="18">
+                        <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="cargaDocum_Tapped"></TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                </StackLayout>
+
+                <StackLayout BackgroundColor="#444" HeightRequest="1"></StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="frHistorial" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"></Image>
+                    <Label VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" TextColor="#dfff00" VerticalTextAlignment="Center" Text="Historial De Viajes" FontFamily="Gilroy" FontSize="18">
+                        <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Historial_Tapped"></TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                </StackLayout>
+                <StackLayout BackgroundColor="#444" HeightRequest="1"></StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="frGanancias" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"></Image>
+                    <Label VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" TextColor="#dfff00" VerticalTextAlignment="Center" Text="Mis Ganancias" FontFamily="Gilroy" FontSize="18">
+                        <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="misganancias_Tapped"></TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                </StackLayout>
+                <StackLayout BackgroundColor="#444" HeightRequest="1"></StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="frbilletera" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"></Image>
+                    <Label  Text="Billetera" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" TextColor="#dfff00" VerticalTextAlignment="Center" FontFamily="Gilroy" FontSize="18">
+                        <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="billetera_Tapped"></TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+                <StackLayout BackgroundColor="#444" HeightRequest="1"></StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="frRedimir" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"></Image>
+                    <Label  Text="Redimir Puntos" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" TextColor="#dfff00" VerticalTextAlignment="Center" FontFamily="Gilroy" FontSize="18">
+                        <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="redimirpuntos_Tapped"></TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+                <StackLayout BackgroundColor="#444" HeightRequest="1"></StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="frContrasena" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"></Image>
+                    <Label  Text="Cambiar Contraseña" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" TextColor="#dfff00" VerticalTextAlignment="Center" FontFamily="Gilroy" FontSize="18">
+                        <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="cambiarContra_Tapped"></TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+                <StackLayout BackgroundColor="#444" HeightRequest="1"></StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="frAyuda" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"></Image>
+                    <Label  Text="Ayuda" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" TextColor="#dfff00" VerticalTextAlignment="Center" FontFamily="Gilroy" FontSize="18">
+                        <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ayudametodo_Tapped"></TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+                <StackLayout BackgroundColor="#444" HeightRequest="1"></StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" Padding="0">
+                <StackLayout BackgroundColor="#444" HeightRequest="2"></StackLayout>
+                    <Image Source="frExito" WidthRequest="50" HeightRequest="50" HorizontalOptions="Start"></Image>
+                    <Label Text="Cerrar sesión" TextColor="#dfff00" Margin="15,20"  FontFamily="Gilroy" FontSize="18">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="CerrarSesion_Tapped"></TapGestureRecognizer>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+            <Label x:Name="lbVersion" HorizontalOptions="EndAndExpand" FontSize="9" FontFamily="GilroyLight"></Label>
+
+            </StackLayout>
+        </ScrollView>
+            
+    </StackLayout>
+</ContentPage>
+
+
+ 

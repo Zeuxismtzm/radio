@@ -42,6 +42,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainMaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMasterMaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMap.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -61,6 +73,15 @@
     </Compile>
     <Compile Include="misionvision.xaml.cs">
       <DependentUpon>misionvision.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainMaster.xaml.cs">
+      <DependentUpon>MainMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainMasterMaster.xaml.cs">
+      <DependentUpon>MainMasterMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainMap.xaml.cs">
+      <DependentUpon>MainMap.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

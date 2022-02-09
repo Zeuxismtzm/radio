@@ -1,20 +1,29 @@
 ﻿<Properties StartupConfiguration="{A43088A7-DB70-4EDC-801D-2B4404E5BE0C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="StreamingExample/Principal.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StreamingExample/MainMasterMaster.xaml.cs">
     <Files>
-      <File FileName="iOS/AppDelegate.cs" Line="31" Column="10" />
-      <File FileName="StreamingExample/Principal.xaml.cs" Line="1" Column="1" />
-      <File FileName="StreamingExample/Principal.xaml" Line="1" Column="1" />
+      <File FileName="StreamingExample/MainMap.xaml.cs" Line="1" Column="1" />
+      <File FileName="StreamingExample/Principal.xaml.cs" />
+      <File FileName="StreamingExample/MainMaster.xaml.cs" />
+      <File FileName="StreamingExample/MainMaster.xaml" />
+      <File FileName="StreamingExample/Principal.xaml" />
+      <File FileName="StreamingExample/MainMasterMaster.xaml.cs" Line="93" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="StreamingExample" expanded="True">
             <Node name="StreamingExample" expanded="True">
-              <Node name="Principal.xaml" expanded="True">
-                <Node name="Principal.xaml.cs" selected="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainMap.xaml" expanded="True" />
+              <Node name="MainMaster.xaml" expanded="True" />
+              <Node name="MainMasterMaster.xaml" expanded="True">
+                <Node name="MainMasterMaster.xaml.cs" selected="True" />
               </Node>
+              <Node name="Principal.xaml" expanded="True" />
             </Node>
-            <Node name="StreamingExample.iOS" expanded="True" />
+            <Node name="StreamingExample.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -25,6 +34,6 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.StreamingExample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BE1BECD0-3ECA-496F-A1BB-A41F2FCF286C" />
+  <MonoDevelop.Ide.ItemProperties.StreamingExample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6C92ADFB-F645-4BC9-8374-74AA568D8CDA" />
   <MultiItemStartupConfigurations />
 </Properties>

@@ -46,13 +46,16 @@
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/obj/Debug/StreamingExample.pdb
 /Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/bin/Debug/StreamingExample.dll
 /Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/bin/Debug/StreamingExample.pdb
-/Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/obj/Debug/StreamingExample.csproj.AssemblyReference.cache
 /Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/obj/Debug/App.xaml.g.cs
 /Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/obj/Debug/StreamingExamplePage.xaml.g.cs
 /Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/obj/Debug/Principal.xaml.g.cs
 /Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/obj/Debug/Footer.xaml.g.cs
 /Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/obj/Debug/misionvision.xaml.g.cs
+/Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/obj/Debug/MainMaster.xaml.g.cs
+/Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/obj/Debug/MainMasterMaster.xaml.g.cs
+/Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/obj/Debug/MainMap.xaml.g.cs
 /Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/obj/Debug/StreamingExample.csproj.CoreCompileInputs.cache
 /Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/obj/Debug/XamlC.stamp
 /Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/obj/Debug/StreamingExample.dll
 /Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/obj/Debug/StreamingExample.pdb
+/Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/obj/Debug/StreamingExample.csproj.AssemblyReference.cache
