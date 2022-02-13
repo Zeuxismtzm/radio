@@ -26,8 +26,16 @@
                     </Image.GestureRecognizers>
                 </Image>
             </StackLayout>
+            
+           <StackLayout HorizontalOptions="CenterAndExpand" Margin="0" >
+                <Image  Source="ic_launcher3_round" WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer></TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
             <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="0,0" Padding="15">
-               
+              
                 <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -37,8 +45,8 @@
                         <RowDefinition Height="*"></RowDefinition>
                         <RowDefinition Height="*"></RowDefinition>
                     </Grid.RowDefinitions>
-                   
-                    <Frame BackgroundColor="Transparent" CornerRadius="5" Padding="0" Grid.Row="0" Grid.Column="0">
+
+                    <Frame BackgroundColor="Transparent" CornerRadius="5" Padding="0" Grid.Row="1" Grid.Column="0">
                         <Frame.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" ></TapGestureRecognizer>
                         </Frame.GestureRecognizers>
@@ -61,7 +69,7 @@
                         </Grid>
                     </Frame>
 
-                    <Frame BackgroundColor="Transparent" CornerRadius="5" Padding="0" Grid.Row="0" Grid.Column="1">
+                    <Frame BackgroundColor="Transparent" CornerRadius="5" Padding="0" Grid.Row="1" Grid.Column="1">
                         <Frame.GestureRecognizers>
                             <TapGestureRecognizer Tapped="pausar_Tapped"></TapGestureRecognizer>
                         </Frame.GestureRecognizers>

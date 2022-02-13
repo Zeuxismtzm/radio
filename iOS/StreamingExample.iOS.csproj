@@ -176,6 +176,11 @@
     <BundleResource Include="Resources\youtube.png" />
     <BundleResource Include="Resources\menu.png" />
     <BundleResource Include="Resources\menus.png" />
+    <BundleResource Include="Resources\f_galeria.png" />
+    <BundleResource Include="Resources\f_programas.png" />
+    <BundleResource Include="Resources\f_radio.png" />
+    <BundleResource Include="Resources\f_tienda.png" />
+    <BundleResource Include="Resources\f_videos.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Footer.xaml">

@@ -6157,7 +6157,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "15A30026-9CD7-4715-8521-63AE70FD6B94"
+	.asciz "E9916546-092A-4E2E-8654-80062E5B1AA3"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -6251,7 +6251,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 164,242,15,175,87,253,183,99,115,175,245,224,3,149,171,54
+	.byte 220,252,186,202,8,73,231,238,252,218,253,125,253,222,58,214
 	.globl _mono_aot_module_StreamingExample_iOS_info
 	.align 3
 _mono_aot_module_StreamingExample_iOS_info:

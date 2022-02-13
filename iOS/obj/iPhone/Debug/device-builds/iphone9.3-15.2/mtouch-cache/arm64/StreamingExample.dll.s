@@ -34746,7 +34746,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "0DAEC108-76A4-4A35-A9BC-D1F1924403DC"
+	.asciz "E5874A2C-C282-43DF-89A8-581CAEEA3C6C"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -34840,7 +34840,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 173,174,65,5,19,109,77,88,133,150,98,192,102,168,76,53
+	.byte 147,209,189,79,64,68,203,191,57,188,102,137,9,138,124,111
 	.globl _mono_aot_module_StreamingExample_info
 	.align 3
 _mono_aot_module_StreamingExample_info:

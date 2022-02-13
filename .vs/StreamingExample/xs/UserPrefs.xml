@@ -4,7 +4,9 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="StreamingExample" expanded="True">
-            <Node name="StreamingExample" expanded="True" />
+            <Node name="StreamingExample" expanded="True">
+              <Node name="Principal.xaml" selected="True" />
+            </Node>
             <Node name="StreamingExample.iOS" expanded="True">
               <Node name="Resources" expanded="True" />
             </Node>

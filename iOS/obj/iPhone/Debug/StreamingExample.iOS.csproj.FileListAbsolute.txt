@@ -240,3 +240,8 @@
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/StreamingExample.iOS.csproj.CopyComplete
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/StreamingExample.iOS.exe
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/StreamingExample.iOS.pdb
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/f_galeria.png
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/f_programas.png
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/f_radio.png
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/f_tienda.png
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/f_videos.png

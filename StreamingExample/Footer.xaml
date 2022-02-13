@@ -9,29 +9,36 @@
                 <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" ></TapGestureRecognizer>
                 </StackLayout.GestureRecognizers>
-                <Image Source="iconQrServer" HeightRequest="70" Margin="-5"></Image>
-                <!--<Label FontFamily="GilroyLight" FontSize="12">Perfíl</Label>-->
+                <Image Source="f_radio" HeightRequest="30" Margin="-5"></Image>
+                <Label FontFamily="GilroyLight" FontSize="12">Radio</Label>
             </StackLayout>
             <StackLayout  Margin="3">
                 <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="Noticias_Tapped"></TapGestureRecognizer>
                 </StackLayout.GestureRecognizers>
-                <Image Source="tutorialicono" HeightRequest="70" Margin="-5"></Image>
-                <!--<Label FontFamily="GilroyLight" FontSize="12">Perfíl</Label>-->
+                <Image Source="f_programas" HeightRequest="30" Margin="-5"></Image>
+                <Label FontFamily="GilroyLight" FontSize="12">Programas</Label>
             </StackLayout>
             <StackLayout Margin="3" x:Name="lyServicios">
                 <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="Servicios_Tapped" ></TapGestureRecognizer>
                 </StackLayout.GestureRecognizers>
-                <Image Source="serviciosIcono" HeightRequest="70" Margin="-5"></Image>
-                <!--<Label FontFamily="GilroyLight" FontSize="12">Mis Servicios</Label>-->
+                <Image Source="f_videos" HeightRequest="30" Margin="-5"></Image>
+                <Label FontFamily="GilroyLight" FontSize="12">Videos</Label>
             </StackLayout>
             <StackLayout Margin="3">
                 <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="NuestraRed_Tapped"></TapGestureRecognizer>
                 </StackLayout.GestureRecognizers>
-                <Image Source="nuestraRedIcono" HeightRequest="70"  Margin="-5"></Image>
-                <!--<Label FontFamily="GilroyLight" FontSize="12">Nuestra Red</Label>-->
+                <Image Source="f_galeria" HeightRequest="30"  Margin="-5"></Image>
+               <Label FontFamily="GilroyLight" FontSize="12">Galeria</Label>
+            </StackLayout>
+             <StackLayout Margin="3">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="NuestraRed_Tapped"></TapGestureRecognizer>
+                </StackLayout.GestureRecognizers>
+                <Image Source="f_tienda" HeightRequest="30"  Margin="-5"></Image>
+               <Label FontFamily="GilroyLight" FontSize="12">Tienda</Label>
             </StackLayout>
         </FlexLayout>
     </ContentView.Content>
