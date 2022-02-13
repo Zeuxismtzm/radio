@@ -26,6 +26,8 @@ namespace StreamingExample
             CrossFirebasePushNotification.Current.Subscribe("enviartodos");
 
             CrossFirebasePushNotification.Current.OnNotificationReceived += Current_OnNotificationReceived;
+
+            ViewModel.Play();
         }
 
         public void ShowUserData()
@@ -42,7 +44,7 @@ namespace StreamingExample
 
         private void Current_OnNotificationReceived(object source, FirebasePushNotificationDataEventArgs e)
         {
-           // DisplayAlert("Notificacion", $"Data: {e.Data["myData"]}", "OK");
+            // DisplayAlert("Notificacion", $"Data: {e.Data["myData"]}", "OK");
         }
 
         async void TapGestureRecognizer_Tapped(System.Object sender, System.EventArgs e)
@@ -65,12 +67,6 @@ namespace StreamingExample
         {
 
             ViewModel.Pause();
-        }
-
-        async void stop_Tapped(System.Object sender, System.EventArgs e)
-        {
-            
-            //  ViewModel.Stop();
         }
 
         async void txtOrigen_Completed(System.Object sender, System.EventArgs e)

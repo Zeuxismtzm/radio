@@ -7276,32 +7276,32 @@ exception_handling:
 	-(BOOL) application:(UIApplication *)p0 didFinishLaunchingWithOptions:(NSDictionary *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_5 (self, _cmd, &managed_method, p0, p1, 0x300);
+		return native_to_managed_trampoline_5 (self, _cmd, &managed_method, p0, p1, 0x1C00);
 	}
 
 	-(void) application:(UIApplication *)p0 didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_6 (self, _cmd, &managed_method, p0, p1, 0x400);
+		native_to_managed_trampoline_6 (self, _cmd, &managed_method, p0, p1, 0x1D00);
 	}
 
 	-(void) application:(UIApplication *)p0 didFailToRegisterForRemoteNotificationsWithError:(NSError *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_6 (self, _cmd, &managed_method, p0, p1, 0x500);
+		native_to_managed_trampoline_6 (self, _cmd, &managed_method, p0, p1, 0x1E00);
 	}
 
 	-(void) application:(UIApplication *)p0 didReceiveRemoteNotification:(NSDictionary *)p1 fetchCompletionHandler:(void (^)(void *))p2
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_8 (self, _cmd, &managed_method, p0, p1, p2, 0x600);
+		native_to_managed_trampoline_8 (self, _cmd, &managed_method, p0, p1, p2, 0x1F00);
 	}
 
 	-(id) init
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x700);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x2000);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [Xamarin_Forms_Platform_iOS_FormsApplicationDelegate class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -17883,7 +17883,7 @@ exception_handling:
 		{ NULL, 0x8416 /* #0 'NSObject' => 'Foundation.NSObject, Xamarin.iOS' */, (MTTypeFlags) (0) /* None */ },
 		{ NULL, 0x19116 /* #1 'UIApplicationDelegate' => 'UIKit.UIApplicationDelegate, Xamarin.iOS' */, (MTTypeFlags) (0) /* None */ },
 		{ NULL, 0x2D22 /* #2 'Xamarin_Forms_Platform_iOS_FormsApplicationDelegate' => 'Xamarin.Forms.Platform.iOS.FormsApplicationDelegate, Xamarin.Forms.Platform.iOS' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x300 /* #3 'AppDelegate' => 'StreamingExample.iOS.AppDelegate, StreamingExample.iOS' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x500 /* #3 'AppDelegate' => 'StreamingExample.iOS.AppDelegate, StreamingExample.iOS' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
 		{ NULL, 0xB16 /* #4 'UNNotificationContent' => 'UserNotifications.UNNotificationContent, Xamarin.iOS' */, (MTTypeFlags) (0) /* None */ },
 		{ NULL, 0x416 /* #5 'UNMutableNotificationContent' => 'UserNotifications.UNMutableNotificationContent, Xamarin.iOS' */, (MTTypeFlags) (0) /* None */ },
 		{ NULL, 0x516 /* #6 'UNNotification' => 'UserNotifications.UNNotification, Xamarin.iOS' */, (MTTypeFlags) (0) /* None */ },
@@ -18323,8 +18323,8 @@ exception_handling:
 		"System.Xml.Linq", 
 		"Xamarin.Forms.Platform", 
 		"Xamarin.Forms.Platform.iOS", 
-		"StreamingExample", 
 		"Xamarin.Forms.Xaml", 
+		"StreamingExample", 
 		"Plugin.FirebasePushNotification", 
 		"Firebase.CloudMessaging", 
 		"Firebase.Core", 

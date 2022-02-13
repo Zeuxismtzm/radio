@@ -2750,18 +2750,18 @@
     ".NETPortable,Version=v4.5,Profile=Profile111": []
   },
   "packageFolders": {
-    "/Users/omarsanchez/.nuget/packages/": {}
+    "/Users/mac/.nuget/packages/": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "/Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/StreamingExample.csproj",
+      "projectUniqueName": "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/StreamingExample.csproj",
       "projectName": "StreamingExample",
-      "projectPath": "/Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/StreamingExample.csproj",
-      "projectJsonPath": "/Users/omarsanchez/proyectos xamarin/radio/radio/StreamingExample/project.json",
-      "packagesPath": "/Users/omarsanchez/.nuget/packages/",
+      "projectPath": "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/StreamingExample.csproj",
+      "projectJsonPath": "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/project.json",
+      "packagesPath": "/Users/mac/.nuget/packages/",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
-        "/Users/omarsanchez/.config/NuGet/NuGet.Config"
+        "/Users/mac/.config/NuGet/NuGet.Config"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}

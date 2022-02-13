@@ -24571,7 +24571,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 206,214,141,219,26,96,83,146,72,65,237,104,239,162,3,239
+	.byte 18,148,158,244,172,198,104,153,241,146,236,153,23,135,242,228
 	.globl _mono_aot_module_Plugin_FirebasePushNotification_info
 	.align 3
 _mono_aot_module_Plugin_FirebasePushNotification_info:

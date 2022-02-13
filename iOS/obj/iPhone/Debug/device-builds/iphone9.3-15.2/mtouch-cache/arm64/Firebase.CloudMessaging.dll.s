@@ -30766,7 +30766,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 204,164,244,193,180,155,144,202,11,49,249,33,108,254,195,142
+	.byte 132,222,185,102,169,208,248,25,225,91,187,198,205,136,56,74
 	.globl _mono_aot_module_Firebase_CloudMessaging_info
 	.align 3
 _mono_aot_module_Firebase_CloudMessaging_info:

@@ -1,26 +1,10 @@
 ﻿<Properties StartupConfiguration="{A43088A7-DB70-4EDC-801D-2B4404E5BE0C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="StreamingExample/MainMasterMaster.xaml.cs">
-    <Files>
-      <File FileName="StreamingExample/MainMap.xaml.cs" Line="1" Column="1" />
-      <File FileName="StreamingExample/Principal.xaml.cs" />
-      <File FileName="StreamingExample/MainMaster.xaml.cs" />
-      <File FileName="StreamingExample/MainMaster.xaml" />
-      <File FileName="StreamingExample/Principal.xaml" />
-      <File FileName="StreamingExample/MainMasterMaster.xaml.cs" Line="93" Column="14" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="StreamingExample" expanded="True">
-            <Node name="StreamingExample" expanded="True">
-              <Node name="App.xaml" expanded="True" />
-              <Node name="MainMap.xaml" expanded="True" />
-              <Node name="MainMaster.xaml" expanded="True" />
-              <Node name="MainMasterMaster.xaml" expanded="True">
-                <Node name="MainMasterMaster.xaml.cs" selected="True" />
-              </Node>
-              <Node name="Principal.xaml" expanded="True" />
-            </Node>
+            <Node name="StreamingExample" expanded="True" />
             <Node name="StreamingExample.iOS" expanded="True">
               <Node name="Resources" expanded="True" />
             </Node>
@@ -30,10 +14,12 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.StreamingExample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6C92ADFB-F645-4BC9-8374-74AA568D8CDA" />
+  <MonoDevelop.Ide.ItemProperties.StreamingExample.iOS automaticSigning="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.8589549a2736f8539dd979ab6cc1cb3a895a430b">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="C3MBZ6ZUPQ" TeamId="6V75P2GBF4" />
+  </MonoDevelop.Ide.ItemProperties.StreamingExample.iOS>
   <MultiItemStartupConfigurations />
 </Properties>

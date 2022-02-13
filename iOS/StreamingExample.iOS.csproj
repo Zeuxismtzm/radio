@@ -141,6 +141,12 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="StreamingService.cs" />
+    <Compile Include="Resources\Footer.xaml.cs">
+      <DependentUpon>Footer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Principal.xaml.cs">
+      <DependentUpon>Principal.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\stop.png" />
@@ -152,6 +158,34 @@
     <BundleResource Include="Resources\iconQrServer.png" />
     <BundleResource Include="GoogleService-Info.plist" />
     <BundleResource Include="Resources\iconPerfil.png" />
+    <BundleResource Include="Resources\fondoazul.png" />
+    <BundleResource Include="Resources\fondohorizontal.jpg" />
+    <BundleResource Include="Resources\fondoprincipal.jpg" />
+    <BundleResource Include="Resources\ic_launcher3_round.png" />
+    <BundleResource Include="Resources\login.png" />
+    <BundleResource Include="Resources\noticias.png" />
+    <BundleResource Include="Resources\patrocinadores.png" />
+    <BundleResource Include="Resources\politicas.png" />
+    <BundleResource Include="Resources\eventos.png" />
+    <BundleResource Include="Resources\inicio.png" />
+    <BundleResource Include="Resources\tienda.png" />
+    <BundleResource Include="Resources\facebook.png" />
+    <BundleResource Include="Resources\ins.png" />
+    <BundleResource Include="Resources\salir.png" />
+    <BundleResource Include="Resources\tw.png" />
+    <BundleResource Include="Resources\youtube.png" />
+    <BundleResource Include="Resources\menu.png" />
+    <BundleResource Include="Resources\menus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Footer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Principal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.5.0.0.2337\build\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.5.0.0.2337\build\Xamarin.Forms.targets')" />

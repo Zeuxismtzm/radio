@@ -38,7 +38,7 @@
 		</data>
 		<key>Frameworks/FBLPromises.framework/FBLPromises</key>
 		<data>
-		Kh6RS3mC+uQUb1mradp08w8xwdI=
+		QE5Jn2Y2uktRFAq9foV/LXPd/3Y=
 		</data>
 		<key>Frameworks/FBLPromises.framework/Info.plist</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher</key>
 		<data>
-		O0hW7FDLotAWBwJVxTJv3HoAui0=
+		oIVs0kdJQvO5dG7GQTG8ZE1ASRA=
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Frameworks/GoogleAPIClientForREST.framework/GoogleAPIClientForREST</key>
 		<data>
-		/n73PxQv0HKoxEyvkv/fj6WzCzo=
+		w38neUPMP50WzHG1JmGLOtsJl50=
 		</data>
 		<key>Frameworks/GoogleAPIClientForREST.framework/Info.plist</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac</key>
 		<data>
-		Wbj94MCKbvts6hV4XKLa/RXPlD4=
+		fbJ9kRul5pkK7TlgCag3dtQ303E=
 		</data>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Frameworks/GoogleUtilities.framework/GoogleUtilities</key>
 		<data>
-		3V0AfIxOYP6QNC5ktppInakfITk=
+		B0OfE8S/amz1uGKHVgvnV3M6YNk=
 		</data>
 		<key>Frameworks/GoogleUtilities.framework/Info.plist</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Frameworks/Protobuf.framework/Protobuf</key>
 		<data>
-		6f6dDm25FJeomzLu2nQ3JxjnvTE=
+		viw0WP6bCXrTAoYfGvfYunCLOL0=
 		</data>
 		<key>Frameworks/Protobuf.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Frameworks/leveldb.framework/leveldb</key>
 		<data>
-		1jt/xF0bA2Qto0veuRGu6c3rWCM=
+		0KgZttg/HmO3MRur9lfd5D3/8F0=
 		</data>
 		<key>Frameworks/nanopb.framework/Info.plist</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Frameworks/nanopb.framework/nanopb</key>
 		<data>
-		qkHAWMS/L0AVUT6t961y9D/udmk=
+		+RYFTyMeV5qrtk89Twp22BP5eLU=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -138,11 +138,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3TJ7/5u2YWSZjqAy84K7Wh5FnsE=
+		2pW5mJWCqDwg705/o4U2fNevJUc=
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		hMnf/VIyTGR2nRcoLS3JCfeGmDs=
+		NcDwqQY76U208B6UXgj+UdbL99Y=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -186,27 +186,27 @@
 		</data>
 		<key>StreamingExample.aotdata.arm64</key>
 		<data>
-		cfVB43xi3TJQuJhCC/nB7/1Umgo=
+		XhcyvJdJ5DPUx5StilXA6B655pU=
 		</data>
 		<key>StreamingExample.dll</key>
 		<data>
-		PeFWdg2Nj2m2i1frGd4yPVCCfGs=
+		RZAlToEaFGp6HD0A7nKxvCYLEss=
 		</data>
 		<key>StreamingExample.iOS.aotdata.arm64</key>
 		<data>
-		YSR8M/08ccmbDuz39AFp7uPuxOA=
+		V81ttfuWrZRjqdC+P+dMtP2lfkI=
 		</data>
 		<key>StreamingExample.iOS.exe</key>
 		<data>
-		D3p9RG5Uerru2mYgTgEXstxPmPQ=
+		kgKTSWZ30h1yZ6JMSE0tUq6akiY=
 		</data>
 		<key>StreamingExample.iOS.pdb</key>
 		<data>
-		5fijLPnJ85CO5LZu1SK8w70km6U=
+		8OoQvJ/6erdmu+VMsUFg1d9oP1U=
 		</data>
 		<key>StreamingExample.pdb</key>
 		<data>
-		b/+3PzERkebNDR5nr6DlrJcbfBA=
+		Y2w4IHPUiTd62smT90snXfoxxDI=
 		</data>
 		<key>System.Core.aotdata.arm64</key>
 		<data>
@@ -422,11 +422,19 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		bdXhjgjdmkvubADay1Cu3Ig0L7g=
+		ZkMlD7vzw62ENjPh+a7U/shIhOo=
 		</data>
 		<key>es/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
 		i2EOYUyv6CjfbJw6sFqcP7wCxnk=
+		</data>
+		<key>eventos.png</key>
+		<data>
+		MYza6WoO3gCtTeu+dq6xAWLUj70=
+		</data>
+		<key>facebook.png</key>
+		<data>
+		wI/FKqIkvm2/1K5lSe0uQ9SwxzU=
 		</data>
 		<key>fi/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -435,6 +443,18 @@
 		<key>fondo2.png</key>
 		<data>
 		XH+KoluQD+7IeHv912fGnsezark=
+		</data>
+		<key>fondoazul.png</key>
+		<data>
+		f0wE0cos3s+7Gl0uh87iVmHVWfE=
+		</data>
+		<key>fondohorizontal.jpg</key>
+		<data>
+		xmqB9lKbbXzLClxN4ffp50QcbZc=
+		</data>
+		<key>fondoprincipal.jpg</key>
+		<data>
+		oynVv+CM13WaBwZhfWQpbi4Szas=
 		</data>
 		<key>fr/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -456,6 +476,14 @@
 		<data>
 		0g1d3HVuJACKxGV5xsmGnbKhQps=
 		</data>
+		<key>ic_launcher3_round.png</key>
+		<data>
+		tYtO/sZZbh/VdYhmQtJY3jBRz1I=
+		</data>
+		<key>iconPerfil.png</key>
+		<data>
+		QAL/bK3fbdljt59r9TQlHpEmR58=
+		</data>
 		<key>iconQrServer.png</key>
 		<data>
 		G8doJyipv5JtauzVJdUpeIVmNb0=
@@ -463,6 +491,14 @@
 		<key>id/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
 		bVNNZxlMI5HGAMOCsnUZjxJStfU=
+		</data>
+		<key>inicio.png</key>
+		<data>
+		XsiE03L3MgBjxgrbS7xJuxnWJgg=
+		</data>
+		<key>ins.png</key>
+		<data>
+		sq6ZD2ad0cgTA2Ki94tOtt9pr2U=
 		</data>
 		<key>it/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -475,6 +511,18 @@
 		<key>ko/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
 		1t9ElR6XCp/U4vY4xJvhrViMzoQ=
+		</data>
+		<key>login.png</key>
+		<data>
+		+D1PM8mRRrRo/XTj4phatueVG6Y=
+		</data>
+		<key>menu.png</key>
+		<data>
+		3496a7Oa8aprSuYo/qGiLQw86o8=
+		</data>
+		<key>menus.png</key>
+		<data>
+		azRNaGpDXL7jiyuv2Hn/Vy9rFwQ=
 		</data>
 		<key>ms/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -500,6 +548,14 @@
 		<data>
 		o3YVFjqzJfrmzxC/hjE99FSt9aM=
 		</data>
+		<key>noticias.png</key>
+		<data>
+		XPLh/pI2ckNw3omENjHZVt8KBw0=
+		</data>
+		<key>patrocinadores.png</key>
+		<data>
+		YggTNwsD9KXEwVrRXo1RFfFZzjA=
+		</data>
 		<key>pause.png</key>
 		<data>
 		nBCvJBDMImGorD+9IMCkVlz5pEI=
@@ -511,6 +567,10 @@
 		<key>play.png</key>
 		<data>
 		wKPDRBX5Afb8SxM3fbXxsbfLHDk=
+		</data>
+		<key>politicas.png</key>
+		<data>
+		J+Zm2t6351iefGiM2uyTwa37VSc=
 		</data>
 		<key>pt-BR/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -527,6 +587,10 @@
 		<key>ru/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
 		f6x3fp5HMI82mJ5ljefG/FMFqB0=
+		</data>
+		<key>salir.png</key>
+		<data>
+		pxzlrbN4ABCar1Hpsi4VpHPJWpk=
 		</data>
 		<key>serviciosIcono.png</key>
 		<data>
@@ -548,6 +612,10 @@
 		<data>
 		OJEGjDUFo+RejE+vPuwlEJAG+fU=
 		</data>
+		<key>tienda.png</key>
+		<data>
+		xfmEEFNZ4OtV2u17Y7xYAnNgGWM=
+		</data>
 		<key>tr/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
 		96tjs1Q4Hp/393G3xu731H/ZzR4=
@@ -556,6 +624,10 @@
 		<data>
 		/FwnwlKjUs4/hzbEvpQ9yJQGbO8=
 		</data>
+		<key>tw.png</key>
+		<data>
+		2U+68PudSmmEF3jZJTvRE2lV5vI=
+		</data>
 		<key>uk/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
 		f3Sn9FQa8wJASOgvP7cux/fZvuo=
@@ -563,6 +635,10 @@
 		<key>vi/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
 		hISw1LVZWdN32LJ2gZ07IlcymbA=
+		</data>
+		<key>youtube.png</key>
+		<data>
+		oNnxxs7abArBYi7daU3kYtU0I58=
 		</data>
 		<key>zh-HK/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -671,11 +747,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Kh6RS3mC+uQUb1mradp08w8xwdI=
+			QE5Jn2Y2uktRFAq9foV/LXPd/3Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			OWBvW/W5PXYjBVKIkmIE7fqQk1oMQ6qTWr4fYCI5y68=
+			UMwIMFZHT6ceJrm2XRoTsiJ4Wr0DQSehSr2KM1Rz0uU=
 			</data>
 		</dict>
 		<key>Frameworks/FBLPromises.framework/Info.plist</key>
@@ -704,11 +780,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O0hW7FDLotAWBwJVxTJv3HoAui0=
+			oIVs0kdJQvO5dG7GQTG8ZE1ASRA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q8QfNofEPnRJikFDRrlmCM+eh74uuck24BOAizsJVN0=
+			cVva8PUE/Y9XKrHrMwvvKAz5Z8E9MWDgMpX2f5Q9h1s=
 			</data>
 		</dict>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
@@ -737,11 +813,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/n73PxQv0HKoxEyvkv/fj6WzCzo=
+			w38neUPMP50WzHG1JmGLOtsJl50=
 			</data>
 			<key>hash2</key>
 			<data>
-			g5RJDQIw2wahjQiGaXjGok2gaXYmTQTxoNDoBENeIaQ=
+			4EwZlryrVV2ultEecnqzQXEg5SallCAY3sb3yBBzto8=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleAPIClientForREST.framework/Info.plist</key>
@@ -770,11 +846,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Wbj94MCKbvts6hV4XKLa/RXPlD4=
+			fbJ9kRul5pkK7TlgCag3dtQ303E=
 			</data>
 			<key>hash2</key>
 			<data>
-			UgIDYE/50pGx6u235CW0LcezJZjGWoELEn5MheqklZ4=
+			GbGzfaxap45GI77Qw4jq08ATOsIPE4ruBSaJYZuRDDY=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleToolboxForMac.framework/Info.plist</key>
@@ -803,11 +879,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3V0AfIxOYP6QNC5ktppInakfITk=
+			B0OfE8S/amz1uGKHVgvnV3M6YNk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jkm+XRSHBcptPjrTcKz2BX+/i8aHU1fPuLw7s88nnUo=
+			+p0VGOCAb0oP2hg661ZTmEcoW4RV2XxFtWB5t3H8/Kk=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleUtilities.framework/Info.plist</key>
@@ -847,11 +923,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6f6dDm25FJeomzLu2nQ3JxjnvTE=
+			viw0WP6bCXrTAoYfGvfYunCLOL0=
 			</data>
 			<key>hash2</key>
 			<data>
-			PglBrG3qRKdClbtwFgzMXaZ022eGCpUbLBf9uOTTxzI=
+			eaGnl78RM+fn0II6VmsTPkI8ycPyIWDNt/7rrJYl8IU=
 			</data>
 		</dict>
 		<key>Frameworks/Protobuf.framework/_CodeSignature/CodeResources</key>
@@ -891,11 +967,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1jt/xF0bA2Qto0veuRGu6c3rWCM=
+			0KgZttg/HmO3MRur9lfd5D3/8F0=
 			</data>
 			<key>hash2</key>
 			<data>
-			S7nRsrNXXzS/WP58rbxV9wgp4r92Sj8rjJBbOYqUUgI=
+			wu3Vs2dJxHsyvbzaWliM1bwUJXQNpkeemquQWbDJ6Ng=
 			</data>
 		</dict>
 		<key>Frameworks/nanopb.framework/Info.plist</key>
@@ -924,11 +1000,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qkHAWMS/L0AVUT6t961y9D/udmk=
+			+RYFTyMeV5qrtk89Twp22BP5eLU=
 			</data>
 			<key>hash2</key>
 			<data>
-			TiKMO2H/PLxS/2RVWWd16zEskA+WRtoXA+ilHF4tmYY=
+			WU71VmC97Wy8nm/iKmAmXyGeYjInATJX8rCSX+WahTg=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -946,11 +1022,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hMnf/VIyTGR2nRcoLS3JCfeGmDs=
+			NcDwqQY76U208B6UXgj+UdbL99Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			BY/hOMO0FcCl8mCMQqjVbFeb8Q97c1G9lHscfspHFNk=
+			+nHRff087DYXFpw/oTWtY5tpCRFh9UC2IuTS4p66FTU=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -1056,66 +1132,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cfVB43xi3TJQuJhCC/nB7/1Umgo=
+			XhcyvJdJ5DPUx5StilXA6B655pU=
 			</data>
 			<key>hash2</key>
 			<data>
-			qqZpILWUKJCnU4rC6TtabUBUebCeDjV1J8uwxfZpQts=
+			C/X4TO8z0hmkO6Oz5zPVZAb6nZ5SBse2Jv1nI24Oano=
 			</data>
 		</dict>
 		<key>StreamingExample.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PeFWdg2Nj2m2i1frGd4yPVCCfGs=
+			RZAlToEaFGp6HD0A7nKxvCYLEss=
 			</data>
 			<key>hash2</key>
 			<data>
-			FFae3CfvABfMyc4clN3My1iRVq2wzo6GnaM0vbL/A9Y=
+			7Chgaey3/WZAJm8tYWF/oFX11h324BYHZCemW3CEuyk=
 			</data>
 		</dict>
 		<key>StreamingExample.iOS.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YSR8M/08ccmbDuz39AFp7uPuxOA=
+			V81ttfuWrZRjqdC+P+dMtP2lfkI=
 			</data>
 			<key>hash2</key>
 			<data>
-			XO+9R/vJgrYSFgVPZON1Jab+ohh9sYKvlgSJ0PUMrSE=
+			rkzHapcnm8eiAn7Kdd3kMcR9aRSiT5eiremvpaqekEQ=
 			</data>
 		</dict>
 		<key>StreamingExample.iOS.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D3p9RG5Uerru2mYgTgEXstxPmPQ=
+			kgKTSWZ30h1yZ6JMSE0tUq6akiY=
 			</data>
 			<key>hash2</key>
 			<data>
-			n8ufnMlovBpmwa9ImayBBU7k091cm3SzAkNm3UeNsuM=
+			H07aW5hZspiVNABXjysk6uB4phpDtMVXs8qKIGKPjIA=
 			</data>
 		</dict>
 		<key>StreamingExample.iOS.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5fijLPnJ85CO5LZu1SK8w70km6U=
+			8OoQvJ/6erdmu+VMsUFg1d9oP1U=
 			</data>
 			<key>hash2</key>
 			<data>
-			uAZaKj7SvV8NNCcBin08aveQ2OYopqFW9jGhfJIbtP4=
+			gqeE9rF/9qj8hpFDj2dZx04w8x2AT8wmG8uA5+dfRCc=
 			</data>
 		</dict>
 		<key>StreamingExample.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			b/+3PzERkebNDR5nr6DlrJcbfBA=
+			Y2w4IHPUiTd62smT90snXfoxxDI=
 			</data>
 			<key>hash2</key>
 			<data>
-			xaE+TiQ+rejfEhl8uRU3nHM+t79JgezflpapX4KRWMo=
+			rHDGyhALWMM2dR8EiW2WPuEGCnSnEbSnrnBOdJXA1gk=
 			</data>
 		</dict>
 		<key>System.Core.aotdata.arm64</key>
@@ -1705,11 +1781,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bdXhjgjdmkvubADay1Cu3Ig0L7g=
+			ZkMlD7vzw62ENjPh+a7U/shIhOo=
 			</data>
 			<key>hash2</key>
 			<data>
-			4CAAzYdzRIW6XsfuEEAV0HYlXR9cRl9lVbSDldfs9AM=
+			MH/NyZCzkwYNtVk7v6VZ4J2TMj9xIYD0PshuCKIBHaM=
 			</data>
 		</dict>
 		<key>es/Xamarin.Forms.Platform.iOS.resources.dll</key>
@@ -1721,6 +1797,28 @@
 			<key>hash2</key>
 			<data>
 			OF0uVaWKa2qgvtQfAlp6jcZyLSyeaQeyxYTBB1HBaJQ=
+			</data>
+		</dict>
+		<key>eventos.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MYza6WoO3gCtTeu+dq6xAWLUj70=
+			</data>
+			<key>hash2</key>
+			<data>
+			wXw8Dcr9hmiOOh7fwJExbsp3grZo3B18S+y46DPEYoI=
+			</data>
+		</dict>
+		<key>facebook.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wI/FKqIkvm2/1K5lSe0uQ9SwxzU=
+			</data>
+			<key>hash2</key>
+			<data>
+			VzEj6Hvjr9ZCKS9KrsSPVYyRiWqq1+hszjhGSCwkaN4=
 			</data>
 		</dict>
 		<key>fi/Xamarin.Forms.Platform.iOS.resources.dll</key>
@@ -1743,6 +1841,39 @@
 			<key>hash2</key>
 			<data>
 			HjP3gJPS+bxsLiVRRgDl+gFo6MiPwvQ9/AJeU14+7zQ=
+			</data>
+		</dict>
+		<key>fondoazul.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			f0wE0cos3s+7Gl0uh87iVmHVWfE=
+			</data>
+			<key>hash2</key>
+			<data>
+			jgy5gOH8U8ys3/GXLMc0nn2Ush7+TQ9HwI31UgcCncU=
+			</data>
+		</dict>
+		<key>fondohorizontal.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xmqB9lKbbXzLClxN4ffp50QcbZc=
+			</data>
+			<key>hash2</key>
+			<data>
+			oLmpKGP4I2agEiYYWYedi8dM4ATvkn4+bv6fTVJeWPQ=
+			</data>
+		</dict>
+		<key>fondoprincipal.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oynVv+CM13WaBwZhfWQpbi4Szas=
+			</data>
+			<key>hash2</key>
+			<data>
+			L9gXtO9R/H+RSnEQoYoUsHh9dh6giyt3k0Cy8RnpSJg=
 			</data>
 		</dict>
 		<key>fr/Xamarin.Forms.Platform.iOS.resources.dll</key>
@@ -1800,6 +1931,28 @@
 			sTf7mdusEqNBxhEKvcFtpPu4xiN7gpHCX/2VmQULF28=
 			</data>
 		</dict>
+		<key>ic_launcher3_round.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tYtO/sZZbh/VdYhmQtJY3jBRz1I=
+			</data>
+			<key>hash2</key>
+			<data>
+			M5KBDcdHj8jFw0LoSQWWKXyu/N7uC0P0oZKr8m+ysJY=
+			</data>
+		</dict>
+		<key>iconPerfil.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QAL/bK3fbdljt59r9TQlHpEmR58=
+			</data>
+			<key>hash2</key>
+			<data>
+			A1YZd5agmTQD0YrqPDW8a5gnN2/Z9+H+567sM5IErPE=
+			</data>
+		</dict>
 		<key>iconQrServer.png</key>
 		<dict>
 			<key>hash</key>
@@ -1820,6 +1973,28 @@
 			<key>hash2</key>
 			<data>
 			umAWmrPlCNCC1Xzqjys19IZcLNok/1XocqXMyHXMLeM=
+			</data>
+		</dict>
+		<key>inicio.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XsiE03L3MgBjxgrbS7xJuxnWJgg=
+			</data>
+			<key>hash2</key>
+			<data>
+			yWhTSuLqwS3AXSjOM6IC70uesNU3WKNZ4l6O+ofrRuI=
+			</data>
+		</dict>
+		<key>ins.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sq6ZD2ad0cgTA2Ki94tOtt9pr2U=
+			</data>
+			<key>hash2</key>
+			<data>
+			26sp7d7/irJFFAp8EZLEg0HJ8THDeyfyjqdo4AmfRfc=
 			</data>
 		</dict>
 		<key>it/Xamarin.Forms.Platform.iOS.resources.dll</key>
@@ -1853,6 +2028,39 @@
 			<key>hash2</key>
 			<data>
 			o100qYrH/J8bv+qnzXZyVsTxmPJ0qyWu8ZUmc6k3e4U=
+			</data>
+		</dict>
+		<key>login.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+D1PM8mRRrRo/XTj4phatueVG6Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			wdGO8KF5eotnmxwj3osvvcwraGbReeOobdylhStH2vY=
+			</data>
+		</dict>
+		<key>menu.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3496a7Oa8aprSuYo/qGiLQw86o8=
+			</data>
+			<key>hash2</key>
+			<data>
+			kUOVD4XuH6wQ/qa4IDdKaANUCC1zbgKGreTasyRj/Ts=
+			</data>
+		</dict>
+		<key>menus.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			azRNaGpDXL7jiyuv2Hn/Vy9rFwQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			cofXGQfYAzcKVZQYxdF4+l4tOVGjdTpxNudHfvaQbqQ=
 			</data>
 		</dict>
 		<key>ms/Xamarin.Forms.Platform.iOS.resources.dll</key>
@@ -1921,6 +2129,28 @@
 			Q98p1IAQruFTikOM5/kZ/7vGsI+WTTVAkmnpascEqbw=
 			</data>
 		</dict>
+		<key>noticias.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XPLh/pI2ckNw3omENjHZVt8KBw0=
+			</data>
+			<key>hash2</key>
+			<data>
+			rEmZDb3wibZ6qYyY3SkZcI7Zh1Ulzly50GLafbFbywI=
+			</data>
+		</dict>
+		<key>patrocinadores.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YggTNwsD9KXEwVrRXo1RFfFZzjA=
+			</data>
+			<key>hash2</key>
+			<data>
+			R8psY+vMlZQXCaWxjtuY2VTC8Wz3L/75Lpy83+7VBS0=
+			</data>
+		</dict>
 		<key>pause.png</key>
 		<dict>
 			<key>hash</key>
@@ -1952,6 +2182,17 @@
 			<key>hash2</key>
 			<data>
 			hylQ9AMWVGgSjqJmQdji/Hj1sj5RU9fdcMsQVWg2SkE=
+			</data>
+		</dict>
+		<key>politicas.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			J+Zm2t6351iefGiM2uyTwa37VSc=
+			</data>
+			<key>hash2</key>
+			<data>
+			kjRlLE0efszvPLQbvVwxzunrG2peumwT3a53GQvPYZc=
 			</data>
 		</dict>
 		<key>pt-BR/Xamarin.Forms.Platform.iOS.resources.dll</key>
@@ -1996,6 +2237,17 @@
 			<key>hash2</key>
 			<data>
 			Fc5FYMjVszjrmv+yHk6ZSPmJumcEISgCC7kVSfbKR6Q=
+			</data>
+		</dict>
+		<key>salir.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pxzlrbN4ABCar1Hpsi4VpHPJWpk=
+			</data>
+			<key>hash2</key>
+			<data>
+			pu8BPRGJUshdFBXjWUeOtgjftm30huQi+jpZDtpm5fw=
 			</data>
 		</dict>
 		<key>serviciosIcono.png</key>
@@ -2053,6 +2305,17 @@
 			gUtzK9G3OGKNYO/sAFuVX11WPGrMJlnpJOkpkgREhVQ=
 			</data>
 		</dict>
+		<key>tienda.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xfmEEFNZ4OtV2u17Y7xYAnNgGWM=
+			</data>
+			<key>hash2</key>
+			<data>
+			UGilD0G1XqRUzbExefaU0FYSaQlFVhJtmGiVi0JWfoE=
+			</data>
+		</dict>
 		<key>tr/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
@@ -2075,6 +2338,17 @@
 			f/wOLASC/6162DXluMNoeI2hdU9rOfmTE0tzEXM362c=
 			</data>
 		</dict>
+		<key>tw.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2U+68PudSmmEF3jZJTvRE2lV5vI=
+			</data>
+			<key>hash2</key>
+			<data>
+			qH1zA5Bfo/409KRHcEMp3fxGtbn86l2iHn0gQyTjUZs=
+			</data>
+		</dict>
 		<key>uk/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<dict>
 			<key>hash</key>
@@ -2095,6 +2369,17 @@
 			<key>hash2</key>
 			<data>
 			wtfD/5VHfioDWpxL1io6QZNFhu/RQJyWN+/xNokVxjM=
+			</data>
+		</dict>
+		<key>youtube.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oNnxxs7abArBYi7daU3kYtU0I58=
+			</data>
+			<key>hash2</key>
+			<data>
+			gbhozkJA2ErfRCH9RLs8cSFEi9FYYGwm9em5pc1bN8U=
 			</data>
 		</dict>
 		<key>zh-HK/Xamarin.Forms.Platform.iOS.resources.dll</key>

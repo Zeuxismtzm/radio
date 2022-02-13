@@ -6,7 +6,7 @@
       <CompiledArchitectures>ARM64</CompiledArchitectures>
       <NoDSymUtil>false</NoDSymUtil>
       <NoSymbolStrip>true</NoSymbolStrip>
-      <SymbolsList>/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-symbols.list</SymbolsList>
+      <SymbolsList>/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/mtouch-symbols.list</SymbolsList>
     </_AppExtensionDebugSymbolProperties>
   </ItemGroup>
 </Project>

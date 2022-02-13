@@ -122,7 +122,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip StreamingExample_App__ctor
 StreamingExample_App__ctor:
-.file 1 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/App.xaml.cs"
+.file 1 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/App.xaml.cs"
 .loc 1 11 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -181,8 +181,8 @@ bl _p_2
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x0, [x16, #208]
-.word 0xd2804501
-.word 0xd2804501
+.word 0xd2804f01
+.word 0xd2804f01
 bl _p_3
 .word 0xf9002ba0
 bl _p_4
@@ -615,7 +615,7 @@ Lme_4:
 	.align 4
 	.no_dead_strip StreamingExample_App_InitializeComponent
 StreamingExample_App_InitializeComponent:
-.file 2 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/obj/Debug/App.xaml.g.cs"
+.file 2 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/App.xaml.g.cs"
 .loc 2 20 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -1086,7 +1086,7 @@ Lme_6:
 	.align 4
 	.no_dead_strip StreamingExample_StreamingExamplePage_get_ViewModel
 StreamingExample_StreamingExamplePage_get_ViewModel:
-.file 3 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/StreamingExamplePage.xaml.cs"
+.file 3 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/StreamingExamplePage.xaml.cs"
 .loc 3 9 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -1456,7 +1456,7 @@ Lme_b:
 	.align 4
 	.no_dead_strip StreamingExample_StreamingExamplePage_InitializeComponent
 StreamingExample_StreamingExamplePage_InitializeComponent:
-.file 4 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/obj/Debug/StreamingExamplePage.xaml.g.cs"
+.file 4 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/StreamingExamplePage.xaml.g.cs"
 .loc 4 20 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -1517,7 +1517,7 @@ Lme_c:
 	.align 4
 	.no_dead_strip StreamingExample_StreamingViewModel_get_DisplayPlay
 StreamingExample_StreamingViewModel_get_DisplayPlay:
-.file 5 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/StreamingViewModel.cs"
+.file 5 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/StreamingViewModel.cs"
 .loc 5 9 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -2324,10 +2324,26638 @@ ldr x16, [x16, #704]
 Lme_17:
 .text
 	.align 4
+	.no_dead_strip StreamingExample_misionvision__ctor
+StreamingExample_misionvision__ctor:
+.file 6 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/misionvision.xaml.cs"
+.loc 6 10 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #712]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_23
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 11 0
+.word 0xf9400fb1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 12 0
+.word 0xf9400fb1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_39
+.word 0xf9400fb1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 6 13 0
+.word 0xf9400fb1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_1b:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_misionvision_InitializeComponent
+StreamingExample_misionvision_InitializeComponent:
+.file 7 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/misionvision.xaml.g.cs"
+.loc 7 20 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #720]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 21 0
+.word 0xf9400fb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #728]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #736]
+bl _p_40
+.word 0xf9400fb1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 22 0
+.word 0xf9400fb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_1c:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMaster__ctor
+StreamingExample_MainMaster__ctor:
+.file 8 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/MainMaster.xaml.cs"
+.loc 8 12 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #744]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_41
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 13 0
+.word 0xf9400fb1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 14 0
+.word 0xf9400fb1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_42
+.word 0xf9400fb1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 15 0
+.word 0xf9400fb1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x540007c0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x54000620
+.word 0xd5033bbf
+.word 0xf900103a
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #760]
+.word 0xf9001420
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #768]
+.word 0xf9002020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #776]
+.word 0xf9401402
+.word 0xf9000c22
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901c03f
+.word 0xaa1a03e0
+bl _p_43
+.word 0xf9400fb1
+.word 0xf9418231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 16 0
+.word 0xf9400fb1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+.word 0xd2800fc0
+.word 0xaa1103e1
+bl _p_8
+
+Lme_1d:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMaster_MainMaster_IsPresentedChanged_object_System_EventArgs
+StreamingExample_MainMaster_MainMaster_IsPresentedChanged_object_System_EventArgs:
+.loc 8 19 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa90163b7
+.word 0xa9026bb9
+.word 0xaa0003fa
+.word 0xf9001ba1
+.word 0xf9001fa2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #784]
+.word 0xf90023b0
+.word 0xf9400211
+.word 0xf90027b1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xf94023b1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 20 0
+.word 0xf94023b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_44
+.word 0x53001c00
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0x53001c00
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0x34000660
+.loc 8 21 0
+.word 0xf94023b1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 22 0
+.word 0xf94023b1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_45
+.word 0xaa0003f7
+.word 0xf94023b1
+.word 0xf940ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000217
+.word 0xf94002e0
+.word 0xf9400000
+.word 0x79403001
+.word 0xd280013e
+.word 0xeb1e003f
+.word 0x10000011
+.word 0x54000583
+.word 0xf9400800
+.word 0xf9402000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #792]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x54000481
+.word 0xaa1703e0
+.word 0xaa1703f8
+.loc 8 23 0
+.word 0xf94023b1
+.word 0xf9414231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xaa1703e0
+.word 0x394002fe
+bl _p_46
+.word 0xf94023b1
+.word 0xf9416231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 24 0
+.word 0xf94023b1
+.word 0xf9417231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 25 0
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94163b7
+.word 0xa9426bb9
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+.word 0xd28019a0
+.word 0xaa1103e1
+bl _p_8
+
+Lme_1e:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMaster_InitializeComponent
+StreamingExample_MainMaster_InitializeComponent:
+.file 9 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/MainMaster.xaml.g.cs"
+.loc 9 23 0 prologue_end
+.word 0xa9ad7bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #800]
+.word 0xf9002bb0
+.word 0xf9400211
+.word 0xf9002fb1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xf9402bb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 9 24 0
+.word 0xf9402bb1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_47
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf9402bb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0x34000d00
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #808]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf90073a0
+bl _p_48
+.word 0xf9402bb1
+.word 0xf940d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94073a0
+.word 0xf90047a0
+.word 0xf94047a0
+.word 0xf9005fa0
+.word 0xf94047a0
+.word 0xf90067a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #816]
+.loc 9 25 0
+bl _p_49
+.word 0xf9006fa0
+.word 0xf9402bb1
+.word 0xf9410e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9406fa1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf9006ba0
+.word 0xf9402bb1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9406ba1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9406c30
+.word 0xd63f0200
+.word 0xf90063a0
+.word 0xf9402bb1
+.word 0xf9415e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94063a1
+.word 0xf94067a2
+.loc 9 26 0
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_50
+.word 0xf9402bb1
+.word 0xf9418231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405fa0
+.word 0xf9004ba0
+.word 0xf9404ba0
+.word 0xf9005ba0
+.word 0xf9404ba2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #824]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_51
+.word 0xf9402bb1
+.word 0xf941be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405ba0
+.word 0xf9004fa0
+.word 0xf9404fa0
+.word 0xf90057a0
+.word 0xf9404fa2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0x3940005e
+bl _p_52
+.word 0xf9402bb1
+.word 0xf941f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a0
+bl _p_53
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf9402bb1
+.word 0xf9421631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0x34000120
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_54
+.word 0xf9402bb1
+.word 0xf9423a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400019d
+bl _p_55
+.word 0xf90053a0
+.word 0xf9402bb1
+.word 0xf9425631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xb40004c0
+bl _p_55
+.word 0xf9005fa0
+.word 0xf9402bb1
+.word 0xf9427631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400340
+.word 0xf9400c00
+.word 0xf9005ba0
+.word 0xf9402bb1
+.word 0xf9429631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405ba1
+.word 0xf9405fa2
+.word 0xaa0203e0
+.word 0xf90057a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94057a0
+.word 0xf90053a1
+.word 0xf9402bb1
+.word 0xf942ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xb4000120
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_54
+.word 0xf9402bb1
+.word 0xf942ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000170
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #832]
+.word 0xd2804301
+.word 0xd2804301
+bl _p_3
+.word 0xf90093a0
+bl _p_56
+.word 0xf9402bb1
+.word 0xf9432231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94093a0
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xf90087a0
+.word 0xaa1403e0
+.word 0xaa1403f9
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #824]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf9008fa0
+.word 0xf9402bb1
+.word 0xf9437631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf9408fa1
+.word 0xf9008ba0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402bb1
+.word 0xf943b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94087a0
+.word 0xf9408ba1
+.word 0xd2800122
+.word 0xd2800142
+.word 0xd2800122
+.word 0xd2800143
+bl _p_59
+.word 0xf9402bb1
+.word 0xf943de31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #864]
+.word 0xd2804301
+.word 0xd2804301
+bl _p_3
+.word 0xf90083a0
+bl _p_60
+.word 0xf9402bb1
+.word 0xf9440e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94083a0
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xf90077a0
+.word 0xaa1303e0
+.word 0xaa1303f8
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #824]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf9007fa0
+.word 0xf9402bb1
+.word 0xf9446231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf9407fa1
+.word 0xf9007ba0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402bb1
+.word 0xf9449e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94077a0
+.word 0xf9407ba1
+.word 0xd28001c2
+.word 0xd2800242
+.word 0xd28001c2
+.word 0xd2800243
+bl _p_59
+.word 0xf9402bb1
+.word 0xf944ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xf90073a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #216]
+.word 0xd2804901
+.word 0xd2804901
+bl _p_3
+.word 0xf94073a1
+.word 0xf9006fa0
+bl _p_5
+.word 0xf9402bb1
+.word 0xf9450631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9406fa0
+.word 0xf90037a0
+.word 0xf94037a0
+.word 0xf90063a0
+.word 0xf94037a0
+.word 0xaa0003f7
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #824]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf9006ba0
+.word 0xf9402bb1
+.word 0xf9455a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf9406ba1
+.word 0xf90067a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402bb1
+.word 0xf9459631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94063a0
+.word 0xf94067a1
+.word 0xd2800182
+.word 0xd2800142
+.word 0xd2800182
+.word 0xd2800143
+bl _p_59
+.word 0xf9402bb1
+.word 0xf945c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9003bba
+.word 0xf9403ba0
+.word 0xf90057a0
+.word 0xf9403ba0
+.word 0xaa0003f6
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #824]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf9005fa0
+.word 0xf9402bb1
+.word 0xf9461631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf9405fa1
+.word 0xf9005ba0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402bb1
+.word 0xf9465231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a0
+.word 0xf9405ba1
+.word 0xd2800042
+.word 0xd2800042
+.word 0xd2800042
+.word 0xd2800043
+bl _p_59
+.word 0xf9402bb1
+.word 0xf9467e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+bl _p_61
+.word 0xf90053a0
+.word 0xf9402bb1
+.word 0xf9469a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xf9003fa0
+.word 0xf9403fa1
+.word 0xf9403fa0
+.word 0xf90043a1
+.word 0xb5000200
+.word 0xf94043a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #872]
+.word 0xd2800401
+.word 0xd2800401
+bl _p_3
+.word 0xf90053a0
+bl _p_62
+.word 0xf9402bb1
+.word 0xf946e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xf90043a0
+.word 0xf94043a0
+.word 0xaa0003f5
+.word 0xaa1603e0
+.word 0xaa1503e0
+.word 0xaa1603e0
+.word 0xaa1503e1
+bl _p_63
+.word 0xf9402bb1
+.word 0xf9471a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #880]
+.word 0xaa1903e0
+.word 0xaa0303e0
+.word 0xaa1903e2
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #888]
+.word 0x928006f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf9402bb1
+.word 0xf9476631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x3940033e
+bl _p_64
+.word 0xf90053a0
+.word 0xf9402bb1
+.word 0xf9478a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xb5000180
+.word 0xaa1903e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #880]
+.word 0xaa1903e0
+.word 0x3940033e
+bl _p_65
+.word 0xf9402bb1
+.word 0xf947be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0x9109c340
+.word 0xf90057a0
+.word 0xd5033bbf
+.word 0xf94057a0
+.word 0xf9000019
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
+.word 0xaa1603e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #896]
+.word 0xf9400000
+.word 0xf90053a0
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #904]
+.word 0xd2800221
+.word 0xd2800221
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94053a1
+.word 0x3900405f
+.word 0xaa1603e0
+.word 0x394002de
+bl _p_66
+.word 0xf9402bb1
+.word 0xf9485e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xaa1903e0
+.word 0xaa1603e0
+.word 0xaa1903e1
+.word 0x394002de
+bl _p_67
+.word 0xf9402bb1
+.word 0xf9488631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xaa1703e0
+.word 0xaa1603e0
+.word 0xaa1703e1
+.word 0x394002de
+bl _p_68
+.word 0xf9402bb1
+.word 0xf948ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf948be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8d37bfd
+.word 0xd65f03c0
+
+Lme_1f:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMaster___InitComponentRuntime
+StreamingExample_MainMaster___InitComponentRuntime:
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #912]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #816]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #920]
+.word 0xaa1a03e0
+bl _p_69
+.word 0xf9400fb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #880]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #928]
+.word 0xaa1a03e0
+bl _p_70
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x9109c341
+.word 0xd5033bbf
+.word 0xf9401ba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf9400fb1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_20:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__ctor
+StreamingExample_MainMasterMaster__ctor:
+.file 10 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/MainMasterMaster.xaml.cs"
+.loc 10 12 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #936]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_23
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 13 0
+.word 0xf9400fb1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 14 0
+.word 0xf9400fb1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_71
+.word 0xf9400fb1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 21 0
+.word 0xf9400fb1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_21:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster_ConectarSocket_Tapped_object_System_EventArgs
+StreamingExample_MainMasterMaster_ConectarSocket_Tapped_object_System_EventArgs:
+.loc 10 24 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #944]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 26 0
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_22:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster_metodoinicio_Tapped_object_System_EventArgs
+StreamingExample_MainMasterMaster_metodoinicio_Tapped_object_System_EventArgs:
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #952]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf90033bf
+.word 0xf94017b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #960]
+.word 0xd2800b01
+.word 0xd2800b01
+bl _p_3
+.word 0xf9004fa0
+bl _p_72
+.word 0xf94017b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xf90033a0
+.word 0xf94033a0
+.word 0xf9004ba0
+.word 0x910103a0
+.word 0xaa0003e8
+bl _p_73
+.word 0xf94017b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0x910103a1
+.word 0x91004002
+.word 0xaa0203e0
+.word 0xf90047a0
+.word 0xd5033bbf
+.word 0xf94047a0
+.word 0xf94023a1
+.word 0xf9000041
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf94027a1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf9402ba1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002001
+.word 0xf9402fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf9400ba1
+.word 0xf90043a1
+.word 0x91010001
+.word 0xd5033bbf
+.word 0xf94043a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf9400fa1
+.word 0xf9003fa1
+.word 0x9100c001
+.word 0xd5033bbf
+.word 0xf9403fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf94013a1
+.word 0xf9003ba1
+.word 0x9100e001
+.word 0xd5033bbf
+.word 0xf9403ba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0xf94033a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000240
+.word 0x91004000
+.word 0x910183a1
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #968]
+bl _p_74
+.word 0xf94017b1
+.word 0xf9429631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf942a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+
+Lme_23:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster_agregarCuentaBanc_Tapped_object_System_EventArgs
+StreamingExample_MainMasterMaster_agregarCuentaBanc_Tapped_object_System_EventArgs:
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #976]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf90033bf
+.word 0xf94017b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #984]
+.word 0xd2800b01
+.word 0xd2800b01
+bl _p_3
+.word 0xf9004fa0
+bl _p_75
+.word 0xf94017b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xf90033a0
+.word 0xf94033a0
+.word 0xf9004ba0
+.word 0x910103a0
+.word 0xaa0003e8
+bl _p_73
+.word 0xf94017b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0x910103a1
+.word 0x91004002
+.word 0xaa0203e0
+.word 0xf90047a0
+.word 0xd5033bbf
+.word 0xf94047a0
+.word 0xf94023a1
+.word 0xf9000041
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf94027a1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf9402ba1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002001
+.word 0xf9402fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf9400ba1
+.word 0xf90043a1
+.word 0x91010001
+.word 0xd5033bbf
+.word 0xf94043a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf9400fa1
+.word 0xf9003fa1
+.word 0x9100c001
+.word 0xd5033bbf
+.word 0xf9403fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf94013a1
+.word 0xf9003ba1
+.word 0x9100e001
+.word 0xd5033bbf
+.word 0xf9403ba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0xf94033a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000240
+.word 0x91004000
+.word 0x910183a1
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #992]
+bl _p_76
+.word 0xf94017b1
+.word 0xf9429631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf942a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+
+Lme_24:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster_cargaDocum_Tapped_object_System_EventArgs
+StreamingExample_MainMasterMaster_cargaDocum_Tapped_object_System_EventArgs:
+.loc 10 44 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #1000]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 48 0
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_25:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster_misganancias_Tapped_object_System_EventArgs
+StreamingExample_MainMasterMaster_misganancias_Tapped_object_System_EventArgs:
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #1008]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf90033bf
+.word 0xf94017b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1016]
+.word 0xd2800b01
+.word 0xd2800b01
+bl _p_3
+.word 0xf9004fa0
+bl _p_77
+.word 0xf94017b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xf90033a0
+.word 0xf94033a0
+.word 0xf9004ba0
+.word 0x910103a0
+.word 0xaa0003e8
+bl _p_73
+.word 0xf94017b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0x910103a1
+.word 0x91004002
+.word 0xaa0203e0
+.word 0xf90047a0
+.word 0xd5033bbf
+.word 0xf94047a0
+.word 0xf94023a1
+.word 0xf9000041
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf94027a1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf9402ba1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002001
+.word 0xf9402fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf9400ba1
+.word 0xf90043a1
+.word 0x91010001
+.word 0xd5033bbf
+.word 0xf94043a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf9400fa1
+.word 0xf9003fa1
+.word 0x9100c001
+.word 0xd5033bbf
+.word 0xf9403fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf94013a1
+.word 0xf9003ba1
+.word 0x9100e001
+.word 0xd5033bbf
+.word 0xf9403ba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0xf94033a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000240
+.word 0x91004000
+.word 0x910183a1
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1024]
+bl _p_78
+.word 0xf94017b1
+.word 0xf9429631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf942a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+
+Lme_26:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster_billetera_Tapped_object_System_EventArgs
+StreamingExample_MainMasterMaster_billetera_Tapped_object_System_EventArgs:
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #1032]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf90033bf
+.word 0xf94017b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1040]
+.word 0xd2800b01
+.word 0xd2800b01
+bl _p_3
+.word 0xf9004fa0
+bl _p_79
+.word 0xf94017b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xf90033a0
+.word 0xf94033a0
+.word 0xf9004ba0
+.word 0x910103a0
+.word 0xaa0003e8
+bl _p_73
+.word 0xf94017b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0x910103a1
+.word 0x91004002
+.word 0xaa0203e0
+.word 0xf90047a0
+.word 0xd5033bbf
+.word 0xf94047a0
+.word 0xf94023a1
+.word 0xf9000041
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf94027a1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf9402ba1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002001
+.word 0xf9402fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf9400ba1
+.word 0xf90043a1
+.word 0x91010001
+.word 0xd5033bbf
+.word 0xf94043a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf9400fa1
+.word 0xf9003fa1
+.word 0x9100c001
+.word 0xd5033bbf
+.word 0xf9403fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf94013a1
+.word 0xf9003ba1
+.word 0x9100e001
+.word 0xd5033bbf
+.word 0xf9403ba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0xf94033a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000240
+.word 0x91004000
+.word 0x910183a1
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1048]
+bl _p_80
+.word 0xf94017b1
+.word 0xf9429631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf942a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+
+Lme_27:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster_cambiarContra_Tapped_object_System_EventArgs
+StreamingExample_MainMasterMaster_cambiarContra_Tapped_object_System_EventArgs:
+.loc 10 65 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #1056]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 68 0
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_28:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster_redimirpuntos_Tapped_object_System_EventArgs
+StreamingExample_MainMasterMaster_redimirpuntos_Tapped_object_System_EventArgs:
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #1064]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf90033bf
+.word 0xf94017b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1072]
+.word 0xd2800b01
+.word 0xd2800b01
+bl _p_3
+.word 0xf9004fa0
+bl _p_81
+.word 0xf94017b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xf90033a0
+.word 0xf94033a0
+.word 0xf9004ba0
+.word 0x910103a0
+.word 0xaa0003e8
+bl _p_73
+.word 0xf94017b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0x910103a1
+.word 0x91004002
+.word 0xaa0203e0
+.word 0xf90047a0
+.word 0xd5033bbf
+.word 0xf94047a0
+.word 0xf94023a1
+.word 0xf9000041
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf94027a1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf9402ba1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002001
+.word 0xf9402fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf9400ba1
+.word 0xf90043a1
+.word 0x91010001
+.word 0xd5033bbf
+.word 0xf94043a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf9400fa1
+.word 0xf9003fa1
+.word 0x9100c001
+.word 0xd5033bbf
+.word 0xf9403fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf94013a1
+.word 0xf9003ba1
+.word 0x9100e001
+.word 0xd5033bbf
+.word 0xf9403ba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0xf94033a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000240
+.word 0x91004000
+.word 0x910183a1
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1080]
+bl _p_82
+.word 0xf94017b1
+.word 0xf9429631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf942a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+
+Lme_29:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster_ayudametodo_Tapped_object_System_EventArgs
+StreamingExample_MainMasterMaster_ayudametodo_Tapped_object_System_EventArgs:
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #1088]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf90033bf
+.word 0xf94017b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1096]
+.word 0xd2800a01
+.word 0xd2800a01
+bl _p_3
+.word 0xf9004fa0
+bl _p_83
+.word 0xf94017b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xf90033a0
+.word 0xf94033a0
+.word 0xf9004ba0
+.word 0x910103a0
+.word 0xaa0003e8
+bl _p_73
+.word 0xf94017b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0x910103a1
+.word 0x91004002
+.word 0xaa0203e0
+.word 0xf90047a0
+.word 0xd5033bbf
+.word 0xf94047a0
+.word 0xf94023a1
+.word 0xf9000041
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf94027a1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf9402ba1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002001
+.word 0xf9402fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf9400ba1
+.word 0xf90043a1
+.word 0x91010001
+.word 0xd5033bbf
+.word 0xf94043a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf9400fa1
+.word 0xf9003fa1
+.word 0x9100c001
+.word 0xd5033bbf
+.word 0xf9403fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf94013a1
+.word 0xf9003ba1
+.word 0x9100e001
+.word 0xd5033bbf
+.word 0xf9403ba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb900481e
+.word 0xf94033a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000240
+.word 0x91004000
+.word 0x910183a1
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1104]
+bl _p_84
+.word 0xf94017b1
+.word 0xf9429631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf942a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+
+Lme_2a:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster_Historial_Tapped_object_System_EventArgs
+StreamingExample_MainMasterMaster_Historial_Tapped_object_System_EventArgs:
+.loc 10 84 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #1112]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 86 0
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_2b:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster_CerrarSesion_Tapped_object_System_EventArgs
+StreamingExample_MainMasterMaster_CerrarSesion_Tapped_object_System_EventArgs:
+.loc 10 89 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #1120]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 91 0
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_2c:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster_Perfil_Tapped_object_System_EventArgs
+StreamingExample_MainMasterMaster_Perfil_Tapped_object_System_EventArgs:
+.loc 10 94 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba0
+.word 0xf9001fa1
+.word 0xf90023a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #1128]
+.word 0xf90027b0
+.word 0xf9400211
+.word 0xf9002bb1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xf94027b1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 95 0
+.word 0xf94027b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+bl _p_85
+.word 0xf9003ba0
+.word 0xf94027b1
+.word 0xf9408e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #392]
+.word 0xd2804001
+.word 0xd2804001
+bl _p_3
+.word 0xf90037a0
+bl _p_13
+.word 0xf94027b1
+.word 0xf940be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a1
+.word 0xf9403ba2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1136]
+.word 0x928002f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 96 0
+.word 0xf94027b1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf9412231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_87
+.word 0xaa0003f7
+.word 0xf94027b1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000217
+.word 0xf94002e0
+.word 0xf9400000
+.word 0x79403001
+.word 0xd28000fe
+.word 0xeb1e003f
+.word 0x10000011
+.word 0x540008a3
+.word 0xf9400800
+.word 0xf9401800
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1144]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540007a1
+.word 0xaa1703e0
+.word 0xaa1703f9
+.loc 10 97 0
+.word 0xf94027b1
+.word 0xf9419e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xaa1703e0
+.word 0x394002fe
+bl _p_88
+.word 0xaa0003f6
+.word 0xf94027b1
+.word 0xf941c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000216
+.word 0xf94002c0
+.word 0xf9400000
+.word 0x79403001
+.word 0xd280013e
+.word 0xeb1e003f
+.word 0x10000011
+.word 0x540004c3
+.word 0xf9400800
+.word 0xf9402000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1152]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540003c1
+.word 0xaa1603e0
+.word 0xaa1603f8
+.loc 10 98 0
+.word 0xf94027b1
+.word 0xf9421a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xd2800000
+.word 0xaa1603e0
+.word 0xd2800001
+.word 0x394002de
+bl _p_89
+.word 0xf94027b1
+.word 0xf9424231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 99 0
+.word 0xf94027b1
+.word 0xf9425231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9426231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd28019a0
+.word 0xaa1103e1
+bl _p_8
+
+Lme_2d:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster_Pedidos_Tapped_object_System_EventArgs
+StreamingExample_MainMasterMaster_Pedidos_Tapped_object_System_EventArgs:
+.loc 10 102 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba0
+.word 0xf9001fa1
+.word 0xf90023a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #1160]
+.word 0xf90027b0
+.word 0xf9400211
+.word 0xf9002bb1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xf94027b1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 103 0
+.word 0xf94027b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+bl _p_85
+.word 0xf9003ba0
+.word 0xf94027b1
+.word 0xf9408e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #392]
+.word 0xd2804001
+.word 0xd2804001
+bl _p_3
+.word 0xf90037a0
+bl _p_13
+.word 0xf94027b1
+.word 0xf940be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a1
+.word 0xf9403ba2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1136]
+.word 0x928002f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 104 0
+.word 0xf94027b1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf9412231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_87
+.word 0xaa0003f7
+.word 0xf94027b1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000217
+.word 0xf94002e0
+.word 0xf9400000
+.word 0x79403001
+.word 0xd28000fe
+.word 0xeb1e003f
+.word 0x10000011
+.word 0x540008a3
+.word 0xf9400800
+.word 0xf9401800
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1144]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540007a1
+.word 0xaa1703e0
+.word 0xaa1703f9
+.loc 10 105 0
+.word 0xf94027b1
+.word 0xf9419e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xaa1703e0
+.word 0x394002fe
+bl _p_88
+.word 0xaa0003f6
+.word 0xf94027b1
+.word 0xf941c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000216
+.word 0xf94002c0
+.word 0xf9400000
+.word 0x79403001
+.word 0xd280013e
+.word 0xeb1e003f
+.word 0x10000011
+.word 0x540004c3
+.word 0xf9400800
+.word 0xf9402000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1152]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540003c1
+.word 0xaa1603e0
+.word 0xaa1603f8
+.loc 10 106 0
+.word 0xf94027b1
+.word 0xf9421a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xd2800000
+.word 0xaa1603e0
+.word 0xd2800001
+.word 0x394002de
+bl _p_89
+.word 0xf94027b1
+.word 0xf9424231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 107 0
+.word 0xf94027b1
+.word 0xf9425231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9426231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd28019a0
+.word 0xaa1103e1
+bl _p_8
+
+Lme_2e:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster_ShowingMenu
+StreamingExample_MainMasterMaster_ShowingMenu:
+.loc 10 110 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #1168]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 113 0
+.word 0xf9400fb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_2f:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster_InitializeComponent
+StreamingExample_MainMasterMaster_InitializeComponent:
+.file 11 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/MainMasterMaster.xaml.g.cs"
+.loc 11 30 0 prologue_end
+.word 0xd285b810
+.word 0x910003f1
+.word 0xcb100231
+.word 0x9100023f
+.word 0xa9007bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xf9002ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #1176]
+.word 0xf9002fb0
+.word 0xf9400211
+.word 0xf90033b1
+.word 0xf903c3bf
+.word 0xf903c7bf
+.word 0xf903cbbf
+.word 0xf903cfbf
+.word 0xf903d3bf
+.word 0xf903d7bf
+.word 0xd2800013
+.word 0xf903dbbf
+.word 0xf903dfbf
+.word 0xf903e3bf
+.word 0xd280001a
+.word 0xf903e7bf
+.word 0xf903ebbf
+.word 0xf903efbf
+.word 0xf903f3bf
+.word 0xf903f7bf
+.word 0xf903fbbf
+.word 0xf903ffbf
+.word 0xf90403bf
+.word 0xf90407bf
+.word 0xf9040bbf
+.word 0xf9040fbf
+.word 0xf90413bf
+.word 0xf90417bf
+.word 0xf9041bbf
+.word 0xf9041fbf
+.word 0xf90423bf
+.word 0xf90427bf
+.word 0xf9042bbf
+.word 0xf9042fbf
+.word 0xf90433bf
+.word 0xf90437bf
+.word 0xf9043bbf
+.word 0xf9043fbf
+.word 0xf90443bf
+.word 0xf90447bf
+.word 0xf9044bbf
+.word 0xf9044fbf
+.word 0xf90453bf
+.word 0xf90457bf
+.word 0xf9045bbf
+.word 0xf9045fbf
+.word 0xf90463bf
+.word 0xf90467bf
+.word 0xf9046bbf
+.word 0xf9046fbf
+.word 0xf90473bf
+.word 0xf90477bf
+.word 0xf9047bbf
+.word 0xf9047fbf
+.word 0xf90483bf
+.word 0xf90487bf
+.word 0xf9048bbf
+.word 0xf9048fbf
+.word 0xd2800018
+.word 0xf90493bf
+.word 0xf90497bf
+.word 0xf9049bbf
+.word 0xf9049fbf
+.word 0xf904a3bf
+.word 0xf904a7bf
+.word 0xd2800019
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf904abbf
+.word 0xf904afbf
+.word 0xf904b3bf
+.word 0xf904b7bf
+.word 0xf904bbbf
+.word 0xf904bfbf
+.word 0xf904c3bf
+.word 0xf904c7bf
+.word 0xf904cbbf
+.word 0xf904cfbf
+.word 0xf904d3bf
+.word 0xf904d7bf
+.word 0xf904dbbf
+.word 0xf904dfbf
+.word 0xf9402fb1
+.word 0xf9418a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9419a31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_47
+.word 0x53001c00
+.word 0xf90903a0
+.word 0xf9402fb1
+.word 0xf941b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94903a0
+.word 0x34000d40
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #808]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf90923a0
+bl _p_48
+.word 0xf9402fb1
+.word 0xf941ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94923a0
+.word 0xf908f3a0
+.word 0xf948f3a0
+.word 0xf9090fa0
+.word 0xf948f3a0
+.word 0xf90917a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1184]
+.loc 11 31 0
+bl _p_49
+.word 0xf9091fa0
+.word 0xf9402fb1
+.word 0xf9422a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9491fa1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf9091ba0
+.word 0xf9402fb1
+.word 0xf9425231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9491ba1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9406c30
+.word 0xd63f0200
+.word 0xf90913a0
+.word 0xf9402fb1
+.word 0xf9427a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94913a1
+.word 0xf94917a2
+.loc 11 32 0
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_50
+.word 0xf9402fb1
+.word 0xf9429e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9490fa0
+.word 0xf908f7a0
+.word 0xf948f7a0
+.word 0xf9090ba0
+.word 0xf948f7a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1192]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_51
+.word 0xf9402fb1
+.word 0xf942da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9490ba0
+.loc 11 33 0
+.word 0xf908fba0
+.word 0xf948fba0
+.word 0xf90907a0
+.word 0xf948fba2
+.word 0xf9402ba1
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_52
+.word 0xf9402fb1
+.word 0xf9430e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94907a0
+bl _p_53
+.word 0x53001c00
+.word 0xf90903a0
+.word 0xf9402fb1
+.word 0xf9432e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94903a0
+.word 0x34000180
+.loc 11 34 0
+.word 0xf9402fb1
+.word 0xf9434631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+bl _p_90
+.word 0xf9402fb1
+.word 0xf9435e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x140049ab
+bl _p_55
+.word 0xf90903a0
+.word 0xf9402fb1
+.word 0xf9437a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94903a0
+.word 0xb40004a0
+bl _p_55
+.word 0xf9090fa0
+.word 0xf9402fb1
+.word 0xf9439a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf9400000
+.word 0xf9400c00
+.word 0xf9090ba0
+.word 0xf9402fb1
+.word 0xf943ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9490ba1
+.word 0xf9490fa2
+.word 0xaa0203e0
+.word 0xf90907a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94907a0
+.word 0xf90903a1
+.word 0xf9402fb1
+.word 0xf943ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94903a0
+.word 0xb4000100
+.word 0xf9402ba0
+bl _p_90
+.word 0xf9402fb1
+.word 0xf9440e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400497f
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1200]
+.word 0xd2801e01
+.word 0xd2801e01
+bl _p_3
+.word 0xf90d0fa0
+bl _p_91
+.word 0xf9402fb1
+.word 0xf9444231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94d0fa0
+.word 0xf904e3a0
+.word 0xf944e3a0
+.word 0xf90d03a0
+.word 0xf944e3a0
+.word 0xf903c3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90d0ba0
+.word 0xf9402fb1
+.word 0xf9449631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94d0ba1
+.word 0xf90d07a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf944d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94d03a0
+.word 0xf94d07a1
+.word 0xd2800202
+.word 0xd2800342
+.word 0xd2800202
+.word 0xd2800343
+bl _p_59
+.word 0xf9402fb1
+.word 0xf944fe31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90cffa0
+bl _p_92
+.word 0xf9402fb1
+.word 0xf9452e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cffa0
+.word 0xf904e7a0
+.word 0xf944e7a0
+.word 0xf90cf3a0
+.word 0xf944e7a0
+.word 0xf903c7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90cfba0
+.word 0xf9402fb1
+.word 0xf9458231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94cfba1
+.word 0xf90cf7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf945be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cf3a0
+.word 0xf94cf7a1
+.word 0xd28001c2
+.word 0xd2800242
+.word 0xd28001c2
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf945ea31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90cefa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf9461a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cefa0
+.word 0xf904eba0
+.word 0xf944eba0
+.word 0xf90ce3a0
+.word 0xf944eba0
+.word 0xf903cba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90ceba0
+.word 0xf9402fb1
+.word 0xf9466e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94ceba1
+.word 0xf90ce7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf946aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ce3a0
+.word 0xf94ce7a1
+.word 0xd28001a2
+.word 0xd28001c2
+.word 0xd28001a2
+.word 0xd28001c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf946d631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90cdfa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf9470631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cdfa0
+.word 0xf904efa0
+.word 0xf944efa0
+.word 0xf90cd3a0
+.word 0xf944efa0
+.word 0xf903cfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90cdba0
+.word 0xf9402fb1
+.word 0xf9475a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94cdba1
+.word 0xf90cd7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9479631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cd3a0
+.word 0xf94cd7a1
+.word 0xd2800342
+.word 0xd2800242
+.word 0xd2800342
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf947c231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90ccfa0
+bl _p_92
+.word 0xf9402fb1
+.word 0xf947f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ccfa0
+.word 0xf904f3a0
+.word 0xf944f3a0
+.word 0xf90cc3a0
+.word 0xf944f3a0
+.word 0xf903d3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90ccba0
+.word 0xf9402fb1
+.word 0xf9484631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94ccba1
+.word 0xf90cc7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9488231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cc3a0
+.word 0xf94cc7a1
+.word 0xd2800382
+.word 0xd28002c2
+.word 0xd2800382
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf948ae31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1200]
+.word 0xd2801e01
+.word 0xd2801e01
+bl _p_3
+.word 0xf90cbfa0
+bl _p_91
+.word 0xf9402fb1
+.word 0xf948de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cbfa0
+.word 0xf904f7a0
+.word 0xf944f7a0
+.word 0xf90cb3a0
+.word 0xf944f7a0
+.word 0xf903d7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90cbba0
+.word 0xf9402fb1
+.word 0xf9493231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94cbba1
+.word 0xf90cb7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9496e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cb3a0
+.word 0xf94cb7a1
+.word 0xd28003e2
+.word 0xd2800442
+.word 0xd28003e2
+.word 0xd2800443
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9499a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90cafa0
+bl _p_94
+.word 0xf9402fb1
+.word 0xf949ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cafa0
+.word 0xf904fba0
+.word 0xf944fba0
+.word 0xf90ca3a0
+.word 0xf944fba0
+.word 0xaa0003f3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90caba0
+.word 0xf9402fb1
+.word 0xf94a1e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94caba1
+.word 0xf90ca7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf94a5a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ca3a0
+.word 0xf94ca7a1
+.word 0xd28003a2
+.word 0xd28002c2
+.word 0xd28003a2
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf94a8631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90c9fa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf94ab631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c9fa0
+.word 0xf904ffa0
+.word 0xf944ffa0
+.word 0xf90c93a0
+.word 0xf944ffa0
+.word 0xf903dba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90c9ba0
+.word 0xf9402fb1
+.word 0xf94b0a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94c9ba1
+.word 0xf90c97a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf94b4631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c93a0
+.word 0xf94c97a1
+.word 0xd2800362
+.word 0xd2800242
+.word 0xd2800362
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf94b7231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90c8fa0
+bl _p_92
+.word 0xf9402fb1
+.word 0xf94ba231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c8fa0
+.word 0xf90503a0
+.word 0xf94503a0
+.word 0xf90c83a0
+.word 0xf94503a0
+.word 0xf903dfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90c8ba0
+.word 0xf9402fb1
+.word 0xf94bf631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94c8ba1
+.word 0xf90c87a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf94c3231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c83a0
+.word 0xf94c87a1
+.word 0xd28004c2
+.word 0xd28002c2
+.word 0xd28004c2
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf94c5e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1200]
+.word 0xd2801e01
+.word 0xd2801e01
+bl _p_3
+.word 0xf90c7fa0
+bl _p_91
+.word 0xf9402fb1
+.word 0xf94c8e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c7fa0
+.word 0xf90507a0
+.word 0xf94507a0
+.word 0xf90c73a0
+.word 0xf94507a0
+.word 0xf903e3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90c7ba0
+.word 0xf9402fb1
+.word 0xf94ce231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94c7ba1
+.word 0xf90c77a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf94d1e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c73a0
+.word 0xf94c77a1
+.word 0xd2800522
+.word 0xd2800442
+.word 0xd2800522
+.word 0xd2800443
+bl _p_59
+.word 0xf9402fb1
+.word 0xf94d4a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90c6fa0
+bl _p_94
+.word 0xf9402fb1
+.word 0xf94d7a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c6fa0
+.word 0xf9050ba0
+.word 0xf9450ba0
+.word 0xf90c63a0
+.word 0xf9450ba0
+.word 0xaa0003fa
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90c6ba0
+.word 0xf9402fb1
+.word 0xf94dce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94c6ba1
+.word 0xf90c67a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf94e0a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c63a0
+.word 0xf94c67a1
+.word 0xd28004e2
+.word 0xd28002c2
+.word 0xd28004e2
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf94e3631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90c5fa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf94e6631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c5fa0
+.word 0xf9050fa0
+.word 0xf9450fa0
+.word 0xf90c53a0
+.word 0xf9450fa0
+.word 0xf903e7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90c5ba0
+.word 0xf9402fb1
+.word 0xf94eba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94c5ba1
+.word 0xf90c57a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf94ef631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c53a0
+.word 0xf94c57a1
+.word 0xd28004a2
+.word 0xd2800242
+.word 0xd28004a2
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf94f2231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90c4fa0
+bl _p_92
+.word 0xf9402fb1
+.word 0xf94f5231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c4fa0
+.word 0xf90513a0
+.word 0xf94513a0
+.word 0xf90c43a0
+.word 0xf94513a0
+.word 0xf903eba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90c4ba0
+.word 0xf9402fb1
+.word 0xf94fa631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94c4ba1
+.word 0xf90c47a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf94fe231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c43a0
+.word 0xf94c47a1
+.word 0xd2800602
+.word 0xd28002c2
+.word 0xd2800602
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9500e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1200]
+.word 0xd2801e01
+.word 0xd2801e01
+bl _p_3
+.word 0xf90c3fa0
+bl _p_91
+.word 0xf9402fb1
+.word 0xf9503e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c3fa0
+.word 0xf90517a0
+.word 0xf94517a0
+.word 0xf90c33a0
+.word 0xf94517a0
+.word 0xf903efa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90c3ba0
+.word 0xf9402fb1
+.word 0xf9509231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94c3ba1
+.word 0xf90c37a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf950ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c33a0
+.word 0xf94c37a1
+.word 0xd2800662
+.word 0xd2800442
+.word 0xd2800662
+.word 0xd2800443
+bl _p_59
+.word 0xf9402fb1
+.word 0xf950fa31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90c2fa0
+bl _p_94
+.word 0xf9402fb1
+.word 0xf9512a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c2fa0
+.word 0xf9051ba0
+.word 0xf9451ba0
+.word 0xf90c23a0
+.word 0xf9451ba0
+.word 0xf903f3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90c2ba0
+.word 0xf9402fb1
+.word 0xf9517e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94c2ba1
+.word 0xf90c27a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf951ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c23a0
+.word 0xf94c27a1
+.word 0xd2800622
+.word 0xd28002c2
+.word 0xd2800622
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf951e631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90c1fa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf9521631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c1fa0
+.word 0xf9051fa0
+.word 0xf9451fa0
+.word 0xf90c13a0
+.word 0xf9451fa0
+.word 0xf903f7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90c1ba0
+.word 0xf9402fb1
+.word 0xf9526a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94c1ba1
+.word 0xf90c17a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf952a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c13a0
+.word 0xf94c17a1
+.word 0xd28005e2
+.word 0xd2800242
+.word 0xd28005e2
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf952d231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90c0fa0
+bl _p_92
+.word 0xf9402fb1
+.word 0xf9530231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c0fa0
+.word 0xf90523a0
+.word 0xf94523a0
+.word 0xf90c03a0
+.word 0xf94523a0
+.word 0xf903fba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90c0ba0
+.word 0xf9402fb1
+.word 0xf9535631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94c0ba1
+.word 0xf90c07a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9539231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c03a0
+.word 0xf94c07a1
+.word 0xd2800762
+.word 0xd28002c2
+.word 0xd2800762
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf953be31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1200]
+.word 0xd2801e01
+.word 0xd2801e01
+bl _p_3
+.word 0xf90bffa0
+bl _p_91
+.word 0xf9402fb1
+.word 0xf953ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bffa0
+.word 0xf90527a0
+.word 0xf94527a0
+.word 0xf90bf3a0
+.word 0xf94527a0
+.word 0xf903ffa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90bfba0
+.word 0xf9402fb1
+.word 0xf9544231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94bfba1
+.word 0xf90bf7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9547e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bf3a0
+.word 0xf94bf7a1
+.word 0xd28007c2
+.word 0xd2800442
+.word 0xd28007c2
+.word 0xd2800443
+bl _p_59
+.word 0xf9402fb1
+.word 0xf954aa31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90befa0
+bl _p_94
+.word 0xf9402fb1
+.word 0xf954da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94befa0
+.word 0xf9052ba0
+.word 0xf9452ba0
+.word 0xf90be3a0
+.word 0xf9452ba0
+.word 0xf90403a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90beba0
+.word 0xf9402fb1
+.word 0xf9552e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94beba1
+.word 0xf90be7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9556a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94be3a0
+.word 0xf94be7a1
+.word 0xd2800782
+.word 0xd28002c2
+.word 0xd2800782
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9559631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90bdfa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf955c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bdfa0
+.word 0xf9052fa0
+.word 0xf9452fa0
+.word 0xf90bd3a0
+.word 0xf9452fa0
+.word 0xf90407a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90bdba0
+.word 0xf9402fb1
+.word 0xf9561a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94bdba1
+.word 0xf90bd7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9565631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bd3a0
+.word 0xf94bd7a1
+.word 0xd2800742
+.word 0xd2800242
+.word 0xd2800742
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9568231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90bcfa0
+bl _p_92
+.word 0xf9402fb1
+.word 0xf956b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bcfa0
+.word 0xf90533a0
+.word 0xf94533a0
+.word 0xf90bc3a0
+.word 0xf94533a0
+.word 0xf9040ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90bcba0
+.word 0xf9402fb1
+.word 0xf9570631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94bcba1
+.word 0xf90bc7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9574231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bc3a0
+.word 0xf94bc7a1
+.word 0xd28008a2
+.word 0xd28002c2
+.word 0xd28008a2
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9576e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1200]
+.word 0xd2801e01
+.word 0xd2801e01
+bl _p_3
+.word 0xf90bbfa0
+bl _p_91
+.word 0xf9402fb1
+.word 0xf9579e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bbfa0
+.word 0xf90537a0
+.word 0xf94537a0
+.word 0xf90bb3a0
+.word 0xf94537a0
+.word 0xf9040fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90bbba0
+.word 0xf9402fb1
+.word 0xf957f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94bbba1
+.word 0xf90bb7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9582e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bb3a0
+.word 0xf94bb7a1
+.word 0xd2800902
+.word 0xd2800442
+.word 0xd2800902
+.word 0xd2800443
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9585a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90bafa0
+bl _p_94
+.word 0xf9402fb1
+.word 0xf9588a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bafa0
+.word 0xf9053ba0
+.word 0xf9453ba0
+.word 0xf90ba3a0
+.word 0xf9453ba0
+.word 0xf90413a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90baba0
+.word 0xf9402fb1
+.word 0xf958de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94baba1
+.word 0xf90ba7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9591a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ba3a0
+.word 0xf94ba7a1
+.word 0xd28008c2
+.word 0xd28002c2
+.word 0xd28008c2
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9594631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90b9fa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf9597631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b9fa0
+.word 0xf9053fa0
+.word 0xf9453fa0
+.word 0xf90b93a0
+.word 0xf9453fa0
+.word 0xf90417a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90b9ba0
+.word 0xf9402fb1
+.word 0xf959ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94b9ba1
+.word 0xf90b97a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf95a0631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b93a0
+.word 0xf94b97a1
+.word 0xd2800882
+.word 0xd2800242
+.word 0xd2800882
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf95a3231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90b8fa0
+bl _p_92
+.word 0xf9402fb1
+.word 0xf95a6231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b8fa0
+.word 0xf90543a0
+.word 0xf94543a0
+.word 0xf90b83a0
+.word 0xf94543a0
+.word 0xf9041ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90b8ba0
+.word 0xf9402fb1
+.word 0xf95ab631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94b8ba1
+.word 0xf90b87a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf95af231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b83a0
+.word 0xf94b87a1
+.word 0xd28009e2
+.word 0xd28002c2
+.word 0xd28009e2
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf95b1e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1200]
+.word 0xd2801e01
+.word 0xd2801e01
+bl _p_3
+.word 0xf90b7fa0
+bl _p_91
+.word 0xf9402fb1
+.word 0xf95b4e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b7fa0
+.word 0xf90547a0
+.word 0xf94547a0
+.word 0xf90b73a0
+.word 0xf94547a0
+.word 0xf9041fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90b7ba0
+.word 0xf9402fb1
+.word 0xf95ba231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94b7ba1
+.word 0xf90b77a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf95bde31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b73a0
+.word 0xf94b77a1
+.word 0xd2800a42
+.word 0xd2800442
+.word 0xd2800a42
+.word 0xd2800443
+bl _p_59
+.word 0xf9402fb1
+.word 0xf95c0a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90b6fa0
+bl _p_94
+.word 0xf9402fb1
+.word 0xf95c3a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b6fa0
+.word 0xf9054ba0
+.word 0xf9454ba0
+.word 0xf90b63a0
+.word 0xf9454ba0
+.word 0xf90423a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90b6ba0
+.word 0xf9402fb1
+.word 0xf95c8e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94b6ba1
+.word 0xf90b67a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf95cca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b63a0
+.word 0xf94b67a1
+.word 0xd2800a02
+.word 0xd28002c2
+.word 0xd2800a02
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf95cf631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90b5fa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf95d2631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b5fa0
+.word 0xf9054fa0
+.word 0xf9454fa0
+.word 0xf90b53a0
+.word 0xf9454fa0
+.word 0xf90427a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90b5ba0
+.word 0xf9402fb1
+.word 0xf95d7a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94b5ba1
+.word 0xf90b57a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf95db631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b53a0
+.word 0xf94b57a1
+.word 0xd28009c2
+.word 0xd2800242
+.word 0xd28009c2
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf95de231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90b4fa0
+bl _p_92
+.word 0xf9402fb1
+.word 0xf95e1231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b4fa0
+.word 0xf90553a0
+.word 0xf94553a0
+.word 0xf90b43a0
+.word 0xf94553a0
+.word 0xf9042ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90b4ba0
+.word 0xf9402fb1
+.word 0xf95e6631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94b4ba1
+.word 0xf90b47a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf95ea231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b43a0
+.word 0xf94b47a1
+.word 0xd2800b02
+.word 0xd28002c2
+.word 0xd2800b02
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf95ece31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1200]
+.word 0xd2801e01
+.word 0xd2801e01
+bl _p_3
+.word 0xf90b3fa0
+bl _p_91
+.word 0xf9402fb1
+.word 0xf95efe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b3fa0
+.word 0xf90557a0
+.word 0xf94557a0
+.word 0xf90b33a0
+.word 0xf94557a0
+.word 0xf9042fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90b3ba0
+.word 0xf9402fb1
+.word 0xf95f5231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94b3ba1
+.word 0xf90b37a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf95f8e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b33a0
+.word 0xf94b37a1
+.word 0xd2800b62
+.word 0xd2800442
+.word 0xd2800b62
+.word 0xd2800443
+bl _p_59
+.word 0xf9402fb1
+.word 0xf95fba31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90b2fa0
+bl _p_94
+.word 0xf9402fb1
+.word 0xf95fea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b2fa0
+.word 0xf9055ba0
+.word 0xf9455ba0
+.word 0xf90b23a0
+.word 0xf9455ba0
+.word 0xf90433a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90b2ba0
+.word 0xf9402fb1
+.word 0xf9603e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94b2ba1
+.word 0xf90b27a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9607a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b23a0
+.word 0xf94b27a1
+.word 0xd2800b22
+.word 0xd28002c2
+.word 0xd2800b22
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf960a631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90b1fa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf960d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b1fa0
+.word 0xf9055fa0
+.word 0xf9455fa0
+.word 0xf90b13a0
+.word 0xf9455fa0
+.word 0xf90437a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90b1ba0
+.word 0xf9402fb1
+.word 0xf9612a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94b1ba1
+.word 0xf90b17a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9616631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b13a0
+.word 0xf94b17a1
+.word 0xd2800ae2
+.word 0xd2800242
+.word 0xd2800ae2
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9619231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90b0fa0
+bl _p_92
+.word 0xf9402fb1
+.word 0xf961c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b0fa0
+.word 0xf90563a0
+.word 0xf94563a0
+.word 0xf90b03a0
+.word 0xf94563a0
+.word 0xf9043ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90b0ba0
+.word 0xf9402fb1
+.word 0xf9621631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94b0ba1
+.word 0xf90b07a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9625231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b03a0
+.word 0xf94b07a1
+.word 0xd2800c22
+.word 0xd28002c2
+.word 0xd2800c22
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9627e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1200]
+.word 0xd2801e01
+.word 0xd2801e01
+bl _p_3
+.word 0xf90affa0
+bl _p_91
+.word 0xf9402fb1
+.word 0xf962ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94affa0
+.word 0xf90567a0
+.word 0xf94567a0
+.word 0xf90af3a0
+.word 0xf94567a0
+.word 0xf9043fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90afba0
+.word 0xf9402fb1
+.word 0xf9630231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94afba1
+.word 0xf90af7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9633e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94af3a0
+.word 0xf94af7a1
+.word 0xd2800c82
+.word 0xd2800442
+.word 0xd2800c82
+.word 0xd2800443
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9636a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90aefa0
+bl _p_94
+.word 0xf9402fb1
+.word 0xf9639a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94aefa0
+.word 0xf9056ba0
+.word 0xf9456ba0
+.word 0xf90ae3a0
+.word 0xf9456ba0
+.word 0xf90443a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90aeba0
+.word 0xf9402fb1
+.word 0xf963ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94aeba1
+.word 0xf90ae7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9642a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ae3a0
+.word 0xf94ae7a1
+.word 0xd2800c42
+.word 0xd28002c2
+.word 0xd2800c42
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9645631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90adfa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf9648631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94adfa0
+.word 0xf9056fa0
+.word 0xf9456fa0
+.word 0xf90ad3a0
+.word 0xf9456fa0
+.word 0xf90447a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90adba0
+.word 0xf9402fb1
+.word 0xf964da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94adba1
+.word 0xf90ad7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9651631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ad3a0
+.word 0xf94ad7a1
+.word 0xd2800c02
+.word 0xd2800242
+.word 0xd2800c02
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9654231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90acfa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf9657231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94acfa0
+.word 0xf90573a0
+.word 0xf94573a0
+.word 0xf90ac3a0
+.word 0xf94573a0
+.word 0xf9044ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90acba0
+.word 0xf9402fb1
+.word 0xf965c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94acba1
+.word 0xf90ac7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9660231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ac3a0
+.word 0xf94ac7a1
+.word 0xd2800d02
+.word 0xd2800242
+.word 0xd2800d02
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9662e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90abfa0
+bl _p_92
+.word 0xf9402fb1
+.word 0xf9665e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94abfa0
+.word 0xf90577a0
+.word 0xf94577a0
+.word 0xf90ab3a0
+.word 0xf94577a0
+.word 0xf9044fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90abba0
+.word 0xf9402fb1
+.word 0xf966b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94abba1
+.word 0xf90ab7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf966ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ab3a0
+.word 0xf94ab7a1
+.word 0xd2800d42
+.word 0xd28002c2
+.word 0xd2800d42
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9671a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1200]
+.word 0xd2801e01
+.word 0xd2801e01
+bl _p_3
+.word 0xf90aafa0
+bl _p_91
+.word 0xf9402fb1
+.word 0xf9674a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94aafa0
+.word 0xf9057ba0
+.word 0xf9457ba0
+.word 0xf90aa3a0
+.word 0xf9457ba0
+.word 0xf90453a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90aaba0
+.word 0xf9402fb1
+.word 0xf9679e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94aaba1
+.word 0xf90aa7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf967da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94aa3a0
+.word 0xf94aa7a1
+.word 0xd2800da2
+.word 0xd2800442
+.word 0xd2800da2
+.word 0xd2800443
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9680631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90a9fa0
+bl _p_94
+.word 0xf9402fb1
+.word 0xf9683631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a9fa0
+.word 0xf9057fa0
+.word 0xf9457fa0
+.word 0xf90a93a0
+.word 0xf9457fa0
+.word 0xf90457a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90a9ba0
+.word 0xf9402fb1
+.word 0xf9688a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94a9ba1
+.word 0xf90a97a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf968c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a93a0
+.word 0xf94a97a1
+.word 0xd2800d62
+.word 0xd28002c2
+.word 0xd2800d62
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf968f231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90a8fa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf9692231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a8fa0
+.word 0xf90583a0
+.word 0xf94583a0
+.word 0xf90a83a0
+.word 0xf94583a0
+.word 0xf9045ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90a8ba0
+.word 0xf9402fb1
+.word 0xf9697631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94a8ba1
+.word 0xf90a87a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf969b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a83a0
+.word 0xf94a87a1
+.word 0xd2800d22
+.word 0xd2800242
+.word 0xd2800d22
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf969de31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90a7fa0
+bl _p_92
+.word 0xf9402fb1
+.word 0xf96a0e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a7fa0
+.word 0xf90587a0
+.word 0xf94587a0
+.word 0xf90a73a0
+.word 0xf94587a0
+.word 0xf9045fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90a7ba0
+.word 0xf9402fb1
+.word 0xf96a6231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94a7ba1
+.word 0xf90a77a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf96a9e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a73a0
+.word 0xf94a77a1
+.word 0xd2800e42
+.word 0xd28002c2
+.word 0xd2800e42
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf96aca31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1200]
+.word 0xd2801e01
+.word 0xd2801e01
+bl _p_3
+.word 0xf90a6fa0
+bl _p_91
+.word 0xf9402fb1
+.word 0xf96afa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a6fa0
+.word 0xf9058ba0
+.word 0xf9458ba0
+.word 0xf90a63a0
+.word 0xf9458ba0
+.word 0xf90463a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90a6ba0
+.word 0xf9402fb1
+.word 0xf96b4e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94a6ba1
+.word 0xf90a67a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf96b8a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a63a0
+.word 0xf94a67a1
+.word 0xd2800ea2
+.word 0xd2800442
+.word 0xd2800ea2
+.word 0xd2800443
+bl _p_59
+.word 0xf9402fb1
+.word 0xf96bb631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90a5fa0
+bl _p_94
+.word 0xf9402fb1
+.word 0xf96be631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a5fa0
+.word 0xf9058fa0
+.word 0xf9458fa0
+.word 0xf90a53a0
+.word 0xf9458fa0
+.word 0xf90467a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90a5ba0
+.word 0xf9402fb1
+.word 0xf96c3a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94a5ba1
+.word 0xf90a57a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf96c7631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a53a0
+.word 0xf94a57a1
+.word 0xd2800e62
+.word 0xd28002c2
+.word 0xd2800e62
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf96ca231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90a4fa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf96cd231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a4fa0
+.word 0xf90593a0
+.word 0xf94593a0
+.word 0xf90a43a0
+.word 0xf94593a0
+.word 0xf9046ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90a4ba0
+.word 0xf9402fb1
+.word 0xf96d2631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94a4ba1
+.word 0xf90a47a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf96d6231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a43a0
+.word 0xf94a47a1
+.word 0xd2800e22
+.word 0xd2800242
+.word 0xd2800e22
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf96d8e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90a3fa0
+bl _p_92
+.word 0xf9402fb1
+.word 0xf96dbe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a3fa0
+.word 0xf90597a0
+.word 0xf94597a0
+.word 0xf90a33a0
+.word 0xf94597a0
+.word 0xf9046fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90a3ba0
+.word 0xf9402fb1
+.word 0xf96e1231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94a3ba1
+.word 0xf90a37a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf96e4e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a33a0
+.word 0xf94a37a1
+.word 0xd2800f42
+.word 0xd28002c2
+.word 0xd2800f42
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf96e7a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1200]
+.word 0xd2801e01
+.word 0xd2801e01
+bl _p_3
+.word 0xf90a2fa0
+bl _p_91
+.word 0xf9402fb1
+.word 0xf96eaa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a2fa0
+.word 0xf9059ba0
+.word 0xf9459ba0
+.word 0xf90a23a0
+.word 0xf9459ba0
+.word 0xf90473a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90a2ba0
+.word 0xf9402fb1
+.word 0xf96efe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94a2ba1
+.word 0xf90a27a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf96f3a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a23a0
+.word 0xf94a27a1
+.word 0xd2800fa2
+.word 0xd2800442
+.word 0xd2800fa2
+.word 0xd2800443
+bl _p_59
+.word 0xf9402fb1
+.word 0xf96f6631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf90a1fa0
+bl _p_94
+.word 0xf9402fb1
+.word 0xf96f9631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a1fa0
+.word 0xf9059fa0
+.word 0xf9459fa0
+.word 0xf90a13a0
+.word 0xf9459fa0
+.word 0xf90477a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90a1ba0
+.word 0xf9402fb1
+.word 0xf96fea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94a1ba1
+.word 0xf90a17a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9702631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a13a0
+.word 0xf94a17a1
+.word 0xd2800f62
+.word 0xd28002c2
+.word 0xd2800f62
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9705231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90a0fa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf9708231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a0fa0
+.word 0xf905a3a0
+.word 0xf945a3a0
+.word 0xf90a03a0
+.word 0xf945a3a0
+.word 0xf9047ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf90a0ba0
+.word 0xf9402fb1
+.word 0xf970d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf94a0ba1
+.word 0xf90a07a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9711231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a03a0
+.word 0xf94a07a1
+.word 0xd2800f22
+.word 0xd2800242
+.word 0xd2800f22
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9713e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf909ffa0
+bl _p_92
+.word 0xf9402fb1
+.word 0xf9716e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949ffa0
+.word 0xf905a7a0
+.word 0xf945a7a0
+.word 0xf909f3a0
+.word 0xf945a7a0
+.word 0xf9047fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf909fba0
+.word 0xf9402fb1
+.word 0xf971c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf949fba1
+.word 0xf909f7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf971fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949f3a0
+.word 0xf949f7a1
+.word 0xd2801042
+.word 0xd28002c2
+.word 0xd2801042
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9722a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1200]
+.word 0xd2801e01
+.word 0xd2801e01
+bl _p_3
+.word 0xf909efa0
+bl _p_91
+.word 0xf9402fb1
+.word 0xf9725a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949efa0
+.word 0xf905aba0
+.word 0xf945aba0
+.word 0xf909e3a0
+.word 0xf945aba0
+.word 0xf90483a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf909eba0
+.word 0xf9402fb1
+.word 0xf972ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf949eba1
+.word 0xf909e7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf972ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949e3a0
+.word 0xf949e7a1
+.word 0xd28010a2
+.word 0xd2800442
+.word 0xd28010a2
+.word 0xd2800443
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9731631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf909dfa0
+bl _p_94
+.word 0xf9402fb1
+.word 0xf9734631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949dfa0
+.word 0xf905afa0
+.word 0xf945afa0
+.word 0xf909d3a0
+.word 0xf945afa0
+.word 0xf90487a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf909dba0
+.word 0xf9402fb1
+.word 0xf9739a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf949dba1
+.word 0xf909d7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf973d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949d3a0
+.word 0xf949d7a1
+.word 0xd2801062
+.word 0xd28002c2
+.word 0xd2801062
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9740231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf909cfa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf9743231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949cfa0
+.word 0xf905b3a0
+.word 0xf945b3a0
+.word 0xf909c3a0
+.word 0xf945b3a0
+.word 0xf9048ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf909cba0
+.word 0xf9402fb1
+.word 0xf9748631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf949cba1
+.word 0xf909c7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf974c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949c3a0
+.word 0xf949c7a1
+.word 0xd2801022
+.word 0xd2800242
+.word 0xd2801022
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf974ee31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf909bfa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf9751e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949bfa0
+.word 0xf905b7a0
+.word 0xf945b7a0
+.word 0xf909b3a0
+.word 0xf945b7a0
+.word 0xf9048fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf909bba0
+.word 0xf9402fb1
+.word 0xf9757231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf949bba1
+.word 0xf909b7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf975ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949b3a0
+.word 0xf949b7a1
+.word 0xd2801122
+.word 0xd2800242
+.word 0xd2801122
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf975da31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf909afa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf9760a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949afa0
+.word 0xf905bba0
+.word 0xf945bba0
+.word 0xf909a3a0
+.word 0xf945bba0
+.word 0xaa0003f8
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf909aba0
+.word 0xf9402fb1
+.word 0xf9765e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf949aba1
+.word 0xf909a7a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9769a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949a3a0
+.word 0xf949a7a1
+.word 0xd28002a2
+.word 0xd28001c2
+.word 0xd28002a2
+.word 0xd28001c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf976c631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf9099fa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf976f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9499fa0
+.word 0xf905bfa0
+.word 0xf945bfa0
+.word 0xf90993a0
+.word 0xf945bfa0
+.word 0xf90493a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf9099ba0
+.word 0xf9402fb1
+.word 0xf9774a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf9499ba1
+.word 0xf90997a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9778631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94993a0
+.word 0xf94997a1
+.word 0xd2801182
+.word 0xd2800242
+.word 0xd2801182
+.word 0xd2800243
+bl _p_59
+.word 0xf9402fb1
+.word 0xf977b231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1208]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf9098fa0
+bl _p_92
+.word 0xf9402fb1
+.word 0xf977e231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9498fa0
+.word 0xf905c3a0
+.word 0xf945c3a0
+.word 0xf90983a0
+.word 0xf945c3a0
+.word 0xf90497a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf9098ba0
+.word 0xf9402fb1
+.word 0xf9783631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf9498ba1
+.word 0xf90987a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9787231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94983a0
+.word 0xf94987a1
+.word 0xd28011a2
+.word 0xd28002c2
+.word 0xd28011a2
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9789e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1200]
+.word 0xd2801e01
+.word 0xd2801e01
+bl _p_3
+.word 0xf9097fa0
+bl _p_91
+.word 0xf9402fb1
+.word 0xf978ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9497fa0
+.word 0xf905c7a0
+.word 0xf945c7a0
+.word 0xf90973a0
+.word 0xf945c7a0
+.word 0xf9049ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf9097ba0
+.word 0xf9402fb1
+.word 0xf9792231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf9497ba1
+.word 0xf90977a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf9795e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94973a0
+.word 0xf94977a1
+.word 0xd2801202
+.word 0xd2800342
+.word 0xd2801202
+.word 0xd2800343
+bl _p_59
+.word 0xf9402fb1
+.word 0xf9798a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf9096fa0
+bl _p_94
+.word 0xf9402fb1
+.word 0xf979ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9496fa0
+.word 0xf905cba0
+.word 0xf945cba0
+.word 0xf90963a0
+.word 0xf945cba0
+.word 0xf9049fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf9096ba0
+.word 0xf9402fb1
+.word 0xf97a0e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf9496ba1
+.word 0xf90967a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf97a4a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94963a0
+.word 0xf94967a1
+.word 0xd28011c2
+.word 0xd28002c2
+.word 0xd28011c2
+.word 0xd28002c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf97a7631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf9095fa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf97aa631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9495fa0
+.word 0xf905cfa0
+.word 0xf945cfa0
+.word 0xf90953a0
+.word 0xf945cfa0
+.word 0xf904a3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf9095ba0
+.word 0xf9402fb1
+.word 0xf97afa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf9495ba1
+.word 0xf90957a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf97b3631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94953a0
+.word 0xf94957a1
+.word 0xd2801162
+.word 0xd28001c2
+.word 0xd2801162
+.word 0xd28001c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf97b6231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1224]
+.word 0xd2803301
+.word 0xd2803301
+bl _p_3
+.word 0xf9094fa0
+bl _p_94
+.word 0xf9402fb1
+.word 0xf97b9231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9494fa0
+.word 0xf905d3a0
+.word 0xf945d3a0
+.word 0xf90943a0
+.word 0xf945d3a0
+.word 0xf904a7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf9094ba0
+.word 0xf9402fb1
+.word 0xf97be631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf9494ba1
+.word 0xf90947a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf97c2231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94943a0
+.word 0xf94947a1
+.word 0xd2801282
+.word 0xd28001c2
+.word 0xd2801282
+.word 0xd28001c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf97c4e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf9093fa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf97c7e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9493fa0
+.word 0xf905d7a0
+.word 0xf945d7a0
+.word 0xf90933a0
+.word 0xf945d7a0
+.word 0xaa0003f9
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf9093ba0
+.word 0xf9402fb1
+.word 0xf97cd231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf9493ba1
+.word 0xf90937a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf97d0e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94933a0
+.word 0xf94937a1
+.word 0xd2800162
+.word 0xd28001c2
+.word 0xd2800162
+.word 0xd28001c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf97d3a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1232]
+.word 0xd2804101
+.word 0xd2804101
+bl _p_3
+.word 0xf9092fa0
+bl _p_95
+.word 0xf9402fb1
+.word 0xf97d6a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9492fa0
+.word 0xf905dba0
+.word 0xf945dba0
+.word 0xf90923a0
+.word 0xf945dba0
+.word 0xaa0003f7
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf9092ba0
+.word 0xf9402fb1
+.word 0xf97dbe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf9492ba1
+.word 0xf90927a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf97dfa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94923a0
+.word 0xf94927a1
+.word 0xd2800142
+.word 0xd2800142
+.word 0xd2800142
+.word 0xd2800143
+bl _p_59
+.word 0xf9402fb1
+.word 0xf97e2631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1216]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf9091fa0
+bl _p_93
+.word 0xf9402fb1
+.word 0xf97e5631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9491fa0
+.word 0xf905dfa0
+.word 0xf945dfa0
+.word 0xf90913a0
+.word 0xf945dfa0
+.word 0xaa0003f6
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf9091ba0
+.word 0xf9402fb1
+.word 0xf97eaa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf9491ba1
+.word 0xf90917a0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf97ee631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94913a0
+.word 0xf94917a1
+.word 0xd2800122
+.word 0xd28000c2
+.word 0xd2800122
+.word 0xd28000c3
+bl _p_59
+.word 0xf9402fb1
+.word 0xf97f1231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf905e3a0
+.word 0xf945e3a0
+.word 0xf90907a0
+.word 0xf945e3a0
+.word 0xaa0003f5
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1192]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #848]
+bl _p_57
+.word 0xf9090fa0
+.word 0xf9402fb1
+.word 0xf97f6631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xd2800901
+.word 0xd2800901
+bl _p_3
+.word 0xf9490fa1
+.word 0xf9090ba0
+.word 0xd2800002
+bl _p_58
+.word 0xf9402fb1
+.word 0xf97fa231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94907a0
+.word 0xf9490ba1
+.word 0xd2800042
+.word 0xd2800042
+.word 0xd2800042
+.word 0xd2800043
+bl _p_59
+.word 0xf9402fb1
+.word 0xf97fce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+bl _p_61
+.word 0xf90903a0
+.word 0xf9402fb1
+.word 0xf97fea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94903a0
+.word 0xf905e7a0
+.word 0xf945e7a1
+.word 0xf945e7a0
+.word 0xf905eba1
+.word 0xb5000220
+.word 0xf945eba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #872]
+.word 0xd2800401
+.word 0xd2800401
+bl _p_3
+.word 0xf90903a0
+bl _p_62
+.word 0xf9402fb1
+.word 0xd2900d10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94903a0
+.word 0xf905eba0
+.word 0xf945eba0
+.word 0xaa0003f4
+.word 0xaa1503e0
+.word 0xaa1403e0
+.word 0xaa1503e0
+.word 0xaa1403e1
+bl _p_63
+.word 0xf9402fb1
+.word 0xd2901b10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1240]
+.word 0xaa1503e0
+.word 0xaa0303e0
+.word 0xaa1503e2
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #888]
+.word 0x928006f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2902f10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+.word 0xaa1503e0
+.word 0x394002be
+bl _p_64
+.word 0xf90903a0
+.word 0xf9402fb1
+.word 0xd2903910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94903a0
+.word 0xb50001a0
+.word 0xaa1503e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1240]
+.word 0xaa1503e0
+.word 0x394002be
+bl _p_65
+.word 0xf9402fb1
+.word 0xd2904710
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1248]
+.word 0xf943c7a2
+.word 0xaa1403e0
+.word 0xf9400283
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #888]
+.word 0x928006f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2905a10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943c7a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_64
+.word 0xf90903a0
+.word 0xf9402fb1
+.word 0xd2906410
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94903a0
+.word 0xb50001a0
+.word 0xf943c7a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1248]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_65
+.word 0xf9402fb1
+.word 0xd2907210
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1256]
+.word 0xf944a7a2
+.word 0xaa1403e0
+.word 0xf9400283
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #888]
+.word 0x928006f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2908510
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf944a7a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_64
+.word 0xf90903a0
+.word 0xf9402fb1
+.word 0xd2908f10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94903a0
+.word 0xb50001a0
+.word 0xf944a7a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1256]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_65
+.word 0xf9402fb1
+.word 0xd2909d10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xaa1503e1
+.word 0x91080000
+.word 0xf916dfa0
+.word 0xd5033bbf
+.word 0xf956dfa0
+.word 0xf9000015
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
+.word 0xf9402ba0
+.word 0xf943c7a1
+.word 0xf916dba1
+.word 0x91082001
+.word 0xd5033bbf
+.word 0xf956dba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf9402ba0
+.word 0xf944a7a1
+.word 0xf916d7a1
+.word 0x91084001
+.word 0xd5033bbf
+.word 0xf956d7a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xaa1503e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1264]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1272]
+.word 0xaa1503e0
+.word 0x394002be
+bl _p_66
+.word 0xf9402fb1
+.word 0xd290e010
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #896]
+.word 0xf9400000
+.word 0xf916d3a0
+.word 0xd2800000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #904]
+.word 0xd2800221
+.word 0xd2800221
+bl _p_3
+.word 0xaa0003e2
+.word 0xf956d3a1
+.word 0x3900405f
+.word 0xaa1503e0
+.word 0x394002be
+bl _p_66
+.word 0xf9402fb1
+.word 0xd290f810
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1280]
+.word 0xf9400000
+.word 0xf916cfa0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911d83a0
+.word 0xd2800000
+.word 0xb90763bf
+.word 0xb90767bf
+.word 0xb9076bbf
+.word 0xb9076fbf
+.word 0xb90773bf
+.word 0xb90777bf
+.word 0xb9077bbf
+.word 0xb9077fbf
+.word 0x911d83a0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911d83a0
+.word 0x911203a0
+.word 0xb98763a0
+.word 0xb90483a0
+.word 0xb98767a0
+.word 0xb90487a0
+.word 0xb9876ba0
+.word 0xb9048ba0
+.word 0xb9876fa0
+.word 0xb9048fa0
+.word 0xb98773a0
+.word 0xb90493a0
+.word 0xb98777a0
+.word 0xb90497a0
+.word 0xb9877ba0
+.word 0xb9049ba0
+.word 0xb9877fa0
+.word 0xb9049fa0
+.word 0xf9402fb1
+.word 0xd2913910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf956cfa1
+.word 0x911203a0
+.word 0x91004040
+.word 0xb98483a3
+.word 0xb9000003
+.word 0xb98487a3
+.word 0xb9000403
+.word 0xb9848ba3
+.word 0xb9000803
+.word 0xb9848fa3
+.word 0xb9000c03
+.word 0xb98493a3
+.word 0xb9001003
+.word 0xb98497a3
+.word 0xb9001403
+.word 0xb9849ba3
+.word 0xb9001803
+.word 0xb9849fa3
+.word 0xb9001c03
+.word 0xaa1503e0
+.word 0x394002be
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2915b10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1296]
+.word 0xf9400000
+.word 0xf916cba0
+.word 0x9e6703e0
+.word 0x911d03a0
+.word 0xd2800000
+.word 0xf903a3a0
+.word 0xf903a7a0
+.word 0xf903aba0
+.word 0xf903afa0
+.word 0x911d03a0
+.word 0x9e6703e0
+bl _p_97
+.word 0x911d03a0
+.word 0x911183a0
+.word 0xf943a3a0
+.word 0xf90233a0
+.word 0xf943a7a0
+.word 0xf90237a0
+.word 0xf943aba0
+.word 0xf9023ba0
+.word 0xf943afa0
+.word 0xf9023fa0
+.word 0xf9402fb1
+.word 0xd2917a10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1304]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf956cba1
+.word 0x911183a0
+.word 0x91004040
+.word 0xf94233a3
+.word 0xf9000003
+.word 0xf94237a3
+.word 0xf9000403
+.word 0xf9423ba3
+.word 0xf9000803
+.word 0xf9423fa3
+.word 0xf9000c03
+.word 0xaa1903e0
+.word 0x3940033e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2919410
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943cba0
+.word 0xf916c7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf916c3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1320]
+.word 0x911163a1
+.word 0xb9800000
+.word 0xb9045ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf956c3a1
+.word 0xf956c7a3
+.word 0x911163a0
+.word 0x91004040
+.word 0xb9845ba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd291b610
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943cba0
+.word 0xf916bfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1336]
+.word 0xf9400000
+.word 0xf916bba0
+.word 0x9e6703e0
+.word 0x911c83a0
+.word 0xd2800000
+.word 0xf90393a0
+.word 0xf90397a0
+.word 0xf9039ba0
+.word 0xf9039fa0
+.word 0x911c83a0
+.word 0x9e6703e0
+bl _p_97
+.word 0x911c83a0
+.word 0x9110e3a0
+.word 0xf94393a0
+.word 0xf9021fa0
+.word 0xf94397a0
+.word 0xf90223a0
+.word 0xf9439ba0
+.word 0xf90227a0
+.word 0xf9439fa0
+.word 0xf9022ba0
+.word 0xf9402fb1
+.word 0xd291d610
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1304]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf956bba1
+.word 0xf956bfa3
+.word 0x9110e3a0
+.word 0x91004040
+.word 0xf9421fa4
+.word 0xf9000004
+.word 0xf94223a4
+.word 0xf9000404
+.word 0xf94227a4
+.word 0xf9000804
+.word 0xf9422ba4
+.word 0xf9000c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd291f110
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943c7a0
+.word 0xf916b3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1344]
+.word 0xf9400000
+.word 0xf916aba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1352]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf916b7a0
+bl _p_98
+.word 0xf9402fb1
+.word 0xd2920510
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf956b7a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1360]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_99
+.word 0xf916afa0
+.word 0xf9402fb1
+.word 0xd2921210
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf956aba1
+.word 0xf956afa2
+.word 0xf956b3a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2921d10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943c7a0
+.word 0xf916a3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf9169fa0
+.word 0xd280001e
+.word 0xf2e80bde
+.word 0x9e6703c0
+.word 0xfd16a7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9569fa1
+.word 0xf956a3a3
+.word 0xfd56a7a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2923b10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943c7a0
+.word 0xf91697a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf91693a0
+.word 0xd280001e
+.word 0xf2e80bde
+.word 0x9e6703c0
+.word 0xfd169ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95693a1
+.word 0xf95697a3
+.word 0xfd569ba0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2925910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943c7a0
+.word 0xf9168fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf9168ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1392]
+.word 0x9110c3a1
+.word 0xb9800000
+.word 0xb90433a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9568ba1
+.word 0xf9568fa3
+.word 0x9110c3a0
+.word 0x91004040
+.word 0xb98433a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2927b10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943c7a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_100
+.word 0xf91687a0
+.word 0xf9402fb1
+.word 0xd2928510
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95687a2
+.word 0xf943c3a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1400]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2929510
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943cba1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf91683a0
+.word 0xf9402fb1
+.word 0xd2929f10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95683a2
+.word 0xf943c7a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd292af10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x3940033e
+bl _p_101
+.word 0xf9167fa0
+.word 0xf9402fb1
+.word 0xd292b910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9567fa2
+.word 0xf943cba1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd292c910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1296]
+.word 0xf9400000
+.word 0xf9167ba0
+.word 0xd280001e
+.word 0xf2e805de
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e8049e
+.word 0x9e6703c0
+.word 0x911c03a0
+.word 0xd2800000
+.word 0xf90383a0
+.word 0xf90387a0
+.word 0xf9038ba0
+.word 0xf9038fa0
+.word 0x911c03a0
+.word 0xd280001e
+.word 0xf2e805de
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e8049e
+.word 0x9e6703c1
+bl _p_102
+.word 0x911c03a0
+.word 0x911043a0
+.word 0xf94383a0
+.word 0xf9020ba0
+.word 0xf94387a0
+.word 0xf9020fa0
+.word 0xf9438ba0
+.word 0xf90213a0
+.word 0xf9438fa0
+.word 0xf90217a0
+.word 0xf9402fb1
+.word 0xd292f210
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1304]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9567ba1
+.word 0x911043a0
+.word 0x91004040
+.word 0xf9420ba3
+.word 0xf9000003
+.word 0xf9420fa3
+.word 0xf9000403
+.word 0xf94213a3
+.word 0xf9000803
+.word 0xf94217a3
+.word 0xf9000c03
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2930c10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf91677a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x911023a1
+.word 0xb9800000
+.word 0xb9040ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95677a1
+.word 0x911023a0
+.word 0x91004040
+.word 0xb9840ba3
+.word 0xb9000003
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2932c10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943cfa0
+.word 0xf91673a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1280]
+.word 0xf9400000
+.word 0xf9166fa0
+.word 0x9e6703e0
+.word 0x9e6703e0
+.word 0x9e6703e0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911b83a0
+.word 0xd2800000
+.word 0xb906e3bf
+.word 0xb906e7bf
+.word 0xb906ebbf
+.word 0xb906efbf
+.word 0xb906f3bf
+.word 0xb906f7bf
+.word 0xb906fbbf
+.word 0xb906ffbf
+.word 0x911b83a0
+.word 0x9e6703e0
+.word 0x9e6703e1
+.word 0x9e6703e2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911b83a0
+.word 0x910fa3a0
+.word 0xb986e3a0
+.word 0xb903eba0
+.word 0xb986e7a0
+.word 0xb903efa0
+.word 0xb986eba0
+.word 0xb903f3a0
+.word 0xb986efa0
+.word 0xb903f7a0
+.word 0xb986f3a0
+.word 0xb903fba0
+.word 0xb986f7a0
+.word 0xb903ffa0
+.word 0xb986fba0
+.word 0xb90403a0
+.word 0xb986ffa0
+.word 0xb90407a0
+.word 0xf9402fb1
+.word 0xd2936210
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9566fa1
+.word 0xf95673a3
+.word 0x910fa3a0
+.word 0x91004040
+.word 0xb983eba4
+.word 0xb9000004
+.word 0xb983efa4
+.word 0xb9000404
+.word 0xb983f3a4
+.word 0xb9000804
+.word 0xb983f7a4
+.word 0xb9000c04
+.word 0xb983fba4
+.word 0xb9001004
+.word 0xb983ffa4
+.word 0xb9001404
+.word 0xb98403a4
+.word 0xb9001804
+.word 0xb98407a4
+.word 0xb9001c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2938510
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943cfa0
+.word 0xf91667a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf91663a0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0xfd166ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95663a1
+.word 0xf95667a3
+.word 0xfd566ba0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd293a310
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_101
+.word 0xf9165fa0
+.word 0xf9402fb1
+.word 0xd293ad10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9565fa2
+.word 0xf943cfa1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd293bd10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943dba0
+.word 0xf9165ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1424]
+.word 0xf9400000
+.word 0xf91657a0
+.word 0xd2800020
+.word 0xd2800020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1432]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95657a1
+.word 0xf9565ba3
+.word 0xd280003e
+.word 0xb900105e
+.word 0xaa0203e0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd293da10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943d3a0
+.word 0xf9164fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1344]
+.word 0xf9400000
+.word 0xf91647a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1352]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf91653a0
+bl _p_98
+.word 0xf9402fb1
+.word 0xd293ee10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95653a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1440]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_99
+.word 0xf9164ba0
+.word 0xf9402fb1
+.word 0xd293fb10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95647a1
+.word 0xf9564ba2
+.word 0xf9564fa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2940610
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943d3a0
+.word 0xf9163fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf9163ba0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd1643a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9563ba1
+.word 0xf9563fa3
+.word 0xfd5643a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2942410
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943d3a0
+.word 0xf91633a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf9162fa0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd1637a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9562fa1
+.word 0xf95633a3
+.word 0xfd5637a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2944210
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943d3a0
+.word 0xf9162ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf91627a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1392]
+.word 0x910f83a1
+.word 0xb9800000
+.word 0xb903e3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95627a1
+.word 0xf9562ba3
+.word 0x910f83a0
+.word 0x91004040
+.word 0xb983e3a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2946410
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943dba1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf91623a0
+.word 0xf9402fb1
+.word 0xd2946e10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95623a2
+.word 0xf943d3a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2947e10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1303e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1448]
+.word 0xf9400000
+.word 0xf9161fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910f63a1
+.word 0xb9800000
+.word 0xb903dba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9561fa1
+.word 0x910f63a0
+.word 0x91004040
+.word 0xb983dba3
+.word 0xb9000003
+.word 0xaa1303e0
+.word 0x3940027e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2949e10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1303e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1456]
+.word 0xf9400000
+.word 0xf9161ba0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911b03a0
+.word 0xd2800000
+.word 0xb906c3bf
+.word 0xb906c7bf
+.word 0xb906cbbf
+.word 0xb906cfbf
+.word 0xb906d3bf
+.word 0xb906d7bf
+.word 0xb906dbbf
+.word 0xb906dfbf
+.word 0x911b03a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911b03a0
+.word 0x910ee3a0
+.word 0xb986c3a0
+.word 0xb903bba0
+.word 0xb986c7a0
+.word 0xb903bfa0
+.word 0xb986cba0
+.word 0xb903c3a0
+.word 0xb986cfa0
+.word 0xb903c7a0
+.word 0xb986d3a0
+.word 0xb903cba0
+.word 0xb986d7a0
+.word 0xb903cfa0
+.word 0xb986dba0
+.word 0xb903d3a0
+.word 0xb986dfa0
+.word 0xb903d7a0
+.word 0xf9402fb1
+.word 0xd294eb10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9561ba1
+.word 0x910ee3a0
+.word 0x91004040
+.word 0xb983bba3
+.word 0xb9000003
+.word 0xb983bfa3
+.word 0xb9000403
+.word 0xb983c3a3
+.word 0xb9000803
+.word 0xb983c7a3
+.word 0xb9000c03
+.word 0xb983cba3
+.word 0xb9001003
+.word 0xb983cfa3
+.word 0xb9001403
+.word 0xb983d3a3
+.word 0xb9001803
+.word 0xb983d7a3
+.word 0xb9001c03
+.word 0xaa1303e0
+.word 0x3940027e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2950d10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1303e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf91617a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910ec3a1
+.word 0xb9800000
+.word 0xb903b3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95617a1
+.word 0x910ec3a0
+.word 0x91004040
+.word 0xb983b3a3
+.word 0xb9000003
+.word 0xaa1303e0
+.word 0x3940027e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2952d10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1303e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1464]
+.word 0xf9400000
+.word 0xf9160ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1472]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf91613a0
+bl _p_103
+.word 0xf9402fb1
+.word 0xd2954010
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95613a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1480]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9403850
+.word 0xd63f0200
+.word 0xf9160fa0
+.word 0xf9402fb1
+.word 0xd2954e10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9560ba1
+.word 0xf9560fa2
+.word 0xaa1303e0
+.word 0x3940027e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2955810
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1303e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1488]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1496]
+.word 0xaa1303e0
+.word 0x3940027e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2956810
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1303e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1504]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1512]
+.word 0xaa1303e0
+.word 0x3940027e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2957810
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1303e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf9158ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1528]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf9159ba0
+bl _p_104
+.word 0xf9402fb1
+.word 0xd2958b10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1536]
+.word 0xf91593a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1544]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf91607a0
+bl _p_105
+.word 0xf9402fb1
+.word 0xd2959c10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95607a0
+.word 0xf905efa0
+.word 0xf945efa0
+.word 0xf915d7a0
+.word 0xf945efa0
+.word 0xf915e3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1552]
+.word 0xf915dfa0
+.word 0xd2800000
+.word 0xd28000e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xd28000e1
+bl _p_15
+.word 0xf905f3a0
+.word 0xf945f3a0
+.word 0xf91603a0
+.word 0xf945f3a3
+.word 0xd2800000
+.word 0xaa1303e0
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xaa1303e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95603a0
+.word 0xf905f7a0
+.word 0xf945f7a0
+.word 0xf915ffa0
+.word 0xf945f7a3
+.word 0xd2800020
+.word 0xf943dba2
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf955ffa0
+.word 0xf905fba0
+.word 0xf945fba0
+.word 0xf915fba0
+.word 0xf945fba3
+.word 0xd2800040
+.word 0xaa1803e0
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xaa1803e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf955fba0
+.word 0xf905ffa0
+.word 0xf945ffa0
+.word 0xf915f7a0
+.word 0xf945ffa3
+.word 0xd2800060
+.word 0xaa1903e0
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xaa1903e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf955f7a0
+.word 0xf90603a0
+.word 0xf94603a0
+.word 0xf915f3a0
+.word 0xf94603a3
+.word 0xd2800080
+.word 0xaa1703e0
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xaa1703e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf955f3a0
+.word 0xf90607a0
+.word 0xf94607a0
+.word 0xf915efa0
+.word 0xf94607a3
+.word 0xd28000a0
+.word 0xaa1603e0
+.word 0xaa0303e0
+.word 0xd28000a1
+.word 0xaa1603e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf955efa0
+.word 0xf9060ba0
+.word 0xf9460ba0
+.word 0xf915e7a0
+.word 0xf9460ba3
+.word 0xd28000c0
+.word 0xaa1503e0
+.word 0xaa0303e0
+.word 0xd28000c1
+.word 0xaa1503e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf915eba0
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1560]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf955e7a1
+.word 0xf955eba2
+.word 0xf915dba0
+.word 0xaa1403e3
+bl _p_106
+.word 0xf9402fb1
+.word 0xd2961c10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf955dba0
+.word 0xf955dfa1
+.word 0xf955e3a3
+.word 0xf9060fa0
+.word 0xf9460fa2
+.word 0xf9460fa0
+.word 0xf904aba0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2962b10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf955d7a0
+.word 0xf90613a0
+.word 0xf94613a0
+.word 0xf915d3a0
+.word 0xf94613a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1568]
+.word 0xf944aba2
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2963c10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf955d3a0
+.word 0xf90617a0
+.word 0xf94617a0
+.word 0xf915afa0
+.word 0xf94617a0
+.word 0xf915bba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1576]
+.word 0xf915b3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf915cfa0
+bl _p_108
+.word 0xf9402fb1
+.word 0xd2965310
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf955cfa0
+.word 0xf9061ba0
+.word 0xf9461ba0
+.word 0xf915cba0
+.word 0xf9461ba3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1592]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1600]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd2966610
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf955cba0
+.word 0xf9061fa0
+.word 0xf9461fa0
+.word 0xf915bfa0
+.word 0xf9461fa3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1608]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1616]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd2967910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1184]
+bl _p_49
+.word 0xf915c7a0
+.word 0xf9402fb1
+.word 0xd2968310
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf955c7a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf915c3a0
+.word 0xf9402fb1
+.word 0xd2968e10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf955bfa1
+.word 0xf955c3a2
+.word 0xf915b7a0
+bl _p_110
+.word 0xf9402fb1
+.word 0xd2969d10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf955b3a1
+.word 0xf955b7a2
+.word 0xf955bba3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd296a810
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf955afa0
+.word 0xf90623a0
+.word 0xf94623a0
+.word 0xf91597a0
+.word 0xf94623a0
+.word 0xf915a7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf9159fa0
+.word 0xd28003a0
+.word 0xd2801680
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1640]
+.word 0xd2800381
+.word 0xd2800381
+bl _p_3
+.word 0xf915aba0
+.word 0xd28003a1
+.word 0xd2801682
+bl _p_111
+.word 0xf9402fb1
+.word 0xd296c310
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1648]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf955aba1
+.word 0xf915a3a0
+bl _p_112
+.word 0xf9402fb1
+.word 0xd296d110
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9559fa1
+.word 0xf955a3a2
+.word 0xf955a7a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd296dc10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95593a1
+.word 0xf95597a2
+.word 0xf9559ba3
+.word 0xaa0303e0
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1656]
+.word 0x928007f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf9158fa0
+.word 0xf9402fb1
+.word 0xd296ee10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9558ba1
+.word 0xf9558fa2
+.word 0xaa1303e0
+.word 0x3940027e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd296f810
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943d7a0
+.word 0xf91587a0
+.word 0xaa1503e0
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x54067300
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xf95587a2
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x54067140
+.word 0xd5033bbf
+.word 0xf9001035
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1664]
+.word 0xf9001420
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1672]
+.word 0xf9002020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1680]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901c03f
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_113
+.word 0xf9402fb1
+.word 0xd2972f10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0x3940027e
+bl _p_100
+.word 0xf91583a0
+.word 0xf9402fb1
+.word 0xd2973910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95583a2
+.word 0xf943d7a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1400]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2974910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943dba1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf9157fa0
+.word 0xf9402fb1
+.word 0xd2975310
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9557fa2
+.word 0xaa1303e0
+.word 0xaa0203e0
+.word 0xaa1303e1
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2976410
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_101
+.word 0xf9157ba0
+.word 0xf9402fb1
+.word 0xd2976e10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9557ba2
+.word 0xf943dba1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2977e10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943e7a0
+.word 0xf91577a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1424]
+.word 0xf9400000
+.word 0xf91573a0
+.word 0xd2800020
+.word 0xd2800020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1432]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95573a1
+.word 0xf95577a3
+.word 0xd280003e
+.word 0xb900105e
+.word 0xaa0203e0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2979b10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943dfa0
+.word 0xf9156ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1344]
+.word 0xf9400000
+.word 0xf91563a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1352]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf9156fa0
+bl _p_98
+.word 0xf9402fb1
+.word 0xd297af10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9556fa2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1688]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_99
+.word 0xf91567a0
+.word 0xf9402fb1
+.word 0xd297bc10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95563a1
+.word 0xf95567a2
+.word 0xf9556ba3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd297c710
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943dfa0
+.word 0xf9155ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf91557a0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd155fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95557a1
+.word 0xf9555ba3
+.word 0xfd555fa0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd297e510
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943dfa0
+.word 0xf9154fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf9154ba0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd1553a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9554ba1
+.word 0xf9554fa3
+.word 0xfd5553a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2980310
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943dfa0
+.word 0xf91547a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf91543a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1392]
+.word 0x910ea3a1
+.word 0xb9800000
+.word 0xb903aba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95543a1
+.word 0xf95547a3
+.word 0x910ea3a0
+.word 0x91004040
+.word 0xb983aba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2982510
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943e7a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf9153fa0
+.word 0xf9402fb1
+.word 0xd2982f10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9553fa2
+.word 0xf943dfa1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2983f10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1448]
+.word 0xf9400000
+.word 0xf9153ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910e83a1
+.word 0xb9800000
+.word 0xb903a3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9553ba1
+.word 0x910e83a0
+.word 0x91004040
+.word 0xb983a3a3
+.word 0xb9000003
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2985f10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf91537a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910e63a1
+.word 0xb9800000
+.word 0xb9039ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95537a1
+.word 0x910e63a0
+.word 0x91004040
+.word 0xb9839ba3
+.word 0xb9000003
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2987f10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1464]
+.word 0xf9400000
+.word 0xf9152ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1472]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf91533a0
+bl _p_103
+.word 0xf9402fb1
+.word 0xd2989210
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95533a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1480]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9403850
+.word 0xd63f0200
+.word 0xf9152fa0
+.word 0xf9402fb1
+.word 0xd298a010
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9552ba1
+.word 0xf9552fa2
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd298aa10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1488]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1696]
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd298ba10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1456]
+.word 0xf9400000
+.word 0xf91527a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911a83a0
+.word 0xd2800000
+.word 0xb906a3bf
+.word 0xb906a7bf
+.word 0xb906abbf
+.word 0xb906afbf
+.word 0xb906b3bf
+.word 0xb906b7bf
+.word 0xb906bbbf
+.word 0xb906bfbf
+.word 0x911a83a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911a83a0
+.word 0x910de3a0
+.word 0xb986a3a0
+.word 0xb9037ba0
+.word 0xb986a7a0
+.word 0xb9037fa0
+.word 0xb986aba0
+.word 0xb90383a0
+.word 0xb986afa0
+.word 0xb90387a0
+.word 0xb986b3a0
+.word 0xb9038ba0
+.word 0xb986b7a0
+.word 0xb9038fa0
+.word 0xb986bba0
+.word 0xb90393a0
+.word 0xb986bfa0
+.word 0xb90397a0
+.word 0xf9402fb1
+.word 0xd2990710
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95527a1
+.word 0x910de3a0
+.word 0x91004040
+.word 0xb9837ba3
+.word 0xb9000003
+.word 0xb9837fa3
+.word 0xb9000403
+.word 0xb98383a3
+.word 0xb9000803
+.word 0xb98387a3
+.word 0xb9000c03
+.word 0xb9838ba3
+.word 0xb9001003
+.word 0xb9838fa3
+.word 0xb9001403
+.word 0xb98393a3
+.word 0xb9001803
+.word 0xb98397a3
+.word 0xb9001c03
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2992910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1504]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1512]
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2993910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf914a7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1528]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf914b7a0
+bl _p_104
+.word 0xf9402fb1
+.word 0xd2994c10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1536]
+.word 0xf914afa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1544]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf91523a0
+bl _p_105
+.word 0xf9402fb1
+.word 0xd2995d10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95523a0
+.word 0xf90627a0
+.word 0xf94627a0
+.word 0xf914f3a0
+.word 0xf94627a0
+.word 0xf914ffa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1552]
+.word 0xf914fba0
+.word 0xd2800000
+.word 0xd28000e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xd28000e1
+bl _p_15
+.word 0xf9062ba0
+.word 0xf9462ba0
+.word 0xf9151fa0
+.word 0xf9462ba3
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xaa1a03e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9551fa0
+.word 0xf9062fa0
+.word 0xf9462fa0
+.word 0xf9151ba0
+.word 0xf9462fa3
+.word 0xd2800020
+.word 0xf943e7a2
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9551ba0
+.word 0xf90633a0
+.word 0xf94633a0
+.word 0xf91517a0
+.word 0xf94633a3
+.word 0xd2800040
+.word 0xaa1803e0
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xaa1803e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95517a0
+.word 0xf90637a0
+.word 0xf94637a0
+.word 0xf91513a0
+.word 0xf94637a3
+.word 0xd2800060
+.word 0xaa1903e0
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xaa1903e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95513a0
+.word 0xf9063ba0
+.word 0xf9463ba0
+.word 0xf9150fa0
+.word 0xf9463ba3
+.word 0xd2800080
+.word 0xaa1703e0
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xaa1703e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9550fa0
+.word 0xf9063fa0
+.word 0xf9463fa0
+.word 0xf9150ba0
+.word 0xf9463fa3
+.word 0xd28000a0
+.word 0xaa1603e0
+.word 0xaa0303e0
+.word 0xd28000a1
+.word 0xaa1603e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9550ba0
+.word 0xf90643a0
+.word 0xf94643a0
+.word 0xf91503a0
+.word 0xf94643a3
+.word 0xd28000c0
+.word 0xaa1503e0
+.word 0xaa0303e0
+.word 0xd28000c1
+.word 0xaa1503e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf91507a0
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1560]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf95503a1
+.word 0xf95507a2
+.word 0xf914f7a0
+.word 0xaa1403e3
+bl _p_106
+.word 0xf9402fb1
+.word 0xd299dd10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf954f7a0
+.word 0xf954fba1
+.word 0xf954ffa3
+.word 0xf90647a0
+.word 0xf94647a2
+.word 0xf94647a0
+.word 0xf904afa0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd299ec10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf954f3a0
+.word 0xf9064ba0
+.word 0xf9464ba0
+.word 0xf914efa0
+.word 0xf9464ba3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1568]
+.word 0xf944afa2
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd299fd10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf954efa0
+.word 0xf9064fa0
+.word 0xf9464fa0
+.word 0xf914cba0
+.word 0xf9464fa0
+.word 0xf914d7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1576]
+.word 0xf914cfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf914eba0
+bl _p_108
+.word 0xf9402fb1
+.word 0xd29a1410
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf954eba0
+.word 0xf90653a0
+.word 0xf94653a0
+.word 0xf914e7a0
+.word 0xf94653a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1592]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1600]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd29a2710
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf954e7a0
+.word 0xf90657a0
+.word 0xf94657a0
+.word 0xf914dba0
+.word 0xf94657a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1608]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1616]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd29a3a10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1184]
+bl _p_49
+.word 0xf914e3a0
+.word 0xf9402fb1
+.word 0xd29a4410
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf954e3a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf914dfa0
+.word 0xf9402fb1
+.word 0xd29a4f10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf954dba1
+.word 0xf954dfa2
+.word 0xf914d3a0
+bl _p_110
+.word 0xf9402fb1
+.word 0xd29a5e10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf954cfa1
+.word 0xf954d3a2
+.word 0xf954d7a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd29a6910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf954cba0
+.word 0xf9065ba0
+.word 0xf9465ba0
+.word 0xf914b3a0
+.word 0xf9465ba0
+.word 0xf914c3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf914bba0
+.word 0xd28004e0
+.word 0xd28017c0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1640]
+.word 0xd2800381
+.word 0xd2800381
+bl _p_3
+.word 0xf914c7a0
+.word 0xd28004e1
+.word 0xd28017c2
+bl _p_111
+.word 0xf9402fb1
+.word 0xd29a8410
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1648]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf954c7a1
+.word 0xf914bfa0
+bl _p_112
+.word 0xf9402fb1
+.word 0xd29a9210
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf954bba1
+.word 0xf954bfa2
+.word 0xf954c3a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd29a9d10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf954afa1
+.word 0xf954b3a2
+.word 0xf954b7a3
+.word 0xaa0303e0
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1656]
+.word 0x928007f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf914aba0
+.word 0xf9402fb1
+.word 0xd29aaf10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf954a7a1
+.word 0xf954aba2
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29ab910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943e3a0
+.word 0xf914a3a0
+.word 0xaa1503e0
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x5405fae0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xf954a3a2
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x5405f920
+.word 0xd5033bbf
+.word 0xf9001035
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1704]
+.word 0xf9001420
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1712]
+.word 0xf9002020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1720]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901c03f
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_113
+.word 0xf9402fb1
+.word 0xd29af010
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_100
+.word 0xf9149fa0
+.word 0xf9402fb1
+.word 0xd29afa10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9549fa2
+.word 0xf943e3a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1400]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29b0a10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943e7a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf9149ba0
+.word 0xf9402fb1
+.word 0xd29b1410
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9549ba2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29b2510
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_101
+.word 0xf91497a0
+.word 0xf9402fb1
+.word 0xd29b2f10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95497a2
+.word 0xf943e7a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29b3f10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943f7a0
+.word 0xf91493a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1424]
+.word 0xf9400000
+.word 0xf9148fa0
+.word 0xd2800020
+.word 0xd2800020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1432]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9548fa1
+.word 0xf95493a3
+.word 0xd280003e
+.word 0xb900105e
+.word 0xaa0203e0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29b5c10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943eba0
+.word 0xf91487a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1344]
+.word 0xf9400000
+.word 0xf9147fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1352]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf9148ba0
+bl _p_98
+.word 0xf9402fb1
+.word 0xd29b7010
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9548ba2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1728]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_99
+.word 0xf91483a0
+.word 0xf9402fb1
+.word 0xd29b7d10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9547fa1
+.word 0xf95483a2
+.word 0xf95487a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29b8810
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943eba0
+.word 0xf91477a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf91473a0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd147ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95473a1
+.word 0xf95477a3
+.word 0xfd547ba0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29ba610
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943eba0
+.word 0xf9146ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf91467a0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd146fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95467a1
+.word 0xf9546ba3
+.word 0xfd546fa0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29bc410
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943eba0
+.word 0xf91463a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf9145fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1392]
+.word 0x910dc3a1
+.word 0xb9800000
+.word 0xb90373a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9545fa1
+.word 0xf95463a3
+.word 0x910dc3a0
+.word 0x91004040
+.word 0xb98373a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29be610
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943f7a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf9145ba0
+.word 0xf9402fb1
+.word 0xd29bf010
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9545ba2
+.word 0xf943eba1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29c0010
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943f3a0
+.word 0xf91457a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1448]
+.word 0xf9400000
+.word 0xf91453a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910da3a1
+.word 0xb9800000
+.word 0xb9036ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95453a1
+.word 0xf95457a3
+.word 0x910da3a0
+.word 0x91004040
+.word 0xb9836ba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29c2210
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943f3a0
+.word 0xf9144fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf9144ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910d83a1
+.word 0xb9800000
+.word 0xb90363a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9544ba1
+.word 0xf9544fa3
+.word 0x910d83a0
+.word 0x91004040
+.word 0xb98363a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29c4410
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943f3a0
+.word 0xf91447a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1456]
+.word 0xf9400000
+.word 0xf91443a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911a03a0
+.word 0xd2800000
+.word 0xb90683bf
+.word 0xb90687bf
+.word 0xb9068bbf
+.word 0xb9068fbf
+.word 0xb90693bf
+.word 0xb90697bf
+.word 0xb9069bbf
+.word 0xb9069fbf
+.word 0x911a03a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911a03a0
+.word 0x910d03a0
+.word 0xb98683a0
+.word 0xb90343a0
+.word 0xb98687a0
+.word 0xb90347a0
+.word 0xb9868ba0
+.word 0xb9034ba0
+.word 0xb9868fa0
+.word 0xb9034fa0
+.word 0xb98693a0
+.word 0xb90353a0
+.word 0xb98697a0
+.word 0xb90357a0
+.word 0xb9869ba0
+.word 0xb9035ba0
+.word 0xb9869fa0
+.word 0xb9035fa0
+.word 0xf9402fb1
+.word 0xd29c9210
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95443a1
+.word 0xf95447a3
+.word 0x910d03a0
+.word 0x91004040
+.word 0xb98343a4
+.word 0xb9000004
+.word 0xb98347a4
+.word 0xb9000404
+.word 0xb9834ba4
+.word 0xb9000804
+.word 0xb9834fa4
+.word 0xb9000c04
+.word 0xb98353a4
+.word 0xb9001004
+.word 0xb98357a4
+.word 0xb9001404
+.word 0xb9835ba4
+.word 0xb9001804
+.word 0xb9835fa4
+.word 0xb9001c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29cb510
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943f3a0
+.word 0xf9143ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1464]
+.word 0xf9400000
+.word 0xf91433a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1472]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf9143fa0
+bl _p_103
+.word 0xf9402fb1
+.word 0xd29cc910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9543fa2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1480]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9403850
+.word 0xd63f0200
+.word 0xf91437a0
+.word 0xf9402fb1
+.word 0xd29cd710
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95433a1
+.word 0xf95437a2
+.word 0xf9543ba3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29ce210
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943f3a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1488]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1736]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29cf210
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943f3a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1504]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1512]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29d0210
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943f3a0
+.word 0xf913b7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf913afa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1528]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf913c3a0
+bl _p_104
+.word 0xf9402fb1
+.word 0xd29d1610
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1536]
+.word 0xf913bba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1544]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf9142fa0
+bl _p_105
+.word 0xf9402fb1
+.word 0xd29d2710
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9542fa0
+.word 0xf9065fa0
+.word 0xf9465fa0
+.word 0xf913ffa0
+.word 0xf9465fa0
+.word 0xf9140ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1552]
+.word 0xf91407a0
+.word 0xd2800000
+.word 0xd28000e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xd28000e1
+bl _p_15
+.word 0xf90663a0
+.word 0xf94663a0
+.word 0xf9142ba0
+.word 0xf94663a3
+.word 0xd2800000
+.word 0xf943f3a2
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9542ba0
+.word 0xf90667a0
+.word 0xf94667a0
+.word 0xf91427a0
+.word 0xf94667a3
+.word 0xd2800020
+.word 0xf943f7a2
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95427a0
+.word 0xf9066ba0
+.word 0xf9466ba0
+.word 0xf91423a0
+.word 0xf9466ba3
+.word 0xd2800040
+.word 0xaa1803e0
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xaa1803e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95423a0
+.word 0xf9066fa0
+.word 0xf9466fa0
+.word 0xf9141fa0
+.word 0xf9466fa3
+.word 0xd2800060
+.word 0xaa1903e0
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xaa1903e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9541fa0
+.word 0xf90673a0
+.word 0xf94673a0
+.word 0xf9141ba0
+.word 0xf94673a3
+.word 0xd2800080
+.word 0xaa1703e0
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xaa1703e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9541ba0
+.word 0xf90677a0
+.word 0xf94677a0
+.word 0xf91417a0
+.word 0xf94677a3
+.word 0xd28000a0
+.word 0xaa1603e0
+.word 0xaa0303e0
+.word 0xd28000a1
+.word 0xaa1603e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95417a0
+.word 0xf9067ba0
+.word 0xf9467ba0
+.word 0xf9140fa0
+.word 0xf9467ba3
+.word 0xd28000c0
+.word 0xaa1503e0
+.word 0xaa0303e0
+.word 0xd28000c1
+.word 0xaa1503e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf91413a0
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1560]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf9540fa1
+.word 0xf95413a2
+.word 0xf91403a0
+.word 0xaa1403e3
+bl _p_106
+.word 0xf9402fb1
+.word 0xd29da610
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95403a0
+.word 0xf95407a1
+.word 0xf9540ba3
+.word 0xf9067fa0
+.word 0xf9467fa2
+.word 0xf9467fa0
+.word 0xf904b3a0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd29db510
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf953ffa0
+.word 0xf90683a0
+.word 0xf94683a0
+.word 0xf913fba0
+.word 0xf94683a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1568]
+.word 0xf944b3a2
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd29dc610
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf953fba0
+.word 0xf90687a0
+.word 0xf94687a0
+.word 0xf913d7a0
+.word 0xf94687a0
+.word 0xf913e3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1576]
+.word 0xf913dba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf913f7a0
+bl _p_108
+.word 0xf9402fb1
+.word 0xd29ddd10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf953f7a0
+.word 0xf9068ba0
+.word 0xf9468ba0
+.word 0xf913f3a0
+.word 0xf9468ba3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1592]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1600]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd29df010
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf953f3a0
+.word 0xf9068fa0
+.word 0xf9468fa0
+.word 0xf913e7a0
+.word 0xf9468fa3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1608]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1616]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd29e0310
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1184]
+bl _p_49
+.word 0xf913efa0
+.word 0xf9402fb1
+.word 0xd29e0d10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf953efa1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf913eba0
+.word 0xf9402fb1
+.word 0xd29e1810
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf953e7a1
+.word 0xf953eba2
+.word 0xf913dfa0
+bl _p_110
+.word 0xf9402fb1
+.word 0xd29e2710
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf953dba1
+.word 0xf953dfa2
+.word 0xf953e3a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd29e3210
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf953d7a0
+.word 0xf90693a0
+.word 0xf94693a0
+.word 0xf913bfa0
+.word 0xf94693a0
+.word 0xf913cfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf913c7a0
+.word 0xd2800620
+.word 0xd2801880
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1640]
+.word 0xd2800381
+.word 0xd2800381
+bl _p_3
+.word 0xf913d3a0
+.word 0xd2800621
+.word 0xd2801882
+bl _p_111
+.word 0xf9402fb1
+.word 0xd29e4d10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1648]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf953d3a1
+.word 0xf913cba0
+bl _p_112
+.word 0xf9402fb1
+.word 0xd29e5b10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf953c7a1
+.word 0xf953cba2
+.word 0xf953cfa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd29e6610
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf953bba1
+.word 0xf953bfa2
+.word 0xf953c3a3
+.word 0xaa0303e0
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1656]
+.word 0x928007f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf913b3a0
+.word 0xf9402fb1
+.word 0xd29e7810
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf953afa1
+.word 0xf953b3a2
+.word 0xf953b7a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29e8310
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943efa0
+.word 0xf913aba0
+.word 0xaa1503e0
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x540581a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xf953aba2
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x54057fe0
+.word 0xd5033bbf
+.word 0xf9001035
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1744]
+.word 0xf9001420
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1752]
+.word 0xf9002020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1760]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901c03f
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_113
+.word 0xf9402fb1
+.word 0xd29eba10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943f3a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_100
+.word 0xf913a7a0
+.word 0xf9402fb1
+.word 0xd29ec410
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf953a7a2
+.word 0xf943efa1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1400]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29ed410
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943f7a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf913a3a0
+.word 0xf9402fb1
+.word 0xd29ede10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf953a3a2
+.word 0xf943f3a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29eee10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_101
+.word 0xf9139fa0
+.word 0xf9402fb1
+.word 0xd29ef810
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9539fa2
+.word 0xf943f7a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29f0810
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94407a0
+.word 0xf9139ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1424]
+.word 0xf9400000
+.word 0xf91397a0
+.word 0xd2800020
+.word 0xd2800020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1432]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95397a1
+.word 0xf9539ba3
+.word 0xd280003e
+.word 0xb900105e
+.word 0xaa0203e0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29f2510
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943fba0
+.word 0xf9138fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1344]
+.word 0xf9400000
+.word 0xf91387a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1352]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf91393a0
+bl _p_98
+.word 0xf9402fb1
+.word 0xd29f3910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95393a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1768]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_99
+.word 0xf9138ba0
+.word 0xf9402fb1
+.word 0xd29f4610
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95387a1
+.word 0xf9538ba2
+.word 0xf9538fa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29f5110
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943fba0
+.word 0xf9137fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf9137ba0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd1383a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9537ba1
+.word 0xf9537fa3
+.word 0xfd5383a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29f6f10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943fba0
+.word 0xf91373a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf9136fa0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd1377a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9536fa1
+.word 0xf95373a3
+.word 0xfd5377a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29f8d10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943fba0
+.word 0xf9136ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf91367a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1392]
+.word 0x910ce3a1
+.word 0xb9800000
+.word 0xb9033ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95367a1
+.word 0xf9536ba3
+.word 0x910ce3a0
+.word 0x91004040
+.word 0xb9833ba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29faf10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94407a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf91363a0
+.word 0xf9402fb1
+.word 0xd29fb910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95363a2
+.word 0xf943fba1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29fc910
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94403a0
+.word 0xf9135fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1448]
+.word 0xf9400000
+.word 0xf9135ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910cc3a1
+.word 0xb9800000
+.word 0xb90333a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9535ba1
+.word 0xf9535fa3
+.word 0x910cc3a0
+.word 0x91004040
+.word 0xb98333a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29feb10
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94403a0
+.word 0xf91357a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf91353a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910ca3a1
+.word 0xb9800000
+.word 0xb9032ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95353a1
+.word 0xf95357a3
+.word 0x910ca3a0
+.word 0x91004040
+.word 0xb9832ba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2800d10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94403a0
+.word 0xf9134fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1456]
+.word 0xf9400000
+.word 0xf9134ba0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911983a0
+.word 0xd2800000
+.word 0xb90663bf
+.word 0xb90667bf
+.word 0xb9066bbf
+.word 0xb9066fbf
+.word 0xb90673bf
+.word 0xb90677bf
+.word 0xb9067bbf
+.word 0xb9067fbf
+.word 0x911983a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911983a0
+.word 0x910c23a0
+.word 0xb98663a0
+.word 0xb9030ba0
+.word 0xb98667a0
+.word 0xb9030fa0
+.word 0xb9866ba0
+.word 0xb90313a0
+.word 0xb9866fa0
+.word 0xb90317a0
+.word 0xb98673a0
+.word 0xb9031ba0
+.word 0xb98677a0
+.word 0xb9031fa0
+.word 0xb9867ba0
+.word 0xb90323a0
+.word 0xb9867fa0
+.word 0xb90327a0
+.word 0xf9402fb1
+.word 0xd2805c10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9534ba1
+.word 0xf9534fa3
+.word 0x910c23a0
+.word 0x91004040
+.word 0xb9830ba4
+.word 0xb9000004
+.word 0xb9830fa4
+.word 0xb9000404
+.word 0xb98313a4
+.word 0xb9000804
+.word 0xb98317a4
+.word 0xb9000c04
+.word 0xb9831ba4
+.word 0xb9001004
+.word 0xb9831fa4
+.word 0xb9001404
+.word 0xb98323a4
+.word 0xb9001804
+.word 0xb98327a4
+.word 0xb9001c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2808010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94403a0
+.word 0xf91343a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1464]
+.word 0xf9400000
+.word 0xf9133ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1472]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf91347a0
+bl _p_103
+.word 0xf9402fb1
+.word 0xd2809510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95347a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1480]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9403850
+.word 0xd63f0200
+.word 0xf9133fa0
+.word 0xf9402fb1
+.word 0xd280a410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9533ba1
+.word 0xf9533fa2
+.word 0xf95343a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd280b010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94403a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1488]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1776]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd280c110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94403a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1504]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1512]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd280d210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94403a0
+.word 0xf912bfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf912b7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1528]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf912cba0
+bl _p_104
+.word 0xf9402fb1
+.word 0xd280e710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1536]
+.word 0xf912c3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1544]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf91337a0
+bl _p_105
+.word 0xf9402fb1
+.word 0xd280f910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95337a0
+.word 0xf90697a0
+.word 0xf94697a0
+.word 0xf91307a0
+.word 0xf94697a0
+.word 0xf91313a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1552]
+.word 0xf9130fa0
+.word 0xd2800000
+.word 0xd28000e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xd28000e1
+bl _p_15
+.word 0xf9069ba0
+.word 0xf9469ba0
+.word 0xf91333a0
+.word 0xf9469ba3
+.word 0xd2800000
+.word 0xf94403a2
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95333a0
+.word 0xf9069fa0
+.word 0xf9469fa0
+.word 0xf9132fa0
+.word 0xf9469fa3
+.word 0xd2800020
+.word 0xf94407a2
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9532fa0
+.word 0xf906a3a0
+.word 0xf946a3a0
+.word 0xf9132ba0
+.word 0xf946a3a3
+.word 0xd2800040
+.word 0xaa1803e0
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xaa1803e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9532ba0
+.word 0xf906a7a0
+.word 0xf946a7a0
+.word 0xf91327a0
+.word 0xf946a7a3
+.word 0xd2800060
+.word 0xaa1903e0
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xaa1903e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95327a0
+.word 0xf906aba0
+.word 0xf946aba0
+.word 0xf91323a0
+.word 0xf946aba3
+.word 0xd2800080
+.word 0xaa1703e0
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xaa1703e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95323a0
+.word 0xf906afa0
+.word 0xf946afa0
+.word 0xf9131fa0
+.word 0xf946afa3
+.word 0xd28000a0
+.word 0xaa1603e0
+.word 0xaa0303e0
+.word 0xd28000a1
+.word 0xaa1603e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9531fa0
+.word 0xf906b3a0
+.word 0xf946b3a0
+.word 0xf91317a0
+.word 0xf946b3a3
+.word 0xd28000c0
+.word 0xaa1503e0
+.word 0xaa0303e0
+.word 0xd28000c1
+.word 0xaa1503e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf9131ba0
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1560]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf95317a1
+.word 0xf9531ba2
+.word 0xf9130ba0
+.word 0xaa1403e3
+bl _p_106
+.word 0xf9402fb1
+.word 0xd2817910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9530ba0
+.word 0xf9530fa1
+.word 0xf95313a3
+.word 0xf906b7a0
+.word 0xf946b7a2
+.word 0xf946b7a0
+.word 0xf904b7a0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2818910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95307a0
+.word 0xf906bba0
+.word 0xf946bba0
+.word 0xf91303a0
+.word 0xf946bba3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1568]
+.word 0xf944b7a2
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2819b10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95303a0
+.word 0xf906bfa0
+.word 0xf946bfa0
+.word 0xf912dfa0
+.word 0xf946bfa0
+.word 0xf912eba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1576]
+.word 0xf912e3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf912ffa0
+bl _p_108
+.word 0xf9402fb1
+.word 0xd281b310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf952ffa0
+.word 0xf906c3a0
+.word 0xf946c3a0
+.word 0xf912fba0
+.word 0xf946c3a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1592]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1600]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd281c710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf952fba0
+.word 0xf906c7a0
+.word 0xf946c7a0
+.word 0xf912efa0
+.word 0xf946c7a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1608]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1616]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd281db10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1184]
+bl _p_49
+.word 0xf912f7a0
+.word 0xf9402fb1
+.word 0xd281e610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf952f7a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf912f3a0
+.word 0xf9402fb1
+.word 0xd281f210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf952efa1
+.word 0xf952f3a2
+.word 0xf912e7a0
+bl _p_110
+.word 0xf9402fb1
+.word 0xd2820210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf952e3a1
+.word 0xf952e7a2
+.word 0xf952eba3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2820e10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf952dfa0
+.word 0xf906cba0
+.word 0xf946cba0
+.word 0xf912c7a0
+.word 0xf946cba0
+.word 0xf912d7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf912cfa0
+.word 0xd2800780
+.word 0xd2801680
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1640]
+.word 0xd2800381
+.word 0xd2800381
+bl _p_3
+.word 0xf912dba0
+.word 0xd2800781
+.word 0xd2801682
+bl _p_111
+.word 0xf9402fb1
+.word 0xd2822a10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1648]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf952dba1
+.word 0xf912d3a0
+bl _p_112
+.word 0xf9402fb1
+.word 0xd2823910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf952cfa1
+.word 0xf952d3a2
+.word 0xf952d7a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2824510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf952c3a1
+.word 0xf952c7a2
+.word 0xf952cba3
+.word 0xaa0303e0
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1656]
+.word 0x928007f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf912bba0
+.word 0xf9402fb1
+.word 0xd2825810
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf952b7a1
+.word 0xf952bba2
+.word 0xf952bfa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2826410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf943ffa0
+.word 0xf912b3a0
+.word 0xaa1503e0
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x54050560
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xf952b3a2
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x540503a0
+.word 0xd5033bbf
+.word 0xf9001035
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1784]
+.word 0xf9001420
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1792]
+.word 0xf9002020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1800]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901c03f
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_113
+.word 0xf9402fb1
+.word 0xd2829c10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94403a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_100
+.word 0xf912afa0
+.word 0xf9402fb1
+.word 0xd282a710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf952afa2
+.word 0xf943ffa1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1400]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd282b810
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94407a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf912aba0
+.word 0xf9402fb1
+.word 0xd282c310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf952aba2
+.word 0xf94403a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd282d410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_101
+.word 0xf912a7a0
+.word 0xf9402fb1
+.word 0xd282df10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf952a7a2
+.word 0xf94407a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd282f010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94417a0
+.word 0xf912a3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1424]
+.word 0xf9400000
+.word 0xf9129fa0
+.word 0xd2800020
+.word 0xd2800020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1432]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9529fa1
+.word 0xf952a3a3
+.word 0xd280003e
+.word 0xb900105e
+.word 0xaa0203e0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2830e10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9440ba0
+.word 0xf91297a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1344]
+.word 0xf9400000
+.word 0xf9128fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1352]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf9129ba0
+bl _p_98
+.word 0xf9402fb1
+.word 0xd2832310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9529ba2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1808]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_99
+.word 0xf91293a0
+.word 0xf9402fb1
+.word 0xd2833110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9528fa1
+.word 0xf95293a2
+.word 0xf95297a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2833d10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9440ba0
+.word 0xf91287a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf91283a0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd128ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95283a1
+.word 0xf95287a3
+.word 0xfd528ba0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2835c10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9440ba0
+.word 0xf9127ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf91277a0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd127fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95277a1
+.word 0xf9527ba3
+.word 0xfd527fa0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2837b10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9440ba0
+.word 0xf91273a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf9126fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1392]
+.word 0x910c03a1
+.word 0xb9800000
+.word 0xb90303a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9526fa1
+.word 0xf95273a3
+.word 0x910c03a0
+.word 0x91004040
+.word 0xb98303a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2839e10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94417a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf9126ba0
+.word 0xf9402fb1
+.word 0xd283a910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9526ba2
+.word 0xf9440ba1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd283ba10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94413a0
+.word 0xf91267a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1448]
+.word 0xf9400000
+.word 0xf91263a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910be3a1
+.word 0xb9800000
+.word 0xb902fba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95263a1
+.word 0xf95267a3
+.word 0x910be3a0
+.word 0x91004040
+.word 0xb982fba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd283dd10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94413a0
+.word 0xf9125fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf9125ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910bc3a1
+.word 0xb9800000
+.word 0xb902f3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9525ba1
+.word 0xf9525fa3
+.word 0x910bc3a0
+.word 0x91004040
+.word 0xb982f3a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2840010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94413a0
+.word 0xf91257a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1456]
+.word 0xf9400000
+.word 0xf91253a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911903a0
+.word 0xd2800000
+.word 0xb90643bf
+.word 0xb90647bf
+.word 0xb9064bbf
+.word 0xb9064fbf
+.word 0xb90653bf
+.word 0xb90657bf
+.word 0xb9065bbf
+.word 0xb9065fbf
+.word 0x911903a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911903a0
+.word 0x910b43a0
+.word 0xb98643a0
+.word 0xb902d3a0
+.word 0xb98647a0
+.word 0xb902d7a0
+.word 0xb9864ba0
+.word 0xb902dba0
+.word 0xb9864fa0
+.word 0xb902dfa0
+.word 0xb98653a0
+.word 0xb902e3a0
+.word 0xb98657a0
+.word 0xb902e7a0
+.word 0xb9865ba0
+.word 0xb902eba0
+.word 0xb9865fa0
+.word 0xb902efa0
+.word 0xf9402fb1
+.word 0xd2844f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95253a1
+.word 0xf95257a3
+.word 0x910b43a0
+.word 0x91004040
+.word 0xb982d3a4
+.word 0xb9000004
+.word 0xb982d7a4
+.word 0xb9000404
+.word 0xb982dba4
+.word 0xb9000804
+.word 0xb982dfa4
+.word 0xb9000c04
+.word 0xb982e3a4
+.word 0xb9001004
+.word 0xb982e7a4
+.word 0xb9001404
+.word 0xb982eba4
+.word 0xb9001804
+.word 0xb982efa4
+.word 0xb9001c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2847310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94413a0
+.word 0xf9124ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1464]
+.word 0xf9400000
+.word 0xf91243a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1472]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf9124fa0
+bl _p_103
+.word 0xf9402fb1
+.word 0xd2848810
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9524fa2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1480]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9403850
+.word 0xd63f0200
+.word 0xf91247a0
+.word 0xf9402fb1
+.word 0xd2849710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95243a1
+.word 0xf95247a2
+.word 0xf9524ba3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd284a310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94413a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1488]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1816]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd284b410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94413a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1504]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1512]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd284c510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94413a0
+.word 0xf911c7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf911bfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1528]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf911d3a0
+bl _p_104
+.word 0xf9402fb1
+.word 0xd284da10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1536]
+.word 0xf911cba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1544]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf9123fa0
+bl _p_105
+.word 0xf9402fb1
+.word 0xd284ec10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9523fa0
+.word 0xf906cfa0
+.word 0xf946cfa0
+.word 0xf9120fa0
+.word 0xf946cfa0
+.word 0xf9121ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1552]
+.word 0xf91217a0
+.word 0xd2800000
+.word 0xd28000e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xd28000e1
+bl _p_15
+.word 0xf906d3a0
+.word 0xf946d3a0
+.word 0xf9123ba0
+.word 0xf946d3a3
+.word 0xd2800000
+.word 0xf94413a2
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9523ba0
+.word 0xf906d7a0
+.word 0xf946d7a0
+.word 0xf91237a0
+.word 0xf946d7a3
+.word 0xd2800020
+.word 0xf94417a2
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95237a0
+.word 0xf906dba0
+.word 0xf946dba0
+.word 0xf91233a0
+.word 0xf946dba3
+.word 0xd2800040
+.word 0xaa1803e0
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xaa1803e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95233a0
+.word 0xf906dfa0
+.word 0xf946dfa0
+.word 0xf9122fa0
+.word 0xf946dfa3
+.word 0xd2800060
+.word 0xaa1903e0
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xaa1903e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9522fa0
+.word 0xf906e3a0
+.word 0xf946e3a0
+.word 0xf9122ba0
+.word 0xf946e3a3
+.word 0xd2800080
+.word 0xaa1703e0
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xaa1703e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9522ba0
+.word 0xf906e7a0
+.word 0xf946e7a0
+.word 0xf91227a0
+.word 0xf946e7a3
+.word 0xd28000a0
+.word 0xaa1603e0
+.word 0xaa0303e0
+.word 0xd28000a1
+.word 0xaa1603e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95227a0
+.word 0xf906eba0
+.word 0xf946eba0
+.word 0xf9121fa0
+.word 0xf946eba3
+.word 0xd28000c0
+.word 0xaa1503e0
+.word 0xaa0303e0
+.word 0xd28000c1
+.word 0xaa1503e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf91223a0
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1560]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf9521fa1
+.word 0xf95223a2
+.word 0xf91213a0
+.word 0xaa1403e3
+bl _p_106
+.word 0xf9402fb1
+.word 0xd2856c10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95213a0
+.word 0xf95217a1
+.word 0xf9521ba3
+.word 0xf906efa0
+.word 0xf946efa2
+.word 0xf946efa0
+.word 0xf904bba0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2857c10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9520fa0
+.word 0xf906f3a0
+.word 0xf946f3a0
+.word 0xf9120ba0
+.word 0xf946f3a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1568]
+.word 0xf944bba2
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2858e10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9520ba0
+.word 0xf906f7a0
+.word 0xf946f7a0
+.word 0xf911e7a0
+.word 0xf946f7a0
+.word 0xf911f3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1576]
+.word 0xf911eba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf91207a0
+bl _p_108
+.word 0xf9402fb1
+.word 0xd285a610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95207a0
+.word 0xf906fba0
+.word 0xf946fba0
+.word 0xf91203a0
+.word 0xf946fba3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1592]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1600]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd285ba10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95203a0
+.word 0xf906ffa0
+.word 0xf946ffa0
+.word 0xf911f7a0
+.word 0xf946ffa3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1608]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1616]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd285ce10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1184]
+bl _p_49
+.word 0xf911ffa0
+.word 0xf9402fb1
+.word 0xd285d910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf951ffa1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf911fba0
+.word 0xf9402fb1
+.word 0xd285e510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf951f7a1
+.word 0xf951fba2
+.word 0xf911efa0
+bl _p_110
+.word 0xf9402fb1
+.word 0xd285f510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf951eba1
+.word 0xf951efa2
+.word 0xf951f3a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2860110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf951e7a0
+.word 0xf90703a0
+.word 0xf94703a0
+.word 0xf911cfa0
+.word 0xf94703a0
+.word 0xf911dfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf911d7a0
+.word 0xd28008c0
+.word 0xd28016c0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1640]
+.word 0xd2800381
+.word 0xd2800381
+bl _p_3
+.word 0xf911e3a0
+.word 0xd28008c1
+.word 0xd28016c2
+bl _p_111
+.word 0xf9402fb1
+.word 0xd2861d10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1648]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf951e3a1
+.word 0xf911dba0
+bl _p_112
+.word 0xf9402fb1
+.word 0xd2862c10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf951d7a1
+.word 0xf951dba2
+.word 0xf951dfa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2863810
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf951cba1
+.word 0xf951cfa2
+.word 0xf951d3a3
+.word 0xaa0303e0
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1656]
+.word 0x928007f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf911c3a0
+.word 0xf9402fb1
+.word 0xd2864b10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf951bfa1
+.word 0xf951c3a2
+.word 0xf951c7a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2865710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9440fa0
+.word 0xf911bba0
+.word 0xaa1503e0
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x54048700
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xf951bba2
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x54048540
+.word 0xd5033bbf
+.word 0xf9001035
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1824]
+.word 0xf9001420
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1832]
+.word 0xf9002020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1840]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901c03f
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_113
+.word 0xf9402fb1
+.word 0xd2868f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94413a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_100
+.word 0xf911b7a0
+.word 0xf9402fb1
+.word 0xd2869a10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf951b7a2
+.word 0xf9440fa1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1400]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd286ab10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94417a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf911b3a0
+.word 0xf9402fb1
+.word 0xd286b610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf951b3a2
+.word 0xf94413a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd286c710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_101
+.word 0xf911afa0
+.word 0xf9402fb1
+.word 0xd286d210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf951afa2
+.word 0xf94417a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd286e310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94427a0
+.word 0xf911aba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1424]
+.word 0xf9400000
+.word 0xf911a7a0
+.word 0xd2800020
+.word 0xd2800020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1432]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf951a7a1
+.word 0xf951aba3
+.word 0xd280003e
+.word 0xb900105e
+.word 0xaa0203e0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2870110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9441ba0
+.word 0xf9119fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1344]
+.word 0xf9400000
+.word 0xf91197a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1352]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf911a3a0
+bl _p_98
+.word 0xf9402fb1
+.word 0xd2871610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf951a3a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1848]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_99
+.word 0xf9119ba0
+.word 0xf9402fb1
+.word 0xd2872410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95197a1
+.word 0xf9519ba2
+.word 0xf9519fa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2873010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9441ba0
+.word 0xf9118fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf9118ba0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd1193a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9518ba1
+.word 0xf9518fa3
+.word 0xfd5193a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2874f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9441ba0
+.word 0xf91183a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf9117fa0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd1187a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9517fa1
+.word 0xf95183a3
+.word 0xfd5187a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2876e10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9441ba0
+.word 0xf9117ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf91177a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1392]
+.word 0x910b23a1
+.word 0xb9800000
+.word 0xb902cba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95177a1
+.word 0xf9517ba3
+.word 0x910b23a0
+.word 0x91004040
+.word 0xb982cba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2879110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94427a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf91173a0
+.word 0xf9402fb1
+.word 0xd2879c10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95173a2
+.word 0xf9441ba1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd287ad10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94423a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1488]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1856]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd287be10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94423a0
+.word 0xf9116fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1448]
+.word 0xf9400000
+.word 0xf9116ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910b03a1
+.word 0xb9800000
+.word 0xb902c3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9516ba1
+.word 0xf9516fa3
+.word 0x910b03a0
+.word 0x91004040
+.word 0xb982c3a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd287e110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94423a0
+.word 0xf91167a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf91163a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910ae3a1
+.word 0xb9800000
+.word 0xb902bba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95163a1
+.word 0xf95167a3
+.word 0x910ae3a0
+.word 0x91004040
+.word 0xb982bba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2880410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94423a0
+.word 0xf9115fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1456]
+.word 0xf9400000
+.word 0xf9115ba0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911883a0
+.word 0xd2800000
+.word 0xb90623bf
+.word 0xb90627bf
+.word 0xb9062bbf
+.word 0xb9062fbf
+.word 0xb90633bf
+.word 0xb90637bf
+.word 0xb9063bbf
+.word 0xb9063fbf
+.word 0x911883a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911883a0
+.word 0x910a63a0
+.word 0xb98623a0
+.word 0xb9029ba0
+.word 0xb98627a0
+.word 0xb9029fa0
+.word 0xb9862ba0
+.word 0xb902a3a0
+.word 0xb9862fa0
+.word 0xb902a7a0
+.word 0xb98633a0
+.word 0xb902aba0
+.word 0xb98637a0
+.word 0xb902afa0
+.word 0xb9863ba0
+.word 0xb902b3a0
+.word 0xb9863fa0
+.word 0xb902b7a0
+.word 0xf9402fb1
+.word 0xd2885310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9515ba1
+.word 0xf9515fa3
+.word 0x910a63a0
+.word 0x91004040
+.word 0xb9829ba4
+.word 0xb9000004
+.word 0xb9829fa4
+.word 0xb9000404
+.word 0xb982a3a4
+.word 0xb9000804
+.word 0xb982a7a4
+.word 0xb9000c04
+.word 0xb982aba4
+.word 0xb9001004
+.word 0xb982afa4
+.word 0xb9001404
+.word 0xb982b3a4
+.word 0xb9001804
+.word 0xb982b7a4
+.word 0xb9001c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2887710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94423a0
+.word 0xf91153a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1464]
+.word 0xf9400000
+.word 0xf9114ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1472]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf91157a0
+bl _p_103
+.word 0xf9402fb1
+.word 0xd2888c10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95157a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1480]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9403850
+.word 0xd63f0200
+.word 0xf9114fa0
+.word 0xf9402fb1
+.word 0xd2889b10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9514ba1
+.word 0xf9514fa2
+.word 0xf95153a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd288a710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94423a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1504]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1512]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd288b810
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94423a0
+.word 0xf910cfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf910c7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1528]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf910dba0
+bl _p_104
+.word 0xf9402fb1
+.word 0xd288cd10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1536]
+.word 0xf910d3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1544]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf91147a0
+bl _p_105
+.word 0xf9402fb1
+.word 0xd288df10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95147a0
+.word 0xf90707a0
+.word 0xf94707a0
+.word 0xf91117a0
+.word 0xf94707a0
+.word 0xf91123a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1552]
+.word 0xf9111fa0
+.word 0xd2800000
+.word 0xd28000e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xd28000e1
+bl _p_15
+.word 0xf9070ba0
+.word 0xf9470ba0
+.word 0xf91143a0
+.word 0xf9470ba3
+.word 0xd2800000
+.word 0xf94423a2
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95143a0
+.word 0xf9070fa0
+.word 0xf9470fa0
+.word 0xf9113fa0
+.word 0xf9470fa3
+.word 0xd2800020
+.word 0xf94427a2
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9513fa0
+.word 0xf90713a0
+.word 0xf94713a0
+.word 0xf9113ba0
+.word 0xf94713a3
+.word 0xd2800040
+.word 0xaa1803e0
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xaa1803e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9513ba0
+.word 0xf90717a0
+.word 0xf94717a0
+.word 0xf91137a0
+.word 0xf94717a3
+.word 0xd2800060
+.word 0xaa1903e0
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xaa1903e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95137a0
+.word 0xf9071ba0
+.word 0xf9471ba0
+.word 0xf91133a0
+.word 0xf9471ba3
+.word 0xd2800080
+.word 0xaa1703e0
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xaa1703e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95133a0
+.word 0xf9071fa0
+.word 0xf9471fa0
+.word 0xf9112fa0
+.word 0xf9471fa3
+.word 0xd28000a0
+.word 0xaa1603e0
+.word 0xaa0303e0
+.word 0xd28000a1
+.word 0xaa1603e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9512fa0
+.word 0xf90723a0
+.word 0xf94723a0
+.word 0xf91127a0
+.word 0xf94723a3
+.word 0xd28000c0
+.word 0xaa1503e0
+.word 0xaa0303e0
+.word 0xd28000c1
+.word 0xaa1503e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf9112ba0
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1560]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf95127a1
+.word 0xf9512ba2
+.word 0xf9111ba0
+.word 0xaa1403e3
+bl _p_106
+.word 0xf9402fb1
+.word 0xd2895f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9511ba0
+.word 0xf9511fa1
+.word 0xf95123a3
+.word 0xf90727a0
+.word 0xf94727a2
+.word 0xf94727a0
+.word 0xf904bfa0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2896f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95117a0
+.word 0xf9072ba0
+.word 0xf9472ba0
+.word 0xf91113a0
+.word 0xf9472ba3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1568]
+.word 0xf944bfa2
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2898110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95113a0
+.word 0xf9072fa0
+.word 0xf9472fa0
+.word 0xf910efa0
+.word 0xf9472fa0
+.word 0xf910fba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1576]
+.word 0xf910f3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf9110fa0
+bl _p_108
+.word 0xf9402fb1
+.word 0xd2899910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9510fa0
+.word 0xf90733a0
+.word 0xf94733a0
+.word 0xf9110ba0
+.word 0xf94733a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1592]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1600]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd289ad10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9510ba0
+.word 0xf90737a0
+.word 0xf94737a0
+.word 0xf910ffa0
+.word 0xf94737a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1608]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1616]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd289c110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1184]
+bl _p_49
+.word 0xf91107a0
+.word 0xf9402fb1
+.word 0xd289cc10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95107a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf91103a0
+.word 0xf9402fb1
+.word 0xd289d810
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf950ffa1
+.word 0xf95103a2
+.word 0xf910f7a0
+bl _p_110
+.word 0xf9402fb1
+.word 0xd289e810
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf950f3a1
+.word 0xf950f7a2
+.word 0xf950fba3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd289f410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf950efa0
+.word 0xf9073ba0
+.word 0xf9473ba0
+.word 0xf910d7a0
+.word 0xf9473ba0
+.word 0xf910e7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf910dfa0
+.word 0xd2800a00
+.word 0xd28017a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1640]
+.word 0xd2800381
+.word 0xd2800381
+bl _p_3
+.word 0xf910eba0
+.word 0xd2800a01
+.word 0xd28017a2
+bl _p_111
+.word 0xf9402fb1
+.word 0xd28a1010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1648]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf950eba1
+.word 0xf910e3a0
+bl _p_112
+.word 0xf9402fb1
+.word 0xd28a1f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf950dfa1
+.word 0xf950e3a2
+.word 0xf950e7a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd28a2b10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf950d3a1
+.word 0xf950d7a2
+.word 0xf950dba3
+.word 0xaa0303e0
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1656]
+.word 0x928007f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf910cba0
+.word 0xf9402fb1
+.word 0xd28a3e10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf950c7a1
+.word 0xf950cba2
+.word 0xf950cfa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28a4a10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9441fa0
+.word 0xf910c3a0
+.word 0xaa1503e0
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x540408a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xf950c3a2
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x540406e0
+.word 0xd5033bbf
+.word 0xf9001035
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1864]
+.word 0xf9001420
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1872]
+.word 0xf9002020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1880]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901c03f
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_113
+.word 0xf9402fb1
+.word 0xd28a8210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94423a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_100
+.word 0xf910bfa0
+.word 0xf9402fb1
+.word 0xd28a8d10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf950bfa2
+.word 0xf9441fa1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1400]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd28a9e10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94427a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf910bba0
+.word 0xf9402fb1
+.word 0xd28aa910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf950bba2
+.word 0xf94423a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd28aba10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_101
+.word 0xf910b7a0
+.word 0xf9402fb1
+.word 0xd28ac510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf950b7a2
+.word 0xf94427a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd28ad610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94437a0
+.word 0xf910b3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1424]
+.word 0xf9400000
+.word 0xf910afa0
+.word 0xd2800020
+.word 0xd2800020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1432]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf950afa1
+.word 0xf950b3a3
+.word 0xd280003e
+.word 0xb900105e
+.word 0xaa0203e0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28af410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9442ba0
+.word 0xf910a7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1344]
+.word 0xf9400000
+.word 0xf9109fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1352]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf910aba0
+bl _p_98
+.word 0xf9402fb1
+.word 0xd28b0910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf950aba2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1888]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_99
+.word 0xf910a3a0
+.word 0xf9402fb1
+.word 0xd28b1710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9509fa1
+.word 0xf950a3a2
+.word 0xf950a7a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28b2310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9442ba0
+.word 0xf91097a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf91093a0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd109ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95093a1
+.word 0xf95097a3
+.word 0xfd509ba0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28b4210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9442ba0
+.word 0xf9108ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf91087a0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd108fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95087a1
+.word 0xf9508ba3
+.word 0xfd508fa0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28b6110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9442ba0
+.word 0xf91083a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf9107fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1392]
+.word 0x910a43a1
+.word 0xb9800000
+.word 0xb90293a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9507fa1
+.word 0xf95083a3
+.word 0x910a43a0
+.word 0x91004040
+.word 0xb98293a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28b8410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94437a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf9107ba0
+.word 0xf9402fb1
+.word 0xd28b8f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9507ba2
+.word 0xf9442ba1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd28ba010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94433a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1488]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1896]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28bb110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94433a0
+.word 0xf91077a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1448]
+.word 0xf9400000
+.word 0xf91073a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910a23a1
+.word 0xb9800000
+.word 0xb9028ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95073a1
+.word 0xf95077a3
+.word 0x910a23a0
+.word 0x91004040
+.word 0xb9828ba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28bd410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94433a0
+.word 0xf9106fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf9106ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910a03a1
+.word 0xb9800000
+.word 0xb90283a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf9506ba1
+.word 0xf9506fa3
+.word 0x910a03a0
+.word 0x91004040
+.word 0xb98283a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28bf710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94433a0
+.word 0xf91067a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1456]
+.word 0xf9400000
+.word 0xf91063a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911803a0
+.word 0xd2800000
+.word 0xb90603bf
+.word 0xb90607bf
+.word 0xb9060bbf
+.word 0xb9060fbf
+.word 0xb90613bf
+.word 0xb90617bf
+.word 0xb9061bbf
+.word 0xb9061fbf
+.word 0x911803a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911803a0
+.word 0x910983a0
+.word 0xb98603a0
+.word 0xb90263a0
+.word 0xb98607a0
+.word 0xb90267a0
+.word 0xb9860ba0
+.word 0xb9026ba0
+.word 0xb9860fa0
+.word 0xb9026fa0
+.word 0xb98613a0
+.word 0xb90273a0
+.word 0xb98617a0
+.word 0xb90277a0
+.word 0xb9861ba0
+.word 0xb9027ba0
+.word 0xb9861fa0
+.word 0xb9027fa0
+.word 0xf9402fb1
+.word 0xd28c4610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf95063a1
+.word 0xf95067a3
+.word 0x910983a0
+.word 0x91004040
+.word 0xb98263a4
+.word 0xb9000004
+.word 0xb98267a4
+.word 0xb9000404
+.word 0xb9826ba4
+.word 0xb9000804
+.word 0xb9826fa4
+.word 0xb9000c04
+.word 0xb98273a4
+.word 0xb9001004
+.word 0xb98277a4
+.word 0xb9001404
+.word 0xb9827ba4
+.word 0xb9001804
+.word 0xb9827fa4
+.word 0xb9001c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28c6a10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94433a0
+.word 0xf9105ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1464]
+.word 0xf9400000
+.word 0xf91053a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1472]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf9105fa0
+bl _p_103
+.word 0xf9402fb1
+.word 0xd28c7f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9505fa2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1480]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9403850
+.word 0xd63f0200
+.word 0xf91057a0
+.word 0xf9402fb1
+.word 0xd28c8e10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95053a1
+.word 0xf95057a2
+.word 0xf9505ba3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28c9a10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94433a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1504]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1512]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28cab10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94433a0
+.word 0xf90fd7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf90fcfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1528]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90fe3a0
+bl _p_104
+.word 0xf9402fb1
+.word 0xd28cc010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1536]
+.word 0xf90fdba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1544]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf9104fa0
+bl _p_105
+.word 0xf9402fb1
+.word 0xd28cd210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9504fa0
+.word 0xf9073fa0
+.word 0xf9473fa0
+.word 0xf9101fa0
+.word 0xf9473fa0
+.word 0xf9102ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1552]
+.word 0xf91027a0
+.word 0xd2800000
+.word 0xd28000e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xd28000e1
+bl _p_15
+.word 0xf90743a0
+.word 0xf94743a0
+.word 0xf9104ba0
+.word 0xf94743a3
+.word 0xd2800000
+.word 0xf94433a2
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9504ba0
+.word 0xf90747a0
+.word 0xf94747a0
+.word 0xf91047a0
+.word 0xf94747a3
+.word 0xd2800020
+.word 0xf94437a2
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95047a0
+.word 0xf9074ba0
+.word 0xf9474ba0
+.word 0xf91043a0
+.word 0xf9474ba3
+.word 0xd2800040
+.word 0xaa1803e0
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xaa1803e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95043a0
+.word 0xf9074fa0
+.word 0xf9474fa0
+.word 0xf9103fa0
+.word 0xf9474fa3
+.word 0xd2800060
+.word 0xaa1903e0
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xaa1903e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9503fa0
+.word 0xf90753a0
+.word 0xf94753a0
+.word 0xf9103ba0
+.word 0xf94753a3
+.word 0xd2800080
+.word 0xaa1703e0
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xaa1703e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9503ba0
+.word 0xf90757a0
+.word 0xf94757a0
+.word 0xf91037a0
+.word 0xf94757a3
+.word 0xd28000a0
+.word 0xaa1603e0
+.word 0xaa0303e0
+.word 0xd28000a1
+.word 0xaa1603e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf95037a0
+.word 0xf9075ba0
+.word 0xf9475ba0
+.word 0xf9102fa0
+.word 0xf9475ba3
+.word 0xd28000c0
+.word 0xaa1503e0
+.word 0xaa0303e0
+.word 0xd28000c1
+.word 0xaa1503e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf91033a0
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1560]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf9502fa1
+.word 0xf95033a2
+.word 0xf91023a0
+.word 0xaa1403e3
+bl _p_106
+.word 0xf9402fb1
+.word 0xd28d5210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95023a0
+.word 0xf95027a1
+.word 0xf9502ba3
+.word 0xf9075fa0
+.word 0xf9475fa2
+.word 0xf9475fa0
+.word 0xf904c3a0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd28d6210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9501fa0
+.word 0xf90763a0
+.word 0xf94763a0
+.word 0xf9101ba0
+.word 0xf94763a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1568]
+.word 0xf944c3a2
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd28d7410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9501ba0
+.word 0xf90767a0
+.word 0xf94767a0
+.word 0xf90ff7a0
+.word 0xf94767a0
+.word 0xf91003a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1576]
+.word 0xf90ffba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf91017a0
+bl _p_108
+.word 0xf9402fb1
+.word 0xd28d8c10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95017a0
+.word 0xf9076ba0
+.word 0xf9476ba0
+.word 0xf91013a0
+.word 0xf9476ba3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1592]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1600]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd28da010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf95013a0
+.word 0xf9076fa0
+.word 0xf9476fa0
+.word 0xf91007a0
+.word 0xf9476fa3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1608]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1616]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd28db410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1184]
+bl _p_49
+.word 0xf9100fa0
+.word 0xf9402fb1
+.word 0xd28dbf10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9500fa1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf9100ba0
+.word 0xf9402fb1
+.word 0xd28dcb10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf95007a1
+.word 0xf9500ba2
+.word 0xf90fffa0
+bl _p_110
+.word 0xf9402fb1
+.word 0xd28ddb10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ffba1
+.word 0xf94fffa2
+.word 0xf95003a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd28de710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ff7a0
+.word 0xf90773a0
+.word 0xf94773a0
+.word 0xf90fdfa0
+.word 0xf94773a0
+.word 0xf90fefa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf90fe7a0
+.word 0xd2800b20
+.word 0xd28016c0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1640]
+.word 0xd2800381
+.word 0xd2800381
+bl _p_3
+.word 0xf90ff3a0
+.word 0xd2800b21
+.word 0xd28016c2
+bl _p_111
+.word 0xf9402fb1
+.word 0xd28e0310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1648]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf94ff3a1
+.word 0xf90feba0
+bl _p_112
+.word 0xf9402fb1
+.word 0xd28e1210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94fe7a1
+.word 0xf94feba2
+.word 0xf94fefa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd28e1e10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94fdba1
+.word 0xf94fdfa2
+.word 0xf94fe3a3
+.word 0xaa0303e0
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1656]
+.word 0x928007f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf90fd3a0
+.word 0xf9402fb1
+.word 0xd28e3110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94fcfa1
+.word 0xf94fd3a2
+.word 0xf94fd7a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28e3d10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9442fa0
+.word 0xf90fcba0
+.word 0xaa1503e0
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x54038a40
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xf94fcba2
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x54038880
+.word 0xd5033bbf
+.word 0xf9001035
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1904]
+.word 0xf9001420
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1912]
+.word 0xf9002020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1920]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901c03f
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_113
+.word 0xf9402fb1
+.word 0xd28e7510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94433a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_100
+.word 0xf90fc7a0
+.word 0xf9402fb1
+.word 0xd28e8010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94fc7a2
+.word 0xf9442fa1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1400]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd28e9110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94437a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf90fc3a0
+.word 0xf9402fb1
+.word 0xd28e9c10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94fc3a2
+.word 0xf94433a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd28ead10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_101
+.word 0xf90fbfa0
+.word 0xf9402fb1
+.word 0xd28eb810
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94fbfa2
+.word 0xf94437a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd28ec910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94447a0
+.word 0xf90fbba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1424]
+.word 0xf9400000
+.word 0xf90fb7a0
+.word 0xd2800020
+.word 0xd2800020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1432]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94fb7a1
+.word 0xf94fbba3
+.word 0xd280003e
+.word 0xb900105e
+.word 0xaa0203e0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28ee710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9443ba0
+.word 0xf90fafa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1344]
+.word 0xf9400000
+.word 0xf90fa7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1352]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90fb3a0
+bl _p_98
+.word 0xf9402fb1
+.word 0xd28efc10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94fb3a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1688]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_99
+.word 0xf90faba0
+.word 0xf9402fb1
+.word 0xd28f0a10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94fa7a1
+.word 0xf94faba2
+.word 0xf94fafa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28f1610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9443ba0
+.word 0xf90f9fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf90f9ba0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd0fa3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94f9ba1
+.word 0xf94f9fa3
+.word 0xfd4fa3a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28f3510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9443ba0
+.word 0xf90f93a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf90f8fa0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd0f97a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94f8fa1
+.word 0xf94f93a3
+.word 0xfd4f97a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28f5410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9443ba0
+.word 0xf90f8ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf90f87a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1392]
+.word 0x910963a1
+.word 0xb9800000
+.word 0xb9025ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94f87a1
+.word 0xf94f8ba3
+.word 0x910963a0
+.word 0x91004040
+.word 0xb9825ba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28f7710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94447a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf90f83a0
+.word 0xf9402fb1
+.word 0xd28f8210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94f83a2
+.word 0xf9443ba1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd28f9310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94443a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1488]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1928]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28fa410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94443a0
+.word 0xf90f7fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1448]
+.word 0xf9400000
+.word 0xf90f7ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910943a1
+.word 0xb9800000
+.word 0xb90253a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94f7ba1
+.word 0xf94f7fa3
+.word 0x910943a0
+.word 0x91004040
+.word 0xb98253a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28fc710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94443a0
+.word 0xf90f77a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf90f73a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910923a1
+.word 0xb9800000
+.word 0xb9024ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94f73a1
+.word 0xf94f77a3
+.word 0x910923a0
+.word 0x91004040
+.word 0xb9824ba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28fea10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94443a0
+.word 0xf90f6fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1456]
+.word 0xf9400000
+.word 0xf90f6ba0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911783a0
+.word 0xd2800000
+.word 0xb905e3bf
+.word 0xb905e7bf
+.word 0xb905ebbf
+.word 0xb905efbf
+.word 0xb905f3bf
+.word 0xb905f7bf
+.word 0xb905fbbf
+.word 0xb905ffbf
+.word 0x911783a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911783a0
+.word 0x9108a3a0
+.word 0xb985e3a0
+.word 0xb9022ba0
+.word 0xb985e7a0
+.word 0xb9022fa0
+.word 0xb985eba0
+.word 0xb90233a0
+.word 0xb985efa0
+.word 0xb90237a0
+.word 0xb985f3a0
+.word 0xb9023ba0
+.word 0xb985f7a0
+.word 0xb9023fa0
+.word 0xb985fba0
+.word 0xb90243a0
+.word 0xb985ffa0
+.word 0xb90247a0
+.word 0xf9402fb1
+.word 0xd2903910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94f6ba1
+.word 0xf94f6fa3
+.word 0x9108a3a0
+.word 0x91004040
+.word 0xb9822ba4
+.word 0xb9000004
+.word 0xb9822fa4
+.word 0xb9000404
+.word 0xb98233a4
+.word 0xb9000804
+.word 0xb98237a4
+.word 0xb9000c04
+.word 0xb9823ba4
+.word 0xb9001004
+.word 0xb9823fa4
+.word 0xb9001404
+.word 0xb98243a4
+.word 0xb9001804
+.word 0xb98247a4
+.word 0xb9001c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2905d10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94443a0
+.word 0xf90f63a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1464]
+.word 0xf9400000
+.word 0xf90f5ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1472]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90f67a0
+bl _p_103
+.word 0xf9402fb1
+.word 0xd2907210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94f67a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1480]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9403850
+.word 0xd63f0200
+.word 0xf90f5fa0
+.word 0xf9402fb1
+.word 0xd2908110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94f5ba1
+.word 0xf94f5fa2
+.word 0xf94f63a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2908d10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94443a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1504]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1512]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2909e10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94443a0
+.word 0xf90edfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf90ed7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1528]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90eeba0
+bl _p_104
+.word 0xf9402fb1
+.word 0xd290b310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1536]
+.word 0xf90ee3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1544]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf90f57a0
+bl _p_105
+.word 0xf9402fb1
+.word 0xd290c510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94f57a0
+.word 0xf90777a0
+.word 0xf94777a0
+.word 0xf90f27a0
+.word 0xf94777a0
+.word 0xf90f33a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1552]
+.word 0xf90f2fa0
+.word 0xd2800000
+.word 0xd28000e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xd28000e1
+bl _p_15
+.word 0xf9077ba0
+.word 0xf9477ba0
+.word 0xf90f53a0
+.word 0xf9477ba3
+.word 0xd2800000
+.word 0xf94443a2
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94f53a0
+.word 0xf9077fa0
+.word 0xf9477fa0
+.word 0xf90f4fa0
+.word 0xf9477fa3
+.word 0xd2800020
+.word 0xf94447a2
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94f4fa0
+.word 0xf90783a0
+.word 0xf94783a0
+.word 0xf90f4ba0
+.word 0xf94783a3
+.word 0xd2800040
+.word 0xaa1803e0
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xaa1803e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94f4ba0
+.word 0xf90787a0
+.word 0xf94787a0
+.word 0xf90f47a0
+.word 0xf94787a3
+.word 0xd2800060
+.word 0xaa1903e0
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xaa1903e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94f47a0
+.word 0xf9078ba0
+.word 0xf9478ba0
+.word 0xf90f43a0
+.word 0xf9478ba3
+.word 0xd2800080
+.word 0xaa1703e0
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xaa1703e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94f43a0
+.word 0xf9078fa0
+.word 0xf9478fa0
+.word 0xf90f3fa0
+.word 0xf9478fa3
+.word 0xd28000a0
+.word 0xaa1603e0
+.word 0xaa0303e0
+.word 0xd28000a1
+.word 0xaa1603e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94f3fa0
+.word 0xf90793a0
+.word 0xf94793a0
+.word 0xf90f37a0
+.word 0xf94793a3
+.word 0xd28000c0
+.word 0xaa1503e0
+.word 0xaa0303e0
+.word 0xd28000c1
+.word 0xaa1503e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf90f3ba0
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1560]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf94f37a1
+.word 0xf94f3ba2
+.word 0xf90f2ba0
+.word 0xaa1403e3
+bl _p_106
+.word 0xf9402fb1
+.word 0xd2914510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94f2ba0
+.word 0xf94f2fa1
+.word 0xf94f33a3
+.word 0xf90797a0
+.word 0xf94797a2
+.word 0xf94797a0
+.word 0xf904c7a0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2915510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94f27a0
+.word 0xf9079ba0
+.word 0xf9479ba0
+.word 0xf90f23a0
+.word 0xf9479ba3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1568]
+.word 0xf944c7a2
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2916710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94f23a0
+.word 0xf9079fa0
+.word 0xf9479fa0
+.word 0xf90effa0
+.word 0xf9479fa0
+.word 0xf90f0ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1576]
+.word 0xf90f03a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf90f1fa0
+bl _p_108
+.word 0xf9402fb1
+.word 0xd2917f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94f1fa0
+.word 0xf907a3a0
+.word 0xf947a3a0
+.word 0xf90f1ba0
+.word 0xf947a3a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1592]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1600]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd2919310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94f1ba0
+.word 0xf907a7a0
+.word 0xf947a7a0
+.word 0xf90f0fa0
+.word 0xf947a7a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1608]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1616]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd291a710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1184]
+bl _p_49
+.word 0xf90f17a0
+.word 0xf9402fb1
+.word 0xd291b210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94f17a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf90f13a0
+.word 0xf9402fb1
+.word 0xd291be10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf94f0fa1
+.word 0xf94f13a2
+.word 0xf90f07a0
+bl _p_110
+.word 0xf9402fb1
+.word 0xd291ce10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94f03a1
+.word 0xf94f07a2
+.word 0xf94f0ba3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd291da10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94effa0
+.word 0xf907aba0
+.word 0xf947aba0
+.word 0xf90ee7a0
+.word 0xf947aba0
+.word 0xf90ef7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf90eefa0
+.word 0xd2800c40
+.word 0xd28017c0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1640]
+.word 0xd2800381
+.word 0xd2800381
+bl _p_3
+.word 0xf90efba0
+.word 0xd2800c41
+.word 0xd28017c2
+bl _p_111
+.word 0xf9402fb1
+.word 0xd291f610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1648]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf94efba1
+.word 0xf90ef3a0
+bl _p_112
+.word 0xf9402fb1
+.word 0xd2920510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94eefa1
+.word 0xf94ef3a2
+.word 0xf94ef7a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2921110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ee3a1
+.word 0xf94ee7a2
+.word 0xf94eeba3
+.word 0xaa0303e0
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1656]
+.word 0x928007f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf90edba0
+.word 0xf9402fb1
+.word 0xd2922410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ed7a1
+.word 0xf94edba2
+.word 0xf94edfa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2923010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9443fa0
+.word 0xf90ed3a0
+.word 0xaa1503e0
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x54030be0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xf94ed3a2
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x54030a20
+.word 0xd5033bbf
+.word 0xf9001035
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1936]
+.word 0xf9001420
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1944]
+.word 0xf9002020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1952]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901c03f
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_113
+.word 0xf9402fb1
+.word 0xd2926810
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94443a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_100
+.word 0xf90ecfa0
+.word 0xf9402fb1
+.word 0xd2927310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ecfa2
+.word 0xf9443fa1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1400]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2928410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94447a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf90ecba0
+.word 0xf9402fb1
+.word 0xd2928f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ecba2
+.word 0xf94443a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd292a010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_101
+.word 0xf90ec7a0
+.word 0xf9402fb1
+.word 0xd292ab10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ec7a2
+.word 0xf94447a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd292bc10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9444ba0
+.word 0xf90ec3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1280]
+.word 0xf9400000
+.word 0xf90ebfa0
+.word 0x9e6703e0
+.word 0x9e6703e0
+.word 0x9e6703e0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911703a0
+.word 0xd2800000
+.word 0xb905c3bf
+.word 0xb905c7bf
+.word 0xb905cbbf
+.word 0xb905cfbf
+.word 0xb905d3bf
+.word 0xb905d7bf
+.word 0xb905dbbf
+.word 0xb905dfbf
+.word 0x911703a0
+.word 0x9e6703e0
+.word 0x9e6703e1
+.word 0x9e6703e2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911703a0
+.word 0x910823a0
+.word 0xb985c3a0
+.word 0xb9020ba0
+.word 0xb985c7a0
+.word 0xb9020fa0
+.word 0xb985cba0
+.word 0xb90213a0
+.word 0xb985cfa0
+.word 0xb90217a0
+.word 0xb985d3a0
+.word 0xb9021ba0
+.word 0xb985d7a0
+.word 0xb9021fa0
+.word 0xb985dba0
+.word 0xb90223a0
+.word 0xb985dfa0
+.word 0xb90227a0
+.word 0xf9402fb1
+.word 0xd292f310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94ebfa1
+.word 0xf94ec3a3
+.word 0x910823a0
+.word 0x91004040
+.word 0xb9820ba4
+.word 0xb9000004
+.word 0xb9820fa4
+.word 0xb9000404
+.word 0xb98213a4
+.word 0xb9000804
+.word 0xb98217a4
+.word 0xb9000c04
+.word 0xb9821ba4
+.word 0xb9001004
+.word 0xb9821fa4
+.word 0xb9001404
+.word 0xb98223a4
+.word 0xb9001804
+.word 0xb98227a4
+.word 0xb9001c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2931710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9444ba0
+.word 0xf90eb7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf90eb3a0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0xfd0ebba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94eb3a1
+.word 0xf94eb7a3
+.word 0xfd4ebba0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2933610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_101
+.word 0xf90eafa0
+.word 0xf9402fb1
+.word 0xd2934110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94eafa2
+.word 0xf9444ba1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2935210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9445ba0
+.word 0xf90eaba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1424]
+.word 0xf9400000
+.word 0xf90ea7a0
+.word 0xd2800020
+.word 0xd2800020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1432]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94ea7a1
+.word 0xf94eaba3
+.word 0xd280003e
+.word 0xb900105e
+.word 0xaa0203e0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2937010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9444fa0
+.word 0xf90e9fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1344]
+.word 0xf9400000
+.word 0xf90e97a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1352]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90ea3a0
+bl _p_98
+.word 0xf9402fb1
+.word 0xd2938510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ea3a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1960]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_99
+.word 0xf90e9ba0
+.word 0xf9402fb1
+.word 0xd2939310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94e97a1
+.word 0xf94e9ba2
+.word 0xf94e9fa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2939f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9444fa0
+.word 0xf90e8fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf90e8ba0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd0e93a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94e8ba1
+.word 0xf94e8fa3
+.word 0xfd4e93a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd293be10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9444fa0
+.word 0xf90e83a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf90e7fa0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd0e87a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94e7fa1
+.word 0xf94e83a3
+.word 0xfd4e87a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd293dd10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9444fa0
+.word 0xf90e7ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf90e77a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1392]
+.word 0x910803a1
+.word 0xb9800000
+.word 0xb90203a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94e77a1
+.word 0xf94e7ba3
+.word 0x910803a0
+.word 0x91004040
+.word 0xb98203a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2940010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9445ba1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf90e73a0
+.word 0xf9402fb1
+.word 0xd2940b10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94e73a2
+.word 0xf9444fa1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2941c10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94457a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1488]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1968]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2942d10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94457a0
+.word 0xf90e6fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1448]
+.word 0xf9400000
+.word 0xf90e6ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x9107e3a1
+.word 0xb9800000
+.word 0xb901fba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94e6ba1
+.word 0xf94e6fa3
+.word 0x9107e3a0
+.word 0x91004040
+.word 0xb981fba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2945010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94457a0
+.word 0xf90e67a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf90e63a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x9107c3a1
+.word 0xb9800000
+.word 0xb901f3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94e63a1
+.word 0xf94e67a3
+.word 0x9107c3a0
+.word 0x91004040
+.word 0xb981f3a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2947310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94457a0
+.word 0xf90e5fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1456]
+.word 0xf9400000
+.word 0xf90e5ba0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911683a0
+.word 0xd2800000
+.word 0xb905a3bf
+.word 0xb905a7bf
+.word 0xb905abbf
+.word 0xb905afbf
+.word 0xb905b3bf
+.word 0xb905b7bf
+.word 0xb905bbbf
+.word 0xb905bfbf
+.word 0x911683a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911683a0
+.word 0x910743a0
+.word 0xb985a3a0
+.word 0xb901d3a0
+.word 0xb985a7a0
+.word 0xb901d7a0
+.word 0xb985aba0
+.word 0xb901dba0
+.word 0xb985afa0
+.word 0xb901dfa0
+.word 0xb985b3a0
+.word 0xb901e3a0
+.word 0xb985b7a0
+.word 0xb901e7a0
+.word 0xb985bba0
+.word 0xb901eba0
+.word 0xb985bfa0
+.word 0xb901efa0
+.word 0xf9402fb1
+.word 0xd294c210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94e5ba1
+.word 0xf94e5fa3
+.word 0x910743a0
+.word 0x91004040
+.word 0xb981d3a4
+.word 0xb9000004
+.word 0xb981d7a4
+.word 0xb9000404
+.word 0xb981dba4
+.word 0xb9000804
+.word 0xb981dfa4
+.word 0xb9000c04
+.word 0xb981e3a4
+.word 0xb9001004
+.word 0xb981e7a4
+.word 0xb9001404
+.word 0xb981eba4
+.word 0xb9001804
+.word 0xb981efa4
+.word 0xb9001c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd294e610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94457a0
+.word 0xf90e53a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1464]
+.word 0xf9400000
+.word 0xf90e4ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1472]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90e57a0
+bl _p_103
+.word 0xf9402fb1
+.word 0xd294fb10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94e57a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1480]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9403850
+.word 0xd63f0200
+.word 0xf90e4fa0
+.word 0xf9402fb1
+.word 0xd2950a10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94e4ba1
+.word 0xf94e4fa2
+.word 0xf94e53a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2951610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94457a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1504]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1512]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2952710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94457a0
+.word 0xf90dcfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf90dc7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1528]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90ddba0
+bl _p_104
+.word 0xf9402fb1
+.word 0xd2953c10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1536]
+.word 0xf90dd3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1544]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf90e47a0
+bl _p_105
+.word 0xf9402fb1
+.word 0xd2954e10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94e47a0
+.word 0xf907afa0
+.word 0xf947afa0
+.word 0xf90e17a0
+.word 0xf947afa0
+.word 0xf90e23a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1552]
+.word 0xf90e1fa0
+.word 0xd2800000
+.word 0xd28000e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xd28000e1
+bl _p_15
+.word 0xf907b3a0
+.word 0xf947b3a0
+.word 0xf90e43a0
+.word 0xf947b3a3
+.word 0xd2800000
+.word 0xf94457a2
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94e43a0
+.word 0xf907b7a0
+.word 0xf947b7a0
+.word 0xf90e3fa0
+.word 0xf947b7a3
+.word 0xd2800020
+.word 0xf9445ba2
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94e3fa0
+.word 0xf907bba0
+.word 0xf947bba0
+.word 0xf90e3ba0
+.word 0xf947bba3
+.word 0xd2800040
+.word 0xaa1803e0
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xaa1803e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94e3ba0
+.word 0xf907bfa0
+.word 0xf947bfa0
+.word 0xf90e37a0
+.word 0xf947bfa3
+.word 0xd2800060
+.word 0xaa1903e0
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xaa1903e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94e37a0
+.word 0xf907c3a0
+.word 0xf947c3a0
+.word 0xf90e33a0
+.word 0xf947c3a3
+.word 0xd2800080
+.word 0xaa1703e0
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xaa1703e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94e33a0
+.word 0xf907c7a0
+.word 0xf947c7a0
+.word 0xf90e2fa0
+.word 0xf947c7a3
+.word 0xd28000a0
+.word 0xaa1603e0
+.word 0xaa0303e0
+.word 0xd28000a1
+.word 0xaa1603e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94e2fa0
+.word 0xf907cba0
+.word 0xf947cba0
+.word 0xf90e27a0
+.word 0xf947cba3
+.word 0xd28000c0
+.word 0xaa1503e0
+.word 0xaa0303e0
+.word 0xd28000c1
+.word 0xaa1503e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf90e2ba0
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1560]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf94e27a1
+.word 0xf94e2ba2
+.word 0xf90e1ba0
+.word 0xaa1403e3
+bl _p_106
+.word 0xf9402fb1
+.word 0xd295ce10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94e1ba0
+.word 0xf94e1fa1
+.word 0xf94e23a3
+.word 0xf907cfa0
+.word 0xf947cfa2
+.word 0xf947cfa0
+.word 0xf904cba0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd295de10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94e17a0
+.word 0xf907d3a0
+.word 0xf947d3a0
+.word 0xf90e13a0
+.word 0xf947d3a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1568]
+.word 0xf944cba2
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd295f010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94e13a0
+.word 0xf907d7a0
+.word 0xf947d7a0
+.word 0xf90defa0
+.word 0xf947d7a0
+.word 0xf90dfba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1576]
+.word 0xf90df3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf90e0fa0
+bl _p_108
+.word 0xf9402fb1
+.word 0xd2960810
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94e0fa0
+.word 0xf907dba0
+.word 0xf947dba0
+.word 0xf90e0ba0
+.word 0xf947dba3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1592]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1600]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd2961c10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94e0ba0
+.word 0xf907dfa0
+.word 0xf947dfa0
+.word 0xf90dffa0
+.word 0xf947dfa3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1608]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1616]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd2963010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1184]
+bl _p_49
+.word 0xf90e07a0
+.word 0xf9402fb1
+.word 0xd2963b10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94e07a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf90e03a0
+.word 0xf9402fb1
+.word 0xd2964710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf94dffa1
+.word 0xf94e03a2
+.word 0xf90df7a0
+bl _p_110
+.word 0xf9402fb1
+.word 0xd2965710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94df3a1
+.word 0xf94df7a2
+.word 0xf94dfba3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2966310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94defa0
+.word 0xf907e3a0
+.word 0xf947e3a0
+.word 0xf90dd7a0
+.word 0xf947e3a0
+.word 0xf90de7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf90ddfa0
+.word 0xd2800d60
+.word 0xd28016c0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1640]
+.word 0xd2800381
+.word 0xd2800381
+bl _p_3
+.word 0xf90deba0
+.word 0xd2800d61
+.word 0xd28016c2
+bl _p_111
+.word 0xf9402fb1
+.word 0xd2967f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1648]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf94deba1
+.word 0xf90de3a0
+bl _p_112
+.word 0xf9402fb1
+.word 0xd2968e10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ddfa1
+.word 0xf94de3a2
+.word 0xf94de7a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2969a10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94dd3a1
+.word 0xf94dd7a2
+.word 0xf94ddba3
+.word 0xaa0303e0
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1656]
+.word 0x928007f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf90dcba0
+.word 0xf9402fb1
+.word 0xd296ad10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94dc7a1
+.word 0xf94dcba2
+.word 0xf94dcfa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd296b910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94453a0
+.word 0xf90dc3a0
+.word 0xaa1503e0
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x54027ac0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xf94dc3a2
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x54027900
+.word 0xd5033bbf
+.word 0xf9001035
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1976]
+.word 0xf9001420
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1984]
+.word 0xf9002020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1992]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901c03f
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_113
+.word 0xf9402fb1
+.word 0xd296f110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94457a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_100
+.word 0xf90dbfa0
+.word 0xf9402fb1
+.word 0xd296fc10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94dbfa2
+.word 0xf94453a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1400]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2970d10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9445ba1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf90dbba0
+.word 0xf9402fb1
+.word 0xd2971810
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94dbba2
+.word 0xf94457a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2972910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_101
+.word 0xf90db7a0
+.word 0xf9402fb1
+.word 0xd2973410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94db7a2
+.word 0xf9445ba1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2974510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9446ba0
+.word 0xf90db3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1424]
+.word 0xf9400000
+.word 0xf90dafa0
+.word 0xd2800020
+.word 0xd2800020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1432]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94dafa1
+.word 0xf94db3a3
+.word 0xd280003e
+.word 0xb900105e
+.word 0xaa0203e0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2976310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9445fa0
+.word 0xf90da7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1344]
+.word 0xf9400000
+.word 0xf90d9fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1352]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90daba0
+bl _p_98
+.word 0xf9402fb1
+.word 0xd2977810
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94daba2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2000]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_99
+.word 0xf90da3a0
+.word 0xf9402fb1
+.word 0xd2978610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94d9fa1
+.word 0xf94da3a2
+.word 0xf94da7a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2979210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9445fa0
+.word 0xf90d97a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf90d93a0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd0d9ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94d93a1
+.word 0xf94d97a3
+.word 0xfd4d9ba0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd297b110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9445fa0
+.word 0xf90d8ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf90d87a0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd0d8fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94d87a1
+.word 0xf94d8ba3
+.word 0xfd4d8fa0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd297d010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9445fa0
+.word 0xf90d83a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf90d7fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1392]
+.word 0x910723a1
+.word 0xb9800000
+.word 0xb901cba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94d7fa1
+.word 0xf94d83a3
+.word 0x910723a0
+.word 0x91004040
+.word 0xb981cba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd297f310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9446ba1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf90d7ba0
+.word 0xf9402fb1
+.word 0xd297fe10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94d7ba2
+.word 0xf9445fa1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2980f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94467a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1488]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #2008]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2982010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94467a0
+.word 0xf90d77a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1448]
+.word 0xf9400000
+.word 0xf90d73a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910703a1
+.word 0xb9800000
+.word 0xb901c3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94d73a1
+.word 0xf94d77a3
+.word 0x910703a0
+.word 0x91004040
+.word 0xb981c3a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2984310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94467a0
+.word 0xf90d6fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf90d6ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x9106e3a1
+.word 0xb9800000
+.word 0xb901bba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94d6ba1
+.word 0xf94d6fa3
+.word 0x9106e3a0
+.word 0x91004040
+.word 0xb981bba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2986610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94467a0
+.word 0xf90d67a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1456]
+.word 0xf9400000
+.word 0xf90d63a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911603a0
+.word 0xd2800000
+.word 0xb90583bf
+.word 0xb90587bf
+.word 0xb9058bbf
+.word 0xb9058fbf
+.word 0xb90593bf
+.word 0xb90597bf
+.word 0xb9059bbf
+.word 0xb9059fbf
+.word 0x911603a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911603a0
+.word 0x910663a0
+.word 0xb98583a0
+.word 0xb9019ba0
+.word 0xb98587a0
+.word 0xb9019fa0
+.word 0xb9858ba0
+.word 0xb901a3a0
+.word 0xb9858fa0
+.word 0xb901a7a0
+.word 0xb98593a0
+.word 0xb901aba0
+.word 0xb98597a0
+.word 0xb901afa0
+.word 0xb9859ba0
+.word 0xb901b3a0
+.word 0xb9859fa0
+.word 0xb901b7a0
+.word 0xf9402fb1
+.word 0xd298b510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94d63a1
+.word 0xf94d67a3
+.word 0x910663a0
+.word 0x91004040
+.word 0xb9819ba4
+.word 0xb9000004
+.word 0xb9819fa4
+.word 0xb9000404
+.word 0xb981a3a4
+.word 0xb9000804
+.word 0xb981a7a4
+.word 0xb9000c04
+.word 0xb981aba4
+.word 0xb9001004
+.word 0xb981afa4
+.word 0xb9001404
+.word 0xb981b3a4
+.word 0xb9001804
+.word 0xb981b7a4
+.word 0xb9001c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd298d910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94467a0
+.word 0xf90d5ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1464]
+.word 0xf9400000
+.word 0xf90d53a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1472]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90d5fa0
+bl _p_103
+.word 0xf9402fb1
+.word 0xd298ee10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94d5fa2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1480]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9403850
+.word 0xd63f0200
+.word 0xf90d57a0
+.word 0xf9402fb1
+.word 0xd298fd10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94d53a1
+.word 0xf94d57a2
+.word 0xf94d5ba3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2990910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94467a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1504]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1512]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2991a10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94467a0
+.word 0xf90cb7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf90cafa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1528]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90cc3a0
+bl _p_104
+.word 0xf9402fb1
+.word 0xd2992f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1536]
+.word 0xf90cbba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1544]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf90d4fa0
+bl _p_105
+.word 0xf9402fb1
+.word 0xd2994110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94d4fa0
+.word 0xf907e7a0
+.word 0xf947e7a0
+.word 0xf90cffa0
+.word 0xf947e7a0
+.word 0xf90d0ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1552]
+.word 0xf90d07a0
+.word 0xd2800000
+.word 0xd28000e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xd28000e1
+bl _p_15
+.word 0xf907eba0
+.word 0xf947eba0
+.word 0xf90d4ba0
+.word 0xf947eba3
+.word 0xd2800000
+.word 0xf94467a2
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94d4ba0
+.word 0xf907efa0
+.word 0xf947efa0
+.word 0xf90d47a0
+.word 0xf947efa3
+.word 0xd2800020
+.word 0xf9446ba2
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94d47a0
+.word 0xf907f3a0
+.word 0xf947f3a0
+.word 0xf90d43a0
+.word 0xf947f3a3
+.word 0xd2800040
+.word 0xaa1803e0
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xaa1803e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94d43a0
+.word 0xf907f7a0
+.word 0xf947f7a0
+.word 0xf90d3fa0
+.word 0xf947f7a3
+.word 0xd2800060
+.word 0xaa1903e0
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xaa1903e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94d3fa0
+.word 0xf907fba0
+.word 0xf947fba0
+.word 0xf90d3ba0
+.word 0xf947fba3
+.word 0xd2800080
+.word 0xaa1703e0
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xaa1703e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94d3ba0
+.word 0xf907ffa0
+.word 0xf947ffa0
+.word 0xf90d37a0
+.word 0xf947ffa3
+.word 0xd28000a0
+.word 0xaa1603e0
+.word 0xaa0303e0
+.word 0xd28000a1
+.word 0xaa1603e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94d37a0
+.word 0xf90803a0
+.word 0xf94803a0
+.word 0xf90d0fa0
+.word 0xf94803a3
+.word 0xd28000c0
+.word 0xaa1503e0
+.word 0xaa0303e0
+.word 0xd28000c1
+.word 0xaa1503e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf90d33a0
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1560]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf94d0fa1
+.word 0xf94d33a2
+.word 0xf90d03a0
+.word 0xaa1403e3
+bl _p_106
+.word 0xf9402fb1
+.word 0xd299c110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94d03a0
+.word 0xf94d07a1
+.word 0xf94d0ba3
+.word 0xf90807a0
+.word 0xf94807a2
+.word 0xf94807a0
+.word 0xf904cfa0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd299d110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cffa0
+.word 0xf9080ba0
+.word 0xf9480ba0
+.word 0xf90cfba0
+.word 0xf9480ba3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1568]
+.word 0xf944cfa2
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd299e310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cfba0
+.word 0xf9080fa0
+.word 0xf9480fa0
+.word 0xf90cd7a0
+.word 0xf9480fa0
+.word 0xf90ce3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1576]
+.word 0xf90cdba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf90cf7a0
+bl _p_108
+.word 0xf9402fb1
+.word 0xd299fb10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cf7a0
+.word 0xf90813a0
+.word 0xf94813a0
+.word 0xf90cf3a0
+.word 0xf94813a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1592]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1600]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd29a0f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cf3a0
+.word 0xf90817a0
+.word 0xf94817a0
+.word 0xf90ce7a0
+.word 0xf94817a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1608]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1616]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd29a2310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1184]
+bl _p_49
+.word 0xf90cefa0
+.word 0xf9402fb1
+.word 0xd29a2e10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cefa1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf90ceba0
+.word 0xf9402fb1
+.word 0xd29a3a10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf94ce7a1
+.word 0xf94ceba2
+.word 0xf90cdfa0
+bl _p_110
+.word 0xf9402fb1
+.word 0xd29a4a10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cdba1
+.word 0xf94cdfa2
+.word 0xf94ce3a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd29a5610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cd7a0
+.word 0xf9081ba0
+.word 0xf9481ba0
+.word 0xf90cbfa0
+.word 0xf9481ba0
+.word 0xf90ccfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf90cc7a0
+.word 0xd2800e60
+.word 0xd28016e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1640]
+.word 0xd2800381
+.word 0xd2800381
+bl _p_3
+.word 0xf90cd3a0
+.word 0xd2800e61
+.word 0xd28016e2
+bl _p_111
+.word 0xf9402fb1
+.word 0xd29a7210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1648]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf94cd3a1
+.word 0xf90ccba0
+bl _p_112
+.word 0xf9402fb1
+.word 0xd29a8110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cc7a1
+.word 0xf94ccba2
+.word 0xf94ccfa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd29a8d10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cbba1
+.word 0xf94cbfa2
+.word 0xf94cc3a3
+.word 0xaa0303e0
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1656]
+.word 0x928007f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf90cb3a0
+.word 0xf9402fb1
+.word 0xd29aa010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94cafa1
+.word 0xf94cb3a2
+.word 0xf94cb7a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29aac10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94463a0
+.word 0xf90caba0
+.word 0xaa1503e0
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x5401fc60
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xf94caba2
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x5401faa0
+.word 0xd5033bbf
+.word 0xf9001035
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1976]
+.word 0xf9001420
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1984]
+.word 0xf9002020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1992]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901c03f
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_113
+.word 0xf9402fb1
+.word 0xd29ae410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94467a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_100
+.word 0xf90ca7a0
+.word 0xf9402fb1
+.word 0xd29aef10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ca7a2
+.word 0xf94463a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1400]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29b0010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9446ba1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf90ca3a0
+.word 0xf9402fb1
+.word 0xd29b0b10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ca3a2
+.word 0xf94467a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29b1c10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_101
+.word 0xf90c9fa0
+.word 0xf9402fb1
+.word 0xd29b2710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c9fa2
+.word 0xf9446ba1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29b3810
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9447ba0
+.word 0xf90c9ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1424]
+.word 0xf9400000
+.word 0xf90c97a0
+.word 0xd2800020
+.word 0xd2800020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1432]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94c97a1
+.word 0xf94c9ba3
+.word 0xd280003e
+.word 0xb900105e
+.word 0xaa0203e0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29b5610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9446fa0
+.word 0xf90c8fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1344]
+.word 0xf9400000
+.word 0xf90c87a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1352]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90c93a0
+bl _p_98
+.word 0xf9402fb1
+.word 0xd29b6b10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c93a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2016]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_99
+.word 0xf90c8ba0
+.word 0xf9402fb1
+.word 0xd29b7910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c87a1
+.word 0xf94c8ba2
+.word 0xf94c8fa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29b8510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9446fa0
+.word 0xf90c7fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf90c7ba0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd0d2fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94c7ba1
+.word 0xf94c7fa3
+.word 0xfd4d2fa0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29ba410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9446fa0
+.word 0xf90c73a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf90c6fa0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd0d2ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94c6fa1
+.word 0xf94c73a3
+.word 0xfd4d2ba0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29bc310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9446fa0
+.word 0xf90c6ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf90c67a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1392]
+.word 0x910643a1
+.word 0xb9800000
+.word 0xb90193a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94c67a1
+.word 0xf94c6ba3
+.word 0x910643a0
+.word 0x91004040
+.word 0xb98193a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29be610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9447ba1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf90c63a0
+.word 0xf9402fb1
+.word 0xd29bf110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c63a2
+.word 0xf9446fa1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29c0210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94477a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1488]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #2024]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29c1310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94477a0
+.word 0xf90c5fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1448]
+.word 0xf9400000
+.word 0xf90c5ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910623a1
+.word 0xb9800000
+.word 0xb9018ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94c5ba1
+.word 0xf94c5fa3
+.word 0x910623a0
+.word 0x91004040
+.word 0xb9818ba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29c3610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94477a0
+.word 0xf90c57a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf90c53a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910603a1
+.word 0xb9800000
+.word 0xb90183a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94c53a1
+.word 0xf94c57a3
+.word 0x910603a0
+.word 0x91004040
+.word 0xb98183a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29c5910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94477a0
+.word 0xf90c4fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1456]
+.word 0xf9400000
+.word 0xf90c4ba0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911583a0
+.word 0xd2800000
+.word 0xb90563bf
+.word 0xb90567bf
+.word 0xb9056bbf
+.word 0xb9056fbf
+.word 0xb90573bf
+.word 0xb90577bf
+.word 0xb9057bbf
+.word 0xb9057fbf
+.word 0x911583a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911583a0
+.word 0x910583a0
+.word 0xb98563a0
+.word 0xb90163a0
+.word 0xb98567a0
+.word 0xb90167a0
+.word 0xb9856ba0
+.word 0xb9016ba0
+.word 0xb9856fa0
+.word 0xb9016fa0
+.word 0xb98573a0
+.word 0xb90173a0
+.word 0xb98577a0
+.word 0xb90177a0
+.word 0xb9857ba0
+.word 0xb9017ba0
+.word 0xb9857fa0
+.word 0xb9017fa0
+.word 0xf9402fb1
+.word 0xd29ca810
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94c4ba1
+.word 0xf94c4fa3
+.word 0x910583a0
+.word 0x91004040
+.word 0xb98163a4
+.word 0xb9000004
+.word 0xb98167a4
+.word 0xb9000404
+.word 0xb9816ba4
+.word 0xb9000804
+.word 0xb9816fa4
+.word 0xb9000c04
+.word 0xb98173a4
+.word 0xb9001004
+.word 0xb98177a4
+.word 0xb9001404
+.word 0xb9817ba4
+.word 0xb9001804
+.word 0xb9817fa4
+.word 0xb9001c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29ccc10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94477a0
+.word 0xf90c43a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1464]
+.word 0xf9400000
+.word 0xf90c3ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1472]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90c47a0
+bl _p_103
+.word 0xf9402fb1
+.word 0xd29ce110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c47a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1480]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9403850
+.word 0xd63f0200
+.word 0xf90c3fa0
+.word 0xf9402fb1
+.word 0xd29cf010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c3ba1
+.word 0xf94c3fa2
+.word 0xf94c43a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29cfc10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94477a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1504]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1512]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29d0d10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94477a0
+.word 0xf90bbfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf90bb7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1528]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90bcba0
+bl _p_104
+.word 0xf9402fb1
+.word 0xd29d2210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1536]
+.word 0xf90bc3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1544]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf90c37a0
+bl _p_105
+.word 0xf9402fb1
+.word 0xd29d3410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c37a0
+.word 0xf9081fa0
+.word 0xf9481fa0
+.word 0xf90c07a0
+.word 0xf9481fa0
+.word 0xf90c13a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1552]
+.word 0xf90c0fa0
+.word 0xd2800000
+.word 0xd28000e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xd28000e1
+bl _p_15
+.word 0xf90823a0
+.word 0xf94823a0
+.word 0xf90c33a0
+.word 0xf94823a3
+.word 0xd2800000
+.word 0xf94477a2
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94c33a0
+.word 0xf90827a0
+.word 0xf94827a0
+.word 0xf90c2fa0
+.word 0xf94827a3
+.word 0xd2800020
+.word 0xf9447ba2
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94c2fa0
+.word 0xf9082ba0
+.word 0xf9482ba0
+.word 0xf90c2ba0
+.word 0xf9482ba3
+.word 0xd2800040
+.word 0xaa1803e0
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xaa1803e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94c2ba0
+.word 0xf9082fa0
+.word 0xf9482fa0
+.word 0xf90c27a0
+.word 0xf9482fa3
+.word 0xd2800060
+.word 0xaa1903e0
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xaa1903e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94c27a0
+.word 0xf90833a0
+.word 0xf94833a0
+.word 0xf90c23a0
+.word 0xf94833a3
+.word 0xd2800080
+.word 0xaa1703e0
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xaa1703e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94c23a0
+.word 0xf90837a0
+.word 0xf94837a0
+.word 0xf90c1fa0
+.word 0xf94837a3
+.word 0xd28000a0
+.word 0xaa1603e0
+.word 0xaa0303e0
+.word 0xd28000a1
+.word 0xaa1603e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94c1fa0
+.word 0xf9083ba0
+.word 0xf9483ba0
+.word 0xf90c17a0
+.word 0xf9483ba3
+.word 0xd28000c0
+.word 0xaa1503e0
+.word 0xaa0303e0
+.word 0xd28000c1
+.word 0xaa1503e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf90c1ba0
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1560]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf94c17a1
+.word 0xf94c1ba2
+.word 0xf90c0ba0
+.word 0xaa1403e3
+bl _p_106
+.word 0xf9402fb1
+.word 0xd29db410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c0ba0
+.word 0xf94c0fa1
+.word 0xf94c13a3
+.word 0xf9083fa0
+.word 0xf9483fa2
+.word 0xf9483fa0
+.word 0xf904d3a0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd29dc410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c07a0
+.word 0xf90843a0
+.word 0xf94843a0
+.word 0xf90c03a0
+.word 0xf94843a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1568]
+.word 0xf944d3a2
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd29dd610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94c03a0
+.word 0xf90847a0
+.word 0xf94847a0
+.word 0xf90bdfa0
+.word 0xf94847a0
+.word 0xf90beba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1576]
+.word 0xf90be3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf90bffa0
+bl _p_108
+.word 0xf9402fb1
+.word 0xd29dee10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bffa0
+.word 0xf9084ba0
+.word 0xf9484ba0
+.word 0xf90bfba0
+.word 0xf9484ba3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1592]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1600]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd29e0210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bfba0
+.word 0xf9084fa0
+.word 0xf9484fa0
+.word 0xf90befa0
+.word 0xf9484fa3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1608]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1616]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd29e1610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1184]
+bl _p_49
+.word 0xf90bf7a0
+.word 0xf9402fb1
+.word 0xd29e2110
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bf7a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf90bf3a0
+.word 0xf9402fb1
+.word 0xd29e2d10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf94befa1
+.word 0xf94bf3a2
+.word 0xf90be7a0
+bl _p_110
+.word 0xf9402fb1
+.word 0xd29e3d10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94be3a1
+.word 0xf94be7a2
+.word 0xf94beba3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd29e4910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bdfa0
+.word 0xf90853a0
+.word 0xf94853a0
+.word 0xf90bc7a0
+.word 0xf94853a0
+.word 0xf90bd7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf90bcfa0
+.word 0xd2800f60
+.word 0xd28016a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1640]
+.word 0xd2800381
+.word 0xd2800381
+bl _p_3
+.word 0xf90bdba0
+.word 0xd2800f61
+.word 0xd28016a2
+bl _p_111
+.word 0xf9402fb1
+.word 0xd29e6510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1648]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf94bdba1
+.word 0xf90bd3a0
+bl _p_112
+.word 0xf9402fb1
+.word 0xd29e7410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bcfa1
+.word 0xf94bd3a2
+.word 0xf94bd7a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd29e8010
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bc3a1
+.word 0xf94bc7a2
+.word 0xf94bcba3
+.word 0xaa0303e0
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1656]
+.word 0x928007f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf90bbba0
+.word 0xf9402fb1
+.word 0xd29e9310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bb7a1
+.word 0xf94bbba2
+.word 0xf94bbfa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29e9f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94473a0
+.word 0xf90bb3a0
+.word 0xaa1503e0
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x54017e00
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xf94bb3a2
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x54017c40
+.word 0xd5033bbf
+.word 0xf9001035
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1976]
+.word 0xf9001420
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1984]
+.word 0xf9002020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1992]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901c03f
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_113
+.word 0xf9402fb1
+.word 0xd29ed710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94477a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_100
+.word 0xf90bafa0
+.word 0xf9402fb1
+.word 0xd29ee210
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94bafa2
+.word 0xf94473a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1400]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29ef310
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9447ba1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf90baba0
+.word 0xf9402fb1
+.word 0xd29efe10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94baba2
+.word 0xf94477a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29f0f10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_101
+.word 0xf90ba7a0
+.word 0xf9402fb1
+.word 0xd29f1a10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ba7a2
+.word 0xf9447ba1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29f2b10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9448ba0
+.word 0xf90ba3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1424]
+.word 0xf9400000
+.word 0xf90b9fa0
+.word 0xd2800020
+.word 0xd2800020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1432]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94b9fa1
+.word 0xf94ba3a3
+.word 0xd280003e
+.word 0xb900105e
+.word 0xaa0203e0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29f4910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9447fa0
+.word 0xf90b97a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1344]
+.word 0xf9400000
+.word 0xf90b8fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1352]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90b9ba0
+bl _p_98
+.word 0xf9402fb1
+.word 0xd29f5e10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b9ba2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2032]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_99
+.word 0xf90b93a0
+.word 0xf9402fb1
+.word 0xd29f6c10
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b8fa1
+.word 0xf94b93a2
+.word 0xf94b97a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29f7810
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9447fa0
+.word 0xf90b87a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf90b83a0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd0d27a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94b83a1
+.word 0xf94b87a3
+.word 0xfd4d27a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29f9710
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9447fa0
+.word 0xf90b7ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf90b77a0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd0d23a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94b77a1
+.word 0xf94b7ba3
+.word 0xfd4d23a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29fb610
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9447fa0
+.word 0xf90b73a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf90b6fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1392]
+.word 0x910563a1
+.word 0xb9800000
+.word 0xb9015ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94b6fa1
+.word 0xf94b73a3
+.word 0x910563a0
+.word 0x91004040
+.word 0xb9815ba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd29fd910
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9448ba1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf90b6ba0
+.word 0xf9402fb1
+.word 0xd29fe410
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b6ba2
+.word 0xf9447fa1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd29ff510
+.word 0xf2a00030
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94487a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1488]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #2040]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2800610
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94487a0
+.word 0xf90b67a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1448]
+.word 0xf9400000
+.word 0xf90b63a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910543a1
+.word 0xb9800000
+.word 0xb90153a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94b63a1
+.word 0xf94b67a3
+.word 0x910543a0
+.word 0x91004040
+.word 0xb98153a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2802910
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94487a0
+.word 0xf90b5fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf90b5ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1416]
+.word 0x910523a1
+.word 0xb9800000
+.word 0xb9014ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94b5ba1
+.word 0xf94b5fa3
+.word 0x910523a0
+.word 0x91004040
+.word 0xb9814ba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2804c10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94487a0
+.word 0xf90b57a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1456]
+.word 0xf9400000
+.word 0xf90b53a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911503a0
+.word 0xd2800000
+.word 0xb90543bf
+.word 0xb90547bf
+.word 0xb9054bbf
+.word 0xb9054fbf
+.word 0xb90553bf
+.word 0xb90557bf
+.word 0xb9055bbf
+.word 0xb9055fbf
+.word 0x911503a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911503a0
+.word 0x9104a3a0
+.word 0xb98543a0
+.word 0xb9012ba0
+.word 0xb98547a0
+.word 0xb9012fa0
+.word 0xb9854ba0
+.word 0xb90133a0
+.word 0xb9854fa0
+.word 0xb90137a0
+.word 0xb98553a0
+.word 0xb9013ba0
+.word 0xb98557a0
+.word 0xb9013fa0
+.word 0xb9855ba0
+.word 0xb90143a0
+.word 0xb9855fa0
+.word 0xb90147a0
+.word 0xf9402fb1
+.word 0xd2809b10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94b53a1
+.word 0xf94b57a3
+.word 0x9104a3a0
+.word 0x91004040
+.word 0xb9812ba4
+.word 0xb9000004
+.word 0xb9812fa4
+.word 0xb9000404
+.word 0xb98133a4
+.word 0xb9000804
+.word 0xb98137a4
+.word 0xb9000c04
+.word 0xb9813ba4
+.word 0xb9001004
+.word 0xb9813fa4
+.word 0xb9001404
+.word 0xb98143a4
+.word 0xb9001804
+.word 0xb98147a4
+.word 0xb9001c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd280bf10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94487a0
+.word 0xf90b4ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1464]
+.word 0xf9400000
+.word 0xf90b43a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1472]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90b4fa0
+bl _p_103
+.word 0xf9402fb1
+.word 0xd280d410
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b4fa2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1480]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9403850
+.word 0xd63f0200
+.word 0xf90b47a0
+.word 0xf9402fb1
+.word 0xd280e310
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b43a1
+.word 0xf94b47a2
+.word 0xf94b4ba3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd280ef10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94487a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1504]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1512]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2810010
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94487a0
+.word 0xf90ac7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf90abfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1528]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90ad3a0
+bl _p_104
+.word 0xf9402fb1
+.word 0xd2811510
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1536]
+.word 0xf90acba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1544]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf90b3fa0
+bl _p_105
+.word 0xf9402fb1
+.word 0xd2812710
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b3fa0
+.word 0xf90857a0
+.word 0xf94857a0
+.word 0xf90b0fa0
+.word 0xf94857a0
+.word 0xf90b1ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1552]
+.word 0xf90b17a0
+.word 0xd2800000
+.word 0xd28000e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xd28000e1
+bl _p_15
+.word 0xf9085ba0
+.word 0xf9485ba0
+.word 0xf90b3ba0
+.word 0xf9485ba3
+.word 0xd2800000
+.word 0xf94487a2
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94b3ba0
+.word 0xf9085fa0
+.word 0xf9485fa0
+.word 0xf90b37a0
+.word 0xf9485fa3
+.word 0xd2800020
+.word 0xf9448ba2
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94b37a0
+.word 0xf90863a0
+.word 0xf94863a0
+.word 0xf90b33a0
+.word 0xf94863a3
+.word 0xd2800040
+.word 0xaa1803e0
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xaa1803e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94b33a0
+.word 0xf90867a0
+.word 0xf94867a0
+.word 0xf90b2fa0
+.word 0xf94867a3
+.word 0xd2800060
+.word 0xaa1903e0
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xaa1903e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94b2fa0
+.word 0xf9086ba0
+.word 0xf9486ba0
+.word 0xf90b2ba0
+.word 0xf9486ba3
+.word 0xd2800080
+.word 0xaa1703e0
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xaa1703e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94b2ba0
+.word 0xf9086fa0
+.word 0xf9486fa0
+.word 0xf90b27a0
+.word 0xf9486fa3
+.word 0xd28000a0
+.word 0xaa1603e0
+.word 0xaa0303e0
+.word 0xd28000a1
+.word 0xaa1603e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94b27a0
+.word 0xf90873a0
+.word 0xf94873a0
+.word 0xf90b1fa0
+.word 0xf94873a3
+.word 0xd28000c0
+.word 0xaa1503e0
+.word 0xaa0303e0
+.word 0xd28000c1
+.word 0xaa1503e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf90b23a0
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1560]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf94b1fa1
+.word 0xf94b23a2
+.word 0xf90b13a0
+.word 0xaa1403e3
+bl _p_106
+.word 0xf9402fb1
+.word 0xd281a710
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b13a0
+.word 0xf94b17a1
+.word 0xf94b1ba3
+.word 0xf90877a0
+.word 0xf94877a2
+.word 0xf94877a0
+.word 0xf904d7a0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd281b710
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b0fa0
+.word 0xf9087ba0
+.word 0xf9487ba0
+.word 0xf90b0ba0
+.word 0xf9487ba3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1568]
+.word 0xf944d7a2
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd281c910
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b0ba0
+.word 0xf9087fa0
+.word 0xf9487fa0
+.word 0xf90ae7a0
+.word 0xf9487fa0
+.word 0xf90af3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1576]
+.word 0xf90aeba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf90b07a0
+bl _p_108
+.word 0xf9402fb1
+.word 0xd281e110
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b07a0
+.word 0xf90883a0
+.word 0xf94883a0
+.word 0xf90b03a0
+.word 0xf94883a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1592]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1600]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd281f510
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94b03a0
+.word 0xf90887a0
+.word 0xf94887a0
+.word 0xf90af7a0
+.word 0xf94887a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1608]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1616]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd2820910
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1184]
+bl _p_49
+.word 0xf90affa0
+.word 0xf9402fb1
+.word 0xd2821410
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94affa1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf90afba0
+.word 0xf9402fb1
+.word 0xd2822010
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf94af7a1
+.word 0xf94afba2
+.word 0xf90aefa0
+bl _p_110
+.word 0xf9402fb1
+.word 0xd2823010
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94aeba1
+.word 0xf94aefa2
+.word 0xf94af3a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2823c10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ae7a0
+.word 0xf9088ba0
+.word 0xf9488ba0
+.word 0xf90acfa0
+.word 0xf9488ba0
+.word 0xf90adfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf90ad7a0
+.word 0xd2801060
+.word 0xd28016c0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1640]
+.word 0xd2800381
+.word 0xd2800381
+bl _p_3
+.word 0xf90ae3a0
+.word 0xd2801061
+.word 0xd28016c2
+bl _p_111
+.word 0xf9402fb1
+.word 0xd2825810
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1648]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf94ae3a1
+.word 0xf90adba0
+bl _p_112
+.word 0xf9402fb1
+.word 0xd2826710
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ad7a1
+.word 0xf94adba2
+.word 0xf94adfa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2827310
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94acba1
+.word 0xf94acfa2
+.word 0xf94ad3a3
+.word 0xaa0303e0
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1656]
+.word 0x928007f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf90ac3a0
+.word 0xf9402fb1
+.word 0xd2828610
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94abfa1
+.word 0xf94ac3a2
+.word 0xf94ac7a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2829210
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94483a0
+.word 0xf90abba0
+.word 0xaa1503e0
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x5400ffa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xf94abba2
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x5400fde0
+.word 0xd5033bbf
+.word 0xf9001035
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1976]
+.word 0xf9001420
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1984]
+.word 0xf9002020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1992]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901c03f
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_113
+.word 0xf9402fb1
+.word 0xd282ca10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94487a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_100
+.word 0xf90ab7a0
+.word 0xf9402fb1
+.word 0xd282d510
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ab7a2
+.word 0xf94483a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1400]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd282e610
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9448ba1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf90ab3a0
+.word 0xf9402fb1
+.word 0xd282f110
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94ab3a2
+.word 0xf94487a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2830210
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_101
+.word 0xf90aafa0
+.word 0xf9402fb1
+.word 0xd2830d10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94aafa2
+.word 0xf9448ba1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2831e10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9448fa0
+.word 0xf90aaba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1280]
+.word 0xf9400000
+.word 0xf90aa7a0
+.word 0x9e6703e0
+.word 0x9e6703e0
+.word 0x9e6703e0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911483a0
+.word 0xd2800000
+.word 0xb90523bf
+.word 0xb90527bf
+.word 0xb9052bbf
+.word 0xb9052fbf
+.word 0xb90533bf
+.word 0xb90537bf
+.word 0xb9053bbf
+.word 0xb9053fbf
+.word 0x911483a0
+.word 0x9e6703e0
+.word 0x9e6703e1
+.word 0x9e6703e2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911483a0
+.word 0x910423a0
+.word 0xb98523a0
+.word 0xb9010ba0
+.word 0xb98527a0
+.word 0xb9010fa0
+.word 0xb9852ba0
+.word 0xb90113a0
+.word 0xb9852fa0
+.word 0xb90117a0
+.word 0xb98533a0
+.word 0xb9011ba0
+.word 0xb98537a0
+.word 0xb9011fa0
+.word 0xb9853ba0
+.word 0xb90123a0
+.word 0xb9853fa0
+.word 0xb90127a0
+.word 0xf9402fb1
+.word 0xd2835510
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94aa7a1
+.word 0xf94aaba3
+.word 0x910423a0
+.word 0x91004040
+.word 0xb9810ba4
+.word 0xb9000004
+.word 0xb9810fa4
+.word 0xb9000404
+.word 0xb98113a4
+.word 0xb9000804
+.word 0xb98117a4
+.word 0xb9000c04
+.word 0xb9811ba4
+.word 0xb9001004
+.word 0xb9811fa4
+.word 0xb9001404
+.word 0xb98123a4
+.word 0xb9001804
+.word 0xb98127a4
+.word 0xb9001c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2837910
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9448fa0
+.word 0xf90a9fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf90a9ba0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0xfd0d1fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94a9ba1
+.word 0xf94a9fa3
+.word 0xfd4d1fa0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2839810
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x3940031e
+bl _p_101
+.word 0xf90a97a0
+.word 0xf9402fb1
+.word 0xd283a310
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a97a2
+.word 0xf9448fa1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd283b410
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x3940033e
+bl _p_101
+.word 0xf90a93a0
+.word 0xf9402fb1
+.word 0xd283bf10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a93a2
+.word 0xaa1803e0
+.word 0xaa0203e0
+.word 0xaa1803e1
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd283d110
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf944a3a0
+.word 0xf90a8fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1424]
+.word 0xf9400000
+.word 0xf90a8ba0
+.word 0xd2800020
+.word 0xd2800020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1432]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94a8ba1
+.word 0xf94a8fa3
+.word 0xd280003e
+.word 0xb900105e
+.word 0xaa0203e0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd283ef10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf944a3a0
+.word 0xf90a87a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1448]
+.word 0xf9400000
+.word 0xf90a83a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #2048]
+.word 0x910403a1
+.word 0xb9800000
+.word 0xb90103a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94a83a1
+.word 0xf94a87a3
+.word 0x910403a0
+.word 0x91004040
+.word 0xb98103a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2841210
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf944a3a0
+.word 0xf90a7fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1296]
+.word 0xf9400000
+.word 0xf90a7ba0
+.word 0x9e6703e0
+.word 0x911403a0
+.word 0xd2800000
+.word 0xf90283a0
+.word 0xf90287a0
+.word 0xf9028ba0
+.word 0xf9028fa0
+.word 0x911403a0
+.word 0x9e6703e0
+bl _p_97
+.word 0x911403a0
+.word 0x910383a0
+.word 0xf94283a0
+.word 0xf90073a0
+.word 0xf94287a0
+.word 0xf90077a0
+.word 0xf9428ba0
+.word 0xf9007ba0
+.word 0xf9428fa0
+.word 0xf9007fa0
+.word 0xf9402fb1
+.word 0xd2843310
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1304]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94a7ba1
+.word 0xf94a7fa3
+.word 0x910383a0
+.word 0x91004040
+.word 0xf94073a4
+.word 0xf9000004
+.word 0xf94077a4
+.word 0xf9000404
+.word 0xf9407ba4
+.word 0xf9000804
+.word 0xf9407fa4
+.word 0xf9000c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2844f10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94493a0
+.word 0xf90a77a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1280]
+.word 0xf9400000
+.word 0xf90a73a0
+.word 0x9e6703e0
+.word 0x9e6703e0
+.word 0x9e6703e0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911383a0
+.word 0xd2800000
+.word 0xb904e3bf
+.word 0xb904e7bf
+.word 0xb904ebbf
+.word 0xb904efbf
+.word 0xb904f3bf
+.word 0xb904f7bf
+.word 0xb904fbbf
+.word 0xb904ffbf
+.word 0x911383a0
+.word 0x9e6703e0
+.word 0x9e6703e1
+.word 0x9e6703e2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911383a0
+.word 0x910303a0
+.word 0xb984e3a0
+.word 0xb900c3a0
+.word 0xb984e7a0
+.word 0xb900c7a0
+.word 0xb984eba0
+.word 0xb900cba0
+.word 0xb984efa0
+.word 0xb900cfa0
+.word 0xb984f3a0
+.word 0xb900d3a0
+.word 0xb984f7a0
+.word 0xb900d7a0
+.word 0xb984fba0
+.word 0xb900dba0
+.word 0xb984ffa0
+.word 0xb900dfa0
+.word 0xf9402fb1
+.word 0xd2848610
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94a73a1
+.word 0xf94a77a3
+.word 0x910303a0
+.word 0x91004040
+.word 0xb980c3a4
+.word 0xb9000004
+.word 0xb980c7a4
+.word 0xb9000404
+.word 0xb980cba4
+.word 0xb9000804
+.word 0xb980cfa4
+.word 0xb9000c04
+.word 0xb980d3a4
+.word 0xb9001004
+.word 0xb980d7a4
+.word 0xb9001404
+.word 0xb980dba4
+.word 0xb9001804
+.word 0xb980dfa4
+.word 0xb9001c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd284aa10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94493a0
+.word 0xf90a6ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf90a67a0
+.word 0xd280001e
+.word 0xf2e8001e
+.word 0x9e6703c0
+.word 0xfd0d1ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94a67a1
+.word 0xf94a6ba3
+.word 0xfd4d1ba0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd284c910
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf944a3a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf90a63a0
+.word 0xf9402fb1
+.word 0xd284d410
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a63a2
+.word 0xf94493a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd284e510
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94497a0
+.word 0xf90a5ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1344]
+.word 0xf9400000
+.word 0xf90a53a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1352]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf90a5fa0
+bl _p_98
+.word 0xf9402fb1
+.word 0xd284fa10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a5fa2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2056]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_99
+.word 0xf90a57a0
+.word 0xf9402fb1
+.word 0xd2850810
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a53a1
+.word 0xf94a57a2
+.word 0xf94a5ba3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2851410
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94497a0
+.word 0xf90a4ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1368]
+.word 0xf9400000
+.word 0xf90a47a0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd0d17a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94a47a1
+.word 0xf94a4ba3
+.word 0xfd4d17a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2853310
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94497a0
+.word 0xf90a3fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1384]
+.word 0xf9400000
+.word 0xf90a3ba0
+.word 0xd280001e
+.word 0xf2e8089e
+.word 0x9e6703c0
+.word 0xfd0d13a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1376]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94a3ba1
+.word 0xf94a3fa3
+.word 0xfd4d13a0
+.word 0xfd000840
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2855210
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94497a0
+.word 0xf90a37a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf90a33a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1392]
+.word 0x9102e3a1
+.word 0xb9800000
+.word 0xb900bba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94a33a1
+.word 0xf94a37a3
+.word 0x9102e3a0
+.word 0x91004040
+.word 0xb980bba4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2857510
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf944a3a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf90a2fa0
+.word 0xf9402fb1
+.word 0xd2858010
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a2fa2
+.word 0xf94497a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2859110
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9449fa3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1488]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #2064]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd285a210
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9449fa0
+.word 0xf90a2ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1456]
+.word 0xf9400000
+.word 0xf90a27a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c0
+.word 0x911303a0
+.word 0xd2800000
+.word 0xb904c3bf
+.word 0xb904c7bf
+.word 0xb904cbbf
+.word 0xb904cfbf
+.word 0xb904d3bf
+.word 0xb904d7bf
+.word 0xb904dbbf
+.word 0xb904dfbf
+.word 0x911303a0
+.word 0xd280001e
+.word 0xf2a4001e
+.word 0xf2c3233e
+.word 0xf2e7f93e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2b4001e
+.word 0xf2d2121e
+.word 0xf2e7f81e
+.word 0x9e6703c1
+.word 0xd280001e
+.word 0xf2ac001e
+.word 0xf2ca6a7e
+.word 0xf2e7fa7e
+.word 0x9e6703c2
+.word 0xd280001e
+.word 0xf2e7fe1e
+.word 0x9e6703c3
+bl _p_96
+.word 0x911303a0
+.word 0x910263a0
+.word 0xb984c3a0
+.word 0xb9009ba0
+.word 0xb984c7a0
+.word 0xb9009fa0
+.word 0xb984cba0
+.word 0xb900a3a0
+.word 0xb984cfa0
+.word 0xb900a7a0
+.word 0xb984d3a0
+.word 0xb900aba0
+.word 0xb984d7a0
+.word 0xb900afa0
+.word 0xb984dba0
+.word 0xb900b3a0
+.word 0xb984dfa0
+.word 0xb900b7a0
+.word 0xf9402fb1
+.word 0xd285f110
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1288]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94a27a1
+.word 0xf94a2ba3
+.word 0x910263a0
+.word 0x91004040
+.word 0xb9809ba4
+.word 0xb9000004
+.word 0xb9809fa4
+.word 0xb9000404
+.word 0xb980a3a4
+.word 0xb9000804
+.word 0xb980a7a4
+.word 0xb9000c04
+.word 0xb980aba4
+.word 0xb9001004
+.word 0xb980afa4
+.word 0xb9001404
+.word 0xb980b3a4
+.word 0xb9001804
+.word 0xb980b7a4
+.word 0xb9001c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2861510
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9449fa0
+.word 0xf90a23a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1336]
+.word 0xf9400000
+.word 0xf90a1fa0
+.word 0xd280001e
+.word 0xf2e805de
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e8069e
+.word 0x9e6703c0
+.word 0x911283a0
+.word 0xd2800000
+.word 0xf90253a0
+.word 0xf90257a0
+.word 0xf9025ba0
+.word 0xf9025fa0
+.word 0x911283a0
+.word 0xd280001e
+.word 0xf2e805de
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e8069e
+.word 0x9e6703c1
+bl _p_102
+.word 0x911283a0
+.word 0x9101e3a0
+.word 0xf94253a0
+.word 0xf9003fa0
+.word 0xf94257a0
+.word 0xf90043a0
+.word 0xf9425ba0
+.word 0xf90047a0
+.word 0xf9425fa0
+.word 0xf9004ba0
+.word 0xf9402fb1
+.word 0xd2864010
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1304]
+.word 0xd2800601
+.word 0xd2800601
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94a1fa1
+.word 0xf94a23a3
+.word 0x9101e3a0
+.word 0x91004040
+.word 0xf9403fa4
+.word 0xf9000004
+.word 0xf94043a4
+.word 0xf9000404
+.word 0xf94047a4
+.word 0xf9000804
+.word 0xf9404ba4
+.word 0xf9000c04
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2865c10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9449fa3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1504]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1512]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd2866d10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9449fa0
+.word 0xf909a7a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf9099fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1528]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf909b3a0
+bl _p_104
+.word 0xf9402fb1
+.word 0xd2868210
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1536]
+.word 0xf909aba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1544]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf90a1ba0
+bl _p_105
+.word 0xf9402fb1
+.word 0xd2869410
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94a1ba0
+.word 0xf9088fa0
+.word 0xf9488fa0
+.word 0xf909efa0
+.word 0xf9488fa0
+.word 0xf909fba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1552]
+.word 0xf909f7a0
+.word 0xd2800000
+.word 0xd28000c0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xd28000c1
+bl _p_15
+.word 0xf90893a0
+.word 0xf94893a0
+.word 0xf90a17a0
+.word 0xf94893a3
+.word 0xd2800000
+.word 0xf9449fa2
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94a17a0
+.word 0xf90897a0
+.word 0xf94897a0
+.word 0xf90a13a0
+.word 0xf94897a3
+.word 0xd2800020
+.word 0xf944a3a2
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94a13a0
+.word 0xf9089ba0
+.word 0xf9489ba0
+.word 0xf90a0fa0
+.word 0xf9489ba3
+.word 0xd2800040
+.word 0xaa1903e0
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xaa1903e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94a0fa0
+.word 0xf9089fa0
+.word 0xf9489fa0
+.word 0xf90a0ba0
+.word 0xf9489fa3
+.word 0xd2800060
+.word 0xaa1703e0
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xaa1703e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94a0ba0
+.word 0xf908a3a0
+.word 0xf948a3a0
+.word 0xf90a07a0
+.word 0xf948a3a3
+.word 0xd2800080
+.word 0xaa1603e0
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xaa1603e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94a07a0
+.word 0xf908a7a0
+.word 0xf948a7a0
+.word 0xf909ffa0
+.word 0xf948a7a3
+.word 0xd28000a0
+.word 0xaa1503e0
+.word 0xaa0303e0
+.word 0xd28000a1
+.word 0xaa1503e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf90a03a0
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1560]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf949ffa1
+.word 0xf94a03a2
+.word 0xf909f3a0
+.word 0xaa1403e3
+bl _p_106
+.word 0xf9402fb1
+.word 0xd2870710
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949f3a0
+.word 0xf949f7a1
+.word 0xf949fba3
+.word 0xf908aba0
+.word 0xf948aba2
+.word 0xf948aba0
+.word 0xf904dba0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2871710
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949efa0
+.word 0xf908afa0
+.word 0xf948afa0
+.word 0xf909eba0
+.word 0xf948afa3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1568]
+.word 0xf944dba2
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2872910
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949eba0
+.word 0xf908b3a0
+.word 0xf948b3a0
+.word 0xf909c7a0
+.word 0xf948b3a0
+.word 0xf909d3a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1576]
+.word 0xf909cba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf909e7a0
+bl _p_108
+.word 0xf9402fb1
+.word 0xd2874110
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949e7a0
+.word 0xf908b7a0
+.word 0xf948b7a0
+.word 0xf909e3a0
+.word 0xf948b7a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1592]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1600]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd2875510
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949e3a0
+.word 0xf908bba0
+.word 0xf948bba0
+.word 0xf909d7a0
+.word 0xf948bba3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1608]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1616]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd2876910
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1184]
+bl _p_49
+.word 0xf909dfa0
+.word 0xf9402fb1
+.word 0xd2877410
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949dfa1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf909dba0
+.word 0xf9402fb1
+.word 0xd2878010
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf949d7a1
+.word 0xf949dba2
+.word 0xf909cfa0
+bl _p_110
+.word 0xf9402fb1
+.word 0xd2879010
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949cba1
+.word 0xf949cfa2
+.word 0xf949d3a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2879c10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949c7a0
+.word 0xf908bfa0
+.word 0xf948bfa0
+.word 0xf909afa0
+.word 0xf948bfa0
+.word 0xf909bfa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf909b7a0
+.word 0xd28011c0
+.word 0xd2800c20
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1640]
+.word 0xd2800381
+.word 0xd2800381
+bl _p_3
+.word 0xf909c3a0
+.word 0xd28011c1
+.word 0xd2800c22
+bl _p_111
+.word 0xf9402fb1
+.word 0xd287b810
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1648]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf949c3a1
+.word 0xf909bba0
+bl _p_112
+.word 0xf9402fb1
+.word 0xd287c710
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949b7a1
+.word 0xf949bba2
+.word 0xf949bfa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd287d310
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf949aba1
+.word 0xf949afa2
+.word 0xf949b3a3
+.word 0xaa0303e0
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1656]
+.word 0x928007f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf909a3a0
+.word 0xf9402fb1
+.word 0xd287e610
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9499fa1
+.word 0xf949a3a2
+.word 0xf949a7a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd287f210
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9449ba0
+.word 0xf9099ba0
+.word 0xaa1503e0
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x540053a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_3
+.word 0xaa0003e1
+.word 0xf9499ba2
+.word 0xeb1f02bf
+.word 0x10000011
+.word 0x540051e0
+.word 0xd5033bbf
+.word 0xf9001035
+.word 0x91008020
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030000
+.word 0xd280003e
+.word 0x3900001e
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #2072]
+.word 0xf9001420
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #2080]
+.word 0xf9002020
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #2088]
+.word 0xf9401403
+.word 0xf9000c23
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901c03f
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_113
+.word 0xf9402fb1
+.word 0xd2882a10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9449fa1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_100
+.word 0xf90997a0
+.word 0xf9402fb1
+.word 0xd2883510
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94997a2
+.word 0xf9449ba1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1400]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2884610
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf944a3a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_101
+.word 0xf90993a0
+.word 0xf9402fb1
+.word 0xd2885110
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94993a2
+.word 0xf9449fa1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2886210
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x3940033e
+bl _p_101
+.word 0xf9098fa0
+.word 0xf9402fb1
+.word 0xd2886d10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9498fa2
+.word 0xf944a3a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd2887e10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf944a7a0
+.word 0xf9098ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1312]
+.word 0xf9400000
+.word 0xf90987a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #2048]
+.word 0x9101c3a1
+.word 0xb9800000
+.word 0xb90073a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1328]
+.word 0xd2800281
+.word 0xd2800281
+bl _p_3
+.word 0xaa0003e2
+.word 0xf94987a1
+.word 0xf9498ba3
+.word 0x9101c3a0
+.word 0x91004040
+.word 0xb98073a4
+.word 0xb9000004
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd288a110
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf944a7a0
+.word 0xf90913a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf9090ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1528]
+.word 0xd2800201
+.word 0xd2800201
+bl _p_3
+.word 0xf9091fa0
+bl _p_104
+.word 0xf9402fb1
+.word 0xd288b610
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #2096]
+.word 0xf90917a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1544]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf90983a0
+bl _p_105
+.word 0xf9402fb1
+.word 0xd288c810
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94983a0
+.word 0xf908c3a0
+.word 0xf948c3a0
+.word 0xf9095ba0
+.word 0xf948c3a0
+.word 0xf90967a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1552]
+.word 0xf90963a0
+.word 0xd2800000
+.word 0xd28000a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #432]
+.word 0xd28000a1
+bl _p_15
+.word 0xf908c7a0
+.word 0xf948c7a0
+.word 0xf9097fa0
+.word 0xf948c7a3
+.word 0xd2800000
+.word 0xf944a7a2
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9497fa0
+.word 0xf908cba0
+.word 0xf948cba0
+.word 0xf9097ba0
+.word 0xf948cba3
+.word 0xd2800020
+.word 0xaa1903e0
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xaa1903e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf9497ba0
+.word 0xf908cfa0
+.word 0xf948cfa0
+.word 0xf90977a0
+.word 0xf948cfa3
+.word 0xd2800040
+.word 0xaa1703e0
+.word 0xaa0303e0
+.word 0xd2800041
+.word 0xaa1703e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94977a0
+.word 0xf908d3a0
+.word 0xf948d3a0
+.word 0xf90973a0
+.word 0xf948d3a3
+.word 0xd2800060
+.word 0xaa1603e0
+.word 0xaa0303e0
+.word 0xd2800061
+.word 0xaa1603e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+.word 0xf94973a0
+.word 0xf908d7a0
+.word 0xf948d7a0
+.word 0xf9096ba0
+.word 0xf948d7a3
+.word 0xd2800080
+.word 0xaa1503e0
+.word 0xaa0303e0
+.word 0xd2800081
+.word 0xaa1503e2
+.word 0xf9400063
+.word 0xf9408470
+.word 0xd63f0200
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1520]
+.word 0xf9400000
+.word 0xf9096fa0
+.word 0xaa1403e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1560]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf9496ba1
+.word 0xf9496fa2
+.word 0xf9095fa0
+.word 0xaa1403e3
+bl _p_106
+.word 0xf9402fb1
+.word 0xd2892f10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9495fa0
+.word 0xf94963a1
+.word 0xf94967a3
+.word 0xf908dba0
+.word 0xf948dba2
+.word 0xf948dba0
+.word 0xf904dfa0
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2893f10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9495ba0
+.word 0xf908dfa0
+.word 0xf948dfa0
+.word 0xf90957a0
+.word 0xf948dfa3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1568]
+.word 0xf944dfa2
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd2895110
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94957a0
+.word 0xf908e3a0
+.word 0xf948e3a0
+.word 0xf90933a0
+.word 0xf948e3a0
+.word 0xf9093fa0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1576]
+.word 0xf90937a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1584]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf90953a0
+bl _p_108
+.word 0xf9402fb1
+.word 0xd2896910
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94953a0
+.word 0xf908e7a0
+.word 0xf948e7a0
+.word 0xf9094fa0
+.word 0xf948e7a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1592]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1600]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd2897d10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9494fa0
+.word 0xf908eba0
+.word 0xf948eba0
+.word 0xf90943a0
+.word 0xf948eba3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1608]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #1616]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_109
+.word 0xf9402fb1
+.word 0xd2899110
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1184]
+bl _p_49
+.word 0xf9094ba0
+.word 0xf9402fb1
+.word 0xd2899c10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9494ba1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9417430
+.word 0xd63f0200
+.word 0xf90947a0
+.word 0xf9402fb1
+.word 0xd289a810
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1624]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_3
+.word 0xf94943a1
+.word 0xf94947a2
+.word 0xf9093ba0
+bl _p_110
+.word 0xf9402fb1
+.word 0xd289b810
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94937a1
+.word 0xf9493ba2
+.word 0xf9493fa3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd289c410
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94933a0
+.word 0xf908efa0
+.word 0xf948efa0
+.word 0xf9091ba0
+.word 0xf948efa0
+.word 0xf9092ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1632]
+.word 0xf90923a0
+.word 0xd2801280
+.word 0xd2800900
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1640]
+.word 0xd2800381
+.word 0xd2800381
+bl _p_3
+.word 0xf9092fa0
+.word 0xd2801281
+.word 0xd2800902
+bl _p_111
+.word 0xf9402fb1
+.word 0xd289e010
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1648]
+.word 0xd2800301
+.word 0xd2800301
+bl _p_3
+.word 0xf9492fa1
+.word 0xf90927a0
+bl _p_112
+.word 0xf9402fb1
+.word 0xd289ef10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94923a1
+.word 0xf94927a2
+.word 0xf9492ba3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_107
+.word 0xf9402fb1
+.word 0xd289fb10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94917a1
+.word 0xf9491ba2
+.word 0xf9491fa3
+.word 0xaa0303e0
+.word 0xf9400063
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1656]
+.word 0x928007f0
+.word 0xf2bffff0
+.word 0xf8706870
+.word 0xd63f0200
+.word 0xf9090fa0
+.word 0xf9402fb1
+.word 0xd28a0e10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9490ba1
+.word 0xf9490fa2
+.word 0xf94913a3
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28a1a10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf944a7a3
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #1504]
+.word 0xf9400001
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #2104]
+.word 0xaa0303e0
+.word 0x3940007e
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28a2b10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x3940033e
+bl _p_101
+.word 0xf90907a0
+.word 0xf9402fb1
+.word 0xd28a3610
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94907a2
+.word 0xf944a7a1
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd28a4710
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xaa1903e0
+.word 0xaa1703e0
+.word 0xaa1903e1
+.word 0x394002fe
+bl _p_114
+.word 0xf9402fb1
+.word 0xd28a5310
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xaa1603e0
+.word 0x394002de
+bl _p_101
+.word 0xf90903a0
+.word 0xf9402fb1
+.word 0xd28a5e10
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94903a2
+.word 0xaa1703e0
+.word 0xaa0203e0
+.word 0xaa1703e1
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #1408]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xd28a7010
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #2112]
+.word 0xf9400001
+.word 0xaa1603e0
+.word 0xaa1503e0
+.word 0xaa1603e2
+.word 0x394002be
+bl _p_66
+.word 0xf9402fb1
+.word 0xd28a8010
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xd28a8610
+.word 0xf2a00050
+.word 0xf8706a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa9407bfd
+.word 0xd285b810
+.word 0x910003f1
+.word 0x8b100231
+.word 0x9100023f
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+.word 0xd2800fc0
+.word 0xaa1103e1
+bl _p_8
+
+Lme_30:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster___InitComponentRuntime
+StreamingExample_MainMasterMaster___InitComponentRuntime:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2120]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1184]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2128]
+.word 0xaa1a03e0
+bl _p_115
+.word 0xf9400fb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1240]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2136]
+.word 0xaa1a03e0
+bl _p_116
+.word 0xf90023a0
+.word 0xf9400fb1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x91080341
+.word 0xd5033bbf
+.word 0xf94023a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1248]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2144]
+.word 0xaa1a03e0
+bl _p_117
+.word 0xf9001fa0
+.word 0xf9400fb1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x91082341
+.word 0xd5033bbf
+.word 0xf9401fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1256]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2152]
+.word 0xaa1a03e0
+bl _p_118
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf9418631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x91084341
+.word 0xd5033bbf
+.word 0xf9401ba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf9400fb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_31:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2__ctor
+StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2160]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_32:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_MoveNext
+StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_MoveNext:
+.loc 10 0 0 prologue_end
+.word 0xa9b47bfd
+.word 0x910003fd
+.word 0xa90167b8
+.word 0xf90013ba
+.word 0xf90017a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2168]
+.word 0xf9001bb0
+.word 0xf9400211
+.word 0xf9001fb1
+.word 0xd280001a
+.word 0x910183a0
+.word 0xf90033bf
+.word 0xf90037bf
+.word 0xf9003bbf
+.word 0xf9401bb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0xb9805000
+.word 0xaa0003fa
+.word 0xaa1a03e0
+.word 0x3400005a
+.word 0x14000002
+.word 0x1400007a
+.loc 10 30 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 32 0
+.word 0xf9401bb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf9005fa0
+.word 0xf9401bb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405fa1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_87
+.word 0xf9005ba0
+.word 0xf9401bb1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405ba4
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2176]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #2184]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #2192]
+.word 0xaa0403e0
+.word 0x3940009e
+bl _p_119
+.word 0xf90057a0
+.word 0xf9401bb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a1
+.word 0x910163a0
+.word 0xf9003fa0
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_120
+.word 0xf9403fbe
+.word 0xf90003c0
+.word 0xf9401bb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910163a0
+.word 0x910183a0
+.word 0xf9402fa0
+.word 0xf90033a0
+.word 0x910183a0
+bl _p_121
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf9401bb1
+.word 0xf9417631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0x35000b00
+.word 0xf94017a0
+.word 0xd2800001
+.word 0xd2800018
+.word 0xd2800001
+.word 0xd2800001
+.word 0xd280001a
+.word 0xb900501f
+.word 0xf9401bb1
+.word 0xf941aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0x910183a1
+.word 0x910143a1
+.word 0xf94033a1
+.word 0xf9002ba1
+.word 0x910143a1
+.word 0x91012002
+.word 0xaa0203e1
+.word 0xd5033bbf
+.word 0xf9402ba0
+.word 0xf9000040
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94017a0
+.word 0xf90037a0
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000ea0
+.word 0x91004000
+.word 0x910183a1
+.word 0x9101a3a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2200]
+bl _p_122
+.word 0xf9401bb1
+.word 0xf9424231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000060
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9426631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0x91012000
+.word 0x910123a1
+.word 0xf9400000
+.word 0xf90027a0
+.word 0x910123a0
+.word 0x910183a0
+.word 0xf94027a0
+.word 0xf90033a0
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000a80
+.word 0x91012000
+.word 0xf900001f
+.word 0xf94017a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x92800019
+.word 0xf2bffff9
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001a
+.word 0xf2bffffa
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0x910183a0
+bl _p_123
+.word 0xf9401bb1
+.word 0xf942f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400001c
+.word 0xf90043a0
+.word 0xf94043a0
+.word 0xf9003ba0
+.word 0xf94017a0
+.word 0x92800021
+.word 0xf2bfffe1
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000600
+.word 0x91004000
+.word 0xf9403ba1
+bl _p_124
+.word 0xf9401bb1
+.word 0xf9434631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_125
+.word 0xf9004fa0
+.word 0xf9404fa0
+.word 0xb4000060
+.word 0xf9404fa0
+bl _p_126
+.word 0x14000019
+.loc 10 34 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9438231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0x92800021
+.word 0xf2bfffe1
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000200
+.word 0x91004000
+bl _p_127
+.word 0xf9401bb1
+.word 0xf943c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf943d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94167b8
+.word 0xf94013ba
+.word 0x910003bf
+.word 0xa8cc7bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+
+Lme_33:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2208]
+.word 0xf90013b0
+.word 0xf9400211
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_34:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3__ctor
+StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2216]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_35:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_MoveNext
+StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_MoveNext:
+.loc 10 0 0 prologue_end
+.word 0xa9b47bfd
+.word 0x910003fd
+.word 0xa90167b8
+.word 0xf90013ba
+.word 0xf90017a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2224]
+.word 0xf9001bb0
+.word 0xf9400211
+.word 0xf9001fb1
+.word 0xd280001a
+.word 0x910183a0
+.word 0xf90033bf
+.word 0xf90037bf
+.word 0xf9003bbf
+.word 0xf9401bb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0xb9805000
+.word 0xaa0003fa
+.word 0xaa1a03e0
+.word 0x3400005a
+.word 0x14000002
+.word 0x1400007a
+.loc 10 37 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 39 0
+.word 0xf9401bb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf9005fa0
+.word 0xf9401bb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405fa1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_87
+.word 0xf9005ba0
+.word 0xf9401bb1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405ba4
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2176]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #2232]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #2192]
+.word 0xaa0403e0
+.word 0x3940009e
+bl _p_119
+.word 0xf90057a0
+.word 0xf9401bb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a1
+.word 0x910163a0
+.word 0xf9003fa0
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_120
+.word 0xf9403fbe
+.word 0xf90003c0
+.word 0xf9401bb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910163a0
+.word 0x910183a0
+.word 0xf9402fa0
+.word 0xf90033a0
+.word 0x910183a0
+bl _p_121
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf9401bb1
+.word 0xf9417631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0x35000b00
+.word 0xf94017a0
+.word 0xd2800001
+.word 0xd2800018
+.word 0xd2800001
+.word 0xd2800001
+.word 0xd280001a
+.word 0xb900501f
+.word 0xf9401bb1
+.word 0xf941aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0x910183a1
+.word 0x910143a1
+.word 0xf94033a1
+.word 0xf9002ba1
+.word 0x910143a1
+.word 0x91012002
+.word 0xaa0203e1
+.word 0xd5033bbf
+.word 0xf9402ba0
+.word 0xf9000040
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94017a0
+.word 0xf90037a0
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000ea0
+.word 0x91004000
+.word 0x910183a1
+.word 0x9101a3a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2240]
+bl _p_128
+.word 0xf9401bb1
+.word 0xf9424231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000060
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9426631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0x91012000
+.word 0x910123a1
+.word 0xf9400000
+.word 0xf90027a0
+.word 0x910123a0
+.word 0x910183a0
+.word 0xf94027a0
+.word 0xf90033a0
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000a80
+.word 0x91012000
+.word 0xf900001f
+.word 0xf94017a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x92800019
+.word 0xf2bffff9
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001a
+.word 0xf2bffffa
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0x910183a0
+bl _p_123
+.word 0xf9401bb1
+.word 0xf942f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400001c
+.word 0xf90043a0
+.word 0xf94043a0
+.word 0xf9003ba0
+.word 0xf94017a0
+.word 0x92800021
+.word 0xf2bfffe1
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000600
+.word 0x91004000
+.word 0xf9403ba1
+bl _p_124
+.word 0xf9401bb1
+.word 0xf9434631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_125
+.word 0xf9004fa0
+.word 0xf9404fa0
+.word 0xb4000060
+.word 0xf9404fa0
+bl _p_126
+.word 0x14000019
+.loc 10 41 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9438231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0x92800021
+.word 0xf2bfffe1
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000200
+.word 0x91004000
+bl _p_127
+.word 0xf9401bb1
+.word 0xf943c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf943d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94167b8
+.word 0xf94013ba
+.word 0x910003bf
+.word 0xa8cc7bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+
+Lme_36:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2248]
+.word 0xf90013b0
+.word 0xf9400211
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_37:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__misganancias_Tappedd__5__ctor
+StreamingExample_MainMasterMaster__misganancias_Tappedd__5__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2256]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_38:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__misganancias_Tappedd__5_MoveNext
+StreamingExample_MainMasterMaster__misganancias_Tappedd__5_MoveNext:
+.loc 10 0 0 prologue_end
+.word 0xa9b47bfd
+.word 0x910003fd
+.word 0xa90167b8
+.word 0xf90013ba
+.word 0xf90017a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2264]
+.word 0xf9001bb0
+.word 0xf9400211
+.word 0xf9001fb1
+.word 0xd280001a
+.word 0x910183a0
+.word 0xf90033bf
+.word 0xf90037bf
+.word 0xf9003bbf
+.word 0xf9401bb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0xb9805000
+.word 0xaa0003fa
+.word 0xaa1a03e0
+.word 0x3400005a
+.word 0x14000002
+.word 0x1400007a
+.loc 10 51 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 53 0
+.word 0xf9401bb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf9005fa0
+.word 0xf9401bb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405fa1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_87
+.word 0xf9005ba0
+.word 0xf9401bb1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405ba4
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2176]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #2232]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #2192]
+.word 0xaa0403e0
+.word 0x3940009e
+bl _p_119
+.word 0xf90057a0
+.word 0xf9401bb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a1
+.word 0x910163a0
+.word 0xf9003fa0
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_120
+.word 0xf9403fbe
+.word 0xf90003c0
+.word 0xf9401bb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910163a0
+.word 0x910183a0
+.word 0xf9402fa0
+.word 0xf90033a0
+.word 0x910183a0
+bl _p_121
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf9401bb1
+.word 0xf9417631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0x35000b00
+.word 0xf94017a0
+.word 0xd2800001
+.word 0xd2800018
+.word 0xd2800001
+.word 0xd2800001
+.word 0xd280001a
+.word 0xb900501f
+.word 0xf9401bb1
+.word 0xf941aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0x910183a1
+.word 0x910143a1
+.word 0xf94033a1
+.word 0xf9002ba1
+.word 0x910143a1
+.word 0x91012002
+.word 0xaa0203e1
+.word 0xd5033bbf
+.word 0xf9402ba0
+.word 0xf9000040
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94017a0
+.word 0xf90037a0
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000ea0
+.word 0x91004000
+.word 0x910183a1
+.word 0x9101a3a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2272]
+bl _p_129
+.word 0xf9401bb1
+.word 0xf9424231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000060
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9426631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0x91012000
+.word 0x910123a1
+.word 0xf9400000
+.word 0xf90027a0
+.word 0x910123a0
+.word 0x910183a0
+.word 0xf94027a0
+.word 0xf90033a0
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000a80
+.word 0x91012000
+.word 0xf900001f
+.word 0xf94017a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x92800019
+.word 0xf2bffff9
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001a
+.word 0xf2bffffa
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0x910183a0
+bl _p_123
+.word 0xf9401bb1
+.word 0xf942f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400001c
+.word 0xf90043a0
+.word 0xf94043a0
+.word 0xf9003ba0
+.word 0xf94017a0
+.word 0x92800021
+.word 0xf2bfffe1
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000600
+.word 0x91004000
+.word 0xf9403ba1
+bl _p_124
+.word 0xf9401bb1
+.word 0xf9434631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_125
+.word 0xf9004fa0
+.word 0xf9404fa0
+.word 0xb4000060
+.word 0xf9404fa0
+bl _p_126
+.word 0x14000019
+.loc 10 55 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9438231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0x92800021
+.word 0xf2bfffe1
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000200
+.word 0x91004000
+bl _p_127
+.word 0xf9401bb1
+.word 0xf943c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf943d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94167b8
+.word 0xf94013ba
+.word 0x910003bf
+.word 0xa8cc7bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+
+Lme_39:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__misganancias_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+StreamingExample_MainMasterMaster__misganancias_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2280]
+.word 0xf90013b0
+.word 0xf9400211
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_3a:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__billetera_Tappedd__6__ctor
+StreamingExample_MainMasterMaster__billetera_Tappedd__6__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2288]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_3b:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__billetera_Tappedd__6_MoveNext
+StreamingExample_MainMasterMaster__billetera_Tappedd__6_MoveNext:
+.loc 10 0 0 prologue_end
+.word 0xa9b47bfd
+.word 0x910003fd
+.word 0xa90167b8
+.word 0xf90013ba
+.word 0xf90017a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2296]
+.word 0xf9001bb0
+.word 0xf9400211
+.word 0xf9001fb1
+.word 0xd280001a
+.word 0x910183a0
+.word 0xf90033bf
+.word 0xf90037bf
+.word 0xf9003bbf
+.word 0xf9401bb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0xb9805000
+.word 0xaa0003fa
+.word 0xaa1a03e0
+.word 0x3400005a
+.word 0x14000002
+.word 0x1400007a
+.loc 10 58 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 60 0
+.word 0xf9401bb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf9005fa0
+.word 0xf9401bb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405fa1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_87
+.word 0xf9005ba0
+.word 0xf9401bb1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405ba4
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2176]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #2232]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #2192]
+.word 0xaa0403e0
+.word 0x3940009e
+bl _p_119
+.word 0xf90057a0
+.word 0xf9401bb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a1
+.word 0x910163a0
+.word 0xf9003fa0
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_120
+.word 0xf9403fbe
+.word 0xf90003c0
+.word 0xf9401bb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910163a0
+.word 0x910183a0
+.word 0xf9402fa0
+.word 0xf90033a0
+.word 0x910183a0
+bl _p_121
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf9401bb1
+.word 0xf9417631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0x35000b00
+.word 0xf94017a0
+.word 0xd2800001
+.word 0xd2800018
+.word 0xd2800001
+.word 0xd2800001
+.word 0xd280001a
+.word 0xb900501f
+.word 0xf9401bb1
+.word 0xf941aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0x910183a1
+.word 0x910143a1
+.word 0xf94033a1
+.word 0xf9002ba1
+.word 0x910143a1
+.word 0x91012002
+.word 0xaa0203e1
+.word 0xd5033bbf
+.word 0xf9402ba0
+.word 0xf9000040
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94017a0
+.word 0xf90037a0
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000ea0
+.word 0x91004000
+.word 0x910183a1
+.word 0x9101a3a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2304]
+bl _p_130
+.word 0xf9401bb1
+.word 0xf9424231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000060
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9426631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0x91012000
+.word 0x910123a1
+.word 0xf9400000
+.word 0xf90027a0
+.word 0x910123a0
+.word 0x910183a0
+.word 0xf94027a0
+.word 0xf90033a0
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000a80
+.word 0x91012000
+.word 0xf900001f
+.word 0xf94017a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x92800019
+.word 0xf2bffff9
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001a
+.word 0xf2bffffa
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0x910183a0
+bl _p_123
+.word 0xf9401bb1
+.word 0xf942f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400001c
+.word 0xf90043a0
+.word 0xf94043a0
+.word 0xf9003ba0
+.word 0xf94017a0
+.word 0x92800021
+.word 0xf2bfffe1
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000600
+.word 0x91004000
+.word 0xf9403ba1
+bl _p_124
+.word 0xf9401bb1
+.word 0xf9434631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_125
+.word 0xf9004fa0
+.word 0xf9404fa0
+.word 0xb4000060
+.word 0xf9404fa0
+bl _p_126
+.word 0x14000019
+.loc 10 62 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9438231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0x92800021
+.word 0xf2bfffe1
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000200
+.word 0x91004000
+bl _p_127
+.word 0xf9401bb1
+.word 0xf943c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf943d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94167b8
+.word 0xf94013ba
+.word 0x910003bf
+.word 0xa8cc7bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+
+Lme_3c:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__billetera_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+StreamingExample_MainMasterMaster__billetera_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2312]
+.word 0xf90013b0
+.word 0xf9400211
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_3d:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8__ctor
+StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2320]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_3e:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_MoveNext
+StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_MoveNext:
+.loc 10 0 0 prologue_end
+.word 0xa9b47bfd
+.word 0x910003fd
+.word 0xa90167b8
+.word 0xf90013ba
+.word 0xf90017a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2328]
+.word 0xf9001bb0
+.word 0xf9400211
+.word 0xf9001fb1
+.word 0xd280001a
+.word 0x910183a0
+.word 0xf90033bf
+.word 0xf90037bf
+.word 0xf9003bbf
+.word 0xf9401bb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0xb9805000
+.word 0xaa0003fa
+.word 0xaa1a03e0
+.word 0x3400005a
+.word 0x14000002
+.word 0x1400007a
+.loc 10 71 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 10 73 0
+.word 0xf9401bb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf9005fa0
+.word 0xf9401bb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405fa1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_87
+.word 0xf9005ba0
+.word 0xf9401bb1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405ba4
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2176]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #2336]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #2192]
+.word 0xaa0403e0
+.word 0x3940009e
+bl _p_119
+.word 0xf90057a0
+.word 0xf9401bb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a1
+.word 0x910163a0
+.word 0xf9003fa0
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_120
+.word 0xf9403fbe
+.word 0xf90003c0
+.word 0xf9401bb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910163a0
+.word 0x910183a0
+.word 0xf9402fa0
+.word 0xf90033a0
+.word 0x910183a0
+bl _p_121
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf9401bb1
+.word 0xf9417631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0x35000b00
+.word 0xf94017a0
+.word 0xd2800001
+.word 0xd2800018
+.word 0xd2800001
+.word 0xd2800001
+.word 0xd280001a
+.word 0xb900501f
+.word 0xf9401bb1
+.word 0xf941aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0x910183a1
+.word 0x910143a1
+.word 0xf94033a1
+.word 0xf9002ba1
+.word 0x910143a1
+.word 0x91012002
+.word 0xaa0203e1
+.word 0xd5033bbf
+.word 0xf9402ba0
+.word 0xf9000040
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94017a0
+.word 0xf90037a0
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000ea0
+.word 0x91004000
+.word 0x910183a1
+.word 0x9101a3a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2344]
+bl _p_131
+.word 0xf9401bb1
+.word 0xf9424231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000060
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9426631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0x91012000
+.word 0x910123a1
+.word 0xf9400000
+.word 0xf90027a0
+.word 0x910123a0
+.word 0x910183a0
+.word 0xf94027a0
+.word 0xf90033a0
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000a80
+.word 0x91012000
+.word 0xf900001f
+.word 0xf94017a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x92800019
+.word 0xf2bffff9
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001a
+.word 0xf2bffffa
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0x910183a0
+bl _p_123
+.word 0xf9401bb1
+.word 0xf942f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400001c
+.word 0xf90043a0
+.word 0xf94043a0
+.word 0xf9003ba0
+.word 0xf94017a0
+.word 0x92800021
+.word 0xf2bfffe1
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000600
+.word 0x91004000
+.word 0xf9403ba1
+bl _p_124
+.word 0xf9401bb1
+.word 0xf9434631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_125
+.word 0xf9004fa0
+.word 0xf9404fa0
+.word 0xb4000060
+.word 0xf9404fa0
+bl _p_126
+.word 0x14000019
+.loc 10 75 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9438231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0x92800021
+.word 0xf2bfffe1
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb900501e
+.word 0xf94017a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000200
+.word 0x91004000
+bl _p_127
+.word 0xf9401bb1
+.word 0xf943c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf943d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94167b8
+.word 0xf94013ba
+.word 0x910003bf
+.word 0xa8cc7bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+
+Lme_3f:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2352]
+.word 0xf90013b0
+.word 0xf9400211
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_40:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9__ctor
+StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2360]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_41:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_MoveNext
+StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_MoveNext:
+.loc 10 0 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2368]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xb90033bf
+.word 0xf9001fbf
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xb9804800
+.word 0xb90033a0
+.loc 10 78 0
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400001c
+.word 0xf90023a0
+.word 0xf94023a0
+.word 0xf9001fa0
+.word 0xf9400ba0
+.word 0x92800021
+.word 0xf2bfffe1
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb900481e
+.word 0xf9400ba0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x540005c0
+.word 0x91004000
+.word 0xf9401fa1
+bl _p_124
+.word 0xf9400fb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_125
+.word 0xf9002fa0
+.word 0xf9402fa0
+.word 0xb4000060
+.word 0xf9402fa0
+bl _p_126
+.word 0x14000019
+.loc 10 81 0
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf940ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0x92800021
+.word 0xf2bfffe1
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb900481e
+.word 0xf9400ba0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x540001c0
+.word 0x91004000
+bl _p_127
+.word 0xf9400fb1
+.word 0xf9412e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9413e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+
+Lme_42:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2376]
+.word 0xf90013b0
+.word 0xf9400211
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_43:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMap__ctor
+StreamingExample_MainMap__ctor:
+.file 12 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/MainMap.xaml.cs"
+.loc 12 10 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2384]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_23
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 11 0
+.word 0xf9400fb1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 12 0
+.word 0xf9400fb1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_132
+.word 0xf9400fb1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 12 13 0
+.word 0xf9400fb1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_44:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_MainMap_InitializeComponent
+StreamingExample_MainMap_InitializeComponent:
+.file 13 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/MainMap.xaml.g.cs"
+.loc 13 35 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2392]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 13 36 0
+.word 0xf9400fb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2400]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2408]
+.word 0xaa1a03e0
+bl _p_133
+.word 0xf9400fb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 13 37 0
+.word 0xf9400fb1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1248]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2144]
+.word 0xaa1a03e0
+bl _p_117
+.word 0xf9002ba0
+.word 0xf9400fb1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x91080341
+.word 0xd5033bbf
+.word 0xf9402ba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 13 38 0
+.word 0xf9400fb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2416]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2152]
+.word 0xaa1a03e0
+bl _p_118
+.word 0xf90027a0
+.word 0xf9400fb1
+.word 0xf9416231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x91082341
+.word 0xd5033bbf
+.word 0xf94027a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 13 39 0
+.word 0xf9400fb1
+.word 0xf941aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2424]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2144]
+.word 0xaa1a03e0
+bl _p_117
+.word 0xf90023a0
+.word 0xf9400fb1
+.word 0xf941e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x91084341
+.word 0xd5033bbf
+.word 0xf94023a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 13 40 0
+.word 0xf9400fb1
+.word 0xf9422e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2432]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2440]
+.word 0xaa1a03e0
+bl _p_134
+.word 0xf9001fa0
+.word 0xf9400fb1
+.word 0xf9426a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x91086341
+.word 0xd5033bbf
+.word 0xf9401fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 13 41 0
+.word 0xf9400fb1
+.word 0xf942b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2448]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2152]
+.word 0xaa1a03e0
+bl _p_118
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf942ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x91088341
+.word 0xd5033bbf
+.word 0xf9401ba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 13 42 0
+.word 0xf9400fb1
+.word 0xf9433631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9434631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_45:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Footer_add_UserClosed_System_EventHandler_1_System_EventArgs
+StreamingExample_Footer_add_UserClosed_System_EventHandler_1_System_EventArgs:
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xa9036bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2456]
+.word 0xf90023b0
+.word 0xf9400211
+.word 0xf90027b1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xf94023b1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf940e720
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1803f7
+.word 0xaa1803e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1a03e1
+bl _p_34
+.word 0xaa0003f5
+.word 0xf94023b1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000175
+.word 0xf94002a0
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400c00
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2464]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540006c1
+.word 0xaa1503e0
+.word 0xaa1503f6
+.word 0xaa1903e0
+.word 0xeb1f033f
+.word 0x10000011
+.word 0x540005a0
+.word 0x91072320
+.word 0xf90037a0
+.word 0xaa1503e0
+.word 0xaa1703e0
+.word 0xd5033bbf
+.word 0xf94037a0
+.word 0xc85f7c10
+.word 0xeb17021f
+.word 0x54000061
+.word 0xc811fc15
+.word 0x35ffff91
+.word 0xd5033bbf
+.word 0xaa1003e1
+.word 0xf90033a1
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
+.word 0xf94023b1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa0003f8
+.word 0xaa0003e1
+.word 0xaa1703e1
+.word 0xeb17001f
+.word 0x54fff841
+.word 0xf94023b1
+.word 0xf9415e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xa9436bb9
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+.word 0xd28019a0
+.word 0xaa1103e1
+bl _p_8
+
+Lme_46:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Footer_remove_UserClosed_System_EventHandler_1_System_EventArgs
+StreamingExample_Footer_remove_UserClosed_System_EventHandler_1_System_EventArgs:
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xa9036bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2472]
+.word 0xf90023b0
+.word 0xf9400211
+.word 0xf90027b1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xf94023b1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf940e720
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1803f7
+.word 0xaa1803e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1a03e1
+bl _p_35
+.word 0xaa0003f5
+.word 0xf94023b1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000175
+.word 0xf94002a0
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400c00
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2464]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540006c1
+.word 0xaa1503e0
+.word 0xaa1503f6
+.word 0xaa1903e0
+.word 0xeb1f033f
+.word 0x10000011
+.word 0x540005a0
+.word 0x91072320
+.word 0xf90037a0
+.word 0xaa1503e0
+.word 0xaa1703e0
+.word 0xd5033bbf
+.word 0xf94037a0
+.word 0xc85f7c10
+.word 0xeb17021f
+.word 0x54000061
+.word 0xc811fc15
+.word 0x35ffff91
+.word 0xd5033bbf
+.word 0xaa1003e1
+.word 0xf90033a1
+.word 0xd349fc00
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #16]
+.word 0x8b010000
+.word 0xd280003e
+.word 0x3900001e
+.word 0xf94023b1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa0003f8
+.word 0xaa0003e1
+.word 0xaa1703e1
+.word 0xeb17001f
+.word 0x54fff841
+.word 0xf94023b1
+.word 0xf9415e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xa9436bb9
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+.word 0xd28019a0
+.word 0xaa1103e1
+bl _p_8
+
+Lme_47:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Footer__ctor
+StreamingExample_Footer__ctor:
+.file 14 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/Footer.xaml.cs"
+.loc 14 12 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2480]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_135
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 14 13 0
+.word 0xf9400fb1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 14 14 0
+.word 0xf9400fb1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_136
+.word 0xf9400fb1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 14 15 0
+.word 0xf9400fb1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_48:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Footer_Servicios_Tapped_object_System_EventArgs
+StreamingExample_Footer_Servicios_Tapped_object_System_EventArgs:
+.loc 14 18 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2488]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 14 21 0
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_49:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Footer_Noticias_Tapped_object_System_EventArgs
+StreamingExample_Footer_Noticias_Tapped_object_System_EventArgs:
+.loc 14 24 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2496]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 14 31 0
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_4a:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Footer_NuestraRed_Tapped_object_System_EventArgs
+StreamingExample_Footer_NuestraRed_Tapped_object_System_EventArgs:
+.loc 14 34 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2504]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 14 36 0
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_4b:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Footer_Profile_UserClosed_object_System_EventArgs
+StreamingExample_Footer_Profile_UserClosed_object_System_EventArgs:
+.loc 14 39 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xf90013a0
+.word 0xf90017a1
+.word 0xf9001ba2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2512]
+.word 0xf9001fb0
+.word 0xf9400211
+.word 0xf90023b1
+.word 0xf9401fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 14 40 0
+.word 0xf9401fb1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013a0
+.word 0xf940e400
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xaa1703e1
+.word 0xaa0003f6
+.word 0xb5000077
+.word 0xaa1603e0
+.word 0x1400000b
+.word 0xaa1603e0
+.word 0xf94017a1
+.word 0xf9401ba2
+.word 0xaa1603e0
+.word 0xf9400ed0
+.word 0xd63f0200
+.word 0xf9401fb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 14 41 0
+.word 0xf94023b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf940d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415fb6
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_4c:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Footer_Login_UserLogged_object_System_EventArgs
+StreamingExample_Footer_Login_UserLogged_object_System_EventArgs:
+.loc 14 44 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2520]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 14 47 0
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_4d:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Footer_Login_UserLoggedPerfil_object_System_EventArgs
+StreamingExample_Footer_Login_UserLoggedPerfil_object_System_EventArgs:
+.loc 14 51 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2528]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 14 56 0
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_4e:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Footer_QrCode_Tapped_object_System_EventArgs
+StreamingExample_Footer_QrCode_Tapped_object_System_EventArgs:
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2536]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf90033bf
+.word 0xf94017b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #2544]
+.word 0xd2800a01
+.word 0xd2800a01
+bl _p_3
+.word 0xf9004fa0
+bl _p_137
+.word 0xf94017b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xf90033a0
+.word 0xf94033a0
+.word 0xf9004ba0
+.word 0x910103a0
+.word 0xaa0003e8
+bl _p_73
+.word 0xf94017b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0x910103a1
+.word 0x91004002
+.word 0xaa0203e0
+.word 0xf90047a0
+.word 0xd5033bbf
+.word 0xf94047a0
+.word 0xf94023a1
+.word 0xf9000041
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf94027a1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002000
+.word 0xf9402ba1
+.word 0xf9000001
+.word 0xd349fc02
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #16]
+.word 0x8b030042
+.word 0xd280003e
+.word 0x3900005e
+.word 0x91002001
+.word 0xf9402fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf9400ba1
+.word 0xf90043a1
+.word 0x91010001
+.word 0xd5033bbf
+.word 0xf94043a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf9400fa1
+.word 0xf9003fa1
+.word 0x9100c001
+.word 0xd5033bbf
+.word 0xf9403fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0xf94013a1
+.word 0xf9003ba1
+.word 0x9100e001
+.word 0xd5033bbf
+.word 0xf9403ba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.word 0xf94033a0
+.word 0x92800001
+.word 0xf2bfffe1
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb900481e
+.word 0xf94033a0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x54000240
+.word 0x91004000
+.word 0x910183a1
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2552]
+bl _p_138
+.word 0xf94017b1
+.word 0xf9429631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf942a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+
+Lme_4f:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Footer_TapGestureRecognizer_Tapped_object_System_EventArgs
+StreamingExample_Footer_TapGestureRecognizer_Tapped_object_System_EventArgs:
+.loc 14 65 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2560]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 14 66 0
+.word 0xf94017b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_85
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #392]
+.word 0xd2804001
+.word 0xd2804001
+bl _p_3
+.word 0xf90023a0
+bl _p_13
+.word 0xf94017b1
+.word 0xf940ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2568]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf940ea31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 14 67 0
+.word 0xf94017b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_50:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Footer_InitializeComponent
+StreamingExample_Footer_InitializeComponent:
+.file 15 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/Footer.xaml.g.cs"
+.loc 15 23 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2576]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 15 24 0
+.word 0xf9400fb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2584]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2592]
+.word 0xaa1a03e0
+bl _p_139
+.word 0xf9400fb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 15 25 0
+.word 0xf9400fb1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2600]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2608]
+.word 0xaa1a03e0
+bl _p_140
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x91074341
+.word 0xd5033bbf
+.word 0xf9401ba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 15 26 0
+.word 0xf9400fb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_51:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Footer__QrCode_Tappedd__10__ctor
+StreamingExample_Footer__QrCode_Tappedd__10__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2616]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_52:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Footer__QrCode_Tappedd__10_MoveNext
+StreamingExample_Footer__QrCode_Tappedd__10_MoveNext:
+.loc 14 0 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2624]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xb90033bf
+.word 0xf9001fbf
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xb9804800
+.word 0xb90033a0
+.loc 14 59 0
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 14 60 0
+.word 0xf9400fb1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9402000
+bl _p_85
+.word 0xf90037a0
+.word 0xf9400fb1
+.word 0xf9408e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #392]
+.word 0xd2804001
+.word 0xd2804001
+bl _p_3
+.word 0xf90033a0
+bl _p_13
+.word 0xf9400fb1
+.word 0xf940be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a1
+.word 0xf94037a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x15, [x16, #2568]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9400fb1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400001c
+.word 0xf90023a0
+.word 0xf94023a0
+.word 0xf9001fa0
+.word 0xf9400ba0
+.word 0x92800021
+.word 0xf2bfffe1
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb900481e
+.word 0xf9400ba0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x540005c0
+.word 0x91004000
+.word 0xf9401fa1
+bl _p_124
+.word 0xf9400fb1
+.word 0xf9414e31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_125
+.word 0xf9002fa0
+.word 0xf9402fa0
+.word 0xb4000060
+.word 0xf9402fa0
+bl _p_126
+.word 0x14000019
+.loc 14 62 0
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9418a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0x92800021
+.word 0xf2bfffe1
+.word 0x9280003e
+.word 0xf2bffffe
+.word 0xb900481e
+.word 0xf9400ba0
+.word 0xeb1f001f
+.word 0x10000011
+.word 0x540001c0
+.word 0x91004000
+bl _p_127
+.word 0xf9400fb1
+.word 0xf941ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf941da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+.word 0xd2801c40
+.word 0xaa1103e1
+bl _p_8
+
+Lme_53:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Footer__QrCode_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+StreamingExample_Footer__QrCode_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2632]
+.word 0xf90013b0
+.word 0xf9400211
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_54:
+.text
+	.align 4
 	.no_dead_strip StreamingExample_Principal_get_ViewModel
 StreamingExample_Principal_get_ViewModel:
-.file 6 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/Principal.xaml.cs"
-.loc 6 11 0 prologue_end
+.file 16 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/Principal.xaml.cs"
+.loc 16 13 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -2335,7 +28963,7 @@ StreamingExample_Principal_get_ViewModel:
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #2640]
 .word 0xf90013b0
 .word 0xf9400211
 .word 0xf90017b1
@@ -2384,20 +29012,20 @@ ldr x1, [x16, #480]
 .word 0xaa1103e1
 bl _p_8
 
-Lme_1b:
+Lme_55:
 .text
 	.align 4
 	.no_dead_strip StreamingExample_Principal__ctor
 StreamingExample_Principal__ctor:
-.loc 6 13 0 prologue_end
-.word 0xa9bb7bfd
+.loc 16 15 0 prologue_end
+.word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xaa0003fa
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #2648]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -2420,26 +29048,38 @@ bl _p_23
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 14 0
+.loc 16 16 0
 .word 0xf9400fb1
 .word 0xf9407a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 15 0
+.loc 16 17 0
 .word 0xf9400fb1
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_39
+bl _p_141
 .word 0xf9400fb1
 .word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 17 0
+.loc 16 19 0
 .word 0xf9400fb1
 .word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_142
+.word 0xf9400fb1
+.word 0xf940d231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 16 21 0
+.word 0xf9400fb1
+.word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -2449,22 +29089,22 @@ add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x15, [x16, #496]
 .word 0xaa1a03e0
 bl _p_25
-.word 0xf90027a0
+.word 0xf9002ba0
 .word 0xf9400fb1
-.word 0xf940e231
+.word 0xf9410e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027a0
+.word 0xf9402ba0
 .word 0xd2800021
 .word 0xd2800021
 bl _p_26
 .word 0xf9400fb1
-.word 0xf9410231
+.word 0xf9412e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 19 0
+.loc 16 23 0
 .word 0xf9400fb1
-.word 0xf9411231
+.word 0xf9413e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -2475,31 +29115,31 @@ ldr x0, [x16, #504]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_3
-.word 0xf90023a0
+.word 0xf90027a0
 bl _p_27
-.word 0xf9400fb1
-.word 0xf9414631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a1
-.word 0xaa1a03e0
-bl _p_28
-.word 0xf9400fb1
-.word 0xf9416231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 6 22 0
 .word 0xf9400fb1
 .word 0xf9417231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_7
-.word 0xf9001fa0
+.word 0xf94027a1
+.word 0xaa1a03e0
+bl _p_28
 .word 0xf9400fb1
-.word 0xf9418a31
+.word 0xf9418e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401fa2
+.loc 16 26 0
+.word 0xf9400fb1
+.word 0xf9419e31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_7
+.word 0xf90023a0
+.word 0xf9400fb1
+.word 0xf941b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a2
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
@@ -2515,36 +29155,36 @@ ldr x15, [x16, #312]
 .word 0xf8706850
 .word 0xd63f0200
 .word 0xf9400fb1
-.word 0xf941ce31
+.word 0xf941fa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 24 0
+.loc 16 28 0
 .word 0xf9400fb1
-.word 0xf941de31
+.word 0xf9420a31
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_7
-.word 0xf9001ba0
+.word 0xf9001fa0
 .word 0xf9400fb1
-.word 0xf941f631
+.word 0xf9422231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x540008c0
+.word 0x54000b40
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x0, [x16, #728]
+ldr x0, [x16, #2656]
 .word 0xd2801001
 .word 0xd2801001
 bl _p_3
 .word 0xaa0003e1
-.word 0xf9401ba2
+.word 0xf9401fa2
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x54000700
+.word 0x54000980
 .word 0xd5033bbf
 .word 0xf900103a
 .word 0x91008020
@@ -2562,17 +29202,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x0, [x16, #736]
+ldr x0, [x16, #2664]
 .word 0xf9001420
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x0, [x16, #744]
+ldr x0, [x16, #2672]
 .word 0xf9002020
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x0, [x16, #752]
+ldr x0, [x16, #2680]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -2584,27 +29224,48 @@ ldr x0, [x16, #752]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #760]
+ldr x15, [x16, #2688]
 .word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
 .word 0xf9400fb1
-.word 0xf942de31
+.word 0xf9430a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 25 0
+.loc 16 30 0
 .word 0xf9400fb1
-.word 0xf942ee31
+.word 0xf9431a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_143
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf9433a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_30
+.word 0xf9400fb1
+.word 0xf9435a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 16 31 0
+.word 0xf9400fb1
+.word 0xf9436a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fb1
-.word 0xf942fe31
+.word 0xf9437a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
 .word 0x910003bf
-.word 0xa8c57bfd
+.word 0xa8c67bfd
 .word 0xd65f03c0
 .word 0xd2801c40
 .word 0xaa1103e1
@@ -2613,12 +29274,53 @@ bl _p_8
 .word 0xaa1103e1
 bl _p_8
 
-Lme_1c:
+Lme_56:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Principal_ShowUserData
+StreamingExample_Principal_ShowUserData:
+.loc 16 34 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2696]
+.word 0xf9000fb0
+.word 0xf9400211
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9402a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9404a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 16 43 0
+.word 0xf9400fb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_57:
 .text
 	.align 4
 	.no_dead_strip StreamingExample_Principal_Current_OnNotificationReceived_object_Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs
 StreamingExample_Principal_Current_OnNotificationReceived_object_Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs:
-.loc 6 28 0 prologue_end
+.loc 16 46 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -2627,7 +29329,7 @@ StreamingExample_Principal_Current_OnNotificationReceived_object_Plugin_Firebase
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #2704]
 .word 0xf90017b0
 .word 0xf9400211
 .word 0xf9001bb1
@@ -2643,7 +29345,7 @@ ldr x16, [x16, #768]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 30 0
+.loc 16 48 0
 .word 0xf94017b1
 .word 0xf9406231
 .word 0xb4000051
@@ -2656,7 +29358,7 @@ ldr x16, [x16, #768]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_1d:
+Lme_58:
 .text
 	.align 4
 	.no_dead_strip StreamingExample_Principal_TapGestureRecognizer_Tapped_object_System_EventArgs
@@ -2669,7 +29371,7 @@ StreamingExample_Principal_TapGestureRecognizer_Tapped_object_System_EventArgs:
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #2712]
 .word 0xf90017b0
 .word 0xf9400211
 .word 0xf9001bb1
@@ -2681,12 +29383,12 @@ ldr x16, [x16, #776]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #2720]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_3
 .word 0xf9004fa0
-bl _p_40
+bl _p_144
 .word 0xf94017b1
 .word 0xf9406631
 .word 0xb4000051
@@ -2697,7 +29399,7 @@ bl _p_40
 .word 0xf9004ba0
 .word 0x910103a0
 .word 0xaa0003e8
-bl _p_41
+bl _p_73
 .word 0xf94017b1
 .word 0xf9409231
 .word 0xb4000051
@@ -2833,8 +29535,8 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #792]
-bl _p_42
+ldr x15, [x16, #2728]
+bl _p_145
 .word 0xf94017b1
 .word 0xf9429631
 .word 0xb4000051
@@ -2850,7 +29552,7 @@ bl _p_42
 .word 0xaa1103e1
 bl _p_8
 
-Lme_1e:
+Lme_59:
 .text
 	.align 4
 	.no_dead_strip StreamingExample_Principal_pausar_Tapped_object_System_EventArgs
@@ -2863,7 +29565,7 @@ StreamingExample_Principal_pausar_Tapped_object_System_EventArgs:
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #2736]
 .word 0xf90017b0
 .word 0xf9400211
 .word 0xf9001bb1
@@ -2875,12 +29577,12 @@ ldr x16, [x16, #800]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x0, [x16, #808]
+ldr x0, [x16, #2744]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_3
 .word 0xf9004fa0
-bl _p_43
+bl _p_146
 .word 0xf94017b1
 .word 0xf9406631
 .word 0xb4000051
@@ -2891,7 +29593,7 @@ bl _p_43
 .word 0xf9004ba0
 .word 0x910103a0
 .word 0xaa0003e8
-bl _p_41
+bl _p_73
 .word 0xf94017b1
 .word 0xf9409231
 .word 0xb4000051
@@ -3027,8 +29729,8 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #816]
-bl _p_44
+ldr x15, [x16, #2752]
+bl _p_147
 .word 0xf94017b1
 .word 0xf9429631
 .word 0xb4000051
@@ -3044,395 +29746,7 @@ bl _p_44
 .word 0xaa1103e1
 bl _p_8
 
-Lme_1f:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Principal_stop_Tapped_object_System_EventArgs
-StreamingExample_Principal_stop_Tapped_object_System_EventArgs:
-.word 0xa9b67bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #824]
-.word 0xf90017b0
-.word 0xf9400211
-.word 0xf9001bb1
-.word 0xf90033bf
-.word 0xf94017b1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x0, [x16, #832]
-.word 0xd2800a01
-.word 0xd2800a01
-bl _p_3
-.word 0xf9004fa0
-bl _p_45
-.word 0xf94017b1
-.word 0xf9406631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9404fa0
-.word 0xf90033a0
-.word 0xf94033a0
-.word 0xf9004ba0
-.word 0x910103a0
-.word 0xaa0003e8
-bl _p_41
-.word 0xf94017b1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9404ba0
-.word 0x910103a1
-.word 0x91004002
-.word 0xaa0203e0
-.word 0xf90047a0
-.word 0xd5033bbf
-.word 0xf94047a0
-.word 0xf94023a1
-.word 0xf9000041
-.word 0xd349fc02
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0042
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030042
-.word 0xd280003e
-.word 0x3900005e
-.word 0x91002000
-.word 0xf94027a1
-.word 0xf9000001
-.word 0xd349fc02
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0042
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030042
-.word 0xd280003e
-.word 0x3900005e
-.word 0x91002000
-.word 0xf9402ba1
-.word 0xf9000001
-.word 0xd349fc02
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0042
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030042
-.word 0xd280003e
-.word 0x3900005e
-.word 0x91002001
-.word 0xf9402fa0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.word 0xf94033a0
-.word 0xf9400ba1
-.word 0xf90043a1
-.word 0x91010001
-.word 0xd5033bbf
-.word 0xf94043a0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.word 0xf94033a0
-.word 0xf9400fa1
-.word 0xf9003fa1
-.word 0x9100c001
-.word 0xd5033bbf
-.word 0xf9403fa0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.word 0xf94033a0
-.word 0xf94013a1
-.word 0xf9003ba1
-.word 0x9100e001
-.word 0xd5033bbf
-.word 0xf9403ba0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.word 0xf94033a0
-.word 0x92800001
-.word 0xf2bfffe1
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0xb900481e
-.word 0xf94033a0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x54000240
-.word 0x91004000
-.word 0x910183a1
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #840]
-bl _p_46
-.word 0xf94017b1
-.word 0xf9429631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf942a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8ca7bfd
-.word 0xd65f03c0
-.word 0xd2801c40
-.word 0xaa1103e1
-bl _p_8
-
-Lme_20:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Principal_Perfil_Tapped_object_System_EventArgs
-StreamingExample_Principal_Perfil_Tapped_object_System_EventArgs:
-.word 0xa9b67bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #848]
-.word 0xf90017b0
-.word 0xf9400211
-.word 0xf9001bb1
-.word 0xf90033bf
-.word 0xf94017b1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x0, [x16, #856]
-.word 0xd2800a01
-.word 0xd2800a01
-bl _p_3
-.word 0xf9004fa0
-bl _p_47
-.word 0xf94017b1
-.word 0xf9406631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9404fa0
-.word 0xf90033a0
-.word 0xf94033a0
-.word 0xf9004ba0
-.word 0x910103a0
-.word 0xaa0003e8
-bl _p_41
-.word 0xf94017b1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9404ba0
-.word 0x910103a1
-.word 0x91004002
-.word 0xaa0203e0
-.word 0xf90047a0
-.word 0xd5033bbf
-.word 0xf94047a0
-.word 0xf94023a1
-.word 0xf9000041
-.word 0xd349fc02
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0042
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030042
-.word 0xd280003e
-.word 0x3900005e
-.word 0x91002000
-.word 0xf94027a1
-.word 0xf9000001
-.word 0xd349fc02
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0042
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030042
-.word 0xd280003e
-.word 0x3900005e
-.word 0x91002000
-.word 0xf9402ba1
-.word 0xf9000001
-.word 0xd349fc02
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0042
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030042
-.word 0xd280003e
-.word 0x3900005e
-.word 0x91002001
-.word 0xf9402fa0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.word 0xf94033a0
-.word 0xf9400ba1
-.word 0xf90043a1
-.word 0x91010001
-.word 0xd5033bbf
-.word 0xf94043a0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.word 0xf94033a0
-.word 0xf9400fa1
-.word 0xf9003fa1
-.word 0x9100c001
-.word 0xd5033bbf
-.word 0xf9403fa0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.word 0xf94033a0
-.word 0xf94013a1
-.word 0xf9003ba1
-.word 0x9100e001
-.word 0xd5033bbf
-.word 0xf9403ba0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.word 0xf94033a0
-.word 0x92800001
-.word 0xf2bfffe1
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0xb900481e
-.word 0xf94033a0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x54000240
-.word 0x91004000
-.word 0x910183a1
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #864]
-bl _p_48
-.word 0xf94017b1
-.word 0xf9429631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf942a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8ca7bfd
-.word 0xd65f03c0
-.word 0xd2801c40
-.word 0xaa1103e1
-bl _p_8
-
-Lme_21:
+Lme_5a:
 .text
 	.align 4
 	.no_dead_strip StreamingExample_Principal_txtOrigen_Completed_object_System_EventArgs
@@ -3445,7 +29759,7 @@ StreamingExample_Principal_txtOrigen_Completed_object_System_EventArgs:
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #2760]
 .word 0xf90017b0
 .word 0xf9400211
 .word 0xf9001bb1
@@ -3457,12 +29771,12 @@ ldr x16, [x16, #872]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x0, [x16, #880]
+ldr x0, [x16, #2768]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_3
 .word 0xf9004fa0
-bl _p_49
+bl _p_148
 .word 0xf94017b1
 .word 0xf9406631
 .word 0xb4000051
@@ -3473,7 +29787,7 @@ bl _p_49
 .word 0xf9004ba0
 .word 0x910103a0
 .word 0xaa0003e8
-bl _p_41
+bl _p_73
 .word 0xf94017b1
 .word 0xf9409231
 .word 0xb4000051
@@ -3609,8 +29923,8 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #888]
-bl _p_50
+ldr x15, [x16, #2776]
+bl _p_149
 .word 0xf94017b1
 .word 0xf9429631
 .word 0xb4000051
@@ -3626,7 +29940,7 @@ bl _p_50
 .word 0xaa1103e1
 bl _p_8
 
-Lme_22:
+Lme_5b:
 .text
 	.align 4
 	.no_dead_strip StreamingExample_Principal_TapGestureRecognizer_Tapped_1_object_System_EventArgs
@@ -3639,7 +29953,7 @@ StreamingExample_Principal_TapGestureRecognizer_Tapped_1_object_System_EventArgs
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #2784]
 .word 0xf90017b0
 .word 0xf9400211
 .word 0xf9001bb1
@@ -3651,12 +29965,12 @@ ldr x16, [x16, #896]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x0, [x16, #904]
+ldr x0, [x16, #2792]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_3
 .word 0xf9004fa0
-bl _p_51
+bl _p_150
 .word 0xf94017b1
 .word 0xf9406631
 .word 0xb4000051
@@ -3667,7 +29981,7 @@ bl _p_51
 .word 0xf9004ba0
 .word 0x910103a0
 .word 0xaa0003e8
-bl _p_41
+bl _p_73
 .word 0xf94017b1
 .word 0xf9409231
 .word 0xb4000051
@@ -3803,8 +30117,8 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #912]
-bl _p_52
+ldr x15, [x16, #2800]
+bl _p_151
 .word 0xf94017b1
 .word 0xf9429631
 .word 0xb4000051
@@ -3820,7 +30134,7 @@ bl _p_52
 .word 0xaa1103e1
 bl _p_8
 
-Lme_23:
+Lme_5c:
 .text
 	.align 4
 	.no_dead_strip StreamingExample_Principal_SolicitudRecogida_Tapped_object_System_EventArgs
@@ -3833,7 +30147,7 @@ StreamingExample_Principal_SolicitudRecogida_Tapped_object_System_EventArgs:
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #2808]
 .word 0xf90017b0
 .word 0xf9400211
 .word 0xf9001bb1
@@ -3845,12 +30159,12 @@ ldr x16, [x16, #920]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #2816]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_3
 .word 0xf9004fa0
-bl _p_53
+bl _p_152
 .word 0xf94017b1
 .word 0xf9406631
 .word 0xb4000051
@@ -3861,7 +30175,7 @@ bl _p_53
 .word 0xf9004ba0
 .word 0x910103a0
 .word 0xaa0003e8
-bl _p_41
+bl _p_73
 .word 0xf94017b1
 .word 0xf9409231
 .word 0xb4000051
@@ -3997,8 +30311,8 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #936]
-bl _p_54
+ldr x15, [x16, #2824]
+bl _p_153
 .word 0xf94017b1
 .word 0xf9429631
 .word 0xb4000051
@@ -4014,21 +30328,345 @@ bl _p_54
 .word 0xaa1103e1
 bl _p_8
 
-Lme_24:
+Lme_5d:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Principal_Perfil_Tapped_object_System_EventArgs
+StreamingExample_Principal_Perfil_Tapped_object_System_EventArgs:
+.loc 16 89 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba0
+.word 0xf9001fa1
+.word 0xf90023a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2832]
+.word 0xf90027b0
+.word 0xf9400211
+.word 0xf9002bb1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xf94027b1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 16 91 0
+.word 0xf94027b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #2848]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #2856]
+bl _p_119
+.word 0xf94027b1
+.word 0xf940ae31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 16 92 0
+.word 0xf94027b1
+.word 0xf940be31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_87
+.word 0xaa0003f7
+.word 0xf94027b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000217
+.word 0xf94002e0
+.word 0xf9400000
+.word 0x79403001
+.word 0xd28000fe
+.word 0xeb1e003f
+.word 0x10000011
+.word 0x540008a3
+.word 0xf9400800
+.word 0xf9401800
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1144]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540007a1
+.word 0xaa1703e0
+.word 0xaa1703f9
+.loc 16 93 0
+.word 0xf94027b1
+.word 0xf9415231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xaa1703e0
+.word 0x394002fe
+bl _p_154
+.word 0xaa0003f6
+.word 0xf94027b1
+.word 0xf9417631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000216
+.word 0xf94002c0
+.word 0xf9400000
+.word 0x79403001
+.word 0xd280013e
+.word 0xeb1e003f
+.word 0x10000011
+.word 0x540004c3
+.word 0xf9400800
+.word 0xf9402000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1152]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540003c1
+.word 0xaa1603e0
+.word 0xaa1603f8
+.loc 16 94 0
+.word 0xf94027b1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xd2800020
+.word 0xaa1603e0
+.word 0xd2800021
+.word 0x394002de
+bl _p_89
+.word 0xf94027b1
+.word 0xf941f631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 16 95 0
+.word 0xf94027b1
+.word 0xf9420631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9421631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+.word 0xd28019a0
+.word 0xaa1103e1
+bl _p_8
+
+Lme_5e:
+.text
+	.align 4
+	.no_dead_strip StreamingExample_Principal_TapGestureRecognizer_Tapped_2_object_System_EventArgs
+StreamingExample_Principal_TapGestureRecognizer_Tapped_2_object_System_EventArgs:
+.loc 16 98 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001ba0
+.word 0xf9001fa1
+.word 0xf90023a2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #2864]
+.word 0xf90027b0
+.word 0xf9400211
+.word 0xf9002bb1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xf94027b1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 16 99 0
+.word 0xf94027b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #2840]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x2, [x16, #2848]
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x3, [x16, #2856]
+bl _p_119
+.word 0xf94027b1
+.word 0xf940ae31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 16 100 0
+.word 0xf94027b1
+.word 0xf940be31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_86
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_87
+.word 0xaa0003f7
+.word 0xf94027b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000217
+.word 0xf94002e0
+.word 0xf9400000
+.word 0x79403001
+.word 0xd28000fe
+.word 0xeb1e003f
+.word 0x10000011
+.word 0x540008a3
+.word 0xf9400800
+.word 0xf9401800
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1144]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540007a1
+.word 0xaa1703e0
+.word 0xaa1703f9
+.loc 16 101 0
+.word 0xf94027b1
+.word 0xf9415231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xaa1703e0
+.word 0x394002fe
+bl _p_154
+.word 0xaa0003f6
+.word 0xf94027b1
+.word 0xf9417631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000216
+.word 0xf94002c0
+.word 0xf9400000
+.word 0x79403001
+.word 0xd280013e
+.word 0xeb1e003f
+.word 0x10000011
+.word 0x540004c3
+.word 0xf9400800
+.word 0xf9402000
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x1, [x16, #1152]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540003c1
+.word 0xaa1603e0
+.word 0xaa1603f8
+.loc 16 102 0
+.word 0xf94027b1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xd2800020
+.word 0xaa1603e0
+.word 0xd2800021
+.word 0x394002de
+bl _p_89
+.word 0xf94027b1
+.word 0xf941f631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 16 103 0
+.word 0xf94027b1
+.word 0xf9420631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9421631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+.word 0xd28019a0
+.word 0xaa1103e1
+bl _p_8
+
+Lme_5f:
 .text
 	.align 4
 	.no_dead_strip StreamingExample_Principal_InitializeComponent
 StreamingExample_Principal_InitializeComponent:
-.file 7 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/obj/Debug/Principal.xaml.g.cs"
-.loc 7 35 0 prologue_end
-.word 0xa9ba7bfd
+.file 17 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/Principal.xaml.g.cs"
+.loc 17 29 0 prologue_end
+.word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xaa0003fa
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #2872]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -4044,7 +30682,7 @@ ldr x16, [x16, #944]
 .word 0xf9404e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 36 0
+.loc 17 30 0
 .word 0xf9400fb1
 .word 0xf9405e31
 .word 0xb4000051
@@ -4053,18 +30691,18 @@ ldr x16, [x16, #944]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x1, [x16, #952]
+ldr x1, [x16, #2880]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #960]
+ldr x15, [x16, #2888]
 .word 0xaa1a03e0
-bl _p_55
+bl _p_155
 .word 0xf9400fb1
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 37 0
+.loc 17 31 0
 .word 0xf9400fb1
 .word 0xf940a231
 .word 0xb4000051
@@ -4074,93 +30712,19 @@ bl _p_55
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x1, [x16, #968]
+ldr x1, [x16, #1248]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #976]
+ldr x15, [x16, #2144]
 .word 0xaa1a03e0
-bl _p_56
-.word 0xf9002ba0
+bl _p_117
+.word 0xf90023a0
 .word 0xf9400fb1
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x91080341
-.word 0xd5033bbf
-.word 0xf9402ba0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 7 38 0
-.word 0xf9400fb1
-.word 0xf9412631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x1, [x16, #984]
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #992]
-.word 0xaa1a03e0
-bl _p_57
-.word 0xf90027a0
-.word 0xf9400fb1
-.word 0xf9416231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x91082341
-.word 0xd5033bbf
-.word 0xf94027a0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 7 39 0
-.word 0xf9400fb1
-.word 0xf941aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x1, [x16, #1000]
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #976]
-.word 0xaa1a03e0
-bl _p_56
-.word 0xf90023a0
-.word 0xf9400fb1
-.word 0xf941e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x91084341
 .word 0xd5033bbf
 .word 0xf94023a0
 .word 0xf9000020
@@ -4175,9 +30739,9 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 7 40 0
+.loc 17 32 0
 .word 0xf9400fb1
-.word 0xf9422e31
+.word 0xf9412631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -4185,19 +30749,19 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x1, [x16, #1008]
+ldr x1, [x16, #2416]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #1016]
+ldr x15, [x16, #2152]
 .word 0xaa1a03e0
-bl _p_58
+bl _p_118
 .word 0xf9001fa0
 .word 0xf9400fb1
-.word 0xf9426a31
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x91086341
+.word 0x91082341
 .word 0xd5033bbf
 .word 0xf9401fa0
 .word 0xf9000020
@@ -4212,9 +30776,9 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 7 41 0
+.loc 17 33 0
 .word 0xf9400fb1
-.word 0xf942b231
+.word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -4222,19 +30786,19 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x1, [x16, #1024]
+ldr x1, [x16, #2424]
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #992]
+ldr x15, [x16, #2144]
 .word 0xaa1a03e0
-bl _p_57
+bl _p_117
 .word 0xf9001ba0
 .word 0xf9400fb1
-.word 0xf942ee31
+.word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x91088341
+.word 0x91084341
 .word 0xd5033bbf
 .word 0xf9401ba0
 .word 0xf9000020
@@ -4249,32 +30813,32 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 7 42 0
+.loc 17 34 0
 .word 0xf9400fb1
-.word 0xf9433631
+.word 0xf9422e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fb1
-.word 0xf9434631
+.word 0xf9423e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
 .word 0x910003bf
-.word 0xa8c67bfd
+.word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_25:
+Lme_60:
 .text
 	.align 4
-	.no_dead_strip StreamingExample_Principal__TapGestureRecognizer_Tappedd__4__ctor
-StreamingExample_Principal__TapGestureRecognizer_Tappedd__4__ctor:
+	.no_dead_strip StreamingExample_Principal__TapGestureRecognizer_Tappedd__5__ctor
+StreamingExample_Principal__TapGestureRecognizer_Tappedd__5__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #2896]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -4295,19 +30859,19 @@ ldr x16, [x16, #1032]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_26:
+Lme_61:
 .text
 	.align 4
-	.no_dead_strip StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_MoveNext
-StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_MoveNext:
-.loc 6 0 0 prologue_end
+	.no_dead_strip StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_MoveNext
+StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_MoveNext:
+.loc 16 0 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #2904]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -4320,7 +30884,7 @@ ldr x16, [x16, #1040]
 .word 0xf9400ba0
 .word 0xb9804800
 .word 0xb90033a0
-.loc 6 33 0
+.loc 16 51 0
 .word 0xf94013b1
 .word 0xf9400231
 .word 0xb4000051
@@ -4329,14 +30893,14 @@ ldr x16, [x16, #1040]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 45 0
+.loc 16 63 0
 .word 0xf9400fb1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9402000
-bl _p_59
+bl _p_143
 .word 0xf90033a0
 .word 0xf9400fb1
 .word 0xf9408e31
@@ -4366,19 +30930,19 @@ bl _p_30
 .word 0x540005c0
 .word 0x91004000
 .word 0xf9401fa1
-bl _p_60
+bl _p_124
 .word 0xf9400fb1
 .word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_125
 .word 0xf9002fa0
 .word 0xf9402fa0
 .word 0xb4000060
 .word 0xf9402fa0
-bl _p_62
+bl _p_126
 .word 0x14000019
-.loc 6 46 0
+.loc 16 64 0
 .word 0xf94013b1
 .word 0xf9400231
 .word 0xb4000051
@@ -4398,7 +30962,7 @@ bl _p_62
 .word 0x10000011
 .word 0x540001c0
 .word 0x91004000
-bl _p_63
+bl _p_127
 .word 0xf9400fb1
 .word 0xf9417e31
 .word 0xb4000051
@@ -4414,11 +30978,11 @@ bl _p_63
 .word 0xaa1103e1
 bl _p_8
 
-Lme_27:
+Lme_62:
 .text
 	.align 4
-	.no_dead_strip StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+	.no_dead_strip StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4426,7 +30990,7 @@ StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_SetStateMachine_Syst
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #2912]
 .word 0xf90013b0
 .word 0xf9400211
 .word 0xf90017b1
@@ -4442,18 +31006,18 @@ ldr x16, [x16, #1048]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_28:
+Lme_63:
 .text
 	.align 4
-	.no_dead_strip StreamingExample_Principal__pausar_Tappedd__5__ctor
-StreamingExample_Principal__pausar_Tappedd__5__ctor:
+	.no_dead_strip StreamingExample_Principal__pausar_Tappedd__6__ctor
+StreamingExample_Principal__pausar_Tappedd__6__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #2920]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -4474,19 +31038,19 @@ ldr x16, [x16, #1056]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_29:
+Lme_64:
 .text
 	.align 4
-	.no_dead_strip StreamingExample_Principal__pausar_Tappedd__5_MoveNext
-StreamingExample_Principal__pausar_Tappedd__5_MoveNext:
-.loc 6 0 0 prologue_end
+	.no_dead_strip StreamingExample_Principal__pausar_Tappedd__6_MoveNext
+StreamingExample_Principal__pausar_Tappedd__6_MoveNext:
+.loc 16 0 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #2928]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -4499,7 +31063,7 @@ ldr x16, [x16, #1064]
 .word 0xf9400ba0
 .word 0xb9804800
 .word 0xb90033a0
-.loc 6 49 0
+.loc 16 67 0
 .word 0xf94013b1
 .word 0xf9400231
 .word 0xb4000051
@@ -4508,14 +31072,14 @@ ldr x16, [x16, #1064]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 51 0
+.loc 16 69 0
 .word 0xf9400fb1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9402000
-bl _p_59
+bl _p_143
 .word 0xf90033a0
 .word 0xf9400fb1
 .word 0xf9408e31
@@ -4545,19 +31109,19 @@ bl _p_31
 .word 0x540005c0
 .word 0x91004000
 .word 0xf9401fa1
-bl _p_60
+bl _p_124
 .word 0xf9400fb1
 .word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_125
 .word 0xf9002fa0
 .word 0xf9402fa0
 .word 0xb4000060
 .word 0xf9402fa0
-bl _p_62
+bl _p_126
 .word 0x14000019
-.loc 6 52 0
+.loc 16 70 0
 .word 0xf94013b1
 .word 0xf9400231
 .word 0xb4000051
@@ -4577,7 +31141,7 @@ bl _p_62
 .word 0x10000011
 .word 0x540001c0
 .word 0x91004000
-bl _p_63
+bl _p_127
 .word 0xf9400fb1
 .word 0xf9417e31
 .word 0xb4000051
@@ -4593,11 +31157,11 @@ bl _p_63
 .word 0xaa1103e1
 bl _p_8
 
-Lme_2a:
+Lme_65:
 .text
 	.align 4
-	.no_dead_strip StreamingExample_Principal__pausar_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-StreamingExample_Principal__pausar_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+	.no_dead_strip StreamingExample_Principal__pausar_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+StreamingExample_Principal__pausar_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4605,7 +31169,7 @@ StreamingExample_Principal__pausar_Tappedd__5_SetStateMachine_System_Runtime_Com
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #2936]
 .word 0xf90013b0
 .word 0xf9400211
 .word 0xf90017b1
@@ -4621,18 +31185,18 @@ ldr x16, [x16, #1072]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2b:
+Lme_66:
 .text
 	.align 4
-	.no_dead_strip StreamingExample_Principal__stop_Tappedd__6__ctor
-StreamingExample_Principal__stop_Tappedd__6__ctor:
+	.no_dead_strip StreamingExample_Principal__txtOrigen_Completedd__7__ctor
+StreamingExample_Principal__txtOrigen_Completedd__7__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #2944]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -4653,19 +31217,19 @@ ldr x16, [x16, #1080]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2c:
+Lme_67:
 .text
 	.align 4
-	.no_dead_strip StreamingExample_Principal__stop_Tappedd__6_MoveNext
-StreamingExample_Principal__stop_Tappedd__6_MoveNext:
-.loc 6 0 0 prologue_end
+	.no_dead_strip StreamingExample_Principal__txtOrigen_Completedd__7_MoveNext
+StreamingExample_Principal__txtOrigen_Completedd__7_MoveNext:
+.loc 16 0 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #2952]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -4678,7 +31242,7 @@ ldr x16, [x16, #1088]
 .word 0xf9400ba0
 .word 0xb9804800
 .word 0xb90033a0
-.loc 6 55 0
+.loc 16 73 0
 .word 0xf94013b1
 .word 0xf9400231
 .word 0xb4000051
@@ -4703,19 +31267,19 @@ ldr x16, [x16, #1088]
 .word 0x540005c0
 .word 0x91004000
 .word 0xf9401fa1
-bl _p_60
+bl _p_124
 .word 0xf9400fb1
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_125
 .word 0xf9002fa0
 .word 0xf9402fa0
 .word 0xb4000060
 .word 0xf9402fa0
-bl _p_62
+bl _p_126
 .word 0x14000019
-.loc 6 58 0
+.loc 16 76 0
 .word 0xf94013b1
 .word 0xf9400231
 .word 0xb4000051
@@ -4735,7 +31299,7 @@ bl _p_62
 .word 0x10000011
 .word 0x540001c0
 .word 0x91004000
-bl _p_63
+bl _p_127
 .word 0xf9400fb1
 .word 0xf9412e31
 .word 0xb4000051
@@ -4751,11 +31315,11 @@ bl _p_63
 .word 0xaa1103e1
 bl _p_8
 
-Lme_2d:
+Lme_68:
 .text
 	.align 4
-	.no_dead_strip StreamingExample_Principal__stop_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-StreamingExample_Principal__stop_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+	.no_dead_strip StreamingExample_Principal__txtOrigen_Completedd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+StreamingExample_Principal__txtOrigen_Completedd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4763,7 +31327,7 @@ StreamingExample_Principal__stop_Tappedd__6_SetStateMachine_System_Runtime_Compi
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #2960]
 .word 0xf90013b0
 .word 0xf9400211
 .word 0xf90017b1
@@ -4779,18 +31343,18 @@ ldr x16, [x16, #1096]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2e:
+Lme_69:
 .text
 	.align 4
-	.no_dead_strip StreamingExample_Principal__Perfil_Tappedd__7__ctor
-StreamingExample_Principal__Perfil_Tappedd__7__ctor:
+	.no_dead_strip StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8__ctor
+StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #2968]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -4811,19 +31375,19 @@ ldr x16, [x16, #1104]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2f:
+Lme_6a:
 .text
 	.align 4
-	.no_dead_strip StreamingExample_Principal__Perfil_Tappedd__7_MoveNext
-StreamingExample_Principal__Perfil_Tappedd__7_MoveNext:
-.loc 6 0 0 prologue_end
+	.no_dead_strip StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_MoveNext
+StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_MoveNext:
+.loc 16 0 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #2976]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -4836,7 +31400,7 @@ ldr x16, [x16, #1112]
 .word 0xf9400ba0
 .word 0xb9804800
 .word 0xb90033a0
-.loc 6 61 0
+.loc 16 78 0
 .word 0xf94013b1
 .word 0xf9400231
 .word 0xb4000051
@@ -4861,19 +31425,19 @@ ldr x16, [x16, #1112]
 .word 0x540005c0
 .word 0x91004000
 .word 0xf9401fa1
-bl _p_60
+bl _p_124
 .word 0xf9400fb1
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_125
 .word 0xf9002fa0
 .word 0xf9402fa0
 .word 0xb4000060
 .word 0xf9402fa0
-bl _p_62
+bl _p_126
 .word 0x14000019
-.loc 6 64 0
+.loc 16 81 0
 .word 0xf94013b1
 .word 0xf9400231
 .word 0xb4000051
@@ -4893,7 +31457,7 @@ bl _p_62
 .word 0x10000011
 .word 0x540001c0
 .word 0x91004000
-bl _p_63
+bl _p_127
 .word 0xf9400fb1
 .word 0xf9412e31
 .word 0xb4000051
@@ -4909,11 +31473,11 @@ bl _p_63
 .word 0xaa1103e1
 bl _p_8
 
-Lme_30:
+Lme_6b:
 .text
 	.align 4
-	.no_dead_strip StreamingExample_Principal__Perfil_Tappedd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-StreamingExample_Principal__Perfil_Tappedd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+	.no_dead_strip StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -4921,7 +31485,7 @@ StreamingExample_Principal__Perfil_Tappedd__7_SetStateMachine_System_Runtime_Com
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #2984]
 .word 0xf90013b0
 .word 0xf9400211
 .word 0xf90017b1
@@ -4937,18 +31501,18 @@ ldr x16, [x16, #1120]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_31:
+Lme_6c:
 .text
 	.align 4
-	.no_dead_strip StreamingExample_Principal__txtOrigen_Completedd__8__ctor
-StreamingExample_Principal__txtOrigen_Completedd__8__ctor:
+	.no_dead_strip StreamingExample_Principal__SolicitudRecogida_Tappedd__9__ctor
+StreamingExample_Principal__SolicitudRecogida_Tappedd__9__ctor:
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #2992]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -4969,19 +31533,19 @@ ldr x16, [x16, #1128]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_32:
+Lme_6d:
 .text
 	.align 4
-	.no_dead_strip StreamingExample_Principal__txtOrigen_Completedd__8_MoveNext
-StreamingExample_Principal__txtOrigen_Completedd__8_MoveNext:
-.loc 6 0 0 prologue_end
+	.no_dead_strip StreamingExample_Principal__SolicitudRecogida_Tappedd__9_MoveNext
+StreamingExample_Principal__SolicitudRecogida_Tappedd__9_MoveNext:
+.loc 16 0 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #3000]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -4994,7 +31558,7 @@ ldr x16, [x16, #1136]
 .word 0xf9400ba0
 .word 0xb9804800
 .word 0xb90033a0
-.loc 6 66 0
+.loc 16 83 0
 .word 0xf94013b1
 .word 0xf9400231
 .word 0xb4000051
@@ -5019,19 +31583,19 @@ ldr x16, [x16, #1136]
 .word 0x540005c0
 .word 0x91004000
 .word 0xf9401fa1
-bl _p_60
+bl _p_124
 .word 0xf9400fb1
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_61
+bl _p_125
 .word 0xf9002fa0
 .word 0xf9402fa0
 .word 0xb4000060
 .word 0xf9402fa0
-bl _p_62
+bl _p_126
 .word 0x14000019
-.loc 6 69 0
+.loc 16 86 0
 .word 0xf94013b1
 .word 0xf9400231
 .word 0xb4000051
@@ -5051,7 +31615,7 @@ bl _p_62
 .word 0x10000011
 .word 0x540001c0
 .word 0x91004000
-bl _p_63
+bl _p_127
 .word 0xf9400fb1
 .word 0xf9412e31
 .word 0xb4000051
@@ -5067,11 +31631,11 @@ bl _p_63
 .word 0xaa1103e1
 bl _p_8
 
-Lme_33:
+Lme_6e:
 .text
 	.align 4
-	.no_dead_strip StreamingExample_Principal__txtOrigen_Completedd__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-StreamingExample_Principal__txtOrigen_Completedd__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
+	.no_dead_strip StreamingExample_Principal__SolicitudRecogida_Tappedd__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+StreamingExample_Principal__SolicitudRecogida_Tappedd__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -5079,7 +31643,7 @@ StreamingExample_Principal__txtOrigen_Completedd__8_SetStateMachine_System_Runti
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #3008]
 .word 0xf90013b0
 .word 0xf9400211
 .word 0xf90017b1
@@ -5095,1611 +31659,9 @@ ldr x16, [x16, #1144]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_34:
+Lme_6f:
 .text
-	.align 4
-	.no_dead_strip StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9__ctor
-StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9__ctor:
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1152]
-.word 0xf9000fb0
-.word 0xf9400211
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9402a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fb1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_35:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_MoveNext
-StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_MoveNext:
-.loc 6 0 0 prologue_end
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1160]
-.word 0xf9000fb0
-.word 0xf9400211
-.word 0xf90013b1
-.word 0xb90033bf
-.word 0xf9001fbf
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xb9804800
-.word 0xb90033a0
-.loc 6 71 0
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x1400001c
-.word 0xf90023a0
-.word 0xf94023a0
-.word 0xf9001fa0
-.word 0xf9400ba0
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0xb900481e
-.word 0xf9400ba0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x540005c0
-.word 0x91004000
-.word 0xf9401fa1
-bl _p_60
-.word 0xf9400fb1
-.word 0xf940b231
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_61
-.word 0xf9002fa0
-.word 0xf9402fa0
-.word 0xb4000060
-.word 0xf9402fa0
-bl _p_62
-.word 0x14000019
-.loc 6 74 0
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf940ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0xb900481e
-.word 0xf9400ba0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x540001c0
-.word 0x91004000
-bl _p_63
-.word 0xf9400fb1
-.word 0xf9412e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9413e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-.word 0xd2801c40
-.word 0xaa1103e1
-bl _p_8
-
-Lme_36:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1168]
-.word 0xf90013b0
-.word 0xf9400211
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9402e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_37:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Principal__SolicitudRecogida_Tappedd__10__ctor
-StreamingExample_Principal__SolicitudRecogida_Tappedd__10__ctor:
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1176]
-.word 0xf9000fb0
-.word 0xf9400211
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9402a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fb1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_38:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Principal__SolicitudRecogida_Tappedd__10_MoveNext
-StreamingExample_Principal__SolicitudRecogida_Tappedd__10_MoveNext:
-.loc 6 0 0 prologue_end
-.word 0xa9ba7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1184]
-.word 0xf9000fb0
-.word 0xf9400211
-.word 0xf90013b1
-.word 0xb90033bf
-.word 0xf9001fbf
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xb9804800
-.word 0xb90033a0
-.loc 6 76 0
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x1400001c
-.word 0xf90023a0
-.word 0xf94023a0
-.word 0xf9001fa0
-.word 0xf9400ba0
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0xb900481e
-.word 0xf9400ba0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x540005c0
-.word 0x91004000
-.word 0xf9401fa1
-bl _p_60
-.word 0xf9400fb1
-.word 0xf940b231
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_61
-.word 0xf9002fa0
-.word 0xf9402fa0
-.word 0xb4000060
-.word 0xf9402fa0
-bl _p_62
-.word 0x14000019
-.loc 6 79 0
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf940ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0xb900481e
-.word 0xf9400ba0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x540001c0
-.word 0x91004000
-bl _p_63
-.word 0xf9400fb1
-.word 0xf9412e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9413e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-.word 0xd2801c40
-.word 0xaa1103e1
-bl _p_8
-
-Lme_39:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Principal__SolicitudRecogida_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-StreamingExample_Principal__SolicitudRecogida_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1192]
-.word 0xf90013b0
-.word 0xf9400211
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9402e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_3a:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Footer_add_UserClosed_System_EventHandler_1_System_EventArgs
-StreamingExample_Footer_add_UserClosed_System_EventHandler_1_System_EventArgs:
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xa9015bb5
-.word 0xa90263b7
-.word 0xa9036bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1200]
-.word 0xf90023b0
-.word 0xf9400211
-.word 0xf90027b1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xf94023b1
-.word 0xf9404631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf940e720
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1803f7
-.word 0xaa1803e0
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1a03e1
-bl _p_34
-.word 0xaa0003f5
-.word 0xf94023b1
-.word 0xf9408231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xb4000175
-.word 0xf94002a0
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9400c00
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x1, [x16, #1208]
-.word 0xeb01001f
-.word 0x10000011
-.word 0x540006c1
-.word 0xaa1503e0
-.word 0xaa1503f6
-.word 0xaa1903e0
-.word 0xeb1f033f
-.word 0x10000011
-.word 0x540005a0
-.word 0x91072320
-.word 0xf90037a0
-.word 0xaa1503e0
-.word 0xaa1703e0
-.word 0xd5033bbf
-.word 0xf94037a0
-.word 0xc85f7c10
-.word 0xeb17021f
-.word 0x54000061
-.word 0xc811fc15
-.word 0x35ffff91
-.word 0xd5033bbf
-.word 0xaa1003e1
-.word 0xf90033a1
-.word 0xd349fc00
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0000
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x1, [x16, #16]
-.word 0x8b010000
-.word 0xd280003e
-.word 0x3900001e
-.word 0xf94023b1
-.word 0xf9413631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0xaa0003f8
-.word 0xaa0003e1
-.word 0xaa1703e1
-.word 0xeb17001f
-.word 0x54fff841
-.word 0xf94023b1
-.word 0xf9415e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa9415bb5
-.word 0xa94263b7
-.word 0xa9436bb9
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-.word 0xd2801c40
-.word 0xaa1103e1
-bl _p_8
-.word 0xd28019a0
-.word 0xaa1103e1
-bl _p_8
-
-Lme_3b:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Footer_remove_UserClosed_System_EventHandler_1_System_EventArgs
-StreamingExample_Footer_remove_UserClosed_System_EventHandler_1_System_EventArgs:
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xa9015bb5
-.word 0xa90263b7
-.word 0xa9036bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1216]
-.word 0xf90023b0
-.word 0xf9400211
-.word 0xf90027b1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xf94023b1
-.word 0xf9404631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf940e720
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1803f7
-.word 0xaa1803e0
-.word 0xaa1a03e0
-.word 0xaa1803e0
-.word 0xaa1a03e1
-bl _p_35
-.word 0xaa0003f5
-.word 0xf94023b1
-.word 0xf9408231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xb4000175
-.word 0xf94002a0
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9400c00
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x1, [x16, #1208]
-.word 0xeb01001f
-.word 0x10000011
-.word 0x540006c1
-.word 0xaa1503e0
-.word 0xaa1503f6
-.word 0xaa1903e0
-.word 0xeb1f033f
-.word 0x10000011
-.word 0x540005a0
-.word 0x91072320
-.word 0xf90037a0
-.word 0xaa1503e0
-.word 0xaa1703e0
-.word 0xd5033bbf
-.word 0xf94037a0
-.word 0xc85f7c10
-.word 0xeb17021f
-.word 0x54000061
-.word 0xc811fc15
-.word 0x35ffff91
-.word 0xd5033bbf
-.word 0xaa1003e1
-.word 0xf90033a1
-.word 0xd349fc00
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0000
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x1, [x16, #16]
-.word 0x8b010000
-.word 0xd280003e
-.word 0x3900001e
-.word 0xf94023b1
-.word 0xf9413631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0xaa0003f8
-.word 0xaa0003e1
-.word 0xaa1703e1
-.word 0xeb17001f
-.word 0x54fff841
-.word 0xf94023b1
-.word 0xf9415e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa9415bb5
-.word 0xa94263b7
-.word 0xa9436bb9
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-.word 0xd2801c40
-.word 0xaa1103e1
-bl _p_8
-.word 0xd28019a0
-.word 0xaa1103e1
-bl _p_8
-
-Lme_3c:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Footer__ctor
-StreamingExample_Footer__ctor:
-.file 8 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/Footer.xaml.cs"
-.loc 8 12 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1224]
-.word 0xf9000fb0
-.word 0xf9400211
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9402e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_64
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 13 0
-.word 0xf9400fb1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 14 0
-.word 0xf9400fb1
-.word 0xf9408a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_65
-.word 0xf9400fb1
-.word 0xf940a631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 15 0
-.word 0xf9400fb1
-.word 0xf940b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf940c631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_3d:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Footer_Servicios_Tapped_object_System_EventArgs
-StreamingExample_Footer_Servicios_Tapped_object_System_EventArgs:
-.loc 8 18 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1232]
-.word 0xf90017b0
-.word 0xf9400211
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 21 0
-.word 0xf94017b1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_3e:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Footer_Noticias_Tapped_object_System_EventArgs
-StreamingExample_Footer_Noticias_Tapped_object_System_EventArgs:
-.loc 8 24 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1240]
-.word 0xf90017b0
-.word 0xf9400211
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 31 0
-.word 0xf94017b1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_3f:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Footer_NuestraRed_Tapped_object_System_EventArgs
-StreamingExample_Footer_NuestraRed_Tapped_object_System_EventArgs:
-.loc 8 34 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1248]
-.word 0xf90017b0
-.word 0xf9400211
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 36 0
-.word 0xf94017b1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_40:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Footer_Profile_UserClosed_object_System_EventArgs
-StreamingExample_Footer_Profile_UserClosed_object_System_EventArgs:
-.loc 8 39 0 prologue_end
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xa9015fb6
-.word 0xf90013a0
-.word 0xf90017a1
-.word 0xf9001ba2
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1256]
-.word 0xf9001fb0
-.word 0xf9400211
-.word 0xf90023b1
-.word 0xf9401fb1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9405631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 40 0
-.word 0xf9401fb1
-.word 0xf9406631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013a0
-.word 0xf940e400
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xaa1703e1
-.word 0xaa0003f6
-.word 0xb5000077
-.word 0xaa1603e0
-.word 0x1400000b
-.word 0xaa1603e0
-.word 0xf94017a1
-.word 0xf9401ba2
-.word 0xaa1603e0
-.word 0xf9400ed0
-.word 0xd63f0200
-.word 0xf9401fb1
-.word 0xf940b231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 41 0
-.word 0xf94023b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf940d231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf940e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa9415fb6
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-
-Lme_41:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Footer_Login_UserLogged_object_System_EventArgs
-StreamingExample_Footer_Login_UserLogged_object_System_EventArgs:
-.loc 8 44 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1264]
-.word 0xf90017b0
-.word 0xf9400211
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 47 0
-.word 0xf94017b1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_42:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Footer_Login_UserLoggedPerfil_object_System_EventArgs
-StreamingExample_Footer_Login_UserLoggedPerfil_object_System_EventArgs:
-.loc 8 51 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1272]
-.word 0xf90017b0
-.word 0xf9400211
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 56 0
-.word 0xf94017b1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_43:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Footer_QrCode_Tapped_object_System_EventArgs
-StreamingExample_Footer_QrCode_Tapped_object_System_EventArgs:
-.word 0xa9b67bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1280]
-.word 0xf90017b0
-.word 0xf9400211
-.word 0xf9001bb1
-.word 0xf90033bf
-.word 0xf94017b1
-.word 0xf9403631
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x0, [x16, #1288]
-.word 0xd2800a01
-.word 0xd2800a01
-bl _p_3
-.word 0xf9004fa0
-bl _p_66
-.word 0xf94017b1
-.word 0xf9406631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9404fa0
-.word 0xf90033a0
-.word 0xf94033a0
-.word 0xf9004ba0
-.word 0x910103a0
-.word 0xaa0003e8
-bl _p_41
-.word 0xf94017b1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9404ba0
-.word 0x910103a1
-.word 0x91004002
-.word 0xaa0203e0
-.word 0xf90047a0
-.word 0xd5033bbf
-.word 0xf94047a0
-.word 0xf94023a1
-.word 0xf9000041
-.word 0xd349fc02
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0042
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030042
-.word 0xd280003e
-.word 0x3900005e
-.word 0x91002000
-.word 0xf94027a1
-.word 0xf9000001
-.word 0xd349fc02
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0042
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030042
-.word 0xd280003e
-.word 0x3900005e
-.word 0x91002000
-.word 0xf9402ba1
-.word 0xf9000001
-.word 0xd349fc02
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0042
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x3, [x16, #16]
-.word 0x8b030042
-.word 0xd280003e
-.word 0x3900005e
-.word 0x91002001
-.word 0xf9402fa0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.word 0xf94033a0
-.word 0xf9400ba1
-.word 0xf90043a1
-.word 0x91010001
-.word 0xd5033bbf
-.word 0xf94043a0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.word 0xf94033a0
-.word 0xf9400fa1
-.word 0xf9003fa1
-.word 0x9100c001
-.word 0xd5033bbf
-.word 0xf9403fa0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.word 0xf94033a0
-.word 0xf94013a1
-.word 0xf9003ba1
-.word 0x9100e001
-.word 0xd5033bbf
-.word 0xf9403ba0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.word 0xf94033a0
-.word 0x92800001
-.word 0xf2bfffe1
-.word 0x9280001e
-.word 0xf2bffffe
-.word 0xb900481e
-.word 0xf94033a0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x54000240
-.word 0x91004000
-.word 0x910183a1
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #1296]
-bl _p_67
-.word 0xf94017b1
-.word 0xf9429631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf942a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8ca7bfd
-.word 0xd65f03c0
-.word 0xd2801c40
-.word 0xaa1103e1
-bl _p_8
-
-Lme_44:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Footer_TapGestureRecognizer_Tapped_object_System_EventArgs
-StreamingExample_Footer_TapGestureRecognizer_Tapped_object_System_EventArgs:
-.loc 8 65 0 prologue_end
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1304]
-.word 0xf90017b0
-.word 0xf9400211
-.word 0xf9001bb1
-.word 0xf94017b1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 66 0
-.word 0xf94017b1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-bl _p_68
-.word 0xf90027a0
-.word 0xf94017b1
-.word 0xf9407e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x0, [x16, #392]
-.word 0xd2804001
-.word 0xd2804001
-bl _p_3
-.word 0xf90023a0
-bl _p_13
-.word 0xf94017b1
-.word 0xf940ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023a1
-.word 0xf94027a2
-.word 0xaa0203e0
-.word 0xf9400042
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #1312]
-.word 0x928001f0
-.word 0xf2bffff0
-.word 0xf8706850
-.word 0xd63f0200
-.word 0xf94017b1
-.word 0xf940ea31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 67 0
-.word 0xf94017b1
-.word 0xf940fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017b1
-.word 0xf9410a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c57bfd
-.word 0xd65f03c0
-
-Lme_45:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Footer_InitializeComponent
-StreamingExample_Footer_InitializeComponent:
-.file 9 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/obj/Debug/Footer.xaml.g.cs"
-.loc 9 23 0 prologue_end
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1320]
-.word 0xf9000fb0
-.word 0xf9400211
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9402e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 9 24 0
-.word 0xf9400fb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x1, [x16, #1328]
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #1336]
-.word 0xaa1a03e0
-bl _p_69
-.word 0xf9400fb1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.loc 9 25 0
-.word 0xf9400fb1
-.word 0xf940a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x1, [x16, #1344]
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #1352]
-.word 0xaa1a03e0
-bl _p_70
-.word 0xf9001ba0
-.word 0xf9400fb1
-.word 0xf940de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x91074341
-.word 0xd5033bbf
-.word 0xf9401ba0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 9 26 0
-.word 0xf9400fb1
-.word 0xf9412631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9413631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_46:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Footer__QrCode_Tappedd__10__ctor
-StreamingExample_Footer__QrCode_Tappedd__10__ctor:
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1360]
-.word 0xf9000fb0
-.word 0xf9400211
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9402a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9400fb1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_47:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Footer__QrCode_Tappedd__10_MoveNext
-StreamingExample_Footer__QrCode_Tappedd__10_MoveNext:
-.loc 8 0 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1368]
-.word 0xf9000fb0
-.word 0xf9400211
-.word 0xf90013b1
-.word 0xb90033bf
-.word 0xf9001fbf
-.word 0xf9400fb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xb9804800
-.word 0xb90033a0
-.loc 8 59 0
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 8 60 0
-.word 0xf9400fb1
-.word 0xf9406e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0xf9402000
-bl _p_68
-.word 0xf90037a0
-.word 0xf9400fb1
-.word 0xf9408e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x0, [x16, #392]
-.word 0xd2804001
-.word 0xd2804001
-bl _p_3
-.word 0xf90033a0
-bl _p_13
-.word 0xf9400fb1
-.word 0xf940be31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a1
-.word 0xf94037a2
-.word 0xaa0203e0
-.word 0xf9400042
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #1312]
-.word 0x928001f0
-.word 0xf2bffff0
-.word 0xf8706850
-.word 0xd63f0200
-.word 0xf9400fb1
-.word 0xf940fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x1400001c
-.word 0xf90023a0
-.word 0xf94023a0
-.word 0xf9001fa0
-.word 0xf9400ba0
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0xb900481e
-.word 0xf9400ba0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x540005c0
-.word 0x91004000
-.word 0xf9401fa1
-bl _p_60
-.word 0xf9400fb1
-.word 0xf9414e31
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_61
-.word 0xf9002fa0
-.word 0xf9402fa0
-.word 0xb4000060
-.word 0xf9402fa0
-bl _p_62
-.word 0x14000019
-.loc 8 62 0
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9418a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-.word 0x92800021
-.word 0xf2bfffe1
-.word 0x9280003e
-.word 0xf2bffffe
-.word 0xb900481e
-.word 0xf9400ba0
-.word 0xeb1f001f
-.word 0x10000011
-.word 0x540001c0
-.word 0x91004000
-bl _p_63
-.word 0xf9400fb1
-.word 0xf941ca31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf941da31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-.word 0xd2801c40
-.word 0xaa1103e1
-bl _p_8
-
-Lme_48:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_Footer__QrCode_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-StreamingExample_Footer__QrCode_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
-.word 0xa9bc7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-.word 0xf9000fa1
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1376]
-.word 0xf90013b0
-.word 0xf9400211
-.word 0xf90017b1
-.word 0xf94013b1
-.word 0xf9402e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9403e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c47bfd
-.word 0xd65f03c0
-
-Lme_49:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_misionvision__ctor
-StreamingExample_misionvision__ctor:
-.file 10 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/misionvision.xaml.cs"
-.loc 10 10 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xaa0003fa
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1384]
-.word 0xf9000fb0
-.word 0xf9400211
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9402e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9404e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_23
-.word 0xf9400fb1
-.word 0xf9406a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 10 11 0
-.word 0xf9400fb1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 10 12 0
-.word 0xf9400fb1
-.word 0xf9408a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_71
-.word 0xf9400fb1
-.word 0xf940a631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 10 13 0
-.word 0xf9400fb1
-.word 0xf940b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf940c631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_4a:
-.text
-	.align 4
-	.no_dead_strip StreamingExample_misionvision_InitializeComponent
-StreamingExample_misionvision_InitializeComponent:
-.file 11 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio_omar/StreamingExample/obj/Debug/misionvision.xaml.g.cs"
-.loc 11 20 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf9000ba0
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1392]
-.word 0xf9000fb0
-.word 0xf9400211
-.word 0xf90013b1
-.word 0xf9400fb1
-.word 0xf9402a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9404a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 11 21 0
-.word 0xf9400fb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400ba0
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x1, [x16, #1400]
-
-adrp x16, mono_aot_StreamingExample_got@PAGE+0
-add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x15, [x16, #1408]
-bl _p_72
-.word 0xf9400fb1
-.word 0xf9408a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 11 22 0
-.word 0xf9400fb1
-.word 0xf9409a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_4b:
-.text
-ut_78:
+ut_114:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 ut_end:
@@ -6707,14 +31669,14 @@ ut_end:
 _unbox_trampoline_p:
 
 	.long 0
-LDIFF_SYM3=ut_end - ut_78
+LDIFF_SYM3=ut_end - ut_114
 	.long LDIFF_SYM3
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
-.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
-.loc 12 250 0 prologue_end
+.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.loc 18 250 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -6724,7 +31686,7 @@ System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #3016]
 .word 0xf90013b0
 .word 0xf9400211
 .word 0xf90017b1
@@ -6758,7 +31720,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 12 251 0
+.loc 18 251 0
 .word 0xf94013b1
 .word 0xf940aa31
 .word 0xb4000051
@@ -6769,7 +31731,7 @@ ldr x2, [x16, #16]
 .word 0x9280003e
 .word 0xf2bffffe
 .word 0xb9000b3e
-.loc 12 252 0
+.loc 18 252 0
 .word 0xf94013b1
 .word 0xf940d231
 .word 0xb4000051
@@ -6783,16 +31745,16 @@ ldr x2, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_4e:
+Lme_72:
 .text
-ut_79:
+ut_115:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_Dispose
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_Dispose
 System_Array_InternalEnumerator_1_T_INST_Dispose:
-.loc 12 256 0 prologue_end
+.loc 18 256 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9001baf
@@ -6800,7 +31762,7 @@ System_Array_InternalEnumerator_1_T_INST_Dispose:
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1424]
+ldr x16, [x16, #3024]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -6824,16 +31786,16 @@ ldr x16, [x16, #1424]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_4f:
+Lme_73:
 .text
-ut_80:
+ut_116:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_MoveNext
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_MoveNext
 System_Array_InternalEnumerator_1_T_INST_MoveNext:
-.loc 12 260 0 prologue_end
+.loc 18 260 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -6842,7 +31804,7 @@ System_Array_InternalEnumerator_1_T_INST_MoveNext:
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #3032]
 .word 0xf90013b0
 .word 0xf9400211
 .word 0xf90017b1
@@ -6867,7 +31829,7 @@ ldr x16, [x16, #1432]
 .word 0xf2bffffe
 .word 0x6b1e001f
 .word 0x54000201
-.loc 12 261 0
+.loc 18 261 0
 .word 0xf94013b1
 .word 0xf9408631
 .word 0xb4000051
@@ -6883,7 +31845,7 @@ ldr x16, [x16, #1432]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xb9000b40
-.loc 12 263 0
+.loc 18 263 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -6929,16 +31891,16 @@ ldr x16, [x16, #1432]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_50:
+Lme_74:
 .text
-ut_81:
+ut_117:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_get_Current
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_get_Current
 System_Array_InternalEnumerator_1_T_INST_get_Current:
-.loc 12 268 0 prologue_end
+.loc 18 268 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -6947,7 +31909,7 @@ System_Array_InternalEnumerator_1_T_INST_get_Current:
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #3040]
 .word 0xf90017b0
 .word 0xf9400211
 .word 0xf9001bb1
@@ -6971,22 +31933,22 @@ ldr x16, [x16, #1440]
 .word 0xf2bffffe
 .word 0x6b1e001f
 .word 0x540001e1
-.loc 12 269 0
+.loc 18 269 0
 .word 0xf94017b1
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd293c780
 .word 0xd293c780
-bl _p_73
+bl _p_156
 .word 0xaa0003e1
 .word 0xd28019c0
 .word 0xf2a04000
 .word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_62
-.loc 12 270 0
+bl _p_126
+.loc 18 270 0
 .word 0xf94017b1
 .word 0xf940ba31
 .word 0xb4000051
@@ -6999,22 +31961,22 @@ bl _p_62
 .word 0xf2bffffe
 .word 0x6b1e001f
 .word 0x540001e1
-.loc 12 271 0
+.loc 18 271 0
 .word 0xf94017b1
 .word 0xf940ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd293d240
 .word 0xd293d240
-bl _p_73
+bl _p_156
 .word 0xaa0003e1
 .word 0xd28019c0
 .word 0xf2a04000
 .word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_62
-.loc 12 273 0
+bl _p_126
+.loc 18 273 0
 .word 0xf94017b1
 .word 0xf9412231
 .word 0xb4000051
@@ -7037,7 +31999,7 @@ bl _p_62
 .word 0x4b010000
 .word 0xf90037a0
 .word 0xf9402ba0
-bl _p_74
+bl _p_157
 .word 0xaa0003e1
 .word 0xf9403fa0
 .word 0xf9003ba1
@@ -7045,7 +32007,7 @@ bl _p_74
 .word 0x3940001e
 .word 0xf90033a0
 .word 0xf9402ba0
-bl _p_75
+bl _p_158
 .word 0xaa0003e2
 .word 0xf94033a0
 .word 0xf94037a1
@@ -7077,16 +32039,16 @@ bl _p_75
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_51:
+Lme_75:
 .text
-ut_82:
+ut_118:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
 System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset:
-.loc 12 279 0 prologue_end
+.loc 18 279 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9001baf
@@ -7094,7 +32056,7 @@ System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset:
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #3048]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -7116,7 +32078,7 @@ ldr x16, [x16, #1448]
 .word 0x9280003e
 .word 0xf2bffffe
 .word 0xb900081e
-.loc 12 280 0
+.loc 18 280 0
 .word 0xf9400fb1
 .word 0xf9407631
 .word 0xb4000051
@@ -7129,16 +32091,16 @@ ldr x16, [x16, #1448]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_52:
+Lme_76:
 .text
-ut_83:
+ut_119:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current:
-.loc 12 284 0 prologue_end
+.loc 18 284 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf90023af
@@ -7146,7 +32108,7 @@ System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Curr
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #3056]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -7165,14 +32127,14 @@ ldr x16, [x16, #1456]
 .word 0xf9400ba0
 .word 0xf90037a0
 .word 0xf94023a0
-bl _p_76
+bl _p_159
 .word 0xaa0003e1
 .word 0xf94037a0
 .word 0xf90033a1
 .word 0x3940001e
 .word 0xf9002fa0
 .word 0xf94023a0
-bl _p_77
+bl _p_160
 .word 0xaa0003e1
 .word 0xf9402fa0
 .word 0xf94033af
@@ -7187,7 +32149,7 @@ bl _p_77
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-bl _p_78
+bl _p_161
 .word 0xd2800401
 .word 0xd2800401
 bl _p_3
@@ -7232,12 +32194,12 @@ ldr x3, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_53:
+Lme_77:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST:
-.loc 12 84 0 prologue_end
+.loc 18 84 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -7246,7 +32208,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST:
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #3064]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -7271,21 +32233,21 @@ ldr x16, [x16, #1464]
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0x350001c0
-.loc 12 85 0
+.loc 18 85 0
 .word 0xf9400fb1
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_79
+bl _p_162
 .word 0x3980b410
 .word 0xb5000050
-bl _p_80
+bl _p_163
 .word 0xf9402ba0
-bl _p_81
+bl _p_164
 .word 0xf9400000
 .word 0x1400003a
-.loc 12 87 0
+.loc 18 87 0
 .word 0xf9400fb1
 .word 0xf940ba31
 .word 0xb4000051
@@ -7298,10 +32260,10 @@ bl _p_81
 .word 0x910103a0
 .word 0xf90037a0
 .word 0xf9402ba0
-bl _p_82
+bl _p_165
 .word 0xf9003ba0
 .word 0xf9402ba0
-bl _p_83
+bl _p_166
 .word 0xaa0003e2
 .word 0xf94037a0
 .word 0xf9403baf
@@ -7318,7 +32280,7 @@ bl _p_83
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_82
+bl _p_165
 .word 0xd2800401
 .word 0xd2800401
 bl _p_3
@@ -7353,7 +32315,152 @@ ldr x4, [x16, #16]
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_54:
+Lme_78:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Type_string_invoke_TResult_T_System_Type
+wrapper_delegate_invoke_System_Func_2_System_Type_string_invoke_TResult_T_System_Type:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3072]
+.word 0xf9002bb0
+.word 0xf9400211
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x34000220
+bl _p_167
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000140
+.word 0xf9403ba0
+.word 0xf9003fa0
+.word 0xf9403fa0
+.word 0xf9403fa1
+.word 0x91022021
+.word 0xd2800022
+.word 0xd280003e
+.word 0xb900003e
+bl _p_168
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101e320
+.word 0xf9403f20
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb50003c0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001a0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000035
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002b
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003e1
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2801900
+.word 0xaa1103e1
+bl _p_8
+
+Lme_7a:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_object_TEventArgs_object_System_EventArgs
@@ -7370,7 +32477,7 @@ wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_objec
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #3080]
 .word 0xf9002bb0
 .word 0xf9400211
 .word 0xf9002fb1
@@ -7389,7 +32496,7 @@ add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x0, [x16, #48]
 .word 0xb9400000
 .word 0x34000220
-bl _p_84
+bl _p_167
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
@@ -7403,7 +32510,7 @@ bl _p_84
 .word 0xd2800022
 .word 0xd280003e
 .word 0xb900003e
-bl _p_85
+bl _p_168
 .word 0xf9403ba0
 .word 0xaa1803e0
 .word 0xaa1803e0
@@ -7498,12 +32605,374 @@ bl _p_85
 .word 0xaa1103e1
 bl _p_8
 
-Lme_56:
+Lme_7b:
+.text
+ut_124:
+add x0, x0, 16
+b System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
+.text
+	.align 4
+	.no_dead_strip System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
+System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_:
+.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
+.loc 19 161 0 prologue_end
+.word 0xa9b07bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xf9003faf
+.word 0xaa0003f8
+.word 0xf9002ba1
+.word 0xf9002fa2
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3088]
+.word 0xf90033b0
+.word 0xf9400211
+.word 0xf90037b1
+.word 0xf9403fa0
+bl _p_169
+.word 0xaa0003f7
+.word 0xb98002e0
+.word 0x91003c10
+.word 0x928001f1
+.word 0xf2bffff1
+.word 0x8a110210
+.word 0x910003f1
+.word 0xcb100231
+.word 0x9100023f
+.word 0x8b100230
+.word 0xeb10023f
+.word 0x54000080
+.word 0xa9007e3f
+.word 0x91004231
+.word 0x17fffffc
+.word 0x910003f6
+.word 0xf90043bf
+.word 0xd2800015
+.word 0xf94033b1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf90043bf
+.loc 19 162 0
+.word 0xf94033b1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x91002300
+.word 0xf90067a0
+bl _p_170
+.word 0x53001c00
+.word 0xf90063a0
+.word 0xf94033b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94063a0
+.word 0xf94067a1
+.word 0xaa0103f4
+.word 0x350000c0
+.word 0xaa1403e0
+.word 0xd2800000
+.word 0xaa1403f3
+.word 0xd280001a
+.word 0x1400000d
+.word 0xaa1403e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+bl _p_171
+.word 0xf90063a0
+.word 0xf94033b1
+.word 0xf9413a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94063a0
+.word 0xaa1403f3
+.word 0xaa0003fa
+.word 0xaa1303e0
+.word 0xaa1a03e0
+.word 0x910203a2
+.word 0xaa1303e0
+.word 0xaa1a03e1
+bl _p_172
+.word 0xf90063a0
+.word 0xf94033b1
+.word 0xf9417231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94063a0
+.word 0xaa0003f5
+.loc 19 166 0
+.word 0xf94033b1
+.word 0xf9418a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x91002300
+.word 0xf9400000
+.word 0xb50013e0
+.loc 19 168 0
+.word 0xf94037b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf941ba31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_170
+.word 0x53001c00
+.word 0xf90063a0
+.word 0xf94033b1
+.word 0xf941d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94063a0
+.word 0x340009a0
+.loc 19 169 0
+.word 0xf94037b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf941fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xaa1803e0
+.word 0xaa1803e0
+bl _p_171
+.word 0xf9007fa0
+.word 0xf94033b1
+.word 0xf9422231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407fa1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_173
+.word 0x93407c00
+.word 0xf90063a0
+.word 0xf94033b1
+.word 0xf9424a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #3096]
+.word 0xf9006ba0
+.word 0xf9402fa0
+.word 0xf90077a0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #3104]
+.word 0xf9007ba0
+.word 0xf9403fa0
+bl _p_174
+.word 0xaa0003e2
+.word 0xf94077a0
+.word 0xf9407ba1
+.word 0xd2800003
+.word 0xd2800003
+.word 0xd2800003
+.word 0xd2800004
+bl _p_175
+.word 0xf90073a0
+.word 0xf94033b1
+.word 0xf942ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94073a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9406430
+.word 0xd63f0200
+.word 0xf9006fa0
+.word 0xf94033b1
+.word 0xf942d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9406ba0
+.word 0xf9406fa1
+bl _p_10
+.word 0xf90067a0
+.word 0xf94033b1
+.word 0xf942f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94063a1
+.word 0xf94067a2
+.word 0xd2800000
+.word 0xd2800000
+.word 0xd2800003
+bl _p_176
+.loc 19 174 0
+.word 0xf94037b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf9432e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x91002300
+.word 0xf90047a0
+.word 0xf9402fa1
+.word 0xb9802ae0
+.word 0xaa1603e2
+.word 0x8b0002c0
+.word 0xf9400ee2
+.word 0xf94012e3
+.word 0xd63f0060
+.word 0xf94006f9
+.word 0xd280005e
+.word 0xeb1e033f
+.word 0x54000320
+.word 0xd280007e
+.word 0xeb1e033f
+.word 0x54000380
+.word 0xf9403fa0
+bl _p_177
+bl _p_178
+.word 0xb9802ae1
+.word 0xaa1603e2
+.word 0x8b0102c1
+.word 0xf9006ba1
+.word 0xf90063a0
+.word 0x91004000
+.word 0xf90067a0
+.word 0xf9400ee0
+.word 0xf94012e0
+.word 0xf9403fa0
+bl _p_174
+.word 0xaa0003e2
+.word 0xf94067a0
+.word 0xf9406ba1
+bl _mono_gsharedvt_value_copy
+.word 0xf94063a0
+.word 0xf9004ba0
+.word 0x1400000e
+.word 0xb9802ae0
+.word 0xaa1603e1
+.word 0x8b0002c0
+.word 0xf9400000
+.word 0xf9004ba0
+.word 0x14000008
+.word 0xf9400ae1
+.word 0xb9802ae0
+.word 0xaa1603e2
+.word 0x8b0002c0
+.word 0xd63f0020
+.word 0xf9004ba0
+.word 0x14000001
+.word 0xf94043a2
+.word 0xd2800000
+.word 0xf94047a0
+.word 0xf9404ba1
+.word 0xd2800003
+bl _p_179
+.loc 19 177 0
+.word 0xf94037b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf9443231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf90063a0
+.word 0xaa1503e0
+
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x0, [x16, #3112]
+.word 0xf90067a0
+.word 0xf9403fa0
+bl _p_180
+.word 0xaa0003e2
+.word 0xf94063a0
+.word 0xf94067a1
+.word 0xd10043ff
+.word 0xa9007fff
+.word 0x910003e4
+.word 0xd2800003
+.word 0xf9000095
+.word 0xd2800003
+bl _p_175
+.loc 19 178 0
+.word 0xf94033b1
+.word 0xf9448e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000017
+.word 0xf9004fa0
+.word 0xf9404fa0
+.word 0xf90063a0
+.loc 19 181 0
+.word 0xf94033b1
+.word 0xf944ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94063a0
+.word 0xd2800001
+.word 0xd2800001
+bl _p_181
+.loc 19 182 0
+.word 0xf94033b1
+.word 0xf944ce31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_125
+.word 0xf9005ba0
+.word 0xf9405ba0
+.word 0xb4000060
+.word 0xf9405ba0
+bl _p_126
+.word 0x14000001
+.loc 19 183 0
+.word 0xf94037b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf9450a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf9451a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8d07bfd
+.word 0xd65f03c0
+
+Lme_7c:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__get_Item_T_INST_int
 System_Array_InternalArray__get_Item_T_INST_int:
-.loc 12 192 0 prologue_end
+.loc 18 192 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -7513,7 +32982,7 @@ System_Array_InternalArray__get_Item_T_INST_int:
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #3120]
 .word 0xf9001bb0
 .word 0xf9400211
 .word 0xf9001fb1
@@ -7544,22 +33013,22 @@ ldr x16, [x16, #1480]
 .word 0xf94043a0
 .word 0x6b00035f
 .word 0x540001e3
-.loc 12 193 0
+.loc 18 193 0
 .word 0xf9401bb1
 .word 0xf940a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd281e180
 .word 0xd281e180
-bl _p_73
+bl _p_156
 .word 0xaa0003e1
 .word 0xd2801000
 .word 0xf2a04000
 .word 0xd2801000
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_62
-.loc 12 197 0
+bl _p_126
+.loc 18 197 0
 .word 0xf9401bb1
 .word 0xf940da31
 .word 0xb4000051
@@ -7581,7 +33050,7 @@ bl _p_62
 .word 0xf90037a0
 .word 0xf94033a0
 .word 0xf9003ba0
-.loc 12 198 0
+.loc 18 198 0
 .word 0xf9401bb1
 .word 0xf9412e31
 .word 0xb4000051
@@ -7609,7 +33078,7 @@ bl _p_62
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_57:
+Lme_7d:
 .text
 	.align 3
 jit_code_end:
@@ -7646,38 +33115,49 @@ bl StreamingExample_StreamingViewModel__ctor
 bl method_addresses
 bl method_addresses
 bl method_addresses
-bl StreamingExample_Principal_get_ViewModel
-bl StreamingExample_Principal__ctor
-bl StreamingExample_Principal_Current_OnNotificationReceived_object_Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs
-bl StreamingExample_Principal_TapGestureRecognizer_Tapped_object_System_EventArgs
-bl StreamingExample_Principal_pausar_Tapped_object_System_EventArgs
-bl StreamingExample_Principal_stop_Tapped_object_System_EventArgs
-bl StreamingExample_Principal_Perfil_Tapped_object_System_EventArgs
-bl StreamingExample_Principal_txtOrigen_Completed_object_System_EventArgs
-bl StreamingExample_Principal_TapGestureRecognizer_Tapped_1_object_System_EventArgs
-bl StreamingExample_Principal_SolicitudRecogida_Tapped_object_System_EventArgs
-bl StreamingExample_Principal_InitializeComponent
-bl StreamingExample_Principal__TapGestureRecognizer_Tappedd__4__ctor
-bl StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_MoveNext
-bl StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-bl StreamingExample_Principal__pausar_Tappedd__5__ctor
-bl StreamingExample_Principal__pausar_Tappedd__5_MoveNext
-bl StreamingExample_Principal__pausar_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-bl StreamingExample_Principal__stop_Tappedd__6__ctor
-bl StreamingExample_Principal__stop_Tappedd__6_MoveNext
-bl StreamingExample_Principal__stop_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-bl StreamingExample_Principal__Perfil_Tappedd__7__ctor
-bl StreamingExample_Principal__Perfil_Tappedd__7_MoveNext
-bl StreamingExample_Principal__Perfil_Tappedd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-bl StreamingExample_Principal__txtOrigen_Completedd__8__ctor
-bl StreamingExample_Principal__txtOrigen_Completedd__8_MoveNext
-bl StreamingExample_Principal__txtOrigen_Completedd__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-bl StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9__ctor
-bl StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_MoveNext
-bl StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-bl StreamingExample_Principal__SolicitudRecogida_Tappedd__10__ctor
-bl StreamingExample_Principal__SolicitudRecogida_Tappedd__10_MoveNext
-bl StreamingExample_Principal__SolicitudRecogida_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl StreamingExample_misionvision__ctor
+bl StreamingExample_misionvision_InitializeComponent
+bl StreamingExample_MainMaster__ctor
+bl StreamingExample_MainMaster_MainMaster_IsPresentedChanged_object_System_EventArgs
+bl StreamingExample_MainMaster_InitializeComponent
+bl StreamingExample_MainMaster___InitComponentRuntime
+bl StreamingExample_MainMasterMaster__ctor
+bl StreamingExample_MainMasterMaster_ConectarSocket_Tapped_object_System_EventArgs
+bl StreamingExample_MainMasterMaster_metodoinicio_Tapped_object_System_EventArgs
+bl StreamingExample_MainMasterMaster_agregarCuentaBanc_Tapped_object_System_EventArgs
+bl StreamingExample_MainMasterMaster_cargaDocum_Tapped_object_System_EventArgs
+bl StreamingExample_MainMasterMaster_misganancias_Tapped_object_System_EventArgs
+bl StreamingExample_MainMasterMaster_billetera_Tapped_object_System_EventArgs
+bl StreamingExample_MainMasterMaster_cambiarContra_Tapped_object_System_EventArgs
+bl StreamingExample_MainMasterMaster_redimirpuntos_Tapped_object_System_EventArgs
+bl StreamingExample_MainMasterMaster_ayudametodo_Tapped_object_System_EventArgs
+bl StreamingExample_MainMasterMaster_Historial_Tapped_object_System_EventArgs
+bl StreamingExample_MainMasterMaster_CerrarSesion_Tapped_object_System_EventArgs
+bl StreamingExample_MainMasterMaster_Perfil_Tapped_object_System_EventArgs
+bl StreamingExample_MainMasterMaster_Pedidos_Tapped_object_System_EventArgs
+bl StreamingExample_MainMasterMaster_ShowingMenu
+bl StreamingExample_MainMasterMaster_InitializeComponent
+bl StreamingExample_MainMasterMaster___InitComponentRuntime
+bl StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2__ctor
+bl StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_MoveNext
+bl StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3__ctor
+bl StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_MoveNext
+bl StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl StreamingExample_MainMasterMaster__misganancias_Tappedd__5__ctor
+bl StreamingExample_MainMasterMaster__misganancias_Tappedd__5_MoveNext
+bl StreamingExample_MainMasterMaster__misganancias_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl StreamingExample_MainMasterMaster__billetera_Tappedd__6__ctor
+bl StreamingExample_MainMasterMaster__billetera_Tappedd__6_MoveNext
+bl StreamingExample_MainMasterMaster__billetera_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8__ctor
+bl StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_MoveNext
+bl StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9__ctor
+bl StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_MoveNext
+bl StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl StreamingExample_MainMap__ctor
+bl StreamingExample_MainMap_InitializeComponent
 bl StreamingExample_Footer_add_UserClosed_System_EventHandler_1_System_EventArgs
 bl StreamingExample_Footer_remove_UserClosed_System_EventHandler_1_System_EventArgs
 bl StreamingExample_Footer__ctor
@@ -7693,8 +33173,33 @@ bl StreamingExample_Footer_InitializeComponent
 bl StreamingExample_Footer__QrCode_Tappedd__10__ctor
 bl StreamingExample_Footer__QrCode_Tappedd__10_MoveNext
 bl StreamingExample_Footer__QrCode_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-bl StreamingExample_misionvision__ctor
-bl StreamingExample_misionvision_InitializeComponent
+bl StreamingExample_Principal_get_ViewModel
+bl StreamingExample_Principal__ctor
+bl StreamingExample_Principal_ShowUserData
+bl StreamingExample_Principal_Current_OnNotificationReceived_object_Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs
+bl StreamingExample_Principal_TapGestureRecognizer_Tapped_object_System_EventArgs
+bl StreamingExample_Principal_pausar_Tapped_object_System_EventArgs
+bl StreamingExample_Principal_txtOrigen_Completed_object_System_EventArgs
+bl StreamingExample_Principal_TapGestureRecognizer_Tapped_1_object_System_EventArgs
+bl StreamingExample_Principal_SolicitudRecogida_Tapped_object_System_EventArgs
+bl StreamingExample_Principal_Perfil_Tapped_object_System_EventArgs
+bl StreamingExample_Principal_TapGestureRecognizer_Tapped_2_object_System_EventArgs
+bl StreamingExample_Principal_InitializeComponent
+bl StreamingExample_Principal__TapGestureRecognizer_Tappedd__5__ctor
+bl StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_MoveNext
+bl StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl StreamingExample_Principal__pausar_Tappedd__6__ctor
+bl StreamingExample_Principal__pausar_Tappedd__6_MoveNext
+bl StreamingExample_Principal__pausar_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl StreamingExample_Principal__txtOrigen_Completedd__7__ctor
+bl StreamingExample_Principal__txtOrigen_Completedd__7_MoveNext
+bl StreamingExample_Principal__txtOrigen_Completedd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8__ctor
+bl StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_MoveNext
+bl StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+bl StreamingExample_Principal__SolicitudRecogida_Tappedd__9__ctor
+bl StreamingExample_Principal__SolicitudRecogida_Tappedd__9_MoveNext
+bl StreamingExample_Principal__SolicitudRecogida_Tappedd__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 bl method_addresses
 bl method_addresses
 bl System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
@@ -7705,7 +33210,9 @@ bl System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
 bl System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 bl System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
 bl method_addresses
+bl wrapper_delegate_invoke_System_Func_2_System_Type_string_invoke_TResult_T_System_Type
 bl wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_object_TEventArgs_object_System_EventArgs
+bl System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
 bl System_Array_InternalArray__get_Item_T_INST_int
 method_addresses_end:
 
@@ -7713,19 +33220,20 @@ method_addresses_end:
 	.align 3
 unbox_trampolines:
 
-	.long 78,79,80,81,82,83
+	.long 114,115,116,117,118,119,124
 unbox_trampolines_end:
 
 	.long 0
 .text
 	.align 3
 unbox_trampoline_addresses:
-bl ut_78
-bl ut_79
-bl ut_80
-bl ut_81
-bl ut_82
-bl ut_83
+bl ut_114
+bl ut_115
+bl ut_116
+bl ut_117
+bl ut_118
+bl ut_119
+bl ut_124
 
 	.long 0
 .section __TEXT, __const
@@ -7737,14 +33245,20 @@ unwind_info:
 	.byte 151,25,68,152,24,68,154,23,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,16,12,31,0,68,14,64
 	.byte 157,8,158,7,68,13,29,68,154,6,13,12,31,0,68,14,80,157,10,158,9,68,13,29,28,12,31,0,68,14,112,157
 	.byte 14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7,21,12,31,0,68,14,96,157,12,158,11
-	.byte 68,13,29,68,151,10,152,9,68,153,8,13,12,31,0,68,14,64,157,8,158,7,68,13,29,16,12,31,0,68,14,80
-	.byte 157,10,158,9,68,13,29,68,154,8,14,12,31,0,68,14,160,1,157,20,158,19,68,13,29,13,12,31,0,68,14,112
-	.byte 157,14,158,13,68,13,29,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,18,12,31,0,68,14,80,157
-	.byte 10,158,9,68,13,29,68,150,8,151,7,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,18,12,31,0
-	.byte 68,14,80,157,10,158,9,68,13,29,68,153,8,154,7,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154
-	.byte 16,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14,34,12,31,0,68,14,144,1,157,18,158,17,68
-	.byte 13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,19,12,31,0,68,14,144,1,157,18
-	.byte 158,17,68,13,29,68,153,16,154,15
+	.byte 68,13,29,68,151,10,152,9,68,153,8,13,12,31,0,68,14,64,157,8,158,7,68,13,29,16,12,31,0,68,14,48
+	.byte 157,6,158,5,68,13,29,68,154,4,23,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10
+	.byte 154,9,34,12,31,0,68,14,176,2,157,38,158,37,68,13,29,68,147,36,148,35,68,149,34,150,33,68,151,32,152,31
+	.byte 68,153,30,154,29,14,12,31,0,68,14,160,1,157,20,158,19,68,13,29,24,12,31,0,68,14,128,1,157,16,158,15
+	.byte 68,13,29,68,150,14,151,13,68,152,12,153,11,44,12,31,0,84,14,192,91,157,184,11,158,183,11,68,13,29,68,147
+	.byte 182,11,148,181,11,68,149,180,11,150,179,11,68,151,178,11,152,177,11,68,153,176,11,154,175,11,16,12,31,0,68,14
+	.byte 80,157,10,158,9,68,13,29,68,154,8,22,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,152,22,153,21,68
+	.byte 154,20,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,13,12,31,0,68,14,112,157,14,158,13
+	.byte 68,13,29,23,12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,16,12,31,0,68
+	.byte 14,80,157,10,158,9,68,13,29,68,153,8,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7,17
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29
+	.byte 68,154,14,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152
+	.byte 11,68,153,10,154,9,34,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68
+	.byte 151,26,152,25,68,153,24,154,23,19,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
 
 .text
 	.align 4
@@ -7755,685 +33269,1453 @@ plt_Xamarin_Forms_Application__ctor:
 _p_1:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #3136]
 br x16
-.word 1315
+.word 4812
 	.no_dead_strip plt_StreamingExample_App_InitializeComponent
 plt_StreamingExample_App_InitializeComponent:
 _p_2:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #3144]
 br x16
-.word 1320
+.word 4817
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #3152]
 br x16
-.word 1325
-	.no_dead_strip plt_StreamingExample_Principal__ctor
-plt_StreamingExample_Principal__ctor:
+.word 4822
+	.no_dead_strip plt_StreamingExample_MainMaster__ctor
+plt_StreamingExample_MainMaster__ctor:
 _p_4:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #3160]
 br x16
-.word 1333
+.word 4830
 	.no_dead_strip plt_Xamarin_Forms_NavigationPage__ctor_Xamarin_Forms_Page
 plt_Xamarin_Forms_NavigationPage__ctor_Xamarin_Forms_Page:
 _p_5:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #3168]
 br x16
-.word 1338
+.word 4835
 	.no_dead_strip plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page
 plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page:
 _p_6:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #3176]
 br x16
-.word 1343
+.word 4840
 	.no_dead_strip plt_Plugin_FirebasePushNotification_CrossFirebasePushNotification_get_Current
 plt_Plugin_FirebasePushNotification_CrossFirebasePushNotification_get_Current:
 _p_7:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #3184]
 br x16
-.word 1348
+.word 4845
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_8:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #3192]
 br x16
-.word 1353
+.word 4850
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationTokenEventArgs_get_Token
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationTokenEventArgs_get_Token:
 _p_9:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #3200]
 br x16
-.word 1355
+.word 4852
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_10:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #3208]
 br x16
-.word 1360
+.word 4857
 	.no_dead_strip plt_System_Diagnostics_Debug_WriteLine_string
 plt_System_Diagnostics_Debug_WriteLine_string:
 _p_11:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #3216]
 br x16
-.word 1363
+.word 4860
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_App_StreamingExample_App_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_App_StreamingExample_App_System_Type:
 _p_12:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #3224]
 br x16
-.word 1368
+.word 4865
 	.no_dead_strip plt_StreamingExample_misionvision__ctor
 plt_StreamingExample_misionvision__ctor:
 _p_13:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #3232]
 br x16
-.word 1380
+.word 4877
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationResponseEventArgs_get_Data
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationResponseEventArgs_get_Data:
 _p_14:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #3240]
 br x16
-.word 1385
+.word 4882
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_15:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #3248]
 br x16
-.word 1390
+.word 4887
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_2_string_object_get_Key
 plt_System_Collections_Generic_KeyValuePair_2_string_object_get_Key:
 _p_16:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #3256]
 br x16
-.word 1398
+.word 4895
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_2_string_object_get_Value
 plt_System_Collections_Generic_KeyValuePair_2_string_object_get_Value:
 _p_17:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #3264]
 br x16
-.word 1409
+.word 4906
 	.no_dead_strip plt_string_Format_string_object__
 plt_string_Format_string_object__:
 _p_18:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #3272]
 br x16
-.word 1420
+.word 4917
 	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
 plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_19:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #3280]
 br x16
-.word 1423
+.word 4920
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationResponseEventArgs_get_Identifier
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationResponseEventArgs_get_Identifier:
 _p_20:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #3288]
 br x16
-.word 1426
+.word 4923
 	.no_dead_strip plt_string_IsNullOrEmpty_string
 plt_string_IsNullOrEmpty_string:
 _p_21:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #3296]
 br x16
-.word 1431
+.word 4928
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_get_BindingContext
 plt_Xamarin_Forms_BindableObject_get_BindingContext:
 _p_22:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #3304]
 br x16
-.word 1434
+.word 4931
 	.no_dead_strip plt_Xamarin_Forms_ContentPage__ctor
 plt_Xamarin_Forms_ContentPage__ctor:
 _p_23:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #3312]
 br x16
-.word 1439
+.word 4936
 	.no_dead_strip plt_StreamingExample_StreamingExamplePage_InitializeComponent
 plt_StreamingExample_StreamingExamplePage_InitializeComponent:
 _p_24:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #3320]
 br x16
-.word 1444
+.word 4941
 	.no_dead_strip plt_Xamarin_Forms_Page_On_Xamarin_Forms_PlatformConfiguration_iOS
 plt_Xamarin_Forms_Page_On_Xamarin_Forms_PlatformConfiguration_iOS:
 _p_25:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #3328]
 br x16
-.word 1449
+.word 4946
 	.no_dead_strip plt_Xamarin_Forms_PlatformConfiguration_iOSSpecific_Page_SetUseSafeArea_Xamarin_Forms_IPlatformElementConfiguration_2_Xamarin_Forms_PlatformConfiguration_iOS_Xamarin_Forms_Page_bool
 plt_Xamarin_Forms_PlatformConfiguration_iOSSpecific_Page_SetUseSafeArea_Xamarin_Forms_IPlatformElementConfiguration_2_Xamarin_Forms_PlatformConfiguration_iOS_Xamarin_Forms_Page_bool:
 _p_26:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #3336]
 br x16
-.word 1461
+.word 4958
 	.no_dead_strip plt_StreamingExample_StreamingViewModel__ctor
 plt_StreamingExample_StreamingViewModel__ctor:
 _p_27:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #3344]
 br x16
-.word 1466
+.word 4963
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_set_BindingContext_object
 plt_Xamarin_Forms_BindableObject_set_BindingContext_object:
 _p_28:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #3352]
 br x16
-.word 1471
+.word 4968
 	.no_dead_strip plt_StreamingExample_StreamingExamplePage_get_ViewModel
 plt_StreamingExample_StreamingExamplePage_get_ViewModel:
 _p_29:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #3360]
 br x16
-.word 1476
+.word 4973
 	.no_dead_strip plt_StreamingExample_StreamingViewModel_Play
 plt_StreamingExample_StreamingViewModel_Play:
 _p_30:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #3368]
 br x16
-.word 1481
+.word 4978
 	.no_dead_strip plt_StreamingExample_StreamingViewModel_Pause
 plt_StreamingExample_StreamingViewModel_Pause:
 _p_31:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #3376]
 br x16
-.word 1486
+.word 4983
 	.no_dead_strip plt_StreamingExample_StreamingViewModel_Stop
 plt_StreamingExample_StreamingViewModel_Stop:
 _p_32:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #3384]
 br x16
-.word 1491
+.word 4988
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_StreamingExamplePage_StreamingExample_StreamingExamplePage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_StreamingExamplePage_StreamingExample_StreamingExamplePage_System_Type:
 _p_33:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #3392]
 br x16
-.word 1496
+.word 4993
 	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
 plt_System_Delegate_Combine_System_Delegate_System_Delegate:
 _p_34:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #3400]
 br x16
-.word 1508
+.word 5005
 	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
 plt_System_Delegate_Remove_System_Delegate_System_Delegate:
 _p_35:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #3408]
 br x16
-.word 1511
+.word 5008
 	.no_dead_strip plt_System_ComponentModel_PropertyChangedEventArgs__ctor_string
 plt_System_ComponentModel_PropertyChangedEventArgs__ctor_string:
 _p_36:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #3416]
 br x16
-.word 1514
+.word 5011
 	.no_dead_strip plt_Xamarin_Forms_DependencyService_Get_StreamingExample_IStreaming_Xamarin_Forms_DependencyFetchTarget
 plt_Xamarin_Forms_DependencyService_Get_StreamingExample_IStreaming_Xamarin_Forms_DependencyFetchTarget:
 _p_37:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #3424]
 br x16
-.word 1519
+.word 5016
 	.no_dead_strip plt_StreamingExample_StreamingViewModel_set_IsPlaying_bool
 plt_StreamingExample_StreamingViewModel_set_IsPlaying_bool:
 _p_38:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #3432]
 br x16
-.word 1531
-	.no_dead_strip plt_StreamingExample_Principal_InitializeComponent
-plt_StreamingExample_Principal_InitializeComponent:
+.word 5028
+	.no_dead_strip plt_StreamingExample_misionvision_InitializeComponent
+plt_StreamingExample_misionvision_InitializeComponent:
 _p_39:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #3440]
 br x16
-.word 1536
-	.no_dead_strip plt_StreamingExample_Principal__TapGestureRecognizer_Tappedd__4__ctor
-plt_StreamingExample_Principal__TapGestureRecognizer_Tappedd__4__ctor:
+.word 5033
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_misionvision_StreamingExample_misionvision_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_misionvision_StreamingExample_misionvision_System_Type:
 _p_40:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #3448]
 br x16
-.word 1541
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
+.word 5038
+	.no_dead_strip plt_Xamarin_Forms_MasterDetailPage__ctor
+plt_Xamarin_Forms_MasterDetailPage__ctor:
 _p_41:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #3456]
 br x16
-.word 1546
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_:
+.word 5050
+	.no_dead_strip plt_StreamingExample_MainMaster_InitializeComponent
+plt_StreamingExample_MainMaster_InitializeComponent:
 _p_42:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #3464]
 br x16
-.word 1549
-	.no_dead_strip plt_StreamingExample_Principal__pausar_Tappedd__5__ctor
-plt_StreamingExample_Principal__pausar_Tappedd__5__ctor:
+.word 5055
+	.no_dead_strip plt_Xamarin_Forms_FlyoutPage_add_IsPresentedChanged_System_EventHandler
+plt_Xamarin_Forms_FlyoutPage_add_IsPresentedChanged_System_EventHandler:
 _p_43:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #3472]
 br x16
-.word 1561
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__pausar_Tappedd__5_StreamingExample_Principal__pausar_Tappedd__5_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__pausar_Tappedd__5_StreamingExample_Principal__pausar_Tappedd__5_:
+.word 5060
+	.no_dead_strip plt_Xamarin_Forms_FlyoutPage_get_IsPresented
+plt_Xamarin_Forms_FlyoutPage_get_IsPresented:
 _p_44:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #3480]
 br x16
-.word 1566
-	.no_dead_strip plt_StreamingExample_Principal__stop_Tappedd__6__ctor
-plt_StreamingExample_Principal__stop_Tappedd__6__ctor:
+.word 5065
+	.no_dead_strip plt_Xamarin_Forms_MasterDetailPage_get_Master
+plt_Xamarin_Forms_MasterDetailPage_get_Master:
 _p_45:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #3488]
 br x16
-.word 1578
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__stop_Tappedd__6_StreamingExample_Principal__stop_Tappedd__6_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__stop_Tappedd__6_StreamingExample_Principal__stop_Tappedd__6_:
+.word 5070
+	.no_dead_strip plt_StreamingExample_MainMasterMaster_ShowingMenu
+plt_StreamingExample_MainMasterMaster_ShowingMenu:
 _p_46:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #3496]
 br x16
-.word 1583
-	.no_dead_strip plt_StreamingExample_Principal__Perfil_Tappedd__7__ctor
-plt_StreamingExample_Principal__Perfil_Tappedd__7__ctor:
+.word 5075
+	.no_dead_strip plt_Xamarin_Forms_Internals_ResourceLoader_get_IsEnabled
+plt_Xamarin_Forms_Internals_ResourceLoader_get_IsEnabled:
 _p_47:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #3504]
 br x16
-.word 1595
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__Perfil_Tappedd__7_StreamingExample_Principal__Perfil_Tappedd__7_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__Perfil_Tappedd__7_StreamingExample_Principal__Perfil_Tappedd__7_:
+.word 5080
+	.no_dead_strip plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery__ctor
+plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery__ctor:
 _p_48:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #3512]
 br x16
-.word 1600
-	.no_dead_strip plt_StreamingExample_Principal__txtOrigen_Completedd__8__ctor
-plt_StreamingExample_Principal__txtOrigen_Completedd__8__ctor:
+.word 5085
+	.no_dead_strip plt_System_Reflection_IntrospectionExtensions_GetTypeInfo_System_Type
+plt_System_Reflection_IntrospectionExtensions_GetTypeInfo_System_Type:
 _p_49:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #3520]
 br x16
-.word 1612
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__txtOrigen_Completedd__8_StreamingExample_Principal__txtOrigen_Completedd__8_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__txtOrigen_Completedd__8_StreamingExample_Principal__txtOrigen_Completedd__8_:
+.word 5090
+	.no_dead_strip plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery_set_AssemblyName_System_Reflection_AssemblyName
+plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery_set_AssemblyName_System_Reflection_AssemblyName:
 _p_50:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #3528]
 br x16
-.word 1617
-	.no_dead_strip plt_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9__ctor
-plt_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9__ctor:
+.word 5093
+	.no_dead_strip plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery_set_ResourcePath_string
+plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery_set_ResourcePath_string:
 _p_51:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #3536]
 br x16
-.word 1629
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_:
+.word 5098
+	.no_dead_strip plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery_set_Instance_object
+plt_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery_set_Instance_object:
 _p_52:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1904]
+ldr x16, [x16, #3544]
 br x16
-.word 1634
-	.no_dead_strip plt_StreamingExample_Principal__SolicitudRecogida_Tappedd__10__ctor
-plt_StreamingExample_Principal__SolicitudRecogida_Tappedd__10__ctor:
+.word 5103
+	.no_dead_strip plt_Xamarin_Forms_Internals_ResourceLoader_CanProvideContentFor_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery
+plt_Xamarin_Forms_Internals_ResourceLoader_CanProvideContentFor_Xamarin_Forms_Internals_ResourceLoader_ResourceLoadingQuery:
 _p_53:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #3552]
 br x16
-.word 1646
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__SolicitudRecogida_Tappedd__10_StreamingExample_Principal__SolicitudRecogida_Tappedd__10_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__SolicitudRecogida_Tappedd__10_StreamingExample_Principal__SolicitudRecogida_Tappedd__10_:
+.word 5108
+	.no_dead_strip plt_StreamingExample_MainMaster___InitComponentRuntime
+plt_StreamingExample_MainMaster___InitComponentRuntime:
 _p_54:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #3560]
 br x16
-.word 1651
-	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_Principal_StreamingExample_Principal_System_Type
-plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_Principal_StreamingExample_Principal_System_Type:
+.word 5113
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XamlLoader_get_XamlFileProvider
+plt_Xamarin_Forms_Xaml_Internals_XamlLoader_get_XamlFileProvider:
 _p_55:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #3568]
 br x16
-.word 1663
-	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Image_Xamarin_Forms_Element_string
-plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Image_Xamarin_Forms_Element_string:
+.word 5118
+	.no_dead_strip plt_StreamingExample_MainMasterMaster__ctor
+plt_StreamingExample_MainMasterMaster__ctor:
 _p_56:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #3576]
 br x16
-.word 1675
-	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Label_Xamarin_Forms_Element_string
-plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Label_Xamarin_Forms_Element_string:
+.word 5123
+	.no_dead_strip plt_string_Concat_string_string_string
+plt_string_Concat_string_string_string:
 _p_57:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #3584]
 br x16
-.word 1687
-	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Entry_Xamarin_Forms_Element_string
-plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Entry_Xamarin_Forms_Element_string:
+.word 5128
+	.no_dead_strip plt_System_Uri__ctor_string_System_UriKind
+plt_System_Uri__ctor_string_System_UriKind:
 _p_58:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #3592]
 br x16
-.word 1699
-	.no_dead_strip plt_StreamingExample_Principal_get_ViewModel
-plt_StreamingExample_Principal_get_ViewModel:
+.word 5131
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Diagnostics_VisualDiagnostics_RegisterSourceInfo_object_System_Uri_int_int
+plt_Xamarin_Forms_Xaml_Diagnostics_VisualDiagnostics_RegisterSourceInfo_object_System_Uri_int_int:
 _p_59:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #3600]
 br x16
-.word 1711
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
+.word 5136
+	.no_dead_strip plt_StreamingExample_Principal__ctor
+plt_StreamingExample_Principal__ctor:
 _p_60:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #3608]
 br x16
-.word 1716
-	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
-plt__jit_icall_mono_thread_get_undeniable_exception:
+.word 5141
+	.no_dead_strip plt_Xamarin_Forms_Internals_NameScope_GetNameScope_Xamarin_Forms_BindableObject
+plt_Xamarin_Forms_Internals_NameScope_GetNameScope_Xamarin_Forms_BindableObject:
 _p_61:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #3616]
 br x16
-.word 1719
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
+.word 5146
+	.no_dead_strip plt_Xamarin_Forms_Internals_NameScope__ctor
+plt_Xamarin_Forms_Internals_NameScope__ctor:
 _p_62:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #3624]
 br x16
-.word 1722
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
+.word 5151
+	.no_dead_strip plt_Xamarin_Forms_Internals_NameScope_SetNameScope_Xamarin_Forms_BindableObject_Xamarin_Forms_Internals_INameScope
+plt_Xamarin_Forms_Internals_NameScope_SetNameScope_Xamarin_Forms_BindableObject_Xamarin_Forms_Internals_INameScope:
 _p_63:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #3632]
 br x16
-.word 1724
-	.no_dead_strip plt_Xamarin_Forms_ContentView__ctor
-plt_Xamarin_Forms_ContentView__ctor:
+.word 5156
+	.no_dead_strip plt_Xamarin_Forms_Element_get_StyleId
+plt_Xamarin_Forms_Element_get_StyleId:
 _p_64:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #3640]
 br x16
-.word 1727
-	.no_dead_strip plt_StreamingExample_Footer_InitializeComponent
-plt_StreamingExample_Footer_InitializeComponent:
+.word 5161
+	.no_dead_strip plt_Xamarin_Forms_Element_set_StyleId_string
+plt_Xamarin_Forms_Element_set_StyleId_string:
 _p_65:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #3648]
 br x16
-.word 1732
-	.no_dead_strip plt_StreamingExample_Footer__QrCode_Tappedd__10__ctor
-plt_StreamingExample_Footer__QrCode_Tappedd__10__ctor:
+.word 5166
+	.no_dead_strip plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object
+plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object:
 _p_66:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #3656]
 br x16
-.word 1737
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Footer__QrCode_Tappedd__10_StreamingExample_Footer__QrCode_Tappedd__10_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Footer__QrCode_Tappedd__10_StreamingExample_Footer__QrCode_Tappedd__10_:
+.word 5171
+	.no_dead_strip plt_Xamarin_Forms_MasterDetailPage_set_Master_Xamarin_Forms_Page
+plt_Xamarin_Forms_MasterDetailPage_set_Master_Xamarin_Forms_Page:
 _p_67:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #3664]
 br x16
-.word 1742
-	.no_dead_strip plt_Xamarin_Forms_NavigableElement_get_Navigation
-plt_Xamarin_Forms_NavigableElement_get_Navigation:
+.word 5176
+	.no_dead_strip plt_Xamarin_Forms_FlyoutPage_set_Detail_Xamarin_Forms_Page
+plt_Xamarin_Forms_FlyoutPage_set_Detail_Xamarin_Forms_Page:
 _p_68:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #3672]
 br x16
-.word 1754
-	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_Footer_StreamingExample_Footer_System_Type
-plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_Footer_StreamingExample_Footer_System_Type:
+.word 5181
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_MainMaster_StreamingExample_MainMaster_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_MainMaster_StreamingExample_MainMaster_System_Type:
 _p_69:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #3680]
 br x16
-.word 1759
-	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string
-plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string:
+.word 5186
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_StreamingExample_MainMasterMaster_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_StreamingExample_MainMasterMaster_Xamarin_Forms_Element_string:
 _p_70:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #3688]
 br x16
-.word 1771
-	.no_dead_strip plt_StreamingExample_misionvision_InitializeComponent
-plt_StreamingExample_misionvision_InitializeComponent:
+.word 5198
+	.no_dead_strip plt_StreamingExample_MainMasterMaster_InitializeComponent
+plt_StreamingExample_MainMasterMaster_InitializeComponent:
 _p_71:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #3696]
 br x16
-.word 1783
-	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_misionvision_StreamingExample_misionvision_System_Type
-plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_misionvision_StreamingExample_misionvision_System_Type:
+.word 5210
+	.no_dead_strip plt_StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2__ctor
+plt_StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2__ctor:
 _p_72:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #3704]
 br x16
-.word 1788
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
+.word 5215
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
 _p_73:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #3712]
 br x16
-.word 1800
-	.no_dead_strip plt__rgctx_fetch_0
-plt__rgctx_fetch_0:
+.word 5220
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_:
 _p_74:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #3720]
 br x16
-.word 1803
-	.no_dead_strip plt__rgctx_fetch_1
-plt__rgctx_fetch_1:
+.word 5223
+	.no_dead_strip plt_StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3__ctor
+plt_StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3__ctor:
 _p_75:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #3728]
 br x16
-.word 1822
-	.no_dead_strip plt__rgctx_fetch_2
-plt__rgctx_fetch_2:
+.word 5235
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_:
 _p_76:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #3736]
 br x16
-.word 1841
-	.no_dead_strip plt__rgctx_fetch_3
-plt__rgctx_fetch_3:
+.word 5240
+	.no_dead_strip plt_StreamingExample_MainMasterMaster__misganancias_Tappedd__5__ctor
+plt_StreamingExample_MainMasterMaster__misganancias_Tappedd__5__ctor:
 _p_77:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #3744]
 br x16
-.word 1849
-	.no_dead_strip plt__rgctx_fetch_4
-plt__rgctx_fetch_4:
+.word 5252
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_MainMasterMaster__misganancias_Tappedd__5_StreamingExample_MainMasterMaster__misganancias_Tappedd__5_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_MainMasterMaster__misganancias_Tappedd__5_StreamingExample_MainMasterMaster__misganancias_Tappedd__5_:
 _p_78:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2112]
+ldr x16, [x16, #3752]
 br x16
-.word 1868
-	.no_dead_strip plt__rgctx_fetch_5
-plt__rgctx_fetch_5:
+.word 5257
+	.no_dead_strip plt_StreamingExample_MainMasterMaster__billetera_Tappedd__6__ctor
+plt_StreamingExample_MainMasterMaster__billetera_Tappedd__6__ctor:
 _p_79:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2120]
+ldr x16, [x16, #3760]
 br x16
-.word 1896
-	.no_dead_strip plt__jit_icall_mono_generic_class_init
-plt__jit_icall_mono_generic_class_init:
+.word 5269
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_MainMasterMaster__billetera_Tappedd__6_StreamingExample_MainMasterMaster__billetera_Tappedd__6_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_MainMasterMaster__billetera_Tappedd__6_StreamingExample_MainMasterMaster__billetera_Tappedd__6_:
 _p_80:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #3768]
 br x16
-.word 1904
-	.no_dead_strip plt__rgctx_fetch_6
-plt__rgctx_fetch_6:
+.word 5274
+	.no_dead_strip plt_StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8__ctor
+plt_StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8__ctor:
 _p_81:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #3776]
 br x16
-.word 1907
-	.no_dead_strip plt__rgctx_fetch_7
-plt__rgctx_fetch_7:
+.word 5286
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_:
 _p_82:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #3784]
 br x16
-.word 1921
-	.no_dead_strip plt__rgctx_fetch_8
-plt__rgctx_fetch_8:
+.word 5291
+	.no_dead_strip plt_StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9__ctor
+plt_StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9__ctor:
 _p_83:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #3792]
 br x16
-.word 1929
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
+.word 5303
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_:
 _p_84:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #3800]
 br x16
-.word 1948
-	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
-plt__jit_icall_mono_arch_rethrow_exception:
+.word 5308
+	.no_dead_strip plt_Xamarin_Forms_NavigableElement_get_Navigation
+plt_Xamarin_Forms_NavigableElement_get_Navigation:
 _p_85:
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #3808]
 br x16
-.word 1951
+.word 5320
+	.no_dead_strip plt_Xamarin_Forms_Application_get_Current
+plt_Xamarin_Forms_Application_get_Current:
+_p_86:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3816]
+br x16
+.word 5325
+	.no_dead_strip plt_Xamarin_Forms_Application_get_MainPage
+plt_Xamarin_Forms_Application_get_MainPage:
+_p_87:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3824]
+br x16
+.word 5330
+	.no_dead_strip plt_Xamarin_Forms_NavigationPage_get_CurrentPage
+plt_Xamarin_Forms_NavigationPage_get_CurrentPage:
+_p_88:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3832]
+br x16
+.word 5335
+	.no_dead_strip plt_Xamarin_Forms_FlyoutPage_set_IsPresented_bool
+plt_Xamarin_Forms_FlyoutPage_set_IsPresented_bool:
+_p_89:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3840]
+br x16
+.word 5340
+	.no_dead_strip plt_StreamingExample_MainMasterMaster___InitComponentRuntime
+plt_StreamingExample_MainMasterMaster___InitComponentRuntime:
+_p_90:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3848]
+br x16
+.word 5345
+	.no_dead_strip plt_Xamarin_Forms_TapGestureRecognizer__ctor
+plt_Xamarin_Forms_TapGestureRecognizer__ctor:
+_p_91:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3856]
+br x16
+.word 5350
+	.no_dead_strip plt_Xamarin_Forms_Image__ctor
+plt_Xamarin_Forms_Image__ctor:
+_p_92:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3864]
+br x16
+.word 5355
+	.no_dead_strip plt_Xamarin_Forms_StackLayout__ctor
+plt_Xamarin_Forms_StackLayout__ctor:
+_p_93:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3872]
+br x16
+.word 5360
+	.no_dead_strip plt_Xamarin_Forms_Label__ctor
+plt_Xamarin_Forms_Label__ctor:
+_p_94:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3880]
+br x16
+.word 5365
+	.no_dead_strip plt_Xamarin_Forms_ScrollView__ctor
+plt_Xamarin_Forms_ScrollView__ctor:
+_p_95:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3888]
+br x16
+.word 5370
+	.no_dead_strip plt_Xamarin_Forms_Color__ctor_double_double_double_double
+plt_Xamarin_Forms_Color__ctor_double_double_double_double:
+_p_96:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3896]
+br x16
+.word 5375
+	.no_dead_strip plt_Xamarin_Forms_Thickness__ctor_double
+plt_Xamarin_Forms_Thickness__ctor_double:
+_p_97:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3904]
+br x16
+.word 5380
+	.no_dead_strip plt_Xamarin_Forms_ImageSourceConverter__ctor
+plt_Xamarin_Forms_ImageSourceConverter__ctor:
+_p_98:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3912]
+br x16
+.word 5385
+	.no_dead_strip plt_Xamarin_Forms_ImageSourceConverter_ConvertFromInvariantString_string
+plt_Xamarin_Forms_ImageSourceConverter_ConvertFromInvariantString_string:
+_p_99:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3920]
+br x16
+.word 5390
+	.no_dead_strip plt_Xamarin_Forms_View_get_GestureRecognizers
+plt_Xamarin_Forms_View_get_GestureRecognizers:
+_p_100:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3928]
+br x16
+.word 5395
+	.no_dead_strip plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children
+plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children:
+_p_101:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3936]
+br x16
+.word 5400
+	.no_dead_strip plt_Xamarin_Forms_Thickness__ctor_double_double
+plt_Xamarin_Forms_Thickness__ctor_double_double:
+_p_102:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3944]
+br x16
+.word 5411
+	.no_dead_strip plt_Xamarin_Forms_TextAlignmentConverter__ctor
+plt_Xamarin_Forms_TextAlignmentConverter__ctor:
+_p_103:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3952]
+br x16
+.word 5416
+	.no_dead_strip plt_Xamarin_Forms_FontSizeConverter__ctor
+plt_Xamarin_Forms_FontSizeConverter__ctor:
+_p_104:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3960]
+br x16
+.word 5421
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XamlServiceProvider__ctor
+plt_Xamarin_Forms_Xaml_Internals_XamlServiceProvider__ctor:
+_p_105:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3968]
+br x16
+.word 5426
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_SimpleValueTargetProvider__ctor_object___object_Xamarin_Forms_Internals_INameScope
+plt_Xamarin_Forms_Xaml_Internals_SimpleValueTargetProvider__ctor_object___object_Xamarin_Forms_Internals_INameScope:
+_p_106:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3976]
+br x16
+.word 5431
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XamlServiceProvider_Add_System_Type_object
+plt_Xamarin_Forms_Xaml_Internals_XamlServiceProvider_Add_System_Type_object:
+_p_107:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3984]
+br x16
+.word 5436
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XmlNamespaceResolver__ctor
+plt_Xamarin_Forms_Xaml_Internals_XmlNamespaceResolver__ctor:
+_p_108:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #3992]
+br x16
+.word 5441
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XmlNamespaceResolver_Add_string_string
+plt_Xamarin_Forms_Xaml_Internals_XmlNamespaceResolver_Add_string_string:
+_p_109:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #4000]
+br x16
+.word 5446
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XamlTypeResolver__ctor_System_Xml_IXmlNamespaceResolver_System_Reflection_Assembly
+plt_Xamarin_Forms_Xaml_Internals_XamlTypeResolver__ctor_System_Xml_IXmlNamespaceResolver_System_Reflection_Assembly:
+_p_110:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #4008]
+br x16
+.word 5451
+	.no_dead_strip plt_Xamarin_Forms_Xaml_XmlLineInfo__ctor_int_int
+plt_Xamarin_Forms_Xaml_XmlLineInfo__ctor_int_int:
+_p_111:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #4016]
+br x16
+.word 5456
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XmlLineInfoProvider__ctor_System_Xml_IXmlLineInfo
+plt_Xamarin_Forms_Xaml_Internals_XmlLineInfoProvider__ctor_System_Xml_IXmlLineInfo:
+_p_112:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #4024]
+br x16
+.word 5461
+	.no_dead_strip plt_Xamarin_Forms_TapGestureRecognizer_add_Tapped_System_EventHandler
+plt_Xamarin_Forms_TapGestureRecognizer_add_Tapped_System_EventHandler:
+_p_113:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #4032]
+br x16
+.word 5466
+	.no_dead_strip plt_Xamarin_Forms_ScrollView_set_Content_Xamarin_Forms_View
+plt_Xamarin_Forms_ScrollView_set_Content_Xamarin_Forms_View:
+_p_114:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #4040]
+br x16
+.word 5471
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_MainMasterMaster_StreamingExample_MainMasterMaster_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_MainMasterMaster_StreamingExample_MainMasterMaster_System_Type:
+_p_115:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #4048]
+br x16
+.word 5476
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_ContentPage_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_ContentPage_Xamarin_Forms_Element_string:
+_p_116:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #4056]
+br x16
+.word 5488
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Image_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Image_Xamarin_Forms_Element_string:
+_p_117:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #4064]
+br x16
+.word 5500
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Label_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Label_Xamarin_Forms_Element_string:
+_p_118:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #4072]
+br x16
+.word 5512
+	.no_dead_strip plt_Xamarin_Forms_Page_DisplayAlert_string_string_string
+plt_Xamarin_Forms_Page_DisplayAlert_string_string_string:
+_p_119:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #4080]
+br x16
+.word 5524
+	.no_dead_strip plt_System_Threading_Tasks_Task_GetAwaiter
+plt_System_Threading_Tasks_Task_GetAwaiter:
+_p_120:
+adrp x16, mono_aot_StreamingExample_got@PAGE+0
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #4088]
+br x16
+.word 5529
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted
+plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted:
+_p_121:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #0]
+br x16
+.word 5532
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_System_Runtime_CompilerServices_TaskAwaiter__StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_System_Runtime_CompilerServices_TaskAwaiter__StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_:
+_p_122:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #8]
+br x16
+.word 5535
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult
+plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult:
+_p_123:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #16]
+br x16
+.word 5547
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
+_p_124:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #24]
+br x16
+.word 5550
+	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
+plt__jit_icall_mono_thread_get_undeniable_exception:
+_p_125:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #32]
+br x16
+.word 5553
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
+_p_126:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #40]
+br x16
+.word 5556
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
+_p_127:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #48]
+br x16
+.word 5558
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_System_Runtime_CompilerServices_TaskAwaiter__StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_System_Runtime_CompilerServices_TaskAwaiter__StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_:
+_p_128:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #56]
+br x16
+.word 5561
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_StreamingExample_MainMasterMaster__misganancias_Tappedd__5_System_Runtime_CompilerServices_TaskAwaiter__StreamingExample_MainMasterMaster__misganancias_Tappedd__5_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_StreamingExample_MainMasterMaster__misganancias_Tappedd__5_System_Runtime_CompilerServices_TaskAwaiter__StreamingExample_MainMasterMaster__misganancias_Tappedd__5_:
+_p_129:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #64]
+br x16
+.word 5573
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_StreamingExample_MainMasterMaster__billetera_Tappedd__6_System_Runtime_CompilerServices_TaskAwaiter__StreamingExample_MainMasterMaster__billetera_Tappedd__6_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_StreamingExample_MainMasterMaster__billetera_Tappedd__6_System_Runtime_CompilerServices_TaskAwaiter__StreamingExample_MainMasterMaster__billetera_Tappedd__6_:
+_p_130:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #72]
+br x16
+.word 5585
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_System_Runtime_CompilerServices_TaskAwaiter__StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_System_Runtime_CompilerServices_TaskAwaiter__StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_:
+_p_131:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #80]
+br x16
+.word 5597
+	.no_dead_strip plt_StreamingExample_MainMap_InitializeComponent
+plt_StreamingExample_MainMap_InitializeComponent:
+_p_132:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #88]
+br x16
+.word 5609
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_MainMap_StreamingExample_MainMap_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_MainMap_StreamingExample_MainMap_System_Type:
+_p_133:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #96]
+br x16
+.word 5614
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Entry_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Entry_Xamarin_Forms_Element_string:
+_p_134:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #104]
+br x16
+.word 5626
+	.no_dead_strip plt_Xamarin_Forms_ContentView__ctor
+plt_Xamarin_Forms_ContentView__ctor:
+_p_135:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #112]
+br x16
+.word 5638
+	.no_dead_strip plt_StreamingExample_Footer_InitializeComponent
+plt_StreamingExample_Footer_InitializeComponent:
+_p_136:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #120]
+br x16
+.word 5643
+	.no_dead_strip plt_StreamingExample_Footer__QrCode_Tappedd__10__ctor
+plt_StreamingExample_Footer__QrCode_Tappedd__10__ctor:
+_p_137:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #128]
+br x16
+.word 5648
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Footer__QrCode_Tappedd__10_StreamingExample_Footer__QrCode_Tappedd__10_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Footer__QrCode_Tappedd__10_StreamingExample_Footer__QrCode_Tappedd__10_:
+_p_138:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #136]
+br x16
+.word 5653
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_Footer_StreamingExample_Footer_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_Footer_StreamingExample_Footer_System_Type:
+_p_139:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #144]
+br x16
+.word 5665
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string:
+_p_140:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #152]
+br x16
+.word 5677
+	.no_dead_strip plt_StreamingExample_Principal_InitializeComponent
+plt_StreamingExample_Principal_InitializeComponent:
+_p_141:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #160]
+br x16
+.word 5689
+	.no_dead_strip plt_StreamingExample_Principal_ShowUserData
+plt_StreamingExample_Principal_ShowUserData:
+_p_142:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #168]
+br x16
+.word 5694
+	.no_dead_strip plt_StreamingExample_Principal_get_ViewModel
+plt_StreamingExample_Principal_get_ViewModel:
+_p_143:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #176]
+br x16
+.word 5699
+	.no_dead_strip plt_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5__ctor
+plt_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5__ctor:
+_p_144:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #184]
+br x16
+.word 5704
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_:
+_p_145:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #192]
+br x16
+.word 5709
+	.no_dead_strip plt_StreamingExample_Principal__pausar_Tappedd__6__ctor
+plt_StreamingExample_Principal__pausar_Tappedd__6__ctor:
+_p_146:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #200]
+br x16
+.word 5721
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__pausar_Tappedd__6_StreamingExample_Principal__pausar_Tappedd__6_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__pausar_Tappedd__6_StreamingExample_Principal__pausar_Tappedd__6_:
+_p_147:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #208]
+br x16
+.word 5726
+	.no_dead_strip plt_StreamingExample_Principal__txtOrigen_Completedd__7__ctor
+plt_StreamingExample_Principal__txtOrigen_Completedd__7__ctor:
+_p_148:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #216]
+br x16
+.word 5738
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__txtOrigen_Completedd__7_StreamingExample_Principal__txtOrigen_Completedd__7_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__txtOrigen_Completedd__7_StreamingExample_Principal__txtOrigen_Completedd__7_:
+_p_149:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #224]
+br x16
+.word 5743
+	.no_dead_strip plt_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8__ctor
+plt_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8__ctor:
+_p_150:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #232]
+br x16
+.word 5755
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_:
+_p_151:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #240]
+br x16
+.word 5760
+	.no_dead_strip plt_StreamingExample_Principal__SolicitudRecogida_Tappedd__9__ctor
+plt_StreamingExample_Principal__SolicitudRecogida_Tappedd__9__ctor:
+_p_152:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #248]
+br x16
+.word 5772
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__SolicitudRecogida_Tappedd__9_StreamingExample_Principal__SolicitudRecogida_Tappedd__9_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__SolicitudRecogida_Tappedd__9_StreamingExample_Principal__SolicitudRecogida_Tappedd__9_:
+_p_153:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #256]
+br x16
+.word 5777
+	.no_dead_strip plt_Xamarin_Forms_NavigationPage_get_RootPage
+plt_Xamarin_Forms_NavigationPage_get_RootPage:
+_p_154:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #264]
+br x16
+.word 5789
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_Principal_StreamingExample_Principal_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_Principal_StreamingExample_Principal_System_Type:
+_p_155:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #272]
+br x16
+.word 5794
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
+_p_156:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #280]
+br x16
+.word 5806
+	.no_dead_strip plt__rgctx_fetch_0
+plt__rgctx_fetch_0:
+_p_157:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #288]
+br x16
+.word 5809
+	.no_dead_strip plt__rgctx_fetch_1
+plt__rgctx_fetch_1:
+_p_158:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #296]
+br x16
+.word 5828
+	.no_dead_strip plt__rgctx_fetch_2
+plt__rgctx_fetch_2:
+_p_159:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #304]
+br x16
+.word 5847
+	.no_dead_strip plt__rgctx_fetch_3
+plt__rgctx_fetch_3:
+_p_160:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #312]
+br x16
+.word 5855
+	.no_dead_strip plt__rgctx_fetch_4
+plt__rgctx_fetch_4:
+_p_161:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #320]
+br x16
+.word 5874
+	.no_dead_strip plt__rgctx_fetch_5
+plt__rgctx_fetch_5:
+_p_162:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #328]
+br x16
+.word 5902
+	.no_dead_strip plt__jit_icall_mono_generic_class_init
+plt__jit_icall_mono_generic_class_init:
+_p_163:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #336]
+br x16
+.word 5910
+	.no_dead_strip plt__rgctx_fetch_6
+plt__rgctx_fetch_6:
+_p_164:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #344]
+br x16
+.word 5913
+	.no_dead_strip plt__rgctx_fetch_7
+plt__rgctx_fetch_7:
+_p_165:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #352]
+br x16
+.word 5927
+	.no_dead_strip plt__rgctx_fetch_8
+plt__rgctx_fetch_8:
+_p_166:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #360]
+br x16
+.word 5935
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_167:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #368]
+br x16
+.word 5954
+	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
+plt__jit_icall_mono_arch_rethrow_exception:
+_p_168:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #376]
+br x16
+.word 5957
+	.no_dead_strip plt__rgctx_fetch_9
+plt__rgctx_fetch_9:
+_p_169:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #384]
+br x16
+.word 5973
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
+plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
+_p_170:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #392]
+br x16
+.word 6008
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
+_p_171:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #400]
+br x16
+.word 6011
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
+_p_172:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #408]
+br x16
+.word 6014
+	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
+plt_System_Threading_Tasks_Task_get_Id:
+_p_173:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #416]
+br x16
+.word 6017
+	.no_dead_strip plt__rgctx_fetch_10
+plt__rgctx_fetch_10:
+_p_174:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #424]
+br x16
+.word 6020
+	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
+plt__jit_icall_mono_gsharedvt_constrained_call:
+_p_175:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #432]
+br x16
+.word 6028
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
+plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
+_p_176:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #440]
+br x16
+.word 6031
+	.no_dead_strip plt__rgctx_fetch_11
+plt__rgctx_fetch_11:
+_p_177:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #448]
+br x16
+.word 6034
+	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
+plt_wrapper_alloc_object_Alloc_intptr:
+_p_178:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #456]
+br x16
+.word 6042
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
+_p_179:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #464]
+br x16
+.word 6050
+	.no_dead_strip plt__rgctx_fetch_12
+plt__rgctx_fetch_12:
+_p_180:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #472]
+br x16
+.word 6053
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
+_p_181:
+adrp x16, mono_aot_StreamingExample_got@PAGE+4096
+add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
+ldr x16, [x16, #480]
+br x16
+.word 6061
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_StreamingExample_got, 2176
+.lcomm mono_aot_StreamingExample_got, 4584
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -8464,7 +34746,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "E202FD51-3AC9-4E08-80C8-9F3C39BC6347"
+	.asciz "0DAEC108-76A4-4A35-A9BC-D1F1924403DC"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -8551,14 +34833,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 186,2176,86,88,1,102,391195135,0
-	.long 13398,128,8,8,8,9,8388607,0
-	.long 4,25,15096,0,0,1688,1160,504
-	.long 0,936,1112,672,0,408,144,1680
+	.long 391,4584,182,126,2,102,391195135,0
+	.long 52007,128,8,8,8,9,8388607,0
+	.long 4,25,54168,0,0,2152,1624,584
+	.long 0,1296,1560,768,0,472,200,2144
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 190,188,25,30,249,80,75,181,23,167,203,14,169,149,16,128
+	.byte 173,174,65,5,19,109,77,88,133,150,98,192,102,168,76,53
 	.globl _mono_aot_module_StreamingExample_info
 	.align 3
 _mono_aot_module_StreamingExample_info:
@@ -15947,288 +42229,319 @@ LDIFF_SYM1203=Lme_17 - StreamingExample_StreamingViewModel__ctor
 Lfde23_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_180:
+LTDIE_177:
 
 	.byte 5
-	.asciz "System_Func`1"
+	.asciz "StreamingExample_misionvision"
 
-	.byte 128,1,16
-LDIFF_SYM1204=LTDIE_14 - Ldebug_info_start
+	.byte 128,4,16
+LDIFF_SYM1204=LTDIE_174 - Ldebug_info_start
 	.long LDIFF_SYM1204
 	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
+	.asciz "StreamingExample_misionvision"
 
-LDIFF_SYM1205=LTDIE_180 - Ldebug_info_start
+LDIFF_SYM1205=LTDIE_177 - Ldebug_info_start
 	.long LDIFF_SYM1205
-LTDIE_180_POINTER:
+LTDIE_177_POINTER:
 
 	.byte 13
-LDIFF_SYM1206=LTDIE_180 - Ldebug_info_start
+LDIFF_SYM1206=LTDIE_177 - Ldebug_info_start
 	.long LDIFF_SYM1206
-LTDIE_180_REFERENCE:
+LTDIE_177_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1207=LTDIE_180 - Ldebug_info_start
+LDIFF_SYM1207=LTDIE_177 - Ldebug_info_start
 	.long LDIFF_SYM1207
+	.byte 2
+	.asciz "StreamingExample.misionvision:.ctor"
+	.asciz "StreamingExample_misionvision__ctor"
+
+	.byte 6,10
+	.quad StreamingExample_misionvision__ctor
+	.quad Lme_1b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1208=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1208
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1209=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM1209
+Lfde24_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_misionvision__ctor
+
+LDIFF_SYM1210=Lme_1b - StreamingExample_misionvision__ctor
+	.long LDIFF_SYM1210
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.align 3
+Lfde24_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.misionvision:InitializeComponent"
+	.asciz "StreamingExample_misionvision_InitializeComponent"
+
+	.byte 7,20
+	.quad StreamingExample_misionvision_InitializeComponent
+	.quad Lme_1c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1211=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1211
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1212=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM1212
+Lfde25_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_misionvision_InitializeComponent
+
+LDIFF_SYM1213=Lme_1c - StreamingExample_misionvision_InitializeComponent
+	.long LDIFF_SYM1213
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde25_end:
+
+.section __DWARF, __debug_info,regular,debug
 LTDIE_181:
 
 	.byte 5
-	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
+	.asciz "System_EventHandler`1"
 
-	.byte 32,16
-LDIFF_SYM1208=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1208
-	.byte 2,35,0,6
-	.asciz "_element"
+	.byte 128,1,16
+LDIFF_SYM1214=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1214
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1209=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1209
-	.byte 2,35,16,6
-	.asciz "_platformSpecifics"
-
-LDIFF_SYM1210=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1210
-	.byte 2,35,24,0,7
-	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
-
-LDIFF_SYM1211=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1211
+LDIFF_SYM1215=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1215
 LTDIE_181_POINTER:
 
 	.byte 13
-LDIFF_SYM1212=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1212
+LDIFF_SYM1216=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1216
 LTDIE_181_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1213=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1213
-LTDIE_179:
-
-	.byte 5
-	.asciz "System_Lazy`1"
-
-	.byte 40,16
-LDIFF_SYM1214=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1214
-	.byte 2,35,0,6
-	.asciz "_state"
-
-LDIFF_SYM1215=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1215
-	.byte 2,35,16,6
-	.asciz "_factory"
-
-LDIFF_SYM1216=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1216
-	.byte 2,35,24,6
-	.asciz "_value"
-
-LDIFF_SYM1217=LTDIE_181_REFERENCE - Ldebug_info_start
+LDIFF_SYM1217=LTDIE_181 - Ldebug_info_start
 	.long LDIFF_SYM1217
-	.byte 2,35,32,0,7
-	.asciz "System_Lazy`1"
-
-LDIFF_SYM1218=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1218
-LTDIE_179_POINTER:
-
-	.byte 13
-LDIFF_SYM1219=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1219
-LTDIE_179_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1220=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1220
-LTDIE_178:
-
-	.byte 5
-	.asciz "Xamarin_Forms_Image"
-
-	.byte 152,3,16
-LDIFF_SYM1221=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1221
-	.byte 2,35,0,6
-	.asciz "_platformConfigurationRegistry"
-
-LDIFF_SYM1222=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1222
-	.byte 3,35,144,3,0,7
-	.asciz "Xamarin_Forms_Image"
-
-LDIFF_SYM1223=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1223
-LTDIE_178_POINTER:
-
-	.byte 13
-LDIFF_SYM1224=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1224
-LTDIE_178_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1225=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1225
-LTDIE_184:
+LTDIE_183:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 128,1,16
-LDIFF_SYM1226=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM1226
+LDIFF_SYM1218=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1218
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1227=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1227
-LTDIE_184_POINTER:
+LDIFF_SYM1219=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1219
+LTDIE_183_POINTER:
 
 	.byte 13
-LDIFF_SYM1228=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1228
-LTDIE_184_REFERENCE:
+LDIFF_SYM1220=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1220
+LTDIE_183_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1229=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1229
-LTDIE_185:
+LDIFF_SYM1221=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1221
+LTDIE_184:
 
 	.byte 5
 	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
 
 	.byte 32,16
-LDIFF_SYM1230=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1230
+LDIFF_SYM1222=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1222
 	.byte 2,35,0,6
 	.asciz "_element"
 
-LDIFF_SYM1231=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1231
+LDIFF_SYM1223=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1223
 	.byte 2,35,16,6
 	.asciz "_platformSpecifics"
 
-LDIFF_SYM1232=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1232
+LDIFF_SYM1224=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1224
 	.byte 2,35,24,0,7
 	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
 
-LDIFF_SYM1233=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1233
-LTDIE_185_POINTER:
+LDIFF_SYM1225=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1225
+LTDIE_184_POINTER:
 
 	.byte 13
-LDIFF_SYM1234=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1234
-LTDIE_185_REFERENCE:
+LDIFF_SYM1226=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1226
+LTDIE_184_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1235=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1235
-LTDIE_183:
+LDIFF_SYM1227=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1227
+LTDIE_182:
 
 	.byte 5
 	.asciz "System_Lazy`1"
 
 	.byte 40,16
-LDIFF_SYM1236=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1236
+LDIFF_SYM1228=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1228
 	.byte 2,35,0,6
 	.asciz "_state"
 
-LDIFF_SYM1237=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1237
+LDIFF_SYM1229=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1229
 	.byte 2,35,16,6
 	.asciz "_factory"
 
-LDIFF_SYM1238=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1238
+LDIFF_SYM1230=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1230
 	.byte 2,35,24,6
 	.asciz "_value"
 
-LDIFF_SYM1239=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1239
+LDIFF_SYM1231=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1231
 	.byte 2,35,32,0,7
 	.asciz "System_Lazy`1"
 
-LDIFF_SYM1240=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1240
-LTDIE_183_POINTER:
-
-	.byte 13
-LDIFF_SYM1241=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1241
-LTDIE_183_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1242=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1242
-LTDIE_182:
-
-	.byte 5
-	.asciz "Xamarin_Forms_Label"
-
-	.byte 152,3,16
-LDIFF_SYM1243=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1243
-	.byte 2,35,0,6
-	.asciz "_platformConfigurationRegistry"
-
-LDIFF_SYM1244=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1244
-	.byte 3,35,144,3,0,7
-	.asciz "Xamarin_Forms_Label"
-
-LDIFF_SYM1245=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1245
+LDIFF_SYM1232=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1232
 LTDIE_182_POINTER:
 
 	.byte 13
-LDIFF_SYM1246=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1246
+LDIFF_SYM1233=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1233
 LTDIE_182_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1247=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1247
-LTDIE_188:
+LDIFF_SYM1234=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1234
+LTDIE_180:
 
 	.byte 5
-	.asciz "System_EventHandler`1"
+	.asciz "Xamarin_Forms_FlyoutPage"
 
-	.byte 128,1,16
-LDIFF_SYM1248=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM1248
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
+	.byte 232,4,16
+LDIFF_SYM1235=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1235
+	.byte 2,35,0,6
+	.asciz "_detail"
 
-LDIFF_SYM1249=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1249
-LTDIE_188_POINTER:
+LDIFF_SYM1236=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1236
+	.byte 3,35,248,3,6
+	.asciz "_detailBounds"
+
+LDIFF_SYM1237=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1237
+	.byte 3,35,160,4,6
+	.asciz "_flyout"
+
+LDIFF_SYM1238=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1238
+	.byte 3,35,128,4,6
+	.asciz "_flyoutBounds"
+
+LDIFF_SYM1239=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1239
+	.byte 3,35,192,4,6
+	.asciz "<CanChangeIsPresented>k__BackingField"
+
+LDIFF_SYM1240=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1240
+	.byte 3,35,224,4,6
+	.asciz "IsPresentedChanged"
+
+LDIFF_SYM1241=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1241
+	.byte 3,35,136,4,6
+	.asciz "BackButtonPressed"
+
+LDIFF_SYM1242=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1242
+	.byte 3,35,144,4,6
+	.asciz "_platformConfigurationRegistry"
+
+LDIFF_SYM1243=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1243
+	.byte 3,35,152,4,0,7
+	.asciz "Xamarin_Forms_FlyoutPage"
+
+LDIFF_SYM1244=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1244
+LTDIE_180_POINTER:
 
 	.byte 13
-LDIFF_SYM1250=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1250
-LTDIE_188_REFERENCE:
+LDIFF_SYM1245=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1245
+LTDIE_180_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1251=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1251
+LDIFF_SYM1246=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1246
+LTDIE_186:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 128,1,16
+LDIFF_SYM1247=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1247
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1248=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1248
+LTDIE_186_POINTER:
+
+	.byte 13
+LDIFF_SYM1249=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1249
+LTDIE_186_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1250=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1250
 LTDIE_187:
 
 	.byte 5
-	.asciz "Xamarin_Forms_InputView"
+	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
 
-	.byte 152,3,16
-LDIFF_SYM1252=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1252
+	.byte 32,16
+LDIFF_SYM1251=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1251
 	.byte 2,35,0,6
-	.asciz "TextChanged"
+	.asciz "_element"
 
-LDIFF_SYM1253=LTDIE_188_REFERENCE - Ldebug_info_start
+LDIFF_SYM1252=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1252
+	.byte 2,35,16,6
+	.asciz "_platformSpecifics"
+
+LDIFF_SYM1253=LTDIE_100_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1253
-	.byte 3,35,144,3,0,7
-	.asciz "Xamarin_Forms_InputView"
+	.byte 2,35,24,0,7
+	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
 
 LDIFF_SYM1254=LTDIE_187 - Ldebug_info_start
 	.long LDIFF_SYM1254
@@ -16242,985 +42555,1269 @@ LTDIE_187_REFERENCE:
 	.byte 14
 LDIFF_SYM1256=LTDIE_187 - Ldebug_info_start
 	.long LDIFF_SYM1256
-LTDIE_190:
-
-	.byte 5
-	.asciz "System_Func`1"
-
-	.byte 128,1,16
-LDIFF_SYM1257=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM1257
-	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
-
-LDIFF_SYM1258=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1258
-LTDIE_190_POINTER:
-
-	.byte 13
-LDIFF_SYM1259=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1259
-LTDIE_190_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1260=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1260
-LTDIE_191:
-
-	.byte 5
-	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
-
-	.byte 32,16
-LDIFF_SYM1261=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1261
-	.byte 2,35,0,6
-	.asciz "_element"
-
-LDIFF_SYM1262=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1262
-	.byte 2,35,16,6
-	.asciz "_platformSpecifics"
-
-LDIFF_SYM1263=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1263
-	.byte 2,35,24,0,7
-	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
-
-LDIFF_SYM1264=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1264
-LTDIE_191_POINTER:
-
-	.byte 13
-LDIFF_SYM1265=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1265
-LTDIE_191_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1266=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1266
-LTDIE_189:
+LTDIE_185:
 
 	.byte 5
 	.asciz "System_Lazy`1"
 
 	.byte 40,16
-LDIFF_SYM1267=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1267
+LDIFF_SYM1257=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1257
 	.byte 2,35,0,6
 	.asciz "_state"
 
-LDIFF_SYM1268=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1268
+LDIFF_SYM1258=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1258
 	.byte 2,35,16,6
 	.asciz "_factory"
 
-LDIFF_SYM1269=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1269
+LDIFF_SYM1259=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1259
 	.byte 2,35,24,6
 	.asciz "_value"
 
-LDIFF_SYM1270=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1270
+LDIFF_SYM1260=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1260
 	.byte 2,35,32,0,7
 	.asciz "System_Lazy`1"
 
-LDIFF_SYM1271=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1271
-LTDIE_189_POINTER:
+LDIFF_SYM1261=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1261
+LTDIE_185_POINTER:
 
 	.byte 13
-LDIFF_SYM1272=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1272
-LTDIE_189_REFERENCE:
+LDIFF_SYM1262=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1262
+LTDIE_185_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1273=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1273
-LTDIE_186:
+LDIFF_SYM1263=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1263
+LTDIE_179:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Entry"
+	.asciz "Xamarin_Forms_MasterDetailPage"
 
-	.byte 168,3,16
-LDIFF_SYM1274=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1274
+	.byte 240,4,16
+LDIFF_SYM1264=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1264
 	.byte 2,35,0,6
 	.asciz "_platformConfigurationRegistry"
 
-LDIFF_SYM1275=LTDIE_189_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1275
-	.byte 3,35,152,3,6
-	.asciz "Completed"
+LDIFF_SYM1265=LTDIE_185_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1265
+	.byte 3,35,232,4,0,7
+	.asciz "Xamarin_Forms_MasterDetailPage"
 
-LDIFF_SYM1276=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1276
-	.byte 3,35,160,3,0,7
-	.asciz "Xamarin_Forms_Entry"
-
-LDIFF_SYM1277=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1277
-LTDIE_186_POINTER:
+LDIFF_SYM1266=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1266
+LTDIE_179_POINTER:
 
 	.byte 13
-LDIFF_SYM1278=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1278
-LTDIE_186_REFERENCE:
+LDIFF_SYM1267=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1267
+LTDIE_179_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1279=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1279
-LTDIE_177:
+LDIFF_SYM1268=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1268
+LTDIE_191:
 
 	.byte 5
-	.asciz "StreamingExample_Principal"
+	.asciz "System_Func`1"
 
-	.byte 168,4,16
-LDIFF_SYM1280=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1280
-	.byte 2,35,0,6
-	.asciz "imgPerfil"
+	.byte 128,1,16
+LDIFF_SYM1269=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1269
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
 
-LDIFF_SYM1281=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1281
-	.byte 3,35,128,4,6
-	.asciz "lbHeaderName"
-
-LDIFF_SYM1282=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1282
-	.byte 3,35,136,4,6
-	.asciz "imgCartOk"
-
-LDIFF_SYM1283=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1283
-	.byte 3,35,144,4,6
-	.asciz "txtOrigen"
-
-LDIFF_SYM1284=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1284
-	.byte 3,35,152,4,6
-	.asciz "txtCotizar"
-
-LDIFF_SYM1285=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1285
-	.byte 3,35,160,4,0,7
-	.asciz "StreamingExample_Principal"
-
-LDIFF_SYM1286=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1286
-LTDIE_177_POINTER:
+LDIFF_SYM1270=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1270
+LTDIE_191_POINTER:
 
 	.byte 13
-LDIFF_SYM1287=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1287
-LTDIE_177_REFERENCE:
+LDIFF_SYM1271=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1271
+LTDIE_191_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1288=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1288
-	.byte 2
-	.asciz "StreamingExample.Principal:get_ViewModel"
-	.asciz "StreamingExample_Principal_get_ViewModel"
-
-	.byte 6,11
-	.quad StreamingExample_Principal_get_ViewModel
-	.quad Lme_1b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1289=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1289
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1290=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM1290
-Lfde24_start:
-
-	.long 0
-	.align 3
-	.quad StreamingExample_Principal_get_ViewModel
-
-LDIFF_SYM1291=Lme_1b - StreamingExample_Principal_get_ViewModel
-	.long LDIFF_SYM1291
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
-	.align 3
-Lfde24_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "StreamingExample.Principal:.ctor"
-	.asciz "StreamingExample_Principal__ctor"
-
-	.byte 6,13
-	.quad StreamingExample_Principal__ctor
-	.quad Lme_1c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1292=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1292
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1293=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM1293
-Lfde25_start:
-
-	.long 0
-	.align 3
-	.quad StreamingExample_Principal__ctor
-
-LDIFF_SYM1294=Lme_1c - StreamingExample_Principal__ctor
-	.long LDIFF_SYM1294
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
-	.align 3
-Lfde25_end:
-
-.section __DWARF, __debug_info,regular,debug
+LDIFF_SYM1272=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1272
 LTDIE_192:
 
 	.byte 5
-	.asciz "Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs"
+	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
 
-	.byte 24,16
-LDIFF_SYM1295=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1295
+	.byte 32,16
+LDIFF_SYM1273=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1273
 	.byte 2,35,0,6
-	.asciz "<Data>k__BackingField"
+	.asciz "_element"
 
-LDIFF_SYM1296=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1296
-	.byte 2,35,16,0,7
-	.asciz "Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs"
+LDIFF_SYM1274=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1274
+	.byte 2,35,16,6
+	.asciz "_platformSpecifics"
 
-LDIFF_SYM1297=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1297
+LDIFF_SYM1275=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1275
+	.byte 2,35,24,0,7
+	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
+
+LDIFF_SYM1276=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1276
 LTDIE_192_POINTER:
 
 	.byte 13
-LDIFF_SYM1298=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1298
+LDIFF_SYM1277=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1277
 LTDIE_192_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1299=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1299
-	.byte 2
-	.asciz "StreamingExample.Principal:Current_OnNotificationReceived"
-	.asciz "StreamingExample_Principal_Current_OnNotificationReceived_object_Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs"
+LDIFF_SYM1278=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1278
+LTDIE_190:
 
-	.byte 6,28
-	.quad StreamingExample_Principal_Current_OnNotificationReceived_object_Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs
+	.byte 5
+	.asciz "System_Lazy`1"
+
+	.byte 40,16
+LDIFF_SYM1279=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1279
+	.byte 2,35,0,6
+	.asciz "_state"
+
+LDIFF_SYM1280=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1280
+	.byte 2,35,16,6
+	.asciz "_factory"
+
+LDIFF_SYM1281=LTDIE_191_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1281
+	.byte 2,35,24,6
+	.asciz "_value"
+
+LDIFF_SYM1282=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1282
+	.byte 2,35,32,0,7
+	.asciz "System_Lazy`1"
+
+LDIFF_SYM1283=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1283
+LTDIE_190_POINTER:
+
+	.byte 13
+LDIFF_SYM1284=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1284
+LTDIE_190_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1285=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1285
+LTDIE_189:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Image"
+
+	.byte 152,3,16
+LDIFF_SYM1286=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1286
+	.byte 2,35,0,6
+	.asciz "_platformConfigurationRegistry"
+
+LDIFF_SYM1287=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1287
+	.byte 3,35,144,3,0,7
+	.asciz "Xamarin_Forms_Image"
+
+LDIFF_SYM1288=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1288
+LTDIE_189_POINTER:
+
+	.byte 13
+LDIFF_SYM1289=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1289
+LTDIE_189_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1290=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1290
+LTDIE_195:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 128,1,16
+LDIFF_SYM1291=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1291
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1292=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1292
+LTDIE_195_POINTER:
+
+	.byte 13
+LDIFF_SYM1293=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1293
+LTDIE_195_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1294=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1294
+LTDIE_196:
+
+	.byte 5
+	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
+
+	.byte 32,16
+LDIFF_SYM1295=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1295
+	.byte 2,35,0,6
+	.asciz "_element"
+
+LDIFF_SYM1296=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1296
+	.byte 2,35,16,6
+	.asciz "_platformSpecifics"
+
+LDIFF_SYM1297=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1297
+	.byte 2,35,24,0,7
+	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
+
+LDIFF_SYM1298=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1298
+LTDIE_196_POINTER:
+
+	.byte 13
+LDIFF_SYM1299=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1299
+LTDIE_196_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1300=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1300
+LTDIE_194:
+
+	.byte 5
+	.asciz "System_Lazy`1"
+
+	.byte 40,16
+LDIFF_SYM1301=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1301
+	.byte 2,35,0,6
+	.asciz "_state"
+
+LDIFF_SYM1302=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1302
+	.byte 2,35,16,6
+	.asciz "_factory"
+
+LDIFF_SYM1303=LTDIE_195_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1303
+	.byte 2,35,24,6
+	.asciz "_value"
+
+LDIFF_SYM1304=LTDIE_196_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1304
+	.byte 2,35,32,0,7
+	.asciz "System_Lazy`1"
+
+LDIFF_SYM1305=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1305
+LTDIE_194_POINTER:
+
+	.byte 13
+LDIFF_SYM1306=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1306
+LTDIE_194_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1307=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1307
+LTDIE_193:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Label"
+
+	.byte 152,3,16
+LDIFF_SYM1308=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1308
+	.byte 2,35,0,6
+	.asciz "_platformConfigurationRegistry"
+
+LDIFF_SYM1309=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1309
+	.byte 3,35,144,3,0,7
+	.asciz "Xamarin_Forms_Label"
+
+LDIFF_SYM1310=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1310
+LTDIE_193_POINTER:
+
+	.byte 13
+LDIFF_SYM1311=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1311
+LTDIE_193_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1312=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1312
+LTDIE_188:
+
+	.byte 5
+	.asciz "StreamingExample_MainMasterMaster"
+
+	.byte 152,4,16
+LDIFF_SYM1313=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1313
+	.byte 2,35,0,6
+	.asciz "caja"
+
+LDIFF_SYM1314=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1314
+	.byte 3,35,128,4,6
+	.asciz "imgPerfil"
+
+LDIFF_SYM1315=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1315
+	.byte 3,35,136,4,6
+	.asciz "lbVersion"
+
+LDIFF_SYM1316=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1316
+	.byte 3,35,144,4,0,7
+	.asciz "StreamingExample_MainMasterMaster"
+
+LDIFF_SYM1317=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1317
+LTDIE_188_POINTER:
+
+	.byte 13
+LDIFF_SYM1318=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1318
+LTDIE_188_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1319=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1319
+LTDIE_178:
+
+	.byte 5
+	.asciz "StreamingExample_MainMaster"
+
+	.byte 248,4,16
+LDIFF_SYM1320=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1320
+	.byte 2,35,0,6
+	.asciz "MasterPage"
+
+LDIFF_SYM1321=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1321
+	.byte 3,35,240,4,0,7
+	.asciz "StreamingExample_MainMaster"
+
+LDIFF_SYM1322=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1322
+LTDIE_178_POINTER:
+
+	.byte 13
+LDIFF_SYM1323=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1323
+LTDIE_178_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1324=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1324
+	.byte 2
+	.asciz "StreamingExample.MainMaster:.ctor"
+	.asciz "StreamingExample_MainMaster__ctor"
+
+	.byte 8,12
+	.quad StreamingExample_MainMaster__ctor
 	.quad Lme_1d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1300=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1300
-	.byte 2,141,16,3
-	.asciz "source"
-
-LDIFF_SYM1301=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1301
-	.byte 2,141,24,3
-	.asciz "e"
-
-LDIFF_SYM1302=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1302
-	.byte 2,141,32,0
+LDIFF_SYM1325=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1325
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1303=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM1303
+LDIFF_SYM1326=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM1326
 Lfde26_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal_Current_OnNotificationReceived_object_Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs
+	.quad StreamingExample_MainMaster__ctor
 
-LDIFF_SYM1304=Lme_1d - StreamingExample_Principal_Current_OnNotificationReceived_object_Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs
-	.long LDIFF_SYM1304
+LDIFF_SYM1327=Lme_1d - StreamingExample_MainMaster__ctor
+	.long LDIFF_SYM1327
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
 Lfde26_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_193:
 
-	.byte 5
-	.asciz "_<TapGestureRecognizer_Tapped>d__4"
-
-	.byte 80,16
-LDIFF_SYM1305=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1305
-	.byte 2,35,0,6
-	.asciz "<>1__state"
-
-LDIFF_SYM1306=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1306
-	.byte 2,35,72,6
-	.asciz "<>t__builder"
-
-LDIFF_SYM1307=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1307
-	.byte 2,35,16,6
-	.asciz "sender"
-
-LDIFF_SYM1308=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1308
-	.byte 2,35,48,6
-	.asciz "e"
-
-LDIFF_SYM1309=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1309
-	.byte 2,35,56,6
-	.asciz "<>4__this"
-
-LDIFF_SYM1310=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1310
-	.byte 2,35,64,0,7
-	.asciz "_<TapGestureRecognizer_Tapped>d__4"
-
-LDIFF_SYM1311=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1311
-LTDIE_193_POINTER:
-
-	.byte 13
-LDIFF_SYM1312=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1312
-LTDIE_193_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1313=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1313
 	.byte 2
-	.asciz "StreamingExample.Principal:TapGestureRecognizer_Tapped"
-	.asciz "StreamingExample_Principal_TapGestureRecognizer_Tapped_object_System_EventArgs"
+	.asciz "StreamingExample.MainMaster:MainMaster_IsPresentedChanged"
+	.asciz "StreamingExample_MainMaster_MainMaster_IsPresentedChanged_object_System_EventArgs"
 
-	.byte 0,0
-	.quad StreamingExample_Principal_TapGestureRecognizer_Tapped_object_System_EventArgs
+	.byte 8,19
+	.quad StreamingExample_MainMaster_MainMaster_IsPresentedChanged_object_System_EventArgs
 	.quad Lme_1e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1314=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1314
-	.byte 2,141,16,3
+LDIFF_SYM1328=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1328
+	.byte 1,106,3
 	.asciz "sender"
 
-LDIFF_SYM1315=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1315
-	.byte 2,141,24,3
+LDIFF_SYM1329=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1329
+	.byte 2,141,48,3
 	.asciz "e"
 
-LDIFF_SYM1316=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1316
-	.byte 2,141,32,11
+LDIFF_SYM1330=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1330
+	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM1317=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1317
-	.byte 3,141,224,0,0
+LDIFF_SYM1331=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1331
+	.byte 1,105,11
+	.asciz "menuPage"
+
+LDIFF_SYM1332=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1332
+	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1318=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM1318
+LDIFF_SYM1333=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM1333
 Lfde27_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal_TapGestureRecognizer_Tapped_object_System_EventArgs
+	.quad StreamingExample_MainMaster_MainMaster_IsPresentedChanged_object_System_EventArgs
 
-LDIFF_SYM1319=Lme_1e - StreamingExample_Principal_TapGestureRecognizer_Tapped_object_System_EventArgs
-	.long LDIFF_SYM1319
-	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
-	.align 3
-Lfde27_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_194:
-
-	.byte 5
-	.asciz "_<pausar_Tapped>d__5"
-
-	.byte 80,16
-LDIFF_SYM1320=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1320
-	.byte 2,35,0,6
-	.asciz "<>1__state"
-
-LDIFF_SYM1321=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1321
-	.byte 2,35,72,6
-	.asciz "<>t__builder"
-
-LDIFF_SYM1322=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1322
-	.byte 2,35,16,6
-	.asciz "sender"
-
-LDIFF_SYM1323=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1323
-	.byte 2,35,48,6
-	.asciz "e"
-
-LDIFF_SYM1324=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1324
-	.byte 2,35,56,6
-	.asciz "<>4__this"
-
-LDIFF_SYM1325=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1325
-	.byte 2,35,64,0,7
-	.asciz "_<pausar_Tapped>d__5"
-
-LDIFF_SYM1326=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1326
-LTDIE_194_POINTER:
-
-	.byte 13
-LDIFF_SYM1327=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1327
-LTDIE_194_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1328=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1328
-	.byte 2
-	.asciz "StreamingExample.Principal:pausar_Tapped"
-	.asciz "StreamingExample_Principal_pausar_Tapped_object_System_EventArgs"
-
-	.byte 0,0
-	.quad StreamingExample_Principal_pausar_Tapped_object_System_EventArgs
-	.quad Lme_1f
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1329=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1329
-	.byte 2,141,16,3
-	.asciz "sender"
-
-LDIFF_SYM1330=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1330
-	.byte 2,141,24,3
-	.asciz "e"
-
-LDIFF_SYM1331=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1331
-	.byte 2,141,32,11
-	.asciz "V_0"
-
-LDIFF_SYM1332=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1332
-	.byte 3,141,224,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1333=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM1333
-Lfde28_start:
-
-	.long 0
-	.align 3
-	.quad StreamingExample_Principal_pausar_Tapped_object_System_EventArgs
-
-LDIFF_SYM1334=Lme_1f - StreamingExample_Principal_pausar_Tapped_object_System_EventArgs
+LDIFF_SYM1334=Lme_1e - StreamingExample_MainMaster_MainMaster_IsPresentedChanged_object_System_EventArgs
 	.long LDIFF_SYM1334
 	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde28_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_195:
-
-	.byte 5
-	.asciz "_<stop_Tapped>d__6"
-
-	.byte 80,16
-LDIFF_SYM1335=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1335
-	.byte 2,35,0,6
-	.asciz "<>1__state"
-
-LDIFF_SYM1336=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1336
-	.byte 2,35,72,6
-	.asciz "<>t__builder"
-
-LDIFF_SYM1337=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1337
-	.byte 2,35,16,6
-	.asciz "sender"
-
-LDIFF_SYM1338=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1338
-	.byte 2,35,48,6
-	.asciz "e"
-
-LDIFF_SYM1339=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1339
-	.byte 2,35,56,6
-	.asciz "<>4__this"
-
-LDIFF_SYM1340=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1340
-	.byte 2,35,64,0,7
-	.asciz "_<stop_Tapped>d__6"
-
-LDIFF_SYM1341=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1341
-LTDIE_195_POINTER:
-
-	.byte 13
-LDIFF_SYM1342=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1342
-LTDIE_195_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1343=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1343
-	.byte 2
-	.asciz "StreamingExample.Principal:stop_Tapped"
-	.asciz "StreamingExample_Principal_stop_Tapped_object_System_EventArgs"
-
-	.byte 0,0
-	.quad StreamingExample_Principal_stop_Tapped_object_System_EventArgs
-	.quad Lme_20
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1344=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1344
-	.byte 2,141,16,3
-	.asciz "sender"
-
-LDIFF_SYM1345=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1345
-	.byte 2,141,24,3
-	.asciz "e"
-
-LDIFF_SYM1346=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1346
-	.byte 2,141,32,11
-	.asciz "V_0"
-
-LDIFF_SYM1347=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1347
-	.byte 3,141,224,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1348=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM1348
-Lfde29_start:
-
-	.long 0
-	.align 3
-	.quad StreamingExample_Principal_stop_Tapped_object_System_EventArgs
-
-LDIFF_SYM1349=Lme_20 - StreamingExample_Principal_stop_Tapped_object_System_EventArgs
-	.long LDIFF_SYM1349
-	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
-	.align 3
-Lfde29_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_196:
-
-	.byte 5
-	.asciz "_<Perfil_Tapped>d__7"
-
-	.byte 80,16
-LDIFF_SYM1350=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1350
-	.byte 2,35,0,6
-	.asciz "<>1__state"
-
-LDIFF_SYM1351=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1351
-	.byte 2,35,72,6
-	.asciz "<>t__builder"
-
-LDIFF_SYM1352=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1352
-	.byte 2,35,16,6
-	.asciz "sender"
-
-LDIFF_SYM1353=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1353
-	.byte 2,35,48,6
-	.asciz "e"
-
-LDIFF_SYM1354=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1354
-	.byte 2,35,56,6
-	.asciz "<>4__this"
-
-LDIFF_SYM1355=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1355
-	.byte 2,35,64,0,7
-	.asciz "_<Perfil_Tapped>d__7"
-
-LDIFF_SYM1356=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1356
-LTDIE_196_POINTER:
-
-	.byte 13
-LDIFF_SYM1357=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1357
-LTDIE_196_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1358=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1358
-	.byte 2
-	.asciz "StreamingExample.Principal:Perfil_Tapped"
-	.asciz "StreamingExample_Principal_Perfil_Tapped_object_System_EventArgs"
-
-	.byte 0,0
-	.quad StreamingExample_Principal_Perfil_Tapped_object_System_EventArgs
-	.quad Lme_21
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1359=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1359
-	.byte 2,141,16,3
-	.asciz "sender"
-
-LDIFF_SYM1360=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1360
-	.byte 2,141,24,3
-	.asciz "e"
-
-LDIFF_SYM1361=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1361
-	.byte 2,141,32,11
-	.asciz "V_0"
-
-LDIFF_SYM1362=LTDIE_196_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1362
-	.byte 3,141,224,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1363=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM1363
-Lfde30_start:
-
-	.long 0
-	.align 3
-	.quad StreamingExample_Principal_Perfil_Tapped_object_System_EventArgs
-
-LDIFF_SYM1364=Lme_21 - StreamingExample_Principal_Perfil_Tapped_object_System_EventArgs
-	.long LDIFF_SYM1364
-	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
-	.align 3
-Lfde30_end:
+Lfde27_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_197:
 
 	.byte 5
-	.asciz "_<txtOrigen_Completed>d__8"
+	.asciz "StreamingExample_Principal"
 
-	.byte 80,16
-LDIFF_SYM1365=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1365
+	.byte 152,4,16
+LDIFF_SYM1335=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1335
 	.byte 2,35,0,6
-	.asciz "<>1__state"
+	.asciz "imgPerfil"
 
-LDIFF_SYM1366=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1366
-	.byte 2,35,72,6
-	.asciz "<>t__builder"
+LDIFF_SYM1336=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1336
+	.byte 3,35,128,4,6
+	.asciz "lbHeaderName"
 
-LDIFF_SYM1367=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1367
-	.byte 2,35,16,6
-	.asciz "sender"
+LDIFF_SYM1337=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1337
+	.byte 3,35,136,4,6
+	.asciz "imgCartOk"
 
-LDIFF_SYM1368=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1368
-	.byte 2,35,48,6
-	.asciz "e"
+LDIFF_SYM1338=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1338
+	.byte 3,35,144,4,0,7
+	.asciz "StreamingExample_Principal"
 
-LDIFF_SYM1369=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1369
-	.byte 2,35,56,6
-	.asciz "<>4__this"
-
-LDIFF_SYM1370=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1370
-	.byte 2,35,64,0,7
-	.asciz "_<txtOrigen_Completed>d__8"
-
-LDIFF_SYM1371=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1371
+LDIFF_SYM1339=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1339
 LTDIE_197_POINTER:
 
 	.byte 13
-LDIFF_SYM1372=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1372
+LDIFF_SYM1340=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1340
 LTDIE_197_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1373=LTDIE_197 - Ldebug_info_start
+LDIFF_SYM1341=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1341
+LTDIE_199:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 128,1,16
+LDIFF_SYM1342=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1342
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM1343=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1343
+LTDIE_199_POINTER:
+
+	.byte 13
+LDIFF_SYM1344=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1344
+LTDIE_199_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1345=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1345
+LTDIE_200:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 128,1,16
+LDIFF_SYM1346=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1346
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM1347=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1347
+LTDIE_200_POINTER:
+
+	.byte 13
+LDIFF_SYM1348=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1348
+LTDIE_200_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1349=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1349
+LTDIE_202:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 128,1,16
+LDIFF_SYM1350=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1350
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1351=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1351
+LTDIE_202_POINTER:
+
+	.byte 13
+LDIFF_SYM1352=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1352
+LTDIE_202_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1353=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1353
+LTDIE_203:
+
+	.byte 5
+	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
+
+	.byte 32,16
+LDIFF_SYM1354=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1354
+	.byte 2,35,0,6
+	.asciz "_element"
+
+LDIFF_SYM1355=LTDIE_198_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1355
+	.byte 2,35,16,6
+	.asciz "_platformSpecifics"
+
+LDIFF_SYM1356=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1356
+	.byte 2,35,24,0,7
+	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
+
+LDIFF_SYM1357=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1357
+LTDIE_203_POINTER:
+
+	.byte 13
+LDIFF_SYM1358=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1358
+LTDIE_203_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1359=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1359
+LTDIE_201:
+
+	.byte 5
+	.asciz "System_Lazy`1"
+
+	.byte 40,16
+LDIFF_SYM1360=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1360
+	.byte 2,35,0,6
+	.asciz "_state"
+
+LDIFF_SYM1361=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1361
+	.byte 2,35,16,6
+	.asciz "_factory"
+
+LDIFF_SYM1362=LTDIE_202_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1362
+	.byte 2,35,24,6
+	.asciz "_value"
+
+LDIFF_SYM1363=LTDIE_203_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1363
+	.byte 2,35,32,0,7
+	.asciz "System_Lazy`1"
+
+LDIFF_SYM1364=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1364
+LTDIE_201_POINTER:
+
+	.byte 13
+LDIFF_SYM1365=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1365
+LTDIE_201_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1366=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1366
+LTDIE_198:
+
+	.byte 5
+	.asciz "Xamarin_Forms_NavigationPage"
+
+	.byte 200,4,16
+LDIFF_SYM1367=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1367
+	.byte 2,35,0,6
+	.asciz "<CurrentNavigationTask>k__BackingField"
+
+LDIFF_SYM1368=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1368
+	.byte 3,35,248,3,6
+	.asciz "Popped"
+
+LDIFF_SYM1369=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1369
+	.byte 3,35,128,4,6
+	.asciz "PoppedToRoot"
+
+LDIFF_SYM1370=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1370
+	.byte 3,35,136,4,6
+	.asciz "Pushed"
+
+LDIFF_SYM1371=LTDIE_199_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1371
+	.byte 3,35,144,4,6
+	.asciz "InsertPageBeforeRequested"
+
+LDIFF_SYM1372=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1372
+	.byte 3,35,152,4,6
+	.asciz "PopRequested"
+
+LDIFF_SYM1373=LTDIE_200_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1373
+	.byte 3,35,160,4,6
+	.asciz "PopToRootRequested"
+
+LDIFF_SYM1374=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1374
+	.byte 3,35,168,4,6
+	.asciz "PushRequested"
+
+LDIFF_SYM1375=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1375
+	.byte 3,35,176,4,6
+	.asciz "RemovePageRequested"
+
+LDIFF_SYM1376=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1376
+	.byte 3,35,184,4,6
+	.asciz "_platformConfigurationRegistry"
+
+LDIFF_SYM1377=LTDIE_201_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1377
+	.byte 3,35,192,4,0,7
+	.asciz "Xamarin_Forms_NavigationPage"
+
+LDIFF_SYM1378=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1378
+LTDIE_198_POINTER:
+
+	.byte 13
+LDIFF_SYM1379=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1379
+LTDIE_198_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1380=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1380
+LTDIE_206:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+LDIFF_SYM1381=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1381
+LTDIE_206_POINTER:
+
+	.byte 13
+LDIFF_SYM1382=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1382
+LTDIE_206_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1383=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1383
+LTDIE_207:
+
+	.byte 5
+	.asciz "_KeyCollection"
+
+	.byte 24,16
+LDIFF_SYM1384=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1384
+	.byte 2,35,0,6
+	.asciz "_dictionary"
+
+LDIFF_SYM1385=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1385
+	.byte 2,35,16,0,7
+	.asciz "_KeyCollection"
+
+LDIFF_SYM1386=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1386
+LTDIE_207_POINTER:
+
+	.byte 13
+LDIFF_SYM1387=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1387
+LTDIE_207_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1388=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1388
+LTDIE_208:
+
+	.byte 5
+	.asciz "_ValueCollection"
+
+	.byte 24,16
+LDIFF_SYM1389=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1389
+	.byte 2,35,0,6
+	.asciz "_dictionary"
+
+LDIFF_SYM1390=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1390
+	.byte 2,35,16,0,7
+	.asciz "_ValueCollection"
+
+LDIFF_SYM1391=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1391
+LTDIE_208_POINTER:
+
+	.byte 13
+LDIFF_SYM1392=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1392
+LTDIE_208_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1393=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1393
+LTDIE_205:
+
+	.byte 5
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+	.byte 80,16
+LDIFF_SYM1394=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1394
+	.byte 2,35,0,6
+	.asciz "_buckets"
+
+LDIFF_SYM1395=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1395
+	.byte 2,35,16,6
+	.asciz "_entries"
+
+LDIFF_SYM1396=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1396
+	.byte 2,35,24,6
+	.asciz "_count"
+
+LDIFF_SYM1397=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1397
+	.byte 2,35,64,6
+	.asciz "_freeList"
+
+LDIFF_SYM1398=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1398
+	.byte 2,35,68,6
+	.asciz "_freeCount"
+
+LDIFF_SYM1399=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1399
+	.byte 2,35,72,6
+	.asciz "_version"
+
+LDIFF_SYM1400=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1400
+	.byte 2,35,76,6
+	.asciz "_comparer"
+
+LDIFF_SYM1401=LTDIE_206_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1401
+	.byte 2,35,32,6
+	.asciz "_keys"
+
+LDIFF_SYM1402=LTDIE_207_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1402
+	.byte 2,35,40,6
+	.asciz "_values"
+
+LDIFF_SYM1403=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1403
+	.byte 2,35,48,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM1404=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1404
+	.byte 2,35,56,0,7
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+LDIFF_SYM1405=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1405
+LTDIE_205_POINTER:
+
+	.byte 13
+LDIFF_SYM1406=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1406
+LTDIE_205_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1407=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1407
+LTDIE_204:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Internals_NameScope"
+
+	.byte 32,16
+LDIFF_SYM1408=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1408
+	.byte 2,35,0,6
+	.asciz "_names"
+
+LDIFF_SYM1409=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1409
+	.byte 2,35,16,6
+	.asciz "_values"
+
+LDIFF_SYM1410=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1410
+	.byte 2,35,24,0,7
+	.asciz "Xamarin_Forms_Internals_NameScope"
+
+LDIFF_SYM1411=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1411
+LTDIE_204_POINTER:
+
+	.byte 13
+LDIFF_SYM1412=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1412
+LTDIE_204_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1413=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1413
 	.byte 2
-	.asciz "StreamingExample.Principal:txtOrigen_Completed"
-	.asciz "StreamingExample_Principal_txtOrigen_Completed_object_System_EventArgs"
+	.asciz "StreamingExample.MainMaster:InitializeComponent"
+	.asciz "StreamingExample_MainMaster_InitializeComponent"
+
+	.byte 9,23
+	.quad StreamingExample_MainMaster_InitializeComponent
+	.quad Lme_1f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1414=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1414
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1415=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1415
+	.byte 1,105,11
+	.asciz "V_1"
+
+LDIFF_SYM1416=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1416
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM1417=LTDIE_198_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1417
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM1418=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1418
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM1419=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1419
+	.byte 1,101,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1420=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM1420
+Lfde28_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_MainMaster_InitializeComponent
+
+LDIFF_SYM1421=Lme_1f - StreamingExample_MainMaster_InitializeComponent
+	.long LDIFF_SYM1421
+	.long 0
+	.byte 12,31,0,68,14,176,2,157,38,158,37,68,13,29,68,147,36,148,35,68,149,34,150,33,68,151,32,152,31,68,153,30
+	.byte 154,29
+	.align 3
+Lfde28_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.MainMaster:__InitComponentRuntime"
+	.asciz "StreamingExample_MainMaster___InitComponentRuntime"
 
 	.byte 0,0
-	.quad StreamingExample_Principal_txtOrigen_Completed_object_System_EventArgs
+	.quad StreamingExample_MainMaster___InitComponentRuntime
+	.quad Lme_20
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1422=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1422
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1423=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM1423
+Lfde29_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_MainMaster___InitComponentRuntime
+
+LDIFF_SYM1424=Lme_20 - StreamingExample_MainMaster___InitComponentRuntime
+	.long LDIFF_SYM1424
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.align 3
+Lfde29_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.MainMasterMaster:.ctor"
+	.asciz "StreamingExample_MainMasterMaster__ctor"
+
+	.byte 10,12
+	.quad StreamingExample_MainMasterMaster__ctor
+	.quad Lme_21
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1425=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1425
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1426=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM1426
+Lfde30_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_MainMasterMaster__ctor
+
+LDIFF_SYM1427=Lme_21 - StreamingExample_MainMasterMaster__ctor
+	.long LDIFF_SYM1427
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.align 3
+Lfde30_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.MainMasterMaster:ConectarSocket_Tapped"
+	.asciz "StreamingExample_MainMasterMaster_ConectarSocket_Tapped_object_System_EventArgs"
+
+	.byte 10,24
+	.quad StreamingExample_MainMasterMaster_ConectarSocket_Tapped_object_System_EventArgs
 	.quad Lme_22
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1374=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1374
+LDIFF_SYM1428=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1428
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1375=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1375
+LDIFF_SYM1429=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1429
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1376=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1376
-	.byte 2,141,32,11
-	.asciz "V_0"
-
-LDIFF_SYM1377=LTDIE_197_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1377
-	.byte 3,141,224,0,0
+LDIFF_SYM1430=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1430
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1378=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM1378
+LDIFF_SYM1431=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM1431
 Lfde31_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal_txtOrigen_Completed_object_System_EventArgs
+	.quad StreamingExample_MainMasterMaster_ConectarSocket_Tapped_object_System_EventArgs
 
-LDIFF_SYM1379=Lme_22 - StreamingExample_Principal_txtOrigen_Completed_object_System_EventArgs
-	.long LDIFF_SYM1379
+LDIFF_SYM1432=Lme_22 - StreamingExample_MainMasterMaster_ConectarSocket_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1432
 	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde31_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_198:
+LTDIE_209:
 
 	.byte 5
-	.asciz "_<TapGestureRecognizer_Tapped_1>d__9"
+	.asciz "_<metodoinicio_Tapped>d__2"
 
-	.byte 80,16
-LDIFF_SYM1380=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1380
+	.byte 88,16
+LDIFF_SYM1433=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1433
 	.byte 2,35,0,6
 	.asciz "<>1__state"
 
-LDIFF_SYM1381=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1381
-	.byte 2,35,72,6
+LDIFF_SYM1434=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1434
+	.byte 2,35,80,6
 	.asciz "<>t__builder"
 
-LDIFF_SYM1382=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1382
+LDIFF_SYM1435=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1435
 	.byte 2,35,16,6
 	.asciz "sender"
 
-LDIFF_SYM1383=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1383
+LDIFF_SYM1436=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1436
 	.byte 2,35,48,6
 	.asciz "e"
 
-LDIFF_SYM1384=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1384
+LDIFF_SYM1437=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1437
 	.byte 2,35,56,6
 	.asciz "<>4__this"
 
-LDIFF_SYM1385=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1385
-	.byte 2,35,64,0,7
-	.asciz "_<TapGestureRecognizer_Tapped_1>d__9"
+LDIFF_SYM1438=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1438
+	.byte 2,35,64,6
+	.asciz "<>u__1"
 
-LDIFF_SYM1386=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1386
-LTDIE_198_POINTER:
+LDIFF_SYM1439=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1439
+	.byte 2,35,72,0,7
+	.asciz "_<metodoinicio_Tapped>d__2"
+
+LDIFF_SYM1440=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1440
+LTDIE_209_POINTER:
 
 	.byte 13
-LDIFF_SYM1387=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1387
-LTDIE_198_REFERENCE:
+LDIFF_SYM1441=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1441
+LTDIE_209_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1388=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1388
+LDIFF_SYM1442=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1442
 	.byte 2
-	.asciz "StreamingExample.Principal:TapGestureRecognizer_Tapped_1"
-	.asciz "StreamingExample_Principal_TapGestureRecognizer_Tapped_1_object_System_EventArgs"
+	.asciz "StreamingExample.MainMasterMaster:metodoinicio_Tapped"
+	.asciz "StreamingExample_MainMasterMaster_metodoinicio_Tapped_object_System_EventArgs"
 
 	.byte 0,0
-	.quad StreamingExample_Principal_TapGestureRecognizer_Tapped_1_object_System_EventArgs
+	.quad StreamingExample_MainMasterMaster_metodoinicio_Tapped_object_System_EventArgs
 	.quad Lme_23
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1389=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1389
+LDIFF_SYM1443=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1443
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1390=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1390
+LDIFF_SYM1444=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1444
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1391=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1391
+LDIFF_SYM1445=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1445
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1392=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1392
+LDIFF_SYM1446=LTDIE_209_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1446
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1393=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM1393
+LDIFF_SYM1447=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM1447
 Lfde32_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal_TapGestureRecognizer_Tapped_1_object_System_EventArgs
+	.quad StreamingExample_MainMasterMaster_metodoinicio_Tapped_object_System_EventArgs
 
-LDIFF_SYM1394=Lme_23 - StreamingExample_Principal_TapGestureRecognizer_Tapped_1_object_System_EventArgs
-	.long LDIFF_SYM1394
+LDIFF_SYM1448=Lme_23 - StreamingExample_MainMasterMaster_metodoinicio_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1448
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
 Lfde32_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_199:
+LTDIE_210:
 
 	.byte 5
-	.asciz "_<SolicitudRecogida_Tapped>d__10"
+	.asciz "_<agregarCuentaBanc_Tapped>d__3"
 
-	.byte 80,16
-LDIFF_SYM1395=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1395
+	.byte 88,16
+LDIFF_SYM1449=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1449
 	.byte 2,35,0,6
 	.asciz "<>1__state"
 
-LDIFF_SYM1396=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1396
-	.byte 2,35,72,6
+LDIFF_SYM1450=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1450
+	.byte 2,35,80,6
 	.asciz "<>t__builder"
 
-LDIFF_SYM1397=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1397
+LDIFF_SYM1451=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1451
 	.byte 2,35,16,6
 	.asciz "sender"
 
-LDIFF_SYM1398=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1398
+LDIFF_SYM1452=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1452
 	.byte 2,35,48,6
 	.asciz "e"
 
-LDIFF_SYM1399=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1399
+LDIFF_SYM1453=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1453
 	.byte 2,35,56,6
 	.asciz "<>4__this"
 
-LDIFF_SYM1400=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1400
-	.byte 2,35,64,0,7
-	.asciz "_<SolicitudRecogida_Tapped>d__10"
+LDIFF_SYM1454=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1454
+	.byte 2,35,64,6
+	.asciz "<>u__1"
 
-LDIFF_SYM1401=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1401
-LTDIE_199_POINTER:
+LDIFF_SYM1455=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1455
+	.byte 2,35,72,0,7
+	.asciz "_<agregarCuentaBanc_Tapped>d__3"
+
+LDIFF_SYM1456=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1456
+LTDIE_210_POINTER:
 
 	.byte 13
-LDIFF_SYM1402=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1402
-LTDIE_199_REFERENCE:
+LDIFF_SYM1457=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1457
+LTDIE_210_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1403=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1403
+LDIFF_SYM1458=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1458
 	.byte 2
-	.asciz "StreamingExample.Principal:SolicitudRecogida_Tapped"
-	.asciz "StreamingExample_Principal_SolicitudRecogida_Tapped_object_System_EventArgs"
+	.asciz "StreamingExample.MainMasterMaster:agregarCuentaBanc_Tapped"
+	.asciz "StreamingExample_MainMasterMaster_agregarCuentaBanc_Tapped_object_System_EventArgs"
 
 	.byte 0,0
-	.quad StreamingExample_Principal_SolicitudRecogida_Tapped_object_System_EventArgs
+	.quad StreamingExample_MainMasterMaster_agregarCuentaBanc_Tapped_object_System_EventArgs
 	.quad Lme_24
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1404=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1404
+LDIFF_SYM1459=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1459
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1405=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1405
+LDIFF_SYM1460=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1460
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1406=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1406
+LDIFF_SYM1461=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1461
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1407=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1407
+LDIFF_SYM1462=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1462
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1408=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM1408
+LDIFF_SYM1463=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM1463
 Lfde33_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal_SolicitudRecogida_Tapped_object_System_EventArgs
+	.quad StreamingExample_MainMasterMaster_agregarCuentaBanc_Tapped_object_System_EventArgs
 
-LDIFF_SYM1409=Lme_24 - StreamingExample_Principal_SolicitudRecogida_Tapped_object_System_EventArgs
-	.long LDIFF_SYM1409
+LDIFF_SYM1464=Lme_24 - StreamingExample_MainMasterMaster_agregarCuentaBanc_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1464
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
@@ -17229,285 +43826,529 @@ Lfde33_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.Principal:InitializeComponent"
-	.asciz "StreamingExample_Principal_InitializeComponent"
+	.asciz "StreamingExample.MainMasterMaster:cargaDocum_Tapped"
+	.asciz "StreamingExample_MainMasterMaster_cargaDocum_Tapped_object_System_EventArgs"
 
-	.byte 7,35
-	.quad StreamingExample_Principal_InitializeComponent
+	.byte 10,44
+	.quad StreamingExample_MainMasterMaster_cargaDocum_Tapped_object_System_EventArgs
 	.quad Lme_25
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1410=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1410
-	.byte 1,106,0
+LDIFF_SYM1465=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1465
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1466=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1466
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1467=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1467
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1411=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM1411
+LDIFF_SYM1468=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM1468
 Lfde34_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal_InitializeComponent
+	.quad StreamingExample_MainMasterMaster_cargaDocum_Tapped_object_System_EventArgs
 
-LDIFF_SYM1412=Lme_25 - StreamingExample_Principal_InitializeComponent
-	.long LDIFF_SYM1412
+LDIFF_SYM1469=Lme_25 - StreamingExample_MainMasterMaster_cargaDocum_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1469
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde34_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_211:
 
+	.byte 5
+	.asciz "_<misganancias_Tapped>d__5"
+
+	.byte 88,16
+LDIFF_SYM1470=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1470
+	.byte 2,35,0,6
+	.asciz "<>1__state"
+
+LDIFF_SYM1471=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1471
+	.byte 2,35,80,6
+	.asciz "<>t__builder"
+
+LDIFF_SYM1472=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1472
+	.byte 2,35,16,6
+	.asciz "sender"
+
+LDIFF_SYM1473=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1473
+	.byte 2,35,48,6
+	.asciz "e"
+
+LDIFF_SYM1474=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1474
+	.byte 2,35,56,6
+	.asciz "<>4__this"
+
+LDIFF_SYM1475=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1475
+	.byte 2,35,64,6
+	.asciz "<>u__1"
+
+LDIFF_SYM1476=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1476
+	.byte 2,35,72,0,7
+	.asciz "_<misganancias_Tapped>d__5"
+
+LDIFF_SYM1477=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1477
+LTDIE_211_POINTER:
+
+	.byte 13
+LDIFF_SYM1478=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1478
+LTDIE_211_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1479=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1479
 	.byte 2
-	.asciz "StreamingExample.Principal/<TapGestureRecognizer_Tapped>d__4:.ctor"
-	.asciz "StreamingExample_Principal__TapGestureRecognizer_Tappedd__4__ctor"
+	.asciz "StreamingExample.MainMasterMaster:misganancias_Tapped"
+	.asciz "StreamingExample_MainMasterMaster_misganancias_Tapped_object_System_EventArgs"
 
 	.byte 0,0
-	.quad StreamingExample_Principal__TapGestureRecognizer_Tappedd__4__ctor
+	.quad StreamingExample_MainMasterMaster_misganancias_Tapped_object_System_EventArgs
 	.quad Lme_26
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1413=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1413
-	.byte 2,141,16,0
+LDIFF_SYM1480=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1480
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1481=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1481
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1482=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1482
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM1483=LTDIE_211_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1483
+	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1414=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM1414
+LDIFF_SYM1484=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM1484
 Lfde35_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__TapGestureRecognizer_Tappedd__4__ctor
+	.quad StreamingExample_MainMasterMaster_misganancias_Tapped_object_System_EventArgs
 
-LDIFF_SYM1415=Lme_26 - StreamingExample_Principal__TapGestureRecognizer_Tappedd__4__ctor
-	.long LDIFF_SYM1415
+LDIFF_SYM1485=Lme_26 - StreamingExample_MainMasterMaster_misganancias_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1485
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
 Lfde35_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_212:
 
+	.byte 5
+	.asciz "_<billetera_Tapped>d__6"
+
+	.byte 88,16
+LDIFF_SYM1486=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1486
+	.byte 2,35,0,6
+	.asciz "<>1__state"
+
+LDIFF_SYM1487=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1487
+	.byte 2,35,80,6
+	.asciz "<>t__builder"
+
+LDIFF_SYM1488=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1488
+	.byte 2,35,16,6
+	.asciz "sender"
+
+LDIFF_SYM1489=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1489
+	.byte 2,35,48,6
+	.asciz "e"
+
+LDIFF_SYM1490=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1490
+	.byte 2,35,56,6
+	.asciz "<>4__this"
+
+LDIFF_SYM1491=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1491
+	.byte 2,35,64,6
+	.asciz "<>u__1"
+
+LDIFF_SYM1492=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1492
+	.byte 2,35,72,0,7
+	.asciz "_<billetera_Tapped>d__6"
+
+LDIFF_SYM1493=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1493
+LTDIE_212_POINTER:
+
+	.byte 13
+LDIFF_SYM1494=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1494
+LTDIE_212_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1495=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1495
 	.byte 2
-	.asciz "StreamingExample.Principal/<TapGestureRecognizer_Tapped>d__4:MoveNext"
-	.asciz "StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_MoveNext"
+	.asciz "StreamingExample.MainMasterMaster:billetera_Tapped"
+	.asciz "StreamingExample_MainMasterMaster_billetera_Tapped_object_System_EventArgs"
 
-	.byte 6,0
-	.quad StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_MoveNext
+	.byte 0,0
+	.quad StreamingExample_MainMasterMaster_billetera_Tapped_object_System_EventArgs
 	.quad Lme_27
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1416=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1416
-	.byte 2,141,16,11
+LDIFF_SYM1496=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1496
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1497=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1497
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1498=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1498
+	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1417=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1417
-	.byte 2,141,48,11
-	.asciz "V_1"
-
-LDIFF_SYM1418=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1418
-	.byte 2,141,56,0
+LDIFF_SYM1499=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1499
+	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1419=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM1419
+LDIFF_SYM1500=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM1500
 Lfde36_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_MoveNext
+	.quad StreamingExample_MainMasterMaster_billetera_Tapped_object_System_EventArgs
 
-LDIFF_SYM1420=Lme_27 - StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_MoveNext
-	.long LDIFF_SYM1420
+LDIFF_SYM1501=Lme_27 - StreamingExample_MainMasterMaster_billetera_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1501
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
 Lfde36_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_200:
 
-	.byte 17
-	.asciz "System_Runtime_CompilerServices_IAsyncStateMachine"
-
-	.byte 16,7
-	.asciz "System_Runtime_CompilerServices_IAsyncStateMachine"
-
-LDIFF_SYM1421=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1421
-LTDIE_200_POINTER:
-
-	.byte 13
-LDIFF_SYM1422=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1422
-LTDIE_200_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1423=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1423
 	.byte 2
-	.asciz "StreamingExample.Principal/<TapGestureRecognizer_Tapped>d__4:SetStateMachine"
-	.asciz "StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+	.asciz "StreamingExample.MainMasterMaster:cambiarContra_Tapped"
+	.asciz "StreamingExample_MainMasterMaster_cambiarContra_Tapped_object_System_EventArgs"
 
-	.byte 0,0
-	.quad StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.byte 10,65
+	.quad StreamingExample_MainMasterMaster_cambiarContra_Tapped_object_System_EventArgs
 	.quad Lme_28
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1424=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1424
+LDIFF_SYM1502=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1502
 	.byte 2,141,16,3
-	.asciz "stateMachine"
+	.asciz "sender"
 
-LDIFF_SYM1425=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1425
-	.byte 2,141,24,0
+LDIFF_SYM1503=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1503
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1504=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1504
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1426=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM1426
+LDIFF_SYM1505=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM1505
 Lfde37_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad StreamingExample_MainMasterMaster_cambiarContra_Tapped_object_System_EventArgs
 
-LDIFF_SYM1427=Lme_28 - StreamingExample_Principal__TapGestureRecognizer_Tappedd__4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1427
+LDIFF_SYM1506=Lme_28 - StreamingExample_MainMasterMaster_cambiarContra_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1506
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde37_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_213:
 
+	.byte 5
+	.asciz "_<redimirpuntos_Tapped>d__8"
+
+	.byte 88,16
+LDIFF_SYM1507=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1507
+	.byte 2,35,0,6
+	.asciz "<>1__state"
+
+LDIFF_SYM1508=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1508
+	.byte 2,35,80,6
+	.asciz "<>t__builder"
+
+LDIFF_SYM1509=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1509
+	.byte 2,35,16,6
+	.asciz "sender"
+
+LDIFF_SYM1510=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1510
+	.byte 2,35,48,6
+	.asciz "e"
+
+LDIFF_SYM1511=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1511
+	.byte 2,35,56,6
+	.asciz "<>4__this"
+
+LDIFF_SYM1512=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1512
+	.byte 2,35,64,6
+	.asciz "<>u__1"
+
+LDIFF_SYM1513=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1513
+	.byte 2,35,72,0,7
+	.asciz "_<redimirpuntos_Tapped>d__8"
+
+LDIFF_SYM1514=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM1514
+LTDIE_213_POINTER:
+
+	.byte 13
+LDIFF_SYM1515=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM1515
+LTDIE_213_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1516=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM1516
 	.byte 2
-	.asciz "StreamingExample.Principal/<pausar_Tapped>d__5:.ctor"
-	.asciz "StreamingExample_Principal__pausar_Tappedd__5__ctor"
+	.asciz "StreamingExample.MainMasterMaster:redimirpuntos_Tapped"
+	.asciz "StreamingExample_MainMasterMaster_redimirpuntos_Tapped_object_System_EventArgs"
 
 	.byte 0,0
-	.quad StreamingExample_Principal__pausar_Tappedd__5__ctor
+	.quad StreamingExample_MainMasterMaster_redimirpuntos_Tapped_object_System_EventArgs
 	.quad Lme_29
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1428=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1428
-	.byte 2,141,16,0
+LDIFF_SYM1517=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1517
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1518=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1518
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1519=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1519
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM1520=LTDIE_213_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1520
+	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1429=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM1429
+LDIFF_SYM1521=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM1521
 Lfde38_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__pausar_Tappedd__5__ctor
+	.quad StreamingExample_MainMasterMaster_redimirpuntos_Tapped_object_System_EventArgs
 
-LDIFF_SYM1430=Lme_29 - StreamingExample_Principal__pausar_Tappedd__5__ctor
-	.long LDIFF_SYM1430
+LDIFF_SYM1522=Lme_29 - StreamingExample_MainMasterMaster_redimirpuntos_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1522
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
 Lfde38_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_214:
 
+	.byte 5
+	.asciz "_<ayudametodo_Tapped>d__9"
+
+	.byte 80,16
+LDIFF_SYM1523=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1523
+	.byte 2,35,0,6
+	.asciz "<>1__state"
+
+LDIFF_SYM1524=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1524
+	.byte 2,35,72,6
+	.asciz "<>t__builder"
+
+LDIFF_SYM1525=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1525
+	.byte 2,35,16,6
+	.asciz "sender"
+
+LDIFF_SYM1526=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1526
+	.byte 2,35,48,6
+	.asciz "e"
+
+LDIFF_SYM1527=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1527
+	.byte 2,35,56,6
+	.asciz "<>4__this"
+
+LDIFF_SYM1528=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1528
+	.byte 2,35,64,0,7
+	.asciz "_<ayudametodo_Tapped>d__9"
+
+LDIFF_SYM1529=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM1529
+LTDIE_214_POINTER:
+
+	.byte 13
+LDIFF_SYM1530=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM1530
+LTDIE_214_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1531=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM1531
 	.byte 2
-	.asciz "StreamingExample.Principal/<pausar_Tapped>d__5:MoveNext"
-	.asciz "StreamingExample_Principal__pausar_Tappedd__5_MoveNext"
+	.asciz "StreamingExample.MainMasterMaster:ayudametodo_Tapped"
+	.asciz "StreamingExample_MainMasterMaster_ayudametodo_Tapped_object_System_EventArgs"
 
-	.byte 6,0
-	.quad StreamingExample_Principal__pausar_Tappedd__5_MoveNext
+	.byte 0,0
+	.quad StreamingExample_MainMasterMaster_ayudametodo_Tapped_object_System_EventArgs
 	.quad Lme_2a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1431=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1431
-	.byte 2,141,16,11
+LDIFF_SYM1532=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1532
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1533=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1533
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1534=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1534
+	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1432=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1432
-	.byte 2,141,48,11
-	.asciz "V_1"
-
-LDIFF_SYM1433=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1433
-	.byte 2,141,56,0
+LDIFF_SYM1535=LTDIE_214_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1535
+	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1434=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM1434
+LDIFF_SYM1536=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM1536
 Lfde39_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__pausar_Tappedd__5_MoveNext
+	.quad StreamingExample_MainMasterMaster_ayudametodo_Tapped_object_System_EventArgs
 
-LDIFF_SYM1435=Lme_2a - StreamingExample_Principal__pausar_Tappedd__5_MoveNext
-	.long LDIFF_SYM1435
+LDIFF_SYM1537=Lme_2a - StreamingExample_MainMasterMaster_ayudametodo_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1537
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
 Lfde39_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.Principal/<pausar_Tapped>d__5:SetStateMachine"
-	.asciz "StreamingExample_Principal__pausar_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+	.asciz "StreamingExample.MainMasterMaster:Historial_Tapped"
+	.asciz "StreamingExample_MainMasterMaster_Historial_Tapped_object_System_EventArgs"
 
-	.byte 0,0
-	.quad StreamingExample_Principal__pausar_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.byte 10,84
+	.quad StreamingExample_MainMasterMaster_Historial_Tapped_object_System_EventArgs
 	.quad Lme_2b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1436=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1436
+LDIFF_SYM1538=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1538
 	.byte 2,141,16,3
-	.asciz "stateMachine"
+	.asciz "sender"
 
-LDIFF_SYM1437=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1437
-	.byte 2,141,24,0
+LDIFF_SYM1539=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1539
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1540=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1540
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1438=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM1438
+LDIFF_SYM1541=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM1541
 Lfde40_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__pausar_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad StreamingExample_MainMasterMaster_Historial_Tapped_object_System_EventArgs
 
-LDIFF_SYM1439=Lme_2b - StreamingExample_Principal__pausar_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1439
+LDIFF_SYM1542=Lme_2b - StreamingExample_MainMasterMaster_Historial_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1542
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -17516,266 +44357,1313 @@ Lfde40_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.Principal/<stop_Tapped>d__6:.ctor"
-	.asciz "StreamingExample_Principal__stop_Tappedd__6__ctor"
+	.asciz "StreamingExample.MainMasterMaster:CerrarSesion_Tapped"
+	.asciz "StreamingExample_MainMasterMaster_CerrarSesion_Tapped_object_System_EventArgs"
 
-	.byte 0,0
-	.quad StreamingExample_Principal__stop_Tappedd__6__ctor
+	.byte 10,89
+	.quad StreamingExample_MainMasterMaster_CerrarSesion_Tapped_object_System_EventArgs
 	.quad Lme_2c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1440=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1440
-	.byte 2,141,16,0
+LDIFF_SYM1543=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1543
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1544=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1544
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1545=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1545
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1441=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM1441
+LDIFF_SYM1546=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM1546
 Lfde41_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__stop_Tappedd__6__ctor
+	.quad StreamingExample_MainMasterMaster_CerrarSesion_Tapped_object_System_EventArgs
 
-LDIFF_SYM1442=Lme_2c - StreamingExample_Principal__stop_Tappedd__6__ctor
-	.long LDIFF_SYM1442
+LDIFF_SYM1547=Lme_2c - StreamingExample_MainMasterMaster_CerrarSesion_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1547
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde41_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.Principal/<stop_Tapped>d__6:MoveNext"
-	.asciz "StreamingExample_Principal__stop_Tappedd__6_MoveNext"
+	.asciz "StreamingExample.MainMasterMaster:Perfil_Tapped"
+	.asciz "StreamingExample_MainMasterMaster_Perfil_Tapped_object_System_EventArgs"
 
-	.byte 6,0
-	.quad StreamingExample_Principal__stop_Tappedd__6_MoveNext
+	.byte 10,94
+	.quad StreamingExample_MainMasterMaster_Perfil_Tapped_object_System_EventArgs
 	.quad Lme_2d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1443=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1443
-	.byte 2,141,16,11
-	.asciz "V_0"
+LDIFF_SYM1548=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1548
+	.byte 2,141,48,3
+	.asciz "sender"
 
-LDIFF_SYM1444=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1444
-	.byte 2,141,48,11
-	.asciz "V_1"
+LDIFF_SYM1549=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1549
+	.byte 2,141,56,3
+	.asciz "e"
 
-LDIFF_SYM1445=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1445
-	.byte 2,141,56,0
+LDIFF_SYM1550=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1550
+	.byte 3,141,192,0,11
+	.asciz "navMaster"
+
+LDIFF_SYM1551=LTDIE_198_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1551
+	.byte 1,105,11
+	.asciz "master"
+
+LDIFF_SYM1552=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1552
+	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1446=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM1446
+LDIFF_SYM1553=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM1553
 Lfde42_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__stop_Tappedd__6_MoveNext
+	.quad StreamingExample_MainMasterMaster_Perfil_Tapped_object_System_EventArgs
 
-LDIFF_SYM1447=Lme_2d - StreamingExample_Principal__stop_Tappedd__6_MoveNext
-	.long LDIFF_SYM1447
+LDIFF_SYM1554=Lme_2d - StreamingExample_MainMasterMaster_Perfil_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1554
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,153,11
 	.align 3
 Lfde42_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.Principal/<stop_Tapped>d__6:SetStateMachine"
-	.asciz "StreamingExample_Principal__stop_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+	.asciz "StreamingExample.MainMasterMaster:Pedidos_Tapped"
+	.asciz "StreamingExample_MainMasterMaster_Pedidos_Tapped_object_System_EventArgs"
 
-	.byte 0,0
-	.quad StreamingExample_Principal__stop_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.byte 10,102
+	.quad StreamingExample_MainMasterMaster_Pedidos_Tapped_object_System_EventArgs
 	.quad Lme_2e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1448=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1448
-	.byte 2,141,16,3
-	.asciz "stateMachine"
+LDIFF_SYM1555=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1555
+	.byte 2,141,48,3
+	.asciz "sender"
 
-LDIFF_SYM1449=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1449
-	.byte 2,141,24,0
+LDIFF_SYM1556=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1556
+	.byte 2,141,56,3
+	.asciz "e"
+
+LDIFF_SYM1557=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1557
+	.byte 3,141,192,0,11
+	.asciz "navMaster"
+
+LDIFF_SYM1558=LTDIE_198_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1558
+	.byte 1,105,11
+	.asciz "master"
+
+LDIFF_SYM1559=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1559
+	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1450=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM1450
+LDIFF_SYM1560=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM1560
 Lfde43_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__stop_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad StreamingExample_MainMasterMaster_Pedidos_Tapped_object_System_EventArgs
 
-LDIFF_SYM1451=Lme_2e - StreamingExample_Principal__stop_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1451
+LDIFF_SYM1561=Lme_2e - StreamingExample_MainMasterMaster_Pedidos_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1561
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,153,11
 	.align 3
 Lfde43_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.Principal/<Perfil_Tapped>d__7:.ctor"
-	.asciz "StreamingExample_Principal__Perfil_Tappedd__7__ctor"
+	.asciz "StreamingExample.MainMasterMaster:ShowingMenu"
+	.asciz "StreamingExample_MainMasterMaster_ShowingMenu"
 
-	.byte 0,0
-	.quad StreamingExample_Principal__Perfil_Tappedd__7__ctor
+	.byte 10,110
+	.quad StreamingExample_MainMasterMaster_ShowingMenu
 	.quad Lme_2f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1452=LTDIE_196_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1452
+LDIFF_SYM1562=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1562
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1453=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM1453
+LDIFF_SYM1563=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM1563
 Lfde44_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__Perfil_Tappedd__7__ctor
+	.quad StreamingExample_MainMasterMaster_ShowingMenu
 
-LDIFF_SYM1454=Lme_2f - StreamingExample_Principal__Perfil_Tappedd__7__ctor
-	.long LDIFF_SYM1454
+LDIFF_SYM1564=Lme_2f - StreamingExample_MainMasterMaster_ShowingMenu
+	.long LDIFF_SYM1564
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde44_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_216:
 
+	.byte 5
+	.asciz "Xamarin_Forms_GestureRecognizer"
+
+	.byte 232,1,16
+LDIFF_SYM1565=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM1565
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_GestureRecognizer"
+
+LDIFF_SYM1566=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1566
+LTDIE_216_POINTER:
+
+	.byte 13
+LDIFF_SYM1567=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1567
+LTDIE_216_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1568=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1568
+LTDIE_215:
+
+	.byte 5
+	.asciz "Xamarin_Forms_TapGestureRecognizer"
+
+	.byte 240,1,16
+LDIFF_SYM1569=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1569
+	.byte 2,35,0,6
+	.asciz "Tapped"
+
+LDIFF_SYM1570=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1570
+	.byte 3,35,232,1,0,7
+	.asciz "Xamarin_Forms_TapGestureRecognizer"
+
+LDIFF_SYM1571=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1571
+LTDIE_215_POINTER:
+
+	.byte 13
+LDIFF_SYM1572=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1572
+LTDIE_215_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1573=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1573
+LTDIE_219:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Layout"
+
+	.byte 192,3,16
+LDIFF_SYM1574=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1574
+	.byte 2,35,0,6
+	.asciz "_allocatedFlag"
+
+LDIFF_SYM1575=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1575
+	.byte 3,35,168,3,6
+	.asciz "_hasDoneLayout"
+
+LDIFF_SYM1576=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1576
+	.byte 3,35,169,3,6
+	.asciz "_lastLayoutSize"
+
+LDIFF_SYM1577=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1577
+	.byte 3,35,176,3,6
+	.asciz "_logicalChildren"
+
+LDIFF_SYM1578=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1578
+	.byte 3,35,144,3,6
+	.asciz "<InternalChildren>k__BackingField"
+
+LDIFF_SYM1579=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1579
+	.byte 3,35,152,3,6
+	.asciz "LayoutChanged"
+
+LDIFF_SYM1580=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1580
+	.byte 3,35,160,3,0,7
+	.asciz "Xamarin_Forms_Layout"
+
+LDIFF_SYM1581=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1581
+LTDIE_219_POINTER:
+
+	.byte 13
+LDIFF_SYM1582=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1582
+LTDIE_219_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1583=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1583
+LTDIE_221:
+
+	.byte 5
+	.asciz "Xamarin_Forms_ObservableWrapper`2"
+
+	.byte 40,16
+LDIFF_SYM1584=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1584
+	.byte 2,35,0,6
+	.asciz "_list"
+
+LDIFF_SYM1585=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1585
+	.byte 2,35,16,6
+	.asciz "<IsReadOnly>k__BackingField"
+
+LDIFF_SYM1586=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1586
+	.byte 2,35,32,6
+	.asciz "CollectionChanged"
+
+LDIFF_SYM1587=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1587
+	.byte 2,35,24,0,7
+	.asciz "Xamarin_Forms_ObservableWrapper`2"
+
+LDIFF_SYM1588=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1588
+LTDIE_221_POINTER:
+
+	.byte 13
+LDIFF_SYM1589=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1589
+LTDIE_221_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1590=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1590
+LTDIE_220:
+
+	.byte 5
+	.asciz "Xamarin_Forms_ElementCollection`1"
+
+	.byte 40,16
+LDIFF_SYM1591=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1591
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_ElementCollection`1"
+
+LDIFF_SYM1592=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM1592
+LTDIE_220_POINTER:
+
+	.byte 13
+LDIFF_SYM1593=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM1593
+LTDIE_220_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1594=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM1594
+LTDIE_218:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Layout`1"
+
+	.byte 200,3,16
+LDIFF_SYM1595=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1595
+	.byte 2,35,0,6
+	.asciz "_children"
+
+LDIFF_SYM1596=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1596
+	.byte 3,35,192,3,0,7
+	.asciz "Xamarin_Forms_Layout`1"
+
+LDIFF_SYM1597=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1597
+LTDIE_218_POINTER:
+
+	.byte 13
+LDIFF_SYM1598=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1598
+LTDIE_218_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1599=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1599
+LTDIE_222:
+
+	.byte 5
+	.asciz "_LayoutInformation"
+
+	.byte 112,16
+LDIFF_SYM1600=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1600
+	.byte 2,35,0,6
+	.asciz "Bounds"
+
+LDIFF_SYM1601=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1601
+	.byte 2,35,32,6
+	.asciz "CompressionSpace"
+
+LDIFF_SYM1602=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1602
+	.byte 2,35,64,6
+	.asciz "Constraint"
+
+LDIFF_SYM1603=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1603
+	.byte 2,35,72,6
+	.asciz "Expanders"
+
+LDIFF_SYM1604=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1604
+	.byte 2,35,88,6
+	.asciz "MinimumSize"
+
+LDIFF_SYM1605=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1605
+	.byte 2,35,96,6
+	.asciz "Plots"
+
+LDIFF_SYM1606=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1606
+	.byte 2,35,16,6
+	.asciz "Requests"
+
+LDIFF_SYM1607=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1607
+	.byte 2,35,24,0,7
+	.asciz "_LayoutInformation"
+
+LDIFF_SYM1608=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM1608
+LTDIE_222_POINTER:
+
+	.byte 13
+LDIFF_SYM1609=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM1609
+LTDIE_222_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1610=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM1610
+LTDIE_224:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 128,1,16
+LDIFF_SYM1611=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1611
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1612=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM1612
+LTDIE_224_POINTER:
+
+	.byte 13
+LDIFF_SYM1613=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM1613
+LTDIE_224_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1614=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM1614
+LTDIE_225:
+
+	.byte 5
+	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
+
+	.byte 32,16
+LDIFF_SYM1615=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1615
+	.byte 2,35,0,6
+	.asciz "_element"
+
+LDIFF_SYM1616=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1616
+	.byte 2,35,16,6
+	.asciz "_platformSpecifics"
+
+LDIFF_SYM1617=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1617
+	.byte 2,35,24,0,7
+	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
+
+LDIFF_SYM1618=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM1618
+LTDIE_225_POINTER:
+
+	.byte 13
+LDIFF_SYM1619=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM1619
+LTDIE_225_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1620=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM1620
+LTDIE_223:
+
+	.byte 5
+	.asciz "System_Lazy`1"
+
+	.byte 40,16
+LDIFF_SYM1621=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1621
+	.byte 2,35,0,6
+	.asciz "_state"
+
+LDIFF_SYM1622=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1622
+	.byte 2,35,16,6
+	.asciz "_factory"
+
+LDIFF_SYM1623=LTDIE_224_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1623
+	.byte 2,35,24,6
+	.asciz "_value"
+
+LDIFF_SYM1624=LTDIE_225_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1624
+	.byte 2,35,32,0,7
+	.asciz "System_Lazy`1"
+
+LDIFF_SYM1625=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1625
+LTDIE_223_POINTER:
+
+	.byte 13
+LDIFF_SYM1626=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1626
+LTDIE_223_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1627=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1627
+LTDIE_217:
+
+	.byte 5
+	.asciz "Xamarin_Forms_StackLayout"
+
+	.byte 216,3,16
+LDIFF_SYM1628=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1628
+	.byte 2,35,0,6
+	.asciz "_layoutInformation"
+
+LDIFF_SYM1629=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1629
+	.byte 3,35,200,3,6
+	.asciz "_platformConfigurationRegistry"
+
+LDIFF_SYM1630=LTDIE_223_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1630
+	.byte 3,35,208,3,0,7
+	.asciz "Xamarin_Forms_StackLayout"
+
+LDIFF_SYM1631=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM1631
+LTDIE_217_POINTER:
+
+	.byte 13
+LDIFF_SYM1632=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM1632
+LTDIE_217_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1633=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM1633
+LTDIE_227:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 128,1,16
+LDIFF_SYM1634=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1634
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM1635=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM1635
+LTDIE_227_POINTER:
+
+	.byte 13
+LDIFF_SYM1636=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM1636
+LTDIE_227_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1637=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM1637
+LTDIE_229:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 128,1,16
+LDIFF_SYM1638=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1638
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1639=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM1639
+LTDIE_229_POINTER:
+
+	.byte 13
+LDIFF_SYM1640=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM1640
+LTDIE_229_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1641=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM1641
+LTDIE_230:
+
+	.byte 5
+	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
+
+	.byte 32,16
+LDIFF_SYM1642=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1642
+	.byte 2,35,0,6
+	.asciz "_element"
+
+LDIFF_SYM1643=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1643
+	.byte 2,35,16,6
+	.asciz "_platformSpecifics"
+
+LDIFF_SYM1644=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1644
+	.byte 2,35,24,0,7
+	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
+
+LDIFF_SYM1645=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM1645
+LTDIE_230_POINTER:
+
+	.byte 13
+LDIFF_SYM1646=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM1646
+LTDIE_230_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1647=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM1647
+LTDIE_228:
+
+	.byte 5
+	.asciz "System_Lazy`1"
+
+	.byte 40,16
+LDIFF_SYM1648=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1648
+	.byte 2,35,0,6
+	.asciz "_state"
+
+LDIFF_SYM1649=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1649
+	.byte 2,35,16,6
+	.asciz "_factory"
+
+LDIFF_SYM1650=LTDIE_229_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1650
+	.byte 2,35,24,6
+	.asciz "_value"
+
+LDIFF_SYM1651=LTDIE_230_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1651
+	.byte 2,35,32,0,7
+	.asciz "System_Lazy`1"
+
+LDIFF_SYM1652=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1652
+LTDIE_228_POINTER:
+
+	.byte 13
+LDIFF_SYM1653=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1653
+LTDIE_228_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1654=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1654
+LTDIE_232:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 80,16
+LDIFF_SYM1655=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM1655
+	.byte 2,35,0,6
+	.asciz "m_result"
+
+LDIFF_SYM1656=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1656
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM1657=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1657
+LTDIE_232_POINTER:
+
+	.byte 13
+LDIFF_SYM1658=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1658
+LTDIE_232_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1659=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1659
+LTDIE_231:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
+
+	.byte 24,16
+LDIFF_SYM1660=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1660
+	.byte 2,35,0,6
+	.asciz "_task"
+
+LDIFF_SYM1661=LTDIE_232_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1661
+	.byte 2,35,16,0,7
+	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
+
+LDIFF_SYM1662=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1662
+LTDIE_231_POINTER:
+
+	.byte 13
+LDIFF_SYM1663=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1663
+LTDIE_231_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1664=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1664
+LTDIE_233:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 128,1,16
+LDIFF_SYM1665=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1665
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM1666=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1666
+LTDIE_233_POINTER:
+
+	.byte 13
+LDIFF_SYM1667=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1667
+LTDIE_233_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1668=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1668
+LTDIE_226:
+
+	.byte 5
+	.asciz "Xamarin_Forms_ScrollView"
+
+	.byte 136,4,16
+LDIFF_SYM1669=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1669
+	.byte 2,35,0,6
+	.asciz "ScrollToRequested"
+
+LDIFF_SYM1670=LTDIE_227_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1670
+	.byte 3,35,192,3,6
+	.asciz "_platformConfigurationRegistry"
+
+LDIFF_SYM1671=LTDIE_228_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1671
+	.byte 3,35,200,3,6
+	.asciz "_content"
+
+LDIFF_SYM1672=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1672
+	.byte 3,35,208,3,6
+	.asciz "_scrollCompletionSource"
+
+LDIFF_SYM1673=LTDIE_231_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1673
+	.byte 3,35,216,3,6
+	.asciz "_layoutAreaOverride"
+
+LDIFF_SYM1674=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1674
+	.byte 3,35,232,3,6
+	.asciz "Scrolled"
+
+LDIFF_SYM1675=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1675
+	.byte 3,35,224,3,0,7
+	.asciz "Xamarin_Forms_ScrollView"
+
+LDIFF_SYM1676=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM1676
+LTDIE_226_POINTER:
+
+	.byte 13
+LDIFF_SYM1677=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM1677
+LTDIE_226_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1678=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM1678
 	.byte 2
-	.asciz "StreamingExample.Principal/<Perfil_Tapped>d__7:MoveNext"
-	.asciz "StreamingExample_Principal__Perfil_Tappedd__7_MoveNext"
+	.asciz "StreamingExample.MainMasterMaster:InitializeComponent"
+	.asciz "StreamingExample_MainMasterMaster_InitializeComponent"
 
-	.byte 6,0
-	.quad StreamingExample_Principal__Perfil_Tappedd__7_MoveNext
+	.byte 11,30
+	.quad StreamingExample_MainMasterMaster_InitializeComponent
 	.quad Lme_30
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1455=LTDIE_196_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1455
-	.byte 2,141,16,11
+LDIFF_SYM1679=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1679
+	.byte 3,141,208,0,11
 	.asciz "V_0"
 
-LDIFF_SYM1456=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1456
-	.byte 2,141,48,11
+LDIFF_SYM1680=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1680
+	.byte 3,141,128,15,11
 	.asciz "V_1"
 
-LDIFF_SYM1457=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1457
-	.byte 2,141,56,0
+LDIFF_SYM1681=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1681
+	.byte 3,141,136,15,11
+	.asciz "V_2"
+
+LDIFF_SYM1682=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1682
+	.byte 3,141,144,15,11
+	.asciz "V_3"
+
+LDIFF_SYM1683=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1683
+	.byte 3,141,152,15,11
+	.asciz "V_4"
+
+LDIFF_SYM1684=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1684
+	.byte 3,141,160,15,11
+	.asciz "V_5"
+
+LDIFF_SYM1685=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1685
+	.byte 3,141,168,15,11
+	.asciz "V_6"
+
+LDIFF_SYM1686=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1686
+	.byte 1,99,11
+	.asciz "V_7"
+
+LDIFF_SYM1687=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1687
+	.byte 3,141,176,15,11
+	.asciz "V_8"
+
+LDIFF_SYM1688=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1688
+	.byte 3,141,184,15,11
+	.asciz "V_9"
+
+LDIFF_SYM1689=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1689
+	.byte 3,141,192,15,11
+	.asciz "V_10"
+
+LDIFF_SYM1690=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1690
+	.byte 1,106,11
+	.asciz "V_11"
+
+LDIFF_SYM1691=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1691
+	.byte 3,141,200,15,11
+	.asciz "V_12"
+
+LDIFF_SYM1692=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1692
+	.byte 3,141,208,15,11
+	.asciz "V_13"
+
+LDIFF_SYM1693=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1693
+	.byte 3,141,216,15,11
+	.asciz "V_14"
+
+LDIFF_SYM1694=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1694
+	.byte 3,141,224,15,11
+	.asciz "V_15"
+
+LDIFF_SYM1695=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1695
+	.byte 3,141,232,15,11
+	.asciz "V_16"
+
+LDIFF_SYM1696=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1696
+	.byte 3,141,240,15,11
+	.asciz "V_17"
+
+LDIFF_SYM1697=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1697
+	.byte 3,141,248,15,11
+	.asciz "V_18"
+
+LDIFF_SYM1698=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1698
+	.byte 3,141,128,16,11
+	.asciz "V_19"
+
+LDIFF_SYM1699=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1699
+	.byte 3,141,136,16,11
+	.asciz "V_20"
+
+LDIFF_SYM1700=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1700
+	.byte 3,141,144,16,11
+	.asciz "V_21"
+
+LDIFF_SYM1701=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1701
+	.byte 3,141,152,16,11
+	.asciz "V_22"
+
+LDIFF_SYM1702=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1702
+	.byte 3,141,160,16,11
+	.asciz "V_23"
+
+LDIFF_SYM1703=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1703
+	.byte 3,141,168,16,11
+	.asciz "V_24"
+
+LDIFF_SYM1704=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1704
+	.byte 3,141,176,16,11
+	.asciz "V_25"
+
+LDIFF_SYM1705=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1705
+	.byte 3,141,184,16,11
+	.asciz "V_26"
+
+LDIFF_SYM1706=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1706
+	.byte 3,141,192,16,11
+	.asciz "V_27"
+
+LDIFF_SYM1707=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1707
+	.byte 3,141,200,16,11
+	.asciz "V_28"
+
+LDIFF_SYM1708=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1708
+	.byte 3,141,208,16,11
+	.asciz "V_29"
+
+LDIFF_SYM1709=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1709
+	.byte 3,141,216,16,11
+	.asciz "V_30"
+
+LDIFF_SYM1710=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1710
+	.byte 3,141,224,16,11
+	.asciz "V_31"
+
+LDIFF_SYM1711=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1711
+	.byte 3,141,232,16,11
+	.asciz "V_32"
+
+LDIFF_SYM1712=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1712
+	.byte 3,141,240,16,11
+	.asciz "V_33"
+
+LDIFF_SYM1713=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1713
+	.byte 3,141,248,16,11
+	.asciz "V_34"
+
+LDIFF_SYM1714=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1714
+	.byte 3,141,128,17,11
+	.asciz "V_35"
+
+LDIFF_SYM1715=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1715
+	.byte 3,141,136,17,11
+	.asciz "V_36"
+
+LDIFF_SYM1716=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1716
+	.byte 3,141,144,17,11
+	.asciz "V_37"
+
+LDIFF_SYM1717=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1717
+	.byte 3,141,152,17,11
+	.asciz "V_38"
+
+LDIFF_SYM1718=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1718
+	.byte 3,141,160,17,11
+	.asciz "V_39"
+
+LDIFF_SYM1719=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1719
+	.byte 3,141,168,17,11
+	.asciz "V_40"
+
+LDIFF_SYM1720=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1720
+	.byte 3,141,176,17,11
+	.asciz "V_41"
+
+LDIFF_SYM1721=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1721
+	.byte 3,141,184,17,11
+	.asciz "V_42"
+
+LDIFF_SYM1722=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1722
+	.byte 3,141,192,17,11
+	.asciz "V_43"
+
+LDIFF_SYM1723=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1723
+	.byte 3,141,200,17,11
+	.asciz "V_44"
+
+LDIFF_SYM1724=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1724
+	.byte 3,141,208,17,11
+	.asciz "V_45"
+
+LDIFF_SYM1725=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1725
+	.byte 3,141,216,17,11
+	.asciz "V_46"
+
+LDIFF_SYM1726=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1726
+	.byte 3,141,224,17,11
+	.asciz "V_47"
+
+LDIFF_SYM1727=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1727
+	.byte 3,141,232,17,11
+	.asciz "V_48"
+
+LDIFF_SYM1728=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1728
+	.byte 3,141,240,17,11
+	.asciz "V_49"
+
+LDIFF_SYM1729=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1729
+	.byte 3,141,248,17,11
+	.asciz "V_50"
+
+LDIFF_SYM1730=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1730
+	.byte 3,141,128,18,11
+	.asciz "V_51"
+
+LDIFF_SYM1731=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1731
+	.byte 3,141,136,18,11
+	.asciz "V_52"
+
+LDIFF_SYM1732=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1732
+	.byte 3,141,144,18,11
+	.asciz "V_53"
+
+LDIFF_SYM1733=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1733
+	.byte 3,141,152,18,11
+	.asciz "V_54"
+
+LDIFF_SYM1734=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1734
+	.byte 1,104,11
+	.asciz "V_55"
+
+LDIFF_SYM1735=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1735
+	.byte 3,141,160,18,11
+	.asciz "V_56"
+
+LDIFF_SYM1736=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1736
+	.byte 3,141,168,18,11
+	.asciz "V_57"
+
+LDIFF_SYM1737=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1737
+	.byte 3,141,176,18,11
+	.asciz "V_58"
+
+LDIFF_SYM1738=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1738
+	.byte 3,141,184,18,11
+	.asciz "V_59"
+
+LDIFF_SYM1739=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1739
+	.byte 3,141,192,18,11
+	.asciz "V_60"
+
+LDIFF_SYM1740=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1740
+	.byte 3,141,200,18,11
+	.asciz "V_61"
+
+LDIFF_SYM1741=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1741
+	.byte 1,105,11
+	.asciz "V_62"
+
+LDIFF_SYM1742=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1742
+	.byte 1,103,11
+	.asciz "V_63"
+
+LDIFF_SYM1743=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1743
+	.byte 1,102,11
+	.asciz "V_64"
+
+LDIFF_SYM1744=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1744
+	.byte 1,101,11
+	.asciz "V_65"
+
+LDIFF_SYM1745=LTDIE_204_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1745
+	.byte 1,100,11
+	.asciz "V_66"
+
+LDIFF_SYM1746=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1746
+	.byte 3,141,208,18,11
+	.asciz "V_67"
+
+LDIFF_SYM1747=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1747
+	.byte 3,141,216,18,11
+	.asciz "V_68"
+
+LDIFF_SYM1748=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1748
+	.byte 3,141,224,18,11
+	.asciz "V_69"
+
+LDIFF_SYM1749=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1749
+	.byte 3,141,232,18,11
+	.asciz "V_70"
+
+LDIFF_SYM1750=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1750
+	.byte 3,141,240,18,11
+	.asciz "V_71"
+
+LDIFF_SYM1751=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1751
+	.byte 3,141,248,18,11
+	.asciz "V_72"
+
+LDIFF_SYM1752=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1752
+	.byte 3,141,128,19,11
+	.asciz "V_73"
+
+LDIFF_SYM1753=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1753
+	.byte 3,141,136,19,11
+	.asciz "V_74"
+
+LDIFF_SYM1754=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1754
+	.byte 3,141,144,19,11
+	.asciz "V_75"
+
+LDIFF_SYM1755=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1755
+	.byte 3,141,152,19,11
+	.asciz "V_76"
+
+LDIFF_SYM1756=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1756
+	.byte 3,141,160,19,11
+	.asciz "V_77"
+
+LDIFF_SYM1757=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1757
+	.byte 3,141,168,19,11
+	.asciz "V_78"
+
+LDIFF_SYM1758=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1758
+	.byte 3,141,176,19,11
+	.asciz "V_79"
+
+LDIFF_SYM1759=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1759
+	.byte 3,141,184,19,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1458=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM1458
+LDIFF_SYM1760=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM1760
 Lfde45_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__Perfil_Tappedd__7_MoveNext
+	.quad StreamingExample_MainMasterMaster_InitializeComponent
 
-LDIFF_SYM1459=Lme_30 - StreamingExample_Principal__Perfil_Tappedd__7_MoveNext
-	.long LDIFF_SYM1459
+LDIFF_SYM1761=Lme_30 - StreamingExample_MainMasterMaster_InitializeComponent
+	.long LDIFF_SYM1761
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.byte 12,31,0,84,14,192,91,157,184,11,158,183,11,68,13,29,68,147,182,11,148,181,11,68,149,180,11,150,179,11,68,151
+	.byte 178,11,152,177,11,68,153,176,11,154,175,11
 	.align 3
 Lfde45_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.Principal/<Perfil_Tapped>d__7:SetStateMachine"
-	.asciz "StreamingExample_Principal__Perfil_Tappedd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+	.asciz "StreamingExample.MainMasterMaster:__InitComponentRuntime"
+	.asciz "StreamingExample_MainMasterMaster___InitComponentRuntime"
 
 	.byte 0,0
-	.quad StreamingExample_Principal__Perfil_Tappedd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad StreamingExample_MainMasterMaster___InitComponentRuntime
 	.quad Lme_31
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1460=LTDIE_196_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1460
-	.byte 2,141,16,3
-	.asciz "stateMachine"
-
-LDIFF_SYM1461=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1461
-	.byte 2,141,24,0
+LDIFF_SYM1762=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1762
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1462=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM1462
+LDIFF_SYM1763=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM1763
 Lfde46_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__Perfil_Tappedd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad StreamingExample_MainMasterMaster___InitComponentRuntime
 
-LDIFF_SYM1463=Lme_31 - StreamingExample_Principal__Perfil_Tappedd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1463
+LDIFF_SYM1764=Lme_31 - StreamingExample_MainMasterMaster___InitComponentRuntime
+	.long LDIFF_SYM1764
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
 Lfde46_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.Principal/<txtOrigen_Completed>d__8:.ctor"
-	.asciz "StreamingExample_Principal__txtOrigen_Completedd__8__ctor"
+	.asciz "StreamingExample.MainMasterMaster/<metodoinicio_Tapped>d__2:.ctor"
+	.asciz "StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2__ctor"
 
 	.byte 0,0
-	.quad StreamingExample_Principal__txtOrigen_Completedd__8__ctor
+	.quad StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2__ctor
 	.quad Lme_32
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1464=LTDIE_197_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1464
+LDIFF_SYM1765=LTDIE_209_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1765
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1465=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM1465
+LDIFF_SYM1766=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM1766
 Lfde47_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__txtOrigen_Completedd__8__ctor
+	.quad StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2__ctor
 
-LDIFF_SYM1466=Lme_32 - StreamingExample_Principal__txtOrigen_Completedd__8__ctor
-	.long LDIFF_SYM1466
+LDIFF_SYM1767=Lme_32 - StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2__ctor
+	.long LDIFF_SYM1767
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -17784,81 +45672,110 @@ Lfde47_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.Principal/<txtOrigen_Completed>d__8:MoveNext"
-	.asciz "StreamingExample_Principal__txtOrigen_Completedd__8_MoveNext"
+	.asciz "StreamingExample.MainMasterMaster/<metodoinicio_Tapped>d__2:MoveNext"
+	.asciz "StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_MoveNext"
 
-	.byte 6,0
-	.quad StreamingExample_Principal__txtOrigen_Completedd__8_MoveNext
+	.byte 10,0
+	.quad StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_MoveNext
 	.quad Lme_33
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1467=LTDIE_197_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1467
-	.byte 2,141,16,11
+LDIFF_SYM1768=LTDIE_209_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1768
+	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM1468=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1468
-	.byte 2,141,48,11
+LDIFF_SYM1769=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1769
+	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM1469=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1469
-	.byte 2,141,56,0
+LDIFF_SYM1770=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1770
+	.byte 3,141,224,0,11
+	.asciz "V_2"
+
+LDIFF_SYM1771=LTDIE_209_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1771
+	.byte 3,141,232,0,11
+	.asciz "V_3"
+
+LDIFF_SYM1772=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1772
+	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1470=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM1470
+LDIFF_SYM1773=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM1773
 Lfde48_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__txtOrigen_Completedd__8_MoveNext
+	.quad StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_MoveNext
 
-LDIFF_SYM1471=Lme_33 - StreamingExample_Principal__txtOrigen_Completedd__8_MoveNext
-	.long LDIFF_SYM1471
+LDIFF_SYM1774=Lme_33 - StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_MoveNext
+	.long LDIFF_SYM1774
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,152,22,153,21,68,154,20
 	.align 3
 Lfde48_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_234:
 
+	.byte 17
+	.asciz "System_Runtime_CompilerServices_IAsyncStateMachine"
+
+	.byte 16,7
+	.asciz "System_Runtime_CompilerServices_IAsyncStateMachine"
+
+LDIFF_SYM1775=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1775
+LTDIE_234_POINTER:
+
+	.byte 13
+LDIFF_SYM1776=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1776
+LTDIE_234_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1777=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1777
 	.byte 2
-	.asciz "StreamingExample.Principal/<txtOrigen_Completed>d__8:SetStateMachine"
-	.asciz "StreamingExample_Principal__txtOrigen_Completedd__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+	.asciz "StreamingExample.MainMasterMaster/<metodoinicio_Tapped>d__2:SetStateMachine"
+	.asciz "StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
 
 	.byte 0,0
-	.quad StreamingExample_Principal__txtOrigen_Completedd__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 	.quad Lme_34
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1472=LTDIE_197_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1472
+LDIFF_SYM1778=LTDIE_209_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1778
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1473=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1473
+LDIFF_SYM1779=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1779
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1474=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM1474
+LDIFF_SYM1780=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM1780
 Lfde49_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__txtOrigen_Completedd__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1475=Lme_34 - StreamingExample_Principal__txtOrigen_Completedd__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1475
+LDIFF_SYM1781=Lme_34 - StreamingExample_MainMasterMaster__metodoinicio_Tappedd__2_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1781
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -17867,32 +45784,32 @@ Lfde49_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.Principal/<TapGestureRecognizer_Tapped_1>d__9:.ctor"
-	.asciz "StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9__ctor"
+	.asciz "StreamingExample.MainMasterMaster/<agregarCuentaBanc_Tapped>d__3:.ctor"
+	.asciz "StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3__ctor"
 
 	.byte 0,0
-	.quad StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9__ctor
+	.quad StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3__ctor
 	.quad Lme_35
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1476=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1476
+LDIFF_SYM1782=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1782
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1477=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM1477
+LDIFF_SYM1783=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM1783
 Lfde50_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9__ctor
+	.quad StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3__ctor
 
-LDIFF_SYM1478=Lme_35 - StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9__ctor
-	.long LDIFF_SYM1478
+LDIFF_SYM1784=Lme_35 - StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3__ctor
+	.long LDIFF_SYM1784
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -17901,81 +45818,91 @@ Lfde50_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.Principal/<TapGestureRecognizer_Tapped_1>d__9:MoveNext"
-	.asciz "StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_MoveNext"
+	.asciz "StreamingExample.MainMasterMaster/<agregarCuentaBanc_Tapped>d__3:MoveNext"
+	.asciz "StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_MoveNext"
 
-	.byte 6,0
-	.quad StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_MoveNext
+	.byte 10,0
+	.quad StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_MoveNext
 	.quad Lme_36
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1479=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1479
-	.byte 2,141,16,11
+LDIFF_SYM1785=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1785
+	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM1480=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1480
-	.byte 2,141,48,11
+LDIFF_SYM1786=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1786
+	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM1481=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1481
-	.byte 2,141,56,0
+LDIFF_SYM1787=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1787
+	.byte 3,141,224,0,11
+	.asciz "V_2"
+
+LDIFF_SYM1788=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1788
+	.byte 3,141,232,0,11
+	.asciz "V_3"
+
+LDIFF_SYM1789=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1789
+	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1482=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM1482
+LDIFF_SYM1790=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM1790
 Lfde51_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_MoveNext
+	.quad StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_MoveNext
 
-LDIFF_SYM1483=Lme_36 - StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_MoveNext
-	.long LDIFF_SYM1483
+LDIFF_SYM1791=Lme_36 - StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_MoveNext
+	.long LDIFF_SYM1791
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,152,22,153,21,68,154,20
 	.align 3
 Lfde51_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.Principal/<TapGestureRecognizer_Tapped_1>d__9:SetStateMachine"
-	.asciz "StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+	.asciz "StreamingExample.MainMasterMaster/<agregarCuentaBanc_Tapped>d__3:SetStateMachine"
+	.asciz "StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
 
 	.byte 0,0
-	.quad StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 	.quad Lme_37
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1484=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1484
+LDIFF_SYM1792=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1792
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1485=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1485
+LDIFF_SYM1793=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1793
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1486=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM1486
+LDIFF_SYM1794=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM1794
 Lfde52_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1487=Lme_37 - StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1487
+LDIFF_SYM1795=Lme_37 - StreamingExample_MainMasterMaster__agregarCuentaBanc_Tappedd__3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1795
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -17984,32 +45911,32 @@ Lfde52_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.Principal/<SolicitudRecogida_Tapped>d__10:.ctor"
-	.asciz "StreamingExample_Principal__SolicitudRecogida_Tappedd__10__ctor"
+	.asciz "StreamingExample.MainMasterMaster/<misganancias_Tapped>d__5:.ctor"
+	.asciz "StreamingExample_MainMasterMaster__misganancias_Tappedd__5__ctor"
 
 	.byte 0,0
-	.quad StreamingExample_Principal__SolicitudRecogida_Tappedd__10__ctor
+	.quad StreamingExample_MainMasterMaster__misganancias_Tappedd__5__ctor
 	.quad Lme_38
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1488=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1488
+LDIFF_SYM1796=LTDIE_211_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1796
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1489=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM1489
+LDIFF_SYM1797=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM1797
 Lfde53_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__SolicitudRecogida_Tappedd__10__ctor
+	.quad StreamingExample_MainMasterMaster__misganancias_Tappedd__5__ctor
 
-LDIFF_SYM1490=Lme_38 - StreamingExample_Principal__SolicitudRecogida_Tappedd__10__ctor
-	.long LDIFF_SYM1490
+LDIFF_SYM1798=Lme_38 - StreamingExample_MainMasterMaster__misganancias_Tappedd__5__ctor
+	.long LDIFF_SYM1798
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -18018,572 +45945,919 @@ Lfde53_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.Principal/<SolicitudRecogida_Tapped>d__10:MoveNext"
-	.asciz "StreamingExample_Principal__SolicitudRecogida_Tappedd__10_MoveNext"
+	.asciz "StreamingExample.MainMasterMaster/<misganancias_Tapped>d__5:MoveNext"
+	.asciz "StreamingExample_MainMasterMaster__misganancias_Tappedd__5_MoveNext"
 
-	.byte 6,0
-	.quad StreamingExample_Principal__SolicitudRecogida_Tappedd__10_MoveNext
+	.byte 10,0
+	.quad StreamingExample_MainMasterMaster__misganancias_Tappedd__5_MoveNext
 	.quad Lme_39
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1491=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1491
-	.byte 2,141,16,11
+LDIFF_SYM1799=LTDIE_211_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1799
+	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM1492=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1492
-	.byte 2,141,48,11
+LDIFF_SYM1800=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1800
+	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM1493=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1493
-	.byte 2,141,56,0
+LDIFF_SYM1801=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1801
+	.byte 3,141,224,0,11
+	.asciz "V_2"
+
+LDIFF_SYM1802=LTDIE_211_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1802
+	.byte 3,141,232,0,11
+	.asciz "V_3"
+
+LDIFF_SYM1803=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1803
+	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1494=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM1494
+LDIFF_SYM1804=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM1804
 Lfde54_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__SolicitudRecogida_Tappedd__10_MoveNext
+	.quad StreamingExample_MainMasterMaster__misganancias_Tappedd__5_MoveNext
 
-LDIFF_SYM1495=Lme_39 - StreamingExample_Principal__SolicitudRecogida_Tappedd__10_MoveNext
-	.long LDIFF_SYM1495
+LDIFF_SYM1805=Lme_39 - StreamingExample_MainMasterMaster__misganancias_Tappedd__5_MoveNext
+	.long LDIFF_SYM1805
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,152,22,153,21,68,154,20
 	.align 3
 Lfde54_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.Principal/<SolicitudRecogida_Tapped>d__10:SetStateMachine"
-	.asciz "StreamingExample_Principal__SolicitudRecogida_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+	.asciz "StreamingExample.MainMasterMaster/<misganancias_Tapped>d__5:SetStateMachine"
+	.asciz "StreamingExample_MainMasterMaster__misganancias_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
 
 	.byte 0,0
-	.quad StreamingExample_Principal__SolicitudRecogida_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad StreamingExample_MainMasterMaster__misganancias_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 	.quad Lme_3a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1496=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1496
+LDIFF_SYM1806=LTDIE_211_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1806
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1497=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1497
+LDIFF_SYM1807=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1807
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1498=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM1498
+LDIFF_SYM1808=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM1808
 Lfde55_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_Principal__SolicitudRecogida_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad StreamingExample_MainMasterMaster__misganancias_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1499=Lme_3a - StreamingExample_Principal__SolicitudRecogida_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1499
+LDIFF_SYM1809=Lme_3a - StreamingExample_MainMasterMaster__misganancias_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1809
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde55_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_204:
 
-	.byte 5
-	.asciz "Xamarin_Forms_Layout"
+	.byte 2
+	.asciz "StreamingExample.MainMasterMaster/<billetera_Tapped>d__6:.ctor"
+	.asciz "StreamingExample_MainMasterMaster__billetera_Tappedd__6__ctor"
 
-	.byte 192,3,16
-LDIFF_SYM1500=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1500
-	.byte 2,35,0,6
-	.asciz "_allocatedFlag"
+	.byte 0,0
+	.quad StreamingExample_MainMasterMaster__billetera_Tappedd__6__ctor
+	.quad Lme_3b
 
-LDIFF_SYM1501=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1501
-	.byte 3,35,168,3,6
-	.asciz "_hasDoneLayout"
+	.byte 2,118,16,3
+	.asciz "this"
 
-LDIFF_SYM1502=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1502
-	.byte 3,35,169,3,6
-	.asciz "_lastLayoutSize"
+LDIFF_SYM1810=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1810
+	.byte 2,141,16,0
 
-LDIFF_SYM1503=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1503
-	.byte 3,35,176,3,6
-	.asciz "_logicalChildren"
+.section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1504=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1504
-	.byte 3,35,144,3,6
-	.asciz "<InternalChildren>k__BackingField"
+LDIFF_SYM1811=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM1811
+Lfde56_start:
 
-LDIFF_SYM1505=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1505
-	.byte 3,35,152,3,6
-	.asciz "LayoutChanged"
+	.long 0
+	.align 3
+	.quad StreamingExample_MainMasterMaster__billetera_Tappedd__6__ctor
 
-LDIFF_SYM1506=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1506
-	.byte 3,35,160,3,0,7
-	.asciz "Xamarin_Forms_Layout"
+LDIFF_SYM1812=Lme_3b - StreamingExample_MainMasterMaster__billetera_Tappedd__6__ctor
+	.long LDIFF_SYM1812
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde56_end:
 
-LDIFF_SYM1507=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1507
-LTDIE_204_POINTER:
+.section __DWARF, __debug_info,regular,debug
 
-	.byte 13
-LDIFF_SYM1508=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1508
-LTDIE_204_REFERENCE:
+	.byte 2
+	.asciz "StreamingExample.MainMasterMaster/<billetera_Tapped>d__6:MoveNext"
+	.asciz "StreamingExample_MainMasterMaster__billetera_Tappedd__6_MoveNext"
 
-	.byte 14
-LDIFF_SYM1509=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1509
-LTDIE_203:
+	.byte 10,0
+	.quad StreamingExample_MainMasterMaster__billetera_Tappedd__6_MoveNext
+	.quad Lme_3c
 
-	.byte 5
-	.asciz "Xamarin_Forms_TemplatedView"
+	.byte 2,118,16,3
+	.asciz "this"
 
-	.byte 200,3,16
-LDIFF_SYM1510=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1510
-	.byte 2,35,0,6
-	.asciz "<Xamarin.Forms.IControlTemplated.TemplateRoot>k__BackingField"
+LDIFF_SYM1813=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1813
+	.byte 2,141,40,11
+	.asciz "V_0"
 
-LDIFF_SYM1511=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1511
-	.byte 3,35,192,3,0,7
-	.asciz "Xamarin_Forms_TemplatedView"
+LDIFF_SYM1814=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1814
+	.byte 1,106,11
+	.asciz "V_1"
 
-LDIFF_SYM1512=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1512
-LTDIE_203_POINTER:
+LDIFF_SYM1815=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1815
+	.byte 3,141,224,0,11
+	.asciz "V_2"
 
-	.byte 13
-LDIFF_SYM1513=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1513
-LTDIE_203_REFERENCE:
+LDIFF_SYM1816=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1816
+	.byte 3,141,232,0,11
+	.asciz "V_3"
 
-	.byte 14
-LDIFF_SYM1514=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1514
-LTDIE_202:
+LDIFF_SYM1817=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1817
+	.byte 3,141,240,0,0
 
-	.byte 5
-	.asciz "Xamarin_Forms_ContentView"
+.section __DWARF, __debug_frame,regular,debug
 
-	.byte 200,3,16
-LDIFF_SYM1515=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1515
-	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_ContentView"
+LDIFF_SYM1818=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM1818
+Lfde57_start:
 
-LDIFF_SYM1516=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1516
-LTDIE_202_POINTER:
+	.long 0
+	.align 3
+	.quad StreamingExample_MainMasterMaster__billetera_Tappedd__6_MoveNext
 
-	.byte 13
-LDIFF_SYM1517=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1517
-LTDIE_202_REFERENCE:
+LDIFF_SYM1819=Lme_3c - StreamingExample_MainMasterMaster__billetera_Tappedd__6_MoveNext
+	.long LDIFF_SYM1819
+	.long 0
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,152,22,153,21,68,154,20
+	.align 3
+Lfde57_end:
 
-	.byte 14
-LDIFF_SYM1518=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1518
-LTDIE_205:
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.MainMasterMaster/<billetera_Tapped>d__6:SetStateMachine"
+	.asciz "StreamingExample_MainMasterMaster__billetera_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+
+	.byte 0,0
+	.quad StreamingExample_MainMasterMaster__billetera_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad Lme_3d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1820=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1820
+	.byte 2,141,16,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1821=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1821
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1822=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM1822
+Lfde58_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_MainMasterMaster__billetera_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+
+LDIFF_SYM1823=Lme_3d - StreamingExample_MainMasterMaster__billetera_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1823
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde58_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.MainMasterMaster/<redimirpuntos_Tapped>d__8:.ctor"
+	.asciz "StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8__ctor"
+
+	.byte 0,0
+	.quad StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8__ctor
+	.quad Lme_3e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1824=LTDIE_213_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1824
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1825=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM1825
+Lfde59_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8__ctor
+
+LDIFF_SYM1826=Lme_3e - StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8__ctor
+	.long LDIFF_SYM1826
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde59_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.MainMasterMaster/<redimirpuntos_Tapped>d__8:MoveNext"
+	.asciz "StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_MoveNext"
+
+	.byte 10,0
+	.quad StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_MoveNext
+	.quad Lme_3f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1827=LTDIE_213_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1827
+	.byte 2,141,40,11
+	.asciz "V_0"
+
+LDIFF_SYM1828=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1828
+	.byte 1,106,11
+	.asciz "V_1"
+
+LDIFF_SYM1829=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1829
+	.byte 3,141,224,0,11
+	.asciz "V_2"
+
+LDIFF_SYM1830=LTDIE_213_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1830
+	.byte 3,141,232,0,11
+	.asciz "V_3"
+
+LDIFF_SYM1831=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1831
+	.byte 3,141,240,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1832=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM1832
+Lfde60_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_MoveNext
+
+LDIFF_SYM1833=Lme_3f - StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_MoveNext
+	.long LDIFF_SYM1833
+	.long 0
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,152,22,153,21,68,154,20
+	.align 3
+Lfde60_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.MainMasterMaster/<redimirpuntos_Tapped>d__8:SetStateMachine"
+	.asciz "StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+
+	.byte 0,0
+	.quad StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad Lme_40
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1834=LTDIE_213_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1834
+	.byte 2,141,16,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1835=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1835
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1836=Lfde61_end - Lfde61_start
+	.long LDIFF_SYM1836
+Lfde61_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+
+LDIFF_SYM1837=Lme_40 - StreamingExample_MainMasterMaster__redimirpuntos_Tappedd__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1837
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde61_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.MainMasterMaster/<ayudametodo_Tapped>d__9:.ctor"
+	.asciz "StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9__ctor"
+
+	.byte 0,0
+	.quad StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9__ctor
+	.quad Lme_41
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1838=LTDIE_214_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1838
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1839=Lfde62_end - Lfde62_start
+	.long LDIFF_SYM1839
+Lfde62_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9__ctor
+
+LDIFF_SYM1840=Lme_41 - StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9__ctor
+	.long LDIFF_SYM1840
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde62_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.MainMasterMaster/<ayudametodo_Tapped>d__9:MoveNext"
+	.asciz "StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_MoveNext"
+
+	.byte 10,0
+	.quad StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_MoveNext
+	.quad Lme_42
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1841=LTDIE_214_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1841
+	.byte 2,141,16,11
+	.asciz "V_0"
+
+LDIFF_SYM1842=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1842
+	.byte 2,141,48,11
+	.asciz "V_1"
+
+LDIFF_SYM1843=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1843
+	.byte 2,141,56,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1844=Lfde63_end - Lfde63_start
+	.long LDIFF_SYM1844
+Lfde63_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_MoveNext
+
+LDIFF_SYM1845=Lme_42 - StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_MoveNext
+	.long LDIFF_SYM1845
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.align 3
+Lfde63_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.MainMasterMaster/<ayudametodo_Tapped>d__9:SetStateMachine"
+	.asciz "StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+
+	.byte 0,0
+	.quad StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad Lme_43
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1846=LTDIE_214_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1846
+	.byte 2,141,16,3
+	.asciz "stateMachine"
+
+LDIFF_SYM1847=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1847
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1848=Lfde64_end - Lfde64_start
+	.long LDIFF_SYM1848
+Lfde64_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+
+LDIFF_SYM1849=Lme_43 - StreamingExample_MainMasterMaster__ayudametodo_Tappedd__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1849
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde64_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_238:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 128,1,16
-LDIFF_SYM1519=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM1519
+LDIFF_SYM1850=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1850
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1520=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1520
-LTDIE_205_POINTER:
+LDIFF_SYM1851=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1851
+LTDIE_238_POINTER:
 
 	.byte 13
-LDIFF_SYM1521=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1521
-LTDIE_205_REFERENCE:
+LDIFF_SYM1852=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1852
+LTDIE_238_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1522=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1522
-LTDIE_209:
+LDIFF_SYM1853=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1853
+LTDIE_237:
 
 	.byte 5
-	.asciz "Xamarin_Forms_ObservableWrapper`2"
+	.asciz "Xamarin_Forms_InputView"
 
-	.byte 40,16
-LDIFF_SYM1523=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1523
+	.byte 152,3,16
+LDIFF_SYM1854=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1854
 	.byte 2,35,0,6
-	.asciz "_list"
+	.asciz "TextChanged"
 
-LDIFF_SYM1524=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1524
-	.byte 2,35,16,6
-	.asciz "<IsReadOnly>k__BackingField"
+LDIFF_SYM1855=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1855
+	.byte 3,35,144,3,0,7
+	.asciz "Xamarin_Forms_InputView"
 
-LDIFF_SYM1525=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1525
-	.byte 2,35,32,6
-	.asciz "CollectionChanged"
-
-LDIFF_SYM1526=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1526
-	.byte 2,35,24,0,7
-	.asciz "Xamarin_Forms_ObservableWrapper`2"
-
-LDIFF_SYM1527=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1527
-LTDIE_209_POINTER:
+LDIFF_SYM1856=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1856
+LTDIE_237_POINTER:
 
 	.byte 13
-LDIFF_SYM1528=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1528
-LTDIE_209_REFERENCE:
+LDIFF_SYM1857=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1857
+LTDIE_237_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1529=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1529
-LTDIE_208:
-
-	.byte 5
-	.asciz "Xamarin_Forms_ElementCollection`1"
-
-	.byte 40,16
-LDIFF_SYM1530=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1530
-	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_ElementCollection`1"
-
-LDIFF_SYM1531=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM1531
-LTDIE_208_POINTER:
-
-	.byte 13
-LDIFF_SYM1532=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM1532
-LTDIE_208_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1533=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM1533
-LTDIE_207:
-
-	.byte 5
-	.asciz "Xamarin_Forms_Layout`1"
-
-	.byte 200,3,16
-LDIFF_SYM1534=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1534
-	.byte 2,35,0,6
-	.asciz "_children"
-
-LDIFF_SYM1535=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1535
-	.byte 3,35,192,3,0,7
-	.asciz "Xamarin_Forms_Layout`1"
-
-LDIFF_SYM1536=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1536
-LTDIE_207_POINTER:
-
-	.byte 13
-LDIFF_SYM1537=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1537
-LTDIE_207_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1538=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1538
-LTDIE_210:
-
-	.byte 5
-	.asciz "_LayoutInformation"
-
-	.byte 112,16
-LDIFF_SYM1539=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1539
-	.byte 2,35,0,6
-	.asciz "Bounds"
-
-LDIFF_SYM1540=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1540
-	.byte 2,35,32,6
-	.asciz "CompressionSpace"
-
-LDIFF_SYM1541=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1541
-	.byte 2,35,64,6
-	.asciz "Constraint"
-
-LDIFF_SYM1542=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1542
-	.byte 2,35,72,6
-	.asciz "Expanders"
-
-LDIFF_SYM1543=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1543
-	.byte 2,35,88,6
-	.asciz "MinimumSize"
-
-LDIFF_SYM1544=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1544
-	.byte 2,35,96,6
-	.asciz "Plots"
-
-LDIFF_SYM1545=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1545
-	.byte 2,35,16,6
-	.asciz "Requests"
-
-LDIFF_SYM1546=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1546
-	.byte 2,35,24,0,7
-	.asciz "_LayoutInformation"
-
-LDIFF_SYM1547=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1547
-LTDIE_210_POINTER:
-
-	.byte 13
-LDIFF_SYM1548=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1548
-LTDIE_210_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1549=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1549
-LTDIE_212:
+LDIFF_SYM1858=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1858
+LTDIE_240:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 128,1,16
-LDIFF_SYM1550=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM1550
+LDIFF_SYM1859=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1859
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1551=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1551
-LTDIE_212_POINTER:
+LDIFF_SYM1860=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM1860
+LTDIE_240_POINTER:
 
 	.byte 13
-LDIFF_SYM1552=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1552
-LTDIE_212_REFERENCE:
+LDIFF_SYM1861=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM1861
+LTDIE_240_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1553=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1553
-LTDIE_213:
+LDIFF_SYM1862=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM1862
+LTDIE_241:
 
 	.byte 5
 	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
 
 	.byte 32,16
-LDIFF_SYM1554=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1554
+LDIFF_SYM1863=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1863
 	.byte 2,35,0,6
 	.asciz "_element"
 
-LDIFF_SYM1555=LTDIE_206_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1555
+LDIFF_SYM1864=LTDIE_236_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1864
 	.byte 2,35,16,6
 	.asciz "_platformSpecifics"
 
-LDIFF_SYM1556=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1556
+LDIFF_SYM1865=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1865
 	.byte 2,35,24,0,7
 	.asciz "Xamarin_Forms_PlatformConfigurationRegistry`1"
 
-LDIFF_SYM1557=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM1557
-LTDIE_213_POINTER:
+LDIFF_SYM1866=LTDIE_241 - Ldebug_info_start
+	.long LDIFF_SYM1866
+LTDIE_241_POINTER:
 
 	.byte 13
-LDIFF_SYM1558=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM1558
-LTDIE_213_REFERENCE:
+LDIFF_SYM1867=LTDIE_241 - Ldebug_info_start
+	.long LDIFF_SYM1867
+LTDIE_241_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1559=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM1559
-LTDIE_211:
+LDIFF_SYM1868=LTDIE_241 - Ldebug_info_start
+	.long LDIFF_SYM1868
+LTDIE_239:
 
 	.byte 5
 	.asciz "System_Lazy`1"
 
 	.byte 40,16
-LDIFF_SYM1560=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1560
+LDIFF_SYM1869=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1869
 	.byte 2,35,0,6
 	.asciz "_state"
 
-LDIFF_SYM1561=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1561
+LDIFF_SYM1870=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1870
 	.byte 2,35,16,6
 	.asciz "_factory"
 
-LDIFF_SYM1562=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1562
+LDIFF_SYM1871=LTDIE_240_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1871
 	.byte 2,35,24,6
 	.asciz "_value"
 
-LDIFF_SYM1563=LTDIE_213_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1563
+LDIFF_SYM1872=LTDIE_241_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1872
 	.byte 2,35,32,0,7
 	.asciz "System_Lazy`1"
 
-LDIFF_SYM1564=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM1564
-LTDIE_211_POINTER:
+LDIFF_SYM1873=LTDIE_239 - Ldebug_info_start
+	.long LDIFF_SYM1873
+LTDIE_239_POINTER:
 
 	.byte 13
-LDIFF_SYM1565=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM1565
-LTDIE_211_REFERENCE:
+LDIFF_SYM1874=LTDIE_239 - Ldebug_info_start
+	.long LDIFF_SYM1874
+LTDIE_239_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1566=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM1566
-LTDIE_206:
+LDIFF_SYM1875=LTDIE_239 - Ldebug_info_start
+	.long LDIFF_SYM1875
+LTDIE_236:
 
 	.byte 5
-	.asciz "Xamarin_Forms_StackLayout"
+	.asciz "Xamarin_Forms_Entry"
 
-	.byte 216,3,16
-LDIFF_SYM1567=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1567
+	.byte 168,3,16
+LDIFF_SYM1876=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1876
 	.byte 2,35,0,6
-	.asciz "_layoutInformation"
-
-LDIFF_SYM1568=LTDIE_210_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1568
-	.byte 3,35,200,3,6
 	.asciz "_platformConfigurationRegistry"
 
-LDIFF_SYM1569=LTDIE_211_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1569
-	.byte 3,35,208,3,0,7
-	.asciz "Xamarin_Forms_StackLayout"
+LDIFF_SYM1877=LTDIE_239_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1877
+	.byte 3,35,152,3,6
+	.asciz "Completed"
 
-LDIFF_SYM1570=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM1570
-LTDIE_206_POINTER:
+LDIFF_SYM1878=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1878
+	.byte 3,35,160,3,0,7
+	.asciz "Xamarin_Forms_Entry"
+
+LDIFF_SYM1879=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1879
+LTDIE_236_POINTER:
 
 	.byte 13
-LDIFF_SYM1571=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM1571
-LTDIE_206_REFERENCE:
+LDIFF_SYM1880=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1880
+LTDIE_236_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1572=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM1572
-LTDIE_201:
+LDIFF_SYM1881=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1881
+LTDIE_235:
+
+	.byte 5
+	.asciz "StreamingExample_MainMap"
+
+	.byte 168,4,16
+LDIFF_SYM1882=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1882
+	.byte 2,35,0,6
+	.asciz "imgPerfil"
+
+LDIFF_SYM1883=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1883
+	.byte 3,35,128,4,6
+	.asciz "lbHeaderName"
+
+LDIFF_SYM1884=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1884
+	.byte 3,35,136,4,6
+	.asciz "imgCartOk"
+
+LDIFF_SYM1885=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1885
+	.byte 3,35,144,4,6
+	.asciz "txtOrigen"
+
+LDIFF_SYM1886=LTDIE_236_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1886
+	.byte 3,35,152,4,6
+	.asciz "txtCotizar"
+
+LDIFF_SYM1887=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1887
+	.byte 3,35,160,4,0,7
+	.asciz "StreamingExample_MainMap"
+
+LDIFF_SYM1888=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1888
+LTDIE_235_POINTER:
+
+	.byte 13
+LDIFF_SYM1889=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1889
+LTDIE_235_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1890=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1890
+	.byte 2
+	.asciz "StreamingExample.MainMap:.ctor"
+	.asciz "StreamingExample_MainMap__ctor"
+
+	.byte 12,10
+	.quad StreamingExample_MainMap__ctor
+	.quad Lme_44
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1891=LTDIE_235_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1891
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1892=Lfde65_end - Lfde65_start
+	.long LDIFF_SYM1892
+Lfde65_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_MainMap__ctor
+
+LDIFF_SYM1893=Lme_44 - StreamingExample_MainMap__ctor
+	.long LDIFF_SYM1893
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.align 3
+Lfde65_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.MainMap:InitializeComponent"
+	.asciz "StreamingExample_MainMap_InitializeComponent"
+
+	.byte 13,35
+	.quad StreamingExample_MainMap_InitializeComponent
+	.quad Lme_45
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1894=LTDIE_235_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1894
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1895=Lfde66_end - Lfde66_start
+	.long LDIFF_SYM1895
+Lfde66_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_MainMap_InitializeComponent
+
+LDIFF_SYM1896=Lme_45 - StreamingExample_MainMap_InitializeComponent
+	.long LDIFF_SYM1896
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
+	.align 3
+Lfde66_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_244:
+
+	.byte 5
+	.asciz "Xamarin_Forms_TemplatedView"
+
+	.byte 200,3,16
+LDIFF_SYM1897=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1897
+	.byte 2,35,0,6
+	.asciz "<Xamarin.Forms.IControlTemplated.TemplateRoot>k__BackingField"
+
+LDIFF_SYM1898=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1898
+	.byte 3,35,192,3,0,7
+	.asciz "Xamarin_Forms_TemplatedView"
+
+LDIFF_SYM1899=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM1899
+LTDIE_244_POINTER:
+
+	.byte 13
+LDIFF_SYM1900=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM1900
+LTDIE_244_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1901=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM1901
+LTDIE_243:
+
+	.byte 5
+	.asciz "Xamarin_Forms_ContentView"
+
+	.byte 200,3,16
+LDIFF_SYM1902=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM1902
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_ContentView"
+
+LDIFF_SYM1903=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM1903
+LTDIE_243_POINTER:
+
+	.byte 13
+LDIFF_SYM1904=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM1904
+LTDIE_243_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1905=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM1905
+LTDIE_245:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 128,1,16
+LDIFF_SYM1906=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1906
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM1907=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM1907
+LTDIE_245_POINTER:
+
+	.byte 13
+LDIFF_SYM1908=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM1908
+LTDIE_245_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1909=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM1909
+LTDIE_242:
 
 	.byte 5
 	.asciz "StreamingExample_Footer"
 
 	.byte 216,3,16
-LDIFF_SYM1573=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1573
+LDIFF_SYM1910=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM1910
 	.byte 2,35,0,6
 	.asciz "UserClosed"
 
-LDIFF_SYM1574=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1574
+LDIFF_SYM1911=LTDIE_245_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1911
 	.byte 3,35,200,3,6
 	.asciz "lyServicios"
 
-LDIFF_SYM1575=LTDIE_206_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1575
+LDIFF_SYM1912=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1912
 	.byte 3,35,208,3,0,7
 	.asciz "StreamingExample_Footer"
 
-LDIFF_SYM1576=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM1576
-LTDIE_201_POINTER:
+LDIFF_SYM1913=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM1913
+LTDIE_242_POINTER:
 
 	.byte 13
-LDIFF_SYM1577=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM1577
-LTDIE_201_REFERENCE:
+LDIFF_SYM1914=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM1914
+LTDIE_242_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1578=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM1578
+LDIFF_SYM1915=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM1915
 	.byte 2
 	.asciz "StreamingExample.Footer:add_UserClosed"
 	.asciz "StreamingExample_Footer_add_UserClosed_System_EventHandler_1_System_EventArgs"
 
 	.byte 0,0
 	.quad StreamingExample_Footer_add_UserClosed_System_EventHandler_1_System_EventArgs
-	.quad Lme_3b
+	.quad Lme_46
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1579=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1579
+LDIFF_SYM1916=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1916
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1580=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1580
+LDIFF_SYM1917=LTDIE_245_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1917
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1581=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1581
+LDIFF_SYM1918=LTDIE_245_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1918
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1582=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1582
+LDIFF_SYM1919=LTDIE_245_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1919
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1583=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1583
+LDIFF_SYM1920=LTDIE_245_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1920
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1584=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM1584
-Lfde56_start:
+LDIFF_SYM1921=Lfde67_end - Lfde67_start
+	.long LDIFF_SYM1921
+Lfde67_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_Footer_add_UserClosed_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM1585=Lme_3b - StreamingExample_Footer_add_UserClosed_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM1585
+LDIFF_SYM1922=Lme_46 - StreamingExample_Footer_add_UserClosed_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM1922
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
 	.align 3
-Lfde56_end:
+Lfde67_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18593,51 +46867,51 @@ Lfde56_end:
 
 	.byte 0,0
 	.quad StreamingExample_Footer_remove_UserClosed_System_EventHandler_1_System_EventArgs
-	.quad Lme_3c
+	.quad Lme_47
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1586=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1586
+LDIFF_SYM1923=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1923
 	.byte 1,105,3
 	.asciz "value"
 
-LDIFF_SYM1587=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1587
+LDIFF_SYM1924=LTDIE_245_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1924
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1588=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1588
+LDIFF_SYM1925=LTDIE_245_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1925
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1589=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1589
+LDIFF_SYM1926=LTDIE_245_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1926
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1590=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1590
+LDIFF_SYM1927=LTDIE_245_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1927
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1591=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM1591
-Lfde57_start:
+LDIFF_SYM1928=Lfde68_end - Lfde68_start
+	.long LDIFF_SYM1928
+Lfde68_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_Footer_remove_UserClosed_System_EventHandler_1_System_EventArgs
 
-LDIFF_SYM1592=Lme_3c - StreamingExample_Footer_remove_UserClosed_System_EventHandler_1_System_EventArgs
-	.long LDIFF_SYM1592
+LDIFF_SYM1929=Lme_47 - StreamingExample_Footer_remove_UserClosed_System_EventHandler_1_System_EventArgs
+	.long LDIFF_SYM1929
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
 	.align 3
-Lfde57_end:
+Lfde68_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18645,33 +46919,33 @@ Lfde57_end:
 	.asciz "StreamingExample.Footer:.ctor"
 	.asciz "StreamingExample_Footer__ctor"
 
-	.byte 8,12
+	.byte 14,12
 	.quad StreamingExample_Footer__ctor
-	.quad Lme_3d
+	.quad Lme_48
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1593=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1593
+LDIFF_SYM1930=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1930
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1594=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM1594
-Lfde58_start:
+LDIFF_SYM1931=Lfde69_end - Lfde69_start
+	.long LDIFF_SYM1931
+Lfde69_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_Footer__ctor
 
-LDIFF_SYM1595=Lme_3d - StreamingExample_Footer__ctor
-	.long LDIFF_SYM1595
+LDIFF_SYM1932=Lme_48 - StreamingExample_Footer__ctor
+	.long LDIFF_SYM1932
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde58_end:
+Lfde69_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18679,43 +46953,43 @@ Lfde58_end:
 	.asciz "StreamingExample.Footer:Servicios_Tapped"
 	.asciz "StreamingExample_Footer_Servicios_Tapped_object_System_EventArgs"
 
-	.byte 8,18
+	.byte 14,18
 	.quad StreamingExample_Footer_Servicios_Tapped_object_System_EventArgs
-	.quad Lme_3e
+	.quad Lme_49
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1596=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1596
+LDIFF_SYM1933=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1933
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1597=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1597
+LDIFF_SYM1934=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1934
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1598=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1598
+LDIFF_SYM1935=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1935
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1599=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM1599
-Lfde59_start:
+LDIFF_SYM1936=Lfde70_end - Lfde70_start
+	.long LDIFF_SYM1936
+Lfde70_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_Footer_Servicios_Tapped_object_System_EventArgs
 
-LDIFF_SYM1600=Lme_3e - StreamingExample_Footer_Servicios_Tapped_object_System_EventArgs
-	.long LDIFF_SYM1600
+LDIFF_SYM1937=Lme_49 - StreamingExample_Footer_Servicios_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1937
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde59_end:
+Lfde70_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18723,43 +46997,43 @@ Lfde59_end:
 	.asciz "StreamingExample.Footer:Noticias_Tapped"
 	.asciz "StreamingExample_Footer_Noticias_Tapped_object_System_EventArgs"
 
-	.byte 8,24
+	.byte 14,24
 	.quad StreamingExample_Footer_Noticias_Tapped_object_System_EventArgs
-	.quad Lme_3f
+	.quad Lme_4a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1601=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1601
+LDIFF_SYM1938=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1938
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1602=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1602
+LDIFF_SYM1939=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1939
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1603=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1603
+LDIFF_SYM1940=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1940
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1604=Lfde60_end - Lfde60_start
-	.long LDIFF_SYM1604
-Lfde60_start:
+LDIFF_SYM1941=Lfde71_end - Lfde71_start
+	.long LDIFF_SYM1941
+Lfde71_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_Footer_Noticias_Tapped_object_System_EventArgs
 
-LDIFF_SYM1605=Lme_3f - StreamingExample_Footer_Noticias_Tapped_object_System_EventArgs
-	.long LDIFF_SYM1605
+LDIFF_SYM1942=Lme_4a - StreamingExample_Footer_Noticias_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1942
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde60_end:
+Lfde71_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18767,43 +47041,43 @@ Lfde60_end:
 	.asciz "StreamingExample.Footer:NuestraRed_Tapped"
 	.asciz "StreamingExample_Footer_NuestraRed_Tapped_object_System_EventArgs"
 
-	.byte 8,34
+	.byte 14,34
 	.quad StreamingExample_Footer_NuestraRed_Tapped_object_System_EventArgs
-	.quad Lme_40
+	.quad Lme_4b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1606=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1606
+LDIFF_SYM1943=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1943
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1607=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1607
+LDIFF_SYM1944=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1944
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1608=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1608
+LDIFF_SYM1945=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1945
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1609=Lfde61_end - Lfde61_start
-	.long LDIFF_SYM1609
-Lfde61_start:
+LDIFF_SYM1946=Lfde72_end - Lfde72_start
+	.long LDIFF_SYM1946
+Lfde72_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_Footer_NuestraRed_Tapped_object_System_EventArgs
 
-LDIFF_SYM1610=Lme_40 - StreamingExample_Footer_NuestraRed_Tapped_object_System_EventArgs
-	.long LDIFF_SYM1610
+LDIFF_SYM1947=Lme_4b - StreamingExample_Footer_NuestraRed_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1947
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde61_end:
+Lfde72_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18811,43 +47085,43 @@ Lfde61_end:
 	.asciz "StreamingExample.Footer:Profile_UserClosed"
 	.asciz "StreamingExample_Footer_Profile_UserClosed_object_System_EventArgs"
 
-	.byte 8,39
+	.byte 14,39
 	.quad StreamingExample_Footer_Profile_UserClosed_object_System_EventArgs
-	.quad Lme_41
+	.quad Lme_4c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1611=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1611
+LDIFF_SYM1948=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1948
 	.byte 2,141,32,3
 	.asciz "sender"
 
-LDIFF_SYM1612=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1612
+LDIFF_SYM1949=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1949
 	.byte 2,141,40,3
 	.asciz "e"
 
-LDIFF_SYM1613=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1613
+LDIFF_SYM1950=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1950
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1614=Lfde62_end - Lfde62_start
-	.long LDIFF_SYM1614
-Lfde62_start:
+LDIFF_SYM1951=Lfde73_end - Lfde73_start
+	.long LDIFF_SYM1951
+Lfde73_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_Footer_Profile_UserClosed_object_System_EventArgs
 
-LDIFF_SYM1615=Lme_41 - StreamingExample_Footer_Profile_UserClosed_object_System_EventArgs
-	.long LDIFF_SYM1615
+LDIFF_SYM1952=Lme_4c - StreamingExample_Footer_Profile_UserClosed_object_System_EventArgs
+	.long LDIFF_SYM1952
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7
 	.align 3
-Lfde62_end:
+Lfde73_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18855,43 +47129,43 @@ Lfde62_end:
 	.asciz "StreamingExample.Footer:Login_UserLogged"
 	.asciz "StreamingExample_Footer_Login_UserLogged_object_System_EventArgs"
 
-	.byte 8,44
+	.byte 14,44
 	.quad StreamingExample_Footer_Login_UserLogged_object_System_EventArgs
-	.quad Lme_42
+	.quad Lme_4d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1616=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1616
+LDIFF_SYM1953=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1953
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1617=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1617
+LDIFF_SYM1954=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1954
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1618=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1618
+LDIFF_SYM1955=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1955
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1619=Lfde63_end - Lfde63_start
-	.long LDIFF_SYM1619
-Lfde63_start:
+LDIFF_SYM1956=Lfde74_end - Lfde74_start
+	.long LDIFF_SYM1956
+Lfde74_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_Footer_Login_UserLogged_object_System_EventArgs
 
-LDIFF_SYM1620=Lme_42 - StreamingExample_Footer_Login_UserLogged_object_System_EventArgs
-	.long LDIFF_SYM1620
+LDIFF_SYM1957=Lme_4d - StreamingExample_Footer_Login_UserLogged_object_System_EventArgs
+	.long LDIFF_SYM1957
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde63_end:
+Lfde74_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -18899,139 +47173,139 @@ Lfde63_end:
 	.asciz "StreamingExample.Footer:Login_UserLoggedPerfil"
 	.asciz "StreamingExample_Footer_Login_UserLoggedPerfil_object_System_EventArgs"
 
-	.byte 8,51
+	.byte 14,51
 	.quad StreamingExample_Footer_Login_UserLoggedPerfil_object_System_EventArgs
-	.quad Lme_43
+	.quad Lme_4e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1621=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1621
+LDIFF_SYM1958=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1958
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1622=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1622
+LDIFF_SYM1959=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1959
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1623=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1623
+LDIFF_SYM1960=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1960
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1624=Lfde64_end - Lfde64_start
-	.long LDIFF_SYM1624
-Lfde64_start:
+LDIFF_SYM1961=Lfde75_end - Lfde75_start
+	.long LDIFF_SYM1961
+Lfde75_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_Footer_Login_UserLoggedPerfil_object_System_EventArgs
 
-LDIFF_SYM1625=Lme_43 - StreamingExample_Footer_Login_UserLoggedPerfil_object_System_EventArgs
-	.long LDIFF_SYM1625
+LDIFF_SYM1962=Lme_4e - StreamingExample_Footer_Login_UserLoggedPerfil_object_System_EventArgs
+	.long LDIFF_SYM1962
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde64_end:
+Lfde75_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_214:
+LTDIE_246:
 
 	.byte 5
 	.asciz "_<QrCode_Tapped>d__10"
 
 	.byte 80,16
-LDIFF_SYM1626=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1626
+LDIFF_SYM1963=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1963
 	.byte 2,35,0,6
 	.asciz "<>1__state"
 
-LDIFF_SYM1627=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1627
+LDIFF_SYM1964=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1964
 	.byte 2,35,72,6
 	.asciz "<>t__builder"
 
-LDIFF_SYM1628=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1628
+LDIFF_SYM1965=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1965
 	.byte 2,35,16,6
 	.asciz "sender"
 
-LDIFF_SYM1629=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1629
+LDIFF_SYM1966=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1966
 	.byte 2,35,48,6
 	.asciz "e"
 
-LDIFF_SYM1630=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1630
+LDIFF_SYM1967=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1967
 	.byte 2,35,56,6
 	.asciz "<>4__this"
 
-LDIFF_SYM1631=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1631
+LDIFF_SYM1968=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1968
 	.byte 2,35,64,0,7
 	.asciz "_<QrCode_Tapped>d__10"
 
-LDIFF_SYM1632=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM1632
-LTDIE_214_POINTER:
+LDIFF_SYM1969=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM1969
+LTDIE_246_POINTER:
 
 	.byte 13
-LDIFF_SYM1633=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM1633
-LTDIE_214_REFERENCE:
+LDIFF_SYM1970=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM1970
+LTDIE_246_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1634=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM1634
+LDIFF_SYM1971=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM1971
 	.byte 2
 	.asciz "StreamingExample.Footer:QrCode_Tapped"
 	.asciz "StreamingExample_Footer_QrCode_Tapped_object_System_EventArgs"
 
 	.byte 0,0
 	.quad StreamingExample_Footer_QrCode_Tapped_object_System_EventArgs
-	.quad Lme_44
+	.quad Lme_4f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1635=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1635
+LDIFF_SYM1972=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1972
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1636=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1636
+LDIFF_SYM1973=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1973
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1637=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1637
+LDIFF_SYM1974=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1974
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1638=LTDIE_214_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1638
+LDIFF_SYM1975=LTDIE_246_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1975
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1639=Lfde65_end - Lfde65_start
-	.long LDIFF_SYM1639
-Lfde65_start:
+LDIFF_SYM1976=Lfde76_end - Lfde76_start
+	.long LDIFF_SYM1976
+Lfde76_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_Footer_QrCode_Tapped_object_System_EventArgs
 
-LDIFF_SYM1640=Lme_44 - StreamingExample_Footer_QrCode_Tapped_object_System_EventArgs
-	.long LDIFF_SYM1640
+LDIFF_SYM1977=Lme_4f - StreamingExample_Footer_QrCode_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1977
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
-Lfde65_end:
+Lfde76_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19039,43 +47313,43 @@ Lfde65_end:
 	.asciz "StreamingExample.Footer:TapGestureRecognizer_Tapped"
 	.asciz "StreamingExample_Footer_TapGestureRecognizer_Tapped_object_System_EventArgs"
 
-	.byte 8,65
+	.byte 14,65
 	.quad StreamingExample_Footer_TapGestureRecognizer_Tapped_object_System_EventArgs
-	.quad Lme_45
+	.quad Lme_50
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1641=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1641
+LDIFF_SYM1978=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1978
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1642=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1642
+LDIFF_SYM1979=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1979
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1643=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1643
+LDIFF_SYM1980=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1980
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1644=Lfde66_end - Lfde66_start
-	.long LDIFF_SYM1644
-Lfde66_start:
+LDIFF_SYM1981=Lfde77_end - Lfde77_start
+	.long LDIFF_SYM1981
+Lfde77_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_Footer_TapGestureRecognizer_Tapped_object_System_EventArgs
 
-LDIFF_SYM1645=Lme_45 - StreamingExample_Footer_TapGestureRecognizer_Tapped_object_System_EventArgs
-	.long LDIFF_SYM1645
+LDIFF_SYM1982=Lme_50 - StreamingExample_Footer_TapGestureRecognizer_Tapped_object_System_EventArgs
+	.long LDIFF_SYM1982
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde66_end:
+Lfde77_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19083,33 +47357,33 @@ Lfde66_end:
 	.asciz "StreamingExample.Footer:InitializeComponent"
 	.asciz "StreamingExample_Footer_InitializeComponent"
 
-	.byte 9,23
+	.byte 15,23
 	.quad StreamingExample_Footer_InitializeComponent
-	.quad Lme_46
+	.quad Lme_51
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1646=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1646
+LDIFF_SYM1983=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1983
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1647=Lfde67_end - Lfde67_start
-	.long LDIFF_SYM1647
-Lfde67_start:
+LDIFF_SYM1984=Lfde78_end - Lfde78_start
+	.long LDIFF_SYM1984
+Lfde78_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_Footer_InitializeComponent
 
-LDIFF_SYM1648=Lme_46 - StreamingExample_Footer_InitializeComponent
-	.long LDIFF_SYM1648
+LDIFF_SYM1985=Lme_51 - StreamingExample_Footer_InitializeComponent
+	.long LDIFF_SYM1985
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde67_end:
+Lfde78_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19119,31 +47393,31 @@ Lfde67_end:
 
 	.byte 0,0
 	.quad StreamingExample_Footer__QrCode_Tappedd__10__ctor
-	.quad Lme_47
+	.quad Lme_52
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1649=LTDIE_214_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1649
+LDIFF_SYM1986=LTDIE_246_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1986
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1650=Lfde68_end - Lfde68_start
-	.long LDIFF_SYM1650
-Lfde68_start:
+LDIFF_SYM1987=Lfde79_end - Lfde79_start
+	.long LDIFF_SYM1987
+Lfde79_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_Footer__QrCode_Tappedd__10__ctor
 
-LDIFF_SYM1651=Lme_47 - StreamingExample_Footer__QrCode_Tappedd__10__ctor
-	.long LDIFF_SYM1651
+LDIFF_SYM1988=Lme_52 - StreamingExample_Footer__QrCode_Tappedd__10__ctor
+	.long LDIFF_SYM1988
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde68_end:
+Lfde79_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19151,43 +47425,43 @@ Lfde68_end:
 	.asciz "StreamingExample.Footer/<QrCode_Tapped>d__10:MoveNext"
 	.asciz "StreamingExample_Footer__QrCode_Tappedd__10_MoveNext"
 
-	.byte 8,0
+	.byte 14,0
 	.quad StreamingExample_Footer__QrCode_Tappedd__10_MoveNext
-	.quad Lme_48
+	.quad Lme_53
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1652=LTDIE_214_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1652
+LDIFF_SYM1989=LTDIE_246_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1989
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM1653=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1653
+LDIFF_SYM1990=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1990
 	.byte 2,141,48,11
 	.asciz "V_1"
 
-LDIFF_SYM1654=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1654
+LDIFF_SYM1991=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1991
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1655=Lfde69_end - Lfde69_start
-	.long LDIFF_SYM1655
-Lfde69_start:
+LDIFF_SYM1992=Lfde80_end - Lfde80_start
+	.long LDIFF_SYM1992
+Lfde80_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_Footer__QrCode_Tappedd__10_MoveNext
 
-LDIFF_SYM1656=Lme_48 - StreamingExample_Footer__QrCode_Tappedd__10_MoveNext
-	.long LDIFF_SYM1656
+LDIFF_SYM1993=Lme_53 - StreamingExample_Footer__QrCode_Tappedd__10_MoveNext
+	.long LDIFF_SYM1993
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde69_end:
+Lfde80_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19197,220 +47471,1510 @@ Lfde69_end:
 
 	.byte 0,0
 	.quad StreamingExample_Footer__QrCode_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.quad Lme_49
+	.quad Lme_54
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1657=LTDIE_214_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1657
+LDIFF_SYM1994=LTDIE_246_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1994
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1658=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1658
+LDIFF_SYM1995=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1995
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1659=Lfde70_end - Lfde70_start
-	.long LDIFF_SYM1659
-Lfde70_start:
+LDIFF_SYM1996=Lfde81_end - Lfde81_start
+	.long LDIFF_SYM1996
+Lfde81_start:
 
 	.long 0
 	.align 3
 	.quad StreamingExample_Footer__QrCode_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1660=Lme_49 - StreamingExample_Footer__QrCode_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1660
+LDIFF_SYM1997=Lme_54 - StreamingExample_Footer__QrCode_Tappedd__10_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1997
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde70_end:
+Lfde81_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_215:
 
-	.byte 5
-	.asciz "StreamingExample_misionvision"
-
-	.byte 128,4,16
-LDIFF_SYM1661=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1661
-	.byte 2,35,0,0,7
-	.asciz "StreamingExample_misionvision"
-
-LDIFF_SYM1662=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM1662
-LTDIE_215_POINTER:
-
-	.byte 13
-LDIFF_SYM1663=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM1663
-LTDIE_215_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1664=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM1664
 	.byte 2
-	.asciz "StreamingExample.misionvision:.ctor"
-	.asciz "StreamingExample_misionvision__ctor"
+	.asciz "StreamingExample.Principal:get_ViewModel"
+	.asciz "StreamingExample_Principal_get_ViewModel"
 
-	.byte 10,10
-	.quad StreamingExample_misionvision__ctor
-	.quad Lme_4a
+	.byte 16,13
+	.quad StreamingExample_Principal_get_ViewModel
+	.quad Lme_55
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1665=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1665
+LDIFF_SYM1998=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1998
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1999=Lfde82_end - Lfde82_start
+	.long LDIFF_SYM1999
+Lfde82_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal_get_ViewModel
+
+LDIFF_SYM2000=Lme_55 - StreamingExample_Principal_get_ViewModel
+	.long LDIFF_SYM2000
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
+	.align 3
+Lfde82_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal:.ctor"
+	.asciz "StreamingExample_Principal__ctor"
+
+	.byte 16,15
+	.quad StreamingExample_Principal__ctor
+	.quad Lme_56
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2001=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2001
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1666=Lfde71_end - Lfde71_start
-	.long LDIFF_SYM1666
-Lfde71_start:
+LDIFF_SYM2002=Lfde83_end - Lfde83_start
+	.long LDIFF_SYM2002
+Lfde83_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_misionvision__ctor
+	.quad StreamingExample_Principal__ctor
 
-LDIFF_SYM1667=Lme_4a - StreamingExample_misionvision__ctor
-	.long LDIFF_SYM1667
+LDIFF_SYM2003=Lme_56 - StreamingExample_Principal__ctor
+	.long LDIFF_SYM2003
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 	.align 3
-Lfde71_end:
+Lfde83_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "StreamingExample.misionvision:InitializeComponent"
-	.asciz "StreamingExample_misionvision_InitializeComponent"
+	.asciz "StreamingExample.Principal:ShowUserData"
+	.asciz "StreamingExample_Principal_ShowUserData"
 
-	.byte 11,20
-	.quad StreamingExample_misionvision_InitializeComponent
-	.quad Lme_4b
+	.byte 16,34
+	.quad StreamingExample_Principal_ShowUserData
+	.quad Lme_57
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1668=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1668
+LDIFF_SYM2004=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2004
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1669=Lfde72_end - Lfde72_start
-	.long LDIFF_SYM1669
-Lfde72_start:
+LDIFF_SYM2005=Lfde84_end - Lfde84_start
+	.long LDIFF_SYM2005
+Lfde84_start:
 
 	.long 0
 	.align 3
-	.quad StreamingExample_misionvision_InitializeComponent
+	.quad StreamingExample_Principal_ShowUserData
 
-LDIFF_SYM1670=Lme_4b - StreamingExample_misionvision_InitializeComponent
-	.long LDIFF_SYM1670
+LDIFF_SYM2006=Lme_57 - StreamingExample_Principal_ShowUserData
+	.long LDIFF_SYM2006
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde72_end:
+Lfde84_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_217:
+LTDIE_247:
+
+	.byte 5
+	.asciz "Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs"
+
+	.byte 24,16
+LDIFF_SYM2007=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM2007
+	.byte 2,35,0,6
+	.asciz "<Data>k__BackingField"
+
+LDIFF_SYM2008=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2008
+	.byte 2,35,16,0,7
+	.asciz "Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs"
+
+LDIFF_SYM2009=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM2009
+LTDIE_247_POINTER:
+
+	.byte 13
+LDIFF_SYM2010=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM2010
+LTDIE_247_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2011=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM2011
+	.byte 2
+	.asciz "StreamingExample.Principal:Current_OnNotificationReceived"
+	.asciz "StreamingExample_Principal_Current_OnNotificationReceived_object_Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs"
+
+	.byte 16,46
+	.quad StreamingExample_Principal_Current_OnNotificationReceived_object_Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs
+	.quad Lme_58
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2012=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2012
+	.byte 2,141,16,3
+	.asciz "source"
+
+LDIFF_SYM2013=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2013
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM2014=LTDIE_247_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2014
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2015=Lfde85_end - Lfde85_start
+	.long LDIFF_SYM2015
+Lfde85_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal_Current_OnNotificationReceived_object_Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs
+
+LDIFF_SYM2016=Lme_58 - StreamingExample_Principal_Current_OnNotificationReceived_object_Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs
+	.long LDIFF_SYM2016
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde85_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_248:
+
+	.byte 5
+	.asciz "_<TapGestureRecognizer_Tapped>d__5"
+
+	.byte 80,16
+LDIFF_SYM2017=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM2017
+	.byte 2,35,0,6
+	.asciz "<>1__state"
+
+LDIFF_SYM2018=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2018
+	.byte 2,35,72,6
+	.asciz "<>t__builder"
+
+LDIFF_SYM2019=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2019
+	.byte 2,35,16,6
+	.asciz "sender"
+
+LDIFF_SYM2020=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2020
+	.byte 2,35,48,6
+	.asciz "e"
+
+LDIFF_SYM2021=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2021
+	.byte 2,35,56,6
+	.asciz "<>4__this"
+
+LDIFF_SYM2022=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2022
+	.byte 2,35,64,0,7
+	.asciz "_<TapGestureRecognizer_Tapped>d__5"
+
+LDIFF_SYM2023=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM2023
+LTDIE_248_POINTER:
+
+	.byte 13
+LDIFF_SYM2024=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM2024
+LTDIE_248_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2025=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM2025
+	.byte 2
+	.asciz "StreamingExample.Principal:TapGestureRecognizer_Tapped"
+	.asciz "StreamingExample_Principal_TapGestureRecognizer_Tapped_object_System_EventArgs"
+
+	.byte 0,0
+	.quad StreamingExample_Principal_TapGestureRecognizer_Tapped_object_System_EventArgs
+	.quad Lme_59
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2026=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2026
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM2027=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2027
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM2028=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2028
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM2029=LTDIE_248_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2029
+	.byte 3,141,224,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2030=Lfde86_end - Lfde86_start
+	.long LDIFF_SYM2030
+Lfde86_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal_TapGestureRecognizer_Tapped_object_System_EventArgs
+
+LDIFF_SYM2031=Lme_59 - StreamingExample_Principal_TapGestureRecognizer_Tapped_object_System_EventArgs
+	.long LDIFF_SYM2031
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
+	.align 3
+Lfde86_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_249:
+
+	.byte 5
+	.asciz "_<pausar_Tapped>d__6"
+
+	.byte 80,16
+LDIFF_SYM2032=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM2032
+	.byte 2,35,0,6
+	.asciz "<>1__state"
+
+LDIFF_SYM2033=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2033
+	.byte 2,35,72,6
+	.asciz "<>t__builder"
+
+LDIFF_SYM2034=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2034
+	.byte 2,35,16,6
+	.asciz "sender"
+
+LDIFF_SYM2035=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2035
+	.byte 2,35,48,6
+	.asciz "e"
+
+LDIFF_SYM2036=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2036
+	.byte 2,35,56,6
+	.asciz "<>4__this"
+
+LDIFF_SYM2037=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2037
+	.byte 2,35,64,0,7
+	.asciz "_<pausar_Tapped>d__6"
+
+LDIFF_SYM2038=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM2038
+LTDIE_249_POINTER:
+
+	.byte 13
+LDIFF_SYM2039=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM2039
+LTDIE_249_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2040=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM2040
+	.byte 2
+	.asciz "StreamingExample.Principal:pausar_Tapped"
+	.asciz "StreamingExample_Principal_pausar_Tapped_object_System_EventArgs"
+
+	.byte 0,0
+	.quad StreamingExample_Principal_pausar_Tapped_object_System_EventArgs
+	.quad Lme_5a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2041=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2041
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM2042=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2042
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM2043=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2043
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM2044=LTDIE_249_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2044
+	.byte 3,141,224,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2045=Lfde87_end - Lfde87_start
+	.long LDIFF_SYM2045
+Lfde87_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal_pausar_Tapped_object_System_EventArgs
+
+LDIFF_SYM2046=Lme_5a - StreamingExample_Principal_pausar_Tapped_object_System_EventArgs
+	.long LDIFF_SYM2046
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
+	.align 3
+Lfde87_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_250:
+
+	.byte 5
+	.asciz "_<txtOrigen_Completed>d__7"
+
+	.byte 80,16
+LDIFF_SYM2047=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM2047
+	.byte 2,35,0,6
+	.asciz "<>1__state"
+
+LDIFF_SYM2048=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2048
+	.byte 2,35,72,6
+	.asciz "<>t__builder"
+
+LDIFF_SYM2049=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2049
+	.byte 2,35,16,6
+	.asciz "sender"
+
+LDIFF_SYM2050=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2050
+	.byte 2,35,48,6
+	.asciz "e"
+
+LDIFF_SYM2051=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2051
+	.byte 2,35,56,6
+	.asciz "<>4__this"
+
+LDIFF_SYM2052=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2052
+	.byte 2,35,64,0,7
+	.asciz "_<txtOrigen_Completed>d__7"
+
+LDIFF_SYM2053=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM2053
+LTDIE_250_POINTER:
+
+	.byte 13
+LDIFF_SYM2054=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM2054
+LTDIE_250_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2055=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM2055
+	.byte 2
+	.asciz "StreamingExample.Principal:txtOrigen_Completed"
+	.asciz "StreamingExample_Principal_txtOrigen_Completed_object_System_EventArgs"
+
+	.byte 0,0
+	.quad StreamingExample_Principal_txtOrigen_Completed_object_System_EventArgs
+	.quad Lme_5b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2056=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2056
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM2057=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2057
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM2058=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2058
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM2059=LTDIE_250_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2059
+	.byte 3,141,224,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2060=Lfde88_end - Lfde88_start
+	.long LDIFF_SYM2060
+Lfde88_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal_txtOrigen_Completed_object_System_EventArgs
+
+LDIFF_SYM2061=Lme_5b - StreamingExample_Principal_txtOrigen_Completed_object_System_EventArgs
+	.long LDIFF_SYM2061
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
+	.align 3
+Lfde88_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_251:
+
+	.byte 5
+	.asciz "_<TapGestureRecognizer_Tapped_1>d__8"
+
+	.byte 80,16
+LDIFF_SYM2062=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM2062
+	.byte 2,35,0,6
+	.asciz "<>1__state"
+
+LDIFF_SYM2063=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2063
+	.byte 2,35,72,6
+	.asciz "<>t__builder"
+
+LDIFF_SYM2064=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2064
+	.byte 2,35,16,6
+	.asciz "sender"
+
+LDIFF_SYM2065=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2065
+	.byte 2,35,48,6
+	.asciz "e"
+
+LDIFF_SYM2066=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2066
+	.byte 2,35,56,6
+	.asciz "<>4__this"
+
+LDIFF_SYM2067=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2067
+	.byte 2,35,64,0,7
+	.asciz "_<TapGestureRecognizer_Tapped_1>d__8"
+
+LDIFF_SYM2068=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM2068
+LTDIE_251_POINTER:
+
+	.byte 13
+LDIFF_SYM2069=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM2069
+LTDIE_251_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2070=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM2070
+	.byte 2
+	.asciz "StreamingExample.Principal:TapGestureRecognizer_Tapped_1"
+	.asciz "StreamingExample_Principal_TapGestureRecognizer_Tapped_1_object_System_EventArgs"
+
+	.byte 0,0
+	.quad StreamingExample_Principal_TapGestureRecognizer_Tapped_1_object_System_EventArgs
+	.quad Lme_5c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2071=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2071
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM2072=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2072
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM2073=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2073
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM2074=LTDIE_251_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2074
+	.byte 3,141,224,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2075=Lfde89_end - Lfde89_start
+	.long LDIFF_SYM2075
+Lfde89_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal_TapGestureRecognizer_Tapped_1_object_System_EventArgs
+
+LDIFF_SYM2076=Lme_5c - StreamingExample_Principal_TapGestureRecognizer_Tapped_1_object_System_EventArgs
+	.long LDIFF_SYM2076
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
+	.align 3
+Lfde89_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_252:
+
+	.byte 5
+	.asciz "_<SolicitudRecogida_Tapped>d__9"
+
+	.byte 80,16
+LDIFF_SYM2077=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM2077
+	.byte 2,35,0,6
+	.asciz "<>1__state"
+
+LDIFF_SYM2078=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2078
+	.byte 2,35,72,6
+	.asciz "<>t__builder"
+
+LDIFF_SYM2079=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2079
+	.byte 2,35,16,6
+	.asciz "sender"
+
+LDIFF_SYM2080=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2080
+	.byte 2,35,48,6
+	.asciz "e"
+
+LDIFF_SYM2081=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2081
+	.byte 2,35,56,6
+	.asciz "<>4__this"
+
+LDIFF_SYM2082=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2082
+	.byte 2,35,64,0,7
+	.asciz "_<SolicitudRecogida_Tapped>d__9"
+
+LDIFF_SYM2083=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM2083
+LTDIE_252_POINTER:
+
+	.byte 13
+LDIFF_SYM2084=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM2084
+LTDIE_252_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2085=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM2085
+	.byte 2
+	.asciz "StreamingExample.Principal:SolicitudRecogida_Tapped"
+	.asciz "StreamingExample_Principal_SolicitudRecogida_Tapped_object_System_EventArgs"
+
+	.byte 0,0
+	.quad StreamingExample_Principal_SolicitudRecogida_Tapped_object_System_EventArgs
+	.quad Lme_5d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2086=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2086
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM2087=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2087
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM2088=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2088
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM2089=LTDIE_252_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2089
+	.byte 3,141,224,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2090=Lfde90_end - Lfde90_start
+	.long LDIFF_SYM2090
+Lfde90_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal_SolicitudRecogida_Tapped_object_System_EventArgs
+
+LDIFF_SYM2091=Lme_5d - StreamingExample_Principal_SolicitudRecogida_Tapped_object_System_EventArgs
+	.long LDIFF_SYM2091
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
+	.align 3
+Lfde90_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal:Perfil_Tapped"
+	.asciz "StreamingExample_Principal_Perfil_Tapped_object_System_EventArgs"
+
+	.byte 16,89
+	.quad StreamingExample_Principal_Perfil_Tapped_object_System_EventArgs
+	.quad Lme_5e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2092=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2092
+	.byte 2,141,48,3
+	.asciz "sender"
+
+LDIFF_SYM2093=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2093
+	.byte 2,141,56,3
+	.asciz "e"
+
+LDIFF_SYM2094=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2094
+	.byte 3,141,192,0,11
+	.asciz "mainNavPage"
+
+LDIFF_SYM2095=LTDIE_198_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2095
+	.byte 1,105,11
+	.asciz "masterPage"
+
+LDIFF_SYM2096=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2096
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2097=Lfde91_end - Lfde91_start
+	.long LDIFF_SYM2097
+Lfde91_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal_Perfil_Tapped_object_System_EventArgs
+
+LDIFF_SYM2098=Lme_5e - StreamingExample_Principal_Perfil_Tapped_object_System_EventArgs
+	.long LDIFF_SYM2098
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9
+	.align 3
+Lfde91_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal:TapGestureRecognizer_Tapped_2"
+	.asciz "StreamingExample_Principal_TapGestureRecognizer_Tapped_2_object_System_EventArgs"
+
+	.byte 16,98
+	.quad StreamingExample_Principal_TapGestureRecognizer_Tapped_2_object_System_EventArgs
+	.quad Lme_5f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2099=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2099
+	.byte 2,141,48,3
+	.asciz "sender"
+
+LDIFF_SYM2100=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2100
+	.byte 2,141,56,3
+	.asciz "e"
+
+LDIFF_SYM2101=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2101
+	.byte 3,141,192,0,11
+	.asciz "mainNavPage"
+
+LDIFF_SYM2102=LTDIE_198_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2102
+	.byte 1,105,11
+	.asciz "masterPage"
+
+LDIFF_SYM2103=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2103
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2104=Lfde92_end - Lfde92_start
+	.long LDIFF_SYM2104
+Lfde92_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal_TapGestureRecognizer_Tapped_2_object_System_EventArgs
+
+LDIFF_SYM2105=Lme_5f - StreamingExample_Principal_TapGestureRecognizer_Tapped_2_object_System_EventArgs
+	.long LDIFF_SYM2105
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9
+	.align 3
+Lfde92_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal:InitializeComponent"
+	.asciz "StreamingExample_Principal_InitializeComponent"
+
+	.byte 17,29
+	.quad StreamingExample_Principal_InitializeComponent
+	.quad Lme_60
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2106=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2106
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2107=Lfde93_end - Lfde93_start
+	.long LDIFF_SYM2107
+Lfde93_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal_InitializeComponent
+
+LDIFF_SYM2108=Lme_60 - StreamingExample_Principal_InitializeComponent
+	.long LDIFF_SYM2108
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
+	.align 3
+Lfde93_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal/<TapGestureRecognizer_Tapped>d__5:.ctor"
+	.asciz "StreamingExample_Principal__TapGestureRecognizer_Tappedd__5__ctor"
+
+	.byte 0,0
+	.quad StreamingExample_Principal__TapGestureRecognizer_Tappedd__5__ctor
+	.quad Lme_61
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2109=LTDIE_248_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2109
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2110=Lfde94_end - Lfde94_start
+	.long LDIFF_SYM2110
+Lfde94_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal__TapGestureRecognizer_Tappedd__5__ctor
+
+LDIFF_SYM2111=Lme_61 - StreamingExample_Principal__TapGestureRecognizer_Tappedd__5__ctor
+	.long LDIFF_SYM2111
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde94_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal/<TapGestureRecognizer_Tapped>d__5:MoveNext"
+	.asciz "StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_MoveNext"
+
+	.byte 16,0
+	.quad StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_MoveNext
+	.quad Lme_62
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2112=LTDIE_248_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2112
+	.byte 2,141,16,11
+	.asciz "V_0"
+
+LDIFF_SYM2113=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2113
+	.byte 2,141,48,11
+	.asciz "V_1"
+
+LDIFF_SYM2114=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2114
+	.byte 2,141,56,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2115=Lfde95_end - Lfde95_start
+	.long LDIFF_SYM2115
+Lfde95_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_MoveNext
+
+LDIFF_SYM2116=Lme_62 - StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_MoveNext
+	.long LDIFF_SYM2116
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
+	.align 3
+Lfde95_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal/<TapGestureRecognizer_Tapped>d__5:SetStateMachine"
+	.asciz "StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+
+	.byte 0,0
+	.quad StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad Lme_63
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2117=LTDIE_248_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2117
+	.byte 2,141,16,3
+	.asciz "stateMachine"
+
+LDIFF_SYM2118=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2118
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2119=Lfde96_end - Lfde96_start
+	.long LDIFF_SYM2119
+Lfde96_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+
+LDIFF_SYM2120=Lme_63 - StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM2120
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde96_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal/<pausar_Tapped>d__6:.ctor"
+	.asciz "StreamingExample_Principal__pausar_Tappedd__6__ctor"
+
+	.byte 0,0
+	.quad StreamingExample_Principal__pausar_Tappedd__6__ctor
+	.quad Lme_64
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2121=LTDIE_249_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2121
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2122=Lfde97_end - Lfde97_start
+	.long LDIFF_SYM2122
+Lfde97_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal__pausar_Tappedd__6__ctor
+
+LDIFF_SYM2123=Lme_64 - StreamingExample_Principal__pausar_Tappedd__6__ctor
+	.long LDIFF_SYM2123
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde97_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal/<pausar_Tapped>d__6:MoveNext"
+	.asciz "StreamingExample_Principal__pausar_Tappedd__6_MoveNext"
+
+	.byte 16,0
+	.quad StreamingExample_Principal__pausar_Tappedd__6_MoveNext
+	.quad Lme_65
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2124=LTDIE_249_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2124
+	.byte 2,141,16,11
+	.asciz "V_0"
+
+LDIFF_SYM2125=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2125
+	.byte 2,141,48,11
+	.asciz "V_1"
+
+LDIFF_SYM2126=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2126
+	.byte 2,141,56,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2127=Lfde98_end - Lfde98_start
+	.long LDIFF_SYM2127
+Lfde98_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal__pausar_Tappedd__6_MoveNext
+
+LDIFF_SYM2128=Lme_65 - StreamingExample_Principal__pausar_Tappedd__6_MoveNext
+	.long LDIFF_SYM2128
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
+	.align 3
+Lfde98_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal/<pausar_Tapped>d__6:SetStateMachine"
+	.asciz "StreamingExample_Principal__pausar_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+
+	.byte 0,0
+	.quad StreamingExample_Principal__pausar_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad Lme_66
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2129=LTDIE_249_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2129
+	.byte 2,141,16,3
+	.asciz "stateMachine"
+
+LDIFF_SYM2130=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2130
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2131=Lfde99_end - Lfde99_start
+	.long LDIFF_SYM2131
+Lfde99_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal__pausar_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+
+LDIFF_SYM2132=Lme_66 - StreamingExample_Principal__pausar_Tappedd__6_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM2132
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde99_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal/<txtOrigen_Completed>d__7:.ctor"
+	.asciz "StreamingExample_Principal__txtOrigen_Completedd__7__ctor"
+
+	.byte 0,0
+	.quad StreamingExample_Principal__txtOrigen_Completedd__7__ctor
+	.quad Lme_67
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2133=LTDIE_250_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2133
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2134=Lfde100_end - Lfde100_start
+	.long LDIFF_SYM2134
+Lfde100_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal__txtOrigen_Completedd__7__ctor
+
+LDIFF_SYM2135=Lme_67 - StreamingExample_Principal__txtOrigen_Completedd__7__ctor
+	.long LDIFF_SYM2135
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde100_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal/<txtOrigen_Completed>d__7:MoveNext"
+	.asciz "StreamingExample_Principal__txtOrigen_Completedd__7_MoveNext"
+
+	.byte 16,0
+	.quad StreamingExample_Principal__txtOrigen_Completedd__7_MoveNext
+	.quad Lme_68
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2136=LTDIE_250_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2136
+	.byte 2,141,16,11
+	.asciz "V_0"
+
+LDIFF_SYM2137=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2137
+	.byte 2,141,48,11
+	.asciz "V_1"
+
+LDIFF_SYM2138=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2138
+	.byte 2,141,56,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2139=Lfde101_end - Lfde101_start
+	.long LDIFF_SYM2139
+Lfde101_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal__txtOrigen_Completedd__7_MoveNext
+
+LDIFF_SYM2140=Lme_68 - StreamingExample_Principal__txtOrigen_Completedd__7_MoveNext
+	.long LDIFF_SYM2140
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.align 3
+Lfde101_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal/<txtOrigen_Completed>d__7:SetStateMachine"
+	.asciz "StreamingExample_Principal__txtOrigen_Completedd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+
+	.byte 0,0
+	.quad StreamingExample_Principal__txtOrigen_Completedd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad Lme_69
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2141=LTDIE_250_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2141
+	.byte 2,141,16,3
+	.asciz "stateMachine"
+
+LDIFF_SYM2142=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2142
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2143=Lfde102_end - Lfde102_start
+	.long LDIFF_SYM2143
+Lfde102_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal__txtOrigen_Completedd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+
+LDIFF_SYM2144=Lme_69 - StreamingExample_Principal__txtOrigen_Completedd__7_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM2144
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde102_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal/<TapGestureRecognizer_Tapped_1>d__8:.ctor"
+	.asciz "StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8__ctor"
+
+	.byte 0,0
+	.quad StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8__ctor
+	.quad Lme_6a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2145=LTDIE_251_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2145
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2146=Lfde103_end - Lfde103_start
+	.long LDIFF_SYM2146
+Lfde103_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8__ctor
+
+LDIFF_SYM2147=Lme_6a - StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8__ctor
+	.long LDIFF_SYM2147
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde103_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal/<TapGestureRecognizer_Tapped_1>d__8:MoveNext"
+	.asciz "StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_MoveNext"
+
+	.byte 16,0
+	.quad StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_MoveNext
+	.quad Lme_6b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2148=LTDIE_251_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2148
+	.byte 2,141,16,11
+	.asciz "V_0"
+
+LDIFF_SYM2149=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2149
+	.byte 2,141,48,11
+	.asciz "V_1"
+
+LDIFF_SYM2150=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2150
+	.byte 2,141,56,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2151=Lfde104_end - Lfde104_start
+	.long LDIFF_SYM2151
+Lfde104_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_MoveNext
+
+LDIFF_SYM2152=Lme_6b - StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_MoveNext
+	.long LDIFF_SYM2152
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.align 3
+Lfde104_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal/<TapGestureRecognizer_Tapped_1>d__8:SetStateMachine"
+	.asciz "StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+
+	.byte 0,0
+	.quad StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad Lme_6c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2153=LTDIE_251_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2153
+	.byte 2,141,16,3
+	.asciz "stateMachine"
+
+LDIFF_SYM2154=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2154
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2155=Lfde105_end - Lfde105_start
+	.long LDIFF_SYM2155
+Lfde105_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+
+LDIFF_SYM2156=Lme_6c - StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM2156
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde105_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal/<SolicitudRecogida_Tapped>d__9:.ctor"
+	.asciz "StreamingExample_Principal__SolicitudRecogida_Tappedd__9__ctor"
+
+	.byte 0,0
+	.quad StreamingExample_Principal__SolicitudRecogida_Tappedd__9__ctor
+	.quad Lme_6d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2157=LTDIE_252_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2157
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2158=Lfde106_end - Lfde106_start
+	.long LDIFF_SYM2158
+Lfde106_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal__SolicitudRecogida_Tappedd__9__ctor
+
+LDIFF_SYM2159=Lme_6d - StreamingExample_Principal__SolicitudRecogida_Tappedd__9__ctor
+	.long LDIFF_SYM2159
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde106_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal/<SolicitudRecogida_Tapped>d__9:MoveNext"
+	.asciz "StreamingExample_Principal__SolicitudRecogida_Tappedd__9_MoveNext"
+
+	.byte 16,0
+	.quad StreamingExample_Principal__SolicitudRecogida_Tappedd__9_MoveNext
+	.quad Lme_6e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2160=LTDIE_252_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2160
+	.byte 2,141,16,11
+	.asciz "V_0"
+
+LDIFF_SYM2161=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2161
+	.byte 2,141,48,11
+	.asciz "V_1"
+
+LDIFF_SYM2162=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2162
+	.byte 2,141,56,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2163=Lfde107_end - Lfde107_start
+	.long LDIFF_SYM2163
+Lfde107_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal__SolicitudRecogida_Tappedd__9_MoveNext
+
+LDIFF_SYM2164=Lme_6e - StreamingExample_Principal__SolicitudRecogida_Tappedd__9_MoveNext
+	.long LDIFF_SYM2164
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.align 3
+Lfde107_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "StreamingExample.Principal/<SolicitudRecogida_Tapped>d__9:SetStateMachine"
+	.asciz "StreamingExample_Principal__SolicitudRecogida_Tappedd__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
+
+	.byte 0,0
+	.quad StreamingExample_Principal__SolicitudRecogida_Tappedd__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad Lme_6f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2165=LTDIE_252_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2165
+	.byte 2,141,16,3
+	.asciz "stateMachine"
+
+LDIFF_SYM2166=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2166
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2167=Lfde108_end - Lfde108_start
+	.long LDIFF_SYM2167
+Lfde108_start:
+
+	.long 0
+	.align 3
+	.quad StreamingExample_Principal__SolicitudRecogida_Tappedd__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+
+LDIFF_SYM2168=Lme_6f - StreamingExample_Principal__SolicitudRecogida_Tappedd__9_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM2168
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde108_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_254:
 
 	.byte 5
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM1671=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1671
+LDIFF_SYM2169=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM2169
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM1672=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM1672
-LTDIE_217_POINTER:
+LDIFF_SYM2170=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM2170
+LTDIE_254_POINTER:
 
 	.byte 13
-LDIFF_SYM1673=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM1673
-LTDIE_217_REFERENCE:
+LDIFF_SYM2171=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM2171
+LTDIE_254_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1674=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM1674
-LTDIE_216:
+LDIFF_SYM2172=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM2172
+LTDIE_253:
 
 	.byte 5
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM1675=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM1675
+LDIFF_SYM2173=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM2173
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM1676=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1676
+LDIFF_SYM2174=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2174
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM1677=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1677
+LDIFF_SYM2175=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2175
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM1678=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1678
-LTDIE_216_POINTER:
+LDIFF_SYM2176=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM2176
+LTDIE_253_POINTER:
 
 	.byte 13
-LDIFF_SYM1679=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1679
-LTDIE_216_REFERENCE:
+LDIFF_SYM2177=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM2177
+LTDIE_253_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1680=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1680
+LDIFF_SYM2178=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM2178
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_INST__ctor_System_Array"
 
-	.byte 12,250,1
+	.byte 18,250,1
 	.quad System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
-	.quad Lme_4e
+	.quad Lme_72
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1681=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1681
+LDIFF_SYM2179=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2179
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM1682=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1682
+LDIFF_SYM2180=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2180
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1683=Lfde73_end - Lfde73_start
-	.long LDIFF_SYM1683
-Lfde73_start:
+LDIFF_SYM2181=Lfde109_end - Lfde109_start
+	.long LDIFF_SYM2181
+Lfde109_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 
-LDIFF_SYM1684=Lme_4e - System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
-	.long LDIFF_SYM1684
+LDIFF_SYM2182=Lme_72 - System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
+	.long LDIFF_SYM2182
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde73_end:
+Lfde109_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19418,33 +48982,33 @@ Lfde73_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:Dispose"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_Dispose"
 
-	.byte 12,128,2
+	.byte 18,128,2
 	.quad System_Array_InternalEnumerator_1_T_INST_Dispose
-	.quad Lme_4f
+	.quad Lme_73
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1685=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1685
+LDIFF_SYM2183=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2183
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1686=Lfde74_end - Lfde74_start
-	.long LDIFF_SYM1686
-Lfde74_start:
+LDIFF_SYM2184=Lfde110_end - Lfde110_start
+	.long LDIFF_SYM2184
+Lfde110_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_Dispose
 
-LDIFF_SYM1687=Lme_4f - System_Array_InternalEnumerator_1_T_INST_Dispose
-	.long LDIFF_SYM1687
+LDIFF_SYM2185=Lme_73 - System_Array_InternalEnumerator_1_T_INST_Dispose
+	.long LDIFF_SYM2185
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde74_end:
+Lfde110_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19452,38 +49016,38 @@ Lfde74_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:MoveNext"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_MoveNext"
 
-	.byte 12,132,2
+	.byte 18,132,2
 	.quad System_Array_InternalEnumerator_1_T_INST_MoveNext
-	.quad Lme_50
+	.quad Lme_74
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1688=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1688
+LDIFF_SYM2186=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2186
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1689=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1689
+LDIFF_SYM2187=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2187
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1690=Lfde75_end - Lfde75_start
-	.long LDIFF_SYM1690
-Lfde75_start:
+LDIFF_SYM2188=Lfde111_end - Lfde111_start
+	.long LDIFF_SYM2188
+Lfde111_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_MoveNext
 
-LDIFF_SYM1691=Lme_50 - System_Array_InternalEnumerator_1_T_INST_MoveNext
-	.long LDIFF_SYM1691
+LDIFF_SYM2189=Lme_74 - System_Array_InternalEnumerator_1_T_INST_MoveNext
+	.long LDIFF_SYM2189
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde75_end:
+Lfde111_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19491,33 +49055,33 @@ Lfde75_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:get_Current"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_get_Current"
 
-	.byte 12,140,2
+	.byte 18,140,2
 	.quad System_Array_InternalEnumerator_1_T_INST_get_Current
-	.quad Lme_51
+	.quad Lme_75
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1692=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1692
+LDIFF_SYM2190=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2190
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1693=Lfde76_end - Lfde76_start
-	.long LDIFF_SYM1693
-Lfde76_start:
+LDIFF_SYM2191=Lfde112_end - Lfde112_start
+	.long LDIFF_SYM2191
+Lfde112_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_get_Current
 
-LDIFF_SYM1694=Lme_51 - System_Array_InternalEnumerator_1_T_INST_get_Current
-	.long LDIFF_SYM1694
+LDIFF_SYM2192=Lme_75 - System_Array_InternalEnumerator_1_T_INST_get_Current
+	.long LDIFF_SYM2192
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16
 	.align 3
-Lfde76_end:
+Lfde112_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19525,33 +49089,33 @@ Lfde76_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:System.Collections.IEnumerator.Reset"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset"
 
-	.byte 12,151,2
+	.byte 18,151,2
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-	.quad Lme_52
+	.quad Lme_76
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1695=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1695
+LDIFF_SYM2193=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2193
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1696=Lfde77_end - Lfde77_start
-	.long LDIFF_SYM1696
-Lfde77_start:
+LDIFF_SYM2194=Lfde113_end - Lfde113_start
+	.long LDIFF_SYM2194
+Lfde113_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
 
-LDIFF_SYM1697=Lme_52 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
-	.long LDIFF_SYM1697
+LDIFF_SYM2195=Lme_76 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset
+	.long LDIFF_SYM2195
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde77_end:
+Lfde113_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19559,33 +49123,33 @@ Lfde77_end:
 	.asciz "System.Array/InternalEnumerator`1<T_INST>:System.Collections.IEnumerator.get_Current"
 	.asciz "System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current"
 
-	.byte 12,156,2
+	.byte 18,156,2
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-	.quad Lme_53
+	.quad Lme_77
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1698=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1698
+LDIFF_SYM2196=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2196
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1699=Lfde78_end - Lfde78_start
-	.long LDIFF_SYM1699
-Lfde78_start:
+LDIFF_SYM2197=Lfde114_end - Lfde114_start
+	.long LDIFF_SYM2197
+Lfde114_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
 
-LDIFF_SYM1700=Lme_53 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
-	.long LDIFF_SYM1700
+LDIFF_SYM2198=Lme_77 - System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Current
+	.long LDIFF_SYM2198
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde78_end:
+Lfde114_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19593,33 +49157,125 @@ Lfde78_end:
 	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_INST>"
 	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST"
 
-	.byte 12,84
+	.byte 18,84
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
-	.quad Lme_54
+	.quad Lme_78
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1701=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1701
+LDIFF_SYM2199=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2199
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1702=Lfde79_end - Lfde79_start
-	.long LDIFF_SYM1702
-Lfde79_start:
+LDIFF_SYM2200=Lfde115_end - Lfde115_start
+	.long LDIFF_SYM2200
+Lfde115_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
 
-LDIFF_SYM1703=Lme_54 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
-	.long LDIFF_SYM1703
+LDIFF_SYM2201=Lme_78 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST
+	.long LDIFF_SYM2201
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
 	.align 3
-Lfde79_end:
+Lfde115_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_255:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 128,1,16
+LDIFF_SYM2202=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2202
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM2203=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM2203
+LTDIE_255_POINTER:
+
+	.byte 13
+LDIFF_SYM2204=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM2204
+LTDIE_255_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2205=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM2205
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Type,_string>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_Type_string_invoke_TResult_T_System_Type"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_System_Type_string_invoke_TResult_T_System_Type
+	.quad Lme_7a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2206=LTDIE_255_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2206
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM2207=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2207
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM2208=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2208
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM2209=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2209
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM2210=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2210
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM2211=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2211
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM2212=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2212
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM2213=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM2213
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2214=Lfde116_end - Lfde116_start
+	.long LDIFF_SYM2214
+Lfde116_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_System_Type_string_invoke_TResult_T_System_Type
+
+LDIFF_SYM2215=Lme_7a - wrapper_delegate_invoke_System_Func_2_System_Type_string_invoke_TResult_T_System_Type
+	.long LDIFF_SYM2215
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde116_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19629,67 +49285,215 @@ Lfde79_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_object_TEventArgs_object_System_EventArgs
-	.quad Lme_56
+	.quad Lme_7b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1704=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1704
+LDIFF_SYM2216=LTDIE_245_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2216
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1705=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1705
+LDIFF_SYM2217=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2217
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1706=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1706
+LDIFF_SYM2218=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2218
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1707=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1707
+LDIFF_SYM2219=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2219
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1708=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1708
+LDIFF_SYM2220=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2220
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1709=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1709
+LDIFF_SYM2221=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2221
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1710=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1710
+LDIFF_SYM2222=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2222
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1711=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1711
+LDIFF_SYM2223=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2223
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1712=Lfde80_end - Lfde80_start
-	.long LDIFF_SYM1712
-Lfde80_start:
+LDIFF_SYM2224=Lfde117_end - Lfde117_start
+	.long LDIFF_SYM2224
+Lfde117_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_object_TEventArgs_object_System_EventArgs
 
-LDIFF_SYM1713=Lme_56 - wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_object_TEventArgs_object_System_EventArgs
-	.long LDIFF_SYM1713
+LDIFF_SYM2225=Lme_7b - wrapper_delegate_invoke_System_EventHandler_1_System_EventArgs_invoke_void_object_TEventArgs_object_System_EventArgs
+	.long LDIFF_SYM2225
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde80_end:
+Lfde117_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_256:
+
+	.byte 5
+	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
+
+	.byte 48,16
+LDIFF_SYM2226=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM2226
+	.byte 2,35,0,6
+	.asciz "m_synchronizationContext"
+
+LDIFF_SYM2227=LTDIE_47_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2227
+	.byte 2,35,0,6
+	.asciz "m_coreState"
+
+LDIFF_SYM2228=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2228
+	.byte 2,35,8,6
+	.asciz "m_task"
+
+LDIFF_SYM2229=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2229
+	.byte 2,35,24,0,7
+	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
+
+LDIFF_SYM2230=LTDIE_256 - Ldebug_info_start
+	.long LDIFF_SYM2230
+LTDIE_256_POINTER:
+
+	.byte 13
+LDIFF_SYM2231=LTDIE_256 - Ldebug_info_start
+	.long LDIFF_SYM2231
+LTDIE_256_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2232=LTDIE_256 - Ldebug_info_start
+	.long LDIFF_SYM2232
+LTDIE_257:
+
+	.byte 5
+	.asciz "_MoveNextRunner"
+
+	.byte 32,16
+LDIFF_SYM2233=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM2233
+	.byte 2,35,0,6
+	.asciz "m_context"
+
+LDIFF_SYM2234=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2234
+	.byte 2,35,16,6
+	.asciz "m_stateMachine"
+
+LDIFF_SYM2235=LTDIE_234_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2235
+	.byte 2,35,24,0,7
+	.asciz "_MoveNextRunner"
+
+LDIFF_SYM2236=LTDIE_257 - Ldebug_info_start
+	.long LDIFF_SYM2236
+LTDIE_257_POINTER:
+
+	.byte 13
+LDIFF_SYM2237=LTDIE_257 - Ldebug_info_start
+	.long LDIFF_SYM2237
+LTDIE_257_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2238=LTDIE_257 - Ldebug_info_start
+	.long LDIFF_SYM2238
+LTDIE_258:
+
+	.byte 5
+	.asciz "System_Action"
+
+	.byte 128,1,16
+LDIFF_SYM2239=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM2239
+	.byte 2,35,0,0,7
+	.asciz "System_Action"
+
+LDIFF_SYM2240=LTDIE_258 - Ldebug_info_start
+	.long LDIFF_SYM2240
+LTDIE_258_POINTER:
+
+	.byte 13
+LDIFF_SYM2241=LTDIE_258 - Ldebug_info_start
+	.long LDIFF_SYM2241
+LTDIE_258_REFERENCE:
+
+	.byte 14
+LDIFF_SYM2242=LTDIE_258 - Ldebug_info_start
+	.long LDIFF_SYM2242
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.AsyncVoidMethodBuilder:AwaitUnsafeOnCompleted<TAwaiter_GSHAREDVT,_TStateMachine_GSHAREDVT>"
+	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_"
+
+	.byte 19,161,1
+	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
+	.quad Lme_7c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2243=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2243
+	.byte 1,104,3
+	.asciz "awaiter"
+
+LDIFF_SYM2244=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2244
+	.byte 3,141,208,0,3
+	.asciz "stateMachine"
+
+LDIFF_SYM2245=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2245
+	.byte 3,141,216,0,11
+	.asciz "runnerToInitialize"
+
+LDIFF_SYM2246=LTDIE_257_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2246
+	.byte 3,141,128,1,11
+	.asciz "continuation"
+
+LDIFF_SYM2247=LTDIE_258_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2247
+	.byte 1,101,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2248=Lfde118_end - Lfde118_start
+	.long LDIFF_SYM2248
+Lfde118_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
+
+LDIFF_SYM2249=Lme_7c - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
+	.long LDIFF_SYM2249
+	.long 0
+	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68,153,24
+	.byte 154,23
+	.align 3
+Lfde118_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -19697,43 +49501,43 @@ Lfde80_end:
 	.asciz "System.Array:InternalArray__get_Item<T_INST>"
 	.asciz "System_Array_InternalArray__get_Item_T_INST_int"
 
-	.byte 12,192,1
+	.byte 18,192,1
 	.quad System_Array_InternalArray__get_Item_T_INST_int
-	.quad Lme_57
+	.quad Lme_7d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1714=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1714
+LDIFF_SYM2250=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2250
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM1715=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1715
+LDIFF_SYM2251=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2251
 	.byte 1,106,11
 	.asciz "value"
 
-LDIFF_SYM1716=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1716
+LDIFF_SYM2252=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2252
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1717=Lfde81_end - Lfde81_start
-	.long LDIFF_SYM1717
-Lfde81_start:
+LDIFF_SYM2253=Lfde119_end - Lfde119_start
+	.long LDIFF_SYM2253
+Lfde119_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__get_Item_T_INST_int
 
-LDIFF_SYM1718=Lme_57 - System_Array_InternalArray__get_Item_T_INST_int
-	.long LDIFF_SYM1718
+LDIFF_SYM2254=Lme_7d - System_Array_InternalArray__get_Item_T_INST_int
+	.long LDIFF_SYM2254
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15
 	.align 3
-Lfde81_end:
+Lfde119_end:
 
 .section __DWARF, __debug_info,regular,debug
 

@@ -16,7 +16,7 @@ namespace StreamingExample
 
         void Servicios_Tapped(System.Object sender, System.EventArgs e)
         {
-           
+
 
         }
 
@@ -27,12 +27,12 @@ namespace StreamingExample
             var tutorialUlr = Utils.GetParameter("urlTutorial", "");
             Browser.OpenAsync(tutorialUlr, BrowserLaunchMode.SystemPreferred);
             */
-          //  Navigation.PushAsync(new tutorialesYouTube());
+            //  Navigation.PushAsync(new tutorialesYouTube());
         }
 
         void NuestraRed_Tapped(System.Object sender, System.EventArgs e)
         {
-          //  Browser.OpenAsync("https://www.google.com/maps/d/u/0/viewer?mid=1R_fBdJWMGBT0Paht0URko6K8Inc&ll=3.107893309247812%2C-75.14313195&z=7", BrowserLaunchMode.SystemPreferred);
+            //  Browser.OpenAsync("https://www.google.com/maps/d/u/0/viewer?mid=1R_fBdJWMGBT0Paht0URko6K8Inc&ll=3.107893309247812%2C-75.14313195&z=7", BrowserLaunchMode.SystemPreferred);
         }
 
         private void Profile_UserClosed(object sender, EventArgs e)
@@ -42,8 +42,8 @@ namespace StreamingExample
 
         private void Login_UserLogged(object sender, EventArgs e)
         {
-           // Navigation.PushAsync(new Servicios());
-           // UserClosed?.Invoke(sender, e);
+            // Navigation.PushAsync(new Servicios());
+            // UserClosed?.Invoke(sender, e);
         }
 
 
@@ -57,7 +57,7 @@ namespace StreamingExample
 
         async void QrCode_Tapped(System.Object sender, System.EventArgs e)
         {
-              Navigation.PushAsync(new misionvision());
+            Navigation.PushAsync(new misionvision());
             // App.Current.MainPage = new NavigationPage(new acerca_foto_perfil());
         }
 
