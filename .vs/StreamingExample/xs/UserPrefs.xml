@@ -5,7 +5,9 @@
         <State name="__root__">
           <Node name="StreamingExample" expanded="True">
             <Node name="StreamingExample" expanded="True">
-              <Node name="Principal.xaml" selected="True" />
+              <Node name="MainMasterMaster.xaml" selected="True" />
+              <Node name="misionvision.xaml" expanded="True" />
+              <Node name="Principal.xaml" expanded="True" />
             </Node>
             <Node name="StreamingExample.iOS" expanded="True">
               <Node name="Resources" expanded="True" />

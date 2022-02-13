@@ -2327,7 +2327,7 @@ Lme_17:
 	.no_dead_strip StreamingExample_misionvision__ctor
 StreamingExample_misionvision__ctor:
 .file 6 "/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/misionvision.xaml.cs"
-.loc 6 10 0 prologue_end
+.loc 6 11 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -2358,12 +2358,12 @@ bl _p_23
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 11 0
+.loc 6 12 0
 .word 0xf9400fb1
 .word 0xf9407a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 12 0
+.loc 6 13 0
 .word 0xf9400fb1
 .word 0xf9408a31
 .word 0xb4000051
@@ -2375,7 +2375,7 @@ bl _p_39
 .word 0xf940a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 6 13 0
+.loc 6 14 0
 .word 0xf9400fb1
 .word 0xf940b631
 .word 0xb4000051
@@ -29018,7 +29018,7 @@ Lme_55:
 	.no_dead_strip StreamingExample_Principal__ctor
 StreamingExample_Principal__ctor:
 .loc 16 15 0 prologue_end
-.word 0xa9ba7bfd
+.word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xaa0003fa
@@ -29089,12 +29089,12 @@ add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x15, [x16, #496]
 .word 0xaa1a03e0
 bl _p_25
-.word 0xf9002ba0
+.word 0xf90027a0
 .word 0xf9400fb1
 .word 0xf9410e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402ba0
+.word 0xf94027a0
 .word 0xd2800021
 .word 0xd2800021
 bl _p_26
@@ -29115,13 +29115,13 @@ ldr x0, [x16, #504]
 .word 0xd2800401
 .word 0xd2800401
 bl _p_3
-.word 0xf90027a0
+.word 0xf90023a0
 bl _p_27
 .word 0xf9400fb1
 .word 0xf9417231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027a1
+.word 0xf94023a1
 .word 0xaa1a03e0
 bl _p_28
 .word 0xf9400fb1
@@ -29134,12 +29134,12 @@ bl _p_28
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_7
-.word 0xf90023a0
+.word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf941b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94023a2
+.word 0xf9401fa2
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
@@ -29164,7 +29164,7 @@ ldr x15, [x16, #312]
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_7
-.word 0xf9001fa0
+.word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9422231
 .word 0xb4000051
@@ -29172,7 +29172,7 @@ bl _p_7
 .word 0xaa1a03e0
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x54000b40
+.word 0x540008c0
 
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
@@ -29181,10 +29181,10 @@ ldr x0, [x16, #2656]
 .word 0xd2801001
 bl _p_3
 .word 0xaa0003e1
-.word 0xf9401fa2
+.word 0xf9401ba2
 .word 0xeb1f035f
 .word 0x10000011
-.word 0x54000980
+.word 0x54000700
 .word 0xd5033bbf
 .word 0xf900103a
 .word 0x91008020
@@ -29233,39 +29233,18 @@ ldr x15, [x16, #2688]
 .word 0xf9430a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 16 30 0
+.loc 16 31 0
 .word 0xf9400fb1
 .word 0xf9431a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_143
-.word 0xf9001ba0
 .word 0xf9400fb1
-.word 0xf9433a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba1
-.word 0xaa0103e0
-.word 0x3940003e
-bl _p_30
-.word 0xf9400fb1
-.word 0xf9435a31
-.word 0xb4000051
-.word 0xd63f0220
-.loc 16 31 0
-.word 0xf9400fb1
-.word 0xf9436a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9437a31
+.word 0xf9432a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
 .word 0x910003bf
-.word 0xa8c67bfd
+.word 0xa8c57bfd
 .word 0xd65f03c0
 .word 0xd2801c40
 .word 0xaa1103e1
@@ -29388,7 +29367,7 @@ ldr x0, [x16, #2720]
 .word 0xd2800a01
 bl _p_3
 .word 0xf9004fa0
-bl _p_144
+bl _p_143
 .word 0xf94017b1
 .word 0xf9406631
 .word 0xb4000051
@@ -29536,7 +29515,7 @@ ldr x2, [x16, #16]
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x15, [x16, #2728]
-bl _p_145
+bl _p_144
 .word 0xf94017b1
 .word 0xf9429631
 .word 0xb4000051
@@ -29582,7 +29561,7 @@ ldr x0, [x16, #2744]
 .word 0xd2800a01
 bl _p_3
 .word 0xf9004fa0
-bl _p_146
+bl _p_145
 .word 0xf94017b1
 .word 0xf9406631
 .word 0xb4000051
@@ -29730,7 +29709,7 @@ ldr x2, [x16, #16]
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x15, [x16, #2752]
-bl _p_147
+bl _p_146
 .word 0xf94017b1
 .word 0xf9429631
 .word 0xb4000051
@@ -29776,7 +29755,7 @@ ldr x0, [x16, #2768]
 .word 0xd2800a01
 bl _p_3
 .word 0xf9004fa0
-bl _p_148
+bl _p_147
 .word 0xf94017b1
 .word 0xf9406631
 .word 0xb4000051
@@ -29924,7 +29903,7 @@ ldr x2, [x16, #16]
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x15, [x16, #2776]
-bl _p_149
+bl _p_148
 .word 0xf94017b1
 .word 0xf9429631
 .word 0xb4000051
@@ -29970,7 +29949,7 @@ ldr x0, [x16, #2792]
 .word 0xd2800a01
 bl _p_3
 .word 0xf9004fa0
-bl _p_150
+bl _p_149
 .word 0xf94017b1
 .word 0xf9406631
 .word 0xb4000051
@@ -30118,7 +30097,7 @@ ldr x2, [x16, #16]
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x15, [x16, #2800]
-bl _p_151
+bl _p_150
 .word 0xf94017b1
 .word 0xf9429631
 .word 0xb4000051
@@ -30164,7 +30143,7 @@ ldr x0, [x16, #2816]
 .word 0xd2800a01
 bl _p_3
 .word 0xf9004fa0
-bl _p_152
+bl _p_151
 .word 0xf94017b1
 .word 0xf9406631
 .word 0xb4000051
@@ -30312,7 +30291,7 @@ ldr x2, [x16, #16]
 adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x15, [x16, #2824]
-bl _p_153
+bl _p_152
 .word 0xf94017b1
 .word 0xf9429631
 .word 0xb4000051
@@ -30432,7 +30411,7 @@ ldr x1, [x16, #1144]
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0x394002fe
-bl _p_154
+bl _p_153
 .word 0xaa0003f6
 .word 0xf94027b1
 .word 0xf9417631
@@ -30594,7 +30573,7 @@ ldr x1, [x16, #1144]
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0x394002fe
-bl _p_154
+bl _p_153
 .word 0xaa0003f6
 .word 0xf94027b1
 .word 0xf9417631
@@ -30697,7 +30676,7 @@ adrp x16, mono_aot_StreamingExample_got@PAGE+0
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x15, [x16, #2888]
 .word 0xaa1a03e0
-bl _p_155
+bl _p_154
 .word 0xf9400fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -30900,7 +30879,7 @@ ldr x16, [x16, #2904]
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9402000
-bl _p_143
+bl _p_155
 .word 0xf90033a0
 .word 0xf9400fb1
 .word 0xf9408e31
@@ -31079,7 +31058,7 @@ ldr x16, [x16, #2928]
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9402000
-bl _p_143
+bl _p_155
 .word 0xf90033a0
 .word 0xf9400fb1
 .word 0xf9408e31
@@ -34400,110 +34379,110 @@ add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
 .word 5694
-	.no_dead_strip plt_StreamingExample_Principal_get_ViewModel
-plt_StreamingExample_Principal_get_ViewModel:
+	.no_dead_strip plt_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5__ctor
+plt_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5__ctor:
 _p_143:
 adrp x16, mono_aot_StreamingExample_got@PAGE+4096
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
 .word 5699
-	.no_dead_strip plt_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5__ctor
-plt_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5__ctor:
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_:
 _p_144:
 adrp x16, mono_aot_StreamingExample_got@PAGE+4096
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
 .word 5704
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_StreamingExample_Principal__TapGestureRecognizer_Tappedd__5_:
+	.no_dead_strip plt_StreamingExample_Principal__pausar_Tappedd__6__ctor
+plt_StreamingExample_Principal__pausar_Tappedd__6__ctor:
 _p_145:
 adrp x16, mono_aot_StreamingExample_got@PAGE+4096
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 5709
-	.no_dead_strip plt_StreamingExample_Principal__pausar_Tappedd__6__ctor
-plt_StreamingExample_Principal__pausar_Tappedd__6__ctor:
+.word 5716
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__pausar_Tappedd__6_StreamingExample_Principal__pausar_Tappedd__6_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__pausar_Tappedd__6_StreamingExample_Principal__pausar_Tappedd__6_:
 _p_146:
 adrp x16, mono_aot_StreamingExample_got@PAGE+4096
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
 .word 5721
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__pausar_Tappedd__6_StreamingExample_Principal__pausar_Tappedd__6_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__pausar_Tappedd__6_StreamingExample_Principal__pausar_Tappedd__6_:
+	.no_dead_strip plt_StreamingExample_Principal__txtOrigen_Completedd__7__ctor
+plt_StreamingExample_Principal__txtOrigen_Completedd__7__ctor:
 _p_147:
 adrp x16, mono_aot_StreamingExample_got@PAGE+4096
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 5726
-	.no_dead_strip plt_StreamingExample_Principal__txtOrigen_Completedd__7__ctor
-plt_StreamingExample_Principal__txtOrigen_Completedd__7__ctor:
+.word 5733
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__txtOrigen_Completedd__7_StreamingExample_Principal__txtOrigen_Completedd__7_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__txtOrigen_Completedd__7_StreamingExample_Principal__txtOrigen_Completedd__7_:
 _p_148:
 adrp x16, mono_aot_StreamingExample_got@PAGE+4096
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
 .word 5738
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__txtOrigen_Completedd__7_StreamingExample_Principal__txtOrigen_Completedd__7_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__txtOrigen_Completedd__7_StreamingExample_Principal__txtOrigen_Completedd__7_:
+	.no_dead_strip plt_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8__ctor
+plt_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8__ctor:
 _p_149:
 adrp x16, mono_aot_StreamingExample_got@PAGE+4096
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 5743
-	.no_dead_strip plt_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8__ctor
-plt_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8__ctor:
+.word 5750
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_:
 _p_150:
 adrp x16, mono_aot_StreamingExample_got@PAGE+4096
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
 .word 5755
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_StreamingExample_Principal__TapGestureRecognizer_Tapped_1d__8_:
+	.no_dead_strip plt_StreamingExample_Principal__SolicitudRecogida_Tappedd__9__ctor
+plt_StreamingExample_Principal__SolicitudRecogida_Tappedd__9__ctor:
 _p_151:
 adrp x16, mono_aot_StreamingExample_got@PAGE+4096
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 5760
-	.no_dead_strip plt_StreamingExample_Principal__SolicitudRecogida_Tappedd__9__ctor
-plt_StreamingExample_Principal__SolicitudRecogida_Tappedd__9__ctor:
+.word 5767
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__SolicitudRecogida_Tappedd__9_StreamingExample_Principal__SolicitudRecogida_Tappedd__9_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__SolicitudRecogida_Tappedd__9_StreamingExample_Principal__SolicitudRecogida_Tappedd__9_:
 _p_152:
 adrp x16, mono_aot_StreamingExample_got@PAGE+4096
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
 .word 5772
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__SolicitudRecogida_Tappedd__9_StreamingExample_Principal__SolicitudRecogida_Tappedd__9_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_StreamingExample_Principal__SolicitudRecogida_Tappedd__9_StreamingExample_Principal__SolicitudRecogida_Tappedd__9_:
+	.no_dead_strip plt_Xamarin_Forms_NavigationPage_get_RootPage
+plt_Xamarin_Forms_NavigationPage_get_RootPage:
 _p_153:
 adrp x16, mono_aot_StreamingExample_got@PAGE+4096
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 5777
-	.no_dead_strip plt_Xamarin_Forms_NavigationPage_get_RootPage
-plt_Xamarin_Forms_NavigationPage_get_RootPage:
+.word 5784
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_Principal_StreamingExample_Principal_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_Principal_StreamingExample_Principal_System_Type:
 _p_154:
 adrp x16, mono_aot_StreamingExample_got@PAGE+4096
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
 .word 5789
-	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_Principal_StreamingExample_Principal_System_Type
-plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_StreamingExample_Principal_StreamingExample_Principal_System_Type:
+	.no_dead_strip plt_StreamingExample_Principal_get_ViewModel
+plt_StreamingExample_Principal_get_ViewModel:
 _p_155:
 adrp x16, mono_aot_StreamingExample_got@PAGE+4096
 add x16, x16, mono_aot_StreamingExample_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 5794
+.word 5801
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_156:
@@ -34746,7 +34725,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "E5874A2C-C282-43DF-89A8-581CAEEA3C6C"
+	.asciz "20F0BF4C-26A6-4EE9-810A-CB278C834D2F"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -34834,13 +34813,13 @@ _mono_aot_file_info:
 	.quad unbox_trampoline_addresses
 
 	.long 391,4584,182,126,2,102,391195135,0
-	.long 52007,128,8,8,8,9,8388607,0
-	.long 4,25,54168,0,0,2152,1624,584
+	.long 51973,128,8,8,8,9,8388607,0
+	.long 4,25,54136,0,0,2152,1624,584
 	.long 0,1296,1560,768,0,472,200,2144
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 147,209,189,79,64,68,203,191,57,188,102,137,9,138,124,111
+	.byte 93,118,244,72,98,171,190,160,153,111,8,163,58,240,20,31
 	.globl _mono_aot_module_StreamingExample_info
 	.align 3
 _mono_aot_module_StreamingExample_info:
@@ -42256,7 +42235,7 @@ LDIFF_SYM1207=LTDIE_177 - Ldebug_info_start
 	.asciz "StreamingExample.misionvision:.ctor"
 	.asciz "StreamingExample_misionvision__ctor"
 
-	.byte 6,10
+	.byte 6,11
 	.quad StreamingExample_misionvision__ctor
 	.quad Lme_1b
 
@@ -47566,7 +47545,7 @@ Lfde83_start:
 LDIFF_SYM2003=Lme_56 - StreamingExample_Principal__ctor
 	.long LDIFF_SYM2003
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
 Lfde83_end:
 

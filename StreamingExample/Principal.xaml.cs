@@ -27,7 +27,7 @@ namespace StreamingExample
 
             CrossFirebasePushNotification.Current.OnNotificationReceived += Current_OnNotificationReceived;
 
-            ViewModel.Play();
+         //   ViewModel.Play();
         }
 
         public void ShowUserData()
