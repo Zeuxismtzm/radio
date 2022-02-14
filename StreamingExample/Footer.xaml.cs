@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using Xamarin.Essentials;
 
 using Xamarin.Forms;
 
@@ -30,9 +30,9 @@ namespace StreamingExample
             //  Navigation.PushAsync(new tutorialesYouTube());
         }
 
-        void NuestraRed_Tapped(System.Object sender, System.EventArgs e)
+        void galeria_Tapped(System.Object sender, System.EventArgs e)
         {
-            //  Browser.OpenAsync("https://www.google.com/maps/d/u/0/viewer?mid=1R_fBdJWMGBT0Paht0URko6K8Inc&ll=3.107893309247812%2C-75.14313195&z=7", BrowserLaunchMode.SystemPreferred);
+             Browser.OpenAsync("https://www.laradiocristiana.com/galer%C3%ADa", BrowserLaunchMode.SystemPreferred);
         }
 
         private void Profile_UserClosed(object sender, EventArgs e)
@@ -55,15 +55,14 @@ namespace StreamingExample
 
         }
 
-        async void QrCode_Tapped(System.Object sender, System.EventArgs e)
-        {
-            Navigation.PushAsync(new misionvision());
-            // App.Current.MainPage = new NavigationPage(new acerca_foto_perfil());
-        }
-
         void TapGestureRecognizer_Tapped(System.Object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new misionvision());
+            Navigation.PushAsync(new Principal());
+        }
+
+        void tienda_Tapped(System.Object sender, System.EventArgs e)
+        {
+            Browser.OpenAsync("https://www.laradiocristiana.com/tienda", BrowserLaunchMode.SystemPreferred);
         }
     }
 }

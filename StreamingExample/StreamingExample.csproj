@@ -54,6 +54,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="tienda.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pdp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -82,6 +90,12 @@
     </Compile>
     <Compile Include="Principal.xaml.cs">
       <DependentUpon>Principal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="tienda.xaml.cs">
+      <DependentUpon>tienda.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pdp.xaml.cs">
+      <DependentUpon>pdp.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

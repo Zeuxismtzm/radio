@@ -53,8 +53,9 @@
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/MainMap.xaml.g.cs
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/Footer.xaml.g.cs
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/Principal.xaml.g.cs
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/tienda.xaml.g.cs
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/pdp.xaml.g.cs
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/StreamingExample.csproj.CoreCompileInputs.cache
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/XamlC.stamp
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/StreamingExample.dll
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/StreamingExample.pdb
-/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/StreamingExample/obj/Debug/StreamingExample.csproj.AssemblyReference.cache

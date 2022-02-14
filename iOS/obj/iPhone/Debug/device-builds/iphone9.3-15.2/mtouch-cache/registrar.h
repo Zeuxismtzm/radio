@@ -9,18 +9,25 @@
 #include <objc/message.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <SafariServices/SafariServices.h>
+#import <ContactsUI/ContactsUI.h>
 #import <UserNotifications/UserNotifications.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import <GLKit/GLKit.h>
 #import <WebKit/WebKit.h>
 #import <CoreSpotlight/CoreSpotlight.h>
+#import <CoreLocation/CoreLocation.h>
 #import <QuartzCore/QuartzCore.h>
+#import <Contacts/Contacts.h>
+#import <AuthenticationServices/AuthenticationServices.h>
 #import <AVFoundation/AVFoundation.h>
 #import <CoreGraphics/CoreGraphics.h>
 
 @class UIApplicationDelegate;
 @class Xamarin_Forms_Platform_iOS_FormsApplicationDelegate;
 @class AppDelegate;
+@class SFSafariViewControllerDelegate;
+@class CNContactPickerDelegate;
 @class GLKViewDelegate;
 @class WKNavigationDelegate;
 @class WKUIDelegate;
@@ -32,12 +39,17 @@
 @class __MonoMac_NSAsyncActionDispatcher;
 @class __MonoMac_NSAsyncSynchronizationContextDispatcher;
 @class Foundation_InternalNSNotificationHandler;
+@class CLLocationManagerDelegate;
 @class CAAnimationDelegate;
+@class UIAdaptivePresentationControllerDelegate;
 @class UIKit_UIControlEventProxy;
 @class UIActionSheetDelegate;
+@class UIActivityItemSource;
 @class UICollectionViewDelegateFlowLayout;
+@class UIDocumentPickerDelegate;
 @class UIGestureRecognizerDelegate;
 @class UINavigationControllerDelegate;
+@class UIImagePickerControllerDelegate;
 @class UIPickerViewModel;
 @class UIScrollViewDelegate;
 @class UISearchResultsUpdating;
@@ -245,6 +257,19 @@
 @class FIRInstallations;
 @class FIRInstanceIDResult;
 @class FIRInstanceID;
+@class Xamarin_Essentials_ShareActivityItemSource;
+@class Xamarin_Essentials_AuthManager;
+@class Xamarin_Essentials_SingleLocationListener;
+@class Xamarin_Essentials_Contacts_ContactPickerDelegate;
+@class Xamarin_Essentials_FilePicker_PickerDelegate;
+@class Xamarin_Essentials_FilePicker_PickerPresentationControllerDelegate;
+@class Xamarin_Essentials_MediaPicker_PhotoPickerDelegate;
+@class Xamarin_Essentials_MediaPicker_PhotoPickerPresentationControllerDelegate;
+@class Xamarin_Essentials_WebAuthenticator_NativeSFSafariViewControllerDelegate;
+@class Xamarin_Essentials_WebAuthenticator_ContextProvider;
+@class Xamarin_Essentials_Permissions_LocationWhenInUse_ManagerDelegate;
+@class OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource;
+@class OpenTK_Platform_iPhoneOS_iPhoneOSGameView;
 
 @interface UIApplicationDelegate : NSObject<UIApplicationDelegate> {
 }
@@ -283,6 +308,16 @@
 	-(id) init;
 @end
 
+@interface SFSafariViewControllerDelegate : NSObject<SFSafariViewControllerDelegate> {
+}
+	-(id) init;
+@end
+
+@interface CNContactPickerDelegate : NSObject<CNContactPickerDelegate> {
+}
+	-(id) init;
+@end
+
 @interface GLKViewDelegate : NSObject<GLKViewDelegate> {
 }
 	-(id) init;
@@ -298,7 +333,17 @@
 	-(id) init;
 @end
 
+@interface CLLocationManagerDelegate : NSObject<CLLocationManagerDelegate> {
+}
+	-(id) init;
+@end
+
 @interface CAAnimationDelegate : NSObject<CAAnimationDelegate> {
+}
+	-(id) init;
+@end
+
+@interface UIAdaptivePresentationControllerDelegate : NSObject<UIAdaptivePresentationControllerDelegate> {
 }
 	-(id) init;
 @end
@@ -308,7 +353,17 @@
 	-(id) init;
 @end
 
+@interface UIActivityItemSource : NSObject<UIActivityItemSource> {
+}
+	-(id) init;
+@end
+
 @interface UICollectionViewDelegateFlowLayout : NSObject<UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate> {
+}
+	-(id) init;
+@end
+
+@interface UIDocumentPickerDelegate : NSObject<UIDocumentPickerDelegate> {
 }
 	-(id) init;
 @end
@@ -319,6 +374,11 @@
 @end
 
 @interface UINavigationControllerDelegate : NSObject<UINavigationControllerDelegate> {
+}
+	-(id) init;
+@end
+
+@interface UIImagePickerControllerDelegate : NSObject<UINavigationControllerDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate> {
 }
 	-(id) init;
 @end
@@ -1535,6 +1595,22 @@
 	-(void) getIDWithHandler:(void (^)(NSString *, id))p0;
 	-(void) instanceIDWithHandler:(void (^)(id, id))p0;
 	-(void) tokenWithAuthorizedEntity:(NSString *)p0 scope:(NSString *)p1 options:(NSDictionary *)p2 handler:(void (^)(NSString *, id))p3;
+@end
+
+@interface OpenTK_Platform_iPhoneOS_iPhoneOSGameView : UIView {
+}
+	-(void) release;
+	-(id) retain;
+	-(GCHandle) xamarinGetGCHandle;
+	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
+	-(enum XamarinGCHandleFlags) xamarinGetFlags;
+	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
+	+(Class) layerClass;
+	-(void) layoutSubviews;
+	-(void) willMoveToWindow:(UIWindow *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) initWithCoder:(NSCoder *)p0;
+	-(id) initWithFrame:(CGRect)p0;
 @end
 
 

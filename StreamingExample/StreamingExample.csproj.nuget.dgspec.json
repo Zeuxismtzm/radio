@@ -21,6 +21,10 @@
       },
       "dependencies": {
         "Plugin.FirebasePushNotification": "[3.0.8, )",
+        "Xamarin.Essentials": {
+          "target": "Package",
+          "version": "[1.7.0, )"
+        },
         "Xamarin.Forms": "[5.0.0.2337, )"
       },
       "frameworks": {

@@ -35,6 +35,8 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.4.0.0/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Debug.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.4.0.0/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.4.0.0/lib/mono/Xamarin.iOS/Facades/System.Threading.dll
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/packages/Xamarin.Essentials.1.7.0/lib/xamarinios10/Xamarin.Essentials.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/15.4.0.0/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.4.0.0/lib/mono/Xamarin.iOS/Facades/System.Reflection.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.4.0.0/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.4.0.0/lib/mono/Xamarin.iOS/Facades/System.Xml.ReaderWriter.dll

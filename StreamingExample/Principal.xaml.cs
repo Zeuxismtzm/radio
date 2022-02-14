@@ -88,7 +88,7 @@ namespace StreamingExample
         void Perfil_Tapped(System.Object sender, System.EventArgs e)
         {
 
-            DisplayAlert("alerta", "presionaste ok", "ok");
+          //  DisplayAlert("alerta", "presionaste ok", "ok");
             var mainNavPage = (Xamarin.Forms.NavigationPage)App.Current.MainPage;
             var masterPage = (MainMaster)mainNavPage.RootPage;
             masterPage.IsPresented = true;
@@ -96,7 +96,7 @@ namespace StreamingExample
 
         void TapGestureRecognizer_Tapped_2(System.Object sender, System.EventArgs e)
         {
-            DisplayAlert("alerta", "presionaste ok", "ok");
+          //  DisplayAlert("alerta", "presionaste ok", "ok");
             var mainNavPage = (Xamarin.Forms.NavigationPage)App.Current.MainPage;
             var masterPage = (MainMaster)mainNavPage.RootPage;
             masterPage.IsPresented = true;

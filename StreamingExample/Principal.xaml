@@ -8,27 +8,25 @@
     x:Class="StreamingExample.Principal">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="0">
-            <StackLayout VerticalOptions="Start" Orientation="Horizontal" Padding="5,0" BackgroundColor="#225983">
-                <Frame HeightRequest="50" WidthRequest="50" CornerRadius="0" Padding="2" IsClippedToBounds="True" Margin="0" HorizontalOptions="Start">
-                    <Frame HeightRequest="46" WidthRequest="46" CornerRadius="23" Padding="0" IsClippedToBounds="True" HorizontalOptions="Center" VerticalOptions="Center">
-                        <Image x:Name="imgPerfil" Aspect="AspectFill" Source="menus" WidthRequest="46" HorizontalOptions="Center" VerticalOptions="Center">
+            <StackLayout VerticalOptions="Center" Orientation="Horizontal" Padding="5,0" BackgroundColor="#225983">
+               
+                        <Image x:Name="imgPerfil" Aspect="AspectFill" Source="mn" WidthRequest="46" VerticalOptions="Center">
                             <Image.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" ></TapGestureRecognizer>
                             </Image.GestureRecognizers>
                         </Image>
-                    </Frame>
-                </Frame>
-                <!--<Label FontFamily="GilroyLight" FontSize="20" VerticalOptions="Center">Hola </Label>-->
-                <Label x:Name="lbHeaderName" FontFamily="Gilroy" FontSize="20" Text="" HorizontalOptions="Start" VerticalOptions="Center"></Label>
-                <Image x:Name="imgCartOk" Source="iconCartOk" WidthRequest="50" HorizontalOptions="EndAndExpand" IsVisible="False">
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer></TapGestureRecognizer>
-                    </Image.GestureRecognizers>
-                </Image>
+                    <Label x:Name="lbHeaderName" FontFamily="Gilroy" FontSize="20" Text="La Radio Cristiana" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" TextColor="#FFFFFF"></Label>
+               <Image Aspect="AspectFill" Source="mn," WidthRequest="46" VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                               
+                            </Image.GestureRecognizers>
+                        </Image>
+               
+               
             </StackLayout>
             
            <StackLayout HorizontalOptions="CenterAndExpand" Margin="0" >
-                <Image  Source="ic_launcher3_round" WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                <Image  Source="circulo" WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer></TapGestureRecognizer>
                     </Image.GestureRecognizers>

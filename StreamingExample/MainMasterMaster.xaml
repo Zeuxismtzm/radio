@@ -11,7 +11,7 @@
             <StackLayout Padding="0">
        
             <StackLayout HorizontalOptions="CenterAndExpand" Margin="0" >
-                <Image x:Name="imgPerfil" Source="ic_launcher3_round" WidthRequest="120" HeightRequest="120" HorizontalOptions="Start">
+                <Image x:Name="imgPerfil" Source="circulo" WidthRequest="120" HeightRequest="120" HorizontalOptions="Start">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer></TapGestureRecognizer>
                     </Image.GestureRecognizers>
@@ -48,7 +48,7 @@
                     <Image Source="politicas" WidthRequest="40" HeightRequest="40" HorizontalOptions="Start"></Image>
                     <Label VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" TextColor="#32214D" VerticalTextAlignment="Center" Text=" Politica de Privacidad" FontFamily="Gilroy" FontSize="18">
                         <Label.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="cargaDocum_Tapped"></TapGestureRecognizer>
+                                <TapGestureRecognizer Tapped="politicas_Tapped"></TapGestureRecognizer>
                         </Label.GestureRecognizers>
                     </Label>
 
@@ -59,7 +59,7 @@
                     <Image Source="tienda" WidthRequest="40" HeightRequest="40" HorizontalOptions="Start"></Image>
                     <Label VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" TextColor="#32214D" VerticalTextAlignment="Center" Text=" Tienda" FontFamily="Gilroy" FontSize="18">
                         <Label.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="Historial_Tapped"></TapGestureRecognizer>
+                                <TapGestureRecognizer Tapped="tienda_Tapped"></TapGestureRecognizer>
                         </Label.GestureRecognizers>
                     </Label>
 
@@ -106,7 +106,7 @@
                     <Image Source="facebook" WidthRequest="40" HeightRequest="40" HorizontalOptions="Start"></Image>
                     <Label  Text="Facebook" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" TextColor="#32214D" VerticalTextAlignment="Center" FontFamily="Gilroy" FontSize="18">
                         <Label.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="ayudametodo_Tapped"></TapGestureRecognizer>
+                                <TapGestureRecognizer Tapped="facebook_Tapped"></TapGestureRecognizer>
                         </Label.GestureRecognizers>
                     </Label>
                 </StackLayout>
@@ -114,7 +114,7 @@
                     <Image Source="ins" WidthRequest="40" HeightRequest="40" HorizontalOptions="Start"></Image>
                     <Label  Text="Instagram" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" TextColor="#32214D" VerticalTextAlignment="Center" FontFamily="Gilroy" FontSize="18">
                         <Label.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="ayudametodo_Tapped"></TapGestureRecognizer>
+                                <TapGestureRecognizer Tapped="Instagram_Tapped"></TapGestureRecognizer>
                         </Label.GestureRecognizers>
                     </Label>
                 </StackLayout>
@@ -122,7 +122,7 @@
                     <Image Source="tw" WidthRequest="40" HeightRequest="40" HorizontalOptions="Start"></Image>
                     <Label  Text="Twitter" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" TextColor="#32214D" VerticalTextAlignment="Center" FontFamily="Gilroy" FontSize="18">
                         <Label.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="ayudametodo_Tapped"></TapGestureRecognizer>
+                                <TapGestureRecognizer Tapped="Twitter_Tapped"></TapGestureRecognizer>
                         </Label.GestureRecognizers>
                     </Label>
                 </StackLayout>
@@ -130,7 +130,7 @@
                     <Image Source="youtube" WidthRequest="40" HeightRequest="40" HorizontalOptions="Start"></Image>
                     <Label  Text="You Tube" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" TextColor="#32214D" VerticalTextAlignment="Center" FontFamily="Gilroy" FontSize="18">
                         <Label.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="ayudametodo_Tapped"></TapGestureRecognizer>
+                                <TapGestureRecognizer Tapped="youtube_Tapped"></TapGestureRecognizer>
                         </Label.GestureRecognizers>
                     </Label>
                 </StackLayout>

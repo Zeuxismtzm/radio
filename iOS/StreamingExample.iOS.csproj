@@ -115,6 +115,11 @@
     <Reference Include="Plugin.FirebasePushNotification">
       <HintPath>..\packages\Plugin.FirebasePushNotification.3.0.8\lib\xamarinios10\Plugin.FirebasePushNotification.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Essentials">
+      <HintPath>..\packages\Xamarin.Essentials.1.7.0\lib\xamarinios10\Xamarin.Essentials.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK-1.0" />
+    <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\StreamingExample\StreamingExample.csproj">
@@ -181,6 +186,10 @@
     <BundleResource Include="Resources\f_radio.png" />
     <BundleResource Include="Resources\f_tienda.png" />
     <BundleResource Include="Resources\f_videos.png" />
+    <BundleResource Include="Resources\circulo.png" />
+    <BundleResource Include="Resources\mn.png" />
+    <BundleResource Include="Resources\radio.png" />
+    <BundleResource Include="Resources\video.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Footer.xaml">

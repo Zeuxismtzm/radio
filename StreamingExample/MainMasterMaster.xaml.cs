@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace StreamingExample
 {
@@ -28,8 +29,9 @@ namespace StreamingExample
 
         private async void metodoinicio_Tapped(Object sender, EventArgs e)
         {
+            Navigation.PushAsync(new Principal());
 
-            await App.Current.MainPage.DisplayAlert("Aviso", "Estas en el inicio", "OK");
+            //  await App.Current.MainPage.DisplayAlert("Aviso", "Estas en el inicio", "OK");
 
         }
 
@@ -40,10 +42,9 @@ namespace StreamingExample
 
         }
 
-        private void cargaDocum_Tapped(Object sender, EventArgs e)
+        private void politicas_Tapped(Object sender, EventArgs e)
         {
-           
-            //  await App.Current.MainPage.DisplayAlert("Aviso", "Estamos desarrollando este modulo", "OK");
+            Navigation.PushAsync(new misionvision());         
 
         }
 
@@ -63,8 +64,8 @@ namespace StreamingExample
 
         void cambiarContra_Tapped(Object sender, EventArgs e)
         {
+            Navigation.PushAsync(new misionvision());
 
-         
         }
 
         private async void redimirpuntos_Tapped(Object sender, EventArgs e)
@@ -74,15 +75,30 @@ namespace StreamingExample
 
         }
 
-        private async void ayudametodo_Tapped(Object sender, EventArgs e)
+        private async void facebook_Tapped(Object sender, EventArgs e)
         {
-
+            Browser.OpenAsync("https://www.facebook.com/LaRadioCristianaOficial/", BrowserLaunchMode.SystemPreferred);
 
         }
-
-        private void Historial_Tapped(object sender, EventArgs e)
+        private async void Instagram_Tapped(Object sender, EventArgs e)
         {
-           
+
+            Browser.OpenAsync("https://www.instagram.com/laradiocristianaoficial/", BrowserLaunchMode.SystemPreferred);
+        }
+        private async void Twitter_Tapped(Object sender, EventArgs e)
+        {
+
+            Browser.OpenAsync("https://twitter.com/lradiocristiana", BrowserLaunchMode.SystemPreferred);
+        }
+        private async void youtube_Tapped(Object sender, EventArgs e)
+        {
+
+            Browser.OpenAsync("https://www.youtube.com/channel/UCAd4BdvGWnzQisGKqOLHmIQ", BrowserLaunchMode.SystemPreferred);
+        }
+
+        private void tienda_Tapped(object sender, EventArgs e)
+        {
+            Browser.OpenAsync("https://www.laradiocristiana.com/tienda", BrowserLaunchMode.SystemPreferred);
         }
 
         void CerrarSesion_Tapped(System.Object sender, System.EventArgs e)

@@ -9,7 +9,7 @@
                 <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" ></TapGestureRecognizer>
                 </StackLayout.GestureRecognizers>
-                <Image Source="f_radio" HeightRequest="30" Margin="-5"></Image>
+                <Image Source="radio" HeightRequest="30" Margin="-5"></Image>
                 <Label FontFamily="GilroyLight" FontSize="12">Radio</Label>
             </StackLayout>
             <StackLayout  Margin="3">
@@ -23,19 +23,19 @@
                 <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="Servicios_Tapped" ></TapGestureRecognizer>
                 </StackLayout.GestureRecognizers>
-                <Image Source="f_videos" HeightRequest="30" Margin="-5"></Image>
+                <Image Source="video" HeightRequest="30" Margin="-5"></Image>
                 <Label FontFamily="GilroyLight" FontSize="12">Videos</Label>
             </StackLayout>
             <StackLayout Margin="3">
                 <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="NuestraRed_Tapped"></TapGestureRecognizer>
+                    <TapGestureRecognizer Tapped="galeria_Tapped"></TapGestureRecognizer>
                 </StackLayout.GestureRecognizers>
                 <Image Source="f_galeria" HeightRequest="30"  Margin="-5"></Image>
                <Label FontFamily="GilroyLight" FontSize="12">Galeria</Label>
             </StackLayout>
              <StackLayout Margin="3">
                 <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="NuestraRed_Tapped"></TapGestureRecognizer>
+                    <TapGestureRecognizer Tapped="tienda_Tapped"></TapGestureRecognizer>
                 </StackLayout.GestureRecognizers>
                 <Image Source="f_tienda" HeightRequest="30"  Margin="-5"></Image>
                <Label FontFamily="GilroyLight" FontSize="12">Tienda</Label>

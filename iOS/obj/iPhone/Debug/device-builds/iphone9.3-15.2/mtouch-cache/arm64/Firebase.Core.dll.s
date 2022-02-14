@@ -13591,7 +13591,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 41,103,103,168,64,237,98,45,155,140,122,93,173,107,42,31
+	.byte 95,18,223,138,241,49,252,237,24,241,228,214,103,132,105,56
 	.globl _mono_aot_module_Firebase_Core_info
 	.align 3
 _mono_aot_module_Firebase_Core_info:

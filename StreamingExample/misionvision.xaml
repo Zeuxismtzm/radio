@@ -4,13 +4,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     BackgroundImageSource="fondohorizontal.jpg"
     xmlns:local="clr-namespace:StreamingExample"
-    NavigationPage.HasNavigationBar="False"
+    NavigationPage.HasNavigationBar="True"
     x:Class="StreamingExample.misionvision">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="0">
         
            <StackLayout HorizontalOptions="CenterAndExpand" Margin="0" >
-                <Image  Source="ic_launcher3_round" WidthRequest="200" HeightRequest="200" HorizontalOptions="Start">
+                <Image  Source="circulo" WidthRequest="180" HeightRequest="180" HorizontalOptions="Start">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer></TapGestureRecognizer>
                     </Image.GestureRecognizers>
@@ -40,7 +40,7 @@
 
             </StackLayout>
                   </ScrollView>
-            <local:Footer ></local:Footer>
+           
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

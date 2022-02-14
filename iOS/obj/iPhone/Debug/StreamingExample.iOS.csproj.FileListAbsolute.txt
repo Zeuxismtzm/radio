@@ -151,6 +151,7 @@
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/bin/iPhone/Debug/Firebase.InstanceID.dll
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/bin/iPhone/Debug/Plugin.FirebasePushNotification.dll
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/bin/iPhone/Debug/StreamingExample.dll
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/bin/iPhone/Debug/Xamarin.Essentials.dll
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/bin/iPhone/Debug/Xamarin.Forms.Core.dll
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.dll
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.dll
@@ -162,6 +163,8 @@
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.pdb
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.xml
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/bin/iPhone/Debug/Plugin.FirebasePushNotification.xml
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/bin/iPhone/Debug/Xamarin.Essentials.pdb
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/bin/iPhone/Debug/Xamarin.Essentials.xml
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/bin/iPhone/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/bin/iPhone/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/bin/iPhone/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
@@ -230,6 +233,15 @@
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/youtube.png
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/menu.png
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/menus.png
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/f_galeria.png
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/f_programas.png
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/f_radio.png
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/f_tienda.png
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/f_videos.png
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/circulo.png
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/mn.png
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/radio.png
+/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/video.png
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/GoogleService-Info.plist
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/StreamingExample.iOS.csproj.AssemblyReference.cache
@@ -240,8 +252,3 @@
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/StreamingExample.iOS.csproj.CopyComplete
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/StreamingExample.iOS.exe
 /Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/StreamingExample.iOS.pdb
-/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/f_galeria.png
-/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/f_programas.png
-/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/f_radio.png
-/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/f_tienda.png
-/Users/mac/Documents/XamarinRadioStreamingExample-master/radio/iOS/obj/iPhone/Debug/device-builds/iphone9.3-15.2/optimized/f_videos.png

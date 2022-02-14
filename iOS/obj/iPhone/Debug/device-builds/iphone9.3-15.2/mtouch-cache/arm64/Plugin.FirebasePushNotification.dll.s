@@ -5014,7 +5014,7 @@ bl _p_52
 .word 0xaa1803e1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9414c50
+.word 0xf9415450
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf944c231
@@ -5033,7 +5033,7 @@ bl _p_52
 .word 0xf94043a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9415030
+.word 0xf9415830
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf9450e31
@@ -5191,7 +5191,7 @@ bl _p_52
 .word 0xf94033a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9414830
+.word 0xf9415030
 .word 0xd63f0200
 .word 0xf9401fb1
 .word 0xf941ee31
@@ -9624,7 +9624,7 @@ bl _p_52
 .word 0xf9401ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9415c30
+.word 0xf9416830
 .word 0xd63f0200
 .word 0xf9400fb1
 .word 0xf9414e31
@@ -10838,7 +10838,7 @@ bl _p_52
 .word 0xf9401ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9415030
+.word 0xf9415830
 .word 0xd63f0200
 .word 0xf9400fb1
 .word 0xf9408631
@@ -11823,7 +11823,7 @@ bl _p_52
 .word 0xf9408ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9413c30
+.word 0xf9414030
 .word 0xd63f0200
 .word 0xf90083a0
 .word 0xf9402fb1
@@ -11960,7 +11960,7 @@ bl _p_52
 .word 0xaa1903e1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9415850
+.word 0xf9416450
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf94a5e31
@@ -23066,7 +23066,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 3883
+.word 3884
 	.no_dead_strip plt_Plugin_FirebasePushNotification_CrossFirebasePushNotification_NotImplementedInReferenceAssembly
 plt_Plugin_FirebasePushNotification_CrossFirebasePushNotification_NotImplementedInReferenceAssembly:
 _p_2:
@@ -23074,7 +23074,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 3894
+.word 3895
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_3:
@@ -23082,7 +23082,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 3896
+.word 3897
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_4:
@@ -23090,7 +23090,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 3898
+.word 3899
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager__ctor
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager__ctor:
 _p_5:
@@ -23098,7 +23098,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 3901
+.word 3902
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_6:
@@ -23106,7 +23106,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 3903
+.word 3904
 	.no_dead_strip plt_System_NotImplementedException__ctor_string
 plt_System_NotImplementedException__ctor_string:
 _p_7:
@@ -23114,7 +23114,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 3911
+.word 3912
 	.no_dead_strip plt_System_Lazy_1_Plugin_FirebasePushNotification_IFirebasePushNotification__ctor_System_Func_1_Plugin_FirebasePushNotification_IFirebasePushNotification_System_Threading_LazyThreadSafetyMode
 plt_System_Lazy_1_Plugin_FirebasePushNotification_IFirebasePushNotification__ctor_System_Func_1_Plugin_FirebasePushNotification_IFirebasePushNotification_System_Threading_LazyThreadSafetyMode:
 _p_8:
@@ -23122,7 +23122,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 3916
+.word 3917
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_9:
@@ -23130,7 +23130,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 3927
+.word 3928
 	.no_dead_strip plt_System_EventArgs__ctor
 plt_System_EventArgs__ctor:
 _p_10:
@@ -23138,7 +23138,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 3929
+.word 3930
 	.no_dead_strip plt_Firebase_CloudMessaging_Messaging_get_SharedInstance
 plt_Firebase_CloudMessaging_Messaging_get_SharedInstance:
 _p_11:
@@ -23146,7 +23146,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 3934
+.word 3935
 	.no_dead_strip plt_string_IsNullOrEmpty_string
 plt_string_IsNullOrEmpty_string:
 _p_12:
@@ -23154,7 +23154,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 3939
+.word 3940
 	.no_dead_strip plt_Foundation_NSUserDefaults_get_StandardUserDefaults
 plt_Foundation_NSUserDefaults_get_StandardUserDefaults:
 _p_13:
@@ -23162,7 +23162,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 3944
+.word 3945
 	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
 plt_System_Delegate_Combine_System_Delegate_System_Delegate:
 _p_14:
@@ -23170,7 +23170,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 3949
+.word 3950
 	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
 plt_System_Delegate_Remove_System_Delegate_System_Delegate:
 _p_15:
@@ -23178,7 +23178,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 3954
+.word 3955
 	.no_dead_strip plt_System_Linq_Enumerable_ToArray_Plugin_FirebasePushNotification_NotificationUserCategory_System_Collections_Generic_IEnumerable_1_Plugin_FirebasePushNotification_NotificationUserCategory
 plt_System_Linq_Enumerable_ToArray_Plugin_FirebasePushNotification_NotificationUserCategory_System_Collections_Generic_IEnumerable_1_Plugin_FirebasePushNotification_NotificationUserCategory:
 _p_16:
@@ -23186,7 +23186,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 3959
+.word 3960
 	.no_dead_strip plt_System_Collections_Generic_List_1_string__ctor
 plt_System_Collections_Generic_List_1_string__ctor:
 _p_17:
@@ -23194,7 +23194,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 3971
+.word 3972
 	.no_dead_strip plt_System_nuint_op_Implicit_byte
 plt_System_nuint_op_Implicit_byte:
 _p_18:
@@ -23202,7 +23202,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 3982
+.word 3983
 	.no_dead_strip plt_Foundation_NSArray_GetItem_Foundation_NSString_System_nuint
 plt_Foundation_NSArray_GetItem_Foundation_NSString_System_nuint:
 _p_19:
@@ -23210,7 +23210,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 3987
+.word 3988
 	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
 plt_Foundation_NSString_op_Implicit_Foundation_NSString:
 _p_20:
@@ -23218,7 +23218,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 3999
+.word 4000
 	.no_dead_strip plt_System_nuint_op_Increment_System_nuint
 plt_System_nuint_op_Increment_System_nuint:
 _p_21:
@@ -23226,7 +23226,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 4004
+.word 4005
 	.no_dead_strip plt_System_Linq_Enumerable_ToArray_string_System_Collections_Generic_IEnumerable_1_string
 plt_System_Linq_Enumerable_ToArray_string_System_Collections_Generic_IEnumerable_1_string:
 _p_22:
@@ -23234,7 +23234,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 4009
+.word 4010
 	.no_dead_strip plt_Firebase_Core_App_get_DefaultInstance
 plt_Firebase_Core_App_get_DefaultInstance:
 _p_23:
@@ -23242,7 +23242,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 4021
+.word 4022
 	.no_dead_strip plt_Firebase_Core_App_Configure
 plt_Firebase_Core_App_Configure:
 _p_24:
@@ -23250,7 +23250,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 4026
+.word 4027
 	.no_dead_strip plt_Plugin_FirebasePushNotification_CrossFirebasePushNotification_get_Current
 plt_Plugin_FirebasePushNotification_CrossFirebasePushNotification_get_Current:
 _p_25:
@@ -23258,7 +23258,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 4031
+.word 4032
 	.no_dead_strip plt_Plugin_FirebasePushNotification_DefaultPushNotificationHandler__ctor
 plt_Plugin_FirebasePushNotification_DefaultPushNotificationHandler__ctor:
 _p_26:
@@ -23266,7 +23266,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 4033
+.word 4034
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_Initialize_Foundation_NSDictionary_bool
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_Initialize_Foundation_NSDictionary_bool:
 _p_27:
@@ -23274,7 +23274,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 4035
+.word 4036
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_RegisterUserNotificationCategories_Plugin_FirebasePushNotification_NotificationUserCategory__
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_RegisterUserNotificationCategories_Plugin_FirebasePushNotification_NotificationUserCategory__:
 _p_28:
@@ -23282,7 +23282,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 4037
+.word 4038
 	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
 plt_UIKit_UIDevice_get_CurrentDevice:
 _p_29:
@@ -23290,7 +23290,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 4039
+.word 4040
 	.no_dead_strip plt_UIKit_UIDevice_CheckSystemVersion_int_int
 plt_UIKit_UIDevice_CheckSystemVersion_int_int:
 _p_30:
@@ -23298,7 +23298,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 4044
+.word 4045
 	.no_dead_strip plt_System_Collections_Generic_List_1_UserNotifications_UNNotificationCategory__ctor
 plt_System_Collections_Generic_List_1_UserNotifications_UNNotificationCategory__ctor:
 _p_31:
@@ -23306,7 +23306,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 4049
+.word 4050
 	.no_dead_strip plt_System_Collections_Generic_List_1_UserNotifications_UNNotificationAction__ctor
 plt_System_Collections_Generic_List_1_UserNotifications_UNNotificationAction__ctor:
 _p_32:
@@ -23314,7 +23314,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 4060
+.word 4061
 	.no_dead_strip plt_Plugin_FirebasePushNotification_NotificationUserCategory_get_Actions
 plt_Plugin_FirebasePushNotification_NotificationUserCategory_get_Actions:
 _p_33:
@@ -23322,7 +23322,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 4071
+.word 4072
 	.no_dead_strip plt_System_Collections_Generic_List_1_Plugin_FirebasePushNotification_NotificationUserAction_GetEnumerator
 plt_System_Collections_Generic_List_1_Plugin_FirebasePushNotification_NotificationUserAction_GetEnumerator:
 _p_34:
@@ -23330,7 +23330,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 4073
+.word 4074
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_Plugin_FirebasePushNotification_NotificationUserAction_get_Current
 plt_System_Collections_Generic_List_1_Enumerator_Plugin_FirebasePushNotification_NotificationUserAction_get_Current:
 _p_35:
@@ -23338,7 +23338,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 4084
+.word 4085
 	.no_dead_strip plt_Plugin_FirebasePushNotification_NotificationUserAction_get_Id
 plt_Plugin_FirebasePushNotification_NotificationUserAction_get_Id:
 _p_36:
@@ -23346,7 +23346,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 4095
+.word 4096
 	.no_dead_strip plt_Plugin_FirebasePushNotification_NotificationUserAction_get_Title
 plt_Plugin_FirebasePushNotification_NotificationUserAction_get_Title:
 _p_37:
@@ -23354,7 +23354,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 4097
+.word 4098
 	.no_dead_strip plt_Plugin_FirebasePushNotification_NotificationUserAction_get_Type
 plt_Plugin_FirebasePushNotification_NotificationUserAction_get_Type:
 _p_38:
@@ -23362,7 +23362,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 4099
+.word 4100
 	.no_dead_strip plt_UserNotifications_UNNotificationAction_FromIdentifier_string_string_UserNotifications_UNNotificationActionOptions
 plt_UserNotifications_UNNotificationAction_FromIdentifier_string_string_UserNotifications_UNNotificationActionOptions:
 _p_39:
@@ -23370,7 +23370,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 4101
+.word 4102
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_Plugin_FirebasePushNotification_NotificationUserAction_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_Plugin_FirebasePushNotification_NotificationUserAction_MoveNext:
 _p_40:
@@ -23378,7 +23378,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 4106
+.word 4107
 	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
 plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_41:
@@ -23386,7 +23386,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 4117
+.word 4118
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_Plugin_FirebasePushNotification_NotificationUserAction_Dispose
 plt_System_Collections_Generic_List_1_Enumerator_Plugin_FirebasePushNotification_NotificationUserAction_Dispose:
 _p_42:
@@ -23394,7 +23394,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 4120
+.word 4121
 	.no_dead_strip plt_Plugin_FirebasePushNotification_NotificationUserCategory_get_Category
 plt_Plugin_FirebasePushNotification_NotificationUserCategory_get_Category:
 _p_43:
@@ -23402,7 +23402,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 4137
+.word 4138
 	.no_dead_strip plt_System_Linq_Enumerable_ToArray_UserNotifications_UNNotificationAction_System_Collections_Generic_IEnumerable_1_UserNotifications_UNNotificationAction
 plt_System_Linq_Enumerable_ToArray_UserNotifications_UNNotificationAction_System_Collections_Generic_IEnumerable_1_UserNotifications_UNNotificationAction:
 _p_44:
@@ -23410,7 +23410,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 4139
+.word 4140
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_45:
@@ -23418,7 +23418,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 4151
+.word 4152
 	.no_dead_strip plt_Plugin_FirebasePushNotification_NotificationUserCategory_get_Type
 plt_Plugin_FirebasePushNotification_NotificationUserCategory_get_Type:
 _p_46:
@@ -23426,7 +23426,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 4159
+.word 4160
 	.no_dead_strip plt_UserNotifications_UNNotificationCategory_FromIdentifier_string_UserNotifications_UNNotificationAction___string___UserNotifications_UNNotificationCategoryOptions
 plt_UserNotifications_UNNotificationCategory_FromIdentifier_string_UserNotifications_UNNotificationAction___string___UserNotifications_UNNotificationCategoryOptions:
 _p_47:
@@ -23434,7 +23434,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 4161
+.word 4162
 	.no_dead_strip plt_UserNotifications_UNUserNotificationCenter_get_Current
 plt_UserNotifications_UNUserNotificationCenter_get_Current:
 _p_48:
@@ -23442,7 +23442,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 4166
+.word 4167
 	.no_dead_strip plt_System_Linq_Enumerable_ToArray_UserNotifications_UNNotificationCategory_System_Collections_Generic_IEnumerable_1_UserNotifications_UNNotificationCategory
 plt_System_Linq_Enumerable_ToArray_UserNotifications_UNNotificationCategory_System_Collections_Generic_IEnumerable_1_UserNotifications_UNNotificationCategory:
 _p_49:
@@ -23450,7 +23450,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 4171
+.word 4172
 	.no_dead_strip plt_Foundation_NSSet_1_UserNotifications_UNNotificationCategory__ctor_UserNotifications_UNNotificationCategory__
 plt_Foundation_NSSet_1_UserNotifications_UNNotificationCategory__ctor_UserNotifications_UNNotificationCategory__:
 _p_50:
@@ -23458,7 +23458,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 4183
+.word 4184
 	.no_dead_strip plt_UIKit_UIUserNotificationSettings_GetSettingsForTypes_UIKit_UIUserNotificationType_Foundation_NSSet
 plt_UIKit_UIUserNotificationSettings_GetSettingsForTypes_UIKit_UIUserNotificationType_Foundation_NSSet:
 _p_51:
@@ -23466,7 +23466,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 4194
+.word 4195
 	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
 plt_UIKit_UIApplication_get_SharedApplication:
 _p_52:
@@ -23474,7 +23474,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 4199
+.word 4200
 	.no_dead_strip plt_Foundation_NSUserDefaults_SetString_string_string
 plt_Foundation_NSUserDefaults_SetString_string_string:
 _p_53:
@@ -23482,7 +23482,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 4204
+.word 4205
 	.no_dead_strip plt_Firebase_InstanceID_InstanceId_get_SharedInstance
 plt_Firebase_InstanceID_InstanceId_get_SharedInstance:
 _p_54:
@@ -23490,7 +23490,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 4209
+.word 4210
 	.no_dead_strip plt_System_Console_WriteLine_object
 plt_System_Console_WriteLine_object:
 _p_55:
@@ -23498,7 +23498,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 4214
+.word 4215
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_GetParameters_Foundation_NSDictionary
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_GetParameters_Foundation_NSDictionary:
 _p_56:
@@ -23506,7 +23506,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 4219
+.word 4220
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs__ctor_System_Collections_Generic_IDictionary_2_string_object
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationDataEventArgs__ctor_System_Collections_Generic_IDictionary_2_string_object:
 _p_57:
@@ -23514,7 +23514,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 4221
+.word 4222
 	.no_dead_strip plt_string_Format_string_object
 plt_string_Format_string_object:
 _p_58:
@@ -23522,7 +23522,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 4223
+.word 4224
 	.no_dead_strip plt_string_ToLower
 plt_string_ToLower:
 _p_59:
@@ -23530,7 +23530,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 4228
+.word 4229
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_60:
@@ -23538,7 +23538,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 4233
+.word 4234
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_get_CurrentNotificationPresentationOption
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_get_CurrentNotificationPresentationOption:
 _p_61:
@@ -23546,7 +23546,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 4238
+.word 4239
 	.no_dead_strip plt_System_Enum_HasFlag_System_Enum
 plt_System_Enum_HasFlag_System_Enum:
 _p_62:
@@ -23554,7 +23554,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 4240
+.word 4241
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_set_CurrentNotificationPresentationOption_UserNotifications_UNNotificationPresentationOptions
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_set_CurrentNotificationPresentationOption_UserNotifications_UNNotificationPresentationOptions:
 _p_63:
@@ -23562,7 +23562,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 4245
+.word 4246
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationErrorEventArgs__ctor_Plugin_FirebasePushNotification_FirebasePushNotificationErrorType_string
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationErrorEventArgs__ctor_Plugin_FirebasePushNotification_FirebasePushNotificationErrorType_string:
 _p_64:
@@ -23570,7 +23570,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 4247
+.word 4248
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_object__ctor
 plt_System_Collections_Generic_Dictionary_2_string_object__ctor:
 _p_65:
@@ -23578,7 +23578,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 4249
+.word 4250
 	.no_dead_strip plt_Foundation_NSString__ctor_string
 plt_Foundation_NSString__ctor_string:
 _p_66:
@@ -23586,7 +23586,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 4260
+.word 4261
 	.no_dead_strip plt_Foundation_NSDictionary_GetEnumerator
 plt_Foundation_NSDictionary_GetEnumerator:
 _p_67:
@@ -23594,7 +23594,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 4265
+.word 4266
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_2_Foundation_NSObject_Foundation_NSObject_get_Key
 plt_System_Collections_Generic_KeyValuePair_2_Foundation_NSObject_Foundation_NSObject_get_Key:
 _p_68:
@@ -23602,7 +23602,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 4270
+.word 4271
 	.no_dead_strip plt_Foundation_NSObject_Equals_Foundation_NSObject
 plt_Foundation_NSObject_Equals_Foundation_NSObject:
 _p_69:
@@ -23610,7 +23610,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 4281
+.word 4282
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_2_Foundation_NSObject_Foundation_NSObject_get_Value
 plt_System_Collections_Generic_KeyValuePair_2_Foundation_NSObject_Foundation_NSObject_get_Value:
 _p_70:
@@ -23618,7 +23618,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 4286
+.word 4287
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_object_Add_string_object
 plt_System_Collections_Generic_Dictionary_2_string_object_Add_string_object:
 _p_71:
@@ -23626,7 +23626,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 4297
+.word 4298
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_Subscribe_string
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_Subscribe_string:
 _p_72:
@@ -23634,7 +23634,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 4308
+.word 4309
 	.no_dead_strip plt_System_Tuple_2_string_bool__ctor_string_bool
 plt_System_Tuple_2_string_bool__ctor_string_bool:
 _p_73:
@@ -23642,7 +23642,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 4310
+.word 4311
 	.no_dead_strip plt_System_Collections_Generic_Queue_1_System_Tuple_2_string_bool_Enqueue_System_Tuple_2_string_bool
 plt_System_Collections_Generic_Queue_1_System_Tuple_2_string_bool_Enqueue_System_Tuple_2_string_bool:
 _p_74:
@@ -23650,7 +23650,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 4321
+.word 4322
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_Unsubscribe_string
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_Unsubscribe_string:
 _p_75:
@@ -23658,7 +23658,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 4332
+.word 4333
 	.no_dead_strip plt_Foundation_NSMutableDictionary__ctor
 plt_Foundation_NSMutableDictionary__ctor:
 _p_76:
@@ -23666,7 +23666,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 4334
+.word 4335
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_2_string_string_get_Key
 plt_System_Collections_Generic_KeyValuePair_2_string_string_get_Key:
 _p_77:
@@ -23674,7 +23674,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 4339
+.word 4340
 	.no_dead_strip plt_System_Collections_Generic_KeyValuePair_2_string_string_get_Value
 plt_System_Collections_Generic_KeyValuePair_2_string_string_get_Value:
 _p_78:
@@ -23682,7 +23682,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 4350
+.word 4351
 	.no_dead_strip plt_Foundation_NSMutableDictionary_Add_Foundation_NSObject_Foundation_NSObject
 plt_Foundation_NSMutableDictionary_Add_Foundation_NSObject_Foundation_NSObject:
 _p_79:
@@ -23690,7 +23690,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 4361
+.word 4362
 	.no_dead_strip plt_UserNotifications_UNNotificationResponse_get_IsCustomAction
 plt_UserNotifications_UNNotificationResponse_get_IsCustomAction:
 _p_80:
@@ -23698,7 +23698,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 4366
+.word 4367
 	.no_dead_strip plt_UserNotifications_UNNotificationResponse_get_IsDismissAction
 plt_UserNotifications_UNNotificationResponse_get_IsDismissAction:
 _p_81:
@@ -23706,7 +23706,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 4371
+.word 4372
 	.no_dead_strip plt_string_Equals_string_System_StringComparison
 plt_string_Equals_string_System_StringComparison:
 _p_82:
@@ -23714,7 +23714,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 4376
+.word 4377
 	.no_dead_strip plt_Plugin_FirebasePushNotification_NotificationResponse__ctor_System_Collections_Generic_IDictionary_2_string_object_string_Plugin_FirebasePushNotification_NotificationCategoryType
 plt_Plugin_FirebasePushNotification_NotificationResponse__ctor_System_Collections_Generic_IDictionary_2_string_object_string_Plugin_FirebasePushNotification_NotificationCategoryType:
 _p_83:
@@ -23722,7 +23722,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 4381
+.word 4382
 	.no_dead_strip plt_Plugin_FirebasePushNotification_NotificationResponse_get_Data
 plt_Plugin_FirebasePushNotification_NotificationResponse_get_Data:
 _p_84:
@@ -23730,7 +23730,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 4383
+.word 4384
 	.no_dead_strip plt_Plugin_FirebasePushNotification_NotificationResponse_get_Identifier
 plt_Plugin_FirebasePushNotification_NotificationResponse_get_Identifier:
 _p_85:
@@ -23738,7 +23738,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 4385
+.word 4386
 	.no_dead_strip plt_Plugin_FirebasePushNotification_NotificationResponse_get_Type
 plt_Plugin_FirebasePushNotification_NotificationResponse_get_Type:
 _p_86:
@@ -23746,7 +23746,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 4387
+.word 4388
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationResponseEventArgs__ctor_System_Collections_Generic_IDictionary_2_string_object_string_Plugin_FirebasePushNotification_NotificationCategoryType
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationResponseEventArgs__ctor_System_Collections_Generic_IDictionary_2_string_object_string_Plugin_FirebasePushNotification_NotificationCategoryType:
 _p_87:
@@ -23754,7 +23754,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 4389
+.word 4390
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationTokenEventArgs__ctor_string
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationTokenEventArgs__ctor_string:
 _p_88:
@@ -23762,7 +23762,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 4391
+.word 4392
 	.no_dead_strip plt_System_Collections_Generic_Queue_1_System_Tuple_2_string_bool_Dequeue
 plt_System_Collections_Generic_Queue_1_System_Tuple_2_string_bool_Dequeue:
 _p_89:
@@ -23770,7 +23770,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 4393
+.word 4394
 	.no_dead_strip plt_System_Tuple_2_string_bool_get_Item2
 plt_System_Tuple_2_string_bool_get_Item2:
 _p_90:
@@ -23778,7 +23778,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 4404
+.word 4405
 	.no_dead_strip plt_System_Tuple_2_string_bool_get_Item1
 plt_System_Tuple_2_string_bool_get_Item1:
 _p_91:
@@ -23786,7 +23786,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 4415
+.word 4416
 	.no_dead_strip plt_System_Collections_Generic_Queue_1_System_Tuple_2_string_bool_get_Count
 plt_System_Collections_Generic_Queue_1_System_Tuple_2_string_bool_get_Count:
 _p_92:
@@ -23794,7 +23794,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 4426
+.word 4427
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_RemoveNotification_int
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager_RemoveNotification_int:
 _p_93:
@@ -23802,7 +23802,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 4437
+.word 4438
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
 _p_94:
@@ -23810,7 +23810,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 4439
+.word 4440
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Plugin_FirebasePushNotification_FirebasePushNotificationManager__RemoveNotificationd__66_Plugin_FirebasePushNotification_FirebasePushNotificationManager__RemoveNotificationd__66_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_Plugin_FirebasePushNotification_FirebasePushNotificationManager__RemoveNotificationd__66_Plugin_FirebasePushNotification_FirebasePushNotificationManager__RemoveNotificationd__66_:
 _p_95:
@@ -23818,7 +23818,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 4444
+.word 4445
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Create
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Create:
 _p_96:
@@ -23826,7 +23826,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 4456
+.word 4457
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Plugin_FirebasePushNotification_FirebasePushNotificationManager__GetTokenAsyncd__67_Plugin_FirebasePushNotification_FirebasePushNotificationManager__GetTokenAsyncd__67_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Plugin_FirebasePushNotification_FirebasePushNotificationManager__GetTokenAsyncd__67_Plugin_FirebasePushNotification_FirebasePushNotificationManager__GetTokenAsyncd__67_:
 _p_97:
@@ -23834,7 +23834,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 4467
+.word 4468
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_get_Task:
 _p_98:
@@ -23842,7 +23842,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 4479
+.word 4480
 	.no_dead_strip plt_Foundation_NSObject__ctor
 plt_Foundation_NSObject__ctor:
 _p_99:
@@ -23850,7 +23850,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 4490
+.word 4491
 	.no_dead_strip plt_System_Collections_Generic_Queue_1_System_Tuple_2_string_bool__ctor
 plt_System_Collections_Generic_Queue_1_System_Tuple_2_string_bool__ctor:
 _p_100:
@@ -23858,7 +23858,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 4495
+.word 4496
 	.no_dead_strip plt_Foundation_NSArray__ctor
 plt_Foundation_NSArray__ctor:
 _p_101:
@@ -23866,7 +23866,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 4506
+.word 4507
 	.no_dead_strip plt_System_Collections_Generic_List_1_Plugin_FirebasePushNotification_NotificationUserCategory__ctor
 plt_System_Collections_Generic_List_1_Plugin_FirebasePushNotification_NotificationUserCategory__ctor:
 _p_102:
@@ -23874,7 +23874,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 4511
+.word 4512
 	.no_dead_strip plt_Foundation_NSObject_InvokeOnMainThread_System_Action
 plt_Foundation_NSObject_InvokeOnMainThread_System_Action:
 _p_103:
@@ -23882,7 +23882,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 4522
+.word 4523
 	.no_dead_strip plt_Plugin_FirebasePushNotification_CrossFirebasePushNotification__c__ctor
 plt_Plugin_FirebasePushNotification_CrossFirebasePushNotification__c__ctor:
 _p_104:
@@ -23890,7 +23890,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 4527
+.word 4528
 	.no_dead_strip plt_Plugin_FirebasePushNotification_CrossFirebasePushNotification_CreateFirebasePushNotification
 plt_Plugin_FirebasePushNotification_CrossFirebasePushNotification_CreateFirebasePushNotification:
 _p_105:
@@ -23898,7 +23898,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 4530
+.word 4531
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager__c__ctor
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager__c__ctor:
 _p_106:
@@ -23906,7 +23906,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 4532
+.word 4533
 	.no_dead_strip plt_string_Equals_string
 plt_string_Equals_string:
 _p_107:
@@ -23914,7 +23914,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 4535
+.word 4536
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager__c__DisplayClass66_0__ctor
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager__c__DisplayClass66_0__ctor:
 _p_108:
@@ -23922,7 +23922,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 4540
+.word 4541
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_UserNotifications_UNNotification___GetAwaiter
 plt_System_Threading_Tasks_Task_1_UserNotifications_UNNotification___GetAwaiter:
 _p_109:
@@ -23930,7 +23930,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 4543
+.word 4544
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_UserNotifications_UNNotification___get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_UserNotifications_UNNotification___get_IsCompleted:
 _p_110:
@@ -23938,7 +23938,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 4554
+.word 4555
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_UserNotifications_UNNotification___Plugin_FirebasePushNotification_FirebasePushNotificationManager__RemoveNotificationd__66_System_Runtime_CompilerServices_TaskAwaiter_1_UserNotifications_UNNotification____Plugin_FirebasePushNotification_FirebasePushNotificationManager__RemoveNotificationd__66_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_UserNotifications_UNNotification___Plugin_FirebasePushNotification_FirebasePushNotificationManager__RemoveNotificationd__66_System_Runtime_CompilerServices_TaskAwaiter_1_UserNotifications_UNNotification____Plugin_FirebasePushNotification_FirebasePushNotificationManager__RemoveNotificationd__66_:
 _p_111:
@@ -23946,7 +23946,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 4565
+.word 4566
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_UserNotifications_UNNotification___GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_UserNotifications_UNNotification___GetResult:
 _p_112:
@@ -23954,7 +23954,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 4577
+.word 4578
 	.no_dead_strip plt_System_Linq_Enumerable_Where_UserNotifications_UNNotification_System_Collections_Generic_IEnumerable_1_UserNotifications_UNNotification_System_Func_2_UserNotifications_UNNotification_bool
 plt_System_Linq_Enumerable_Where_UserNotifications_UNNotification_System_Collections_Generic_IEnumerable_1_UserNotifications_UNNotification_System_Func_2_UserNotifications_UNNotification_bool:
 _p_113:
@@ -23962,7 +23962,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 4588
+.word 4589
 	.no_dead_strip plt_System_Linq_Enumerable_Select_UserNotifications_UNNotification_string_System_Collections_Generic_IEnumerable_1_UserNotifications_UNNotification_System_Func_2_UserNotifications_UNNotification_string
 plt_System_Linq_Enumerable_Select_UserNotifications_UNNotification_string_System_Collections_Generic_IEnumerable_1_UserNotifications_UNNotification_System_Func_2_UserNotifications_UNNotification_string:
 _p_114:
@@ -23970,7 +23970,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 4600
+.word 4601
 	.no_dead_strip plt_System_Linq_Enumerable_Where_UIKit_UILocalNotification_System_Collections_Generic_IEnumerable_1_UIKit_UILocalNotification_System_Func_2_UIKit_UILocalNotification_bool
 plt_System_Linq_Enumerable_Where_UIKit_UILocalNotification_System_Collections_Generic_IEnumerable_1_UIKit_UILocalNotification_System_Func_2_UIKit_UILocalNotification_bool:
 _p_115:
@@ -23978,7 +23978,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 4612
+.word 4613
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
 _p_116:
@@ -23986,7 +23986,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 4624
+.word 4625
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_117:
@@ -23994,7 +23994,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 4629
+.word 4630
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
 _p_118:
@@ -24002,7 +24002,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 4632
+.word 4633
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_119:
@@ -24010,7 +24010,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 4637
+.word 4638
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Firebase_InstanceID_InstanceIdResult_GetAwaiter
 plt_System_Threading_Tasks_Task_1_Firebase_InstanceID_InstanceIdResult_GetAwaiter:
 _p_120:
@@ -24018,7 +24018,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 4642
+.word 4643
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Firebase_InstanceID_InstanceIdResult_get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Firebase_InstanceID_InstanceIdResult_get_IsCompleted:
 _p_121:
@@ -24026,7 +24026,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 4653
+.word 4654
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Firebase_InstanceID_InstanceIdResult_Plugin_FirebasePushNotification_FirebasePushNotificationManager__GetTokenAsyncd__67_System_Runtime_CompilerServices_TaskAwaiter_1_Firebase_InstanceID_InstanceIdResult__Plugin_FirebasePushNotification_FirebasePushNotificationManager__GetTokenAsyncd__67_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Firebase_InstanceID_InstanceIdResult_Plugin_FirebasePushNotification_FirebasePushNotificationManager__GetTokenAsyncd__67_System_Runtime_CompilerServices_TaskAwaiter_1_Firebase_InstanceID_InstanceIdResult__Plugin_FirebasePushNotification_FirebasePushNotificationManager__GetTokenAsyncd__67_:
 _p_122:
@@ -24034,7 +24034,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 4664
+.word 4665
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Firebase_InstanceID_InstanceIdResult_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Firebase_InstanceID_InstanceIdResult_GetResult:
 _p_123:
@@ -24042,7 +24042,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 4676
+.word 4677
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetException_System_Exception:
 _p_124:
@@ -24050,7 +24050,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 4687
+.word 4688
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetResult_string
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetResult_string:
 _p_125:
@@ -24058,7 +24058,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 4698
+.word 4699
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_126:
@@ -24066,7 +24066,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 4709
+.word 4710
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_127:
@@ -24074,7 +24074,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 4720
+.word 4721
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_128:
@@ -24082,7 +24082,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 4723
+.word 4724
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_129:
@@ -24090,7 +24090,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 4725
+.word 4726
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_130:
@@ -24098,7 +24098,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 4728
+.word 4729
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_131:
@@ -24106,7 +24106,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 4748
+.word 4749
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_132:
@@ -24114,7 +24114,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 4768
+.word 4769
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_133:
@@ -24122,7 +24122,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 4776
+.word 4777
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_134:
@@ -24130,7 +24130,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 4795
+.word 4796
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_135:
@@ -24138,7 +24138,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 4825
+.word 4826
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_136:
@@ -24146,7 +24146,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 4833
+.word 4834
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_137:
@@ -24154,7 +24154,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 4836
+.word 4837
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_138:
@@ -24162,7 +24162,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 4851
+.word 4852
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_139:
@@ -24170,7 +24170,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 4859
+.word 4860
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_object_get_Default
 plt_System_Collections_Generic_EqualityComparer_1_object_get_Default:
 _p_140:
@@ -24178,7 +24178,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 4878
+.word 4879
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_141:
@@ -24186,7 +24186,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 4893
+.word 4894
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_142:
@@ -24194,7 +24194,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 4901
+.word 4902
 	.no_dead_strip plt_System_Collections_Generic_Comparer_1_object_get_Default
 plt_System_Collections_Generic_Comparer_1_object_get_Default:
 _p_143:
@@ -24202,7 +24202,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 4909
+.word 4910
 	.no_dead_strip plt_SR_Format_string_object
 plt_SR_Format_string_object:
 _p_144:
@@ -24210,7 +24210,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 4924
+.word 4925
 	.no_dead_strip plt_System_Tuple_CombineHashCodes_int_int
 plt_System_Tuple_CombineHashCodes_int_int:
 _p_145:
@@ -24218,7 +24218,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 4929
+.word 4930
 	.no_dead_strip plt_System_Text_StringBuilder__ctor
 plt_System_Text_StringBuilder__ctor:
 _p_146:
@@ -24226,7 +24226,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 4934
+.word 4935
 	.no_dead_strip plt_System_Text_StringBuilder_Append_char
 plt_System_Text_StringBuilder_Append_char:
 _p_147:
@@ -24234,7 +24234,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 4939
+.word 4940
 	.no_dead_strip plt_System_Text_StringBuilder_Append_object
 plt_System_Text_StringBuilder_Append_object:
 _p_148:
@@ -24242,7 +24242,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 4944
+.word 4945
 	.no_dead_strip plt_System_Text_StringBuilder_Append_string
 plt_System_Text_StringBuilder_Append_string:
 _p_149:
@@ -24250,7 +24250,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 4949
+.word 4950
 	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
 plt__jit_icall_mono_delegate_begin_invoke:
 _p_150:
@@ -24258,7 +24258,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 4954
+.word 4955
 	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
 plt__jit_icall_mono_delegate_end_invoke:
 _p_151:
@@ -24266,7 +24266,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 4957
+.word 4958
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_152:
@@ -24274,7 +24274,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 4975
+.word 4976
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_153:
@@ -24282,7 +24282,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 5010
+.word 5011
 	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
 plt_wrapper_alloc_object_Alloc_intptr:
 _p_154:
@@ -24290,7 +24290,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 5018
+.word 5019
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_155:
@@ -24298,7 +24298,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 5026
+.word 5027
 	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
 plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
 _p_156:
@@ -24306,7 +24306,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 5034
+.word 5035
 	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
 plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_157:
@@ -24314,7 +24314,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 5039
+.word 5040
 	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
 plt__jit_icall_mono_gsharedvt_constrained_call:
 _p_158:
@@ -24322,7 +24322,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 5044
+.word 5045
 	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
 plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_159:
@@ -24330,7 +24330,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 5047
+.word 5048
 	.no_dead_strip plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager__GetTokenAsyncd__67_MoveNext
 plt_Plugin_FirebasePushNotification_FirebasePushNotificationManager__GetTokenAsyncd__67_MoveNext:
 _p_160:
@@ -24338,7 +24338,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 5052
+.word 5053
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_161:
@@ -24346,7 +24346,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 5070
+.word 5071
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
 plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
 _p_162:
@@ -24354,7 +24354,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+0
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 5105
+.word 5106
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
 _p_163:
@@ -24362,7 +24362,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 5110
+.word 5111
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_164:
@@ -24370,7 +24370,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 5115
+.word 5116
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
 plt_System_Threading_Tasks_Task_get_Id:
 _p_165:
@@ -24378,7 +24378,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 5120
+.word 5121
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_166:
@@ -24386,7 +24386,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 5125
+.word 5126
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_167:
@@ -24394,7 +24394,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 5133
+.word 5134
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
 _p_168:
@@ -24402,7 +24402,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 5138
+.word 5139
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_169:
@@ -24410,7 +24410,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 5143
+.word 5144
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_170:
@@ -24418,7 +24418,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 5151
+.word 5152
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_171:
@@ -24426,7 +24426,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 5156
+.word 5157
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_172:
@@ -24434,7 +24434,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 5164
+.word 5165
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Firebase_InstanceID_InstanceIdResult_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Firebase_InstanceID_InstanceIdResult_UnsafeOnCompleted_System_Action:
 _p_173:
@@ -24442,7 +24442,7 @@ adrp x16, mono_aot_Plugin_FirebasePushNotification_got@PAGE+4096
 add x16, x16, mono_aot_Plugin_FirebasePushNotification_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 5169
+.word 5170
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -24565,13 +24565,13 @@ _mono_aot_file_info:
 	.quad unbox_trampoline_addresses
 
 	.long 349,4184,174,229,48,102,391195135,0
-	.long 37864,128,8,8,8,9,8388607,0
+	.long 37865,128,8,8,8,9,8388607,0
 	.long 4,25,42440,0,0,4568,3944,2616
 	.long 0,3400,3880,2928,0,1920,360,4560
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 18,148,158,244,172,198,104,153,241,146,236,153,23,135,242,228
+	.byte 166,99,54,67,233,220,143,63,234,10,7,152,224,60,143,41
 	.globl _mono_aot_module_Plugin_FirebasePushNotification_info
 	.align 3
 _mono_aot_module_Plugin_FirebasePushNotification_info:
