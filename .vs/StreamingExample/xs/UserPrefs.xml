@@ -4,9 +4,8 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="StreamingExample" expanded="True">
-            <Node name="StreamingExample" expanded="True" />
             <Node name="StreamingExample.iOS" expanded="True">
-              <Node name="LaunchScreen.storyboard" selected="True" />
+              <Node name="Info.plist" selected="True" />
             </Node>
           </Node>
         </State>
@@ -14,11 +13,11 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.StreamingExample.iOS Xamarin.HotReload.WrongLinkerErrorInfoBar.StreamingExample.iOS.HideInfoBar="True" automaticSigning="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.8589549a2736f8539dd979ab6cc1cb3a895a430b">
+  <MonoDevelop.Ide.ItemProperties.StreamingExample.iOS Xamarin.HotReload.WrongLinkerErrorInfoBar.StreamingExample.iOS.HideInfoBar="True" automaticSigning="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A71DD7B2-FB80-41CD-A782-A76DE3E6489D">
     <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="C3MBZ6ZUPQ" TeamId="6V75P2GBF4" />
   </MonoDevelop.Ide.ItemProperties.StreamingExample.iOS>
   <MultiItemStartupConfigurations />
